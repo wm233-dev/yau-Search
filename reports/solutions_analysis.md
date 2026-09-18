@@ -1,12 +1,12 @@
 # 丘成桐大学生数学竞赛 · 分析与偏微分方程 真题解题讲义
 
-> **审稿状态（2026-09-18 回填）**：本讲义已由对抗性审稿报告 <code>.tmp/burn2026/reports/referee_analysis.md</code> 逐题复核并回填修正。裁定统计：**VERIFIED 7 道**（题 1、3、4、5、6、7、10）、**MINOR-FIX 3 道**（题 2、8、9）、SERIOUS-ERROR 0 道、UNVERIFIED 0 道；至少需一处修正的题占比 30%（10 道题的最终结论与 9 道可核对题面全部正确）。
+> **审稿状态（2026-09-18 回填）**：本讲义已由对抗性审稿报告 <code>/reports/referee_analysis.md</code> 逐题复核并回填修正。裁定统计：**VERIFIED 7 道**（题 1、3、4、5、6、7、10）、**MINOR-FIX 3 道**（题 2、8、9）、SERIOUS-ERROR 0 道、UNVERIFIED 0 道；至少需一处修正的题占比 30%（10 道题的最终结论与 9 道可核对题面全部正确）。
 > **哪些题属于高风险、建议自己复算**：**题 9（2025#2）**——原"数值核对表"不可复现，已替换为真实比值表，其**解析**证明与最佳常数可信；**题 2（2014 Team#1）的法三（围道积分）**——原留数用错分支、"围道积分为 0"是错的，已整段改写，**建议自己重算一遍**；**题 8（2018#6）的引理 8.1**——原式 (8.6) 差一个符号、第 4 步 (a) 有一处无效论证，已修正，**建议自己复算**。题 7 第 4 步已补一行反证，其余各题可放心使用。
 > 所有修正处均以 <code>✅ 已按 referee_analysis.md 修正</code> 就地标注。
 
-> **数据来源**：<code>.tmp/burn2026/data/problems_full.json</code>（全文结构化题库；**经审稿复核实测为 <b>757</b> 条记录**，其中 subject 为 "Analysis & PDE" 者 <b>155</b> 道，横跨 2010–2026 共 17 年）。
+> **数据来源**：<code>/data/problems_full.json</code>（全文结构化题库；**经审稿复核实测为 <b>757</b> 条记录**，其中 subject 为 "Analysis & PDE" 者 <b>155</b> 道，横跨 2010–2026 共 17 年）。
 > ✅ 已按 referee_analysis.md 修正（原表述：截至本讲义定稿为 751 条记录，与附录 B/C.6 的 757 条说法自相矛盾）
-> **原始试卷**：<code>F:\丘成桐大学生数学竞赛历年笔试真题\</code>（只读）。
+> **原始试卷**：<code>sources/prelim\</code>（只读）。
 > **本讲义共选 10 道真题，覆盖 10 个不同年份（2010、2011、2013、2014、2015、2017、2018、2020、2025、2026），难度分三层：基础 3 道、中等 4 道、偏难 3 道。**
 > 所有题面均取自题库原文；除 2026 年卷（F 盘无 PDF）外，均已回原卷 PDF 逐字复核（复核结论见每题「题面」栏与 §12）。
 
@@ -66,8 +66,8 @@
 
 ### 0.4 题面可信度说明
 
-- 2010–2025 年的 9 道题，全部用 <code>PyMuPDF (fitz)</code> 从 <code>F:\丘成桐大学生数学竞赛历年笔试真题</code> 下对应 PDF 重新抽取文本并逐字比对，与题库文本完全一致（除 <code>”</code>、<code>’</code> 之类排版噪声外），因此标注为 **「原文（PDF 复核）」**。
-- 2026 年卷在 F 盘**没有 PDF**（目录只到 2025 年），题库文本来自 <code>.tmp/burn2026/txt/2026_2026_analysis.txt</code>，标注为 **「原文（题库文本，无法做 PDF 复核）」**。此点记入 §12.1。
+- 2010–2025 年的 9 道题，全部用 <code>PyMuPDF (fitz)</code> 从 <code>sources/prelim</code> 下对应 PDF 重新抽取文本并逐字比对，与题库文本完全一致（除 <code>”</code>、<code>’</code> 之类排版噪声外），因此标注为 **「原文（PDF 复核）」**。
+- 2026 年卷在 F 盘**没有 PDF**（目录只到 2025 年），题库文本来自 <code>/corpus/prelim/2026_2026_analysis.txt</code>，标注为 **「原文（题库文本，无法做 PDF 复核）」**。此点记入 §12.1。
 - 题库中"问题粘连"的年份（2010、2012、2019、2024）在选题时格外小心：例如 2010 Individual 第 2 题的文本开头其实是第 1(b) 题的尾巴，2012 Team 第 1 题混入了第 2 题。这些题目一律弃用，详见 §12.2。
 > ✅ 已按 referee_analysis.md 修正（原表述：把 2020 也列为"问题粘连"年份并称"2020 Individual 第 3 题混入了第 4 题"；当前题库快照中 2020#3 与 #4 各自完整、互不包含）
 
@@ -77,7 +77,7 @@
 
 **出处**：2011 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 2 题
 题库字段：<code>year="2011", subject="Analysis & PDE", paper="2011_1_AnalysisDiffEquation_Individual_2011", kind="individual", n=2</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2011\1.AnalysisDiffEquation-Individual-2011.pdf</code>（已复核）
+原始 PDF：<code>sources/prelim\2011\1.AnalysisDiffEquation-Individual-2011.pdf</code>（已复核）
 
 **题面（原文，PDF 复核）**
 
@@ -149,7 +149,7 @@ $$\boxed{\,u(x)=e^{x}-e^{-x}-2xe^{-x}=2\sinh x-2xe^{-x}\,},\qquad x\in[0,1].$$
 **出处**：2014 年 · 分析与偏微分方程 · 团体卷（Team）· 第 1 题
 题库字段：<code>year="2014", subject="Analysis & PDE", paper="2014_analysis2014_team", kind="team", n=2</code>
 **注意编号差异**：原卷 PDF 中此题是**第 1 题**，但题库最新版把原卷第 1 题的文本（"Calculate the integral..."）与原卷第 2 题的开头合并记在 <code>n=2</code> 上（题库缺少 <code>n=1</code> 的记录）。本讲义以**原卷编号「第 1 题」**引用，同时在附录 B 中给出题库编号 <code>n=2</code>，两者指同一道题。详见附录 C 第 5 条。
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2014\analysis2014(team).pdf</code>（已复核）
+原始 PDF：<code>sources/prelim\2014\analysis2014(team).pdf</code>（已复核）
 
 **题面（原文，PDF 复核）**
 
@@ -227,7 +227,7 @@ $$\oint f\,dz=\int_0^\infty\frac{(\log x)^2-(\log x+2\pi i)^2}{1+x^2}dx
 
 **出处**：2015 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 2 题
 题库字段：<code>year="2015", subject="Analysis & PDE", paper="2015_analysis2015_individual", kind="individual", n=2</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2015\analysis2015-individual.pdf</code>（已复核）
+原始 PDF：<code>sources/prelim\2015\analysis2015-individual.pdf</code>（已复核）
 
 **题面（原文，PDF 复核）**
 
@@ -282,7 +282,7 @@ $$\boxed{f\equiv0\ \text{on}\ [a,b]}. \qquad\blacksquare$$
 
 **出处**：2010 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 6 题
 题库字段：<code>year="2010", subject="Analysis & PDE", paper="2010_Analysis_and_differential_equations_individual", kind="individual", n=6</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2010\Analysis and differential equations individual.pdf</code>（已复核；注意文件名中 <code>differential</code> 与 <code>equations</code> 之间有两个空格）
+原始 PDF：<code>sources/prelim\2010\Analysis and differential equations individual.pdf</code>（已复核；注意文件名中 <code>differential</code> 与 <code>equations</code> 之间有两个空格）
 
 **题面（原文，PDF 复核）**
 
@@ -364,7 +364,7 @@ $$\boxed{\lim_{t\to\infty}x(t)=0}\qquad\blacksquare$$
 
 **出处**：2013 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 2 题
 题库字段：<code>year="2013", subject="Analysis & PDE", paper="2013_analysis2013_individual", kind="individual", n=2</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2013\analysis2013(individual).pdf</code>（已复核）
+原始 PDF：<code>sources/prelim\2013\analysis2013(individual).pdf</code>（已复核）
 
 **题面（原文，PDF 复核）**
 
@@ -438,7 +438,7 @@ $$\sum_{i=1}^d\frac{1}{p'(a_i)}+0=0 .\qquad\blacksquare$$
 
 **出处**：2017 年 · 分析与偏微分方程 · 团体卷（Team）· 第 5 题
 题库字段：<code>year="2017", subject="Analysis & PDE", paper="2017_2017_team", kind="team", n=5</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2017\2017-team.pdf</code>（已复核；该 PDF 是当年 5 个科目的合卷，分析与 PDE 部分在第 1 页）
+原始 PDF：<code>sources/prelim\2017\2017-team.pdf</code>（已复核；该 PDF 是当年 5 个科目的合卷，分析与 PDE 部分在第 1 页）
 
 **题面（原文，PDF 复核）**
 
@@ -527,7 +527,7 @@ $$\int_{|x|=\rho}\partial_\nu|x|^{2-n}d\sigma=(2-n)\rho^{1-n}\cdot\omega_n\rho^{
 
 **出处**：2020 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 5 题
 题库字段：<code>year="2020", subject="Analysis & PDE", paper="2020_Analysis_DifferentialEquations_analysis_and_differential_20", kind="individual", n=5</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2020\Analysis&DifferentialEquations\analysis_and_differential_20.pdf</code>（已复核；同一年的 <code>2020\analysis_and_differential_soln_20.pdf</code> 是官方解答）
+原始 PDF：<code>sources/prelim\2020\Analysis&DifferentialEquations\analysis_and_differential_20.pdf</code>（已复核；同一年的 <code>2020\analysis_and_differential_soln_20.pdf</code> 是官方解答）
 
 **题面（原文，PDF 复核）**
 
@@ -623,7 +623,7 @@ $$T=T(x_0)=2T_{1/2}=4\int_0^{x_0}\frac{ds}{\sqrt{2\big(E_0-V(s)\big)}}\qquad(x_0
 
 **出处**：2018 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 6 题
 题库字段：<code>year="2018", subject="Analysis & PDE", paper="2018_analysis2018_individual", kind="individual", n=6</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2018\analysis2018-individual.pdf</code>（已复核）
+原始 PDF：<code>sources/prelim\2018\analysis2018-individual.pdf</code>（已复核）
 
 **题面（原文，PDF 复核）**
 
@@ -814,7 +814,7 @@ A(r)=Fr\log r+Cr,\qquad \bar u(r)=\frac{F}{2\pi}\log r+\frac{C}{2\pi}.$$
 
 **出处**：2025 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 2 题
 题库字段：<code>year="2025", subject="Analysis & PDE", paper="2025_analysis", kind="individual", n=2</code>
-原始 PDF：<code>F:\丘成桐大学生数学竞赛历年笔试真题\2025\analysis.pdf</code>（已复核）
+原始 PDF：<code>sources/prelim\2025\analysis.pdf</code>（已复核）
 
 **题面（原文，PDF 复核）**
 
@@ -919,7 +919,7 @@ $$\int_{\mathbb R^n}\frac{\big(|x|^{-\frac{n-2}{2}}\big)^2}{|x|^2}dx=\omega_n\in
 
 **出处**：2026 年 · 分析与偏微分方程 · 个人卷（Individual）· 第 1 题
 题库字段：<code>year="2026", subject="Analysis & PDE", paper="2026_2026_analysis", kind="individual", n=1</code>
-**题面来源**：<code>.tmp/burn2026/txt/2026_2026_analysis.txt</code>（**F 盘没有 2026 年的原始 PDF**，本讲义无法做 PDF 复核，详见 §12.1）
+**题面来源**：<code>/corpus/prelim/2026_2026_analysis.txt</code>（**F 盘没有 2026 年的原始 PDF**，本讲义无法做 PDF 复核，详见 §12.1）
 
 **题面（原文，题库文本）**
 
@@ -1135,7 +1135,7 @@ $$\boxed{\ \pi^{2}\notin\mathbb Q\ }.\qquad\blacksquare$$
 
 | 题号 | 存疑内容 | 性质 | 处理方式 |
 |---|---|---|---|
-| **题 10（2026 #1）** | **题面无法做 PDF 复核**：<code>F:\丘成桐大学生数学竞赛历年笔试真题</code> 只有到 2025 年的目录，没有 2026 年卷。题面取自 <code>.tmp/burn2026/txt/2026_2026_analysis.txt</code>。 | 来源可靠性 | 已如实标注。文本本身完整可读（<code>π²/4−t²</code> 两侧的括号因 PDF 字体嵌入而在抽取文本中显示为私用区字符，但语义无歧义），且 (a) 的递推式已用独立数值积分逐项验算通过（$n=1,\dots,5$ 全部吻合到 $10^{-8}$），因此题面可放心使用。 |
+| **题 10（2026 #1）** | **题面无法做 PDF 复核**：<code>sources/prelim</code> 只有到 2025 年的目录，没有 2026 年卷。题面取自 <code>/corpus/prelim/2026_2026_analysis.txt</code>。 | 来源可靠性 | 已如实标注。文本本身完整可读（<code>π²/4−t²</code> 两侧的括号因 PDF 字体嵌入而在抽取文本中显示为私用区字符，但语义无歧义），且 (a) 的递推式已用独立数值积分逐项验算通过（$n=1,\dots,5$ 全部吻合到 $10^{-8}$），因此题面可放心使用。 |
 | **题 10（2026 #1）(b)** | (b) 的证明用的是"$J_n=q^nI_n$ 为整数且趋于 0"这一路线。该路线**完整且自足**，但**不确定它是否即出题人的本意**（出题人可能想用另一种有理逼近论证）。 | 解法唯一性 ≠ 正确性 | 已在解答中明确写出所用路线与每一步的依据；结论 $\pi^2\notin\mathbb Q$ 确定无误。 |
 | **题 8（2018 #6）** | 题面写 $n\ge2$，但结论 $u=a+b\lvert x\rvert^{2-n}$ 在 $n=2$ 时退化为"$u$ 为常数"（因为 $\lvert x\rvert^{0}=1$）。**这是题面本身的瑕疵**，不是求解缺陷。 | 题面瑕疵 | 已按 $n\ge3$ 给完整证明，并单独给出 $n=2$ 的完整证明（第 7 步），两者结论一致。 |
 | **题 8（2018 #6）** | 证明**未使用 Bôcher 定理**，而是走"Harnack + Green 恒等式 + Weyl 引理 + Kelvin 变换 + Liouville"这条自足路线。其中**"Kelvin 变换保持调和性"与"Weyl 引理"是引用标准结论**，未从零证明。 | 引用标准定理 | 两个定理都是本科泛函分析 / 调和函数论的标准内容，已在解答中标注名称与用法。若要求完全自足，Kelvin 变换的调和性只是一次链式法则计算，可作为练习补上。 |
@@ -1227,7 +1227,7 @@ $$\boxed{\ \pi^{2}\notin\mathbb Q\ }.\qquad\blacksquare$$
 
 ## 附录 B：题库复现信息
 
-- 题库文件：<code>.tmp/burn2026/data/problems_full.json</code>（**经审稿复核实测为 757 条记录，其中该科目 155 道**；字段：<code>year / subject / paper / kind / n / chars / text</code>）。**注意：本讲义撰写期间该文件曾被重新生成过，本讲义所有引用均已按当前快照复核。**
+- 题库文件：<code>/data/problems_full.json</code>（**经审稿复核实测为 757 条记录，其中该科目 155 道**；字段：<code>year / subject / paper / kind / n / chars / text</code>）。**注意：本讲义撰写期间该文件曾被重新生成过，本讲义所有引用均已按当前快照复核。**
 > ✅ 已按 referee_analysis.md 修正（原表述：称截至定稿为 751 条记录、早期快照为 757 条且该科目 156 道，与实测的 757 条 / 155 道不符）
 - 本讲义 10 道题在题库中的定位（可直接用脚本复现）：
 
@@ -1245,7 +1245,7 @@ $$\boxed{\ \pi^{2}\notin\mathbb Q\ }.\qquad\blacksquare$$
 | 10 | 2026 | Analysis & PDE | 2026_2026_analysis | individual | 1 |
 
 - **全部 10 道题均从题库真实选取，无一自编。**
-- PDF 复核所用工具：<code>PyMuPDF (fitz)</code>，Python 3.14.7，<code>PYTHONPATH=E:\deepseek_exclusive\math\pylibs</code>。
+- PDF 复核所用工具：<code>PyMuPDF (fitz)</code>，Python 3.14.7，<code>PYTHONPATH=sources/pylibs</code>。
 - 数值验算（本讲义的全部数值结论均由脚本独立算出，不是抄来的）：
   - **题 10**：Gauss–Legendre 400 点计算 $I_0,\dots,I_6$，递推式 $n=1,\dots,5$ 的残差 $<10^{-8}$。
   - **题 7**：Gauss–Legendre 3000 点，用 $s=x_0(1-u^2)$ 代换消除端点奇性；得 $T(0.01)=6.28295$、$T(1)=4.76802$、$T(10)\cdot10=7.36289$、$T(100)\cdot100=7.41576$。
@@ -1256,7 +1256,7 @@ $$\boxed{\ \pi^{2}\notin\mathbb Q\ }.\qquad\blacksquare$$
 
 ## 附录 C：与题库中其他报告的差异说明
 
-本讲义在撰写过程中参考了 <code>.tmp/burn2026/reports/</code> 下的年代批次报告与科目综合报告（<code>2010-2012_丘成桐竞赛笔试真题深度分析.md</code>、<code>yau_2013-2015_analysis.md</code>、<code>2016-2018_笔试真题深度分析.md</code>、<code>report_2019_2021.md</code>、<code>stats_2022_2023.md</code>、<code>yau_2024_2026_deep_analysis.md</code>、<code>theme_clusters.md</code>），但**所有题面与解答均以 <code>problems_full.json</code> 与原始 PDF 为准**。凡与上述报告不一致处，以本讲义（及其 PDF 复核记录）为准。
+本讲义在撰写过程中参考了 <code>/reports/</code> 下的年代批次报告与科目综合报告（<code>2010-2012_丘成桐竞赛笔试真题深度分析.md</code>、<code>yau_2013-2015_analysis.md</code>、<code>2016-2018_笔试真题深度分析.md</code>、<code>report_2019_2021.md</code>、<code>stats_2022_2023.md</code>、<code>yau_2024_2026_deep_analysis.md</code>、<code>theme_clusters.md</code>），但**所有题面与解答均以 <code>problems_full.json</code> 与原始 PDF 为准**。凡与上述报告不一致处，以本讲义（及其 PDF 复核记录）为准。
 
 具体地，本讲义在核对过程中发现题库文本存在以下**结构性缺陷**，使用上述报告时请留意：
 

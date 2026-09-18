@@ -1,7 +1,7 @@
 # 丘成桐大学生数学竞赛 · Mathematical Physics 母题归并报告
 
-> 产物：本文件 + 机器可读版本 `.tmp/burn2026/data/mother_physics.json`
-> 数据口径：`E:\deepseek_exclusive\math\.tmp\burn2026\data\problems_full.json`，**当前快照共 757 题**（6 个科目：Geometry & Topology 156、Analysis & PDE 155、Algebra & Number Theory 149、Computational & Applied 135、Probability & Statistics 133、Mathematical Physics 29）。
+> 产物：本文件 + 机器可读版本 `data/mother_physics.json`
+> 数据口径：`data\problems_full.json`，**当前快照共 757 题**（6 个科目：Geometry & Topology 156、Analysis & PDE 155、Algebra & Number Theory 149、Computational & Applied 135、Probability & Statistics 133、Mathematical Physics 29）。
 > 其中 `subject == "Mathematical Physics"` 的**记录数为 29**，年份 2022–2026，全部 `kind = "individual"`。
 > **重要口径差异**：29 条记录对应 **30 道卷面题**——2023 年卷的 PDF 在抽取时把第 1 题与第 2 题合并进了同一条记录（`2023_Mathematical_Physics`，`n=2`）。本报告按卷面题计 30 道，并在成员表中以「卷面第 1/2 题」标注，可逐条回查。
 > 本报告**不使用任何字符串相似度**（6-gram Jaccard 在本题库上漏检率 >85%），全部成员由通读题面后人工判定。

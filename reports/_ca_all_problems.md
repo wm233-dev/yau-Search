@@ -57,7 +57,7 @@ using ρ(x) = 1/
 附件/试卷 2
 Appendix/Contest Paper 2
 
- 
+
 Applied Math. Prob. Stat., 2011-Individual
 
 
@@ -141,7 +141,7 @@ P(am = 1) = P(am = 2) = 0.5,
 附件/试卷 2
 Appendix/Contest Paper 2
 
- 
+
 Applied Math. Prob. Stat., 2011-Individual
 3
 Let x denote the entire set of data available to the statistician, in this
@@ -244,7 +244,7 @@ norm or the L2 norm to prove stability.
 附件/试卷 6
 Appendix/Contest Paper 6
 
- 
+
 Applied Math. Prob. Stat., 2011-Team
 2
 
@@ -355,7 +355,7 @@ where f (i)(·) is the i-th derivative of f and C(f, i) denote some constant
 depending on f, i.
 1
 
- 
+
 2
 (c) if S = {xk|k = 1, 2, . . . , K} are symmetrically distributed around
 x, that is, if xk ∈S then 2x −xk ∈S, prove that
@@ -433,7 +433,7 @@ i=k+1
 σ2
 i .
 
- 
+
 3
 3) Let the vectors xi ∈Rn, i = 1, 2, . . . , n, be in the space W with
 dimension d, where d ≪n. Let the orthonormal basis of W be
@@ -515,7 +515,7 @@ Assume that A = I + L + U where I is the identity matrix, L and U
 are the lower and upper triangular matrices with zero diagonal entries.
 1
 
- 
+
 2
 Now, we consider solving the linear system Ax = b by the following
 iterative scheme:
@@ -572,7 +572,7 @@ the natural logarithm. This means that the expected gap between two
 consecutive n-bit primes is
 log 2n = n log 2 ≈0.69 · n.
 
- 
+
 3
 
 
@@ -684,7 +684,7 @@ a−1
 for t > 0.
 1
 
- 
+
 2
 (b) (2 points) For a = 1, y(t) decays exponentially
 y(t) ≤α/β + y(0)e−βt.
@@ -743,7 +743,7 @@ k + 2 continuous derivatives.
 ||u −uh|| ≤Chk+1
 Explain how the constant C depends on the derivatives of u(x).
 
- 
+
 3
 (2) (10 points)
 If another function φ(x) also has at least k + 2
@@ -886,7 +886,7 @@ and physics problems. Let ϕ(x) be a smooth periodic function in Tn, ∆,
 (i): Fokker-Planck operator: Fu = −∆u −∇· (u∇ϕ)
 1
 
- 
+
 2
 (ii): Witten Laplacian operator: Wu = −∆u + ∇ϕ · ∇u
 (iii): Schr¨odinger operator: Su = −∆u +
@@ -981,7 +981,7 @@ j approximate u(xj, tn) and v(xj, tn) respectively at the
 grid point (xj, tn), with xj = j∆x, tn = n∆t, ∆x = 1
 N .
 
- 
+
 3
 (1) (5 points) For the solution to the wave guide problem with the
 above boundary condition, prove the energy conservation
@@ -1075,7 +1075,7 @@ Hint: Not that if m is even then
 1
 )m/2)2
 
- 
+
 4
 and if m is odd then
 (
@@ -1100,7 +1100,7 @@ and if m is odd then
 )
 and m −1 is even.
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2013
 
 
@@ -1161,7 +1161,7 @@ then
 gcd(f, g) = gcd(f, h).
 1
 
- 
+
 2
 
 
@@ -1234,7 +1234,7 @@ Prove also that
 ω ≥ωopt
 where ρ(Gω) is the spectral radius of Gω.
 
- 
+
 3
 (iii) (8 points) Prove that, if A is symmetric and positive definite,
 then
@@ -1372,7 +1372,7 @@ j−1/2 = 0,
 (2)
 1
 
- 
+
 2
 with periodic boundary condition
 (uh)−
@@ -1494,7 +1494,7 @@ are the singular values of A and the columns of U and V are the left and right s
 vectors of A, respectively.
 1
 
- 
+
 2
 
 
@@ -1613,7 +1613,7 @@ nth generation form the (n + 1)st generation. The particles of each generation a
 independently of each other.
 1
 
- 
+
 2
 Assume 0 < p0 < 1. Let P(x) = ∑
 k≥0 pkxk and µ = P ′(1) = ∑
@@ -1754,7 +1754,7 @@ s0
 .
 1
 
- 
+
 2
 
 
@@ -1818,7 +1818,7 @@ we get from ˜xk+1 =
 ˜yk+1
 ∥˜yk+1∥is accurate.
 
- 
+
 3
 (1) ˜yk+1 satisfies
 (A −µI + δA)˜yk+1 = xk,
@@ -1925,7 +1925,7 @@ u(x) = 1
 2x2, x(t) = a cos(t) + b sin(t), the famous harmonic oscillator.
 1
 
- 
+
 2
 
 
@@ -2038,7 +2038,7 @@ p′(x) ̸= 0 for xi ≤0 ≤xi+1, that is, p(x) is monotone in the interval [xi
 first prove the case when f1(x) = c1, f2(x) = c2 and c1 ̸= c2 are two constants.)
 1
 
- 
+
 2
 
 
@@ -2110,7 +2110,7 @@ U0 = 0, UN −UN−1
 h
 −bUN = 0.
 
- 
+
 3
 The resulting linear system is AU = F with
 
@@ -2232,7 +2232,7 @@ mined by Step 1 above, is stable under the time step restriction µ ≤µ0. Plea
 specify which norm you are using for stability, and prove this stability result.
 1
 
- 
+
 2
 
 
@@ -2298,7 +2298,7 @@ where δk,1 = 1 if k = 1; otherwise δk,1 = 0. Explain why this linear system
 is nonsingular. Then use this method to solve the case when n = 3, x1 = x0,
 x2 = x0 + h, x3 = x0 + 2h for some constant h.
 
- 
+
 3
 (b) You can also make use of interpolation method. Consider the n-point interpo-
 lating polynomial
@@ -2434,7 +2434,7 @@ I
 A scheme ϕn(u0), n = 1, 2 . . . , is symplectic if the map ϕn(u0) is symplectic.
 1
 
- 
+
 2
 
 
@@ -2503,7 +2503,7 @@ and then prove that Hn is an eigenfunction of the following eigenvalue problem
 xu′(x) −u′′(x) = λu.
 You need to find the eigenvalue λn corresponding to Hn(x).
 
- 
+
 3
 
 
@@ -2586,7 +2586,7 @@ Prove that the matrix of Φ with respect to the standard basis B1 is just
 A(Cn), the adjacency matrix of the hypercube Cn.
 1
 
- 
+
 2
 (4) Prove that Φχu = λuχu for each u ∈{0, 1}n, where
 λu =
@@ -2662,7 +2662,7 @@ polynomial, it would be more convenient to study the form 1
 r = X + iY and
 prove that X2 + Y 2 ≥1.)
 
- 
+
 3
 
 
@@ -2986,7 +2986,7 @@ where h is the step size and tn = nh.
 
 . Suppose the difference scheme un+1 = Bun is stable, and C(∆t) is a bounded family of
 
- 
+
 operators. Show that the scheme
 un+1 = (B + ∆tC(∆t))un
 is stable.
@@ -3081,7 +3081,7 @@ singular value of A. Consider the following least square problem, for some b ∈
 min
 x∈Rn ∥Ax −b∥2 .
 
- 
+
 (a) Show that all solutions x can be written as
 x = V1Σ−1
 1 UT
@@ -3210,7 +3210,7 @@ Assume that 𝑓(𝑢) has the property that the forward Euler (FE) method:
 satisfies
 ‖𝑈𝑛+1‖ ≤‖𝑈𝑛‖
 
- 
+
 for some norm ‖ ⋅‖ and for all time-steps 𝑘, 0 < 𝑘≤𝑘𝐹𝐸. Now consider the 2-stage Runge-Kutta method:
 𝑈(1) = 𝑈𝑛+ 𝑘𝛽10𝑓(𝑈𝑛),
 𝑈𝑛+1 = {𝛼20𝑈𝑛+ 𝑘𝛽20𝑓(𝑈𝑛)} + {𝛼21𝑈(1) + 𝑘𝛽21𝑓(𝑈(1))}
@@ -3267,7 +3267,7 @@ dollars. For 𝑑𝑖> 0 we have
 𝑟3(𝑑3) = (4𝑑3 + 5) × 10,
 and 𝑑1(0) = 𝑑2(0) = 𝑑3(0). All are measured in $10𝐾dollars. The objective is to maximize the net value of your
 
- 
+
 investments. This can be formulated as a linear programming problem:
 max
 𝑑1,𝑑2,𝑑3
@@ -3335,7 +3335,7 @@ Pn(x)2 log(1/x)dx.
 Derive a recursive formula for Qn+1(x) using Qn(x) and Qn−1(x).
 1
 
- 
+
 (d) Use the above recursive formula to show that x = λ is a node of the 4-point
 Gaussian quadrature if and only if it is an eigenvalue of a symmetric, tridiagonal
 matrix. Write out the form of the symmetric and tridiagonal matrix explicitly.
@@ -3763,15 +3763,15 @@ Prove that this linear system of equations for the unknown coefficients ak is no
 provided that the interpolation points {xi} exclude ±1 and are distinct.
 (b) Consider the approximation problem of finding coefficients ak to minimize the squared
 approximation error
-
+
 f(x) −
 N
 X
 k=1
 akP 1
 k (x)
-
-
+
+
 2
 2,
 where the L2 norm is taken over x ∈[−1, 1]. Derive the linear system for the coefficients
@@ -3899,7 +3899,7 @@ y2(t)
 .
 2
 
- 
+
 (b) For the explicit Euler method:
 yn+1 = yn + hf(tn, yn)
 determine the absolute stability region and prove divergence when h > 0.002.
@@ -3986,7 +3986,7 @@ where h = tn+1 −tn for any n ≥0 is a uniform step size and b ∈[0, 1] is a 
 (a). Find the value of b so that the local truncation error is O(h3).
 1
 
- 
+
 2
 (b). Apply the method (2) to x′ = λx, x(0) = x0 ∈R. Find the function g(·) such that
 xn = g(hλ)nx0.

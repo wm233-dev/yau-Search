@@ -1,6 +1,6 @@
 # 丘成桐大学生数学竞赛 · Geometry & Topology 母题归并报告
 
-> **数据口径**：数据文件为 E:/deepseek_exclusive/math/.tmp/burn2026/data/problems_full.json，本次快照共 **757 题**（全科目），其中 subject == "Geometry & Topology" 的共 **156 题**（个人卷 98 题、团队卷 58 题），年份跨度 **2010–2026**。
+> **数据口径**：数据文件为 data/problems_full.json，本次快照共 **757 题**（全科目），其中 subject == "Geometry & Topology" 的共 **156 题**（个人卷 98 题、团队卷 58 题），年份跨度 **2010–2026**。
 > 计数单位是数据中的 **(year, kind, n) 行**；团队卷只到 2019 年（2020 年起本数据中没有团队卷，非本报告遗漏）。
 > 数据缺陷（影响归并口径，详见 §4）：2012 individual 1、2016 team 1、2018 individual 2、2019 individual 6、2019 team 6、2025 individual 4 六行在 JSON 中不存在；其中 2012 individual 2、2016 team 2、2025 individual 5 三行的 text 里被并入了相邻题的文字（例如 2025 individual 5 的 text 前半段是「CP² 不能浸入 R⁶」）。本报告对这三行的归属做了显式标注，绝不虚构不存在的行号。
 > 全文记号：**13I5** = 2013 年个人卷第 5 题；**13T5** = 2013 年团队卷第 5 题。
@@ -795,4 +795,4 @@
 
 ---
 
-**附：本次产出的机器可读文件** 为 E:/deepseek_exclusive/math/.tmp/burn2026/data/mother_geometry.json（35 个对象，含 id、name、members[{year,kind,n}]、first、last、trend，以及必要的 note 字段）。所有 members 均已用脚本回查 problems_full.json，确认 (year, kind, n) 真实存在（校验结果：bad members = []，未归属行 = []，覆盖 145/156）。校验脚本为 .tmp/burn2026/reports/_validate.py，题目通读稿为 .tmp/burn2026/reports/_gt_problems_dump.md。
+**附：本次产出的机器可读文件** 为 data/mother_geometry.json（35 个对象，含 id、name、members[{year,kind,n}]、first、last、trend，以及必要的 note 字段）。所有 members 均已用脚本回查 problems_full.json，确认 (year, kind, n) 真实存在（校验结果：bad members = []，未归属行 = []，覆盖 145/156）。校验脚本为 reports/_validate.py，题目通读稿为 reports/_gt_problems_dump.md。

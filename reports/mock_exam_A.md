@@ -3,9 +3,9 @@
 **科目**：代数与数论（Algebra & Number Theory） + 分析与微分方程（Analysis & PDE）
 **卷制**：每科 6 题、全部必答（"Solve every problem."），每科满分 100 分，建议每科 150 分钟。
 
-> **数据口径（必读）**：本卷所有题面取自题库快照 `.tmp\burn2026\data\problems_full.json`，该快照现为 **757 题**（此前流水线上出现过 751 / 758 两个数字）。按当前 757 题重算的科目分布为：Algebra & Number Theory 149、Analysis & PDE 155、Geometry & Topology 156、Computational & Applied 135、Probability & Statistics 133、Mathematical Physics 29，年份覆盖 2010–2026。
+> **数据口径（必读）**：本卷所有题面取自题库快照 `data\problems_full.json`，该快照现为 **757 题**（此前流水线上出现过 751 / 758 两个数字）。按当前 757 题重算的科目分布为：Algebra & Number Theory 149、Analysis & PDE 155、Geometry & Topology 156、Computational & Applied 135、Probability & Statistics 133、Mathematical Physics 29，年份覆盖 2010–2026。
 > 本卷编制过程逐条复核了所选 12 题在该文件中的 year / subject / paper / kind / n / text 六个字段，**未发现与旧口径（751/758）相冲突的结论**；§5 记录了题面抽取有损之处与被放弃的候选题。
-> 除题面外，本卷用到的频次/优先级依据来自 `.tmp\burn2026\reports\` 下的 `subject_algebra.md`、`subject_analysis.md`、`syllabus_coverage.md`、`study_roadmap.md`、`theme_clusters.md` 与两份解题讲义 `solutions_algebra.md` / `solutions_analysis.md`；数值事实由本报告脚本 `.tmp\burn2026\scripts\mock_verify.py`、`mock_verify2.py` 复核（可复跑）。
+> 除题面外，本卷用到的频次/优先级依据来自 `reports\` 下的 `subject_algebra.md`、`subject_analysis.md`、`syllabus_coverage.md`、`study_roadmap.md`、`theme_clusters.md` 与两份解题讲义 `solutions_algebra.md` / `solutions_analysis.md`；数值事实由本报告脚本 `scripts\mock_verify.py`、`mock_verify2.py` 复核（可复跑）。
 
 ---
 

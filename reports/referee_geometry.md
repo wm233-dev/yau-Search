@@ -1,17 +1,17 @@
 # 对抗性审稿报告 · 几何与拓扑解题讲义
 
-**被审文件**：`.tmp/burn2026/reports/solutions_geometry.md`（10 道题）
+**被审文件**：`reports/solutions_geometry.md`（10 道题）
 **审稿人角色**：对抗性 referee（默认"有错"，逐步追问依据、条件与反例）
 
 ---
 
 ## 0. 数据口径与审稿方法（先声明口径）
 
-- **题面口径**：以**原始 PDF / TeX 源**为准（只读）：F:\丘成桐大学生数学竞赛历年笔试真题\{2010,2011,2013,2016,2018,2019,2022}\...，以及 2026 年卷（**F 盘没有 2026 目录**，该卷在本地副本 `.tmp\yau\2010-2026历年笔试真题\2026\2026 Geo_Topology.pdf`）。抽取脚本 `.tmp/burn2026/work/referee_extract.py` → 输出 `.tmp/burn2026/work/referee_src.txt`（含 10 道题所在页的全部原文）。
-- **题号/主题口径**：以 `.tmp/burn2026/data/problems_full.json`（**当前文件**）为准。
+- **题面口径**：以**原始 PDF / TeX 源**为准（只读）：sources/prelim\{2010,2011,2013,2016,2018,2019,2022}\...，以及 2026 年卷（**F 盘没有 2026 目录**，该卷在本地副本 `sources/prelim\2026\2026 Geo_Topology.pdf`）。抽取脚本 `archive/work/referee_extract.py` → 输出 `archive/work/referee_src.txt`（含 10 道题所在页的全部原文）。
+- **题号/主题口径**：以 `data/problems_full.json`（**当前文件**）为准。
   **当前口径：全库 757 题；其中 Geometry & Topology 156 题**（其它科目：Algebra 149 / Analysis 155 / Probability 133 / Computational 135 / Math Physics 29）。
   与讲义不一致处：讲义开头与 §0.2 写"Geometry & Topology **159** 道"，与当前 `problems_full.json` 的 **156** 不符（讲义可能基于旧快照），详见 §5 存疑清单第 1 条。
-- **数值证据**：所有数值结论均由可复跑脚本给出（脚本在 `.tmp/burn2026/work/`，命令见 §5 末尾）。
+- **数值证据**：所有数值结论均由可复跑脚本给出（脚本在 `archive/work/`，命令见 §5 末尾）。
 - **能力边界**：凡无法判定处一律标 UNVERIFIED；本报告没有任何"我算过了"式的无凭证断言。
 
 ---
@@ -99,7 +99,7 @@
 | 3 | K(p)≠0：反函数定理 ⟹ N 局部单射 ⟹ 取等号 ⟹ 用 K 连续性取平均 | **成立** | |det dN_p|=|K(p)|≠0；平均收敛由 K 连续 + A_ε ⊂ B(p;r(ε))。 |
 | 4 | K(p)=0：0 ≤ Area(N(A_ε))/|A_ε| ≤ sup_{A_ε}|K| → 0 | **成立** | 夹逼；不需要单射性，这正是本题技术点。 |
 
-**数值复核**（脚本 `.tmp/burn2026/work/referee_check_p3.py`，1600² 网格 + 高斯像细格覆盖估计）：
+**数值复核**（脚本 `archive/work/referee_check_p3.py`，1600² 网格 + 高斯像细格覆盖估计）：
 
 | 曲面 | K(0) | r=0.4 | r=0.1 | r=0.025 | r=0.0125 | 极限 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -130,7 +130,7 @@
 | 3 | 提升 A=(e^{−2π},0) ↦ i，B=(−e^{−π},0) ↦ 1/2+i/2 | **成立** | |z|=e^{−2πv}、arg z=2πu；不同提升差整平移。 |
 | 4 | cosh d = 1 + |w_A−w_B|²/(2 Im w_A Im w_B) = 1 + (1/2)/1 = 3/2 | **成立** | 上半平面标准距离公式（我用 ln 2 的简单例子校核过该公式）。 |
 
-**数值独立复核**（脚本 `.tmp/burn2026/work/referee_check_fast.py`；在坐标 (θ,u)、u=−ln|z| 下度量恰为 (dθ²+du²)/u²，直段长度有闭式 L·ln(u₂/u₁)/(u₂−u₁)）：
+**数值独立复核**（脚本 `archive/work/referee_check_fast.py`；在坐标 (θ,u)、u=−ln|z| 下度量恰为 (dθ²+du²)/u²，直段长度有闭式 L·ln(u₂/u₁)/(u₂−u₁)）：
 - 候选测地线（(θ,u) 平面内半圆）长度：n=50 时 0.962431775；n=5000 时 **0.962423651**；arccosh(3/2)=0.962423650 ✅
 - 对候选路径做 400 次随机扰动：**400/400 都变长**（最短扰动 0.9624627 > 0.9624237）⟹ 候选确为局部最短 ✅
 - "L 形"路径（先在 u=2π 圆弧转 π，再径向）长度 1.192897 > 0.9624 ✅
@@ -233,7 +233,7 @@
 **反例（退化情形）**：设 D(s)=γ(s)+λn(s)，则
   D' = τ(μt+λb)，  D'' = τ'(μt+λb) + τ(μk−λτ)n。
 当 μk ≡ λτ 时，与 λk+μτ ≡ 1 联立解得 (λ,μ) = (k,τ)/(k²+τ²)（此时 k、τ 必为常数），此时 D''≡0，**D 是直线**，曲率为 0、主法线不存在，不构成 Bertrand 对。
-**数值验证**（`.tmp/burn2026/work/referee_check_fast.py`）：螺旋 a=1.3、b=0.7 给 k=0.596330、τ=0.321101；取 λ=1.3、μ=0.7（满足 λk+μτ=1.000000000）时平移曲线最大曲率 ≈2.0e−7；取 (λ,μ)=(1/k,0) 时曲率 0.596330>0，是合法对 ✅。
+**数值验证**（`archive/work/referee_check_fast.py`）：螺旋 a=1.3、b=0.7 给 k=0.596330、τ=0.321101；取 λ=1.3、μ=0.7（满足 λk+μτ=1.000000000）时平移曲线最大曲率 ≈2.0e−7；取 (λ,μ)=(1/k,0) 时曲率 0.596330>0，是合法对 ✅。
 
 **修正文本**：
 > 反过来，若 k、τ 处处非零、λk+μτ≡1，**且 μk−λτ 不恒为 0**，则把 C 沿主法线平移 λ 得到的曲线 D 与 C 构成 Bertrand 对（此时 D 的曲率法向分量为 τ(μk−λτ)≠0，其主法线为 ±n）。当 μk≡λτ 时（由两式联立知这等价于 k、τ 均为常数且 (λ,μ)=(k,τ)/(k²+τ²)），平移曲线退化为直线，无主法线，不是 Bertrand 对；此时应改用 (λ,μ)=(1/k,0) 这一组常数。
@@ -339,7 +339,7 @@
 ## 5. 存疑清单
 
 1. **数据口径差异（务必转达）**：用**当前** `problems_full.json`（757 题）统计，Geometry & Topology 为 **156** 题，而讲义开头与 §0.2 写"**159** 道"（与当前文件不符，疑为旧快照；讲义其余关于比例的定性描述未受影响）。另：`2018_geometry2018_individual` 在 JSON 中只有 5 题（缺第 2 题，PDF 有 6 题），`2013_TeamProblems2013` 的 n 在六个科目间重复编号——引用时须带科目名。
-2. **2026 卷的 PDF 位置**：讲义 §12.4 声称"全部 10 道题的题面均与原始 PDF 逐字核对（PDF 位于 F:\丘成桐大学生数学竞赛历年笔试真题）"，但 **F 盘只有 2010–2025**；2026 卷实际在本地副本 `.tmp\yau\2010-2026历年笔试真题\2026\2026 Geo_Topology.pdf`。我已用该文件复核，题面**逐字一致**——结论不受影响，仅出处标注需订正。
+2. **2026 卷的 PDF 位置**：讲义 §12.4 声称"全部 10 道题的题面均与原始 PDF 逐字核对（PDF 位于 sources/prelim）"，但 **F 盘只有 2010–2025**；2026 卷实际在本地副本 `sources/prelim\2026\2026 Geo_Topology.pdf`。我已用该文件复核，题面**逐字一致**——结论不受影响，仅出处标注需订正。
 3. **题 2 第二问的命题人原意**：两种读法答案不同（"否"/"是"），2016 年无官方解答可查，无法独立裁定。
 4. **题 4 漏斗型度量下这两点的具体距离**：我未计算（需先固定一个具体微分同胚 D*→H/⟨2z⟩ 并选定核长度 ℓ）；本报告只主张"答案不唯一"，不主张任何具体数值。
 5. **题 9 的 π₁ 自由性**：两条纸笔论证互相印证，但**没有**做计算同调复核（未构造离散复形算 H₁）。若要求"数值凭证"，此处是缺口。
@@ -352,19 +352,19 @@
 ## 附：可复跑命令（本报告全部数值结论的凭证）
 
 ```powershell
-# 题面抽取（生成 .tmp/burn2026/work/referee_src.txt：10 道题原卷页面文本）
-$env:PYTHONPATH='E:\deepseek_exclusive\math\pylibs'
-C:\Python314\python.exe E:\deepseek_exclusive\math\.tmp\burn2026\work\referee_extract.py
+# 题面抽取（生成 archive/work/referee_src.txt：10 道题原卷页面文本）
+$env:PYTHONPATH='sources/pylibs'
+python archive/work/referee_extract.py
 
 # 题 3：高斯映射面积比的数值复核（4 个曲面 × 6 个尺度）
-C:\Python314\python.exe E:\deepseek_exclusive\math\.tmp\burn2026\work\referee_check_p3.py
+python archive/work/referee_check_p3.py
 
 # 题 4 / 题 10 / 题 8 的复核（测地线长度与扰动最优性；S¹×S² 混合平面曲率；螺旋退化）
-C:\Python314\python.exe E:\deepseek_exclusive\math\.tmp\burn2026\work\referee_check_fast.py
+python archive/work/referee_check_fast.py
 
 # 数据口径（757 题 / 156 几何；各卷题数）
-C:\Python314\python.exe E:\deepseek_exclusive\math\.tmp\burn2026\work\referee_counts.py
-C:\Python314\python.exe E:\deepseek_exclusive\math\.tmp\burn2026\work\referee_json_probe.py
+python archive/work/referee_counts.py
+python archive/work/referee_json_probe.py
 ```
 
 **方法论附注（重要，防止误判）**：我最初用"极坐标网格 + Dijkstra"求题 4 的距离，得到 1.19（与 0.9624 不符）。经查**不是讲义错，而我的方法错**：在非欧坐标下用"逐坐标相加"的 L1 型边权，图距离收敛到 L1（Finsler）度量而非 Riemann 度量，系统性高估可达 √2 倍（脚本 `referee_dbg_p4c.py` 复现该现象）。改用**闭式段长 + 扰动最优性检验**后得 0.962423651 = arccosh(3/2) ✅。此附注记录在此，说明"题 4 正确"的结论经过两次独立方法的交叉验证。

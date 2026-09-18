@@ -2,7 +2,7 @@
 import json, os, sys
 from collections import Counter
 
-BASE = r'E:\deepseek_exclusive\math\.tmp\burn2026'
+BASE = r'.'
 P    = os.path.join(BASE, 'data', 'problems_full.json')
 OUT  = os.path.join(BASE, 'data', 'mother_probability.json')
 

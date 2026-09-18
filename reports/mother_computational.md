@@ -1,6 +1,6 @@
 # 丘成桐大学生数学竞赛 · Computational & Applied（计算与应用）母题归并
 
-> **数据口径**：`problems_full.json`（E:/deepseek_exclusive/math/.tmp/burn2026/data/problems_full.json），当前快照共 **757 题**；
+> **数据口径**：`problems_full.json`（/data/problems_full.json），当前快照共 **757 题**；
 > 其中 subject 为 Computational & Applied 的共 **135 题**（个人赛 88 + 团体赛 47，覆盖 2011-2026 年）。
 > 题目实体的唯一键是 **(year, kind, n)**（年份 / 卷别 / 题号），团体赛卷别记为 `team`、个人赛记为 `individual`。
 > 本报告基于 757 题的快照生成；若上游数据集再次变动，请按本文件 §0 的口径重跑 `scripts/build_mothers.py`。

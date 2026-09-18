@@ -80,7 +80,7 @@ that
 (ScTc −λI)xc = bc
 1
 
- 
+
 2
 and wc = Tcxc is available, then
 x =
@@ -178,7 +178,7 @@ trails with probability p for making a basket.
 (a) Write down the likelihood for (N0, N1, N2).
 1
 
- 
+
 2
 (b) Show that the maximum likelihood estimator of p is
 ˆp =
@@ -242,7 +242,7 @@ ut + Aux = 0,
 (5)
 ut + Bux = 0,
 
- 
+
 3
 (6)
 ut + Cux = 0,
@@ -317,7 +317,7 @@ i=1 ak(i) = 1, bk(j) ≥
 j=1 bk(j) = 1?
 1
 
- 
+
 2
 (ii) Prove or disprove the above relation by use of conditional prob-
 ability.
@@ -424,7 +424,7 @@ pendent random sample from the Bernoulli distribution with probabil-
 ity of success p2.
 1
 
- 
+
 2
 (a) Derive the maximum likelihood ratio test statistic for
 H0 : p1 = p2 ←→H1 : p1 ̸= p2.
@@ -471,7 +471,7 @@ tial distribution, that is, π(θ) = e−|θ|/a/(2a), a known. A Bayesian test o
 H0 : θ ≤0 versus H1 : θ > 0 will decide in favor of H1 if its posterior probability is large.
 1
 
- 
+
 (a) For a given constant K, calculate the posterior probability that θ > K, that is,
 P(θ > K | x1, · · · , xn, a).
 (b) Find an expression for lima→∞P(θ > K | x1, · · · , xn, a).
@@ -533,7 +533,7 @@ then it can be shown that
 solution is equivalent to applying soft thresholding to the ordinary least square solution.
 2
 
- 
+
 (a) Prove equation (0.1) without assuming X is orthogonal.
 (b) Show that the lasso estimator is obtained by (0.2) under the assumption that X is
 orthogonal, and find the relationship between λ and γ.
@@ -590,7 +590,7 @@ mean θ. Consider testing H0 : θ = θ0 vs. H1 : θ > θ0. Let P(X) = your p-val
 appropriate test.
 1
 
- 
+
 (a) What is Eθ0(P(X))? Derive your answer explicitly.
 (b) Derive Eθ(P(X)) for θ ̸= θ0. Specifically, assuming only one sample, i.e. n = 1,
 calculate Eθ(P(X)) as explicitly as possible for θ ̸= θ0.
@@ -830,7 +830,7 @@ Let bβ be a minimizer and ∆= bβ −β∗for any given β∗. If λ > 2∥XT(
 show that
 1. ∥Y −XT bβ∥2 −∥Y −XTβ∗∥2 > −λ∥∆∥1.
 
- 
+
 2. ∥∆Sc∥1 ≤3∥∆S∥1, where S = {j : β∗
 j ̸= 0} is the support of the vector β∗, Sc is
 its complement set, ∆S is the subvector of ∆restricted on the set S, and ∥∆S∥1
@@ -885,7 +885,7 @@ i=1 from a population with mean
 all the samples into k subsamples, each having size m = n/k (for simplicity,
 we assume n is always divisible by k). Let bµj be the sample average of the jth
 
- 
+
 subsample and em be the median of {bµj}k
 j=1. Apply the previous two results to
 show that
@@ -935,7 +935,7 @@ n=1 P(|Xn| ≥n) < ∞.
 as cuts that divide the circle into 2016 arcs. Compute the expected length of the arc
 that contains the point (1, 0). How about the variance.
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2016
 
 === [2016] Probability & Statistics | kind=individual | n=1 | paper=2016_probability2016_individual | chars=402 ===
@@ -1030,7 +1030,7 @@ n →∞
 interested in estimating p = Pλ(Xi = 0) = e−λ.
 1
 
- 
+
 (a) One estimator for p is the proportion of zeros in the sample, ˜p = #{i ≤n : Xi =
 0}/n. Determine limiting distribution for √n(˜p −p).
 (b) Another estimator would be the maximum likelihood estimator ˆp. Give a formula
@@ -1038,7 +1038,7 @@ for ˆp and determine limiting distribution for √n(ˆp −p).
 (c) Find the asymptotic relative efficiency of ˜p with respect to ˆp.
 2
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2017
 
 === [2017] Probability & Statistics | kind=individual | n=1 | paper=2017_probability2017_individual | chars=301 ===
@@ -1074,7 +1074,7 @@ Show that for each p ∈[0, 1], there exists Ap such that
 Pp(Ap) > 1/2
 1
 
- 
+
 and for any p′ ̸= p, p′ ∈[0, 1]
 Pp′(Ap) < 1/2
 
@@ -1088,7 +1088,7 @@ T := max{|A| : A is a fully connected set}
 Let's fix p ∈(0, 1), please prove that
 lim
 n→∞P
- 
+
 T
 2 log 1
 p n ≤1 + ϵ
@@ -1236,7 +1236,7 @@ X1, . . . , Xk, ˆA)).
 3. How do you compare the two estimators, ˜τ and ˆτB?
 2
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2018
 
 === [2018] Probability & Statistics | kind=individual | n=1 | paper=2018_probability2018_individual | chars=483 ===
@@ -1363,7 +1363,7 @@ f) Argue that the estimator in part c), when the sample sizes are large, will lo
 conduct a small simulation to indicate that this often happens with relatively small sample sizes.
 1
 
- 
+
 g) Modify the first four parts to consider a different randomized experiment, but still with 2N units,
 half to be allocated to active and half to be allocated to control, but now we have a covariate, X, a
 background variable that is suspected to be related to Y . For example, X could be blood pressure
@@ -1460,7 +1460,7 @@ two groups. Instead of using classical methods of design, such as blocking or st
 is to use modern computers to try many random allocations and discard those allocations that are
 considered unacceptable according to a pre-determined criterion for balanced X means, in particular
 
- 
+
 an affinely invariant measure such as the Mahalanobis distance between the means of X in the two
 groups. After an acceptable allocation is found, outcome variables will be measured, and their
 means will be compared in group A and group B to estimate a treatment effect.
@@ -1524,7 +1524,7 @@ nα = 0
 Let Xn =
 
 Xij
- 
+
 be an n × n random matrix whose entries are independent and identically
 distributed random variables with the symmetric Bernoulli distribution
 P {X = 0} = P {X = 1} = 1
@@ -1539,7 +1539,7 @@ in place of the current drug, call it drug B, for a particular medical condition
 1000 patients treated with A and 1000 treated with drug B. The issue is how to do the allocation of patients,
 because we have many pre-randomization measurements on each patient, roughly 200, such as blood pressure
 
- 
+
 recordings, age, sex, and a large collection of genetics measurements. Obviously it is desirable to have the
 A group similar to the B group with respect to all pre-treatment covariates and non-linear functions of them
 that are expected to influence the effectiveness of the drugs with respect to the outcome variables.
@@ -1609,7 +1609,7 @@ Suppose that there is a state 𝑦0 ∈𝑆and a positive number 𝜃such that �
 where 𝑋𝑛×𝑝is the design matrix, 𝛽is the unknown coefficient vector, and the random error vector 𝐞has a mul-
 tivariate normal distribution with mean zero and Var(𝐞) = 𝜎2𝐼𝑛(𝜎2 > 0 unknown and 𝐼𝑛is the identity matrix).
 
- 
+
 Here rank(𝑋) = 𝑘≤𝑝, 𝑝may or may not be greater than 𝑛, but we assume 𝑛−𝑘> 1. Let 𝐱1 = (𝑥1,1, … , 𝑥1,𝑝) be
 the first row of 𝑋and define
 𝛾= 𝐱1𝛽
@@ -1793,7 +1793,7 @@ the data, and let Hn(β) = −∂2ℓn(β)
 ∂β∂βT .
 1
 
- 
+
 Let X be the set of all p covariates under consideration. Let α0 ⊂X be
 the subset that contains and only contains all the important covariates
 affecting Y (the corresponding βj's are nonzero). Let α be any subset of

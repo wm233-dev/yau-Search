@@ -1,6 +1,6 @@
 
 import json,collections
-M=json.load(open(r'E:\deepseek_exclusive\math\.tmp\burn2026\data\mother_geometry.json',encoding='utf-8'))
+M=json.load(open(r'.\data\mother_geometry.json',encoding='utf-8'))
 rows=[]
 for m in M:
     ys=[int(x['year']) for x in m['members']]

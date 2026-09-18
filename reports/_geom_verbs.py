@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json, re, collections, statistics
-base = 'E:/deepseek_exclusive/math/.tmp/burn2026/data/'
+base = './data/'
 p = json.load(open(base+'problems_full.json', encoding='utf-8'))
 geo = [x for x in p if x['subject']=='Geometry & Topology']
 geo.append({'year':'2012','paper':'2012_Geometry2012individual','n':1,'text':'Show that pi3(S2) != 0.'})

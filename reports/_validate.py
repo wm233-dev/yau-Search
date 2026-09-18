@@ -1,9 +1,9 @@
 
 import json
-d=json.load(open(r'E:\deepseek_exclusive\math\.tmp\burn2026\data\problems_full.json',encoding='utf-8'))
+d=json.load(open(r'.\data\problems_full.json',encoding='utf-8'))
 gt=[x for x in d if x.get('subject')=='Geometry & Topology']
 have=set((x['year'],x['kind'],x['n']) for x in gt)
-M=json.load(open(r'E:\deepseek_exclusive\math\.tmp\burn2026\data\mother_geometry.json',encoding='utf-8'))
+M=json.load(open(r'.\data\mother_geometry.json',encoding='utf-8'))
 entries=[]; bad=[]
 for m in M:
     for x in m['members']:

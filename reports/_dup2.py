@@ -1,6 +1,6 @@
 
 import json,re,itertools
-d=json.load(open(r'E:\deepseek_exclusive\math\.tmp\burn2026\data\problems_full.json',encoding='utf-8'))
+d=json.load(open(r'.\data\problems_full.json',encoding='utf-8'))
 gt=[x for x in d if x.get('subject')=='Geometry & Topology']
 idx={(x['year'],x['kind'],x['n']):x for x in gt}
 def norm(t):

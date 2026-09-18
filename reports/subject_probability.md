@@ -1,15 +1,15 @@
 # 丘成桐大学生数学竞赛 2010–2026 · 概率统计（Probability and Statistics）科目级横向综合报告
 
 > 撰写范围：S.-T. Yau College Student Mathematics Contests，2010–2026 共 17 个年份的「概率统计」科目（含 2010/2011 的「Applied Math., Computational Math., Probability and Statistics」三合一合并卷，以及 2013/2016/2017/2018 团体卷中的概率统计段落）。
-> 语料：E:\deepseek_exclusive\math\.tmp\burn2026\txt\ 下 136 个抽取文本中的 30 个 P&S 相关文件（试卷 28 个 + 官方解答 3 个，2020/2021/2022）。
-> 自建脚本（全部落在 .tmp\burn2026\scripts\，可复跑）：
+> 语料：/corpus/prelim/ 下 136 个抽取文本中的 30 个 P&S 相关文件（试卷 28 个 + 官方解答 3 个，2020/2021/2022）。
+> 自建脚本（全部落在 scripts\，可复跑）：
 > - subject_prob_rows_final.py —— 逐题切分（按题号顺序法）与长度/小问统计
 > - subject_prob_rows_v2.py / prob_final_numbers.py —— 汇总口径
 > - prob_twins2.py / prob_twins3.py —— 跨年孪生题（6-gram Jaccard + 最长公共子串）
 > - subject_prob_terms2.py —— 具名定理检索
 > - prob_style3.py —— 题型/动词/Q 型问句统计
 > - prob_tag_table.py —— 考点频次总表（人工打标 + 脚本汇总）
-> 逐题正文缓存：.tmp\burn2026\scripts\prob_ps_bodies.json（137 题全文）
+> 逐题正文缓存：\scripts\prob_ps_bodies.json（137 题全文）
 > 本报告一切数字均为本人在抽取文本上重新统计所得；凡与上游批次报告冲突处，见第 7 节。
 
 ---
@@ -167,7 +167,7 @@
 
 ## 2. 考点频次总表
 
-打标规则：一题可挂 1–3 个标签；统计单位为「题次」。骨架考点定义 = 在 **≥5 个不同年份**出现。打标由本人逐题判读（依据 .tmp\burn2026\scripts\prob_ps_bodies.json 的 137 条全文），存在主观性，但每一条都可在原文核对。
+打标规则：一题可挂 1–3 个标签；统计单位为「题次」。骨架考点定义 = 在 **≥5 个不同年份**出现。打标由本人逐题判读（依据 scripts\prob_ps_bodies.json 的 137 条全文），存在主观性，但每一条都可在原文核对。
 
 ### 2.1 骨架考点（≥5 个年份出现，共 11 项）
 
@@ -457,7 +457,7 @@
 
 ### 5.5 关于上游 near_duplicates.json 的复核
 
-.tmp\burn2026\data\near_duplicates.json 共 12 对，其中涉及 P&S 的 3 对：
+data\near_duplicates.json 共 12 对，其中涉及 P&S 的 3 对：
 
 | 上游记录 | 上游 Jaccard | 本报告复核 | 判定 |
 |---|---|---|---|
@@ -476,11 +476,11 @@
 
 练习来源约定（全部为本机已存在、只读的资源）：
 
-- 【真题】= E:\deepseek_exclusive\math\.tmp\burn2026\txt\ 下对应年份的 P&S 卷（2010–2026 全 17 年）
-- 【纸质真题】= F:\丘成桐大学生数学竞赛历年笔试真题\（按年分目录，但**只到 2025，没有 2026**）
-- 【CMC】= F:\全国大学生数学竞赛初赛试题\（第 10–16 届，数学 A/B 类卷）
-- 【书】= E:\deepseek_exclusive\math\一些数学书\ 下的 PDF（下列均经实际确认存在）
-- 【自编】= E:\deepseek_exclusive\math\自编\ ——**经核查只有「数分初步」与「ppt」两个目录，没有概率统计材料，本报告的统计部分无法从这里取材。**
+- 【真题】= corpus/prelim/ 下对应年份的 P&S 卷（2010–2026 全 17 年）
+- 【纸质真题】= sources/prelim\（按年分目录，但**只到 2025，没有 2026**）
+- 【CMC】= sources/cmc\（第 10–16 届，数学 A/B 类卷）
+- 【书】= sources/library\ 下的 PDF（下列均经实际确认存在）
+- 【自编】= \自编\ ——**经核查只有「数分初步」与「ppt」两个目录，没有概率统计材料，本报告的统计部分无法从这里取材。**
 
 ---
 
@@ -488,49 +488,49 @@
 
 - 考点：几乎必然收敛与 limsup 的 0–1 律（Borel–Cantelli 双侧夹逼）、依概率/依分布收敛及其封闭性、三角阵列 CLT、Delta 方法。
 - 性价比理由：13 个年份出现、26 题次，是 P&S 卷的第一骨架；这 7 类题的解法高度模板化，属于「练 20 道就能吃 10 年」的类型。2012–2026 只有 2018、2025 两年缺席。
-- 练习来源：【真题】2012 团体 Q1、2013 个人 Q1、2013 团体 Q2、2014 个人 Q2、2014 团体 Q1、2015 个人 Q3、2015 团体 Q2、2016 个人 Q5、2016 团体 Q4、2017 团体 Q2/Q4、2019 个人 Q1、2019 团体 Q1/Q2、2021 P1/P3、2022 P1、2023 P3；【书】E:\deepseek_exclusive\math\一些数学书\数学\概率论\概率论教程(钟开莱).pdf、GTM 095 Shiryaev Probability-1.pdf、GTM 045/046 Loève Probability Theory I/II.pdf；【书·习题】E:\deepseek_exclusive\math\一些数学书\俄罗斯法兰西数学教材200多册\俄罗斯数学教材选译\俄罗斯数学教材选译-概率论习题集-[俄]A.H.施利亚耶夫-高等教育出版社-2005.pdf。
+- 练习来源：【真题】2012 团体 Q1、2013 个人 Q1、2013 团体 Q2、2014 个人 Q2、2014 团体 Q1、2015 个人 Q3、2015 团体 Q2、2016 个人 Q5、2016 团体 Q4、2017 团体 Q2/Q4、2019 个人 Q1、2019 团体 Q1/Q2、2021 P1/P3、2022 P1、2023 P3；【书】sources/library\数学\概率论\概率论教程(钟开莱).pdf、GTM 095 Shiryaev Probability-1.pdf、GTM 045/046 Loève Probability Theory I/II.pdf；【书·习题】sources/library\俄罗斯法兰西数学教材200多册\俄罗斯数学教材选译\俄罗斯数学教材选译-概率论习题集-[俄]A.H.施利亚耶夫-高等教育出版社-2005.pdf。
 
 **P2（A 级）· 分布论与特征函数（构造分布 / 识别密度 / 函数方程）**
 
 - 考点：变量替换与 Jacobi 行列式、Gamma–Beta–F–t 关系、正态二次型、特征函数与母函数、随机变量构造、偏正态、稳定分布、copula。
 - 性价比理由：**13 年 29 题次，全语料第一**；2026 单卷 6 题中 4 题属于此块。这块的题通常「看完就会」，是确定性最高的得分点，但一旦不熟就会整题崩。
-- 练习来源：【真题】2010 个人 Q3、2011 团体 Q3、2012 个人 Q6 与团体 Q2/Q4、2013 团体 Q1、2015 团体 Q3、2016 团体 Q3、2018 个人 Q4/Q5、2020 P2/P4、2022 P1、2024 P3、2026 P1/P3/P5/P6；【书】E:\deepseek_exclusive\math\一些数学书\数学\概率论\概率论及其应用1.pdf 与 概率论及其应用2.pdf（Feller）、概率论基础(李贤平).pdf、GTM 261 Çinlar Probability and Stochastics.pdf。
+- 练习来源：【真题】2010 个人 Q3、2011 团体 Q3、2012 个人 Q6 与团体 Q2/Q4、2013 团体 Q1、2015 团体 Q3、2016 团体 Q3、2018 个人 Q4/Q5、2020 P2/P4、2022 P1、2024 P3、2026 P1/P3/P5/P6；【书】sources/library\数学\概率论\概率论及其应用1.pdf 与 概率论及其应用2.pdf（Feller）、概率论基础(李贤平).pdf、GTM 261 Çinlar Probability and Stochastics.pdf。
 
 **P3（A 级）· 估计理论：充分性—完备性—UMVU，以及 MLE 与渐近正态**
 
 - 考点：最小充分统计量、完备性、Lehmann–Scheffé 构造 UMVUE、无偏性判别、Fisher 信息与 Cramér–Rao 下界、MLE 的相合性与渐近分布。
 - 性价比理由：13 年 23 题次（加渐近统计共 39 题次），是统计侧唯一「每年必到」的板块，且判分客观（构造 + 方差比较）。
-- 练习来源：【真题】2010 团体 Q3/Q4、2011 个人 Q5/Q6、2011 团体 Q6、2012 团体 Q5、2013 个人 Q6、2014 团体 Q4/Q5、2015 个人 Q4、2017 团体 Q5、2018 团体 Q5、2022 P5、2023 P5/P6、2024 P5、2025 P4；【书】E:\deepseek_exclusive\math\一些数学书\俄罗斯法兰西数学教材200多册\法兰西数学精品译丛\概率统计讲义(第3版)陈家鼎.pdf、E:\deepseek_exclusive\math\一些数学书\数学\概率论\概率论与数理统计(茆诗松).pdf。
+- 练习来源：【真题】2010 团体 Q3/Q4、2011 个人 Q5/Q6、2011 团体 Q6、2012 团体 Q5、2013 个人 Q6、2014 团体 Q4/Q5、2015 个人 Q4、2017 团体 Q5、2018 团体 Q5、2022 P5、2023 P5/P6、2024 P5、2025 P4；【书】sources/library\俄罗斯法兰西数学教材200多册\法兰西数学精品译丛\概率统计讲义(第3版)陈家鼎.pdf、sources/library\数学\概率论\概率论与数理统计(茆诗松).pdf。
 
 **P4（A 级）· 条件期望与测度论概率**
 
 - 考点：条件期望的性质与显式计算、支撑集与本质下确界、正则条件概率、Radon–Nikodym 密度、条件独立。
 - 性价比理由：9 年 13 题次；2012–2016 连续 5 年出现，2022–2023 回归。题面通常极短，但需要把定义写清楚，属于「知道就会、不知道就零分」。
-- 练习来源：【真题】2010 个人 Q1、2012 个人 Q2、2013 团体 Q3、2014 个人 Q3/Q4、2014 团体 Q3、2015 个人 Q1(b)、2016 团体 Q1、2018 个人 Q4、2022 P2、2023 P2/P4；【书】GTM 095 Shiryaev Probability-1.pdf（条件期望一章）、E:\deepseek_exclusive\math\一些数学书\数学\概率论\概率论基础(李贤平).pdf。
+- 练习来源：【真题】2010 个人 Q1、2012 个人 Q2、2013 团体 Q3、2014 个人 Q3/Q4、2014 团体 Q3、2015 个人 Q1(b)、2016 团体 Q1、2018 个人 Q4、2022 P2、2023 P2/P4；【书】GTM 095 Shiryaev Probability-1.pdf（条件期望一章）、sources/library\数学\概率论\概率论基础(李贤平).pdf。
 
 **P5（A 级）· 随机游走 / Markov 链 / 随机过程**
 
 - 考点：首达与命中概率、常返与正常返、漂移判据、Doeblin 压缩与几何遍历、生灭过程与母函数 PDE、分支与传播过程、赌徒输光与调和函数。
 - 性价比理由：9 年 18 题次；**2016–2022 连续 7 年出现**，是近代最连续的骨架，且 2016 之后几乎每卷第 1–2 题就是它。
-- 练习来源：【真题】2016 个人 Q1/Q5、2016 团体 Q1、2017 个人 Q2/Q5、2017 团体 Q3/Q4、2018 个人 Q2、2018 团体 Q2、2019 个人 Q2、2020 P3、2021 P2、2022 P3/P4、2024 P1/P2；【书】E:\deepseek_exclusive\math\一些数学书\数学\随机过程\随机过程通论1.pdf 与 随机过程通论2.pdf（王梓坤）、随机过程习题解析.pdf、GTM 040 Kemeny–Snell–Knapp Denumerable Markov Chains.pdf、GTM 230 Stroock An Introduction to Markov Processes.pdf。
+- 练习来源：【真题】2016 个人 Q1/Q5、2016 团体 Q1、2017 个人 Q2/Q5、2017 团体 Q3/Q4、2018 个人 Q2、2018 团体 Q2、2019 个人 Q2、2020 P3、2021 P2、2022 P3/P4、2024 P1/P2；【书】sources/library\数学\随机过程\随机过程通论1.pdf 与 随机过程通论2.pdf（王梓坤）、随机过程习题解析.pdf、GTM 040 Kemeny–Snell–Knapp Denumerable Markov Chains.pdf、GTM 230 Stroock An Introduction to Markov Processes.pdf。
 
 **P6（A 级）· 概率不等式与集中**
 
 - 考点：对称化、按 E[X⁺] 与 E[X⁻] 分情形、矩不等式、Chebyshev、矩母函数/Chernoff 界、中位数集中、测度集中。
 - 性价比理由：7 年 12 题次；这类题**普遍极短**（2012 团体 Q3 只有 84 字符），但需要正确选择不等式，是投入 30 小时可以稳拿的部分。
-- 练习来源：【真题】2011 个人 Q4、2011 团体 Q4、2012 团体 Q3、2014 个人 Q1、2015 个人 Q1(a)、2015 团体 Q4、2016 个人 Q2/Q4、2016 团体 Q2、2017 团体 Q1、2020 P1；【书】E:\deepseek_exclusive\math\一些数学书\数学\概率论\概率论中的反例.pdf 与 概率统计中的反例.pdf（专门用来校准不等式取等与反例的边界）。
+- 练习来源：【真题】2011 个人 Q4、2011 团体 Q4、2012 团体 Q3、2014 个人 Q1、2015 个人 Q1(a)、2015 团体 Q4、2016 个人 Q2/Q4、2016 团体 Q2、2017 团体 Q1、2020 P1；【书】sources/library\数学\概率论\概率论中的反例.pdf 与 概率统计中的反例.pdf（专门用来校准不等式取等与反例的边界）。
 
 **P7（A 级）· 假设检验与区间估计**
 
 - 考点：p 值的分布与 E_θ(P(X))、MLR 族、似然比检验与渐近功效、精确置信区间与条件推断、随机化区间与 minimax 性。
 - 性价比理由：8 年 14 题次；2010–2015 连续 6 年，2023、2025 回归。这块的母题极少（两样本 Bernoulli、指数均值的 p 值、均匀位置参数区间），可复用度极高。
-- 练习来源：【真题】2010 个人 Q4、2011 个人 Q5(c)、2012 团体 Q6、2013 个人 Q4/Q5、2013 团体 Q4、2014 个人 Q5、2015 个人 Q5、2023 P6、2025 P1/P2；【CMC】F:\全国大学生数学竞赛初赛试题\ 中数学 A 类的概率统计题（可直接检验基础熟练度）。
+- 练习来源：【真题】2010 个人 Q4、2011 个人 Q5(c)、2012 团体 Q6、2013 个人 Q4/Q5、2013 团体 Q4、2014 个人 Q5、2015 个人 Q5、2023 P6、2025 P1/P2；【CMC】sources/cmc\ 中数学 A 类的概率统计题（可直接检验基础熟练度）。
 
 **P8（A 级）· 经典随机模型题（保底分板块）**
 
 - 考点：坛子摸球、球入盒、乘客座位、礼物物归原主、置换轮换数、骰子模式首达、坦克问题、随机图阈值。
 - 性价比理由：9 年 14 题次；几乎每年至少一题，且答案往往是一个漂亮的数或一个简单极限，判分只看结果与论证链。这是全卷最低风险的 10 分。
-- 练习来源：【真题】2011 个人 Q1、2012 个人 Q1/Q3、2012 团体 Q2/Q4、2013 个人 Q6、2015 个人 Q2、2015 团体 Q1、2016 个人 Q3、2017 个人 Q1、2017 团体 Q3、2018 个人 Q3、2019 团体 Q3/Q4、2022 P3、2023 P1；【书】E:\deepseek_exclusive\math\一些数学书\数学\概率论\概率论解题方法与技巧.pdf、概率论解题指南.pdf。
+- 练习来源：【真题】2011 个人 Q1、2012 个人 Q1/Q3、2012 团体 Q2/Q4、2013 个人 Q6、2015 个人 Q2、2015 团体 Q1、2016 个人 Q3、2017 个人 Q1、2017 团体 Q3、2018 个人 Q3、2019 团体 Q3/Q4、2022 P3、2023 P1；【书】sources/library\数学\概率论\概率论解题方法与技巧.pdf、概率论解题指南.pdf。
 
 **P9（B 级）· 顺序统计量、极值与记录**
 
@@ -588,7 +588,7 @@
 
 - 原文说法：「**官方解答自相矛盾**：开头写 P_a{τ₀<∞}=1 和 0 分别对应 p=0 和 p=1，但结尾公式给出 p∈[0,1/2] 时为 1；p=0 时应为 0（游走恒向上）」。
 - 核实结果：**不成立**。官方解答开头那句的正确读法是「p=0 时概率为 1，p=1 时概率为 0」；结尾公式为 P_a{τ₀<∞} = 1（0 ≤ p ≤ 1/2），((1−p)/p)^a（1/2 < p ≤ 1）。由于题设是 P{X_i=1} = p、P{X_i=−1} = 1−p，**p=0 意味着每一步恒为 −1**，从 a>0 出发必然在有限步内降到 0，故概率为 1 完全正确，且与末式一致、与开头一致。上游报告写的「p=0 时应为 0（游走恒向上）」把 p 的语义弄反了（p 是 +1 的概率，不是 −1 的概率）。**该处不存在任何矛盾。**
-- 证据：.tmp\burn2026\txt\2020_Prob_Stat_probability_and_statistics_soln_20.txt 中 Problem 3 的 Solution 全文（我用 PowerShell 去 NUL 后逐字读取）；题面 P{X_i=1}=p、P{X_i=−1}=1−p 见该文件 Problem 3 正文。
+- 证据：/corpus/prelim/2020_Prob_Stat_probability_and_statistics_soln_20.txt 中 Problem 3 的 Solution 全文（我用 PowerShell 去 NUL 后逐字读取）；题面 P{X_i=1}=p、P{X_i=−1}=1−p 见该文件 Problem 3 正文。
 
 ---
 
@@ -622,7 +622,7 @@
 - 原文说法：papers.json 记 2013_TeamProblems2013.txt 为 multi_subject=True、n_problems=24（problems_index 中 2013 年 P&S 只有个人卷的 6 题）。
 - 核实结果：**该文件实际含 5 份团体卷共 30 题**（分析 6 + 几何 6 + 代数 6 + 应用 6 + 概率统计 6），第 10–12 页是 Probability and Statistics Problems / Team / Please solve 5 out of the following 6 problems（Problem 1–6）。丢失的 6 题是：(1) (cos t)² 是特征函数而 \|cos t\| 不是；(2) 单位区间上几乎处处 \|x − p/q\| ≥ 1/(q log q)² 对除有限多个有理数外成立；(3) X 与 E[X\|G] 同分布 ⇒ X = Y a.s.；(4) 双指数先验下的 Bayes 检验、a→∞ 极限与经典 p 值的比较；(5) Lasso 正交设计的软阈值与 λ–γ 关系；(6) 线性模型可估性（Xa=0 ⇔ a′β 不可估，X 满秩 ⇔ 所有 a′β 可估）。
 - 后果：任何基于 papers.json / problems_index / problems_enriched / near_duplicates / theme_clusters 的「2013 年统计」都漏掉这 6 题——其中包括**全语料唯一的特征函数正定性判据题**，以及**最早的一道 Lasso 题**（与个人卷 Q5 同日，构成 2013 年 Lasso 双发）。
-- 证据：grep «Probability and Statistics» 命中 .tmp\burn2026\txt\2013_TeamProblems2013.txt 第 413 行，该文件页眉共出现 5 次；papers.json 的 n_problems=24 与 probsubjects 只有 Analysis/Geometry/Algebra/Computational 四科。
+- 证据：grep «Probability and Statistics» 命中 corpus/prelim/2013_TeamProblems2013.txt 第 413 行，该文件页眉共出现 5 次；papers.json 的 n_problems=24 与 probsubjects 只有 Analysis/Geometry/Algebra/Computational 四科。
 - 交叉印证：上游 yau_2013-2015_analysis.md 自己正确读了这 30 题（它的表格写「6 选 5」并逐题列出），说明是**文本里有、结构化数据里没有**——数据管线缺陷，不是语料缺失。
 
 ---
@@ -647,7 +647,7 @@
 
 - 原文说法：家族 T13（2 题）把「2019 Probability Q3：ε_n 随机级数 f(x)=Σε_n x^n 在 [0,1) 上几乎必然无穷次取零」与「2019 Probability Q1：Exp(1) 序列 limsup X_n/log n = 1」判为同源文本家族。
 - 核实结果：两题唯一的共同点是模板句「Suppose (Xn)n≥1 is a sequence of i.i.d. random variables」。一题的工具是随机级数的零点集与独立性论证，另一题是尾概率与 Borel–Cantelli 的 0–1 律，数学内容无交集。同族的 T10（2016 个人 Q4 ↔ 2016 团体 Q4）同理，见本报告 §5.3。
-- 证据：.tmp\burn2026\txt\2019_ProbaStat2019_individual.txt 第 1 题与第 3 题、.tmp\burn2026\txt\2019_ProbaStat2019_team.txt 第 1 题的全文。
+- 证据：/corpus/prelim/2019_ProbaStat2019_individual.txt 第 1 题与第 3 题、/corpus/prelim/2019_ProbaStat2019_team.txt 第 1 题的全文。
 
 ---
 
@@ -699,10 +699,10 @@
 
 | # | 事项 | 说明 |
 |---|---|---|
-| S19 | 「2009 年」 | 任务书提到「2009→2026 统计独立成卷」，但 .tmp\burn2026\txt\ 与 F:\丘成桐大学生数学竞赛历年笔试真题\ **都没有 2009 年的任何文件**。本报告中「独立成卷」的可核查起点是 **2012 年**（2012_Probability2012_individual.txt / _team.txt）。2009 年是否办赛、科目如何划分，本语料无法回答 |
-| S20 | 2026 年真题的纸质来源 | F:\丘成桐大学生数学竞赛历年笔试真题\ 的年度子目录止于 **2025**；2026 年卷（2026_2026_statistics.txt 等）只存在于 .tmp\burn2026\txt\ 中 |
+| S19 | 「2009 年」 | 任务书提到「2009→2026 统计独立成卷」，但 corpus/prelim/ 与 sources/prelim\ **都没有 2009 年的任何文件**。本报告中「独立成卷」的可核查起点是 **2012 年**（2012_Probability2012_individual.txt / _team.txt）。2009 年是否办赛、科目如何划分，本语料无法回答 |
+| S20 | 2026 年真题的纸质来源 | sources/prelim\ 的年度子目录止于 **2025**；2026 年卷（2026_2026_statistics.txt 等）只存在于 corpus/prelim/ 中 |
 | S21 | 团体卷是否存在但未收录 | 2020–2026 的语料中没有任何 team 卷。若这些年份在现实中仍有团体赛，其试卷不在本次抽取范围内。**本报告一切「团体卷消失」的结论仅对本语料成立** |
-| S22 | 我的考点打标 | §2 的标签由我逐题人工判读（一题可挂 1–3 标签，137 题共 212 个标签实例）。打标粒度与边界（例如「渐近统计」与「估计理论」如何切分）带有主观性；每一条都可在 .tmp\burn2026\scripts\prob_ps_bodies.json 的全文上复核 |
+| S22 | 我的考点打标 | §2 的标签由我逐题人工判读（一题可挂 1–3 标签，137 题共 212 个标签实例）。打标粒度与边界（例如「渐近统计」与「估计理论」如何切分）带有主观性；每一条都可在 scripts\prob_ps_bodies.json 的全文上复核 |
 | S23 | 难度 | 本报告**刻意不给出难度自评分**。上游各报告的 1–5 难度均为单人自评、且相互不可比（2010–2012 的平均难度 3.15–3.50、2024–2026 的分科加权均值 3.66，口径不同）。本报告改用可复算的代理指标：题面字符数、小问数、指令动词、是否给 Hint、是否要求构造反例 |
 
 ---
@@ -729,7 +729,7 @@
 18. 数据管线缺陷 2 条：C4（problems_enriched.json 裁剪掉 2013/2016/2017/2018 多科目团体卷共 80 题）、C5（2013 团体卷概率统计 6 题从未进入任何结构化数据）。
 19. 从未考过的内容 14 类，其中最具复习含义的是：**鞅论从未作为正面考点**（题面 0 次）、**布朗运动 17 年只出现 1 次（2026 P4）**、**时间序列 / 生存分析 / 抽样调查 / 统计计算（EM、MCMC、bootstrap）全部为 0**。
 20. 复习优先级：A 级 8 项（P1 极限定理、P2 分布论与特征函数、P3 估计理论、P4 条件期望、P5 随机游走与 Markov 链、P6 概率不等式、P7 检验与区间、P8 经典随机模型）、B 级 5 项（P9–P13）、C 级 2 项（P14–P15）；100 小时的推荐顺序为 P2 → P1 → P5 → P3 → P8 → P6 → P4 → P7。
-21. 复跑：本报告全部数字可由 .tmp\burn2026\scripts\ 下 8 个自建脚本（subject_prob_rows_final.py、prob_final_numbers.py、prob_twins2.py、prob_twins3.py、subject_prob_terms2.py、prob_style3.py、prob_tag_table.py、subject_prob_stats.py）在 C:\Python314\python.exe 上复跑核对；逐题全文缓存在 .tmp\burn2026\scripts\prob_ps_bodies.json（137 条）。
+21. 复跑：本报告全部数字可由 scripts\ 下 8 个自建脚本（subject_prob_rows_final.py、prob_final_numbers.py、prob_twins2.py、prob_twins3.py、subject_prob_terms2.py、prob_style3.py、prob_tag_table.py、subject_prob_stats.py）在 python 上复跑核对；逐题全文缓存在 scripts\prob_ps_bodies.json（137 条）。
 
 ---
 

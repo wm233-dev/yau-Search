@@ -1,7 +1,7 @@
 # 丘成桐大学生数学竞赛 · Analysis & PDE 母题归并报告
 
-> **数据口径**：本报告基于 `E:\deepseek_exclusive\math\.tmp\burn2026\data\problems_full.json` 的**当前快照：全库 757 题**，其中 `subject == "Analysis & PDE"` 的 **155 题**（个人卷 individual 98 题 + 团体卷 team 57 题，涉 17 个年份 2010–2026）。机器可读的归并结果见 `data\mother_analysis.json`。
-> 归并前我用脚本把该科目 155 条题面按 (年份, 卷别, 题号) 导出成 `.tmp\burn2026\data\_ap_read.md`（1847 行 / 53 KB）**逐条通读**，所有成员条目均由 `problems_full.json` 校验存在性（脚本校验：155/155 全部命中，无一条编造）。
+> **数据口径**：本报告基于 `data\problems_full.json` 的**当前快照：全库 757 题**，其中 `subject == "Analysis & PDE"` 的 **155 题**（个人卷 individual 98 题 + 团体卷 team 57 题，涉 17 个年份 2010–2026）。机器可读的归并结果见 `data\mother_analysis.json`。
+> 归并前我用脚本把该科目 155 条题面按 (年份, 卷别, 题号) 导出成 `data\_ap_read.md`（1847 行 / 53 KB）**逐条通读**，所有成员条目均由 `problems_full.json` 校验存在性（脚本校验：155/155 全部命中，无一条编造）。
 
 ---
 
@@ -1832,4 +1832,4 @@ $Ae_1=0$ 意味着 $e_1$ 是特征值 $0$ 对应的特征向量，与题面"无�
 
 ---
 
-*报告完。机器可读版本：* `E:deepseek_exclusivemath.tmpurn2026datamother_analysis.json`*（66 个母题的 id / name / members / first / last / trend）。*
+*报告完。机器可读版本：* `data/mother_analysis.json`*（66 个母题的 id / name / members / first / last / trend）。*

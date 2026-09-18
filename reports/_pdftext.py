@@ -1,6 +1,6 @@
 
 import sys, os
-sys.path.insert(0, r'E:\deepseek_exclusive\math\pylibs')
+sys.path.insert(0, r'sources/pylibs')
 import fitz
 sys.stdout.reconfigure(encoding='utf-8')
 path = sys.argv[1]

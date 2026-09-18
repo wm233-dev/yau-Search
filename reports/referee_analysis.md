@@ -1,12 +1,12 @@
-# 对抗性审稿报告：<code>.tmp/burn2026/reports/solutions_analysis.md</code>
+# 对抗性审稿报告：<code>/reports/solutions_analysis.md</code>
 
 > **被审对象**：《丘成桐大学生数学竞赛 · 分析与偏微分方程 真题解题讲义》（10 道题）
 > **审稿人立场**：默认"有错"，逐题回原卷 PDF 核对题面、逐步审计证明、独立数值复算。
-> **原始试卷**：<code>F:\丘成桐大学生数学竞赛历年笔试真题\</code>（只读；经核实**只有 2010–2025，无 2026**，讲义对此的声明属实）。
-> **题库**：<code>.tmp/burn2026/data/problems_full.json</code>（本次审稿快照：**757 条记录**，其中 subject = "Analysis & PDE" 者 **155 道**）。
-> **全部数值结论的可复跑脚本**：<code>.tmp/burn2026/scripts/referee_verify.py</code>
-> 运行：<code>C:\Python314\python.exe .tmp\burn2026\scripts\referee_verify.py</code>（工作目录 <code>E:\deepseek_exclusive\math</code>）
-> 辅助脚本：<code>ref_pdf_dump.py</code>（10 道题的原卷 PDF 文本转储 → <code>.tmp/burn2026/work/ref_pdf_dump.txt</code>）、<code>ref_pdf_dump2.py</code>、<code>ref_pdf_2021b.py</code>、<code>ref_probe2/6/7/8.py</code>（题库检索）。
+> **原始试卷**：<code>sources/prelim\</code>（只读；经核实**只有 2010–2025，无 2026**，讲义对此的声明属实）。
+> **题库**：<code>/data/problems_full.json</code>（本次审稿快照：**757 条记录**，其中 subject = "Analysis & PDE" 者 **155 道**）。
+> **全部数值结论的可复跑脚本**：<code>/scripts/referee_verify.py</code>
+> 运行：<code>python scripts\referee_verify.py</code>（工作目录 <code></code>）
+> 辅助脚本：<code>ref_pdf_dump.py</code>（10 道题的原卷 PDF 文本转储 → <code>/archive/work/ref_pdf_dump.txt</code>）、<code>ref_pdf_dump2.py</code>、<code>ref_pdf_2021b.py</code>、<code>ref_probe2/6/7/8.py</code>（题库检索）。
 
 ---
 
@@ -365,7 +365,7 @@ $\int_{\partial B_\epsilon}\varphi\,\partial_rW\,d\sigma=\int_{\partial B_\epsil
 
 ### 题 10 —— 2026 · Individual · #1
 
-**题面核对**：**无法回原卷核对。** 已核实 <code>F:\丘成桐大学生数学竞赛历年笔试真题\</code> 下只有 2010–2025（17 个年份目录 + 1 个无关 png），**确实没有 2026**，讲义 §0.4/§12.1 的声明属实。题库文本（<code>2026_2026_analysis</code>，$n=1$）完整可读：
+**题面核对**：**无法回原卷核对。** 已核实 <code>sources/prelim\</code> 下只有 2010–2025（17 个年份目录 + 1 个无关 png），**确实没有 2026**，讲义 §0.4/§12.1 的声明属实。题库文本（<code>2026_2026_analysis</code>，$n=1$）完整可读：
 
 > <code>For any n ∈ N, define I_n := (1/n!)∫_{−π/2}^{π/2} (π²/4 − t²)^n cos t dt. (a) Prove I_{n+1} = 2(2n+1)I_n − π²I_{n−1}. (b) Show that π² ∉ Q.</code>
 
@@ -476,9 +476,9 @@ $\int_{\partial B_\epsilon}\varphi\,\partial_rW\,d\sigma=\int_{\partial B_\epsil
 
 | 文件 | 内容 |
 |---|---|
-| <code>.tmp/burn2026/scripts/referee_verify.py</code> | **全部数值结论的一键复算脚本**（题 1–10 共 10 组，含题 2 法三 keyhole 的数值围道积分、题 9 真实比值表） |
-| <code>.tmp/burn2026/scripts/ref_pdf_dump.py</code> → <code>.tmp/burn2026/work/ref_pdf_dump.txt</code> | 10 道题对应原卷 PDF 的文本转储（题面逐字核对的依据） |
-| <code>.tmp/burn2026/scripts/ref_pdf_dump2.py</code>、<code>ref_pdf_2021b.py</code> → <code>.tmp/burn2026/work/ref_pdf_dump2.txt</code>、<code>ref_pdf_2021.txt</code> | 2014/2016/2019/2021 卷 PDF 转储（用于核对"同类题"与"重复出题"的断言） |
-| <code>.tmp/burn2026/scripts/ref_probe2/6/7/8.py</code> | 题库检索脚本（提取 10 道题原文、核对被引用的其他题目、核对题库条数与边界粘连断言） |
+| <code>/scripts/referee_verify.py</code> | **全部数值结论的一键复算脚本**（题 1–10 共 10 组，含题 2 法三 keyhole 的数值围道积分、题 9 真实比值表） |
+| <code>/scripts/ref_pdf_dump.py</code> → <code>/archive/work/ref_pdf_dump.txt</code> | 10 道题对应原卷 PDF 的文本转储（题面逐字核对的依据） |
+| <code>/scripts/ref_pdf_dump2.py</code>、<code>ref_pdf_2021b.py</code> → <code>/archive/work/ref_pdf_dump2.txt</code>、<code>ref_pdf_2021.txt</code> | 2014/2016/2019/2021 卷 PDF 转储（用于核对"同类题"与"重复出题"的断言） |
+| <code>/scripts/ref_probe2/6/7/8.py</code> | 题库检索脚本（提取 10 道题原文、核对被引用的其他题目、核对题库条数与边界粘连断言） |
 
 *（本报告所有数值结论均可由上述脚本复跑得到；所有"题面一致"的判定均基于 <code>F:</code> 盘原卷 PDF 的 PyMuPDF 文本抽取，无一处仅凭题库文本推断；题 10 因原卷缺失，明确标注为"无法核对"。被审阅的报告 <code>solutions_analysis.md</code> 未被修改。）*

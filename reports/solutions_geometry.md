@@ -1,9 +1,9 @@
 # 丘成桐大学生数学竞赛 · 几何与拓扑 (Geometry and Topology) 真题解题讲义
 
-> **素材来源**：`.tmp/burn2026/data/problems_full.json`（757 道真题的结构化抽取，其中 Geometry & Topology **156** 道）。
+> **素材来源**：`data/problems_full.json`（757 道真题的结构化抽取，其中 Geometry & Topology **156** 道）。
 > ✅ 已按 referee_geometry.md 修正（原表述：其中 Geometry & Topology 159 道——按当前 problems_full.json 实测为 156 道）
 > **题面核对**：本讲义全部 10 道题的题面均已回到原始试卷 PDF 逐字核对（PDF 位于
-> `F:\丘成桐大学生数学竞赛历年笔试真题`，抽取脚本见 `.tmp/burn2026/check_pdfs*.py`）。
+> `sources/prelim`，抽取脚本见 `/check_pdfs*.py`）。
 > 抽取文本对上下标有损（例如 `x2 + y2` 实为 $x^2+y^2$），凡此类处均已按 PDF 校正；
 > PDF 原文中的拼写错误（如 2010 年卷的 `contsant`、`disctance`）原样保留并标注。
 > **难度**为 1–5 的主观标度（1 最易，5 最难），依据是"竞赛考场上 25 分钟内能否完整写出证明"。
@@ -12,7 +12,7 @@
 
 ## 审稿状态（referee 回填）
 
-> **审稿报告**：`.tmp/burn2026/reports/referee_geometry.md`（含逐步骤审计、反例与可复跑脚本）
+> **审稿报告**：`reports/referee_geometry.md`（含逐步骤审计、反例与可复跑脚本）
 > **裁定统计**：VERIFIED **4 道**（第 2、3、5、7 题）· MINOR-FIX **6 道**（第 1、4、6、8、9、10 题）· SERIOUS-ERROR 0 · UNVERIFIED 0。
 > **修正日期**：2026-09-18。本次回填共 13 处，每处下方以 `> ✅ 已按 referee_geometry.md 修正（原表述：……）` 标出。
 > **结论可信度**：十道题的**主证明与最终答案全部通过复核**（0 道需要整题重做）；修正全部落在引理陈述、缺失前提与补充旁证上。
@@ -24,7 +24,7 @@
 > - **第 9 题**：$\pi_1=F_3$ 可信（两条独立推导），但"柄体的外部是柄体"是错误概括，已替换为同伦推出论证。
 > - **第 1 题**：覆叠判据引理的假设已补全（需 $\widetilde M$ 连通且可定向），第 2 步的定向符号论证已改为严谨写法。
 >
-> **数据口径提醒**：题面 PDF 的 2026 年卷不在 `F:\丘成桐大学生数学竞赛历年笔试真题`（该目录只有 2010–2025），而在 `.tmp\yau\2010-2026历年笔试真题\2026\`；已按其核对，题面逐字一致。
+> **数据口径提醒**：题面 PDF 的 2026 年卷不在 `sources/prelim`（该目录只有 2010–2025），而在 `sources/prelim\2026\`；已按其核对，题面逐字一致。
 
 ---
 
@@ -731,7 +731,7 @@ $$P\big|_{\gamma'(0)^\perp}\in SO(n-1),\qquad \det\big(P|_{\gamma'(0)^\perp}\big
   `2010/GeometryTopology-indi.pdf`、`2011/3.GeomTop-Individual-2011.pdf`、`2013/geometry2013(individual).pdf`、
   `2013/TeamProblems2013.pdf`（第 3 页）、`2016/geometry2016-individual.pdf`、`2018/geometry2018-individual.pdf`、
   `2019/Geometry2019-team.tex`、`2022/ExamPaper_2022/geometry_and_topology_22s.pdf`、`2026/2026 Geo_Topology.pdf`。
-  抽取脚本与抽取结果留存于 `.tmp/burn2026/check_pdfs.py`、`check_pdfs2.py`、`check_pdfs3.py` 与
+  抽取脚本与抽取结果留存于 `/check_pdfs.py`、`check_pdfs2.py`、`check_pdfs3.py` 与
   `pdf_check1.txt`、`pdf_check2.txt`、`pdf_check3.txt`。
 
 

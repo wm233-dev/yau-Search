@@ -1,7 +1,7 @@
-# 对抗性审稿报告：`.tmp/burn2026/reports/solutions_algebra.md`
+# 对抗性审稿报告：`reports/solutions_algebra.md`
 
 **审稿人角色**：referee（对抗性）。默认假设"有错"，对每一步追问依据的定理、条件是否满足、有无反例、边界情形（$p=2$、$n=1$、退化、空集）是否处理。
-**被审对象**：`.tmp/burn2026/reports/solutions_algebra.md`（1134 行，10 道丘成桐大学生数学竞赛「代数与数论」真题详解）。**本报告不修改被审文件**。
+**被审对象**：`reports/solutions_algebra.md`（1134 行，10 道丘成桐大学生数学竞赛「代数与数论」真题详解）。**本报告不修改被审文件**。
 
 ---
 
@@ -9,11 +9,11 @@
 
 | 项目 | 本报告采用的口径 / 手段 |
 |---|---|
-| 题库快照 | `.tmp/burn2026/data/problems_full.json`，**当前共 757 条**；其中 `subject == "Algebra & Number Theory"` 的为 **149 条**（讲义正文写"150 条"，见 §3.5；年份范围 2010–2026，共 **17** 个年份，这条与讲义一致） |
-| 原卷 PDF | `F:\丘成桐大学生数学竞赛历年笔试真题`（只读），含 2010–**2025** 共 16 个年份目录，**无 2026 目录**；官方解答 PDF 只存在于 `2020 / 2021 / 2022` 三年 |
+| 题库快照 | `data/problems_full.json`，**当前共 757 条**；其中 `subject == "Algebra & Number Theory"` 的为 **149 条**（讲义正文写"150 条"，见 §3.5；年份范围 2010–2026，共 **17** 个年份，这条与讲义一致） |
+| 原卷 PDF | `sources/prelim`（只读），含 2010–**2025** 共 16 个年份目录，**无 2026 目录**；官方解答 PDF 只存在于 `2020 / 2021 / 2022` 三年 |
 | 题面核对 | 用 PyMuPDF 从原卷 PDF 逐字提取（`_extract_pdfs.py` / `_extract2.py`），与讲义题面**逐句比对**；题 10（2026）无原卷可查，只做到 JSON 级比对 |
 | 数值/穷举复核 | 全部由本报告附带的脚本产生，**可复跑**：`checkA.py`（题 1,2,4,5）、`checkB.py`（题 3,6,7,9,10）、`checkC.py`（题 8 + 元数据）、`checkD.py`（交叉引用/抽取残缺） |
-| 复跑命令 | 在 `E:\deepseek_exclusive\math` 下：`C:\Python314\python.exe .tmp\burn2026\referee\checkA.py`（checkB/checkC/checkD 同理）；PDF 提取：`$env:PYTHONPATH='E:\deepseek_exclusive\math\pylibs'; C:\Python314\python.exe .tmp\burn2026\referee\_extract_pdfs.py` |
+| 复跑命令 | 在 `` 下：`python scripts/verification/checkA.py`（checkB/checkC/checkD 同理）；PDF 提取：`$env:PYTHONPATH='sources/pylibs'; python scripts/verification/_extract_pdfs.py` |
 | 无第三方库 | 只用 Python 标准库（`fractions` / `math` / `itertools`），**未安装任何包**（sympy 不可用，故所有代数验证均为手写精确算术） |
 
 **审稿结论的力度声明**：本报告中所有"已验证"的断言都有脚本输出支撑；所有"成立/不成立"的判定都给出依据的定理或反例。凡我无法判定的，一律写进 §5 存疑清单，不凑数。
@@ -294,7 +294,7 @@ $p\le 97$ 中使 $f \bmod p$ 不可约的素数 = $\{11,\ 53,\ 59,\ 79,\ 97\}$�
 
 ### 题 10｜2026 / Algebra and Number Theory / Individual / 第 2 题
 
-**题面核对**：本地归档 `F:\丘成桐大学生数学竞赛历年笔试真题` **只有 2010–2025 共 16 个年份目录，没有 2026**（已用 `Get-ChildItem` 确认），故**无法对原卷复核**——讲义自己在 §4.1 已如实标注，态度正确。与 `problems_full.json` 的抽取文本逐句比对：方程、$N_p$ 的定义、$m\in\mathbb Z_{\ge1}$ 与 $X_m$、$\chi(0)$ 的约定、$J(\chi,\mu):=\sum_{a+b=1}\chi(a)\mu(b)$、$|J(\chi,\mu)|=\sqrt p$ 的提示、(1)(2)(3) 三问的文字与顺序，**全部一致**（仅标点/排版被清理）。**内容自足，无需改动**；风险仅在于无法排除原卷标点细节差异。
+**题面核对**：本地归档 `sources/prelim` **只有 2010–2025 共 16 个年份目录，没有 2026**（已用 `Get-ChildItem` 确认），故**无法对原卷复核**——讲义自己在 §4.1 已如实标注，态度正确。与 `problems_full.json` 的抽取文本逐句比对：方程、$N_p$ 的定义、$m\in\mathbb Z_{\ge1}$ 与 $X_m$、$\chi(0)$ 的约定、$J(\chi,\mu):=\sum_{a+b=1}\chi(a)\mu(b)$、$|J(\chi,\mu)|=\sqrt p$ 的提示、(1)(2)(3) 三问的文字与顺序，**全部一致**（仅标点/排版被清理）。**内容自足，无需改动**；风险仅在于无法排除原卷标点细节差异。
 
 **关键步骤审计**
 
@@ -417,12 +417,12 @@ $p\le 97$ 中使 $f \bmod p$ 不可约的素数 = $\{11,\ 53,\ 59,\ 79,\ 97\}$�
 
 | 脚本 | 覆盖 | 关键输出 |
 |---|---|---|
-| `.tmp/burn2026/referee/checkA.py` | 题 1、2、4、5 | 交换子恒等式（6 组随机整数矩阵）；Eisenstein 与 $f\bmod p$ 不可约性扫描；$D_{26}$ 全部 676 组生成元像 ⇒ $|\mathrm{Aut}|=156$；$K=\mathbb Q(i,\alpha)$ 的 10 个子域与 24 条包含关系（精确算术） |
-| `.tmp/burn2026/referee/checkB.py` | 题 3、6、7、9、10 | 99 阶群 Sylow 算术；16 个交换群的全部内同态 + Fitting 分解与唯一性穷举；$p\le3000$ Fibonacci 整除扫描与 $|\ker N|=p+1$；$y\le2\times10^6$ 无解 + 模 $p^n$ 可解性 + $N_a$ 扫描；$p\le2000$ 点数与 80 个素数的 Jacobi 和精确核对 |
-| `.tmp/burn2026/referee/checkC.py` | 题 8 + 元数据 | Eisenstein 系数、$\mathrm{Tr}$、$\mathcal N$、判别式 $\pm p^{p-2}$（$p\le17$）、(d) 的 2700 组随机恒等式与 $a_0$ 归约；题库条数与年份 |
-| `.tmp/burn2026/referee/checkD.py` | 元数据与交叉引用 | `subject` 分布（Algebra = 149）、2017/2019 team 抽取残缺核查、18 条交叉引用原文 |
-| `.tmp/burn2026/referee/_extract_pdfs.py`、`_extract2.py` | 题面核对 | 9 份原卷 PDF 的逐字文本（含 2022 官方解答） |
+| `scripts/verification/checkA.py` | 题 1、2、4、5 | 交换子恒等式（6 组随机整数矩阵）；Eisenstein 与 $f\bmod p$ 不可约性扫描；$D_{26}$ 全部 676 组生成元像 ⇒ $|\mathrm{Aut}|=156$；$K=\mathbb Q(i,\alpha)$ 的 10 个子域与 24 条包含关系（精确算术） |
+| `scripts/verification/checkB.py` | 题 3、6、7、9、10 | 99 阶群 Sylow 算术；16 个交换群的全部内同态 + Fitting 分解与唯一性穷举；$p\le3000$ Fibonacci 整除扫描与 $|\ker N|=p+1$；$y\le2\times10^6$ 无解 + 模 $p^n$ 可解性 + $N_a$ 扫描；$p\le2000$ 点数与 80 个素数的 Jacobi 和精确核对 |
+| `scripts/verification/checkC.py` | 题 8 + 元数据 | Eisenstein 系数、$\mathrm{Tr}$、$\mathcal N$、判别式 $\pm p^{p-2}$（$p\le17$）、(d) 的 2700 组随机恒等式与 $a_0$ 归约；题库条数与年份 |
+| `scripts/verification/checkD.py` | 元数据与交叉引用 | `subject` 分布（Algebra = 149）、2017/2019 team 抽取残缺核查、18 条交叉引用原文 |
+| `scripts/verification/_extract_pdfs.py`、`_extract2.py` | 题面核对 | 9 份原卷 PDF 的逐字文本（含 2022 官方解答） |
 
-**被审文件**：`.tmp/burn2026/reports/solutions_algebra.md`（未被本报告修改）
-**本报告**：`.tmp/burn2026/reports/referee_algebra.md`
+**被审文件**：`reports/solutions_algebra.md`（未被本报告修改）
+**本报告**：`reports/referee_algebra.md`
 **审稿口径**：problems_full.json 当前快照（757 条，Algebra & Number Theory 149 条）；原卷 PDF 只读复核 2010–2019、2022 共 9 题。

@@ -2,9 +2,9 @@
 # 2024–2026 笔试真题深度分析报告
 
 - **负责时段**：2024、2025、2026 三个年份（共 18 份卷子，全部为个人赛卷）
-- **语料目录**：E:\deepseek_exclusive\math\.tmp\burn2026\txt\
-- **统计脚本**：E:\deepseek_exclusive\math\.tmp\burn2026\scripts\yau_2024_2026_stats.py
-- **统计原始输出**：E:\deepseek_exclusive\math\.tmp\burn2026\reports\stats_2024_2026.md
+- **语料目录**：/corpus/prelim/
+- **统计脚本**：\scripts\yau_2024_2026_stats.py
+- **统计原始输出**：\reports\stats_2024_2026.md
 - **分析方法**：全文人工精读 18 卷 → Python 脚本做结构/词频/趋势量化 → 人工校核题量与小问数
 - **重要前提**：语料为 PyMuPDF 从 PDF 抽取的纯文本，公式的上下标、希腊字母、根号、矩阵括号存在错乱。本报告中所有数学内容均以抽取文本为准，凡有疑虑处一律标注，**不凭猜测补全题目**。
 
@@ -257,8 +257,8 @@
 ### 2.1 数据来源与口径说明
 
 - 统计对象：2024–2026 共 **18 份 txt、69215 个抽取字符**。
-- 统计方法：Python 脚本（.tmp/burn2026/scripts/yau_2024_2026_stats.py）对规范化后的文本做**大小写不敏感的子串计数**。
-- ⚠️ **口径警告**：子串计数会过计数。例如 norm 会命中 normal / normalized；prime 会命中 primitive；character 会命中 characteristic；wave 会命中 wave packet / wavefunction；metric 会命中 geometric 的一部分。因此下表的数字应读作**「该词族的出现次数」**，用于横向比较趋势，不能当作严格的术语计数。原始逐词统计见 .tmp/burn2026/reports/stats_2024_2026.md。
+- 统计方法：Python 脚本（/scripts/yau_2024_2026_stats.py）对规范化后的文本做**大小写不敏感的子串计数**。
+- ⚠️ **口径警告**：子串计数会过计数。例如 norm 会命中 normal / normalized；prime 会命中 primitive；character 会命中 characteristic；wave 会命中 wave packet / wavefunction；metric 会命中 geometric 的一部分。因此下表的数字应读作**「该词族的出现次数」**，用于横向比较趋势，不能当作严格的术语计数。原始逐词统计见 reports/stats_2024_2026.md。
 
 ### 2.2 通用题型动词（三年合计）
 
@@ -827,17 +827,17 @@
 
 | 路径 | 内容 |
 |---|---|
-| .tmp/burn2026/scripts/yau_2024_2026_stats.py | 最终统计脚本：反混淆、结构统计、关键词频次、趋势指标，输出 stats_2024_2026.md |
-| .tmp/burn2026/scripts/yau_stats_v2.py | 中间版本：题量计数修正与趋势指标的探测脚本 |
-| .tmp/burn2026/reports/stats_2024_2026.md | 脚本自动生成的统计表（287 行），本报告第 2 节数据的直接来源 |
-| .tmp/burn2026/reports/yau_2024_2026_deep_analysis.md | 本报告 |
+| scripts/yau_2024_2026_stats.py | 最终统计脚本：反混淆、结构统计、关键词频次、趋势指标，输出 stats_2024_2026.md |
+| scripts/yau_stats_v2.py | 中间版本：题量计数修正与趋势指标的探测脚本 |
+| reports/stats_2024_2026.md | 脚本自动生成的统计表（287 行），本报告第 2 节数据的直接来源 |
+| reports/yau_2024_2026_deep_analysis.md | 本报告 |
 
 ### 6.2 运行方式
 
-脚本使用本机 Python 3.14（C:\Python314\python.exe），仅依赖标准库（os / re / collections），无需 PyMuPDF。运行命令（在 E:\deepseek_exclusive\math 下）：
+脚本使用本机 Python 3.14（python），仅依赖标准库（os / re / collections），无需 PyMuPDF。运行命令（在  下）：
 
-    $env:PYTHONPATH = 'E:\deepseek_exclusive\math\pylibs'
-    C:\Python314\python.exe .tmp\burn2026\scripts\yau_2024_2026_stats.py
+    $env:PYTHONPATH = 'sources/pylibs'
+    python scripts\yau_2024_2026_stats.py
 
 ### 6.3 文本规范化流程（脚本中的 load 函数）
 
@@ -898,4 +898,4 @@
 
 ---
 
-*报告完 — 全部数字均可由 .tmp/burn2026/scripts/yau_2024_2026_stats.py 重跑复现。*
+*报告完 — 全部数字均可由 scripts/yau_2024_2026_stats.py 重跑复现。*

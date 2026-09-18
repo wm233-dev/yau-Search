@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json, re
-base = 'E:/deepseek_exclusive/math/.tmp/burn2026/data/'
+base = './data/'
 p = json.load(open(base+'problems_full.json', encoding='utf-8'))
 def g(y,paper,n):
     for x in p:

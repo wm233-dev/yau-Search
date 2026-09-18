@@ -430,7 +430,7 @@
 
 | 优先级 | 考点 | 性价比理由 | 建议练习来源 |
 |---|---|---|---|
-| **A1** | **有限群结构 + Sylow（含阶数分类、可解性、共轭类计数）** | 12 个年份、16 题次，**17 年中只有 2020–2022、2024、2026 缺席**；题目判分最客观、套路最固定（Sylow 计数 + 正规子群论证），是"必得分项"。复现率最高（2 对逐字重复题都在这里） | ① 真题：`F:\丘成桐大学生数学竞赛历年笔试真题\2010..2025` 中各年代数卷（尤其 2010T5/2011I6/2011T5/2012T2/2012I2/2013I1/2014T4/2016I5/2018I3/2023Q1）；② `一些数学书\数学\群论\群论(冯克勤).pdf`、`群论引论(美国).pdf`；③ `一些数学书\数学\Graduate Texts in Mathematics(GTM)\GTM 148 ... Rotman - An Introduction to the Theory of Groups.pdf`、`GTM 062 ... Fundamentals of the Theory of Groups.pdf`；④ `一些数学书\数学\抽象代数学\抽象代数学题解.pdf`（题量大、答案完整） |
+| **A1** | **有限群结构 + Sylow（含阶数分类、可解性、共轭类计数）** | 12 个年份、16 题次，**17 年中只有 2020–2022、2024、2026 缺席**；题目判分最客观、套路最固定（Sylow 计数 + 正规子群论证），是"必得分项"。复现率最高（2 对逐字重复题都在这里） | ① 真题：`sources/prelim\2010..2025` 中各年代数卷（尤其 2010T5/2011I6/2011T5/2012T2/2012I2/2013I1/2014T4/2016I5/2018I3/2023Q1）；② `一些数学书\数学\群论\群论(冯克勤).pdf`、`群论引论(美国).pdf`；③ `一些数学书\数学\Graduate Texts in Mathematics(GTM)\GTM 148 ... Rotman - An Introduction to the Theory of Groups.pdf`、`GTM 062 ... Fundamentals of the Theory of Groups.pdf`；④ `一些数学书\数学\抽象代数学\抽象代数学题解.pdf`（题量大、答案完整） |
 | **A2** | **Galois 理论：分裂域次数、Galois 群计算、子域格、逆 Galois** | 9 个年份、13 题次，**2010/2011/2013/2015/2016/2017/2019/2021/2025 出现**；题型高度模板化（判别式定是否 ⊆ Aₙ、根的实/复分布定换位、Eisenstein 定不可约） | ① 真题：2010I4、2013T6、2015I3、2015T6、2016T3、2021Q2、2025Q1、2025Q5；② `一些数学书\数学\域论\域论基础(郝鈵新).pdf`、`域论(戴执中).pdf`；③ `GTM 032 ... Jacobson - Lectures in Abstract Algebra - III. Theory of Fields and Galois Theory.pdf`、`GTM 167 ... Morandi - Field and Galois Theory.pdf`、`GTM 101 ... Edwards - Galois Theory.pdf`、`GTM 016 ... Winter - The Structure of Fields.pdf` |
 | **A3** | **代数数论：判别式、整基、素理想分解律、Dedekind 整环** | 11 个年份、15 题次，**2026 仍在考**；近年权重持续上升（2022Q6、2024Q6、2025Q5、2026Q4 连续四年）；技术链固定，有现成模板 | ① 真题：2015I3、2018I2、2021Q5、2022Q4、2022Q5、2022Q6、2024Q6、2025Q5、2026Q3、2026Q4；② `一些数学书\数学\代数\代数数论(潘承洞).pdf`；③ `GTM 190 ... Murty, Esmonde - Problems in Algebraic Number Theory.pdf`（**最贴合本考点的习题集**）、`GTM 110 ... Lang - Algebraic Number Theory.pdf`、`GTM 084 ... Ireland, Rosen - A Classical Introduction to Modern Number Theory.pdf`、`GTM 077 ... Hecke - Lectures on the Theory of Algebraic Numbers.pdf` |
 | **A4** | **p 进：Z_p/Q_p 的代数结构、exp/log、Teichmüller、完备性/球完备** | 8 个年份、9 题次；**2017、2018、2020、2021、2023、2024 六年间几乎年年出现**；且与 A5（局部域）咬合，一份准备覆盖两个考点 | ① 真题：2012T6、2015I4、2017I1、2018I5、2020Q5、2020Q6、2021Q6、2023Q5、2024Q5；② `GTM 007 ... Serre - A Course in Arithmetic.pdf`（**p 进与二次型的最佳入门**）、`GTM 058 ... Koblitz - p-adic Numbers, p-adic Analysis, and Zeta-Functions.pdf`、`GTM 067 ... Serre - Local Fields.pdf` |
@@ -521,7 +521,7 @@
   | 2012I3 ⇔ 2014T5（不变量空间） | 0.120 | 6 | ❌ | 低于 0.15 |
   | 2014I5 ⇔ 2017I4（Chevalley–Warning） | **0.000** | 0 | ❌ | 命题人重写措辞 |
   | 2011T5 ⇔ 2012T2（GL₃(F₇)，逐字） | 1.000 | 25 | ✅ | — |
-- **证据**：我用 `analyze_corpus2.py` 的 `PROB_RE`/`best_run`/`split_problems`/`shingles` **原样复现**后逐对计算，脚本落盘于 `.tmp\burn2026\scripts\_tmp_dup2.py`（本次新建，未改动任何原有文件）。
+- **证据**：我用 `analyze_corpus2.py` 的 `PROB_RE`/`best_run`/`split_problems`/`shingles` **原样复现**后逐对计算，脚本落盘于 `scripts\_tmp_dup2.py`（本次新建，未改动任何原有文件）。
 - **影响面**：**任何"丘赛重复题很少"的结论都会被这个数据文件系统性低估**。人工核对的结果是：**代数 150 题中至少 14 题（9.3%）属于复现或孪生**（见 §5.1、§5.3）。
 
 ### E5（**口径差异，非事实错误；引用时需声明**）
@@ -561,8 +561,8 @@
 | U10 | **难度自评的跨报告可比性** | 6 份批次报告各自用 1–5 自评难度，且**口径未统一**（`2010-2012` 报告 2012 代数平均 3.50；`stats_2024_2026`/deep 报告 2024 代数平均 4.00）。同一道"Sylow 型"题在 2010 报告里是 2 分、在 2024 报告里是 3 分 | **不可横向比较**。本报告一律使用机器难度代理并声明其局限 |
 | U11 | **"科目名含 Combinatorics" 的边界** | 2010 卷名为 "Algebra, Number Theory and Combinatorics"，2011 起为 "Algebra, Number Theory and Combinatorics"（2011 卷面仍含 Combinatorics），2012 起改为 "Algebra and Number Theory"。但 2010 个人 Q5（子集和生成函数）是**纯组合题**，是否应计入代数科目 | 我按 `stats_overview.md` 的矩阵口径全部计入（150 题）；**若按"纯代数/数论"重算，应剔除 2010 个人 Q5，合计 149 题** |
 | U12 | **200 字符以下的短题统计** | 我用归一化字符数统计"≤100 字符的题"，2010–2012 有 6 道；但归一化会略微缩短题面，**若用原始字符数这个数字会变成 5 或 6** | 影响极小，仅在此声明 |
-| U13 | **2026 卷是否完整** | `F:\丘成桐大学生数学竞赛历年笔试真题\` 下只有 2010–2025 共 16 个年份目录，**2026 只存在于 `.tmp\burn2026\txt\` 的抽取文本中** | 本报告的 2026 数据全部来自抽取 txt；**无法用原始 PDF 交叉验证 2026**，U1 因此无法通过回查原卷解决（需找到 2026 的 PDF 来源） |
-| U14 | **2013 团体代数段的还原** | 2013 团体卷在一个 txt 内含 5 份卷，`papers.json` 把它整体切成 24 题（`Mixed/Team(multi-subject)`），代数段 6 题被并入巨大的 `Q6` 块（11,661 字符） | 我改用"从 `Algebra and Number Theory` 标题到下一个 `College Student Mathematics Contests` 标题"重新切分（脚本 `.tmp\burn2026\scripts\_tmp_team_algebra.py`），得到 6 题 1,686 字符；**这是我的切分口径，与 `papers.json` 不同** |
+| U13 | **2026 卷是否完整** | `sources/prelim\` 下只有 2010–2025 共 16 个年份目录，**2026 只存在于 `corpus/prelim/` 的抽取文本中** | 本报告的 2026 数据全部来自抽取 txt；**无法用原始 PDF 交叉验证 2026**，U1 因此无法通过回查原卷解决（需找到 2026 的 PDF 来源） |
+| U14 | **2013 团体代数段的还原** | 2013 团体卷在一个 txt 内含 5 份卷，`papers.json` 把它整体切成 24 题（`Mixed/Team(multi-subject)`），代数段 6 题被并入巨大的 `Q6` 块（11,661 字符） | 我改用"从 `Algebra and Number Theory` 标题到下一个 `College Student Mathematics Contests` 标题"重新切分（脚本 `scripts\_tmp_team_algebra.py`），得到 6 题 1,686 字符；**这是我的切分口径，与 `papers.json` 不同** |
 
 ---
 
@@ -591,4 +591,4 @@
 
 ---
 
-*本报告所有计数与字符统计由 `.tmp\burn2026\scripts\_tmp_algebra_full.py`、`_tmp_topic_freq.py`、`_tmp_dup2.py`（本次新建，未修改任何已有文件）复算；题面引用一律来自 `.tmp\burn2026\txt\` 的抽取文本，凡涉及被抽取破坏的符号均已标注。*
+*本报告所有计数与字符统计由 `scripts\_tmp_algebra_full.py`、`_tmp_topic_freq.py`、`_tmp_dup2.py`（本次新建，未修改任何已有文件）复算；题面引用一律来自 `corpus/prelim/` 的抽取文本，凡涉及被抽取破坏的符号均已标注。*

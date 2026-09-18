@@ -166,7 +166,7 @@ Sn−1.
 附件/试卷 7
 Appendix/Contest Paper 7
 
- 
+
 Geometry and Topology, 2011-Team
 2
 
@@ -348,7 +348,7 @@ closed curve C on M, the total torsion of C is always an integer, then
 M is a part of a sphere or a plane.
 1
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2013
 
 ### 2014 | individual | n=1 | 2014_geometry2014_individual | chars=200
@@ -599,7 +599,7 @@ Denote by S the squared length of the second fundamental form of M. Show that
 S = 0, or S ≥n.
 1
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2016
 
 ### 2017 | individual | n=1 | 2017_geometry2017_individual | chars=165
@@ -661,7 +661,7 @@ C satisfies
 1
 √
 EG −F 2
-
+
 dv
 ds
 2
@@ -678,7 +678,7 @@ G
 L
 M
 N
-
+
 .
 
 ### 2017 | team | n=4 | 2017_2017_team | chars=234
@@ -697,7 +697,7 @@ On a Riemannian manifold, if f is a smooth function such that |gradf| = 1. Show
 that the integral curves of gradf are geodesics.
 1
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2017
 
 ### 2018 | individual | n=1 | 2018_geometry2018_individual | chars=416
@@ -777,7 +777,7 @@ If the sectional curvature KM of M satisfies
 then M is homeomorphic to Sn.
 1
 
- 
+
 S.-T. Yau College Student Mathematics Contests 2018
 
 ### 2019 | individual | n=1 | 2019_Geometry2019_individual | chars=393
@@ -943,17 +943,17 @@ constant less than 1.
 (a) For 2 ≤α ≤n, which one of the following,
 t ∂
 ∂xα
-
+
 γ(t)
 or
 ∂
 ∂xα
-
+
 γ(t)
 ,
 is a Jacobi field along γ(t)? Prove your assertion.
 
- 
+
 (b) Denote
 gij =
 D ∂
@@ -969,7 +969,7 @@ at the point p.
 (c) Show that
 max
 0≤t ≤δ
-
+
 ∂g22
 ∂x1 (γ(t))
  ≤CδA,
@@ -1312,14 +1312,14 @@ bi(US2026; Z2) ti,
 where bi(US2026; Z2) denotes the i-th Betti number.
 1
 
- 
+
 2
 (3) Let p, q ∈S2026 be two non-antipodal points. Consider the space of piecewise
 smooth paths from p to q,
 Ω(S2026; p, q) =
 
 γ : [0, 1] →S2026 | γ(0) = p, γ(1) = q
- 
+
 ,
 equipped with the energy functional
 E(γ) = 1

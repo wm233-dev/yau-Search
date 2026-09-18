@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# yau-Search project additions
+# ---------------------------------------------------------------------------
+
+# Original contest PDFs are not redistributed (see NOTICE.md); put your own
+# copy under sources/ and it will stay out of version control.
+sources/
+*.pdf
+
+# Local scratch output produced by re-running the pipeline
+archive/derived/_scratch/
+*.bak
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

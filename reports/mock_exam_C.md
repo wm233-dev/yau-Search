@@ -1,14 +1,14 @@
 # 丘成桐大学生数学竞赛（笔试/初赛）· 仿真模拟卷 C
 ## 科目：计算与应用数学 + 数学物理
 
-> **落盘位置**：.tmp/burn2026/reports/mock_exam_C.md
-> **配套可复跑校验脚本**：.tmp/burn2026/work/_mockC_check.py（本卷所有需要"算到数"的答案都用它做过独立数值/代数交叉校验，见 §2 各题的【校验】行）
+> **落盘位置**：/reports/mock_exam_C.md
+> **配套可复跑校验脚本**：/archive/work/_mockC_check.py（本卷所有需要"算到数"的答案都用它做过独立数值/代数交叉校验，见 §2 各题的【校验】行）
 
 ---
 
 ## 口径声明（读本卷前必读）
 
-**1. 题面来源与数据口径。** 全部题面取自 .tmp/burn2026/data/problems_full.json。本回合启动时实测该文件为 **757 题**（字段 year / subject / paper / kind / n / chars / text），科目分布为：Algebra & Number Theory 149、Analysis & PDE 155、Probability & Statistics 133、Geometry & Topology 156、**Computational & Applied 135**、**Mathematical Physics 29**。任务书提到的 751 / 758 旧快照与本次实测不同，**本卷一律以 757 题口径为准**。
+**1. 题面来源与数据口径。** 全部题面取自 data/problems_full.json。本回合启动时实测该文件为 **757 题**（字段 year / subject / paper / kind / n / chars / text），科目分布为：Algebra & Number Theory 149、Analysis & PDE 155、Probability & Statistics 133、Geometry & Topology 156、**Computational & Applied 135**、**Mathematical Physics 29**。任务书提到的 751 / 758 旧快照与本次实测不同，**本卷一律以 757 题口径为准**。
 
 **2. 两处必须说明的口径差异（本卷不受影响，但引用数字时会踩坑）。**
 
@@ -439,7 +439,7 @@ Klein 圆盘模型用单位圆盘内的坐标 (x₁, x₂) 给出非欧几何的
 - FE：|1 + μkλ_l| ≤ 1 ∀l ⟺ 0 ≤ −μkλ_l ≤ 2 ∀l ⟺ μk·(4/h²) ≤ 2（λ_l 的最小值为 −4/h²，在 l = N/2 取得）⟺ **k ≤ h²/(2μ)**。
 - CN：对 x = μkλ_l ≤ 0，增益 g = (1+x)/(1−x) 满足 |g| ≤ 1（x ≤ 0 时 |1+x| ≤ |1−x|），故 **对一切 k, h, μ > 0 稳定（无条件稳定），无时间步约束**。注意当 l = N/2 且 k → ∞ 时 g → −1：该模几乎不衰减且逐时步变号（CN 不是 L-稳定），这是本题最值得写进答卷的一句注记。
 
-【校验】.tmp/burn2026/work/_mockC_check.py 第 2 节：N = 64、μ = 1 时，FE 在 k = h²/(2μ) 处 max|增益| = 1.000000、在 1.01 倍处 = 1.020000；CN 在 k = 1e6 处 max|增益| = 1.000000；φ = (−1)^m 时 FE 增益 = −1.000000、CN 增益 = −0.333333（取 k = h²/(2μ)）。
+【校验】/archive/work/_mockC_check.py 第 2 节：N = 64、μ = 1 时，FE 在 k = h²/(2μ) 处 max|增益| = 1.000000、在 1.01 倍处 = 1.020000；CN 在 k = 1e6 处 max|增益| = 1.000000；φ = (−1)^m 时 FE 增益 = −1.000000、CN 增益 = −0.333333（取 k = h²/(2μ)）。
 
 **分档给分细则**
 - 满分（20）：(a) 4；(b) 两个更新式各 2 分 + l = 0 情形 1 分；(c) 两个显式解各 2.5 分；(d) FE 约束 3 分（必须写出"最小 λ 在 l = N/2"这一取到论证）+ CN 无条件 3 分（必须给出 |1+x| ≤ |1−x| 的理由，而不是"CN 众所周知无条件稳定"）。
@@ -815,7 +815,7 @@ Klein 圆盘模型用单位圆盘内的坐标 (x₁, x₂) 给出非欧几何的
 
 | 题 | 自算内容 | 校验方式 |
 |---|---|---|
-| 计算卷第 3 题（2024 #6） | Fourier 更新式、(−1)^m 显式解、FE/CN 稳定性约束 | .tmp/burn2026/work/_mockC_check.py 第 2 节数值扫描（FE 边界 max|g| = 1.000000、越界 1.020000；CN 无条件 max|g| = 1.000000；模态增益 −1 与 −1/3） |
+| 计算卷第 3 题（2024 #6） | Fourier 更新式、(−1)^m 显式解、FE/CN 稳定性约束 | archive/work/_mockC_check.py 第 2 节数值扫描（FE 边界 max|g| = 1.000000、越界 1.020000；CN 无条件 max|g| = 1.000000；模态增益 −1 与 −1/3） |
 | 物理卷第 4 题（2024 Q1） | 圆轨道半径/周期、稳定性判据 k > −2、ω_r/Ω = √(k+2)、Binet 方程 | 同上脚本第 3 节：数值积分径向运动得 ω_r/Ω = 1.732051 / 2.000000 / 2.236068（k = 1/2/3），与 √(k+2) 逐位一致；Binet 方程用 k = −1（椭圆）与 k = 2（谐振子）两个已知解反验 |
 | 物理卷第 5 题（2023 Q6） | 单圈泡图的对称因子、维数正规化结果 Π(p²)、δm² = g²/(16π²)·(1/ε̄) | 三重自检：① 图论计数 V=2、I=2、E=2（3V = E + 2I，且 D = dL − 2I = 0，对数是 log 发散，与 4 维 φ³ 超可重整一致）；② 量纲（g² ~ 质量²，δm² ~ 质量²）；③ 极点与 m 无关（Γ(ε/2) 乘 [·]^0）。**注**：本题未做与官方解答的比对（不存在官方解答），答卷中已显式声明约定 |
 | 物理卷第 6 题（2026 Q6） | 度规、Christoffel、Riemann 分量、K = −1、R = −2 | 同上脚本第 1 节：① 解析 Christoffel 与"由度规数值微分再求联络"的最大偏差 ≤ 3.6e−10；② R^r_{θrθ}、R_{rθrθ}、R = −2.000000 三点命中；③ 独立路线验证：r = tanh ρ 变换下度规化为 dρ² + sinh²ρ dθ²（K = −f″/f = −1），且 r/√(1−r²) = sinh(artanh r) 逐点成立 |
@@ -831,7 +831,7 @@ Klein 圆盘模型用单位圆盘内的坐标 (x₁, x₂) 给出非欧几何的
 
 ## 附录：本卷的复跑方式
 
-1. 校验脚本：C:\Python314\python.exe .tmp/burn2026/work/_mockC_check.py（只读语料、只写 .tmp/burn2026/work 内）。
-2. 题面回查：.tmp/burn2026/data/problems_full.json（按 §3 表中给出的 paper 字段与 n 精确定位）；官方解答文本：.tmp/burn2026/txt/2020…soln…txt、2021_Solution_21S…soln.txt、2022_Solution_2022…soln.txt、2022_Solution_2022_Mathematical_Physics_solution.txt。
-3. 原始卷 PDF（只读）：F:\丘成桐大学生数学竞赛历年笔试真题（2022–2025 各年子目录；**该目录无 2026**，2026 年题面只能依赖抽取文本，这也是 §5-D 记录抽取损伤的原因）。
+1. 校验脚本：python archive/work/_mockC_check.py（只读语料、只写 /work 内）。
+2. 题面回查：/data/problems_full.json（按 §3 表中给出的 paper 字段与 n 精确定位）；官方解答文本：/corpus/prelim/2020…soln…txt、2021_Solution_21S…soln.txt、2022_Solution_2022…soln.txt、2022_Solution_2022_Mathematical_Physics_solution.txt。
+3. 原始卷 PDF（只读）：sources/prelim（2022–2025 各年子目录；**该目录无 2026**，2026 年题面只能依赖抽取文本，这也是 §5-D 记录抽取损伤的原因）。
 

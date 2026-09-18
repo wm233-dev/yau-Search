@@ -1,8 +1,8 @@
 # 丘成桐大学生数学竞赛 · Probability & Statistics 母题归并报告
 
-> **数据口径**：`E:\deepseek_exclusive\math\.tmp\burn2026\data\problems_full.json`，当前快照共 **757 题**（本次运行于构建脚本中实测 `len(data)==757`）。
+> **数据口径**：`data\problems_full.json`，当前快照共 **757 题**（本次运行于构建脚本中实测 `len(data)==757`）。
 > 其中 `subject == "Probability & Statistics"` 的 **133 条记录**（2010 及 2012–2026 共 16 个年份；个人卷 86 条 / 团体卷 47 条）。
-> 机器可读产物：`E:\deepseek_exclusive\math\.tmp\burn2026\data\mother_probability.json`。
+> 机器可读产物：`data\mother_probability.json`。
 > 本报告的所有成员均以 `(year, kind, n)` 三元组从原 JSON 中按主键核验，构建脚本对"成员存在性 / 重复归属 / 未覆盖"三项做了断言，运行结果：**0 个不存在的成员、0 条重复归属、0 条未覆盖**。
 >
 > ⚠️ **口径修正（相对早先快照）**：本次以 757 题为准。P&S 记录数 133 与早先一致，条目无增删，故归并结论未因口径变化而改动；唯一需要说明的是 2010 年卷（原卷名为 *Applied & Computational Probability and Statistics*）中的 4 条记录实际是线性代数与数值 PDE 题，属**数据串科**，不参与归并（见 §0.3）。
@@ -1235,7 +1235,7 @@
 
 ---
 
-*报告生成：本报告的成员归属、覆盖计数与性价比指数均由脚本 `.tmp/burn2026/reports/_build_mothers.py` 计算并校验；数学模型判断（内核、骨架、递进链、存疑条目）由人工阅读全部 133 条题面后给出。*
+*报告生成：本报告的成员归属、覆盖计数与性价比指数均由脚本 `reports/_build_mothers.py` 计算并校验；数学模型判断（内核、骨架、递进链、存疑条目）由人工阅读全部 133 条题面后给出。*
 
 
 

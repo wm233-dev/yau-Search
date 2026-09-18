@@ -1,7 +1,7 @@
 # 丘成桐大学生数学竞赛 2010–2026 科目级横向综合报告 · **几何与拓扑**
 
 > 撰写范围：S.-T. Yau College Student Mathematics Contest，2010–2026 共 17 届**初赛（笔试）**几何与拓扑卷。
-> 语料：`.tmp/burn2026/txt/` 中 30 份几何相关 txt（含 4 份合并团体卷中的几何段）。
+> 语料：`corpus/prelim/` 中 30 份几何相关 txt（含 4 份合并团体卷中的几何段）。
 > 本报告的一切计数均由我自己回原文重新切题、重新打标得到，**不复用**问题级标注文件的结果（原因见 §7 与 §8）。
 
 ---
@@ -40,7 +40,7 @@
 1. **逐卷通读**：30 份几何相关 txt 全部读完（含 4 份合并团体卷的几何段；`2016_2016_team.txt` 因含 6 个控制字节被 read 判为 binary，我用 PowerShell 按 UTF-8 读出）。
 2. **手工考点标注**：对 160 道题逐题人工打标，共 223 个标签位，覆盖 35 个考点标签，**160 题全部有标，无遗留**。
 3. **复现检测**：把 160 题小写化 + 非字母数字归一化后取 5-gram shingle，算 Jaccard 与**包含度**（交集/较短一方），并对全部题目做**长句（≥12 词）去重**——这一层能抓到"改写式复现"，纯 Jaccard 抓不到（见 §5.2）。
-4. **官方考纲**：本仓库语料没有考纲文件，但我在 `F:\丘成桐大学生数学竞赛历年总决赛真题\2012-2025Geometry and Topology\SyllabusonGeometryandTopology.pdf`（3 页）找到**官方 Geometry and Topology 考纲**，用 PyMuPDF 全文抽出，作为 §1 的基准。
+4. **官方考纲**：本仓库语料没有考纲文件，但我在 `sources/finals\2012-2025Geometry and Topology\SyllabusonGeometryandTopology.pdf`（3 页）找到**官方 Geometry and Topology 考纲**，用 PyMuPDF 全文抽出，作为 §1 的基准。
 
 ---
 
@@ -432,19 +432,19 @@
 
 **A1. 黎曼曲率张量代数与曲率计算（法坐标展开、Cartan 结构方程、Bianchi 恒等式）**
 - 理由：9 题 / 8 个年份，且是**其他题的前置技能**——比较定理、刚性定理、Bochner 全部要它。2011 T5、2012 I6、2013 I4、2015 I6、2015 T5、2016 T5、2020 P3、2024 P4、2025 P2 九题可一网打尽。
-- 来源：`E:\deepseek_exclusive\math\一些数学书\数学\黎曼几何\`（伍鸿熙《黎曼几何初步》、白正国《黎曼几何初步》、《黎曼几何习题集》）；`E:\deepseek_exclusive\math\一些数学书\数学\Graduate Texts in Mathematics(GTM)\GTM 171 - Peter Peterson - Riemannian Geometry.pdf`、`GTM 176 - John M. Lee - Riemannian Manifolds - An Introduction to Curvature.pdf`；真题 `F:\丘成桐大学生数学竞赛历年笔试真题\{2012,2015,2020,2025}`。
+- 来源：`sources/library\数学\黎曼几何\`（伍鸿熙《黎曼几何初步》、白正国《黎曼几何初步》、《黎曼几何习题集》）；`sources/library\数学\Graduate Texts in Mathematics(GTM)\GTM 171 - Peter Peterson - Riemannian Geometry.pdf`、`GTM 176 - John M. Lee - Riemannian Manifolds - An Introduction to Curvature.pdf`；真题 `sources/prelim\{2012,2015,2020,2025}`。
 
 **A2. 覆叠空间理论 + 基本群 + van Kampen**
 - 理由：覆叠 13 题 / 8 年、基本群 8 题 / 6 年，合计 21 题次，是**单一技术点里产出最高的一块**；2026 P5（aspherical 流形）说明它在 2026 年仍然是活的。
-- 来源：`E:\deepseek_exclusive\math\一些数学书\数学\拓朴\`（尤承业《拓扑学》、《流形的拓扑学》、张筑生《微分拓扑新讲》）；`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\`（米尔诺《从微分观点看拓扑》、Spanier《代数拓扑学》）；真题 2010–2018 各年个人卷与团体卷几何题（这是覆叠题的高密度区）。
+- 来源：`sources/library\数学\拓朴\`（尤承业《拓扑学》、《流形的拓扑学》、张筑生《微分拓扑新讲》）；`sources/library\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\`（米尔诺《从微分观点看拓扑》、Spanier《代数拓扑学》）；真题 2010–2018 各年个人卷与团体卷几何题（这是覆叠题的高密度区）。
 
 **A3. 同调群计算（胞腔/单纯/连通和/悬垂/Künneth）**
 - 理由：15 题 / 11 个年份，是**出现年份最多的考点之一**；题目形态极稳定（给出复形 → 算同调），几乎不需要创造性，属于"必须拿满"的分。
-- 来源：`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\`（沈信耀《同调论——代数拓扑学之一》、马德森《代数拓扑与示性类》）；`GTM 145 - James W. Vick - Homology Theory.pdf`、`GTM 153 - William Fulton - Algebraic Topology - A First Course.pdf`（考纲指定）、`GTM 139 - Glen E. Bredon - Topology and Geometry.pdf`；真题 2017 I2、2018 T1、2022 P1、2023 P2。
+- 来源：`sources/library\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\`（沈信耀《同调论——代数拓扑学之一》、马德森《代数拓扑与示性类》）；`GTM 145 - James W. Vick - Homology Theory.pdf`、`GTM 153 - William Fulton - Algebraic Topology - A First Course.pdf`（考纲指定）、`GTM 139 - Glen E. Bredon - Topology and Geometry.pdf`；真题 2017 I2、2018 T1、2022 P1、2023 P2。
 
 **A4. 极大值原理 + Bochner 技巧（含消灭定理与 Killing 场）**
 - 理由：极大值原理 4 题 / 4 年、Bochner 4 题 / 3 年，但**两者覆盖的年份互补**（2010、2016、2019、2020、2022、2023、2024），合并后共有 7 个年份命中；2026 P6 的"Ric 下界 ⇒ 紧致"仍属同一技术家族。
-- 来源：`GTM 171 Petersen`（Bochner 技巧章节）、`GTM 176 Lee`；中文可用 `E:\deepseek_exclusive\math\一些数学书\数学\微分几何\整体微分几何初步(沈一兵).pdf`；真题 2019 I5、2019 T5、2020 P2、2022 P6、2023 P6、2026 P6。
+- 来源：`GTM 171 Petersen`（Bochner 技巧章节）、`GTM 176 Lee`；中文可用 `sources/library\数学\微分几何\整体微分几何初步(沈一兵).pdf`；真题 2019 I5、2019 T5、2020 P2、2022 P6、2023 P6、2026 P6。
 
 **A5. Lie 群与双不变度量（SO/SU/U(n) 的维数、基本群、截面曲率）**
 - 理由：8 题 / 7 年，且 **2014 年之后从未断年**（2020 P4、2023 P1、2025 P2/P3、2026 P3）。技术门槛低（维数计数 + 纤维化 SO(n)→SO(n+1)→S^n + 双不变度量曲率公式），是**性价比最高的送分骨架**。
@@ -452,21 +452,21 @@
 
 **A6. 测地线第二变分 + 正曲率刚性（Synge / 球面定理 / 比较定理）**
 - 理由：测地线 9 题 / 8 年 + 正曲率刚性 7 题 / 5 年。这是**几何卷的压轴范式**（2013 I5、2015 I5、2018 I6、2018 T6、2021 P5、2026 P2、2026 P6），且 2026 年一次上了两题。
-- 来源：`GTM 171 Petersen`（比较定理章）、`GTM 176 Lee`；中文 `E:\deepseek_exclusive\math\一些数学书\数学\黎曼几何\微分流形与黎曼几何(梅向明).pdf`；真题 2013 I5、2015 I5、2018 I6、2018 T6、2021 P5、2026 P2/P6。
+- 来源：`GTM 171 Petersen`（比较定理章）、`GTM 176 Lee`；中文 `sources/library\数学\黎曼几何\微分流形与黎曼几何(梅向明).pdf`；真题 2013 I5、2015 I5、2018 I6、2018 T6、2021 P5、2026 P2/P6。
 
 ### B 级（7 项）
 
 **B1. 示性类与可定向性（Euler 类、Stiefel–Whitney w₁、Chern–Weil）**
 - 理由：9 题 / 7 年，且**明显升温**——2019 I4（Chern–Weil）、2021 P6、2025 P4（CP² 不能浸入 R⁶ 的 w₁ 障碍）、2026 P4(1)（Euler 类）。只需掌握"Whitney 乘积 + 求逆 + H¹ 为零"三步。
-- 来源：`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\现代数学基础丛书032-代数拓扑与示性类-[丹麦]I·马德森.pdf`、`GTM 082 - Raoul Bott, Loring W. Tu - Differential Forms in Algebraic Topology.pdf`、`GTM 020 - Dale Husemoller - Fibre Bundles.pdf`；真题 2019 I4、2025 P4、2026 P4(1)。
+- 来源：`sources/library\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\现代数学基础丛书032-代数拓扑与示性类-[丹麦]I·马德森.pdf`、`GTM 082 - Raoul Bott, Loring W. Tu - Differential Forms in Algebraic Topology.pdf`、`GTM 020 - Dale Husemoller - Fibre Bundles.pdf`；真题 2019 I4、2025 P4、2026 P4(1)。
 
 **B2. 极小曲面与极小超曲面的刚性（Simons 型）**
 - 理由：7 题 / 6 年（2013 I6、2014 I2、2016 I6、2016 T6、2017 I6、2022 P2、2024 P2）。结论固定（λ₁ ≥ n/2；S=0 或 S ≥ n；K_M > (p−1)/(2p−1) ⇒ 大球面），属于"记住结论 + 会写 Gauss 方程"即可。
-- 来源：`GTM 176 Lee`、`E:\deepseek_exclusive\math\一些数学书\数学\微分几何\整体微分几何初步(沈一兵).pdf`；真题同上。
+- 来源：`GTM 176 Lee`、`sources/library\数学\微分几何\整体微分几何初步(沈一兵).pdf`；真题同上。
 
 **B3. ∫H^k 型整体不等式（Willmore / 等周 / ∫H^n dV ≥ vol(S^n)）**
 - 理由：4 题 / 4 年，但**2018 年后停摆**——按规律可能回归，且套路唯一（化到面积元上的初等积分 + Cauchy–Schwarz/Wirtinger），准备成本低。
-- 来源：`E:\deepseek_exclusive\math\一些数学书\数学\微分几何\` 各册的"整体微分几何"章；真题 2011 I6、2014 I5、2018 I5。
+- 来源：`sources/library\数学\微分几何\` 各册的"整体微分几何"章；真题 2011 I6、2014 I5、2018 I5。
 
 **B4. 复射影空间、相交形式、signature、Lefschetz 不动点**
 - 理由：7 题 / 6 年 + Lefschetz 2 题；2024 P1、2025 P4、2025 P6 三题都靠 CP^n 的 H*(CP^n) = Z[a]/(a^(n+1)) 这一步。
@@ -474,7 +474,7 @@
 
 **B5. 映射度 / 同伦群 / Hopf 不变量**
 - 理由：11 题 / 9 年，是**年份覆盖最广**的考点之一；但单题技术含量差异大（2018 I2 是热身、2020 P1 是硬核）。
-- 来源：`GTM 153 Fulton`（考纲指定）、`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\代数拓扑学Spanier.pdf`；真题 2010 T6、2012 T4、2018 I2、2020 P1、2022 P5、2024 P1。
+- 来源：`GTM 153 Fulton`（考纲指定）、`sources/library\数学1700册\数-A--T数xu  大合\N拓扑学  [ 61  册 ]\代数拓扑学Spanier.pdf`；真题 2010 T6、2012 T4、2018 I2、2020 P1、2022 P5、2024 P1。
 
 **B6. Euler 示性数与配边/边界障碍**
 - 理由：7 题 / 7 年（几乎每年一道同类）。核心只有两条：**奇数维闭流形 χ=0**、**χ 的乘性与可加性**（χ(M)=½χ(∂M)）。
@@ -488,17 +488,17 @@
 
 **C1. 微分流形基础杂题（嵌入定理、正则值定理、单位分解、Frobenius、流盒、常秩）**
 - 理由：16 题 / 9 年听起来很多，但**每题技术点都不同、且几乎不可能再考同一形式**（2016 I4 考"陈述并证明截断函数引理"、2018 T4 考"Σxᵢ⁴=1 是流形"）。真正的价值是**作为 A1/A6 的前置工具**，单独刷题性价比低。
-- 来源：`GTM 218 - John M. Lee - Introduction to Smooth Manifolds.pdf`、`GTM 033 - Morris W. Hirsch - Differential Topology.pdf`、`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\T微分几何与相对论  [ 35  册 ]\(第二版)(Boothby)-微分流形与黎曼几何引论.pdf`、`E:\deepseek_exclusive\math\一些数学书\数学\微分几何\微分流形初步(陈维桓).pdf`。
+- 来源：`GTM 218 - John M. Lee - Introduction to Smooth Manifolds.pdf`、`GTM 033 - Morris W. Hirsch - Differential Topology.pdf`、`sources/library\数学1700册\数-A--T数xu  大合\T微分几何与相对论  [ 35  册 ]\(第二版)(Boothby)-微分流形与黎曼几何引论.pdf`、`sources/library\数学\微分几何\微分流形初步(陈维桓).pdf`。
 
 **C2. 经典曲线曲面论与低维特例（Frenet、测地挠率、Minkowski 公式、H³ 的平均曲率、CP^n 自同胚、Crofton）**
 - 理由：经典曲线曲面 9 题 / 6 年，但**集中在 2010–2013（占 6 题）**，2017 之后只剩 2026 P1/P2 两道沾边。属于早期命题传统，近五年权重很低。
-- 来源：`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\T微分几何与相对论  [ 35  册 ]\5《曲线与曲面的微分几何学》(美)Manfredo Do Carmo.pdf`（也可用 `E:\deepseek_exclusive\math\一些数学书\俄罗斯法兰西数学教材200多册\法兰西数学精品译丛\华章数学译丛-曲线与曲面的微分几何(中文版)-[美]Manfredo.Do.Carmo.pdf`）、`E:\deepseek_exclusive\math\一些数学书\数学1700册\数-A--T数xu  大合\T微分几何与相对论  [ 35  册 ]\微分几何 - 丘成桐.pdf`、`...\微分几何讲义（陈省身 陈维桓）.pdf`；真题 2011 I5、2012 I5、2013 T6、2017 T3/T4。
+- 来源：`sources/library\数学1700册\数-A--T数xu  大合\T微分几何与相对论  [ 35  册 ]\5《曲线与曲面的微分几何学》(美)Manfredo Do Carmo.pdf`（也可用 `sources/library\俄罗斯法兰西数学教材200多册\法兰西数学精品译丛\华章数学译丛-曲线与曲面的微分几何(中文版)-[美]Manfredo.Do.Carmo.pdf`）、`sources/library\数学1700册\数-A--T数xu  大合\T微分几何与相对论  [ 35  册 ]\微分几何 - 丘成桐.pdf`、`...\微分几何讲义（陈省身 陈维桓）.pdf`；真题 2011 I5、2012 I5、2013 T6、2017 T3/T4。
 
 ### 6.1 两个被低估的题源
 
-1. **`F:\丘成桐大学生数学竞赛历年总决赛真题\2012-2025Geometry and Topology\`** —— 含 **2012–2025 年总决赛（Individual / Overall / Team 三类）几何卷 PDF 共 38 份**，另有官方考纲 PDF 与 1 份 .tex 源文件（`2022 Geometry (Individual&Overall).tex`，公式无损，可用于核对抽取损坏的老题）。**本仓库 6 份批次报告完全没有覆盖这批题**，是当前最大的未开发题源。
-2. **`F:\全国大学生数学竞赛初赛试题\第1–17届`** —— 该赛事几何题占比低、以计算题为主，**不建议作为几何与拓扑主刷材料**；但可用于补"曲线曲面局部计算"（对应 C2）。
-   同理，`F:\丘成桐_数学分析\`（于品讲义）与 `E:\deepseek_exclusive\math\自编\数分初步\`（CMC 练习册）**都是分析方向的材料，对几何与拓扑科目覆盖很弱**——不要把它们当成几何复习主线。
+1. **`sources/finals\2012-2025Geometry and Topology\`** —— 含 **2012–2025 年总决赛（Individual / Overall / Team 三类）几何卷 PDF 共 38 份**，另有官方考纲 PDF 与 1 份 .tex 源文件（`2022 Geometry (Individual&Overall).tex`，公式无损，可用于核对抽取损坏的老题）。**本仓库 6 份批次报告完全没有覆盖这批题**，是当前最大的未开发题源。
+2. **`sources/cmc\第1–17届`** —— 该赛事几何题占比低、以计算题为主，**不建议作为几何与拓扑主刷材料**；但可用于补"曲线曲面局部计算"（对应 C2）。
+   同理，`sources/yau_analysis\`（于品讲义）与 `\自编\数分初步\`（CMC 练习册）**都是分析方向的材料，对几何与拓扑科目覆盖很弱**——不要把它们当成几何复习主线。
 
 ---
 
@@ -607,7 +607,7 @@
 15. 复现形态学：**精确复现只发生在"个人卷 → 个人卷"且间隔 2–3 年**；跨 10 年以上一律"换记号 / 特例化 / 加小问"。
 16. 上游纠错共 **10 条**：1 处算术错（t^4047 应为 t^4051）、2 处数学错（2022 Q1 同调列表与 χ=1 矛盾；2019 Q3 落进换位子的方向应为 x₂）、1 处结论过强（"长句重复 = 0"对全语料不成立）、1 处数据缺陷（几何题量 136 应为 160）、1 处术语反写（"5 选 6"应为"6 选 5"）、1 处细节不完整、3 条为口径差异/补强。
 17. 复习优先级共 **15 项**：**A 级 6 项**（曲率张量代数、覆叠 + 基本群、同调计算、极大值原理 + Bochner、Lie 群、第二变分 + 正曲率刚性）、**B 级 7 项**、**C 级 2 项**。
-18. 最大未开发题源：**`F:\丘成桐大学生数学竞赛历年总决赛真题\2012-2025Geometry and Topology\`（38 份总决赛几何卷 PDF，2012–2025）+ 官方考纲 PDF + 1 份 .tex 无损源文件**，本仓库 6 份批次报告均未覆盖。
+18. 最大未开发题源：**`sources/finals\2012-2025Geometry and Topology\`（38 份总决赛几何卷 PDF，2012–2025）+ 官方考纲 PDF + 1 份 .tex 无损源文件**，本仓库 6 份批次报告均未覆盖。
 19. 本机可用的几何/拓扑主教材已定位：**GTM 171 / 176 / 218 / 222 / 225 / 082 / 033 / 139 / 145 / 153 / 020**，以及中文的《黎曼几何初步》（伍鸿熙、白正国）、《微分几何讲义》（陈省身）、《流形的拓扑学》、《从微分观点看拓扑》（Milnor）、《代数拓扑与示性类》（马德森）、《曲线与曲面的微分几何》（do Carmo），路径见 §6。
 20. 存疑条目 **13 条**，集中在 2019 Q3、2022 Q1、2018 T1、2020 P1、2016 T6、2025 P5(ii) 六处无法独立核实的题面/答案。
 

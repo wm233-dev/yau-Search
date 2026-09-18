@@ -1,7 +1,7 @@
 # 丘成桐大学生数学竞赛 · 总决赛（Oral / Final Round）几何与拓扑 + 概率与统计 真题分析（2012–2025）
 
-> 素材：`.tmp/burn2026/txt_finals/`（195 个 txt，由 `F:\丘成桐大学生数学竞赛历年总决赛真题` 的 PDF 抽取）+ 本报告新增的抢救性抽取（见 §1.3）
-> 索引与映射：`.tmp/burn2026/data/finals_index.json` → `.tmp/burn2026/data/geoprob_map.json`（74 条记录 = 2 份 syllabus + 72 份卷子）
+> 素材：`corpus/finals/`（195 个 txt，由 `sources/finals` 的 PDF 抽取）+ 本报告新增的抢救性抽取（见 §1.3）
+> 索引与映射：`data/finals_index.json` → `data/geoprob_map.json`（74 条记录 = 2 份 syllabus + 72 份卷子）
 > 统计脚本：`scripts/finals_quality.py`、`finals_geo_prob_stats.py`、`finals_problem_metrics.py`、`finals_vs_prelim.py`、`finals_style_compare.py`、`finals_tables.py`、`build_finals_geo_prob_report.py`
 > 数据产物：`data/finals_geo_problems.json`、`data/finals_prob_problems.json`、`data/finals_geo_prob_stats.json`、`data/finals_vs_prelim.json`、`data/finals_problem_metrics.json`
 
@@ -55,7 +55,7 @@ slug  = re.sub(r"[^A-Za-z0-9]+", "_", path) + ".txt"
 | 2014 几何 团体卷（另一来源） | `2014 Geometry (Team).docx` | 不在 PDF 语料内（仅 docx） | zipfile + OMML 数学文本抽取 | 6 题（与上一行不重叠） |
 
 抢救手段（未安装任何新依赖）：
-1. **PyMuPDF 渲染 + 视觉识读**：`scripts/render_garbled.py` 把乱码 PDF 以 200dpi 渲染成 PNG（`scripts/_img/`），再逐页识读转写（`txt_finals_recovered/*.txt`）。5 份全部得到完整题面，其中 2013 全能概率卷是**手写扫描件**（识别置信度较低，已在正文标注）。
+1. **PyMuPDF 渲染 + 视觉识读**：`scripts/render_garbled.py` 把乱码 PDF 以 200dpi 渲染成 PNG（`scripts/archive/dumps/images/`），再逐页识读转写（`txt_finals_recovered/*.txt`）。5 份全部得到完整题面，其中 2013 全能概率卷是**手写扫描件**（识别置信度较低，已在正文标注）。
 2. **.docx → OMML 数学文本**：`scripts/read_docx.py` 用标准库 `zipfile`+`re` 同时抽取 `<w:t>` 与 `<m:t>`（数学公式在此），恢复 2013 几何全能卷、2014 几何团体卷（另一来源版）。
 3. **老式 .doc → ASCII 串扫描**：Word 97 复合文档里正文以单字节存储，直接扫描可打印 ASCII 串即可恢复英文正文，恢复 2014 几何个人卷 + 团体卷（`scripts/read_doc.py`）。
 4. **.JPG 照片**：2014 概率全能卷只有 JPG，直接视觉识读。
@@ -635,7 +635,7 @@ slug  = re.sub(r"[^A-Za-z0-9]+", "_", path) + ".txt"
 
 ## 4. 总决赛 vs 初赛（笔试）的差异
 
-对比口径：初赛数据取自 `.tmp/burn2026/reports/stats_overview.md`（136 PDF / 759 题）与 `problem_metrics.md`（679 题逐题指标）；总决赛数据为本报告。**所有"每题"指标都按同一段代码、同一公式重算**（`scripts/finals_problem_metrics.py`、`finals_vs_prelim.py`），不是拿两套口径的数字相减。
+对比口径：初赛数据取自 `reports/stats_overview.md`（136 PDF / 759 题）与 `problem_metrics.md`（679 题逐题指标）；总决赛数据为本报告。**所有"每题"指标都按同一段代码、同一公式重算**（`scripts/finals_problem_metrics.py`、`finals_vs_prelim.py`），不是拿两套口径的数字相减。
 
 | 指标（两侧同代码同公式重算） | 总决赛 | 初赛（几何 + 概率卷） | 对比 |
 |---|---|---|---|

@@ -1,0 +1,1078 @@
+[
+ {
+  "file": "archive/backups/solutions_algebra.original.md",
+  "hits": 6
+ },
+ {
+  "file": "archive/backups/solutions_analysis.original.md",
+  "hits": 19
+ },
+ {
+  "file": "archive/backups/solutions_geometry.original.md",
+  "hits": 4
+ },
+ {
+  "file": "archive/derived/check_html.mjs",
+  "hits": 1
+ },
+ {
+  "file": "archive/derived/finals_app_phys_tables.md",
+  "hits": 1
+ },
+ {
+  "file": "archive/derived/_report_tpl_body.md",
+  "hits": 1
+ },
+ {
+  "file": "archive/derived/_report_tpl_head.md",
+  "hits": 4
+ },
+ {
+  "file": "archive/archive/work/referee_src.txt",
+  "hits": 9
+ },
+ {
+  "file": "archive/archive/work/ref_geo_part1.md",
+  "hits": 7
+ },
+ {
+  "file": "archive/archive/work/ref_geo_part2.md",
+  "hits": 2
+ },
+ {
+  "file": "archive/archive/work/ref_geo_part3.md",
+  "hits": 1
+ },
+ {
+  "file": "archive/archive/work/ref_geo_part4.md",
+  "hits": 14
+ },
+ {
+  "file": "data/build_mother_analysis.py",
+  "hits": 1
+ },
+ {
+  "file": "data/syllabus_coverage.json",
+  "hits": 1
+ },
+ {
+  "file": "docs/FINAL_REPORT.md",
+  "hits": 6
+ },
+ {
+  "file": "docs/HOW_TO_USE.md",
+  "hits": 3
+ },
+ {
+  "file": "docs/REPO_AUDIT.md",
+  "hits": 3
+ },
+ {
+  "file": "reports/2010-2012_丘成桐竞赛笔试真题深度分析.md",
+  "hits": 4
+ },
+ {
+  "file": "reports/2016-2018_笔试真题深度分析.md",
+  "hits": 8
+ },
+ {
+  "file": "reports/finals_alg_ana.md",
+  "hits": 22
+ },
+ {
+  "file": "reports/finals_applied_phys.md",
+  "hits": 10
+ },
+ {
+  "file": "reports/finals_geo_prob.md",
+  "hits": 5
+ },
+ {
+  "file": "reports/mock_exam_A.md",
+  "hits": 3
+ },
+ {
+  "file": "reports/mock_exam_B.md",
+  "hits": 7
+ },
+ {
+  "file": "reports/mock_exam_C.md",
+  "hits": 11
+ },
+ {
+  "file": "reports/mother_algebra.md",
+  "hits": 3
+ },
+ {
+  "file": "reports/mother_analysis.md",
+  "hits": 2
+ },
+ {
+  "file": "reports/mother_computational.md",
+  "hits": 1
+ },
+ {
+  "file": "reports/mother_geometry.md",
+  "hits": 4
+ },
+ {
+  "file": "reports/mother_physics.md",
+  "hits": 2
+ },
+ {
+  "file": "reports/mother_probability.md",
+  "hits": 3
+ },
+ {
+  "file": "reports/referee_algebra.md",
+  "hits": 18
+ },
+ {
+  "file": "reports/referee_analysis.md",
+  "hits": 15
+ },
+ {
+  "file": "reports/referee_geometry.md",
+  "hits": 24
+ },
+ {
+  "file": "reports/report_2019_2021.md",
+  "hits": 7
+ },
+ {
+  "file": "reports/solutions_algebra.md",
+  "hits": 9
+ },
+ {
+  "file": "reports/solutions_analysis.md",
+  "hits": 20
+ },
+ {
+  "file": "reports/solutions_geometry.md",
+  "hits": 7
+ },
+ {
+  "file": "reports/stats_2022_2023.md",
+  "hits": 6
+ },
+ {
+  "file": "reports/stats_2024_2026.md",
+  "hits": 2
+ },
+ {
+  "file": "reports/stats_overview.md",
+  "hits": 1
+ },
+ {
+  "file": "reports/study_roadmap.md",
+  "hits": 30
+ },
+ {
+  "file": "reports/subject_algebra.md",
+  "hits": 7
+ },
+ {
+  "file": "reports/subject_analysis.md",
+  "hits": 10
+ },
+ {
+  "file": "reports/subject_computational.md",
+  "hits": 5
+ },
+ {
+  "file": "reports/subject_geometry.md",
+  "hits": 24
+ },
+ {
+  "file": "reports/subject_physics.md",
+  "hits": 14
+ },
+ {
+  "file": "reports/subject_probability.md",
+  "hits": 32
+ },
+ {
+  "file": "reports/yau_2013-2015_analysis.md",
+  "hits": 11
+ },
+ {
+  "file": "reports/yau_2024_2026_deep_analysis.md",
+  "hits": 15
+ },
+ {
+  "file": "reports/yau_syllabus.md",
+  "hits": 1
+ },
+ {
+  "file": "reports/_build_mothers.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_dup.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_dup2.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_geom_sent.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_geom_syllabus.py",
+  "hits": 2
+ },
+ {
+  "file": "reports/_geom_verbs.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_pdftext.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_stats.py",
+  "hits": 1
+ },
+ {
+  "file": "reports/_validate.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/analyze_corpus.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/analyze_corpus2.py",
+  "hits": 4
+ },
+ {
+  "file": "scripts/analysis/build_finals_geo_prob_report.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/build_index.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/build_mothers.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/cluster_themes.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/count_2013_2015.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/dup_2013_2015.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/enrich_problems.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_alg_ana_problems.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_alg_ana_stats.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_alg_ana_stats2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_app_phys_dump.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_app_phys_stats.py",
+  "hits": 5
+ },
+ {
+  "file": "scripts/analysis/finals_compare.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_dump.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_final_stats.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_forms.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_geo_prob_stats.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_map.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_normalize.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_overview.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_problem_metrics.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_quality.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_style_compare.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_tables.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/finals_vs_prelim.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/gen_report.py",
+  "hits": 9
+ },
+ {
+  "file": "scripts/analysis/gen_report2.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/analysis/gen_report3.py",
+  "hits": 13
+ },
+ {
+  "file": "scripts/analysis/lcs_2013_2015.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/make_syllabus_reports.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/meta_2013_2015.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/mock_probe.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/picks_2013_2015.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/prob_final_numbers.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/prob_style2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/prob_style3.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/prob_tag_table.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/prob_twins.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/prob_twins2.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/analysis/prob_twins3.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/show_topic.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/snap_subj.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/stats2_2013_2015.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/stats2_2022_2023.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/stats_2013_2015.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/stats_2016_2018.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/analysis/stats_2019_2021.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/analysis/stats_2022_2023.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subject_prob_final2.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subject_prob_rows.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subject_prob_rows2.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subject_prob_rows3.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subject_prob_rows_final.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subject_prob_stats.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subject_prob_terms.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subject_prob_terms2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_1.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_10.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/analysis/subj_an_11.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subj_an_12.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/analysis/subj_an_13.py",
+  "hits": 4
+ },
+ {
+  "file": "scripts/analysis/subj_an_14.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subj_an_15.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subj_an_16.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_17.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_18.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_19.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_20.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subj_an_21.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_22.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_23.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_24.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_25.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_26.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_27.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_28.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/subj_an_29.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_3.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_30.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_4.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_5.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_6.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_7.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_8.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_an_9.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_hd.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subj_sz.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/subtopic_recency.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/syllabus_coverage.py",
+  "hits": 4
+ },
+ {
+  "file": "scripts/analysis/tag_index.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/tag_problems.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/tag_stats.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/yau_2010_2012_stats.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/analysis/yau_2010_2012_style.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/analysis/yau_2024_2026_stats.py",
+  "hits": 5
+ },
+ {
+  "file": "scripts/analysis/yau_stats_v2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/clean_nul.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/extraction/extract_all.py",
+  "hits": 4
+ },
+ {
+  "file": "scripts/extraction/extract_extra_finals.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/extraction/extract_finals.py",
+  "hits": 4
+ },
+ {
+  "file": "scripts/extraction/extract_v2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/extract_v3.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/fix_enc.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/locate_nul.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/probe_doc.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/probe_enc.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/probe_text.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/extraction/read_doc.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/read_docx.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/extraction/rebuild_pipeline.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/extraction/render_2015_alg.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/extraction/render_garbled.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/extraction/_finals_2020_extract.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/extraction/_finals_2020_try.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/extraction/_finals_extra.py",
+  "hits": 5
+ },
+ {
+  "file": "scripts/extraction/_render2014.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/legacy/dbg_keys.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/dump_toc.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/pick_e1.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/roadmap_probe1.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/roadmap_probe2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/roadmap_probe3.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/roadmap_probe4.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/roadmap_probe5.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/spotcheck.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_cleanup.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_finals_med.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_inspect_phys.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_patch2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_patch3.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_patch4.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_patch5.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_patch_builder.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_pf.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_pf2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_cands.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_dup.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/legacy/_phys_final.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_headers.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_loose.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_matrix.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_parse.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_problems.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_segment.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/legacy/_phys_show.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_solpts.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_strict.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_tags.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_verbs2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_phys_vocab.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_prelim_cmp.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_tmp_algebra_full.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_tmp_dup2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_tmp_dupcheck.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/legacy/_tmp_team_algebra.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/library/kwbooks.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/library/lib_index.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/library/lib_search.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/library/topic_books.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/library/topic_books2.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/library/topic_books_compact.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/validation/check_patterns.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/validation/check_pdfs.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/validation/check_pdfs2.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/validation/check_pdfs3.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/validation/check_report.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/validation/dbg_numbering.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/validation/diag_2013team.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/validation/validate_mothers.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/validation/validate_mothers2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/checkA.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/checkB.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/checkC.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/checkD.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/referee_counts.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/referee_extract.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/referee_join.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/verification/referee_json_probe.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/referee_verify.py",
+  "hits": 4
+ },
+ {
+  "file": "scripts/verification/ref_pdf_2021.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/ref_pdf_2021b.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/ref_pdf_dump.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/ref_pdf_dump2.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/ref_probe1.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/ref_probe2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/ref_probe3.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/ref_probe4.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/ref_probe6.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/ref_probe7.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/ref_probe8.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_agg.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_agg2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_chk.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_dup.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_extract2.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/_extract_pdfs.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/_fam.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/verification/_inv.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/verification/_metrics.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/verification/_mockC_check.py",
+  "hits": 2
+ },
+ {
+  "file": "scripts/verification/_repr.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_seg.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_seg2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_style.py",
+  "hits": 3
+ },
+ {
+  "file": "scripts/verification/_verify2.py",
+  "hits": 1
+ },
+ {
+  "file": "scripts/verification/_verify_backfill.py",
+  "hits": 1
+ }
+]

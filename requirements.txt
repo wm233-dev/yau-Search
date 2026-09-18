@@ -1,0 +1,15 @@
+# yau-Search dependencies
+#
+# Nothing here is required to *read* the project: data/*.json are plain JSON and
+# yau_index.html is a self-contained page (open it in a browser, no install).
+#
+# Install everything with:
+#     pip install -r requirements.txt
+
+# --- PDF extraction / rendering (scripts/extraction/*) -----------------------
+# Needed only if you re-run the pipeline over your own copy of the contest PDFs.
+pymupdf>=1.23
+
+# --- Numerical verification (scripts/verification/*) -------------------------
+# Used by the referee scripts that independently re-check numeric claims.
+numpy>=1.24

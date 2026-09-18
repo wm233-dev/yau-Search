@@ -1,9 +1,9 @@
 # 丘成桐大学生数学竞赛 · **总决赛**（2012–2025）真题分析
 ## 范围：代数与数论/组合 + 分析与微分方程
 
-> 语料：`.tmp/burn2026/txt_finals/`（195 个 txt，源自 ` F:\丘成桐大学生数学竞赛历年总决赛真题 `）
-> 加上本报告新增恢复的 `.tmp/burn2026/txt_finals_extra/`。
-> 元数据：`.tmp/burn2026/data/finals_index.json`；txt 与原卷的映射由 `.tmp/burn2026/scripts/finals_map.py` 建立
+> 语料：`corpus/finals/`（195 个 txt，源自 ` sources/finals `）
+> 加上本报告新增恢复的 `corpus/finals_extra/`。
+> 元数据：`data/finals_index.json`；txt 与原卷的映射由 `scripts/finals_map.py` 建立
 > （规则：把「科目_kind_原文件名去扩展名」中的**非字母数字连续段压成一个下划线**，再去掉首尾下划线）。
 > 统计脚本：`finals_alg_ana_stats.py`、`finals_alg_ana_stats2.py`、`finals_final_stats.py`、
 > `finals_compare.py`、`finals_forms.py`、`finals_alg_ana_problems.py`（逐题标注库）、
@@ -36,7 +36,7 @@
 - 真正的「无文字层」在本范围内只有 **1 卷**：`2015 Algebra (Overall)`（0 字符，页面由 **11 张图片**构成）。
 - 另有 **2 卷**文字层存在但 **CJK 字体 ToUnicode 表损坏**（抽出来是乱码）：
   `2015 Algebra (Individual)`、`2015 Algebra (Team)`（乱码样例：`1. •Äî¼˜mRn§Ùƒ´•þ`）。
-- 上述 3 卷已用 PyMuPDF 以 200 dpi 渲染为 PNG，再由视觉逐字识读（脚本 `render_2015_alg.py`，产物 `.tmp/burn2026/data/render/`），
+- 上述 3 卷已用 PyMuPDF 以 200 dpi 渲染为 PNG，再由视觉逐字识读（脚本 `render_2015_alg.py`，产物 `data/render/`），
   题面已补全并进入本题库；因为是人工识读，个别符号可能失真，相关行在 §7 单列。
 
 ### 1.3 本范围实际可分析的卷（计数）
@@ -63,8 +63,8 @@
 | `2014 Analysis (Team).docx` | 2014 ANA Team | 6 | docx 解析 | 文本完整，公式丢失 |
 | `2013 Analysis (Overall).docx` | 2013 ANA Overall | 2 | docx 解析 | 文本完整，公式丢失 |
 
-恢复脚本：`.tmp/burn2026/scripts/extract_extra_finals.py`；两个 `.doc` 用 Word COM **只读打开、只写工作区**（未改动 F 盘任何文件）。
-产物目录：`.tmp/burn2026/txt_finals_extra/`。它们的价值：把分析科目的年份覆盖从「2015 起」提前到 **2012**，
+恢复脚本：`scripts/extract_extra_finals.py`；两个 `.doc` 用 Word COM **只读打开、只写工作区**（未改动 F 盘任何文件）。
+产物目录：`corpus/finals_extra/`。它们的价值：把分析科目的年份覆盖从「2015 起」提前到 **2012**，
 并补出 2013/2014 的 Team 与 Overall 两栏（此前全空）。
 
 ### 1.5 明确无法分析的内容清单（先给结论，§7 详列）
@@ -529,8 +529,8 @@ ANA 侧：`pde` 偏微分方程；`real` 实分析/测度；`cplx` 复分析；`
 
 ## 4. 总决赛 vs 初赛（笔试）的差异
 
-对比基准取自既有笔试报告：`.tmp/burn2026/reports/stats_overview.md`（136 PDF / 120 卷 / 759 题）与
-`.tmp/burn2026/reports/problem_metrics.md`（679 道可度量题）。以下 8 条差异均有计数支撑。
+对比基准取自既有笔试报告：`reports/stats_overview.md`（136 PDF / 120 卷 / 759 题）与
+`reports/problem_metrics.md`（679 道可度量题）。以下 8 条差异均有计数支撑。
 
 ### D1. 卷别体系多一层：笔试只有 Individual/Team，总决赛多出 Overall（All-round）
 - 笔试：stats_overview.md §3 的 120 卷明细中卷别只有 `individual` / `team` 两类，**没有 Overall 类**。
@@ -662,7 +662,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R1 · 2014 · 代数与数论 · Individual · Problem 3（三次域与 F_p 上的点数）
 
-出处：`.tmp/burn2026/txt_finals/2012_2025Algebra_Number_Theory_and_Combinatorics_Individual_2014_Algebra_Individual.txt`（文字层完好）
+出处：`corpus/finals/2012_2025Algebra_Number_Theory_and_Combinatorics_Individual_2014_Algebra_Individual.txt`（文字层完好）
 
 > Problem 3. Let p > 3 be a prime. Consider the equation
 >
@@ -689,7 +689,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R2 · 2021 · 代数与数论 · Individual · Problem 1（局部域范数群）★ 原卷附官方解答
 
-出处：`.tmp/burn2026/txt_finals/2012_2025Algebra_Number_Theory_and_Combinatorics_Individual_2021_Algebra_Individual_S.txt`
+出处：`corpus/finals/2012_2025Algebra_Number_Theory_and_Combinatorics_Individual_2021_Algebra_Individual_S.txt`
 （文件名带 `(S)` = 含官方解答；本题是本报告范围内**唯一能看到出题方解答**的题之一，另有 2021 ALG Overall 两题）
 
 > Problem 1. (Individual round.) Let p be a prime number and Q_p the field of p-adic numbers.
@@ -718,7 +718,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R3 · 2025 · 代数与数论 · Individual · Question 4（平方和层次 l(K)）
 
-出处：`.tmp/burn2026/txt_finals/..._Individual_2025_Algebra_Individual.txt`（文字层完好）
+出处：`corpus/finals/..._Individual_2025_Algebra_Individual.txt`（文字层完好）
 
 > Question 4. Let K be a field, we define l(K) to be the smallest natural number n such that there are n
 > elements x_1, ..., x_n in K satisfying −1 = x_1² + x_2² + · · · + x_n². If no such n exists, we denote l(K) by ∞.
@@ -746,7 +746,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R4 · 2018 · 代数与数论 · Team · Problem 1（Chevalley–Warning）
 
-出处：`.tmp/burn2026/txt_finals/..._Team_2018_Algebra_Team.txt`（文字层完好）
+出处：`corpus/finals/..._Team_2018_Algebra_Team.txt`（文字层完好）
 
 > Let d_i (1 ≤ i ≤ n) be positive integers such that Σ_{i=1}^{n} 1/d_i > 1.
 > For a prime number p, let F_p be the finite field of p elements. For
@@ -772,7 +772,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R5 · 2019 · 分析与微分方程 · Team · Question 3（Burgers 方程的全变差估计）
 
-出处：`.tmp/burn2026/txt_finals/..._Team_2019_Analysis_Team.txt`（文字层完好）
+出处：`corpus/finals/..._Team_2019_Analysis_Team.txt`（文字层完好）
 
 > Consider the Cauchy problem for the Burger’s equation (B):
 >
@@ -800,7 +800,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R6 · 2025 · 分析与微分方程 · Individual · Problem 2（Phragmén–Lindelöf 型边界估计）
 
-出处：`.tmp/burn2026/txt_finals/..._Individual_2025_Analysis_Individual.txt`（文字层完好）
+出处：`corpus/finals/..._Individual_2025_Analysis_Individual.txt`（文字层完好）
 
 > Let Ω = { x + iy ∈ C : x > 0, y > 0 }. Assume that f : Ω → C is a bounded continuous function on Ω
 > and holomorphic on Ω such that
@@ -821,7 +821,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R7 · 2018 · 分析与微分方程 · Team · Problem 1（等周不等式与 Steiner 对称化）
 
-出处：`.tmp/burn2026/txt_finals/..._Team_2018_Analysis_Team.txt`（文字层完好，原文分 3 步）
+出处：`corpus/finals/..._Team_2018_Analysis_Team.txt`（文字层完好，原文分 3 步）
 
 > 1. Isoperimetric inequality and Steiner symmetrization.
 > It is well known that in R², any region Ω with continuous piecewise C¹ boundary ∂Ω satisfies that
@@ -847,7 +847,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### R8 · 2024 · 分析与微分方程 · Individual · Problem 2（热/波方程解的水平集与传播）
 
-出处：`.tmp/burn2026/txt_finals/..._Individual_2024-_Analysis_Individual-new1.txt`（文字层完好，原文分 (i)(a)(b)(ii)）
+出处：`corpus/finals/..._Individual_2024-_Analysis_Individual-new1.txt`（文字层完好，原文分 (i)(a)(b)(ii)）
 
 > (i) Consider the following Cauchy problem:
 >
@@ -918,7 +918,7 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 
 ### 7.4 与本报告无关但影响横向比较的既有报告问题
 
-- `.tmp/burn2026/reports/problem_metrics.md` 的难度是「长度+小问+符号密度」的启发式代理，与本题库的人工自评**不可直接比较**，
+- `reports/problem_metrics.md` 的难度是「长度+小问+符号密度」的启发式代理，与本题库的人工自评**不可直接比较**，
   本报告在 §4 只把它当方向性证据，并明确标注口径差异。
 - 既有笔试报告统计的是 2010–2026 的**笔试**语料，其「混合/Team（多科目）」类目的是按卷切的，
   与总决赛按科目切分的 Team 卷不可直接对齐；本报告的对比只取可以对齐的口径（题量、词数、动词、考点）。
@@ -949,6 +949,6 @@ Individual 卷则多为单问直给（2016 ALG Individual #3、2019 ALG Individu
 17. Individual vs Team：**2020–2022 连续三年两个科目都没有 Team 卷**（F 盘目录核实确无文件）。
 18. 官方解答：本范围只有 **2021 ALG Individual 与 2021 ALG Overall** 两卷随卷附官方解答（原文件名带 (S)）。
 19. 语料缺口：ALG Overall 缺 2013、2014；ALG Team 缺 2014、2020、2021、2022；ANA Team 原本缺 2012–2014（已从 Word 恢复）、缺 2020–2022。
-20. 全部题面均可追溯到 `.tmp/burn2026/txt_finals/` 或 `.tmp/burn2026/txt_finals_extra/` 的具体文件；本题库与统计脚本见
-    `.tmp/burn2026/scripts/finals_alg_ana_problems.py`、`finals_alg_ana_extras.py`、`finals_final_stats.py`、`gen_report.py`。
+20. 全部题面均可追溯到 `corpus/finals/` 或 `corpus/finals_extra/` 的具体文件；本题库与统计脚本见
+    `scripts/finals_alg_ana_problems.py`、`finals_alg_ana_extras.py`、`finals_final_stats.py`、`gen_report.py`。
 

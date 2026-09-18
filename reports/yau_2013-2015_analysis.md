@@ -1,7 +1,7 @@
 # 丘成桐大学生数学竞赛（Yau CSMC）2013–2015 笔试真题深度分析报告
 
-> 语料：`E:\deepseek_exclusive\math\.tmp\burn2026\txt\` 下文件名以 `2013_` / `2014_` / `2015_` 开头的 **26 个 txt**（PyMuPDF 抽取的纯文本，页面以 `=== page N ===` 分隔）。
-> 统计脚本：`.tmp\burn2026\scripts\` 下 `stats_2013_2015.py`、`stats2_2013_2015.py`、`count_2013_2015.py`、`dup_2013_2015.py`、`meta_2013_2015.py`。
+> 语料：`corpus/prelim/` 下文件名以 `2013_` / `2014_` / `2015_` 开头的 **26 个 txt**（PyMuPDF 抽取的纯文本，页面以 `=== page N ===` 分隔）。
+> 统计脚本：`scripts\` 下 `stats_2013_2015.py`、`stats2_2013_2015.py`、`count_2013_2015.py`、`dup_2013_2015.py`、`meta_2013_2015.py`。
 > 所有数字均来自上述脚本对原文的直接统计，可复跑核验。
 
 ---
@@ -615,13 +615,13 @@ boarded the plane. What is the probability that the last passenger takes his own
 | `scripts\meta_2013_2015.py` | 语料级元信息（题量句式、分值句式、页数） | stdout |
 | `scripts\picks_2013_2015.py` | 抽取第 3 节用的 8 道代表题原文 | `scripts\picks_2013_2015.txt` |
 
-复跑命令（在 `E:\deepseek_exclusive\math` 下）：
+复跑命令（在 `` 下）：
 
 ```powershell
-C:\Python314\python.exe .tmp\burn2026\scripts\stats_2013_2015.py
-C:\Python314\python.exe .tmp\burn2026\scripts\stats2_2013_2015.py
-C:\Python314\python.exe .tmp\burn2026\scripts\count_2013_2015.py
-C:\Python314\python.exe .tmp\burn2026\scripts\dup_2013_2015.py
+python scripts\stats_2013_2015.py
+python scripts\stats2_2013_2015.py
+python scripts\count_2013_2015.py
+python scripts\dup_2013_2015.py
 ```
 
 ---

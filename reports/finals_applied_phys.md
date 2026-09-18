@@ -1,11 +1,11 @@
 # 丘成桐大学生数学竞赛 · 总决赛真题分析
 ## 应用与计算数学（Applied & Computational Math）+ 数学物理（Mathematical Physics）
 
-> 语料：`.tmp/burn2026/txt_finals/`（195 个 txt，由 `F:\丘成桐大学生数学竞赛历年总决赛真题` 的 PDF 抽取）
-> 索引：`.tmp/burn2026/data/finals_index.json` / `.tmp/burn2026/data/finals_manifest.json`
-> 统计脚本：`.tmp/burn2026/scripts/finals_app_phys_stats.py`（输出 `finals_app_phys_stats.json`、`finals_app_phys_tables.md`）
-> 2020 解密脚本：`.tmp/burn2026/scripts/_finals_2020_extract.py`
-> 撰写日期：本轮分析；本报告只覆盖 **总决赛（Final / Oral Exam）** 卷，讨论「初赛」时一律指 `.tmp/yau/2010-2026历年笔试真题` 的笔试语料。
+> 语料：`corpus/finals/`（195 个 txt，由 `sources/finals` 的 PDF 抽取）
+> 索引：`data/finals_index.json` / `data/finals_manifest.json`
+> 统计脚本：`scripts/finals_app_phys_stats.py`（输出 `finals_app_phys_stats.json`、`finals_app_phys_tables.md`）
+> 2020 解密脚本：`scripts/_finals_2020_extract.py`
+> 撰写日期：本轮分析；本报告只覆盖 **总决赛（Final / Oral Exam）** 卷，讨论「初赛」时一律指 `sources/prelim` 的笔试语料。
 
 ---
 
@@ -317,7 +317,7 @@ MathPhys 考纲 6 个主题：经典力学（最小作用量、Euler-Lagrange、
 
 ## 4. 总决赛 vs 初赛（笔试）的差异
 
-> 初赛数据来自既有报告：`reports/stats_overview.md`（136 个 PDF / 757 道题）、`reports/problem_metrics.md`（按科目词数与难度代理）。本报告用 `.tmp/burn2026/data/problems_full.json`（757 题）复算得到与 finals 可比的字符级指标。
+> 初赛数据来自既有报告：`reports/stats_overview.md`（136 个 PDF / 757 道题）、`reports/problem_metrics.md`（按科目词数与难度代理）。本报告用 `data/problems_full.json`（757 题）复算得到与 finals 可比的字符级指标。
 > 初赛语料中 Computational & Applied 共 **135 题**（2011–2026），Mathematical Physics 共 **30 题**（2022–2026，每年 6 题）。
 
 ### 4.1 差异一：**Overall（全能赛）是总决赛独有赛制，初赛完全没有**
@@ -617,4 +617,4 @@ MathPhys 考纲 6 个主题：经典力学（最小作用量、Euler-Lagrange、
 
 ---
 
-*报告完。所有题号、题面均逐字取自 `.tmp/burn2026/txt_finals/` 或 `scripts/_finals_2020/` 的 PyMuPDF 抽取文本；公式有损处已在第 7.3 节逐条标注。统计脚本与中间表：`.tmp/burn2026/scripts/finals_app_phys_stats.py`、`finals_app_phys_stats.json`、`finals_app_phys_tables.md`。*
+*报告完。所有题号、题面均逐字取自 `corpus/finals/` 或 `scripts/_finals_2020/` 的 PyMuPDF 抽取文本；公式有损处已在第 7.3 节逐条标注。统计脚本与中间表：`scripts/finals_app_phys_stats.py`、`finals_app_phys_stats.json`、`finals_app_phys_tables.md`。*

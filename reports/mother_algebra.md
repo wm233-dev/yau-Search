@@ -1,8 +1,8 @@
 # 丘成桐大学生数学竞赛 · Algebra & Number Theory 母题归并
 
 > 产物：本文件 + `data/mother_algebra.json`（机器可读版）
-> 数据源：`.tmp/burn2026/data/problems_full.json`
-> 通读用中间产物：`.tmp/burn2026/data/an_read.md`（149 条题面按年份导出，逐条读过）
+> 数据源：`data/problems_full.json`
+> 通读用中间产物：`data/an_read.md`（149 条题面按年份导出，逐条读过）
 
 ---
 
@@ -12,7 +12,7 @@
 
 | 项 | 值 |
 | --- | --- |
-| 数据文件 | `.tmp/burn2026/data/problems_full.json` |
+| 数据文件 | `data/problems_full.json` |
 | 全库题数 | **757 题**（此前某些报告按 751 / 758 题统计；本次一律以当前 757 题为基准） |
 | 本科目题数 | **149 题**（`subject == "Algebra & Number Theory"`） |
 | 年份跨度 | 2010 – 2026 |

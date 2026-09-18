@@ -1,9 +1,9 @@
 # 丘成桐大学生数学竞赛 · 备考路线图（考点 → 书目 → 章节）
 
-> **产出**：`.tmp/burn2026/reports/study_roadmap.md`
-> **输入 A（真题侧）**：`.tmp/burn2026/data/problems_full.json`、`data/problems_enriched.json`、`reports/stats_overview.md`、`reports/problem_metrics.md`、`reports/theme_clusters.md`
+> **产出**：`reports/study_roadmap.md`
+> **输入 A（真题侧）**：`data/problems_full.json`、`data/problems_enriched.json`、`reports/stats_overview.md`、`reports/problem_metrics.md`、`reports/theme_clusters.md`
 > **输入 B（藏书侧，只读）**：`book_research_clean_restart/data/master_catalog.json`（2147 条）、`raw/library_toc.json`（2147 条目录）、`data/subject_classification.json`、`reports/LIBRARY_GAPS.md`、`reports/03_LIBRARY_AUDIT.md`
-> **中间产物**（全部在 `.tmp/burn2026/scripts/` 下）：`lib_index.py`→`lib_index.json`（藏书合并索引）、`tag_stats.py`→`tag_stats.json`、`topic_books2.py`→`topic_books2.txt`、`dump_toc.py`（按 ID 导出真实目录）、`tag_problems.py`→`tag_problems.txt`、`subtopic_recency.py`。
+> **中间产物**（全部在 `scripts/` 下）：`lib_index.py`→`lib_index.json`（藏书合并索引）、`tag_stats.py`→`tag_stats.json`、`topic_books2.py`→`topic_books2.txt`、`dump_toc.py`（按 ID 导出真实目录）、`tag_problems.py`→`tag_problems.txt`、`subtopic_recency.py`。
 
 ---
 
@@ -1110,7 +1110,7 @@
 
 本节分两部分：**(A) 复核 `LIBRARY_GAPS.md` 的既有结论**（该报告的证据等级是 E2，作者自己声明"文件名命中 ≠ 书在库中；未命中 ≠ 书不在库中"），**(B) 本报告新发现的、以考点权重排序的缺口**。
 
-复核方法：以 `data/master_catalog.json`（2147 条）的 `canonical_title` / `original_filename` / `author` / `series` 四个字段拼接后做正则检索（脚本 `.tmp/burn2026/scripts/kwbooks.py`），**同时检索英文姓氏与中文音译**——这一点很关键，因为库里绝大多数是**中译本**，只用英文姓氏检索必然漏检。
+复核方法：以 `data/master_catalog.json`（2147 条）的 `canonical_title` / `original_filename` / `author` / `series` 四个字段拼接后做正则检索（脚本 `scripts/kwbooks.py`），**同时检索英文姓氏与中文音译**——这一点很关键，因为库里绝大多数是**中译本**，只用英文姓氏检索必然漏检。
 
 ### 3.1 复核 `LIBRARY_GAPS.md` §1.2「两个库中均未命中」清单
 
@@ -1252,7 +1252,7 @@
 
 **判定口径**：在 2022–2026 近 5 年命中 **0 次或 ≤1 次**，**且**不是任何高频考点的前置依赖，**且**能从考纲权重（`txt_finals/*_Syllabus*.txt` 六份考纲）中确认非核心。
 
-我用 `subtopic_recency.py` 对 43 个细粒度子考点做了正则探针（脚本见 `.tmp/burn2026/scripts/subtopic_recency.py`），下表是按"近 5 年命中数"升序的前 12 名。
+我用 `subtopic_recency.py` 对 43 个细粒度子考点做了正则探针（脚本见 `scripts/subtopic_recency.py`），下表是按"近 5 年命中数"升序的前 12 名。
 
 | 子考点 | 全史题数 | 2022–2026 | 最后一次出现 | 判定 | 理由 |
 |---|---|---|---|---|---|
@@ -1382,36 +1382,36 @@
 ## 附录 · 复现命令与只读声明
 
 ```powershell
-cd E:\deepseek_exclusive\math
+cd yau-Search
 
 # 1) 建藏书合并索引（master_catalog + library_toc + subject_classification）
-C:\Python314\python.exe .tmp\burn2026\scripts\lib_index.py
-#    -> .tmp\burn2026\scripts\lib_index.json  (2147 条)
+python scripts\lib_index.py
+#    -> scripts\lib_index.json  (2147 条)
 
 # 2) 从真题重算考点热度榜
-C:\Python314\python.exe .tmp\burn2026\scripts\tag_stats.py
-#    -> .tmp\burn2026\scripts\tag_stats.json + 屏幕上的 TOP 榜
+python scripts\tag_stats.py
+#    -> scripts\tag_stats.json + 屏幕上的 TOP 榜
 
 # 3) 每个考点的候选书目 + 真实 toc 命中
-C:\Python314\python.exe .tmp\burn2026\scripts\topic_books2.py
-C:\Python314\python.exe .tmp\burn2026\scripts\show_compact.py .tmp\burn2026\scripts\topic_books2.txt 群论 概率论
+python scripts\topic_books2.py
+python scripts\show_compact.py scripts\topic_books2.txt 群论 概率论
 
 # 4) 按库内 ID 导出某本书的真实章节目录
-C:\Python314\python.exe .tmp\burn2026\scripts\dump_toc.py "BK0899,BK2147,BK0652"
+python scripts\dump_toc.py "BK0899,BK2147,BK0652"
 
 # 5) 每个考点的代表真题（年份/科目/题号）
-C:\Python314\python.exe .tmp\burn2026\scripts\tag_problems.py
-C:\Python314\python.exe .tmp\burn2026\scripts\tag_index.py
+python scripts\tag_problems.py
+python scripts\tag_index.py
 
 # 6) 细粒度子考点的时间分布（用于 §5 战略放弃清单）
-C:\Python314\python.exe .tmp\burn2026\scripts\subtopic_recency.py
+python scripts\subtopic_recency.py
 
 # 7) 书名关键词检索（缺口复核，支持中英音译并检）
-C:\Python314\python.exe .tmp\burn2026\scripts\kwbooks.py "数值"
-C:\Python314\python.exe .tmp\burn2026\scripts\kwbooks.py "Kolmogorov|柯尔莫戈洛夫|佛明"
+python scripts\kwbooks.py "数值"
+python scripts\kwbooks.py "Kolmogorov|柯尔莫戈洛夫|佛明"
 ```
 
-**只读声明**：本报告全部脚本均**只读** `book_research_clean_restart/` 下的文件，未做任何写入、移动或修改。所有产出均落在 `.tmp/burn2026/` 内。
+**只读声明**：本报告全部脚本均**只读** `book_research_clean_restart/` 下的文件，未做任何写入、移动或修改。所有产出均落在 `/` 内。
 
 ---
 
