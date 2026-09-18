@@ -1,0 +1,22 @@
+
+=== page 1 ===
+ALGEBRA (INDIVIDUAL)
+Problem 1.
+(1) Classify the groups of order 8.
+(2) For each ﬁnite group of order 8, classify the irreducible ﬁnite dimensional repre-
+sentations over C.
+Problem 2. For each integer m ą 1, let Km “ Qpe
+2πi
+m q.
+(1) Prove that the polynomial x4 ` x3 ` x2 ` x ` 1 is irreducible over Q.
+(2) Prove that K5 is a Galois extension of Q whose Galois group is cyclic of order 4.
+(3) Prove that K5 Ě Qpcos 2π
+5 q.
+(4) Prove that K20 is a Galois extension of Q whose Galois group is isomorphic to
+pZ{20Zqˆ.
+(Recall that pZ{20Zqˆ is the group of units of the ring Z{20Z.)
+Problem 3. Let f be a nonconstant polynomial in Crxs and R “ Crxs{pfq. Show that
+the following are equivalent:
+(1) R has no nonzero nilpotent element.
+(2) any ﬁnitely generated indecomposable R-module is projective.
+1

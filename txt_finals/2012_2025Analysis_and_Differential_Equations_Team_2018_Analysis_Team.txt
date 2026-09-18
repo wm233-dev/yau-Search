@@ -1,0 +1,108 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Team
+Please solve the following problems.
+1. Isoperimetric inequality. and Steiner symmetrization.
+It is well known that in R2, any region Ωwith continuous piecewise C1 boundary
+∂Ωsatisﬁes that
+4π|Ω| ≤Length(∂Ω)2.
+When the equality holds for a region Ωwith continuous piecewise C1 boundary, it is
+then called an isoperimetric set. For example, all disks are isoperimetric sets.
+1) Prove that any isoperimetric set is convex;
+2) Given a line V in R2 passing through the origin, the Steiner symmetrization with
+respect to V is the operation which associates with each bounded convex subset C of
+R2 the subset S(C) of R2 such that, for every line L (not necessarily passing through
+the origin) perpendicular to V ,
+either L ∩C = ∅and L ∩S(C) = ∅,
+or L ∩C ̸= ∅and L ∩S(C) is a closed segment with center in V , and Length(L ∩
+S(C))=Length(L ∩C). In other words, L ∩S(C) is a translation of the segment L ∩C
+along L, such that the segment L ∩S(C) is symmetric with respect to V .
+Prove that |S(C)| = |C|, and Length(∂S(C)) ≥Length(C), equality holds if and
+only if C is symmetric with respect to V .
+3) Deduce that the only isoperimetric sets are the disks.
+2. Deﬁne ζ(s) = Σ∞
+n=1n−s, s = σ + it . Show that
+ζ(s) = −Γ(1 −s)
+2πi
+Z
+C
+(−z)s−1
+ez −1 dz
+where Γ(s) =
+R ∞
+0 xs−1e−xdx, (−z)s−1 is deﬁned on the complement of the positive
+real axis as e(s−1) log(−z) with −π < Im log(−z) < π.C is the contor consisting of upper
+1
+
+=== page 2 ===
+2
+real axis in the direction from +∞to 0, a small circle around 0 counter-clockwise, and
+lower real axis in the direction from 0 to +∞.
+Show that ζ(s) is a meromorphic function of the complex plane.
+3. Consider the following linear parabolic equation
+(
+∂tu(t; r, z) = (∂2
+r + ∂2
+z + 1
+r∂r −1
+r2)u(t; r, z), on R+ × Ω
+u(0; r, z) = u0(r, z), u(t; 0, z) = 0
+where Ω= {(r, z); r > 0, z ∈R}. Given initial data u0 satisfying
+Z
+Ω
+|u0|drdz < ∞.
+Prove that u(t; r, z) is given by
+u(t; r, z) =
+1
+4πt
+Z
+Ω
+|r
+′
+r |
+1
+2H( t
+rr
+′ )exp(−(r −r
+′)2 + (z −z
+′)2
+4t
+)u0(r
+′, z
+′)dr
+′dz
+′
+where
+H(y) =
+1
+√πy
+Z
+π
+2
+−π
+2
+e−sin2 φ
+y
+cos(2φ)dφ
+4. Let Ωbe a bounded and connected smooth domain in R2, and ˜N = ( ˜N1, ˜N2) be
+a smooth vector ﬁeld deﬁned on ¯Ωthat equals to the outer unit normal N on the
+boundary ∂Ωsatisfying supx∈¯Ω| ˜N|(x) ≤1 and supx∈¯Ω|∂xj ˜N|(x) ≤K (j = 1, 2) for
+some constant K. Prove that there exists a constant C independent of K such that
+Z
+Ω
+2
+X
+i,j=1
+|∂ivj|2dx
+≤C
+Z
+Ω
+X
+1≤i,k,l≤2
+( ˜N k ˜N l∂ivk∂ivl + |curlv|2 + |divv|2 + K|v|2)(x)dx,
+for any smooth vector ﬁeld v = (v1, v2) on ¯Ω, where |curlv|2 = P2
+i,j=1(∂ivj −∂jvi)2,
+|divv|2 = P2
+i=1(∂ivi)2.

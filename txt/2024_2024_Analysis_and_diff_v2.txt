@@ -1,0 +1,107 @@
+
+=== page 1 ===
+1
+S.-T. Yau College Student Mathematics Contests 2024
+Analysis and Diﬀerential Equations
+Problem 1. Let Q : R Ñ R be a C8
+c
+function, i.e. it is smooth and has compact support. We
+assume Q is even, i.e. Qpxq “ Qp´xq. We assume Q is non-trivial, (i.e. Q does not equal to zero
+everywhere).
+Let T1pxq :“ xQpxq, and let T2pxq “ x2Qpxq. Let T3 :“ e´x2p1 ` x2024q
+We also introduce the following notation. For any f : R Ñ R, λ ą 0, α P R, we deﬁne
+fλ,αpxq :“
+1
+λ1{2 fpx ´ α
+λ
+q
+(0.1)
+We claim: There exists δ ą 0, ϵ ą 0, so that for any c P R with |c| ă δ, one can ﬁnd unique λ, α
+such that the followings hold
+1. |λ ´ 1| ` |α| ă ϵ.
+2. ă Qλ,α ´ Q ´ cT3,
+T1 ą“ 0
+3. ă Qλ,α ´ Q ´ cT3,
+T2 ą“ 0
+(Here, for any two functions f1, f2, we deﬁneă f1, f2 ą:“
+ş
+f1pxqf2pxqdx).
+Is the above claim correct? Prove your conclusion.
+Problem 2 Recall for every f P L2pR3q, one has that gpxq :“ p´∆` 1q´1f is a well-deﬁned
+L2pR3q function. And one may compute g by solving
+p´∆` 1qg “ f
+(0.2)
+(Recall ∆in R3 is deﬁned as ∆:“ ř3
+i“1 B2
+i , also recall one may also deﬁne p´∆` 1q´1 by Fourier
+theory.)
+Now, let V pxq :“ e´|x|2, x P R3. Prove that the operator T :“ I ` p´∆` 1q´1V is invertible in
+L2.
+(Here, Tf :“ f ` p´∆` 1q´1pV fq.)
+Problem 3
+Let ψpξq P C8
+c pRq be smooth and has compact support. Let ψpξq “ 0, @|ξ| ě 1.
+Let f1pξq, f2pξq P C8
+c pRq , i.e. f1, f2 are smooth and have compact support. Let ui : R ˆ R Ñ C,
+i “ 1, 2, be deﬁned as
+u1px1, x2q :“
+ż
+R
+ψpξqf1pξqeiξx1eiξ2x2dξ,
+u2px1, x2q :“
+ż
+R
+ψpη ´ 10qf2pηqeiηx1eiη2x2dη
+(0.3)
+Prove there exists a constant C, which may depend on ψ, but does not depend on f1, f2, so that
+}u1u2}L2pR2q ď C}f1}L2pRq}f2}L2pRq.
+(0.4)
+(Hint: One may try to use Plancherel Theorem. It may be useful to observe that if one let
+Hpξ, ηq “ f1pξqf2pηq, then }H}L2pR2q are also bounded by }f1}L2pRq}f2}L2pRq)
+
+=== page 2 ===
+2
+Problem 4 Consider the heat equation in R2. Let u “ upt, xq is a solution to
+$
+&
+%
+Bu
+Bt ´ ∆u “ 0;
+u|t“0 “ u0 P L2.
+Then there exists a universal constant C such that
+ż 8
+0
+}uptq}2
+L8dt ď C}u0}2
+L2.
+Problem 5 . Consider the Fourier transform. Let
+Qpg, fqpxq :“
+ż
+RN
+ż
+SN´1 Bp|x ´ y|, x ´ y
+|x ´ y| ¨ σqgpy1qfpx1qdσdy,
+where B is a given two variable function, SN´1 stands for the unit sphere in RN and
+x1 :“ x ` y
+2
+` |x ´ y|σ
+2
+;
+y1 :“ x ` y
+2
+´ |x ´ y|σ
+2
+.
+(0.5)
+Then
+{
+Qpg, fqpξq “ p2πq´N{2
+ż
+RNˆSN´1
+ˆBp|η|, ξ
+|ξ| ¨ σqˆgpξ´ ` ηq ˆfpξ` ´ ηqdσdη,
+where ˆBp|η|, tq :“
+ş
+RN Bp|q|, tqe´iq¨ηdq, ξ˘ :“ ξ˘|ξ|σ
+2
+.

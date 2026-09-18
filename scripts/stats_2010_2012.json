@@ -1,0 +1,1071 @@
+{
+ "rows": [
+  {
+   "file": "2010_AlgebraNumberTheory_individual.txt",
+   "year": "2010",
+   "kind": "个人",
+   "subject": "代数与数论",
+   "nprob": 6,
+   "chars": 2257,
+   "lines": 57,
+   "pages": 2
+  },
+  {
+   "file": "2010_AlgebraNumberTheory_team.txt",
+   "year": "2010",
+   "kind": "团体",
+   "subject": "代数与数论",
+   "nprob": 6,
+   "chars": 1307,
+   "lines": 38,
+   "pages": 1
+  },
+  {
+   "file": "2010_Analysis_and_differential_equations_individual.txt",
+   "year": "2010",
+   "kind": "个人",
+   "subject": "分析与微分方程",
+   "nprob": 6,
+   "chars": 1557,
+   "lines": 66,
+   "pages": 2
+  },
+  {
+   "file": "2010_Analysis_and_differential_equations_team.txt",
+   "year": "2010",
+   "kind": "团体",
+   "subject": "分析与微分方程",
+   "nprob": 6,
+   "chars": 1397,
+   "lines": 77,
+   "pages": 2
+  },
+  {
+   "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+   "year": "2010",
+   "kind": "个人",
+   "subject": "应用/计算/概率统计",
+   "nprob": 6,
+   "chars": 2412,
+   "lines": 121,
+   "pages": 2
+  },
+  {
+   "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+   "year": "2010",
+   "kind": "团体",
+   "subject": "应用/计算/概率统计",
+   "nprob": 6,
+   "chars": 4553,
+   "lines": 144,
+   "pages": 3
+  },
+  {
+   "file": "2010_GeometryTopology_indi.txt",
+   "year": "2010",
+   "kind": "个人",
+   "subject": "几何与拓扑",
+   "nprob": 6,
+   "chars": 1294,
+   "lines": 28,
+   "pages": 1
+  },
+  {
+   "file": "2010_GeometryTopology_team.txt",
+   "year": "2010",
+   "kind": "团体",
+   "subject": "几何与拓扑",
+   "nprob": 6,
+   "chars": 1576,
+   "lines": 32,
+   "pages": 1
+  },
+  {
+   "file": "2011_1_AnalysisDiffEquation_Individual_2011.txt",
+   "year": "2011",
+   "kind": "个人",
+   "subject": "分析与微分方程",
+   "nprob": 6,
+   "chars": 1533,
+   "lines": 56,
+   "pages": 1
+  },
+  {
+   "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+   "year": "2011",
+   "kind": "个人",
+   "subject": "应用/计算/概率统计",
+   "nprob": 6,
+   "chars": 4279,
+   "lines": 158,
+   "pages": 3
+  },
+  {
+   "file": "2011_3_GeomTop_Individual_2011.txt",
+   "year": "2011",
+   "kind": "个人",
+   "subject": "几何与拓扑",
+   "nprob": 6,
+   "chars": 1862,
+   "lines": 45,
+   "pages": 1
+  },
+  {
+   "file": "2011_4_Algebra_Individual_2011.txt",
+   "year": "2011",
+   "kind": "个人",
+   "subject": "代数与数论",
+   "nprob": 6,
+   "chars": 2029,
+   "lines": 72,
+   "pages": 2
+  },
+  {
+   "file": "2011_5_AnalysisDiffEquation_Team_2011.txt",
+   "year": "2011",
+   "kind": "团体",
+   "subject": "分析与微分方程",
+   "nprob": 6,
+   "chars": 1539,
+   "lines": 41,
+   "pages": 1
+  },
+  {
+   "file": "2011_6_AppliedMathProb_Team_2011.txt",
+   "year": "2011",
+   "kind": "团体",
+   "subject": "应用/计算/概率统计",
+   "nprob": 6,
+   "chars": 3330,
+   "lines": 100,
+   "pages": 2
+  },
+  {
+   "file": "2011_7_GeomTop_Team_2011.txt",
+   "year": "2011",
+   "kind": "团体",
+   "subject": "几何与拓扑",
+   "nprob": 6,
+   "chars": 1697,
+   "lines": 57,
+   "pages": 2
+  },
+  {
+   "file": "2011_8_Algebra_Team_2011.txt",
+   "year": "2011",
+   "kind": "团体",
+   "subject": "代数与数论",
+   "nprob": 6,
+   "chars": 1539,
+   "lines": 55,
+   "pages": 1
+  },
+  {
+   "file": "2012_Algebra2012Individual.txt",
+   "year": "2012",
+   "kind": "个人",
+   "subject": "代数与数论",
+   "nprob": 6,
+   "chars": 2320,
+   "lines": 65,
+   "pages": 2
+  },
+  {
+   "file": "2012_Algebra2012team.txt",
+   "year": "2012",
+   "kind": "团体",
+   "subject": "代数与数论",
+   "nprob": 6,
+   "chars": 2575,
+   "lines": 82,
+   "pages": 2
+  },
+  {
+   "file": "2012_Analysis_individual.txt",
+   "year": "2012",
+   "kind": "个人",
+   "subject": "分析与微分方程",
+   "nprob": 6,
+   "chars": 1048,
+   "lines": 46,
+   "pages": 1
+  },
+  {
+   "file": "2012_Analysis_team.txt",
+   "year": "2012",
+   "kind": "团体",
+   "subject": "分析与微分方程",
+   "nprob": 6,
+   "chars": 1642,
+   "lines": 55,
+   "pages": 1
+  },
+  {
+   "file": "2012_Applied2012individual.txt",
+   "year": "2012",
+   "kind": "个人",
+   "subject": "应用/计算/概率统计",
+   "nprob": 5,
+   "chars": 3582,
+   "lines": 124,
+   "pages": 3
+  },
+  {
+   "file": "2012_Applied2012team.txt",
+   "year": "2012",
+   "kind": "团体",
+   "subject": "应用/计算/概率统计",
+   "nprob": 5,
+   "chars": 3995,
+   "lines": 140,
+   "pages": 3
+  },
+  {
+   "file": "2012_Geometry2012individual.txt",
+   "year": "2012",
+   "kind": "个人",
+   "subject": "几何与拓扑",
+   "nprob": 6,
+   "chars": 1587,
+   "lines": 53,
+   "pages": 1
+  },
+  {
+   "file": "2012_Geometry2012team.txt",
+   "year": "2012",
+   "kind": "团体",
+   "subject": "几何与拓扑",
+   "nprob": 6,
+   "chars": 1155,
+   "lines": 34,
+   "pages": 1
+  },
+  {
+   "file": "2012_Probability2012_individual.txt",
+   "year": "2012",
+   "kind": "个人",
+   "subject": "概率统计",
+   "nprob": 6,
+   "chars": 3624,
+   "lines": 107,
+   "pages": 2
+  },
+  {
+   "file": "2012_Probability2012_team.txt",
+   "year": "2012",
+   "kind": "团体",
+   "subject": "概率统计",
+   "nprob": 6,
+   "chars": 2082,
+   "lines": 51,
+   "pages": 2
+  }
+ ],
+ "kw": {
+  "Galois 理论/分裂域": {
+   "total": 5,
+   "nfiles": 3,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2010_AlgebraNumberTheory_team.txt": 1,
+    "2011_4_Algebra_Individual_2011.txt": 3
+   }
+  },
+  "不可约性(irreducible)": {
+   "total": 6,
+   "nfiles": 4,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 2,
+    "2010_AlgebraNumberTheory_team.txt": 2,
+    "2011_4_Algebra_Individual_2011.txt": 1,
+    "2012_Algebra2012team.txt": 1
+   }
+  },
+  "Sylow 定理": {
+   "total": 8,
+   "nfiles": 3,
+   "per_file": {
+    "2011_8_Algebra_Team_2011.txt": 3,
+    "2012_Algebra2012Individual.txt": 2,
+    "2012_Algebra2012team.txt": 3
+   }
+  },
+  "单群/群阶整除": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2010_AlgebraNumberTheory_team.txt": 2,
+    "2011_4_Algebra_Individual_2011.txt": 2
+   }
+  },
+  "群表示论": {
+   "total": 6,
+   "nfiles": 3,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2010_AlgebraNumberTheory_team.txt": 2,
+    "2011_4_Algebra_Individual_2011.txt": 3
+   }
+  },
+  "张量积/对称幂": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2010_AlgebraNumberTheory_team.txt": 3,
+    "2012_Algebra2012Individual.txt": 1
+   }
+  },
+  "共轭类": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 2
+   }
+  },
+  "正交群/反射": {
+   "total": 5,
+   "nfiles": 2,
+   "per_file": {
+    "2012_Algebra2012Individual.txt": 3,
+    "2012_Algebra2012team.txt": 2
+   }
+  },
+  "PID/模/自由模": {
+   "total": 5,
+   "nfiles": 2,
+   "per_file": {
+    "2011_8_Algebra_Team_2011.txt": 4,
+    "2012_Algebra2012Individual.txt": 1
+   }
+  },
+  "数域/域扩张": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2010_AlgebraNumberTheory_team.txt": 3,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 1
+   }
+  },
+  "p 进数/p-adic": {
+   "total": 3,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Algebra2012team.txt": 3
+   }
+  },
+  "行列式/矩阵": {
+   "total": 29,
+   "nfiles": 11,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 3,
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 7,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 1,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 3,
+    "2011_6_AppliedMathProb_Team_2011.txt": 1,
+    "2011_8_Algebra_Team_2011.txt": 2,
+    "2012_Algebra2012Individual.txt": 1,
+    "2012_Algebra2012team.txt": 5,
+    "2012_Analysis_team.txt": 2,
+    "2012_Applied2012individual.txt": 2,
+    "2012_Applied2012team.txt": 2
+   }
+  },
+  "环/理想/商环": {
+   "total": 11,
+   "nfiles": 4,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 2,
+    "2011_4_Algebra_Individual_2011.txt": 1,
+    "2011_8_Algebra_Team_2011.txt": 6,
+    "2012_Algebra2012Individual.txt": 2
+   }
+  },
+  "四元数": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2011_4_Algebra_Individual_2011.txt": 2
+   }
+  },
+  "结式/互素多项式": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_8_Algebra_Team_2011.txt": 1
+   }
+  },
+  "特征多项式/极小多项式": {
+   "total": 2,
+   "nfiles": 2,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2011_4_Algebra_Individual_2011.txt": 1
+   }
+  },
+  "D-模/微分算子": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Algebra2012Individual.txt": 1
+   }
+  },
+  "对角化/不变子空间": {
+   "total": 3,
+   "nfiles": 3,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 1,
+    "2011_4_Algebra_Individual_2011.txt": 1
+   }
+  },
+  "全纯/共形映射": {
+   "total": 8,
+   "nfiles": 7,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_individual.txt": 1,
+    "2010_Analysis_and_differential_equations_team.txt": 1,
+    "2010_GeometryTopology_team.txt": 1,
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 2,
+    "2012_Analysis_individual.txt": 1,
+    "2012_Analysis_team.txt": 1
+   }
+  },
+  "调和函数/Laplace 方程": {
+   "total": 3,
+   "nfiles": 3,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_individual.txt": 1,
+    "2010_Analysis_and_differential_equations_team.txt": 1,
+    "2012_Analysis_individual.txt": 1
+   }
+  },
+  "Fourier 级数/系数": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1
+   }
+  },
+  "Lp/L2 空间": {
+   "total": 18,
+   "nfiles": 9,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_individual.txt": 1,
+    "2010_Analysis_and_differential_equations_team.txt": 2,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 6,
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1,
+    "2011_6_AppliedMathProb_Team_2011.txt": 1,
+    "2012_Analysis_individual.txt": 1,
+    "2012_Analysis_team.txt": 4,
+    "2012_Applied2012team.txt": 1,
+    "2012_Geometry2012individual.txt": 1
+   }
+  },
+  "Hilbert/Banach 空间": {
+   "total": 3,
+   "nfiles": 3,
+   "per_file": {
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 1,
+    "2012_Analysis_team.txt": 1
+   }
+  },
+  "紧算子/紧性": {
+   "total": 15,
+   "nfiles": 9,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_individual.txt": 1,
+    "2010_GeometryTopology_indi.txt": 1,
+    "2010_GeometryTopology_team.txt": 2,
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 2,
+    "2011_3_GeomTop_Individual_2011.txt": 1,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 1,
+    "2011_7_GeomTop_Team_2011.txt": 3,
+    "2012_Analysis_team.txt": 1,
+    "2012_Geometry2012team.txt": 3
+   }
+  },
+  "测度/可测函数": {
+   "total": 15,
+   "nfiles": 8,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_individual.txt": 1,
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 2,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 1,
+    "2011_6_AppliedMathProb_Team_2011.txt": 1,
+    "2012_Analysis_individual.txt": 2,
+    "2012_Analysis_team.txt": 6,
+    "2012_Probability2012_individual.txt": 1
+   }
+  },
+  "最大模/最大原理": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "Borel 测度/Cauchy 型积分": {
+   "total": 4,
+   "nfiles": 3,
+   "per_file": {
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1,
+    "2011_6_AppliedMathProb_Team_2011.txt": 2,
+    "2012_Probability2012_team.txt": 1
+   }
+  },
+  "常微分方程/初值问题": {
+   "total": 2,
+   "nfiles": 2,
+   "per_file": {
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 1,
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "Lyapunov 稳定性": {
+   "total": 18,
+   "nfiles": 5,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_team.txt": 2,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 7,
+    "2011_6_AppliedMathProb_Team_2011.txt": 4,
+    "2012_Applied2012individual.txt": 4,
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "一致收敛/逼近": {
+   "total": 12,
+   "nfiles": 7,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_individual.txt": 1,
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 1,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 5,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 2,
+    "2011_6_AppliedMathProb_Team_2011.txt": 1,
+    "2012_Applied2012individual.txt": 1,
+    "2012_Probability2012_individual.txt": 1
+   }
+  },
+  "导数不等式/插值估计": {
+   "total": 3,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Analysis_individual.txt": 3
+   }
+  },
+  "椭圆型 PDE(∆u)": {
+   "total": 6,
+   "nfiles": 5,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_team.txt": 1,
+    "2011_3_GeomTop_Individual_2011.txt": 1,
+    "2012_Analysis_individual.txt": 1,
+    "2012_Applied2012team.txt": 2,
+    "2012_Geometry2012individual.txt": 1
+   }
+  },
+  "覆盖空间/基本群": {
+   "total": 8,
+   "nfiles": 5,
+   "per_file": {
+    "2010_GeometryTopology_indi.txt": 3,
+    "2011_7_GeomTop_Team_2011.txt": 2,
+    "2012_Algebra2012team.txt": 1,
+    "2012_Analysis_team.txt": 1,
+    "2012_Geometry2012team.txt": 1
+   }
+  },
+  "同调/上同调": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2010_GeometryTopology_team.txt": 1,
+    "2011_7_GeomTop_Team_2011.txt": 3
+   }
+  },
+  "微分形式/Stokes/Poincaré": {
+   "total": 6,
+   "nfiles": 4,
+   "per_file": {
+    "2011_3_GeomTop_Individual_2011.txt": 1,
+    "2011_4_Algebra_Individual_2011.txt": 1,
+    "2011_7_GeomTop_Team_2011.txt": 3,
+    "2012_Geometry2012team.txt": 1
+   }
+  },
+  "Gauss-Bonnet/示性类": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Geometry2012team.txt": 1
+   }
+  },
+  "曲率(Ricci/高斯/平均)": {
+   "total": 16,
+   "nfiles": 5,
+   "per_file": {
+    "2010_GeometryTopology_indi.txt": 1,
+    "2011_3_GeomTop_Individual_2011.txt": 2,
+    "2011_7_GeomTop_Team_2011.txt": 8,
+    "2012_Geometry2012individual.txt": 3,
+    "2012_Geometry2012team.txt": 2
+   }
+  },
+  "子流形/第二基本形式": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2010_GeometryTopology_indi.txt": 2
+   }
+  },
+  "测地线/联络": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Geometry2012team.txt": 2
+   }
+  },
+  "Riemann 度量/等距": {
+   "total": 25,
+   "nfiles": 15,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2010_AlgebraNumberTheory_team.txt": 1,
+    "2010_GeometryTopology_indi.txt": 3,
+    "2010_GeometryTopology_team.txt": 2,
+    "2011_3_GeomTop_Individual_2011.txt": 1,
+    "2011_4_Algebra_Individual_2011.txt": 1,
+    "2011_6_AppliedMathProb_Team_2011.txt": 2,
+    "2011_7_GeomTop_Team_2011.txt": 3,
+    "2012_Algebra2012Individual.txt": 1,
+    "2012_Analysis_team.txt": 1,
+    "2012_Applied2012individual.txt": 1,
+    "2012_Geometry2012individual.txt": 3,
+    "2012_Geometry2012team.txt": 2,
+    "2012_Probability2012_individual.txt": 2,
+    "2012_Probability2012_team.txt": 1
+   }
+  },
+  "同伦/映射度": {
+   "total": 6,
+   "nfiles": 3,
+   "per_file": {
+    "2010_GeometryTopology_team.txt": 2,
+    "2011_3_GeomTop_Individual_2011.txt": 3,
+    "2012_Geometry2012team.txt": 1
+   }
+  },
+  "射影空间 RP^n/CP^2": {
+   "total": 5,
+   "nfiles": 3,
+   "per_file": {
+    "2010_GeometryTopology_indi.txt": 2,
+    "2012_Geometry2012individual.txt": 1,
+    "2012_Geometry2012team.txt": 2
+   }
+  },
+  "辛形式": {
+   "total": 3,
+   "nfiles": 1,
+   "per_file": {
+    "2010_GeometryTopology_indi.txt": 3
+   }
+  },
+  "临界点": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2010_GeometryTopology_team.txt": 2
+   }
+  },
+  "嵌入/光滑流形": {
+   "total": 5,
+   "nfiles": 3,
+   "per_file": {
+    "2010_GeometryTopology_team.txt": 3,
+    "2011_3_GeomTop_Individual_2011.txt": 1,
+    "2012_Geometry2012individual.txt": 1
+   }
+  },
+  "i.i.d./独立同分布": {
+   "total": 14,
+   "nfiles": 6,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 2,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 2,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 1,
+    "2011_6_AppliedMathProb_Team_2011.txt": 1,
+    "2012_Probability2012_individual.txt": 5,
+    "2012_Probability2012_team.txt": 3
+   }
+  },
+  "正态分布": {
+   "total": 7,
+   "nfiles": 5,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 1,
+    "2011_6_AppliedMathProb_Team_2011.txt": 3,
+    "2012_Geometry2012individual.txt": 1,
+    "2012_Geometry2012team.txt": 1,
+    "2012_Probability2012_individual.txt": 1
+   }
+  },
+  "指数/泊松/二项": {
+   "total": 10,
+   "nfiles": 4,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 1,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 2,
+    "2011_6_AppliedMathProb_Team_2011.txt": 2,
+    "2012_Probability2012_team.txt": 5
+   }
+  },
+  "极大似然 MLE": {
+   "total": 7,
+   "nfiles": 4,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 1,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 2,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 2,
+    "2012_Probability2012_team.txt": 2
+   }
+  },
+  "无偏/UMVU/Cramer-Rao": {
+   "total": 12,
+   "nfiles": 3,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 1,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 8,
+    "2011_6_AppliedMathProb_Team_2011.txt": 3
+   }
+  },
+  "渐近分布/CLT": {
+   "total": 6,
+   "nfiles": 5,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 1,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 1,
+    "2011_2_AppliedMathProb_Individual_2011.txt": 1,
+    "2012_Probability2012_individual.txt": 1,
+    "2012_Probability2012_team.txt": 2
+   }
+  },
+  "条件期望/辅助统计量": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_2_AppliedMathProb_Individual_2011.txt": 1
+   }
+  },
+  "顺序统计量": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 1
+   }
+  },
+  "假设检验/检验功效": {
+   "total": 31,
+   "nfiles": 11,
+   "per_file": {
+    "2011_2_AppliedMathProb_Individual_2011.txt": 2,
+    "2012_Algebra2012Individual.txt": 2,
+    "2012_Algebra2012team.txt": 2,
+    "2012_Analysis_individual.txt": 1,
+    "2012_Analysis_team.txt": 1,
+    "2012_Applied2012individual.txt": 1,
+    "2012_Applied2012team.txt": 2,
+    "2012_Geometry2012individual.txt": 1,
+    "2012_Geometry2012team.txt": 1,
+    "2012_Probability2012_individual.txt": 13,
+    "2012_Probability2012_team.txt": 5
+   }
+  },
+  "密度/分布函数": {
+   "total": 10,
+   "nfiles": 3,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 2,
+    "2011_6_AppliedMathProb_Team_2011.txt": 2,
+    "2012_Probability2012_individual.txt": 6
+   }
+  },
+  "Bayes/后验分布": {
+   "total": 4,
+   "nfiles": 1,
+   "per_file": {
+    "2011_6_AppliedMathProb_Team_2011.txt": 4
+   }
+  },
+  "收敛性(依概率/几乎必然)": {
+   "total": 7,
+   "nfiles": 2,
+   "per_file": {
+    "2012_Probability2012_individual.txt": 1,
+    "2012_Probability2012_team.txt": 6
+   }
+  },
+  "有限差分/CFL/von Neumann": {
+   "total": 24,
+   "nfiles": 4,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 11,
+    "2011_6_AppliedMathProb_Team_2011.txt": 7,
+    "2012_Applied2012individual.txt": 5,
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "格式稳定性": {
+   "total": 20,
+   "nfiles": 5,
+   "per_file": {
+    "2010_Analysis_and_differential_equations_team.txt": 1,
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 10,
+    "2011_6_AppliedMathProb_Team_2011.txt": 4,
+    "2012_Applied2012individual.txt": 4,
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "有限元": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "迭代法/SOR/共轭梯度": {
+   "total": 4,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012team.txt": 4
+   }
+  },
+  "SVD/奇异值/最小二乘": {
+   "total": 5,
+   "nfiles": 2,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 1,
+    "2012_Applied2012individual.txt": 4
+   }
+  },
+  "算法复杂度": {
+   "total": 6,
+   "nfiles": 1,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_individual.txt": 6
+   }
+  },
+  "整数分解/RSA/素数": {
+   "total": 20,
+   "nfiles": 6,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2010_AlgebraNumberTheory_team.txt": 1,
+    "2011_5_AnalysisDiffEquation_Team_2011.txt": 1,
+    "2012_Algebra2012team.txt": 1,
+    "2012_Applied2012individual.txt": 5,
+    "2012_Applied2012team.txt": 11
+   }
+  },
+  "正交多项式/数值积分": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2011_2_AppliedMathProb_Individual_2011.txt": 3,
+    "2012_Applied2012individual.txt": 1
+   }
+  },
+  "PDE 数值格式": {
+   "total": 8,
+   "nfiles": 3,
+   "per_file": {
+    "2010_Applied_Computational_Probability_and_Statistics_team.txt": 4,
+    "2011_6_AppliedMathProb_Team_2011.txt": 3,
+    "2012_Applied2012individual.txt": 1
+   }
+  }
+ },
+ "names": {
+  "Sylow 定理": {
+   "total": 8,
+   "nfiles": 3,
+   "per_file": {
+    "2011_8_Algebra_Team_2011.txt": 3,
+    "2012_Algebra2012Individual.txt": 2,
+    "2012_Algebra2012team.txt": 3
+   }
+  },
+  "Schur 引理": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_7_GeomTop_Team_2011.txt": 1
+   }
+  },
+  "Schwarz 引理": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "Stokes 定理": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Geometry2012team.txt": 1
+   }
+  },
+  "Gauss-Bonnet": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Geometry2012team.txt": 1
+   }
+  },
+  "Cramer-Rao 下界": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_2_AppliedMathProb_Individual_2011.txt": 1
+   }
+  },
+  "von Neumann 稳定性": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012individual.txt": 1
+   }
+  },
+  "Chebyshev 多项式": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "Bertrand 曲线": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_3_GeomTop_Individual_2011.txt": 1
+   }
+  },
+  "Poincaré 对偶": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_3_GeomTop_Individual_2011.txt": 1
+   }
+  },
+  "de Rham 上同调": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_7_GeomTop_Team_2011.txt": 1
+   }
+  },
+  "Boussinesq 方程": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "RSA 密码": {
+   "total": 4,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012team.txt": 4
+   }
+  },
+  "Wilcoxon 秩和": {
+   "total": 3,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Probability2012_individual.txt": 3
+   }
+  },
+  "Mann-Whitney U": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Probability2012_individual.txt": 2
+   }
+  },
+  "最大模原理": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "Green 公式/散度定理": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_7_GeomTop_Team_2011.txt": 1
+   }
+  },
+  "Fubini/控制收敛": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "最小二乘/正交投影": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012individual.txt": 1
+   }
+  },
+  "共轭梯度法": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "SOR 迭代": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2012_Applied2012team.txt": 1
+   }
+  },
+  "对称群 S_n": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2010_AlgebraNumberTheory_individual.txt": 1,
+    "2011_4_Algebra_Individual_2011.txt": 3
+   }
+  },
+  "正交群 O(n)": {
+   "total": 4,
+   "nfiles": 2,
+   "per_file": {
+    "2012_Algebra2012Individual.txt": 2,
+    "2012_Algebra2012team.txt": 2
+   }
+  },
+  "SL_2(Z)": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_8_Algebra_Team_2011.txt": 1
+   }
+  },
+  "四元数群 Q8": {
+   "total": 2,
+   "nfiles": 1,
+   "per_file": {
+    "2011_4_Algebra_Individual_2011.txt": 2
+   }
+  },
+  "Jacobi/椭圆函数": {
+   "total": 0,
+   "nfiles": 0,
+   "per_file": {}
+  },
+  "Borel 测度/Riesz 表示": {
+   "total": 1,
+   "nfiles": 1,
+   "per_file": {
+    "2011_1_AnalysisDiffEquation_Individual_2011.txt": 1
+   }
+  }
+ }
+}

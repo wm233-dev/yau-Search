@@ -1,0 +1,23 @@
+
+=== page 1 ===
+Algebra, Number theory and Combinatorics
+Individual Contest
+Question 1. Let Mn be the space of real n×n matrices with euclidean topology.
+Let G = GLn(R) act on Mn by conjugation. For a diagonal matrix D ∈Mn,
+denote by GD the G-orbit of D. Show that GD is closed in Mn.
+Question 2. Let A be the abelian category of ﬁnite abelian groups. Show that
+A has neither enough projective objects nor enough injective objects.
+Question 3. Let G be a group of cardinality n. Prove that G has at most
+nlog2 n automorphisms.
+Question 4. Let K be a ﬁeld, we deﬁne l(K) to be the smallest natural number
+n such that there are n elements x1, . . . , xn in K satisfying
+−1 = x2
+1 + x2
+2 + · · · + x2
+n.
+If no such n exists, we denote l(K) by ∞.
+1. Prove that
+l(K) = l(K(t)),
+here K(t) is the ﬁeld of rational functions with coeﬃcients in K.
+2. Compute l(K) when K are the following ﬁelds: Q(e2iπ/3), Q(e2iπ/321/3).
+1

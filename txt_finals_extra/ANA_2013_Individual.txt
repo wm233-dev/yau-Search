@@ -1,0 +1,18 @@
+Individual Oral Test
+Analysis and PDE
+
+Suppose  is a nonsmooth bounded convex function defined on . Prove that  is independent of .f(x,y)R1×[0,1]fx
+Consider the property
+f1n=1n3+e-2n    for n=2,3,4…         (*)
+Show that there is no analytic function  on  with the property .fz∈C: z<1(*)
+Show that there is an analytic function  on  with property .g0<z<1(*)
+Is there an analytic function  on  with propertysuch that  is never an integer, i.e.  for all ?g0<z<1 fzf(z)∉Z0<z<1
+Real Analysis.
+Let  be a measurable subset of  with ,  is a measureable function on .ERdmE<+∞gE
+For all , there holds . Then there exists a subset  of  with , so that .f∈L1(E)fxg(x)∈L1(E)FEmF=0g∈L∞(E\F)
+If , then we haveg∈L∞(E)
+gL∞=supfL1=1E fxgxdx
+(a)  Suppose , prove that there exists a absolute constant , such thatf∈C1[-1,1]C
+-11fx-12-11fydy2dx≤C-11f'2(x) dx
+ Suppose ,  is the unit ball in . Prove that there exists a absolute constant , such thatf∈C1(B1)B1R2C
+B1 fx-1B1B1 fydy2dx≤CB1 ∇f2dx

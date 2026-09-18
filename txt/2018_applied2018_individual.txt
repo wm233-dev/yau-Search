@@ -1,0 +1,155 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Applied Math. and Computational Math.
+Individual (5 problems)
+1. We consider the following convection-diﬀusion equation
+(1)
+ut + aux = buxx,
+0 ≤x < 1
+with an initial condition u(x, 0) = f(x) and periodic boundary condition, where a and
+b > 0 are constants. The ﬁrst order IMEX (implicit-explicit) time discretization and
+second order central spatial discretization are used to give the following scheme:
+(2)
+un+1
+j
+−un
+j
+∆t
++ aun
+j+1 −un
+j−1
+2∆x
+= bun+1
+j+1 −2un+1
+j
++ un+1
+j−1
+∆x2
+with a uniform mesh xj = j∆x with spatial mesh size ∆x and time step ∆t. Here un
+j is
+the numerical solution approximating the exact solution of (1) at x = xj and t = n∆t.
+Prove that the scheme is L2 stable under the very mild time step restriction
+(3)
+∆t ≤c
+with a constant c which is independent of ∆x. Can you determine the dependency of
+c on the two constants a and b in (1)?
+2. Velocity-Verlet method.
+(a) Recast the following Newtonian formula for the acceleration and potential force
+q′′(t) = −∇V (q),
+into a Hamiltonian system and show that the corresponding map on the phase
+space is symplectic.
+(b) Show that the velocity-Verlet (recovered many times: Delambre 1791, Størmer in
+1907, Cowell & Crommelin 1909, Verlet 1960s) method
+pn+1/2 = pn −∆t
+2 ∇V (qn);
+qn+1 = qn + ∆tpn+1/2;
+pn+1 = pn+1/2 −∆t
+2 ∇V (qn+1)
+is symplectic and is second order accurate.
+Hint: Let u(t) = (p(t), q(t)) be a solution of the Hamiltonian system with initial data
+u0 = (p0, q0) and we view the solution u(t) as a map map on the phase space ϕt :
+Rd × Rd →Rd × Rd ϕt(u0) = u(t). We call the ﬂow map is symplectic if its Jacobian
+Φt(u0) = ∂ϕt(u0)
+∂u0
+=
+Ã∂p(t)
+∂p0
+∂p(t)
+∂q0
+∂q(t)
+∂p0
+∂q(t)
+∂q0
+!
+satisﬁes Φt(u0)TJΦt(u0) = J for any u0 ∈Rd × Rd. Here J =
+¡ 0
+I
+−I 0
+¢
+.
+A scheme ϕn(u0), n = 1, 2 . . . , is symplectic if the map ϕn(u0) is symplectic.
+1
+
+=== page 2 ===
+2
+3. We begin with some deﬁnitions.
+(1) A graph G is a pair G = (V, E) where V is a ﬁnite set, called the vertices of G,
+and E is a subset of P2(V ) (i.e., a set E of (unordered) two-element subsets of V ),
+called the edges of G. A simple graph G is a graph without loops (edge that connects a
+vertex to itself) or multiple edges between any pair of vertices. The order of the graph
+is |V |. We often put V = {v1, v2, · · · , vn} and E = {vivj| vi and vj are adjacent}.
+(2) Two vertices x and y are adjacent if xy ∈E. The neighborhood of a vertex x,
+denoted by NG(x) or N(x), is the set of vertices that is adjacent to x. The degree
+of a vertex x, denoted by dG(x) or d(x), is |N(x)| (i.e. the number of vertices that is
+adjacent to x).
+(3) A path is a collection of distinct vertices vi1vi2 · · · vik such that vijvij+1 ∈E for
+all j, 1 ≤j < k. vi1 and vik are the ends of the path. A Hamiltonian path P is a
+path containing all vertices of the graph. A cycle is a closed path with vi1 = vik. A
+Hamiltonian cycle is a cycle containing all vertices of the graph. A graph is called
+Hamiltonian if it has a Hamiltonian cycle.
+(4) A graph G is (Hamilton) connected, if for every pair of vertices there is a (Hamil-
+tonian) path between them.
+An example of a simple graph: V = {v1, v2, v3, v4} and E = {v1v2, v2v3, v3v4, v2v4}.
+In this graph, the order of the graph is 4, N(v1) = {v2}, N(v4) = {v2, v3}, d(v3) = 2,
+d(v2) = 3 and v1v2v4v3 is a Hamiltonian path with ends v1 and v3.
+Let G be a simple graph of order n. Suppose that the degree sum of any pair of
+nonadjacent vertices is at least n+1. Show that G is Hamilton-connected (i.e. between
+any pair of vertices x and y, there is a Hamiltonian path in which x and y are the ends).
+4. Deﬁne the Hermite polynomials as
+(4)
+Hn(x) = (−1)n exp(x2
+2 ) dn
+dxn[exp(−x2
+2 )],
+x ∈(−∞, +∞), n = 0, 1, 2, · · · .
+(a) Prove the weighted orthogonality of the Hermite polynomials:
+(5)
+⟨Hn(x), Hm(x)⟩ρ ≜
+Z +∞
+−∞
+ρ(x)Hn(x)Hm(x)dx = n!
+√
+2πδn,m,
+where ρ(x) = exp(−x2
+2 ).
+(b) Prove the three recurrence formula:
+(6)
+Hn+1(x) = xHn(x) −nHn−1(x),
+n ≥1,
+and then show that for all n ≥1, Hn(x) and Hn−1(x) share no common roots.
+(c) Use the recurrence formula and induction to prove the diﬀerential relation:
+(7)
+d
+dxHn(x) = nHn−1(x),
+n ≥1,
+and then prove that Hn is an eigenfunction of the following eigenvalue problem
+(8)
+xu′(x) −u′′(x) = λu.
+You need to ﬁnd the eigenvalue λn corresponding to Hn(x).
+
+=== page 3 ===
+3
+5. Take σi(A) to be the i-th singular value of the square matrix A ∈Rn×n. Deﬁne the
+nuclear norm of A to be
+∥A∥∗≡
+n
+X
+i=1
+σi(A).
+(1) Show that ∥A∥∗= tr(
+√
+ATA).
+(2) Show that ∥A∥∗= max
+XT X=I tr(AX).
+(3) Show that ∥A + B∥∗≤∥A∥∗+ ∥B∥∗
+(4) Explain informally why minimizing ∥A −A0∥2
+F + ∥A∥∗over A for a ﬁxed A0 ∈
+Rn×n might yield a low-rank approximation of A0.
+Notation: The trace of a matrix tr(A) is the sum P
+i aii of its diagonal elements. We
+deﬁne the square root of a symmetric positive semideﬁnite matrix M to be
+√
+M ≡
+UD1/2U T, where D1/2 is the diagonal matrix containing (nonnegative) square roots of
+the eigenvalues of M and U contains the eigenvectors of M = UDU T.

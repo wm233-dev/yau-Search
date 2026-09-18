@@ -1,0 +1,25 @@
+
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2023
+Oral Exams in Geometry and Topology
+All-round (Solve 1 out of 2 problems)
+1. Consider the two-dimensional unit sphere S2. Let ∆denote the Laplace operator
+of 1-form on S2. Find all smooth 1-forms ω that satisfy the equation
+∆ω + ω = 0.
+2. Let M n be an n(⩾2)-dimensional compact Riemannian manifold without boundary
+isometrically immersed in the Euclidean space Rn+1. Then the ﬁrst eigenvalue λ1(M n)
+of the Laplacian on M n satisﬁes
+λ1(M n) ⩽
+n
+Vol(M n)
+Z
+M
+H2dµ.
+Furthermore, the equality holds if and only if M n is a round sphere in Rn+1. Here
+H =
+1
+n
+Pn
+i=1 κi is the mean curvature of M n in Rn+1 and Vol(M n) is the volume of
+M n.

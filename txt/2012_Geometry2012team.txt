@@ -1,0 +1,33 @@
+
+=== page 1 ===
+GROUP TEST
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Geometry and Topology
+Please solve 5 out of the following 6 problems.
+1. Prove that the real projective space RPn is a diﬀerentiable manifold
+of dimension n.
+2. Let M, N be n-dimensional smooth, compact, connected manifolds,
+and f : M →N a smooth map with rank equals to n everywhere.
+Show that f is a covering map.
+3. Given any Riemannian manifold (M n, g), show that there exists a
+unique Riemannian connection on M n.
+4. Let Sn be the unit sphere in Rn+1 and f : Sn →Sn a continuous
+map. Assume that the degree of f is an odd integer. Show that there
+exists x0 ∈Sn such that f(−x0) = −f(x0).
+5. State and prove the Stokes theorem for oriented compact manifolds.
+6. Let M be a surface in R3. Let D be a simply-connected domain
+in M such that the boundary ∂D is compact and consists of a ﬁnite
+number of smooth curves. Prove the Gauss-Bonnet Formula:
+Z
+∂D
+kg ds +
+X
+j
+(π −αj) +
+ZZ
+D
+K dA = 2π,
+where kg is the geodesic curvature of the boundary curve. Each αj
+is the interior angle at a vertex of the boundary, K is the Gaussian
+curvature of M, and the 2-form dA is the area element of M.
+1

@@ -1,0 +1,15 @@
+
+=== page 1 ===
+PROBLEMS FOR ALGEBRA SECTION
+1. Individual test
+Problem 1 (Individual 1). Let K be the splitting ﬁeld of f(x) = x4 −4x2 −1 over Q.
+(1) Show that f(x) is irreducible over Q.
+(2) Describe the Galois group Gal(K/Q).
+Problem 2 (Individual 2). Let Fp be an algebraic closure of Fp (p is a prime). Describe the abelian group
+F
+×
+p in more elementary terms. What is the action of the Frobenius in terms of your description?
+Problem 3 (Individual 3). Let A and B be two n × n matrices with coeﬃcients in Q. For any ﬁeld
+extension K of Q, we say that A and B are similar over K if A = PBP −1 for some n×n invertible matrix
+P with coeﬃcients in K. Prove that A and B are similar over Q if and only if they are similar over C.
+1

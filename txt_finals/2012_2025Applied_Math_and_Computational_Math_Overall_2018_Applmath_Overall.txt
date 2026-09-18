@@ -1,0 +1,13 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest, 2018
+Applied Mathematics, All-around
+Let u(t) = (u1(t), u2(t), u3(t)) be a solution of the ODE
+du
+dt = a × u.
+where × denotes the cross product and a = (a1, a2, a3) ̸= 0.
+Consider a forward diﬀerence scheme in time
+un+1 = un + ∆t (a × un).
+1. Show that the scheme is always unstable.
+2. Discuss ways to improve the stability of the scheme.
+1

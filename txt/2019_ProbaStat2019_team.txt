@@ -1,0 +1,39 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Probability and Statistics
+Team (4 problems)
+1) Suppose (Xn)n≥1 is a sequence of i.i.d. random variables and the common law is exponential with
+parameter one. Show that
+P
+·
+lim sup
+n→∞
+Xn
+log n = 1
+¸
+= 1.
+2) Let (Xn)n≥1 be i.i.d. real random variables and set Sn = Pn
+i=1 Xi for n ≥1. Suppose that for some
+constant c ∈R we have Sn/n →c as n →∞almost surely. Show that X1 has a ﬁnite ﬁrst moment
+and E[X1] = c.
+3) Consider uniform permutation of {1, 2, . . . , n} and denote by Xn the number of cycles in the permu-
+tation. Find a sequence of reals (an)n≥1 such that
+lim
+n→∞
+E[Xn]
+an
+= 1,
+and justify your answer.
+4) The Erd¨os-R´enyi random graph G(n, p) with parameters n ≥1 and p ∈[0, 1] is the random graph
+whose vertex set is V = {1, 2, . . . , n} and where for each pair i ̸= j ∈V the edge i ↔j is present with
+probability p independently of all the other pairs.
+(a) For ϵ > 0, if pn ≥(1 + ϵ) log n
+n , then
+P[G(n, pn) has an isolated vertex] →0,
+as n →∞.
+(b) For ϵ > 0, if pn ≤(1 −ϵ) log n
+n , then
+P[G(n, pn) has an isolated vertex] →1,
+as n →∞.
+1

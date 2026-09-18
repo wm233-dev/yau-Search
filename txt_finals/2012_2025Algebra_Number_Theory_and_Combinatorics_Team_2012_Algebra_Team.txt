@@ -1,0 +1,38 @@
+
+=== page 1 ===
+GROUP TEST: ALGEBRA
+(1)(a) The group SO(2) acts on C[X, Y ] as follows:
+µ
+cos θ
+sin θ
+−sin θ cos θ
+¶
+·P(X, Y ) = P(cos θX+sin θY, −sin θX+cos θY ).
+Prove that its invariant subspace C[X, Y ]SO(2) =
+C[X2 + Y 2].
+(b) Let S = C[X, Y ]e−π(X2+Y 2) and let F be the
+Fourier transformation:
+Fφ(x, y) =
+Z
+R2 φ(u, v)e2πi(ux+vy)dudv.
+Prove that for any P ∈C[X, Y ], φ ∈S,
+F(P · φ) = P
+µ ∂
+∂x, ∂
+∂y
+¶
+F(φ).
+(c) Describe the space C
+h
+∂
+∂x, ∂
+∂y
+iSO(2)
+.
+(2)(a) What is the Galois group of Q(ζ7) over Q, where
+ζ7 = e2πi/7?
+(b) Find a Galois extension ﬁeld F of Q such that
+Gal(F/Q) ∼= Z/3Z? Are there inﬁnitely many
+such Galois extensions?
+(c) Find the quadratic subﬁeld of Q(ζ7)?
+1

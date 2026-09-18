@@ -1,0 +1,1567 @@
+##### 2012 Individual 2012 Probability (1).pdf
+=== page 1 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 4, morning
+Problem. Take two points ξ and η randomly and independently with respect to the uniform
+distribution from the unit interval [0, 1]. Then in general these two points divide the interval [0, 1]
+into three subintervals with lengths X, Y and Z, respectively.
+(1) What is the probability that X, Y and Z constitute the lengths of three sides of a triangle in
+the plane?
+(2) What are the probability distributions of X, Y and Z?
+1
+
+=== page 2 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 4, afternoon
+Problem. Suppose that {ξk} are independent and identically distributed random variables with
+uniform distribution on the interval [0, 1]. Let
+Y = max
+1≤k≤n ξk.
+(1) What is the joint distribution of (ξ1, Y)?
+(2) Evaluate the probability P(ξ1 = Y).
+(3) Evaluate the conditional expectation E(ξ1|Y).
+2
+
+=== page 3 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 5, morning
+Problem. Discuss the following issue by constructing an appropriate probability model. You
+may make some further reasonable assumptions.
+Suppose that there are 1000 persons, and only one of them is your ideal friend. Suppose that
+when you meet a person which is your ideal friend, you can identify whether he/she is your ideal
+friend with a success probability 99/100, and when you meet a person who is not your ideal friend,
+you may wrongly identify him/her as your ideal friend with a probability 1/100. Now if you have
+already met a person that you regard as an ideal friend, what is the probability that this person
+REALLY is your ideal friend?
+3
+
+=== page 4 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 5, afternoon
+Problem. Let {Xn} be independent and identically distributed random variables with expecta-
+tion EX, variance DX < ∞and characteristic function φX(t), respectively. Let N be a non-negative
+integer valued random variable with expectation EN, variance DN < ∞and characteristic function
+φN(t), respectively. Furthermore, {Xn} and N are independent. Let Y = PN
+k=1 Xk.
+(1) What is the characteristic function of Y?
+(2) Evaluate the variance of Y.
+4
+
+=== page 5 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 4, morning
+Problem. Take two points ξ and η randomly and independently with respect to the uniform
+distribution from the unit interval [0, 1]. Then in general these two points divide the interval [0, 1]
+into three subintervals with lengths X, Y and Z, respectively.
+(1) What is the probability that X, Y and Z constitute the lengths of three sides of a triangle in
+the plane?
+(2) What are the probability distributions of X, Y and Z?
+Solution
+(1) If 0 ≤ξ < η, then the lengths of the three subintervals are ξ, η −ξ and 1 −η, respectively.
+These constitute the lengths of three sides of a triangle is equivalent to
+ξ + (η −ξ)
+>
+1 −η,
+(η −ξ) + (1 −η)
+>
+ξ,
+ξ + (1 −η)
+>
+η −ξ,
+which are further equivalent to
+ξ < 1
+2,
+η −ξ < 1
+2,
+η > 1
+2.
+These constraints form a region with area 1/8.
+By symmetry, the probability that X, Y and Z constitute the lengths of three sides of a triangle
+in the plane is 1/8 + 1/8 = 1/4
+(2) We have
+X = min{ξ, η},
+Y = |ξ −η|,
+Z = 1 −max{ξ, η}.
+The distribution of X is
+FX(x)
+:=
+P(min{ξ, η} ≤x)
+=
+1 −P(min{ξ, η} > x)
+=
+1 −P(ξ > x)P(η > x)
+=
+1 −(1 −x)2,
+x ∈[0, 1].
+The distribution of Y is
+FY(y)
+:=
+P(|ξ −η| ≤y)
+=
+Z Z
+−y≤t−s≤y
+dtds
+=
+1 −(1 −y)2,
+y ∈[0, 1].
+The distribution of Z is
+FZ(z)
+:=
+P(1 −max{ξ, η} ≤z)
+=
+P(max{ξ, η} ≥1 −z)
+=
+1 −P(max{ξ, η} < 1 −z)
+=
+1 −P(ξ < 1 −z)P(η < 1 −z)
+=
+1 −(1 −z)2,
+z ∈[0, 1].
+5
+
+=== page 6 ===
+August 4, afternoon
+Problem. Suppose that {ξk} are independent and identically distributed random variable with
+uniform distribution on the interval [0, 1]. Let
+Y = max
+1≤k≤n ξk.
+(1) What is the joint distribution of (ξ1, Y)?
+(2) Evaluate the probability P(ξ1 = Y).
+(3) Evaluate the conditional expectation E(ξ1|Y).
+Solution
+(1) The joint distribution of (ξ1, Y) is
+Fξ1,Y(x, y)
+:=
+P(ξ1 ≤x, max
+1≤k≤n ξk ≤y)
+=
+P(ξ1 ≤x, ξ2 ≤y, · · · , ξn ≤y)
+=
+xyn−1,
+0 ≤x ≤y ≤1.
+(2) By symmetry, we have P(ξ1 = Y) = P(ξ2 = Y) = · · · = P(ξn = Y). But
+n
+X
+k=1
+P(ξk = Y) = 1.
+Therefore P(ξ1 = Y) = 1
+n.
+(3) The distribution of Y is FY(y) := P(max1≤k≤n ξk ≤y) = yn,
+y ∈[0, 1]. The conditional
+distribution of ξ1 under Y is F(x|y) = n−1
+n · x
+y for 0 < x < y, and F(x|y) = 1 for 1 ≥x ≥y ≥0.
+Therefore
+E(ξ1|Y = y)
+=
+1
+ny +
+Z y
+0
+x · n −1
+n
+· 1
+ydx
+=
+1
+ny + n −1
+2n y
+=
+n + 1
+2n y,
+and E(ξ1|Y) = n+1
+2n Y.
+August 5, morning
+Problem. Discuss the following issue by constructing an appropriate probability model. You
+may make some further reasonable assumptions.
+Suppose that there are 1000 persons, and only one of them is your ideal friend. Suppose that
+when you meet a person which is your ideal friend, you can identify whether he/she is your ideal
+friend with a success probability 99/100, and when you meet a person who is not your ideal friend,
+you may wrongly identify him/her as your ideal friend with a probability 1/100. Now if you have
+already met a person that you regard as an ideal friend, what is the probability that this person
+REALLY is your ideal friend?
+Solution
+6
+
+=== page 7 ===
+Let P(+) denote the probability that you meet an ideal friend, P(−) the probability that the
+person you meet is not your ideal friend, then
+P(+) = 1/1000,
+P(−) = 999/1000.
+Let P(“+”) denote the probability that you meet a person and identify him/her as your ideal friend
+and P(“ −”) denote the probability that you meet a person and do not regard him/her as an ideal
+friend. Let P(“ + ”|−) denote the conditional probability that you regard a person as your ideal
+friend while in fact he/she is not, and other conditional probabilities are deﬁned similarly. Then
+P(“ + ”|+) = 99/100,
+P(“ −”|+) = 1/100.
+P(“ + ”|−) = 1/100,
+P(“ −”|−) = 99/100.
+What we need to calculate is in fact the conditional probability P(+|“+”), that is, the probability
+that the person you identify as an ideal friend is really your ideal friend. This can be evaluated by
+the Bayesian formula as follows:
+P(+|“ + ”)
+=
+P(+, “ + ”)
+P(“ + ”)
+=
+P(+)P(“ + ”|+)
+P(+)P(“ + ”|+) + P(−)P(“ + ”|−)
+=
+1
+1000 × 99
+100
+1
+1000 × 99
+100 + 999
+1000 ×
+1
+100
+=
+11/122 ≈0.090.
+August 5, afternoon
+Problem. Let {Xn} be independent and identically distributed random variables with expecta-
+tion EX, variance DX < ∞and characteristic function φX(t), respectively. Let N be a non-negative
+integer valued random variable with expectation EN, variance DN < ∞and characteristic function
+φN(t), respectively. Furthermore, {Xn} and N are independent. Let Y = PN
+k=1 Xk.
+(1) What is the characteristic function of Y?
+(2) Evaluate the variance of Y.
+Solution
+(1) The characteristic function of Y is
+φY(t)
+:=
+Eeit PN
+k=1 Xk
+=
+E(E(eit PN
+k=1 Xk|N))
+=
+E((φX(t))N).
+(2) We have
+φ′
+Y(t) = E{N(φX(t))N−1φ′
+X(t)},
+φ′′
+Y(t) = E{N(N −1)(φX(t))N−2(φ′
+X(t))2 + N(φX(t))N−1φ
+′′
+X(t)}.
+Therefore, buy putting t = 0, we have
+EY = EN · EX,
+7
+
+=== page 8 ===
+and
+EY2 = E{N(N −1)(EX)2 + NEX2},
+from which we obtain
+DY = EY2 −(EY)2 = DN · (EX)2 + EN · DX.
+8
+
+##### 2012 Individual 2012 Probability (2).pdf
+=== page 1 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Saturday, August 4, morning
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the exponential distribution with density function f(x) = 1
+βe−x/β, x ≥0.
+a) Let T be an unbiased estimator of the scale parameter β. Prove that
+Var(T) ≥β2
+n .
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+1
+
+=== page 2 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on
+Statistics
+Saturday, August 4, morning
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the exponential distribution with density function f(x) = 1
+βe−x/β, x ≥0.
+a) Let T be an unbiased estimator of the scale parameter β. Prove that
+Var(T) ≥β2
+n .
+Solution: The above lower bound on the variance of an unbiased estimator T of the scale
+parameter β is given by the Cram´er-Rao bound 1/I(β). The log-likelihood function is
+ℓ(β) =
+n
+X
+i=1
+½
+−log β −Xi
+β
+¾
+,
+which leads to
+ℓ′(β) =
+n
+X
+i=1
+½
+−1
+β + Xi
+β2
+¾
+and
+ℓ′′(β) =
+n
+X
+i=1
+½ 1
+β2 −2Xi
+β3
+¾
+.
+Thus the Fisher information is
+I(β) = −Eℓ′′(β) = n
+β2 .
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+Solution: The answer is yes. The maximum likelihood estimator bβ, which solves the
+score equation ℓ′(β) = 0, is identical to the sample mean 1
+n
+Pn
+i=1 Xi. It is easy to show
+that such an estimator is unbiased and attains the lowest variance.
+2
+
+=== page 3 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Saturday, August 4, afternoon
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the Cauchy distribution with density function f(x) = 1
+π
+1
+1+(x−θ)2 , x ∈R.
+a) Let T be an unbiased estimator of the location parameter θ. Prove that
+Var(T) ≥2
+n.
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+c) Can you provide an estimator T that can attain the lower bound on Var(T) in part a)
+asymptotically, by removing the constraint of unbiasedness?
+3
+
+=== page 4 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on
+Statistics
+Saturday, August 4, afternoon
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the Cauchy distribution with density function f(x) = 1
+π
+1
+1+(x−θ)2 , x ∈R.
+a) Let T be an unbiased estimator of the location parameter θ. Prove that
+Var(T) ≥2
+n.
+Solution: The above lower bound on the variance of an unbiased estimator T of the
+location parameter θ is given by the Cram´er-Rao bound 1/I(θ). The log-likelihood
+function is
+ℓ(θ) =
+n
+X
+i=1
+©
+−log π −log
+£
+1 + (Xi −θ)2¤ª
+,
+which leads to
+ℓ′(θ) =
+n
+X
+i=1
+2(Xi −θ)
+1 + (Xi −θ)2
+and
+ℓ′′(θ) =
+n
+X
+i=1
+−2 + 2(Xi −θ)2
+[1 + (Xi −θ)2]2 .
+Thus the Fisher information is
+I(θ) = −Eℓ′′(θ) = n
+2 .
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+Solution: The answer is no. From the proof of the Cram´er-Rao theorem, we see that the
+above lower bound on variance can be attained only if the following Cauchy-Schwarz
+inequality becomes an equation
+¡
+E
+©
+ℓ′(θ)(T −θ)
+ª¢2 ≤E
+©
+ℓ′(θ)
+ª2 E(T −θ)2.
+It is well known that the equation holds only when
+T −θ = (some constant) · ℓ′(θ) = (some constant) ·
+n
+X
+i=1
+2(Xi −θ)
+1 + (Xi −θ)2 ,
+which entails that
+T = θ + (some constant) ·
+n
+X
+i=1
+2(Xi −θ)
+1 + (Xi −θ)2 .
+The above representation shows that such an “optimal” estimator T should always
+depend on the location parameter θ, which cannot be an estimator in the ﬁrst place.
+4
+
+=== page 5 ===
+c) Can you provide an estimator T that can attain the lower bound on Var(T) in part a)
+asymptotically, by removing the constraint of unbiasedness?
+Solution: The answer is yes by the classical asymptotic theory of the maximum like-
+lihood estimator (MLE). The MLE bθ, which solves the score equation ℓ′(θ) = 0, is
+known to be asymptotically normal with mean θ and variance 1/I(θ) = 2
+n.
+5
+
+=== page 6 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Sunday, August 5, morning
+Problem 1. Consider the linear regression model
+y = Xβ0 + ε,
+where y = (y1, · · · , yn)T is an n-dimensional vector of response, X = (x1, · · · , xp) is an n×p
+design matrix, β0 = (β0,1, · · · , β0,p)T is a p-dimensional vector of regression coeﬃcients,
+and ε = (ε1, · · · , εn)T is an n-dimensional vector of independent and identically distributed
+noise with mean 0 and variance σ2. It is well known that the ordinary least-squares estimator
+becomes unstable or even inapplicable when p is large compared to n. One idea for remedying
+this issue is the ridge regression which gives the ridge estimator
+bβridge = (XT X + λIp)−1XT y,
+where λ > 0 is called the ridge parameter.
+a) Calculate the mean of bβridge.
+b) Calculate the covariance matrix of bβridge.
+6
+
+=== page 7 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on
+Statistics
+Sunday, August 5, morning
+Problem 1. Consider the linear regression model
+y = Xβ0 + ε,
+where y = (y1, · · · , yn)T is an n-dimensional vector of response, X = (x1, · · · , xp) is an n×p
+design matrix, β0 = (β0,1, · · · , β0,p)T is a p-dimensional vector of regression coeﬃcients,
+and ε = (ε1, · · · , εn)T is an n-dimensional vector of independent and identically distributed
+noise with mean 0 and variance σ2. It is well known that the ordinary least-squares estimator
+becomes unstable or even inapplicable when p is large compared to n. One idea for remedying
+this issue is the ridge regression which gives the ridge estimator
+bβridge = (XT X + λIp)−1XT y,
+where λ > 0 is called the ridge parameter.
+a) Calculate the mean of bβridge.
+Solution:
+Ebβridge = (XT X + λIp)−1XT Xβ0 = β0 −λ(XT X + λIp)−1β0.
+b) Calculate the covariance matrix of bβridge.
+Solution:
+Cov(bβridge) = (XT X + λIp)−1XT Cov(y)X(XT X + λIp)−1
+= σ2(XT X + λIp)−1XT X(XT X + λIp)−1.
+7
+
+=== page 8 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Sunday, August 5, afternoon
+Problem 1. Let Xi ∼N(θi, 1
+n), i = 1, · · · , n, be independent. Find an estimator bT of
+T = Pn
+i=1 θ2
+i and calculate E( bT −T)2.
+8
+
+##### 2013 Individual 2013 Probability (Individual).pdf
+=== page 1 ===
+2013
+~
+
+
+ 
+
+
+
+}
+
+
+1.
+/
+ 
+
+I
+ 
+
+{ 100
+k
+
+
+w
+b
+>
+5
+m
+g
+
+V
+"
+C
+h
+Y
+
+r
+?
+/
+f
+
+?
+ 
+f
+P
+
+l
+
+Q
+[
+f
+L
+
+
+1
+*
+
+H
+
+
+{ 200
+k
+Æ
+g
+
+w
+
+
+L
+
+
+N
+d
+$
+T
+v
+
+3
+&
+O
+/
+
+f
+9
+
+
+
+ 
+
+f
+b
+
+
+
+n
+p
+y
+F
+7
+Z
+e
+
+K
+(
+n
+/
+ 
+t
+0
+"
+C
+
+B 200
+k
+
+{
+
+2.
+M X
+j Y
+W
+
+8
+
+E
+
+X
+R
++
+
+: Z = (X, Y )
+
+
+	
+a
+z
+
+
+
+-
+
+i
+J
+(
+r
+2
+4
+q O,
+
+X
+R
++
+
+: OZ
+j Z
+U
+
+	
+
+s
+ X
+'
+Y
+O
+5
+u
+W
+<
+E
+
+
+℄
+U
+
+r
+S
+R
++
+
+:
+
+3.
+6
+=
+b
+k
+\
+_
+)
+%
+A
+^
+Yk = aXk + ǫk, k = 1, 2, . . ., n,
+D
+x {ǫk : k = 1, 2, . . ., n, }
+O
+
+8
+U
+
+	
+r
+S N(0, σ2)
+R
++
+
+:
+`
+;
+
+{Xk : k = 1, 2, . . ., n, }
+O
+
+R
++
+ I
+W
+M
+.
+
+|
+
+k
+`
+;
+
+G
+!
+
+b
+y
+#
+.
+
+
+
+o
+
+#
+.
+:
+
+5
+u
+,
+
+
+
+
+##### 2014 Individual 2014 Probability (Individual).pdf
+=== page 1 ===
+2014 S.-T Yau College Math Contests
+
+4
+-
+C
+H
+
+
+>
+
+1.
+ Z
+K
+Q
+
+
+ 
+`
+D
+E
+#
+
+2
+
+$ P(Z ∈dt) = e−tdt.
+
+T {Z}
+! [Z]
+
+Æ
+K Z
+
+
+D
+
+
+!
+[
+D
+
+
+℄
+6 {Z}
+! [Z]
+
+/
+
+
+
+Æ
+=
+
+F
+5
+
+
+
+
+2.
+ X
+! Y
+K
++
+U
+,
+_
+K
+3
+ 
+
+
+Æ
+K σ2
+! τ 2,
+O
+
+M
+D
+K ρ
+
+
+W
+\
+G
+
+
+
+C
+=
+I
+(
+:
+J E[X|X + Y ].
+3.
+'
+
+U
+&
+ S
+1
+
+9
+8
+<
+Y
+
+X
+
+%
+
+?
+R
+^
+&
+
+B
+0
+;
+V
+S
+
+N
+U
+1
+
+
+P
+
+)
+?
+ 
+Z
+
+ 3
+* 2
+A
+a
+
+
+"
+ 5
+* 3
+A
+a
+
+
+C
+L
+7
+Q
+b
+)
+?
+ 
+Z
+
+&
+U
+.
+	
+1
+
+##### 2015 Individual 2015 Probability (Individual).pdf
+=== page 1 ===
+1
+概率统计面试题（个人）
+1. 设ξi (i = 1, 2, · · · )为一列独立同分布的随机变量
+且它们的期望与方差分别是µ与σ, 又设N为取值正整数
+的随机变量，它的期望与方差分别是m与θ. 假定N与(ξi, i =
+1, 2, · · · ) 独立, 试求X = ∑N
+i=1 ξi的期望与方差.
+2.
+若X, Y, Z为独立的[0 1]上均匀分布的随机变量,
+则W = (XY )Z 也服从[0 1]上的均匀分布.
+3.
+若E[Y |X] = X,而且E[X|Y ] = Y , 则Y
+=
+X(a.s.).
+
+##### 2016 Individual 2016 Probability (Individual).pdf
+=== page 1 ===
+2016 Oral Exam, Probability and Statistics
+1. (Individual) Let Xλ be a Poisson random variable with parameter λ > 0:
+P[Xλ = k] = λ k
+k! e−λ,
+∀k ∈{0,1,2,3,...}.
+What is the limiting distribution of √Xλ −
+√
+λ as λ →∞?
+2. (Individual) Suppose that X1,...,Xn are independent identically distributed random variables in L1.
+Deﬁne, for 1 ≤k ≤n,
+Sk =
+k
+∑
+j=1
+Xj.
+What is the conditional expectation of Sn−1 given Sn?
+3. (Individual) Three players A, B, C play chess in turn. In each game, the winning rate is half-half.
+The one who wins twice in row (i.e, wins twice consecutively) will be the ﬁnal winner. The game
+starts with A v.s. B.
+What is the probability for A to be the ﬁnal winner?
+How about 5 players, i.e., there are players A, B, C, D, E.?
+1
+
+##### 2017 Individual 2017 Probability (Individual).pdf
+=== page 1 ===
+2017 Oral Exam: Probability and Statistics
+Individual
+Problem 1. Let X be a random variable with ﬁnite variance. Denote by
+m, µ, σ the median, mean and standard deviation of X:
+m := inf{c : P[X ≤c] ≥1/2},
+µ = E[X],
+σ2 = E[(X −µ)2].
+Show that |m −µ| ≤σ.
+Problem 2. Let (Xn)n≥1 be a sequence of non-negative random variables.
+Let (Fn)n≥1 be a ﬁltration (i.e. a sequence of increasing σ-algebras). Assume
+that
+E[Xn | Fn] →0,
+in probability.
+Show that
+Xn →0,
+in probability.
+Is it true reversely? If yes, prove it; if not, give a counterexample.
+Problem 3. Let X1, ..., Xn be independent random variables following com-
+mon Poisson distribution with mean λ. Let η = e−λ. Does there exist a
+uniformly unbiased minimum variance estimator UMVUE of η? (Recall that
+an estimator is UMVUE if it is unbaised estimator and has smallest variance
+among all unbiased estimators.) If yes, ﬁnd it; if no, prove it.
+1
+
+##### 2018 Individual 2018 Probability and Statistics (Individual).pdf
+=== page 1 ===
+1
+Yau Mathematical Competition 2018
+Probability and Statistics Individual
+Problem 1 (Probabability) Suppose that for each n, the (n × n) random matrix Xn has the uniform
+distribution on the orthogonal group O(n).
+(1) What is the distribution of the ﬁrst row vector
+Xn
+1 = (Xn
+11,Xn
+12,...Xn
+1n)?
+(2) Show that in distribution
+Xn
+11 ∼
+Z1
+q
+∑n
+i=1 Z2
+i
+,
+where Zi are independent, identically distributed random variables with the standard normal distribution.
+(3) Find the limit in distribution of the random variables √nXn
+11 as n →∞.
+Problem 2 (Statistics) Suppose we toss an unbiased coin and record K1, the number of tosses needed
+to obtain the ﬁrst head. Then, we draw X1 from a normal distribution with mean K1µ and variance
+K1σ2, and record the pair (K1,X1).
+By repeating the experiment n −1 times, we obtain the pairs
+(K2,X2),...,(Kn,Xn). Using all the n data pairs (K1,X1),...,(Kn,Xn):
+(1) How would you best estimate µ and σ2?
+(2) Can you give a 95% conﬁdence interval for µ?
+
+##### 2019 Individual 2019 prob-individual.pdf
+=== page 1 ===
+Probability problems: individual contest
+May 2019
+1. Let p ≥1 and f, g ∈Lp[0, 1] such that
+R 1
+0 g(y)dy = 0. Show that
+Z 1
+0
+Z 1
+0
+|f(x) + g(y)|pdxdy ⩾
+Z 1
+0
+|f(x)|pdx.
+2. Consider an urn with p plus balls and m minus balls in it, where m and p are given nonnegative
+numbers. You are allowed to pick a random ball from the urn or quit the game. If you decide to
+pick and get a plus ball you gain a dollar; if you get a minus ball you lose a dollar. You can continue
+the game but picked balls are not replaced. Denote by V (m, p) the expected value of playing the
+game. Find a recurrence for V (m, p)
+3.
+3-1 Let Xn be increasing, integrable random variables and converges a.s. to X ∈L1, show that,
+for any sigma algebra G, E(Xn|G) ↑E(X|G).
+3-2 Let Xn ≥0, Show that
+lim inf
+n
+E(Xn|G) ≥E(lim inf
+n
+Xn|G).
+3-3 Let Xn be random variables in L1 and Xn →X a.s. with |Xn| ≤Z in L1. Show that
+E(X|G) = lim E(Xn|G) a.s. and in L1.
+3-4 Show that, if f convex and X, f(X) integrable, then
+f(E(X|G)) ≤E(f(X|G)).
+3-5 Show that G1 and G2 are independent i.f.f. for all X G2-mesurable, E(X|G1) = E(X).
+1
+
+##### 2019 Individual 2019 stat-individual.pdf
+=== page 1 ===
+Statistics problems: individual contest
+May 2019
+1. Suppose we have n pairs of observations (Xi, Yi), i = 1, . . . , n. Suppose we ﬁt a simple linear
+regression with Y as the response variable and the value of the regression coeﬃcient estimator is
+1. What happens if the role of X and Y are switched, i.e., we ﬁt a simple regression with X as the
+response variable?
+2. A math test consists of 10 questions. For each question, one either answers it correctly (Y = 1)
+or incorrectly (Y = 0). Thus for a test taker, his/her answers consist of Y1, . . . , Y10, where Yi is the
+answer to the ith question and takes value 1 or 0. Suppose a reasonable statistical model is that
+for each student, his/her responses to the 10 questions are independent Bernoulli variables with
+the following speciﬁcation:
+P(Yi = 1) = 1 −P(Yi = 0) =
+eθ−bi
+1 + eθ−bi ,
+i = 1, . . . , 10,
+where θ is his/her math ability (diﬀerent students have diﬀerent θ values) and bi is the diﬃculty
+level for the ith question. The test is designed, of course, to ﬁnd out the test taker’s θ value.
+This model implies that a person with higher θ value has a larger probability to answer a question
+correctly, while a more diﬃcult question (larger b value) make the probability of a correct answer
+smaller. The teacher allocates 10 points equally to each of the 10 questions for the total of 100
+points for the test.
+Suppose that student A answered two easiest questions (2 smallest bi values) incorrectly thus
+scoring 80 out of 100 and that student B answered two most diﬃcult questions (2 largest bi values)
+incorrectly thus also scoring 80 out of 100. Student A claims that it is unfair to him (in comparison
+to student B) because his 8 correct answers are on the more diﬃcult questions. And more diﬃcult
+questions should worth more points. Do you think student A has a valid point? Do you think the
+teacher’s scoring system is fair? Explain your thinking from the statistical perspective.
+3. Two research centers, A and B, collected two separate data sets to study relationship between two
+variables X and Y . Center A looked at its data, denoted by (X1, Y1), . . . , (Xm, Ym), and found a pos-
+itive correlation. Center B also looked at its own data, denoted by (Xm+1, Ym+1), . . . , (Xm+n, Ym+n),
+and also found a positive correlation. Now a new researcher pooled the two data set together into
+a larger one, (X1, Y1), . . . , (Xm+n, Ym+n). He claims that for the pooled data set, X and Y are
+negatively correlated. Do you think this is possible? Explain your answer.
+1
+
+##### 2020 Individual 2020 Probability and Statistics (Individual).pdf
+=== page 1 ===
+Yau College Math Competition 2020 Final Probability and Statistics
+Individual Exam Problem Set 1 (Saturday, October 24, 2020)
+PROBLEM 1. Suppose that {Xn} is a sequence of independent, iden-
+tically distributed random variables with the uniform distribution on the
+unit interval [0, 1]. For each x ∈[0, 1], deﬁne
+Xx
+n =
+(
+1,
+Xn ≤x;
+0,
+Xn > x.
+Let f : [0, 1] →R be an nondecreasing continuous function on [0, 1] and
+Bn(x; f ) = E
+
+f
+Xx
+1 + · · · + Xx
+n
+n
+
+.
+Show that
+(1) Bn(x; f ) is a polynomial in x of degree n; (2) Bn(x; f ) is nondecreas-
+ing in x;
+(3) Bn(x; f ) →f (x) uniformly on [0, 1].
+PROBLEM 2. An urn contains N balls marked 1, 2, ..., N. A ball is drawn
+from the urn repeatedly and independently with replacement. Let TN be
+the ﬁrst time every ball in the turn has been drawn at least once. Show that
+TN/N log N converges to 1 in probability.
+PROBLEM 3. Suppose {X1, . . . , Xn} is a random sample from an un-
+known probability distribution with ﬁnite mean, variance, and third cen-
+tral moment, denoted by µ, σ2, and µ3 = E(X1 −µ)3, respectively. It is of
+interest to study the relationship between
+¯X = 1
+n
+n
+∑
+i=1
+Xi
+and
+S2 =
+1
+n −1
+n
+∑
+i=1
+(Xi −¯X)2.
+(1) Show that they are independent when the underlying distribution
+is Gaussian.
+(2) For a general distribution, what is cov( ¯X, S2)? Find an expression.
+(3) Suppose the random sample is from Bernoulli(1/2). Show that ¯X
+and S2 are uncorrelated, but are not independent by showing that
+P(S2 = 0 | ¯X = 1) ̸= P(S2 = 0)
+1
+
+=== page 2 ===
+2
+Yau College Math Competition 2020 Final Probability and Statistics
+Individual Exam Problem Set 2 (Sunday, October 25, 2020)
+PROBLEM 1. Suppose that {Xn} is a sequence of real valued, indepen-
+dent, identically distributed random variables and B is a Borel set in R.
+Assume that P(X1 ∈B) > 0. Let T = inf{n : Xn ∈B} be the ﬁrst time the
+sequence is in the set B.
+(1) Show that P(T < ∞) = 1.
+(2) Suppose E|X1| < ∞. Show that EXT = E[X1IB(X1)]ET.
+PROBLEM 2. We ﬂip a fair coin repeatedly and independently. Let Nn be
+the number of consecutive heads beginning from the nth ﬂip. (For example,
+Nn = 0 if the nth ﬂip is a tail, and Nn = 2 if the nth and (n + 1)th ﬂips are
+heads but the (n + 2)th ﬂip is a tail. Show that
+lim sup
+n→∞
+Nn
+log n =
+1
+log 2.
+PROBLEM 3. Let {X1, . . . , Xn} be independent and identically distributed
+from the uniform distribution on the interval (−θ, θ) with θ > 0.
+(1) Find a minimal sufﬁcient statistic T for θ.
+(2) Deﬁne V = ¯X/|X|(n), where |X|(n) = max(|X1|, . . . , |Xn|). Show
+that V is independent of T.
+
+##### 2021 Individual 2021 Probability (Individual) (Solutions).pdf
+=== page 1 ===
+Yau College Math Competition 2021
+Final Probability and Statistics
+Individual Exam Problems (May 29, 2021)
+Problem 1. Let {Xn}n≥1 be a sequence of real valued, nonnegative random variables.
+Assume that there are constants C > 0 and λ > 0 such that EXn ≤Ce−λn, ∀n ≥1.
+Prove that
+P
+(
+lim sup
+n→∞
+1
+n ln Xn ≤−λ
+)
+= 1.
+Solution
+For any λ0 ∈(0, λ), deﬁne the events
+An = {ω ∈Ω: Xn(ω) > e−λ0n},
+n ≥1.
+By Chebyshev’s inequality,
+P(An) ≤eλ0nEXn ≤Ce(λ0−λ)n,
+∀n ≥1.
+Since λ0 < λ, we have
+∞
+∑
+n=1
+P(An) ≤
+∞
+∑
+n=1
+Ce(λ0−λ)n < +∞.
+Borel-Cantelli’s lemma implies that for P-a.s. ω ∈Ω, there exists n(ω) ∈N such that for
+all n ≥n(ω), we have ω ∈Ac
+n, that is Xn(ω) ≤e−λ0n. Therefore,
+1
+n ln Xn(ω) ≤−λ0,
+∀n ≥n(ω).
+This implies the desired result since λ0 is an arbitrary number less than λ.
+Problem 2. Assume that X1, . . . , Xn ∼U[0, 1] (uniform distribution) are i.i.d. Denote
+X(1) = min1≤k≤n Xk and X(n) = max1≤k≤n Xk. Let R = X(n) −X(1) be the sample range
+and V = (X(1) + X(n))/2 be the sample midvalue.
+(1). Find the joint density of (X(1), X(n)).
+(2). Find the joint density of (R, V ).
+(3). Find the density of R and the density of V .
+1
+
+=== page 2 ===
+Solution
+(1). Denote F(x1, xn) = P(X(1) ≤x1, X(n) ≤xn), then F(x1, xn) = 0 for x1 ̸∈[0, 1]
+or xn ̸∈[0, 1]. If x1 ≥xn, then {X(n) ≤xn} ⊂{X(1) ≤x1}, and therefore
+F(x1, xn) = P(X(n) ≤xn).
+If 0 ≤x1 ≤xn ≤1, then
+P(X(1) ≥x1, X(n) ≤xn) = P(∪n
+k=1{x1 ≤Xk ≤xn)
+=
+n
+∏
+k=1
+P(x1 ≤Xk ≤xn)
+= (xn −x1)n,
+which implies that
+F(x1, xn) = P(X(n) ≤xn) −P(X(1) ≥x1, X(n) ≤xn)
+= P(X(n) ≤xn) −(xn −x1)n.
+Thus,
+f(x1, xn) = ∂2F(x1, xn)
+∂x1∂xn
+=
+{n(n −1)(xn −x1)n−2,
+if 0 ≤x1 ≤xn ≤1,
+0,
+elsewhere.
+(2). Note that
+(X(1)
+X(n)
+)
+=
+(−1
+2 1
+1
+2
+1
+) (R
+V
+)
+≡A
+(R
+V
+)
+,
+thus the joint density of (R, V ) is
+fR,V (r, v) = f(x1, xn) × |detA|
+= f
+(
+v −r
+2, v + r
+2
+)
+= n(n −1)rn−2,
+where (r, v) ∈D ≡{(r, v) : 0 ≤v −r
+2 ≤v + r
+2 ≤1} and
+fR,V (r, v) = 0,
+if (r, v) ̸∈D.
+2
+
+=== page 3 ===
+(3) The density of R is
+fR(r) =
+∫+∞
+−∞
+fR,V (r, v)dv
+=
+∫1−r/2
+r/2
+fR,V (r, v)dv = n(n −1)rn−2(1 −r),
+0 ≤r ≤1.
+For the density of V , if v ∈[0, 1/2], then
+fV (v) =
+∫+∞
+−∞
+fR,V (r, v)dr =
+∫2v
+0
+n(n −1)rn−2dr = n(2v)n−1,
+if v ∈[1/2, 1], then
+fV (v) =
+∫+∞
+−∞
+fR,V (r, v)dr =
+∫2(1−v)
+0
+n(n −1)rn−2dr = n(2(1 −v))n−1.
+Problem 3. A binary tree is a tree in which each node has exactly two descendants. Sup-
+pose that each node of the tree is coloured black with probability p, and white otherwise,
+independently of all other nodes. For any path π containing n nodes beginning at the root
+of the tree, let B(π) be the number of black nodes in π, and let Xn(k) be the number of
+such paths π for which B(π) ≥k.
+(1) Show that there exists βc such that
+lim
+n→∞E(Xn(βn)) =
+{0,
+if β > βc,
+∞,
+if β < βc.
+How to determine the value of βc?
+(2) For β ̸= βc, ﬁnd the limit limn→∞P(Xn(βn) ≥1).
+Solution
+The number of paths π containing exactly n nodes is 2n−1, and each such π satisﬁes
+P(B(π) ≥k) = P (Sn ≥k) where Sn = Y1 + Y2 + · · · + Yn is the sum of n independent
+Bernoulli variables having parameter p. Therefore E(Xn(k)) = 2n−1P (Sn ≥k) . We set
+k = nβ, and need to estimate P (Sn ≥nβ). It is a consequence of the large deviation
+theorem that, if p ≤β < 1,
+P (Sn ≥nβ)1/n n→∞
+−→inf
+t>0
+{
+e−tβM(t)
+}
+where M(t) = E
+(
+etY1)
+= q + pet, q = 1 −p. With some calculus, we ﬁnd that
+P (Sn ≥nβ)1/n n→∞
+−→
+( p
+β
+)β ( 1 −p
+1 −β
+)1−β
+,
+p ≤β < 1
+3
+
+=== page 4 ===
+Hence
+E(Xn(βn)) n→∞
+−→
+{0,
+if γ(β) < 1
+∞,
+if γ(β) > 1
+where
+γ(β) = 2
+( p
+β
+)β ( 1 −p
+1 −β
+)1−β
+is a decreasing function of β. If p < 1
+2, there is a unique βc ∈[p, 1) such that γ (βc) = 1;
+if p ≥1
+2 then γ(β) > 1 for all β ∈[p, 1) so that we may take βc = 1.
+Turning to the ﬁnal part,
+P (Xn(βn) ≥1) ≤E(Xn(βn)) n→∞
+−→0,
+if β > βc.
+As for the other case, we will use the Payley-Zygmund inequality
+P(N ̸= 0) ≥E(N)2
+E (N2)
+for nonnegative random variable N.
+We have that E(Xn(βn)2) = ∑
+π,ρ E (IπIρ) , where the sum is over all such paths π, ρ,
+and Iπ is the indicator function of the event {B(π) ≥βn}. Hence
+E(Xn(βn)2) =
+∑
+π
+E (Iπ) +
+∑
+π̸=ρ
+E (IπIρ) = E(Xn(βn)) + 2n−1 ∑
+ρ̸=L
+E (ILIρ)
+where L is the path which always takes the left fork (there are 2n−1 choices for π, and by
+symmetry each provides the same contribution to the sum). We divide up the last sum
+according to the number of nodes in common to ρ and L, obtaining ∑n−1
+m=1 2n−m−1E (ILIM)
+where M is a path having exactly m nodes in common with L. Now
+E (ILIM) = E (IM | IL = 1) E (IL) ≤P (Tn−m ≥βn −m) E (IL) ,
+where Tn−m has the Binomial(n −m, p) distribution (the ’most value’ to IM of the event
+{IL = 1} is obtained when all m nodes in L ∩M are black). However
+E (IM) = P (Tn ≥βn) ≥pmP (Tn−m ≥βn −m) ,
+so that E (ILIM) ≤p−mE (IL) E (IM) . It follows that N = Xn(βn) satisﬁes
+E
+(
+N2)
+≤E(N) + 2n−1
+n−1
+∑
+m=1
+2n−m−1 · 1
+pm E (IL) E (IM) = E(N) + 1
+2(E(N))2
+n−1
+∑
+m=1
+( 1
+2p
+)m
+4
+
+=== page 5 ===
+whence, by the Payley-Zygmund inequality,
+P(N ̸= 0) ≥
+1
+E(N)−1 + 1
+2
+∑n−1
+m=1(2p)−m .
+If β < βc then E(N) →∞as n →∞. It is immediately evident that P(N ̸= 0) →1 if
+p ≤1
+2. Suppose ﬁnally that p > 1
+2 and β < βc. By the above inequality,
+P (Xn(βn) > 0) ≥c(β),
+∀n
+(0.1)
+where c(β) is some positive constant. Take ϵ > 0 such that β + ϵ < βc. Fix a positive
+integer m, and let Pm be a collection of 2m disjoint paths each of length n −m starting
+from depth m in the tree. Now
+P (Xn(βn) = 0) ≤P (B(v) < βn for all v ∈Pm) = P(B(v) < βn)2m,
+where v ∈Pm. However
+P(B(v) < βn) ≤P(B(ν) < (β + ϵ)(n −m))
+if βn < (β + ϵ)(n −m), which is to say that n ≥(β + ϵ)m/ϵ. Hence, for all large n,
+P (Xn(βn) = 0) ≤(1 −c(β + ϵ))2m
+by (0.1). We let n →∞and m →∞in that order, to obtain P (Xn(βn) = 0) →0 as
+n →∞. In summary,
+P(Xn(βn) ≥1) n→∞
+−→
+{0,
+if β > βc,
+1,
+if β < βc.
+5
+
+##### 2022 Individual 2022 Probability (Individual).pdf
+=== page 1 ===
+Yau College Math Competition 2022
+Final Probability and Statistics
+Individual Exam Problems (Aug. 20-21, 2022)
+Problem 1. Suppose that ξ, η are two random variables and there exists a function
+F such that
+P(ξ ≤x, η ≤y) = F(x ∧y).
+Discuss the relation between ξ and η.
+Problem 2. Let ξ be a standard Gaussian random variable. Prove that there exists
+C > 0 such that
+(
+E|ξ|p) 1
+p ≤C√p,
+∀p > 1.
+Problem 3. To order n random natural numbers {x1, x2, · · · , , xn} according to
+their magnitudes, pick randomly a number x from {x1, x2, · · · , xn}, comparing all
+other numbers with x, place the smaller ones to the left of x, and the bigger ones
+to the right of x. Repeating the above procedure for the numbers to the left and
+right of x, respectively, · · · , until the numbers {x1, x2, · · · , xn} are placed in an
+increasing order as x(1) < x(2) < · · · < x(n). Using probabilistic argument (e.g.,
+conditional expectation) to evaluate roughly the average number of steps (each step
+is a comparing of two numbers) needed to complete the task for large n.
+
+##### 2023 Individual 2023 Prob Stat (Individual).pdf
+=== page 1 ===
+Yau College Math Competition 2023
+Final Probability and Statistics
+Individual Exam Problems (June 10-11, 2023)
+Choose 3 of the following 4 problems.
+Problem 1.
+Suppose that Yn ∼Poisson(n) is a Poisson random variable with
+parameter n ∈N∗= {1, 2, · · · }.
+(1) Calculate E(Yn −n)+, where x+ = max{x, 0}.
+(2) Prove that E(Yn−n)+
+√n
+converges to EN+ as n →∞, where N ∼N(0, 1)
+(standard normal).
+(3) Use the above results to derive Stirling’s formula for the factorial n!.
+Problem 2. For any random variables ξ and η on the same probability space taking
+values in N∗= {1, 2, · · · }, assume that P(ξ is divisible by r) = P(η is divisible by r),
+∀r ∈N∗. Prove or disprove that ξ
+d= η (i.e., ξ and η have the same distribution).
+Problem 3. Fix some integer k ≥2. For any n ≥1, let {Xn,i : i = 1, 2, · · · , k} be
+i.i.d. uniform random variables taking values in {1, 2, · · · , n}. Let Zn = gcd{Xn,i :
+i = 1, 2, · · · , k} be the greatest common divisor of {Xn,i : i = 1, 2, · · · , k}.
+(1) Prove that Zn converges in law to some limit Z with P(Z = r) ∝r−k, ∀r ∈
+N∗.
+(2) Choose k numbers independently and uniformly from {1, 2, · · · , n}. Let Pn(k)
+be the probability that these numbers are relatively prime. Find limn→∞Pn(k).
+Problem 4.
+Let X1, . . . , Xn be independent observations.
+Assume that Xi ∼
+Poisson(iλ), where λ is an unkonwn parameter.
+(1) Find an unbiased estimator of the parameter λ. Is your estimator the best
+unbiased estimator in terms of minimizing the mean squared error?
+(2) Is your estimator asymptotically normal?
+
+##### 2024 Individual 2024 Prob Stat (Individual).pdf
+=== page 1 ===
+Yau College Math Competition 2024
+Final Probability and Statistics
+Individual Exam Problems (June 8-9, 2024)
+Choose at least 3 from the following 4 problems.
+Problem 1. Let {Xi}i≥0 be iid with density function f and distribution function
+F. Define N = min{n ≥1 : Xn > X0}.
+(1) Find the distribution function of XN.
+(2) If E|X0| < ∞, is it always true that E|XN| < ∞? If yes, prove it; if not, give
+a counterexample.
+Problem 2. A fair coin is tossed repeatedly and independently, and the outcome
+is denoted as X1X2 · · · with Xi = H (head) or T (tail).
+(1) Describe an idea about how to find the expected number of tosses required
+until a particular pattern of heads/tails appears.
+(2) Evaluate the expected number of tosses to get the special pattern HTHH,
+i.e., evaluate E(N), where N = min{n ≥4 : Xn−3Xn−2Xn−1Xn = HTHH}.
+Problem 3. Given a filtration {Fn}, i.e., F1 ⊆F2 ⊆· · · ⊆F, we define F∞=
+σ(∪∞
+n=1Fn).
+(1) Is it correct that F∞= ∪∞
+n=1Fn? If not, please give a counterexample.
+(2) Let X be a random variable which is F-measurable and integrable. Prove
+{E(X|Fn)}n≥1 is uniformly integrable.
+(3) Prove E(X|Fn) →E(X|F∞) in L1, as n goes to infinity.
+Problem 4. Consider the least squares problem. Assume Y is the n-dimensional
+outcome vector and X is the n × p covariate/design matrix. Assume X is full rank.
+We can run least squares of Y on X to obtain the usual estimator ˆβ, the residual
+vector ˆε, and the hat matrix H = X(XTX)−1XT.
+Now we want to compute the least square coefficient ˆβ[i] by dropping the ith
+observation, i = 1, . . . , n.
+Instead of running the least squares n times, can we
+obtain {ˆβ[i], i = 1, . . . , n} from ˆβ, ˆε, (XTX)−1, and H, so that we only need to run
+the least squares only once?
+
+##### 2025 Individual 2025 Prob Stat (Individual).pdf
+=== page 1 ===
+Individual: Probability and statistics
+Problem 1. Suppose you are buying an item that is needed for your factory. There are three stores nearby.
+Each store will tell you the price Xi (i = 1, 2, 3). After you ask around, you will buy from the shop with
+the lowest price. Suppose that you believe Xi ∼Uniform(100, 150) for all i = 1, 2, 3, independently of one
+another.
+a Suppose you will always ask the first two stores for quotes (for free), but it costs $3 to ask the third
+quote. Show that the expected saving due to asking for the third quote is strictly positive.
+b Suppose when you reported your results in part (a) to your factory director, he was confused as to
+whether you were recommending that one should always go for the third quote.
+In order to pro-
+vide him with better guideline for a stepwise decision making, present your decision rule as (let Y =
+min{X1, X2}): If Y ≥c, then we should get the third quote; find c.
+c What is the probability that you end up not saving money at all when asking the third quote?
+Problem 2. Assume there are N short fragments, each of length L, sampled randomly from a long sequence
+of length G (G >> L). Specifically, ignoring boundary effects, we assume the left-hand ends of the fragments
+are independently distributed according to a uniform distribution over (0, G).
+These N fragments may overlap.
+Overlapping fragments can be merged to form longer contiguous
+stretches of sequence. A contig is one such assembled stretch (that cannot be further extended) in which all
+the fragments connect unambiguously (i.e., with no unresolved gaps or uncertainties within the sequence).
+Given N random fragments of length L, the sequencing coverage is defined as a = NL
+G .
+Figure 1: There are four Contigs in the above long sequence
+a To ensure that the mean proportion of the long sequence covered by at least one fragment is 0.99, what
+is the approximate minimum coverage a required?
+b What is the mean number of contigs that can be formed for the long sequence?
+c Prove that the mean contig size is L(ea−1)
+a
+with a = NL
+G
+Problem 3. Let (Xn)n≥0, with X0 = 0, be a discrete time simple random walk on Z in a dynamic random
+environment defined as follows. Fix a > 0. At each time n ≥0, every undirected edge e := {i, i + 1} is
+assigned a conductance Cn(e) with Cn(e) = 1 if e has not been crossed by time n, and Cn(e) = a if e has been
+crossed before. Given Xn = x ∈Z and the conductance configuration Cn(·) at time n, the random walk jumps
+to either x + 1 or x −1 with probability
+P(Xn+1 = x ± 1|Xn = x, Cn) =
+Cn({x, x ± 1})
+Cn({x, x + 1}) + Cn({x, x −1}).
+Show that, almost surely, X will return to 0 infinitely many times.
+1
+
+=== page 2 ===
+Problem 4. Let ϵi, xij, i = 1, . . . , n, j = 1, . . . , n be i.i.d. N(0, 1) random variables. Define
+yi = β1xi1 + β2xi2 + · · · + βnxin + ϵi,
+i = 1, . . . , n.
+Suppose we only observe (y1, x11), (y2, x21, x22), . . . , (yn, xn1, . . . , xnn). Obtain estimators of β1, . . . , βn. What
+desirable properties do these estimators possess? Are they optimal in some sense? If yes, why; if no, do you
+have any suggestions on how to improve, especially when n is large? Hint: You may consider estimation
+individual βj separately.
+2
+

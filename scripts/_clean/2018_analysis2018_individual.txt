@@ -1,0 +1,58 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Individual
+Please solve the following 6 problems.
+1. Let the sequence of functions {fn}∞
+n=1 in L2(Rd) satisfy that ∥fn∥L2 = 1.
+(1)Show that there exists a subsequence of function {fnj}∞
+j=1 such that fnj converges
+weakly to some function f in L2(Rd), i.e.
+(fnj, g) →(f, g)
+for all g ∈L2(Rd).
+(2)If fn →f weakly in L2(Rd), and ∥fn∥L2 →∥f∥L2 as n →∞.
+Show that
+∥fn −f∥L2 →0 as n →∞.
+2. Let f : U →C be a non-constant holomorphic function where U ⊂C is the open
+set containing the closure D of the unit disk D = {z ∈C||z| < 1}.
+If |f(z)| = 1, for all z ∈∂D, Prove that D ⊂f(D).
+3. Prove that if a sequence of harmonic function on the open disk converges uniformly
+on compact subset of the disk, then the limit is harmonic.
+4. Let µ be a Borel measure on Rn. Let ρ > 0, a ﬁxed positive number, and Bρ(x) =
+{y ∈Rn|d(x, y) < ρ}. For x ∈Rn, deﬁne a function:
+θ(x) : x →µ(Bρ(x))
+1) Show that θ is upper semi-continuous, i.e. for every x ∈Rn, θ(x) ≥lim supy→x θ(y).
+2) Give an example of a Borel measure µ, such that the function θ is not continuous.
+5. Let g denote a smooth function on Rn with compact support. Let f denote the
+function given by the formula
+f(x) =
+1
+n(n −1)α(n)
+Z
+Rn
+1
+|x −y|n−2g(y)dy.
+Here α(n) is volume of the unit ball in Rn.
+(a) Prove that the integral that deﬁnes f converges for each x ∈Rn.
+(b) Prove that f is diﬀerentiable and that the gradient of f if given by the formula
+∇f|x =
+1
+n(n −1)α(n)
+Z
+Rn
+1
+|x −y|n−2(∇g)|ydy.
+(c) Prove the f obeys −∆f = g with ∆denoting
+∂2
+∂x12 + · · · +
+∂2
+∂xn2.
+1
+
+=== page 2 ===
+2
+6. If u is a positive harmonic function on Rn \ {0} (n ≥2), then exist constants
+a ≥0, b ≥0 such that
+u(x) = a + b|x|2−n
+for all x ∈Rn \ {0}.

@@ -1,0 +1,1153 @@
+{
+ "meta": {
+  "source": "problems_full.json",
+  "total_problems": 757,
+  "subject": "Computational & Applied",
+  "subject_problems": 135,
+  "mothers": 23,
+  "covered": 102,
+  "orphans": 33
+ },
+ "mothers": [
+  {
+   "id": "CA-M01",
+   "name": "一维演化方程的线性差分格式：用Taylor/矩条件定阶 + Fourier(von Neumann)判稳定 + 求CFL阈值",
+   "members": [
+    {
+     "year": "2011",
+     "kind": "team",
+     "n": 2
+    },
+    {
+     "year": "2012",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2015",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2016",
+     "kind": "individual",
+     "n": 1
+    },
+    {
+     "year": "2016",
+     "kind": "team",
+     "n": 1
+    },
+    {
+     "year": "2017",
+     "kind": "team",
+     "n": 2
+    },
+    {
+     "year": "2018",
+     "kind": "individual",
+     "n": 1
+    },
+    {
+     "year": "2018",
+     "kind": "team",
+     "n": 4
+    },
+    {
+     "year": "2019",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2019",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2022",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2023",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2024",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2024",
+     "kind": "individual",
+     "n": 6
+    },
+    {
+     "year": "2025",
+     "kind": "individual",
+     "n": 5
+    }
+   ],
+   "first": "2011",
+   "last": "2025",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（显式→隐式/IMEX/θ-格式；单步→多步；1 个范数→2 个范数；给格式→自己组装格式；稳定→一致+稳定+收敛三件套）",
+   "count": 15,
+   "still_tested": true,
+   "cost_performance_score": 15.0,
+   "years": [
+    2011,
+    2012,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "id": "CA-M02",
+   "name": "正交多项式与高斯型求积：三项递推、正交性/极小范数、节点=Jacobi矩阵特征值、代数精度 2n-1",
+   "members": [
+    {
+     "year": "2011",
+     "kind": "individual",
+     "n": 1
+    },
+    {
+     "year": "2018",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2019",
+     "kind": "team",
+     "n": 1
+    },
+    {
+     "year": "2022",
+     "kind": "individual",
+     "n": 1
+    },
+    {
+     "year": "2023",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2024",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2025",
+     "kind": "individual",
+     "n": 3
+    }
+   ],
+   "first": "2011",
+   "last": "2025",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（给定递推验证 → 换族/换权自行构造 → 任意权 + Jacobi 矩阵 → 破坏正交性时改证可解性与奇偶结构）",
+   "count": 7,
+   "still_tested": true,
+   "cost_performance_score": 7.0,
+   "years": [
+    2011,
+    2018,
+    2019,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "id": "CA-M03",
+   "name": "充分统计量与无偏估计的效率：UMVU 的构造、Cramér-Rao 界是否可达、辅助统计量与条件推断",
+   "members": [
+    {
+     "year": "2011",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2011",
+     "kind": "individual",
+     "n": 6
+    },
+    {
+     "year": "2011",
+     "kind": "team",
+     "n": 6
+    }
+   ],
+   "first": "2011",
+   "last": "2011",
+   "trend": "换皮",
+   "trend_detail": "换皮（把两样本换成两仪器、把均值差换成比值参数），问法从\"求估计\"升到\"判断是否达 Fisher 界 / 条件推断\"",
+   "count": 3,
+   "still_tested": false,
+   "cost_performance_score": 1.2,
+   "years": [
+    2011
+   ]
+  },
+  {
+   "id": "CA-M04",
+   "name": "绝对值的期望作为 x 的函数的极值刻画（中位数最小化 E|X-a|、独立同分布和的矩不等式）",
+   "members": [
+    {
+     "year": "2011",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2011",
+     "kind": "team",
+     "n": 4
+    }
+   ],
+   "first": "2011",
+   "last": "2011",
+   "trend": "原样重复",
+   "trend_detail": "原样重复同一分析骨架（换问法：不等式 vs 充要条件）",
+   "count": 2,
+   "still_tested": false,
+   "cost_performance_score": 0.8,
+   "years": [
+    2011
+   ]
+  },
+  {
+   "id": "CA-M05",
+   "name": "Krylov 子空间投影法（CG / GMRES / Arnoldi-Hessenberg）的正交性与张成恒等式",
+   "members": [
+    {
+     "year": "2011",
+     "kind": "team",
+     "n": 1
+    },
+    {
+     "year": "2014",
+     "kind": "team",
+     "n": 4
+    },
+    {
+     "year": "2015",
+     "kind": "individual",
+     "n": 4
+    }
+   ],
+   "first": "2011",
+   "last": "2015",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（CG 的四条恒等式 → GMRES 最小二乘/算法 → 抽象成 Hessenberg 与 Krylov 的结构等价）",
+   "count": 3,
+   "still_tested": false,
+   "cost_performance_score": 1.2,
+   "years": [
+    2011,
+    2014,
+    2015
+   ]
+  },
+  {
+   "id": "CA-M06",
+   "name": "求积/微分算子的代数精度与待定系数构造（矩条件定阶、Richardson 外推）",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "individual",
+     "n": 1
+    },
+    {
+     "year": "2013",
+     "kind": "team",
+     "n": 3
+    },
+    {
+     "year": "2017",
+     "kind": "team",
+     "n": 4
+    },
+    {
+     "year": "2023",
+     "kind": "individual",
+     "n": 1
+    }
+   ],
+   "first": "2012",
+   "last": "2023",
+   "trend": "换皮",
+   "trend_detail": "换皮（求积→复合求积→数值微分），并加\"两种构造等价\"的证明与\"特例下巧合\"",
+   "count": 4,
+   "still_tested": false,
+   "cost_performance_score": 3.2,
+   "years": [
+    2012,
+    2013,
+    2017,
+    2023
+   ]
+  },
+  {
+   "id": "CA-M07",
+   "name": "局部多项式逼近/投影的误差估计：误差在相邻区间上的传播、对称性多得一阶、L2 对偶超收敛",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "team",
+     "n": 1
+    },
+    {
+     "year": "2012",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2013",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2020",
+     "kind": "individual",
+     "n": 1
+    }
+   ],
+   "first": "2012",
+   "last": "2020",
+   "trend": "换皮",
+   "trend_detail": "换皮（2012团1 与 2020个1 几乎同题），并逐步加\"对称性增益\"与\"对偶超收敛\"",
+   "count": 4,
+   "still_tested": false,
+   "cost_performance_score": 2.4,
+   "years": [
+    2012,
+    2013,
+    2020
+   ]
+  },
+  {
+   "id": "CA-M08",
+   "name": "SVD/奇异值的扰动、Eckart-Young 最优低秩逼近与范数凸松弛（PCA、核范数、最小范数最小二乘解）",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2015",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2018",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2021",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2025",
+     "kind": "individual",
+     "n": 4
+    }
+   ],
+   "first": "2012",
+   "last": "2025",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（F-范数 Eckart-Young → 2-范数版/秩保持 → 核范数凸松弛 → 解集结构与最小范数解 → 纯投影误差表述）",
+   "count": 5,
+   "still_tested": true,
+   "cost_performance_score": 5.0,
+   "years": [
+    2012,
+    2015,
+    2018,
+    2021,
+    2025
+   ]
+  },
+  {
+   "id": "CA-M09",
+   "name": "定常迭代法的收敛判据与最优参数：x_{k+1}=Gx_k+c 收敛 ⟺ ρ(G)<1，SOR/Richardson/残量极小化的参数最优化",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "team",
+     "n": 3
+    },
+    {
+     "year": "2014",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2016",
+     "kind": "team",
+     "n": 4
+    },
+    {
+     "year": "2017",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2022",
+     "kind": "individual",
+     "n": 2
+    }
+   ],
+   "first": "2012",
+   "last": "2022",
+   "trend": "升要求",
+   "trend_detail": "升要求（单一参数 ω 的最优值 → 矩阵参数 Ω=diag(ω_i) 的必要/充分条件 → 一般分裂 + 块格式收敛速度比较 → 非线性不动点的 Jacobian 版）",
+   "count": 5,
+   "still_tested": false,
+   "cost_performance_score": 4.0,
+   "years": [
+    2012,
+    2014,
+    2016,
+    2017,
+    2022
+   ]
+  },
+  {
+   "id": "CA-M10",
+   "name": "利用素数间距极小的 RSA 模数分解：N=pq 且 p≈q 时的 Fermat 分解与安全性估计",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2012",
+     "kind": "team",
+     "n": 4
+    }
+   ],
+   "first": "2012",
+   "last": "2012",
+   "trend": "换皮",
+   "trend_detail": "同型两问（孪生素数的极端情形 → 一般\"相邻素数\"生成算法 + 安全性估计）",
+   "count": 2,
+   "still_tested": false,
+   "cost_performance_score": 0.8,
+   "years": [
+    2012
+   ]
+  },
+  {
+   "id": "CA-M11",
+   "name": "量纲分析与尺度化：选取特征尺度使系数归一化、识别无量纲参数、求相似解或极限主导问题",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2013",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2016",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2017",
+     "kind": "team",
+     "n": 3
+    }
+   ],
+   "first": "2012",
+   "last": "2017",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（线性 ODE 归一化 → 相似解含自由边界 → 非线性 + 奇异摄动 → 多极限的纯尺度判断）",
+   "count": 4,
+   "still_tested": false,
+   "cost_performance_score": 1.6,
+   "years": [
+    2012,
+    2013,
+    2016,
+    2017
+   ]
+  },
+  {
+   "id": "CA-M12",
+   "name": "椭圆边值问题的变分形式与有限元：Lax-Milgram/能量极小等价、Galerkin 正交性与先验误差估计（含时空全离散与界面问题）",
+   "members": [
+    {
+     "year": "2012",
+     "kind": "team",
+     "n": 2
+    },
+    {
+     "year": "2015",
+     "kind": "team",
+     "n": 1
+    },
+    {
+     "year": "2021",
+     "kind": "individual",
+     "n": 6
+    },
+    {
+     "year": "2026",
+     "kind": "individual",
+     "n": 1
+    }
+   ],
+   "first": "2012",
+   "last": "2026",
+   "trend": "升要求",
+   "trend_detail": "升要求（P1 标准问题 → 变系数/界面 + 自设计方法 → 四阶梁的双范数估计 → 时空全离散 + 稳定性 + 代数系统）",
+   "count": 4,
+   "still_tested": true,
+   "cost_performance_score": 4.0,
+   "years": [
+    2012,
+    2015,
+    2021,
+    2026
+   ]
+  },
+  {
+   "id": "CA-M13",
+   "name": "守恒律/抛物方程离散格式的能量法与 L2 稳定性：乘检验函数 + 分部求和抵消通量项",
+   "members": [
+    {
+     "year": "2013",
+     "kind": "team",
+     "n": 4
+    },
+    {
+     "year": "2014",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2014",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2014",
+     "kind": "team",
+     "n": 3
+    }
+   ],
+   "first": "2013",
+   "last": "2014",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（差分离散能量 → L^{2p} 反例 → DG 有限元空间 → 隐式时间步含边界项）",
+   "count": 4,
+   "still_tested": false,
+   "cost_performance_score": 1.6,
+   "years": [
+    2013,
+    2014
+   ]
+  },
+  {
+   "id": "CA-M14",
+   "name": "Ore 型度和条件 ⇒ Hamilton 性/连通性/cyclable（图的度条件下 Hamilton 圈与 Hamilton 路）",
+   "members": [
+    {
+     "year": "2013",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2013",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2018",
+     "kind": "individual",
+     "n": 3
+    }
+   ],
+   "first": "2013",
+   "last": "2018",
+   "trend": "升要求",
+   "trend_detail": "升要求（Hamilton + 删边鲁棒 → 局部集合 cyclable → Hamilton-connected，条件从 n 升到 n+1）",
+   "count": 3,
+   "still_tested": false,
+   "cost_performance_score": 1.2,
+   "years": [
+    2013,
+    2018
+   ]
+  },
+  {
+   "id": "CA-M15",
+   "name": "矩阵快速幂与线性递推的 O(log n) 算法（Fibonacci 的矩阵表示与二分幂）",
+   "members": [
+    {
+     "year": "2013",
+     "kind": "individual",
+     "n": 6
+    },
+    {
+     "year": "2013",
+     "kind": "team",
+     "n": 6
+    }
+   ],
+   "first": "2013",
+   "last": "2013",
+   "trend": "原样重复",
+   "trend_detail": "原样重复（2013 年个人赛与团体赛使用完全相同的一道题）",
+   "count": 2,
+   "still_tested": false,
+   "cost_performance_score": 0.8,
+   "years": [
+    2013
+   ]
+  },
+  {
+   "id": "CA-M16",
+   "name": "特殊结构矩阵（三对角/带状/对角占优）的可逆性、逆的显式表达与范数-谱界",
+   "members": [
+    {
+     "year": "2014",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2017",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2022",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2024",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2025",
+     "kind": "individual",
+     "n": 2
+    }
+   ],
+   "first": "2014",
+   "last": "2025",
+   "trend": "换皮",
+   "trend_detail": "换皮（带状逆 + L¹ 条件数 → 三对角逆的显式与非负判据 → 对角占优的范数界 → Gershgorin 谱圆盘 → 具体矩阵的谱半径）",
+   "count": 5,
+   "still_tested": true,
+   "cost_performance_score": 5.0,
+   "years": [
+    2014,
+    2017,
+    2022,
+    2024,
+    2025
+   ]
+  },
+  {
+   "id": "CA-M17",
+   "name": "分块/鞍点矩阵 [[αI,A],[A^T,0]] 的谱、条件数与最优标度",
+   "members": [
+    {
+     "year": "2015",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2019",
+     "kind": "team",
+     "n": 3
+    }
+   ],
+   "first": "2015",
+   "last": "2019",
+   "trend": "换皮",
+   "trend_detail": "换皮（带标度 α 的最优条件数分析 → α=1 固定并落脚到 Richardson 迭代的收敛条件）",
+   "count": 2,
+   "still_tested": false,
+   "cost_performance_score": 1.2,
+   "years": [
+    2015,
+    2019
+   ]
+  },
+  {
+   "id": "CA-M18",
+   "name": "整系数方程组的小整数解与可乘相关性判定：子式界 + meet-in-the-middle 算法",
+   "members": [
+    {
+     "year": "2016",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2016",
+     "kind": "team",
+     "n": 3
+    },
+    {
+     "year": "2017",
+     "kind": "team",
+     "n": 1
+    }
+   ],
+   "first": "2016",
+   "last": "2017",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（引理的应用 → 引理的证明 → 存在性升级为算法复杂度）",
+   "count": 3,
+   "still_tested": false,
+   "cost_performance_score": 1.2,
+   "years": [
+    2016,
+    2017
+   ]
+  },
+  {
+   "id": "CA-M19",
+   "name": "特征值/特征向量的迭代算法：幂法、子空间迭代、逆迭代与 QR 迭代的收敛率与相似变换结构",
+   "members": [
+    {
+     "year": "2016",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2018",
+     "kind": "team",
+     "n": 3
+    },
+    {
+     "year": "2020",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2023",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2026",
+     "kind": "individual",
+     "n": 4
+    }
+   ],
+   "first": "2016",
+   "last": "2026",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（逆迭代误差分析 → 子空间迭代的 m 次幂衰减 → 幂法常数与范数选择 → QR 迭代的相似变换与唯一性）",
+   "count": 5,
+   "still_tested": true,
+   "cost_performance_score": 5.0,
+   "years": [
+    2016,
+    2018,
+    2020,
+    2023,
+    2026
+   ]
+  },
+  {
+   "id": "CA-M20",
+   "name": "凸分析与一阶方法：强凸/L-光滑的等价不等式、次微分最优性、投影与梯度/次梯度法的收敛率",
+   "members": [
+    {
+     "year": "2016",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2016",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2018",
+     "kind": "team",
+     "n": 5
+    },
+    {
+     "year": "2019",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2019",
+     "kind": "team",
+     "n": 4
+    },
+    {
+     "year": "2026",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2026",
+     "kind": "individual",
+     "n": 6
+    }
+   ],
+   "first": "2016",
+   "last": "2026",
+   "trend": "升要求",
+   "trend_detail": "升要求（有限维等价刻画 → 算法收敛率 → 不可微/次梯度 → Hilbert 空间泛函 + 牛顿二阶收敛 + BFGS）",
+   "count": 7,
+   "still_tested": true,
+   "cost_performance_score": 7.0,
+   "years": [
+    2016,
+    2018,
+    2019,
+    2026
+   ]
+  },
+  {
+   "id": "CA-M21",
+   "name": "非线性方程迭代法的收敛阶：不动点、Steffensen 加速、割线法与多点法的高阶构造",
+   "members": [
+    {
+     "year": "2017",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2020",
+     "kind": "individual",
+     "n": 2
+    },
+    {
+     "year": "2021",
+     "kind": "individual",
+     "n": 3
+    },
+    {
+     "year": "2025",
+     "kind": "individual",
+     "n": 1
+    }
+   ],
+   "first": "2017",
+   "last": "2025",
+   "trend": "升要求",
+   "trend_detail": "升要求（不动点迭代的收敛性与定量误差 → 加速法二次收敛 → 割线型超线性 → 多点法调参到四阶）",
+   "count": 4,
+   "still_tested": true,
+   "cost_performance_score": 4.0,
+   "years": [
+    2017,
+    2020,
+    2021,
+    2025
+   ]
+  },
+  {
+   "id": "CA-M22",
+   "name": "Chebyshev 极小极大理论：极值点与包络、插值误差界、以及最小偏离问题的唯一性",
+   "members": [
+    {
+     "year": "2017",
+     "kind": "individual",
+     "n": 1
+    },
+    {
+     "year": "2020",
+     "kind": "individual",
+     "n": 6
+    },
+    {
+     "year": "2021",
+     "kind": "individual",
+     "n": 1
+    }
+   ],
+   "first": "2017",
+   "last": "2021",
+   "trend": "换皮",
+   "trend_detail": "换皮（几何包络 → 极值点与插值误差 → 抽象算子范数下的唯一性）",
+   "count": 3,
+   "still_tested": false,
+   "cost_performance_score": 1.8,
+   "years": [
+    2017,
+    2020,
+    2021
+   ]
+  },
+  {
+   "id": "CA-M23",
+   "name": "常微分方程数值方法的相容性、阶与绝对稳定域：单步/多步/RK 的稳定函数与 A-稳定、刚性系统",
+   "members": [
+    {
+     "year": "2020",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2021",
+     "kind": "individual",
+     "n": 5
+    },
+    {
+     "year": "2022",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2023",
+     "kind": "individual",
+     "n": 4
+    },
+    {
+     "year": "2025",
+     "kind": "individual",
+     "n": 6
+    },
+    {
+     "year": "2026",
+     "kind": "individual",
+     "n": 3
+    }
+   ],
+   "first": "2020",
+   "last": "2026",
+   "trend": "升要求",
+   "trend_detail": "换皮 + 升要求（多步法稳定多项式 → RK 族的相容性/阶上界/定量误差 → 刚性对照 → θ-型单步法的 A-稳定参数区间）",
+   "count": 6,
+   "still_tested": true,
+   "cost_performance_score": 6.0,
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ]
+  }
+ ],
+ "orphans": [
+  {
+   "year": "2011",
+   "kind": "individual",
+   "n": 2,
+   "why": "两个五次多项式在 i=2..6 上取相同值，求 p(0)-q(0)；解法是\"p-q 有 5 个根 ⇒ p-q=c(x-2)...(x-6)\"。插值型技巧题，题库中仅此一次。"
+  },
+  {
+   "year": "2011",
+   "kind": "individual",
+   "n": 3,
+   "why": "抽球概率：不放回时第 k 次恰抽到第 r 个红球；放回时前 k 次红球个数为奇数。负超几何 + 二项奇偶性，仅此一次。"
+  },
+  {
+   "year": "2011",
+   "kind": "team",
+   "n": 3,
+   "why": "正态变量的极坐标变换 (R,θ)、独立性与 Box-Muller 逆变换抽样。分布变换/随机数生成，仅此一次。"
+  },
+  {
+   "year": "2011",
+   "kind": "team",
+   "n": 5,
+   "why": "平坦（非正常）先验下的后验与\"95% 概率区间 = 95% 置信区间\"。贝叶斯与频率派接口，仅此一次。"
+  },
+  {
+   "year": "2013",
+   "kind": "individual",
+   "n": 1,
+   "why": "波动方程的超光速进展波、能量单调性与有限能量不可兼得（PDE 定性理论）。与数值计算无结构共性，仅此一次。"
+  },
+  {
+   "year": "2013",
+   "kind": "individual",
+   "n": 2,
+   "why": "ODE 微分不等式 y'≤α-βy^a 的超收缩性、指数衰减与有限时间熄灭（a>1/=1/<1 三分）。仅此一次。"
+  },
+  {
+   "year": "2013",
+   "kind": "team",
+   "n": 1,
+   "why": "正规变化：U(tx)/U(t)→ψ(x) ⇒ ψ=x^α，以及缓变函数的 Karamata 型一般化。纯分析，仅此一次。"
+  },
+  {
+   "year": "2013",
+   "kind": "team",
+   "n": 2,
+   "why": "Fokker-Planck / Witten Laplacian / Schrödinger 三算子同谱与平衡解。算子谱对应，仅此一次。"
+  },
+  {
+   "year": "2014",
+   "kind": "individual",
+   "n": 1,
+   "why": "Catalan 数的半角公式 sin²θ=Σc_{n-1}(sin(θ/2))^{2n} 与生成函数方程 zF(z)²=F(z)-1。仅此一次。"
+  },
+  {
+   "year": "2014",
+   "kind": "individual",
+   "n": 2,
+   "why": "gcd(f(X),X^N-1)（N 极大）的高效算法及 A_1X^{N_1}+...+A_{m+1} 的一般化。算法数论，仅此一次。"
+  },
+  {
+   "year": "2014",
+   "kind": "team",
+   "n": 1,
+   "why": "有限正测度的矩序列完全单调（(I-S)^k c_j≥0）。仅此一次。"
+  },
+  {
+   "year": "2014",
+   "kind": "team",
+   "n": 2,
+   "why": "Eisenstein 多项式的复合仍为 Eisenstein 型 + 多元推广。仅此一次。"
+  },
+  {
+   "year": "2015",
+   "kind": "individual",
+   "n": 1,
+   "why": "有理 Catalan 数：不过直线 ry=sx 的格路径数为 C(r+s,s)/(r+s)。反射原理/循环引理，仅此一次。"
+  },
+  {
+   "year": "2015",
+   "kind": "individual",
+   "n": 5,
+   "why": "Minkowski 问题：凸多面体面法向量与面积的平衡条件 ΣA_i n_i=0 及存在性。仅此一次。"
+  },
+  {
+   "year": "2015",
+   "kind": "team",
+   "n": 2,
+   "why": "符号图/社会网络的 resigning：可全部转为正边 ⟺ 无奇负圈（平衡定理）。与 CA-M14 的度和条件论证无共同骨架，仅此一次。"
+  },
+  {
+   "year": "2015",
+   "kind": "team",
+   "n": 3,
+   "why": "分支过程灭绝概率 σ=P(σ) 的唯一根。仅此一次。"
+  },
+  {
+   "year": "2015",
+   "kind": "team",
+   "n": 4,
+   "why": "等周不等式的变分推导（Euler-Lagrange 方程 + 圆）。仅此一次。"
+  },
+  {
+   "year": "2016",
+   "kind": "team",
+   "n": 2,
+   "why": "Kac 的\"能否听出鼓的形状\"：周期 P(e) 的积分表达与 Abel 型反演 φ(z)，等时情形得谐振子。反谱问题，仅此一次。"
+  },
+  {
+   "year": "2017",
+   "kind": "individual",
+   "n": 3,
+   "why": "分段光滑函数（有跳跃）的插值多项式在跨跳跃小区间上 monotone（p'≠0）。与 CA-M07 的\"局部逼近误差\"相关但考的是定性性质，暂列孤题（见 §4）。"
+  },
+  {
+   "year": "2017",
+   "kind": "individual",
+   "n": 5,
+   "why": "-u''+αu=f 的混合边界条件与三对角系统。注意：题面在 PDF 抽取中与 2014 年的 upwind 题串页，无法确定完整问法，故不敢归并（见 §4）。"
+  },
+  {
+   "year": "2018",
+   "kind": "individual",
+   "n": 2,
+   "why": "Velocity-Verlet 方法的辛性与二阶精度。辛（几何）数值积分在题库中仅此一次（见 §4 关于\"结构保持\"是否成母题的讨论）。"
+  },
+  {
+   "year": "2018",
+   "kind": "team",
+   "n": 1,
+   "why": "二部图的 (p,q) 条件（|N(I)|≥|I|）⇒ 存在大小 n 的匹配，n≤p+q。Hall 定理的加强，仅此一次。"
+  },
+  {
+   "year": "2018",
+   "kind": "team",
+   "n": 2,
+   "why": "超立方体上 Walsh 函数 {χ_u} 的正交性、邻接矩阵表示与特征值 n-2|u|。谱图论/离散 Fourier，仅此一次。"
+  },
+  {
+   "year": "2019",
+   "kind": "individual",
+   "n": 1,
+   "why": "VC 维：区间的假设空间与 d 维线性分类器的 VC 维 = d+1。学习理论，仅此一次。"
+  },
+  {
+   "year": "2019",
+   "kind": "individual",
+   "n": 4,
+   "why": "FitzHugh-Nagumo 神经元模型：小/大恒定电流与脉冲电流下的动力学行为。仅此一次。"
+  },
+  {
+   "year": "2019",
+   "kind": "team",
+   "n": 2,
+   "why": "离散 Fourier 变换的不确定性原理 ‖x‖_0‖x̂‖_0≥N。仅此一次。"
+  },
+  {
+   "year": "2020",
+   "kind": "individual",
+   "n": 5,
+   "why": "B 稳定 + C(Δt) 有界族 ⇒ B+ΔtC 稳定。属\"稳定性在扰动下保持\"，样本仅此一例（见 §4）。"
+  },
+  {
+   "year": "2021",
+   "kind": "individual",
+   "n": 2,
+   "why": "三次样条：若 S 在 [t_1,t_2] 与 [t_3,t_4] 上都是线性的，则 [t_2,t_3] 上也线性。样条局部结构，仅此一次。"
+  },
+  {
+   "year": "2022",
+   "kind": "individual",
+   "n": 6,
+   "why": "投资组合的整数线性规划（$60K、三项投资、目标最大化）。仅此一次。"
+  },
+  {
+   "year": "2023",
+   "kind": "individual",
+   "n": 6,
+   "why": "Schrödinger 方程的 WKB 展开：eikonal/transport 方程、u=∇S 的方程与光滑性破裂（caustics）。仅此一次。"
+  },
+  {
+   "year": "2024",
+   "kind": "individual",
+   "n": 1,
+   "why": "秩一扰动 A+uv^T 的可逆性（Sherman-Morrison）与 O(n) 求解算法。仅此一次。"
+  },
+  {
+   "year": "2024",
+   "kind": "individual",
+   "n": 2,
+   "why": "∫_0^∞ 的复合梯形法渐近误差、域截断与换元法的优劣比较。属\"求积误差渐近分析\"，与 CA-M06 的代数精度骨架不同（见 §4）。"
+  },
+  {
+   "year": "2026",
+   "kind": "individual",
+   "n": 5,
+   "why": "σ_1(A)≤1 ⇒ A 的固定点必为 A^T 的固定点；反例；A 正规时的结论。仅此一次。"
+  }
+ ]
+}

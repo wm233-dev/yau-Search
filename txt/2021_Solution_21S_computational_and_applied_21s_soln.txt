@@ -1,0 +1,739 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1.
+(a) Show that
+Tn(x) = cos(n arccos x),
+x ∈[−1,1],
+is a polynomial of degree n with extrema at
+xk = cos
+
+k π
+n
+
+,
+k = 0,1,. . .,n
+and leading coeﬃcient 2n−1.
+(b) Show that if f ∈Cn+1[−1,1] and if P(x) is the polynomial with degree at most n that interpolates f
+at xk, k = 0,1,. . .,n then
+∥f (x) −P(x)∥∞≤
+1
+2n−1(n + 1)!
+ f n+1
+∞.
+Solution:
+(a)
+cos(n arccos(cos(kπ/n))) = cos(kπ) = (−1)k
+for k = 0,1,. . .,n.
+To show the degree of Tn, we use induction. T0(x) = 1 and T1(x) = x.
+Induction hypothesis: Tk is a polynomial of degree k and leading coeﬃcient 2k−1 for k ≤n.
+Note that
+Tn+1(x) + Tn−1(x) = cos ((n + 1) arccos x) + ((n −1) arccos x)
+= 2x cos(n arccos x)
+= 2xTn(x).
+Now suppose Tn is of degree n and with leading coeﬃcient 2n−1. From the above calculation,
+Tn+1(x) = 2xTn(x) −Tn−1(x),
+which shows that Tn+1 is of degree n + 1 and has leading coeﬃcient 2n. This completes the proof to part (a).
+(b) Essentially, this boils down to proving the following,
+max
+[−1,1] |(x −x0)(x −x1) · · · (x −xn)| ≤
+1
+2n−1 .
+To show this, we deﬁne a new Chebyshev-like polynomial. Deﬁne
+Qn(x) := sin(n arccos x)
+p
+1 −x2,
+n = 1,2,. . .
+Claim: Qn is of degree n + 1 with leading coeﬃcient −2n−1.
+We prove this claim by induction.
+Q1(x) = 1 −x2 and Q2(x) = 2x sin(arccos x)
+√
+1 −x2 = 2x(1 −x2). This satisﬁes the claim and serves as the
+
+=== page 2 ===
+base case.
+Induction hypothesis: Qk is a polynomial of degree k + 1 and leading coeﬃcient −2k−1 for k ≤n.
+Note,
+Qn+1(x) −Qn−1(x) = [sin ((n + 1) arccos x) −sin ((n −1) arccos x)]
+p
+1 −x2
+= 2 cos(n arccos x) sin(arccos x)
+p
+1 −x2
+= 2(1 −x2)Tn(x).
+Therefore,
+Qn+1(x) = 2(1 −x2)Tn(x) + Qn−1(x).
+Using part (a) and the induction hypothesis, Qn+1 is a polynomial of degree n + 2 and leading coeﬃcient −2n.
+This completes the proof to claim.
+Also note that x0, x1,. . ., xn are the roots of Qn. As a result,
+Qn = −2n−1(x −x0)(x −x1) . . . (x −xn).
+Since max[−1,1] Qn = 1, the result follows.
+Problem 2.
+Let S(x) be a cubic spline with knots {ti}n
+i=0. If it is determined that S(x) is linear over [t1,t2]
+and [t3,t4]. Prove that S(x) is also linear over [t2,t3].
+Solution: First deﬁne p : R →R by
+p(x) =S′′(t3)(x −t2)3
+6(t3 −t2)
++ S′′(t2)(t3 −x)3
+6(t3 −t2)
++
+ S(t3)
+t3 −t2
+−S′′(t3)(t3 −t2)
+6
+
+(x −t2)
++
+ S(t2)
+t3 −t2
+−S′′(t2)(t3 −t2)
+6
+
+(t3 −x).
+We claim that p = S in [t2,t3]. Since deg(p) = deg(S) = 3, we will be done if we show p and S match at four distinct
+constraints. Observe
+p(t2) = 0 + S′′(t2)(t3 −t2)2
+6
++ 0 +
+ S(t2)
+t3 −t2
+−S′′(t2)(t3 −t2)
+6
+
+(t3 −t2) = S(t2).
+In a similar fashion, we also have
+p(t3) = S(t3).
+Moreover,
+p′′(x) = S′′(t3) x −t2
+t3 −t2
++ S′′(t2) x −t3
+t2 −t3
+,
+which is the Lagrange interpolating polynomial between S′′(t2) and S′′(t3), i.e.,
+p′′(ti) = S′′(ti),
+for i = 2,3. This shows four degrees of freedom for which p matches S, and so we conclude p = S in [t2,t3].
+We use the fact p = S to show S is linear over [t2,t3]. Because S is linear over [t1,t2] and [t3,t4], we have S′′(t2) =
+S′′(t3) = 0. This implies for [t2,t3],
+S(x) = p(x) = 0 + 0 +
+ S(t3)
+t3 −t2
+−0
+
+(x −t2) +
+ S(t2)
+t3 −t2
+−0
+
+(t3 −x) = S(t3) x −t2
+x3 −x2
++ S(t2) x −t3
+x2 −x3
+,
+i.e., deg(S) = 1. Thus S is linear over [t2,t3].
+Problem 3. Let f : R →R be deﬁned by f (x) = 2x −cos x.
+(a) Prove that the equation f (x) = 0 has a unique solution x∗∈R that lies in the interval (1
+4, 1
+2).
+
+=== page 3 ===
+(b) Prove that the sequence deﬁned by the ﬁxed point iteration
+x0,
+xn = 1
+2 cos xn−1,
+n = 1,2,. . .
+converges to x∗with any initial guess x0.
+(c) For the ﬁxed point iteration in (b) with x0 = π
+6 , determine an n that guarantees |xn −x∗| < 1
+2 × 10−8.
+For the ﬁxed point iteration in (b) with x0 = 20, determine an n that guarantees |xn −x∗| < 1
+4.
+Solution:
+(a) f ( 1
+4) = 1
+2 −cos 1
+4 < 1
+2 −cos π
+4 < 0. Also, f ( 1
+2) = 1 −cos 1
+2 > 0. Therefore, by the Intermediate Value Theorem,
+there exists a root in the said interval. However, since f ′ = 2 + sin x, the function is strictly increasing and the
+root is unique.
+(b) Set φ(x) := 1
+2 cos x. The iteration scheme is xn+1 = φ(xn).
+|xn+1 −x∗| = |φ(xn) −x∗|
+= |φ(xn) −φ(x∗)|
+= |φ′(ξ)| · |xn −x∗|
+≤1
+2 |xn −x∗| .
+Therefore,
+|xn −x∗| ≤1
+2n |x0 −x∗|,
+which converges.
+(c) For x0 = π
+6 , using part (b), a necessary condition to ensure the required bound is,
+ π
+6 −1
+4
+
+2n
+< 10−8
+2 ,
+which is,
+n > 1 + log2
+
+108
+ π
+6 −1
+4
+
+≈25.71.
+Hence, n = 26 would suﬃce. For x0 = 20,
+20 −1
+4
+2n
+< 1
+4.
+So,
+n > 2 + log2 19.75 > 6.
+Hence, n = 7 would suﬃce.
+Problem 4. Let matrix A ∈Rm×n with m ≥n and r = rank(A) < n, and assume A has the following SVD
+decomposition
+A = [U1,U2]
+Σ1
+0
+0
+0
+
+[V1,V2]T = U1Σ1VT
+1 ,
+where Σ1 is r × r nonsingular and U1 and V1 have r columns. Let σ = σmin(Σ1), the smallest nonzero
+singular value of A. Consider the following least square problem, for some b ∈Rm,
+min
+x∈Rn ∥Ax −b∥2 .
+
+=== page 4 ===
+(a) Show that all solutions x can be written as
+x = V1Σ−1
+1 UT
+1 b + V2z2,
+with z2 an arbitrary vector.
+(b) Show that the solution x has minimal norm ∥x∥2 precisely when z2 = 0, and in which case,
+∥x∥2 ≤∥b∥2
+σ .
+Solution:
+(a) Set U = [U1,U2],Σ =
+Σ1
+0
+0
+0
+
+, and V = [V1,V2]T, then the SVD decomposition of A is A = UΣVT, where
+Um×m,Vn×n are orthogonal matrices such that
+• UT = U−1 and VT = V−1
+• U and V are l2−norm preserving.
+As a consequence
+∥Ax −b∥2 =
+UΣVTx −UUTb
+
+2 =
+ΣVTx −UTb
+
+2 .
+Let z = VTx = (z1,z2)T and c = UTb = (c1,c2)T. Then
+∥Ax −b∥2 =
+
+Σ1
+0
+0
+0
+ z1
+z2
+
+−
+c1
+c2
+
+2
+=
+
+Σ1z1 −c1
+c2
+
+2
+.
+The l2−norm is minimized when the vector z is chosen with z1 = Σ−1
+1 c1, z2 arbitrary. Then
+x = Vz = V
+
+Σ−1
+1 c1
+z2
+
+= (V1,V2)
+
+Σ−1
+1 UT
+1 b
+z2
+
+= V1Σ−1
+1 UT
+1 b + V2z2.
+(b) Let ˜x = V1Σ−1
+1 UT
+1 b (i.e., z2 = 0), so ˜z = VT˜x, implies ˜z =
+
+Σ−1
+1 c1
+0
+
+, then ∥˜x∥2 = ∥V˜z∥2 =
+Σ−1
+1 c1
+
+2.
+For any solution x, we have
+∥x∥2 = ∥Vz∥2 =
+
+
+Σ−1
+1 c1
+z2
+
+2
+≥
+Σ−1
+1 c1
+
+2 = ∥˜x∥2 .
+Finally,
+∥˜x∥2 =
+V1Σ−1
+1 UT
+1 b
+
+2 =
+Σ−1
+1 UT
+1 b
+
+2 ≤
+Σ−1
+1 UT
+1
+
+2 ∥b∥2 =
+Σ−1
+1
+
+2 ∥b∥2 = ∥b∥2
+σ .
+Problem 5. Consider the family of semi-implicit Runge-Kutta methods
+k1 = f (yn + βhk1),
+k2 = f (yn + hk1 + βhk2),
+yn+1 = yn + h
+
+( 1
+2 + β)k1 + (1
+2 −β)k2
+
+.
+(a) Determine the order and the principal part of the local truncation error.
+(b) Show that if β > 1
+2, then the negative real axis {z : Re(z) < 0,Im(z) = 0} is contained in the region of
+absolute stability of the method.
+Solution:
+
+=== page 5 ===
+(a) Apply this method to the problem f (y) = λy, we get
+k1 = λyn + βλhk1 =⇒(1 −βλh)k1 = λyn
+=⇒k1 = (1 −βλh)−1λyn
+k2 = λyn + λhk1 + βλhk2 =⇒(1 −βλh)k2 = λyn + (1 −βλh)−1λ2hyn
+=⇒k2 = (1 −βλh)−1λyn + (1 −βλh)−2λ2hyn.
+Then the method can be written as
+yn+1 = yn + (1 −βλh)−1λhyn + ( 1
+2 −β)(1 −βλh)−2λ2h2yn
+=
+
+1 + (1 −βz)−1z + ( 1
+2 −β)(1 −βz)−2z2
+yn
+(z := λh)
+=
+
+1 + z
+∞
+Õ
+i=0
+βizi + ( 1
+2 −β)z2 Í∞
+i=0 βizi2
+yn
+(|zβ| < 1)
+=
+
+1 + z
+
+1 + βz + β2z2 + β3z3 + O(z4)
+
++ ( 1
+2 −β)z2
+1 + βz + β2z2 + O(z3)
+2
+yn
+=
+
+1 + z + 1
+2 z2 +  β −β2 z3 +
+
+3
+2 β2 −2β3
+z4 + O(h5)
+
+yn.
+Assume yn = y(xn), the exact solution y(xn+1) = ezyn can be written as
+y(xn+1) =
+
+1 + z + z2
+2 + z3
+6 + 1
+24 + O(h5)
+
+yn.
+Comparing the coeﬃcients of z3, we conclude that
+• If β −β2 , 1
+6, i.e. β , 1
+2 ±
+1
+2
+√
+3, then the method is second order, and τn ∼(β −β2 −1
+6)h3.
+• If β−β2 = 1
+6, i.e. β = 1
+2 ±
+1
+2
+√
+3, then 3
+2 β2−2β3 , 1
+24, the method is third order, and τn ∼( 3
+2 β2−2β3−1
+24)h4.
+(b) It suﬃces to show if β > 1
+2 and z < 0, then
+−1 < 1 +
+z
+1 −βz + ( 1
+2 −β)
+
+z
+1−βz
+2
+< 1.
+First note β > 1
+2 and z < 0 imply
+z
+1−βz < 0, and ( 1
+2 −β)(
+z
+1−βz )2 < 0, hence
+1 +
+z
+1 −βz + ( 1
+2 −β)
+
+z
+1−βz
+2
+< 1.
+Now it remains to show
+−1 < 1 +
+z
+1 −βz + ( 1
+2 −β)
+
+z
+1−βz
+2
+.
+Observing that −1
+β ≤
+z
+1−βz (since βz −1 ≤βz), we only need to verify
+−1 < 1 −1
+β + ( 1
+2 −β)
+
+−1
+β
+2
+.
+For β , 0, this is equivalent to
+0 < (2β −1)2,
+which certainly holds for β > 1
+2.
+Problem 6. Consider the Beam equation from mechanics with boundary conditions that model a cantilever
+beam:
+u(4) = f (x),
+x ∈(0, 1),
+u(0) = u′(0) = u′′(1) = u′′′(1) = 0.
+(1)
+
+=== page 6 ===
+(a) Recast this equation into a variational problem, stating the trial and test function spaces.
+(b) Interpret the variational problem as an energy minimization problem, clearly stating the energy
+functional. Prove that the variational problem and the energy minimization problems are equivalent.
+(c) Develop a CG(3) (cubic continuous Galerkin method) ﬁnite element method for this problem.
+(d) Prove an a priori error estimate for this method in the energy norm:
+∥e∥E =
+ ∫1
+0
+(e′′)2dx
+ 1
+2
+,
+Where e = u(x) −U(x), in which, u(x) is the exact solution to VP (variational problem), U(x) is the
+FEM (ﬁnite element method) solution.
+(e) Prove an a priori error estimate for this method in the L2 norm:
+∥e∥L2 =: ∥e∥=
+ ∫1
+0
+e2dx
+ 1
+2
+.
+Solution:
+(a) Multiply both sides of u(4) = f (x) with test function v and integrate on [0, 1] to get
+∫1
+0
+u(4)vdx =
+∫1
+0
+f (x)vdx,
+integration by parts twice yields
+u′′′v
+
+1
+0 −u′′v′
+1
+0 +
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f (x)vdx.
+Assume v(0) = 0, v′(0) = 0 so that u′′′v
+
+1
+0 −u′′v′
+1
+0 = 0, then
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f (x)vdx.
+Deﬁne
+V = {w :
+∫1
+0
+w2 + (w′)2 + (w′′)2dx < ∞,
+w(0) = w′(0) = 0},
+then the Variational Problem(VP) is:
+Find u ∈V, such that
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f (x)vdx,
+∀v ∈V.
+(2)
+(b) Deﬁne the total energy F : V →R as
+F(w) = 1
+2
+∫1
+0 (w′′)2dx −
+∫1
+0 f (x)wdx,
+then the energy minimization problem(MP) is:
+Find u ∈V such that
+F(u) ≤F(w),
+∀w ∈V.
+(3)
+We can prove the equivalence of VP and MP:
+
+=== page 7 ===
+(VP⇒MP) Assume u ∈V such that
+∫1
+0 u′′v′′dx =
+∫1
+0 f (x)vdx for all v ∈V. Let w = u + v ∈V, then
+F(w) = 1
+2
+∫1
+0
+(u′′ + v′′)2dx −
+∫1
+0
+f (x)(u + v)dx
+= 1
+2
+∫1
+0
+(u′′)2dx + 1
+2
+∫1
+0
+(v′′)2dx +
+∫1
+0
+u′′v′′dx −
+∫1
+0
+f (x)udx −
+∫1
+0
+f (x)vdx
+=
+
+1
+2
+∫1
+0
+(u′′)2dx −
+∫1
+0
+f (x)udx
+
++
+ ∫1
+0
+u′′v′′dx −
+∫1
+0
+f (x)udx
+
++ 1
+2
+∫1
+0
+(v′′)2dx
+=F(u) + 0 + 1
+2
+∫1
+0
+(v′′)2dx
+≥F(u),
+where the last equality is obtained by the deﬁnition of total energy and the fact that u is solution to the VP.
+Which implies solution to VP is also solution to MP.
+(VP⇐MP) Assume u ∈V such that F(u) ≤F(w) for all w ∈V. Let g(ϵ) = F(u + ϵv), here v ∈V is arbitrary
+but ﬁxed, then g′(0) = 0.
+Note that
+g′(ϵ) =
+∫1
+0
+(u′′ + ϵv′′)v′′dx −
+∫1
+0
+f vdx,
+substitute ϵ = 0 and use the fact that g′(0) = 0, we have
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f vdx, ∀v ∈V.
+Which implies solution to MP is solution to VP.
+(c) (i) Partition: Let τh: 0 = x0 < · · · < xM < xM+1 = 1 be a partition of [0, 1], let hj = xj −xj−1 for
+j = 1,. . ., M + 1 be the size of j-th mesh Ij = [xj−1, xj], deﬁne h := max1≤j ≤M+1 hj.
+(ii) Finite element space: Let V3
+h ⊆V be our ﬁnite element space deﬁned as
+V3
+h := {u ∈C1(0, 1)|
+u|Ij is cubic polynomial for all j = 1,. . ., M + 1, and u(0) = u′(0) = 0}.
+(4)
+(iii) CG(3) Finite Element Method: Find U(x) in V3
+h such that
+∫1
+0
+U′′v′′dx =
+∫1
+0
+f vdx, ∀v ∈V3
+h .
+(d) Let u(x) ∈V be the exact solution to VP (variational problem), U(x) ∈V3
+h be the FEM solution, we estiamte
+the error e = u −U as follows:
+∥u∥2
+E =
+∫1
+0
+(e′′)2 dx
+=
+∫1
+0
+e′′(u −v + v −U)′′dx
+(v ∈V3
+h )
+=
+∫1
+0
+e′′(u −v)′′dx +
+∫1
+0
+e′′(v −U)′′dx
+(by Galerkin orthogonality)
+=
+∫1
+0
+e′′(u −v)′′dx
+(by Cauchy inequality)
+≤∥u −U∥E · ∥u −v∥E .
+Hence ∥e∥E ≤∥u −v∥for all v ∈V3
+h , take v = πhu as interpolation of u, then
+∥e∥E ≤Ch2∥u(4)∥,
+where C comes from interpolation error.
+
+=== page 8 ===
+(e) Consider the following dual problem
+φ(4) = e,
+φ(0) = φ′(0) = φ′′(1) = φ′′′(1) = 0.
+We have
+∥e∥2 =
+∫1
+0
+eφ(4)dx
+=
+∫1
+0
+e′′φ′′dx + eφ′′′
+1
+0 −e′φ′′
+1
+0
+(by integration by parts twice)
+=
+∫1
+0
+e′′φ′′dx
+(subtract
+∫1
+0
+e′′(πhφ)′′dx = 0)
+=
+∫1
+0
+e′′(φ −πhφ)′′dx
+≤∥e∥E · ∥φ −πhφ∥E
+(by the interpolation error and energy norm estimate)
+≤C2h4∥u(4)∥· ∥φ(4)∥
+( since ∥φ(4)∥= ∥e∥)
+=C2h4∥u(4)∥· ∥e∥,
+that is, ∥e∥≤C2h4∥u(4)∥.

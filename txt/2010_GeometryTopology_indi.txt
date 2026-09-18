@@ -1,0 +1,27 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2010
+Geometry and Topology
+Individual
+(Please select 5 problems to solve)
+1. Let D∗= {(x, y) ∈R2 | 0 < x2 +y2 < 1} be the punctured unit disc
+in the Euclidean plane. Let g be the complete Riemannian metric on
+D∗with contsant curvature −1. Find the disctance under the metric
+between the points (e−2π, 0) and (−e−π, 0).
+2. Show that every closed hypersurface in Rn has a point at which the
+second fundamental form is positive deﬁnite.
+3. Prove that the real projective space RP n is orientable if and only if
+n is odd.
+4. Suppose π : M1 −→M2 is a C∞map of one connected diﬀerentiable
+manifold to another. And suppose for each p ∈M1, the diﬀerential
+π∗: TpM1 −→Tπ(p)M2 is a vector space isomorphism.
+(a). Show that if M1 is connected, then π is a covering space projection.
+(b). Given an example where M2 is compact but π : M1 −→M2 is not
+a covering space (but has the π∗isomorphism property).
+5. Let Σg be the closed orientable surface of genus g. Show that if
+g > 1, then Σg is a covering space of Σ2.
+6. Let M be a smooth 4-dimensional manifold. A symplectic form is a
+closed 2-form ω on M such that ω ∧ω is a nowhere vanishing 4-form.
+(a). Construct a symplectic form on R4.
+(b). Show that there are no symplectic forms on S4.
+1

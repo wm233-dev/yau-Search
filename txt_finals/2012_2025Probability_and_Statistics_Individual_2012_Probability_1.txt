@@ -1,0 +1,258 @@
+
+=== page 1 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 4, morning
+Problem. Take two points ξ and η randomly and independently with respect to the uniform
+distribution from the unit interval [0, 1]. Then in general these two points divide the interval [0, 1]
+into three subintervals with lengths X, Y and Z, respectively.
+(1) What is the probability that X, Y and Z constitute the lengths of three sides of a triangle in
+the plane?
+(2) What are the probability distributions of X, Y and Z?
+1
+
+=== page 2 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 4, afternoon
+Problem. Suppose that {ξk} are independent and identically distributed random variables with
+uniform distribution on the interval [0, 1]. Let
+Y = max
+1≤k≤n ξk.
+(1) What is the joint distribution of (ξ1, Y)?
+(2) Evaluate the probability P(ξ1 = Y).
+(3) Evaluate the conditional expectation E(ξ1|Y).
+2
+
+=== page 3 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 5, morning
+Problem. Discuss the following issue by constructing an appropriate probability model. You
+may make some further reasonable assumptions.
+Suppose that there are 1000 persons, and only one of them is your ideal friend. Suppose that
+when you meet a person which is your ideal friend, you can identify whether he/she is your ideal
+friend with a success probability 99/100, and when you meet a person who is not your ideal friend,
+you may wrongly identify him/her as your ideal friend with a probability 1/100. Now if you have
+already met a person that you regard as an ideal friend, what is the probability that this person
+REALLY is your ideal friend?
+3
+
+=== page 4 ===
+2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 5, afternoon
+Problem. Let {Xn} be independent and identically distributed random variables with expecta-
+tion EX, variance DX < ∞and characteristic function φX(t), respectively. Let N be a non-negative
+integer valued random variable with expectation EN, variance DN < ∞and characteristic function
+φN(t), respectively. Furthermore, {Xn} and N are independent. Let Y = PN
+k=1 Xk.
+(1) What is the characteristic function of Y?
+(2) Evaluate the variance of Y.
+4
+
+=== page 5 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on Probability
+August 4, morning
+Problem. Take two points ξ and η randomly and independently with respect to the uniform
+distribution from the unit interval [0, 1]. Then in general these two points divide the interval [0, 1]
+into three subintervals with lengths X, Y and Z, respectively.
+(1) What is the probability that X, Y and Z constitute the lengths of three sides of a triangle in
+the plane?
+(2) What are the probability distributions of X, Y and Z?
+Solution
+(1) If 0 ≤ξ < η, then the lengths of the three subintervals are ξ, η −ξ and 1 −η, respectively.
+These constitute the lengths of three sides of a triangle is equivalent to
+ξ + (η −ξ)
+>
+1 −η,
+(η −ξ) + (1 −η)
+>
+ξ,
+ξ + (1 −η)
+>
+η −ξ,
+which are further equivalent to
+ξ < 1
+2,
+η −ξ < 1
+2,
+η > 1
+2.
+These constraints form a region with area 1/8.
+By symmetry, the probability that X, Y and Z constitute the lengths of three sides of a triangle
+in the plane is 1/8 + 1/8 = 1/4
+(2) We have
+X = min{ξ, η},
+Y = |ξ −η|,
+Z = 1 −max{ξ, η}.
+The distribution of X is
+FX(x)
+:=
+P(min{ξ, η} ≤x)
+=
+1 −P(min{ξ, η} > x)
+=
+1 −P(ξ > x)P(η > x)
+=
+1 −(1 −x)2,
+x ∈[0, 1].
+The distribution of Y is
+FY(y)
+:=
+P(|ξ −η| ≤y)
+=
+Z Z
+−y≤t−s≤y
+dtds
+=
+1 −(1 −y)2,
+y ∈[0, 1].
+The distribution of Z is
+FZ(z)
+:=
+P(1 −max{ξ, η} ≤z)
+=
+P(max{ξ, η} ≥1 −z)
+=
+1 −P(max{ξ, η} < 1 −z)
+=
+1 −P(ξ < 1 −z)P(η < 1 −z)
+=
+1 −(1 −z)2,
+z ∈[0, 1].
+5
+
+=== page 6 ===
+August 4, afternoon
+Problem. Suppose that {ξk} are independent and identically distributed random variable with
+uniform distribution on the interval [0, 1]. Let
+Y = max
+1≤k≤n ξk.
+(1) What is the joint distribution of (ξ1, Y)?
+(2) Evaluate the probability P(ξ1 = Y).
+(3) Evaluate the conditional expectation E(ξ1|Y).
+Solution
+(1) The joint distribution of (ξ1, Y) is
+Fξ1,Y(x, y)
+:=
+P(ξ1 ≤x, max
+1≤k≤n ξk ≤y)
+=
+P(ξ1 ≤x, ξ2 ≤y, · · · , ξn ≤y)
+=
+xyn−1,
+0 ≤x ≤y ≤1.
+(2) By symmetry, we have P(ξ1 = Y) = P(ξ2 = Y) = · · · = P(ξn = Y). But
+n
+X
+k=1
+P(ξk = Y) = 1.
+Therefore P(ξ1 = Y) = 1
+n.
+(3) The distribution of Y is FY(y) := P(max1≤k≤n ξk ≤y) = yn,
+y ∈[0, 1]. The conditional
+distribution of ξ1 under Y is F(x|y) = n−1
+n · x
+y for 0 < x < y, and F(x|y) = 1 for 1 ≥x ≥y ≥0.
+Therefore
+E(ξ1|Y = y)
+=
+1
+ny +
+Z y
+0
+x · n −1
+n
+· 1
+ydx
+=
+1
+ny + n −1
+2n y
+=
+n + 1
+2n y,
+and E(ξ1|Y) = n+1
+2n Y.
+August 5, morning
+Problem. Discuss the following issue by constructing an appropriate probability model. You
+may make some further reasonable assumptions.
+Suppose that there are 1000 persons, and only one of them is your ideal friend. Suppose that
+when you meet a person which is your ideal friend, you can identify whether he/she is your ideal
+friend with a success probability 99/100, and when you meet a person who is not your ideal friend,
+you may wrongly identify him/her as your ideal friend with a probability 1/100. Now if you have
+already met a person that you regard as an ideal friend, what is the probability that this person
+REALLY is your ideal friend?
+Solution
+6
+
+=== page 7 ===
+Let P(+) denote the probability that you meet an ideal friend, P(−) the probability that the
+person you meet is not your ideal friend, then
+P(+) = 1/1000,
+P(−) = 999/1000.
+Let P(“+”) denote the probability that you meet a person and identify him/her as your ideal friend
+and P(“ −”) denote the probability that you meet a person and do not regard him/her as an ideal
+friend. Let P(“ + ”|−) denote the conditional probability that you regard a person as your ideal
+friend while in fact he/she is not, and other conditional probabilities are deﬁned similarly. Then
+P(“ + ”|+) = 99/100,
+P(“ −”|+) = 1/100.
+P(“ + ”|−) = 1/100,
+P(“ −”|−) = 99/100.
+What we need to calculate is in fact the conditional probability P(+|“+”), that is, the probability
+that the person you identify as an ideal friend is really your ideal friend. This can be evaluated by
+the Bayesian formula as follows:
+P(+|“ + ”)
+=
+P(+, “ + ”)
+P(“ + ”)
+=
+P(+)P(“ + ”|+)
+P(+)P(“ + ”|+) + P(−)P(“ + ”|−)
+=
+1
+1000 × 99
+100
+1
+1000 × 99
+100 + 999
+1000 ×
+1
+100
+=
+11/122 ≈0.090.
+August 5, afternoon
+Problem. Let {Xn} be independent and identically distributed random variables with expecta-
+tion EX, variance DX < ∞and characteristic function φX(t), respectively. Let N be a non-negative
+integer valued random variable with expectation EN, variance DN < ∞and characteristic function
+φN(t), respectively. Furthermore, {Xn} and N are independent. Let Y = PN
+k=1 Xk.
+(1) What is the characteristic function of Y?
+(2) Evaluate the variance of Y.
+Solution
+(1) The characteristic function of Y is
+φY(t)
+:=
+Eeit PN
+k=1 Xk
+=
+E(E(eit PN
+k=1 Xk|N))
+=
+E((φX(t))N).
+(2) We have
+φ′
+Y(t) = E{N(φX(t))N−1φ′
+X(t)},
+φ′′
+Y(t) = E{N(N −1)(φX(t))N−2(φ′
+X(t))2 + N(φX(t))N−1φ
+′′
+X(t)}.
+Therefore, buy putting t = 0, we have
+EY = EN · EX,
+7
+
+=== page 8 ===
+and
+EY2 = E{N(N −1)(EX)2 + NEX2},
+from which we obtain
+DY = EY2 −(EY)2 = DN · (EX)2 + EN · DX.
+8

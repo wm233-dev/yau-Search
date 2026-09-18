@@ -1,0 +1,140 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest
+Applied and Computational Math (Individual
+Contest)
+June 8, 2024
+1. Find an algorithm of O(n2) operations for solving the following linear
+system
+(ST −λI)x = b,
+where S, T ∈Rn×n are given upper triangular matrices, λ ∈R is given
+such that ST −λI is nonsingular, b ∈Rn is given, and x ∈Rn is the
+unknown vector.
+2. Let dn, gn and hn be three non-negative series satisfying
+dn+1 −dn
+k
+≤gndn + hn, ∀n ≥n0,
+and
+
+
+
+
+
+
+
+
+
+k ∑N+k0
+n=k0 gn ≤a1
+k ∑N+k0
+n=k0 hn ≤a2
+, ∀k0 ≥n0
+k ∑N+k0
+n=k0 dn ≤a3
+with kN = r. Show that
+dn ≤(a2 + a3
+r ) exp(a1), ∀n ≥n0 + N.
+3. Consider the heat distribution in a rod of length L > 0 made of two
+materials with diﬀerent heat conductivities, denoted as a ∈R+ and b ∈
+R+, and distributed alternatively along the rod with a periodicity of ε :=
+L/N, N ∈N. The problem can be modelled by the following system
+
+
+
+
+
+−d
+dx
+(
+Aε(x) d
+dxuε(x)
+)
+= f(x),
+x ∈(0, L)
+uε(0) = uε(L) = 0,
+(1)
+1
+
+=== page 2 ===
+where
+Aε(x) =
+
+
+
+
+
+a
+if x ∈
+(
+0, ε
+2
+)
+∪
+(
+ε, 3
+2ε
+)
+∪...... ∪
+(
+(N −1)ε, 2N −1
+2
+ε
+)
+,
+b
+otherwise ,
+and f(x) ∈L2((0, L)) signiﬁes a source.
+(1) Show that equation (1) has a unique weak solution in H1
+0((0, L)).
+(2) Show that there is a constant A such that uε →u weakly in H1
+0((0, L)),
+and u is the solution of the following system:
+
+
+
+
+
+−d
+dx
+(
+A d
+dxu(x)
+)
+= f(x),
+x ∈(0, L),
+u(0) = u(L) = 0.
+(2)
+Find the value of A.
+4. Let u be the solution to the reaction-diﬀusion equation
+ut = βuxx + f(u),
+in [0, L] × (0, T]
+with the homogeneous Neumann boundary condition. We assume that
+A1. The reaction function f satisﬁes that f ∈C2(R) and f(0) = 0.
+A2. ∃K > 0 such that |f ′(u)| ≤K,
+∀u ∈R.
+We assume further that the problem is well-posed for a given initial con-
+dition u(x, 0).
+(a) Consider the following standard forward-in-time and central-in-space
+discretization
+vn+1
+j
+= vn
+j + β
+∆t
+(∆x)2 (vn
+j−1 −2vn
+j + vn
+j+1) + ∆tf(vn
+j )
+on a uniform space-time mesh tn = n∆t and xj = j∆x. Assume that
+K is small enough. Derive a suﬃcient condition on ∆t, assuming
+everything else is ﬁxed, for the numerical stability, in an appropriate
+sense, of the scheme.
+(b) Let en
+j := un
+j −vn
+j be the numerical error (where un
+j = u(xj, tn)).
+Show that the scheme is convergent by showing that ∥en∥→0, in
+appropriate norm, as ∆t, ∆x →0.
+2

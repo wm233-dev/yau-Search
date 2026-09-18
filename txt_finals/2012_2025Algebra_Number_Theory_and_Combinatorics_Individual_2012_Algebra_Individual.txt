@@ -1,0 +1,13 @@
+
+=== page 1 ===
+ALGEBRA ORAL
+(1) Let k be a ﬁeld and B ⊂GL2(k) the subgroup of
+upper triangles. Describe all B×B-orbits in GL2(k),
+where B × B acts on GL2(k) by
+(b1, b2) · g = b1gb−1
+2 , ∀(b1, b2) ∈B × B, g ∈GL2(k).
+(2) Let k be a ﬁeld and A, B ∈Mn×n(k). Prove that
+det(I −AB) = det(I −BA).
+(3) Find Q-algebras R such that in R[X, Y ], X2 +Y 2 =
+(aX + bY )2 for some a, b ∈R.
+1

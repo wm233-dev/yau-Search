@@ -1,0 +1,83 @@
+
+=== page 1 ===
+Yau College Math Competition 2020 Final Probability and Statistics
+Individual Exam Problem Set 1 (Saturday, October 24, 2020)
+PROBLEM 1. Suppose that {Xn} is a sequence of independent, iden-
+tically distributed random variables with the uniform distribution on the
+unit interval [0, 1]. For each x ∈[0, 1], deﬁne
+Xx
+n =
+(
+1,
+Xn ≤x;
+0,
+Xn > x.
+Let f : [0, 1] →R be an nondecreasing continuous function on [0, 1] and
+Bn(x; f ) = E
+
+f
+Xx
+1 + · · · + Xx
+n
+n
+
+.
+Show that
+(1) Bn(x; f ) is a polynomial in x of degree n; (2) Bn(x; f ) is nondecreas-
+ing in x;
+(3) Bn(x; f ) →f (x) uniformly on [0, 1].
+PROBLEM 2. An urn contains N balls marked 1, 2, ..., N. A ball is drawn
+from the urn repeatedly and independently with replacement. Let TN be
+the ﬁrst time every ball in the turn has been drawn at least once. Show that
+TN/N log N converges to 1 in probability.
+PROBLEM 3. Suppose {X1, . . . , Xn} is a random sample from an un-
+known probability distribution with ﬁnite mean, variance, and third cen-
+tral moment, denoted by µ, σ2, and µ3 = E(X1 −µ)3, respectively. It is of
+interest to study the relationship between
+¯X = 1
+n
+n
+∑
+i=1
+Xi
+and
+S2 =
+1
+n −1
+n
+∑
+i=1
+(Xi −¯X)2.
+(1) Show that they are independent when the underlying distribution
+is Gaussian.
+(2) For a general distribution, what is cov( ¯X, S2)? Find an expression.
+(3) Suppose the random sample is from Bernoulli(1/2). Show that ¯X
+and S2 are uncorrelated, but are not independent by showing that
+P(S2 = 0 | ¯X = 1) ̸= P(S2 = 0)
+1
+
+=== page 2 ===
+2
+Yau College Math Competition 2020 Final Probability and Statistics
+Individual Exam Problem Set 2 (Sunday, October 25, 2020)
+PROBLEM 1. Suppose that {Xn} is a sequence of real valued, indepen-
+dent, identically distributed random variables and B is a Borel set in R.
+Assume that P(X1 ∈B) > 0. Let T = inf{n : Xn ∈B} be the ﬁrst time the
+sequence is in the set B.
+(1) Show that P(T < ∞) = 1.
+(2) Suppose E|X1| < ∞. Show that EXT = E[X1IB(X1)]ET.
+PROBLEM 2. We ﬂip a fair coin repeatedly and independently. Let Nn be
+the number of consecutive heads beginning from the nth ﬂip. (For example,
+Nn = 0 if the nth ﬂip is a tail, and Nn = 2 if the nth and (n + 1)th ﬂips are
+heads but the (n + 2)th ﬂip is a tail. Show that
+lim sup
+n→∞
+Nn
+log n =
+1
+log 2.
+PROBLEM 3. Let {X1, . . . , Xn} be independent and identically distributed
+from the uniform distribution on the interval (−θ, θ) with θ > 0.
+(1) Find a minimal sufﬁcient statistic T for θ.
+(2) Deﬁne V = ¯X/|X|(n), where |X|(n) = max(|X1|, . . . , |Xn|). Show
+that V is independent of T.

@@ -1,0 +1,58 @@
+
+=== page 1 ===
+Mathematical Physics
+Individual Contest
+To complete this assessment, answer at least 3 of the following 4 problems.
+Problem 1
+A non-relativistic, spinless, quantum particle of mass m moves in the Euclidean plane R2.
+The particle is connected by ideal springs of elastic constant k to three fixed points in the plane
+{p1, p2, p3} ⊂R2 which lay at the vertices of an equilateral triangle whose sides have length L.
+(a) determine the Lie group of continuous symmetries of the system (the generators of its Lie
+algebra should contain a maximal set of functional independent conserved quantities);
+(b) compute the energy levels of the quantum system.
+Problem 2
+Let Γv be the Caley tree of valency v ≥3, i.e. the connected graph over infinitely-many nodes
+without non-trivial closed paths (≡a tree) where each node is connected to other v nodes by a
+single link. On each node i ∈Γv there is a Ising spin σi which takes the two values ±1 (spin up
+and spin down) and the system has Hamiltonian (≡energy)
+H = −J
+X
+⟨i,j⟩
+σiσj,
+J > 0
+where the notation P
+⟨i,j⟩means that the sum is over pairs of sites i, j ∈Γv connected by a link
+(≡nearest neighbors sites).
+Question. Use the free boundary condition. Is there a positive temperature Tc at which we have
+a phase transition and yet the free energy F(T) is real analytic for 0 < T < ∞?
+Problem 3
+Orders-of-magnitude black hole physics.
+Assuming black holes indeed evaporate via quantum effect as predicted by Hawking. Answer
+the following questions to an order of magnitude. (Hint: for this problem, it is the most convenient
+to work in the Planck units with c = G = ℏ= kB = 1 and convert the answer in the end using the
+values of Planck length, mass, time, and temperature: lP ∼10−35 m, mP ∼10−8 kg, tP ∼10−43 s,
+and TP ∼1032 K. Also, please feel free to ignore 2’s and π’s.)
+1. If a black hole has mass M and its Hawking radiation has a black-body spectrum with
+temperature proportional to its “surface gravity” (at, say, twice the radius of the horizon),
+what is the temperature and total power of the Hawking radiation in Planck units? And
+for a solar-mass black hole (∼1038 mP), what is the temperature and power in Kelvins and
+Watts?
+1
+
+=== page 2 ===
+Figure 1: Problem 4
+2. What is the maximum mass of a black hole that can evaporate via Hawking radiation in the
+lifetime of the Universe (10 billion years ∼1060tP)? Compare its temperature with that of
+the cosmic microwave background (∼2.7K).
+3. How much mass (in kilograms) does a black hole radiate away in its final second? Would
+this be large or small in astronomical standard?
+4. For a solar-mass black hole, what is the charge in conventional units (Coulombs) that would
+have to be present to make Q = M in relativistic units? How does this compare to the total
+charge of a solar mass of protons? (Hint: the charge of a proton is 10−19 Coulomb while its
+mass is 10−19mP.)
+Problem 4
+A spherical container is partially filled with a slowly hardening epoxy resin (Figure 1). The
+container is spinning with angular velocity ω1 about the O1 −O2 axis, which in turn is spinning
+with angular velocity ω2 about the fixed O3 −O4 axis. Assuming ω1 ̸= ω2, find the final shape of
+the hardened resin (use g for gravitational acceleration at Earth’s surface).
+2

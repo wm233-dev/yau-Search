@@ -1,0 +1,1272 @@
+[
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "证明对任意 k∈Z 存在 S1×S1→S2 的 k 次映射；而任何 S1×S1→亏格2曲面 Σ2 的连续映射度为 0",
+  "topic": "同伦论/映射度",
+  "method": "映射度 + 上同调环结构 (H*(T2) 与 H*(Σ2))",
+  "diff": 4
+ },
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "Σ2 的基本群：写出 G；说明 G 非交换；说明 G 有指数 7 子群；证明 Σ2 不是任何可定向曲面的非平凡覆叠；但它可以是某个空间的非平凡覆叠",
+  "topic": "基本群/覆叠空间",
+  "method": "覆叠空间理论 + 自由群 F4 的组合性质 + 欧拉示性数乘性",
+  "diff": 4
+ },
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "叙述并证明 Crofton 公式",
+  "topic": "积分几何/等周",
+  "method": "Crofton 公式（测度几何），Poincaré 公式",
+  "diff": 5
+ },
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "叙述并给出 Bonnet-Myers 定理证明梗概",
+  "topic": "比较定理",
+  "method": "Bonnet-Myers 直径估计 + 第二变分",
+  "diff": 4
+ },
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 5,
+  "gist": "什么是 Jacobi 场？在常曲率空间形式 Mn_k 中算出它；Jacobi 场与指数映射的关系",
+  "topic": "测地线与变分",
+  "method": "Jacobi 方程、共轭点、指数映射",
+  "diff": 3
+ },
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 6,
+  "gist": "非正曲率空间上的 Cartan-Hadamard 定理；为什么该空间是 K(π,1)",
+  "topic": "比较定理",
+  "method": "Cartan-Hadamard + 覆叠空间 + 同伦群",
+  "diff": 4
+ },
+ {
+  "year": "2012",
+  "kind": "Individual",
+  "paper": "2012 Geometry (Individual).pdf",
+  "n": 7,
+  "gist": "R3 中具光滑边界、负曲率的紧曲面 S 必含于 ∂S 的凸包中",
+  "topic": "曲面整体性质",
+  "method": "凸性/支撑函数、负曲率与凸包",
+  "diff": 4
+ },
+ {
+  "year": "2013",
+  "kind": "Individual",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 1,
+  "gist": "S2 上有多少个 S2 丛？",
+  "topic": "向量丛/示性类",
+  "method": "S2 上纤维丛的分类（π1(SO(3))=Z2）",
+  "diff": 3
+ },
+ {
+  "year": "2013",
+  "kind": "Individual",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 2,
+  "gist": "法坐标下导数是什么？何时非奇异？叙述 Cartan-Hadamard 定理；求 g_ij 在法坐标下的 Taylor 展开",
+  "topic": "黎曼曲率与比较定理",
+  "method": "法坐标、指数映射、Cartan-Hadamard、曲率张量展开",
+  "diff": 4
+ },
+ {
+  "year": "2013",
+  "kind": "Individual",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 3,
+  "gist": "定义 Hopf 代数；哪些空间有 Hopf 代数结构；为什么 Lie 群结构推出 Hopf 代数结构；证明 π_i(闭路空间)=π_{i+1}",
+  "topic": "李群与齐性空间",
+  "method": "Hopf 代数、H-空间、环路空间与同伦群移位",
+  "diff": 5
+ },
+ {
+  "year": "2013",
+  "kind": "Team",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 1,
+  "gist": "叙述并证明 Synge 定理",
+  "topic": "比较定理",
+  "method": "Synge 定理（偶维正曲率 ⇒ 单连通/可定向）",
+  "diff": 4
+ },
+ {
+  "year": "2013",
+  "kind": "Team",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 2,
+  "gist": "为什么奇数维流形的欧拉数为 0？",
+  "topic": "上同调/示性类",
+  "method": "Poincaré 对偶 + 欧拉类、向量场零点指标",
+  "diff": 3
+ },
+ {
+  "year": "2013",
+  "kind": "Team",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 3,
+  "gist": "叙述 Hopf-Poincaré 定理，说明证明思路并给出有趣应用",
+  "topic": "上同调/示性类",
+  "method": "Hopf 指标定理、Poincaré-Hopf",
+  "diff": 4
+ },
+ {
+  "year": "2013",
+  "kind": "Team",
+  "paper": "2013 Geometry (Individual&Team).pdf",
+  "n": 4,
+  "gist": "叙述「清晰的欧拉公式」；证明只有 5 种正多面体",
+  "topic": "多面体/组合拓扑",
+  "method": "Euler 公式 V−E+F=2 与正多面体分类",
+  "diff": 2
+ },
+ {
+  "year": "2014",
+  "kind": "Individual",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 1,
+  "gist": "S2 上有多少个 S1 丛？",
+  "topic": "向量丛/示性类",
+  "method": "复/实线丛分类 = H2(S2;Z)=Z",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Individual",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 2,
+  "gist": "S2 上有多少个 S2 丛？",
+  "topic": "向量丛/示性类",
+  "method": "纤维丛分类、π1(SO(3))=Z2",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Individual",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 3,
+  "gist": "叙述并证明最大直径定理（Bonnet-Myers 等号情形）",
+  "topic": "比较定理",
+  "method": "最大直径定理（等号 ⇒ 常曲率球面）",
+  "diff": 5
+ },
+ {
+  "year": "2014",
+  "kind": "Individual",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 4,
+  "gist": "不存在从亏格 g 紧 Riemann 面到亏格 h（g<h）紧 Riemann 面的非常值全纯映射",
+  "topic": "复几何/代数几何",
+  "method": "Riemann-Hurwitz 公式、全纯映射的次数",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Individual",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 5,
+  "gist": "闭曲面上至少存在一点 p 使高斯曲率 K(p)>0",
+  "topic": "曲面整体性质",
+  "method": "Gauss-Bonnet：∫K=2πχ，χ>0 迫使 K 取正值",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 1,
+  "gist": "Brouwer 不动点定理：f:Bn→Bn 有不动点",
+  "topic": "微分拓扑",
+  "method": "Brouwer 不动点定理（映射度/同调证明）",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 2,
+  "gist": "S2 上不存在测地矩形",
+  "topic": "测地线与变分",
+  "method": "Jacobi 场 + 球面共轭点（指标形式）",
+  "diff": 4
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 3,
+  "gist": "叙述 Hopf-Poincaré 定理、证明思路与有趣应用",
+  "topic": "上同调/示性类",
+  "method": "Poincaré-Hopf 指标定理",
+  "diff": 4
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Individual&Overall).doc",
+  "n": 4,
+  "gist": "R3 中不存在闭极小曲面",
+  "topic": "极小曲面/子流形",
+  "method": "极小曲面稳定性 + 支撑函数/极大值原理",
+  "diff": 4
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Team).docx",
+  "n": 1,
+  "gist": "φ:S2→T2 光滑，证明对任一上同调类 v∈H2(T2)，φ*v=0",
+  "topic": "上同调/示性类",
+  "method": "拉回映射 + H2 生成元的自然性",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Team).docx",
+  "n": 2,
+  "gist": "f:D2→D2 同胚，证明 f 把边界点映为边界点",
+  "topic": "微分拓扑",
+  "method": "同胚保持内点/边界点（Brouwer 定理）",
+  "diff": 3
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Team).docx",
+  "n": 3,
+  "gist": "ω1,…,ωk 线性无关 当且仅当 ω1∧…∧ωk 不为 0",
+  "topic": "微分形式/Stokes",
+  "method": "外代数、线性无关判据",
+  "diff": 2
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Team).docx",
+  "n": 4,
+  "gist": "证明任意映射 F:Sn→S^{n1}×…×S^{nk}（k≥2, Σn_i=n, n_i>0）的度为 0",
+  "topic": "同伦论/映射度",
+  "method": "Künneth 公式 + 映射度（该积空间无 top 维生成元）",
+  "diff": 4
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Team).docx",
+  "n": 5,
+  "gist": "证明任意光滑映射 f:CPn→CPn 有不动点",
+  "topic": "微分拓扑",
+  "method": "Lefschetz 不动点定理 + CPn 上同调环",
+  "diff": 4
+ },
+ {
+  "year": "2014",
+  "kind": "Team",
+  "paper": "2014 Geometry (Team).docx",
+  "n": 6,
+  "gist": "绕闭纽结曲线 C 的管状曲面 M：证明 ∫_M H2 dσ ≥ 4π2",
+  "topic": "极小曲面/子流形",
+  "method": "管状邻域几何、平均曲率平方积分下界",
+  "diff": 5
+ },
+ {
+  "year": "2013",
+  "kind": "Overall",
+  "paper": "2013 Geometry (Overall).docx",
+  "n": 1,
+  "gist": "证明 S^{2n}（n≥1）不是 Lie 群",
+  "topic": "李群与齐性空间",
+  "method": "偶维球面无 Lie 群结构（上同调/Hopf 不变量论证）",
+  "diff": 4
+ },
+ {
+  "year": "2013",
+  "kind": "Overall",
+  "paper": "2013 Geometry (Overall).docx",
+  "n": 2,
+  "gist": "环面 T2 浸入 R3 且自交非平凡，证明 ∫_{φ(T2)} H2 dv ≥ 8π",
+  "topic": "极小曲面/子流形",
+  "method": "Willmore 型不等式（环面的 Willmore 能量下界）",
+  "diff": 5
+ },
+ {
+  "year": "2015",
+  "kind": "Individual",
+  "paper": "2015 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "Hopf 纤维化 π:S3→S2 不存在截面",
+  "topic": "向量丛/示性类",
+  "method": "Hopf 纤维化非平凡（Euler 类/上同调论论证）",
+  "diff": 3
+ },
+ {
+  "year": "2015",
+  "kind": "Individual",
+  "paper": "2015 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "不存在次数为 1 的映射 S2×S2→CP2",
+  "topic": "同伦论/映射度",
+  "method": "上同调环的杯积结构（H*(S2×S2) 无 x2 型生成元）",
+  "diff": 4
+ },
+ {
+  "year": "2015",
+  "kind": "Individual",
+  "paper": "2015 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "RP2×RP2 上不存在正截面曲率度量",
+  "topic": "比较定理",
+  "method": "Synge 定理（偶维正曲率 ⇒ 可定向）",
+  "diff": 3
+ },
+ {
+  "year": "2015",
+  "kind": "Overall",
+  "paper": "2015 Geometry(Overall).pdf",
+  "n": 1,
+  "gist": "(a) 次数 |d|≥2 的 f:CP2→CP2 至少有 3 个不动点；(b) CP^{2n} 不能覆叠任何非自身的流形",
+  "topic": "微分拓扑",
+  "method": "Lefschetz 不动点定理、覆叠空间与欧拉数",
+  "diff": 5
+ },
+ {
+  "year": "2015",
+  "kind": "Overall",
+  "paper": "2015 Geometry(Overall).pdf",
+  "n": 2,
+  "gist": "(a) 证明等周不等式 4πA≤L2，等号成立当且仅当圆；(b) 推广到 R3 中带边极小曲面",
+  "topic": "几何测度/等周",
+  "method": "等周不等式、极小曲面的等周类比",
+  "diff": 3
+ },
+ {
+  "year": "2015",
+  "kind": "Team",
+  "paper": "2015 Geometry (Team).pdf",
+  "n": 1,
+  "gist": "S2×S2 与连通和 CP2#CP2 不同伦等价",
+  "topic": "上同调/示性类",
+  "method": "上同调环的杯积结构判别",
+  "diff": 3
+ },
+ {
+  "year": "2015",
+  "kind": "Team",
+  "paper": "2015 Geometry (Team).pdf",
+  "n": 2,
+  "gist": "任意闭曲面都有闭测地线",
+  "topic": "测地线与变分",
+  "method": "测地线的存在性（变分/极小化论证）",
+  "diff": 3
+ },
+ {
+  "year": "2015",
+  "kind": "Team",
+  "paper": "2015 Geometry (Team).pdf",
+  "n": 3,
+  "gist": "计算 CP3 中光滑 d 次超曲面的欧拉数",
+  "topic": "上同调/示性类",
+  "method": "超曲面欧拉数与全陈类公式",
+  "diff": 4
+ },
+ {
+  "year": "2016",
+  "kind": "Individual",
+  "paper": "2016 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "R3 中具正高斯曲率可定向闭曲面 M 上任意两条简单闭测地线必相交",
+  "topic": "测地线与变分",
+  "method": "正曲率下简单闭测地线的相交性（Jacobi 场/指标）",
+  "diff": 4
+ },
+ {
+  "year": "2016",
+  "kind": "Individual",
+  "paper": "2016 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "R3 中嵌入的紧正亏格曲面，其高斯曲率必在某点消失",
+  "topic": "曲面整体性质",
+  "method": "Gauss-Bonnet + 凸性/支撑曲面论证",
+  "diff": 3
+ },
+ {
+  "year": "2016",
+  "kind": "Individual",
+  "paper": "2016 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "证明 Cartan 公式 L_X = d i_X + i_X d 与 i_[X,Y] = [L_X, i_Y]",
+  "topic": "微分形式/Stokes",
+  "method": "Cartan 魔术公式、内乘与 Lie 导数",
+  "diff": 3
+ },
+ {
+  "year": "2016",
+  "kind": "Individual",
+  "paper": "2016 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "(1) 叙述 Künneth 公式并用于 S2×S2；(2) 次数 2 映射 f:S2→S2 的图在 H*(S2×S2,Q) 中的上同调类；(3) 计算图与对角线的相交数",
+  "topic": "上同调/示性类",
+  "method": "Künneth 公式、图的上同调类、相交数",
+  "diff": 4
+ },
+ {
+  "year": "2016",
+  "kind": "Overall",
+  "paper": "2016 Geometry(Overall).pdf",
+  "n": 1,
+  "gist": "计算 ω=Σ((x−a_i)dy−(y−b_i)dx)/((x−a_i)2+(y−b_i)2) 沿包围全部 P_i 的正向简单闭曲线积分",
+  "topic": "微分形式/Stokes",
+  "method": "留数/绕数：积分等于 2πn",
+  "diff": 2
+ },
+ {
+  "year": "2016",
+  "kind": "Overall",
+  "paper": "2016 Geometry(Overall).pdf",
+  "n": 2,
+  "gist": "(a) 定义 CPn；(b) 计算 CPn 的同调与上同调",
+  "topic": "上同调/示性类",
+  "method": "CW 结构、胞腔链复形、CPn 上同调环",
+  "diff": 2
+ },
+ {
+  "year": "2016",
+  "kind": "Team",
+  "paper": "2016 Geometry (Team).pdf",
+  "n": 1,
+  "gist": "(1) 定义 F:Sn→Sn 的度，证明 deg F·∫ω=∫F*ω；(2) 若 F 无不动点则 deg F=(−1)^{n+1}",
+  "topic": "同伦论/映射度",
+  "method": "映射度的积分定义、Lefschetz 不动点定理",
+  "diff": 4
+ },
+ {
+  "year": "2016",
+  "kind": "Team",
+  "paper": "2016 Geometry (Team).pdf",
+  "n": 2,
+  "gist": "M 为 4n+2 维紧光滑流形，证明 dim H^{2n+1}(M,R) 为偶数",
+  "topic": "上同调/示性类",
+  "method": "Poincaré 对偶 + 交错形式的反对称性",
+  "diff": 4
+ },
+ {
+  "year": "2016",
+  "kind": "Team",
+  "paper": "2016 Geometry (Team).pdf",
+  "n": 3,
+  "gist": "M 为 n 维紧单连通光滑流形，证明不存在到环面 Tn 的光滑浸入",
+  "topic": "微分拓扑",
+  "method": "覆叠空间/提升引理",
+  "diff": 3
+ },
+ {
+  "year": "2016",
+  "kind": "Team",
+  "paper": "2016 Geometry (Team).pdf",
+  "n": 4,
+  "gist": "度量 r2(1−1/r2)dx2 + (1−1/r2)^{−1} r^{−2}dr2 求使度量在 r=1 光滑延拓的 a",
+  "topic": "曲面整体性质",
+  "method": "度量完备化/锥奇点光滑延拓（周期匹配）",
+  "diff": 4
+ },
+ {
+  "year": "2017",
+  "kind": "Individual",
+  "paper": "2017 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "S2×S2 与 CP2∨S2 不同伦等价",
+  "topic": "上同调/示性类",
+  "method": "上同调环（wedge 和的杯积结构）",
+  "diff": 3
+ },
+ {
+  "year": "2017",
+  "kind": "Individual",
+  "paper": "2017 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "Bonnet-Myers 定理：截面曲率 ≥k 的完备流形直径 ≤π/√k，特别地紧致",
+  "topic": "比较定理",
+  "method": "Bonnet-Myers + 第二变分/指标形式",
+  "diff": 4
+ },
+ {
+  "year": "2017",
+  "kind": "Individual",
+  "paper": "2017 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "等周不等式：4πA ≤ L2，等号当且仅当圆",
+  "topic": "几何测度/等周",
+  "method": "等周不等式（Fourier 级数或 Steiner 对称化）",
+  "diff": 3
+ },
+ {
+  "year": "2017",
+  "kind": "Individual",
+  "paper": "2017 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "(a) 计算酉群 U(n) 的上同调；(b) 计算 π1(U(n)) 与 π2(U(n))",
+  "topic": "李群与齐性空间",
+  "method": "纤维化 U(n−1)→U(n)→S^{2n−1} + Leray 谱序列",
+  "diff": 5
+ },
+ {
+  "year": "2017",
+  "kind": "Overall",
+  "paper": "2017 Geometry (Overall).pdf",
+  "n": 1,
+  "gist": "Σ_g(g>1) 的全纯自同构群 Aut(Σ_g)：(a) ρ:Aut→GL(V) 单射；(b) 保持 Hermite 结构；(c) 保持整格 H1(Σ,Z)；(d) 推出 Aut(Σ_g) 有限",
+  "topic": "复几何/代数几何",
+  "method": "Riemann 面自同构、Hodge 结构、Hurwitz 界",
+  "diff": 5
+ },
+ {
+  "year": "2017",
+  "kind": "Overall",
+  "paper": "2017 Geometry (Overall).pdf",
+  "n": 2,
+  "gist": "(a) 定义 Killing 场；(b) 说明由一点的值与一阶导数决定；(c) 三维连通流形上 Killing 场空间维数至多 6",
+  "topic": "等距群/变换群",
+  "method": "Killing 场、等距群维数、Jacobi 方程",
+  "diff": 4
+ },
+ {
+  "year": "2017",
+  "kind": "Overall",
+  "paper": "2017 Geometry (Overall).pdf",
+  "n": 3,
+  "gist": "(a) 紧黎曼流形 dim Isom(X) ≤ n(n+1)/2；(b) 等号成立时列出所有可能的 M",
+  "topic": "等距群/变换群",
+  "method": "等距群维数上界、常曲率空间形式分类",
+  "diff": 5
+ },
+ {
+  "year": "2017",
+  "kind": "Team",
+  "paper": "2017 Geometry (Team).pdf",
+  "n": 1,
+  "gist": "(a) 描述环路空间 ΩS2 与道路空间 PS2；(b) 计算 ΩS2 的上同调及环结构",
+  "topic": "同伦论/映射度",
+  "method": "纤维化 ΩS2→PS2→S2 + 谱序列/Serre 定理",
+  "diff": 5
+ },
+ {
+  "year": "2017",
+  "kind": "Team",
+  "paper": "2017 Geometry (Team).pdf",
+  "n": 2,
+  "gist": "Synge 定理：偶维紧正曲率流形 (a) 可定向时单连通；(b) 不可定向时 π1(M) 是什么",
+  "topic": "比较定理",
+  "method": "Synge 定理、Z2 覆叠、定向双覆盖",
+  "diff": 4
+ },
+ {
+  "year": "2017",
+  "kind": "Team",
+  "paper": "2017 Geometry (Team).pdf",
+  "n": 3,
+  "gist": "Crofton 公式：L(C)=¼∫_{S2} n(C∩W⊥)dW，并给出证明梗概",
+  "topic": "积分几何/等周",
+  "method": "Crofton 公式、运动学测度",
+  "diff": 5
+ },
+ {
+  "year": "2017",
+  "kind": "Team",
+  "paper": "2017 Geometry (Team).pdf",
+  "n": 4,
+  "gist": "Ω=x dy∧dz+y dz∧dx+z dx∧dy，D={x2+y2+z2=1, z≥α√(x2+y2)}：(a) 证明 Ω|_D 是定向形式；(b) 计算 ∫_D Ω",
+  "topic": "微分形式/Stokes",
+  "method": "Stokes 定理、球冠面积参数化",
+  "diff": 3
+ },
+ {
+  "year": "2018",
+  "kind": "Individual",
+  "paper": "2018 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "亏格 3 曲面是否为亏格 2 曲面的覆叠？反之呢？若是请给出例子",
+  "topic": "基本群/覆叠空间",
+  "method": "Euler 示性数乘性、自由群指标子群存在性",
+  "diff": 4
+ },
+ {
+  "year": "2018",
+  "kind": "Individual",
+  "paper": "2018 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "f:S^{2n−1}→Sn（n≥2），ν 为体积形式：(a) f*ν 恰当；(b) ∫α∧f*ν 与 α 选取无关；(c) 它是同伦不变量；(d) n 为奇数时为 0；(e) Hopf 映射时求值",
+  "topic": "同伦论/映射度",
+  "method": "Hopf 不变量、de Rham 上同调、同伦不变性",
+  "diff": 5
+ },
+ {
+  "year": "2018",
+  "kind": "Individual",
+  "paper": "2018 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "(Hilbert) R3 中不存在高斯曲率为负常数的完备正则曲面",
+  "topic": "曲面整体性质",
+  "method": "Hilbert 定理（负常曲率完备曲面不存在）",
+  "diff": 5
+ },
+ {
+  "year": "2018",
+  "kind": "Individual",
+  "paper": "2018 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "(a) S2×S2 与 CP2#CP̄2 上同调群相同但环不同；(b) (S2×S2)#CP̄2 与 CP2#2CP̄2 上同调相同",
+  "topic": "上同调/示性类",
+  "method": "上同调环、连通和的交形式",
+  "diff": 4
+ },
+ {
+  "year": "2018",
+  "kind": "Overall",
+  "paper": "2018 Geometry (Overall).pdf",
+  "n": 1,
+  "gist": "CP3 中光滑 2 次超曲面 S：(a) 计算欧拉数；(b) f=z0z3−z1z2 时识别 S 为熟知的 4 维流形",
+  "topic": "复几何/代数几何",
+  "method": "超曲面欧拉数、S2×S2 的双线性方程实现",
+  "diff": 4
+ },
+ {
+  "year": "2018",
+  "kind": "Overall",
+  "paper": "2018 Geometry (Overall).pdf",
+  "n": 2,
+  "gist": "R3 中正曲率非紧曲面必有无限面积",
+  "topic": "曲面整体性质",
+  "method": "Gauss 映射像面积/Weil 公式、凸性论证",
+  "diff": 4
+ },
+ {
+  "year": "2018",
+  "kind": "Overall",
+  "paper": "2018 Geometry (Overall).pdf",
+  "n": 3,
+  "gist": "负截面曲率的紧流形，其基本群具有指数增长",
+  "topic": "比较定理",
+  "method": "负曲率测地线的指数发散、Milnor 定理",
+  "diff": 5
+ },
+ {
+  "year": "2018",
+  "kind": "Team",
+  "paper": "2018 Geometry (Team).pdf",
+  "n": 1,
+  "gist": "闭单连通 3-流形同伦等价于 S3",
+  "topic": "低维拓扑/纽结",
+  "method": "Poincaré 猜想（同伦球）与 Whitehead 定理",
+  "diff": 5
+ },
+ {
+  "year": "2018",
+  "kind": "Team",
+  "paper": "2018 Geometry (Team).pdf",
+  "n": 2,
+  "gist": "辛形式 ω：(a) M 可定向；(b) 闭流形上不存在 Liouville 向量场",
+  "topic": "辛几何",
+  "method": "辛形式非退化给出体积形式；L_V ω=ω 与 Stokes",
+  "diff": 3
+ },
+ {
+  "year": "2018",
+  "kind": "Team",
+  "paper": "2018 Geometry (Team).pdf",
+  "n": 3,
+  "gist": "不存在以 1 与 π 为周期的非常值连续函数",
+  "topic": "周期性/拓扑",
+  "method": "周期集合是离散子群",
+  "diff": 2
+ },
+ {
+  "year": "2018",
+  "kind": "Team",
+  "paper": "2018 Geometry (Team).pdf",
+  "n": 4,
+  "gist": "负截面曲率的紧流形，其等距群有限",
+  "topic": "等距群/变换群",
+  "method": "负曲率下等距群离散且紧 ⇒ 有限",
+  "diff": 4
+ },
+ {
+  "year": "2018",
+  "kind": "Team",
+  "paper": "2018 Geometry (Team).pdf",
+  "n": 5,
+  "gist": "(E. Cartan) 紧 Lie 群 K 等距作用于单连通完备负曲率流形 M，则 K 有公共不动点",
+  "topic": "等距群/变换群",
+  "method": "Cartan 不动点定理、凸性/Busemann 函数",
+  "diff": 5
+ },
+ {
+  "year": "2019",
+  "kind": "Individual",
+  "paper": "2019 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "M={(x_i,y_i): Σx_i2=1, Σx_iy_i=0}⊂R^{2n}：(a) 证明 M 是光滑流形、是 S^{n−1} 上向量丛并求 Euler 类；(b) 证明 M 是辛流形",
+  "topic": "向量丛/示性类",
+  "method": "切丛 TS^{n−1} 的 Euler 类、余切丛的辛结构",
+  "diff": 4
+ },
+ {
+  "year": "2019",
+  "kind": "Individual",
+  "paper": "2019 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "|∇f|<1、f(0)=0，M 为 f 的图像，证明 g=−x_{n+1}2+Σx_i2 在 M 上固有",
+  "topic": "微分拓扑",
+  "method": "固有映射、水平集紧性估计",
+  "diff": 3
+ },
+ {
+  "year": "2019",
+  "kind": "Individual",
+  "paper": "2019 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "紧 Riemann 面 X,Y，若 χ(X)>χ(Y)，则不存在非常值全纯映射 X→Y",
+  "topic": "复几何/代数几何",
+  "method": "Riemann-Hurwitz、全纯映射的次数",
+  "diff": 3
+ },
+ {
+  "year": "2019",
+  "kind": "Individual",
+  "paper": "2019 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "R3 中有限面积且负曲率的完备曲面至少有 4 个端",
+  "topic": "曲面整体性质",
+  "method": "Cohn-Vossen 定理、端与全曲率",
+  "diff": 5
+ },
+ {
+  "year": "2019",
+  "kind": "Overall",
+  "paper": "2019Geometry (Overall).pdf",
+  "n": 1,
+  "gist": "紧环面 Tn 不能有负截面曲率度量",
+  "topic": "比较定理",
+  "method": "Cartan-Hadamard（负曲率 ⇒ Rn 覆叠，与 π1=Zn 矛盾）",
+  "diff": 3
+ },
+ {
+  "year": "2019",
+  "kind": "Overall",
+  "paper": "2019Geometry (Overall).pdf",
+  "n": 2,
+  "gist": "M 为 R^{n+p} 中 n 维闭子流形，证明 ∫_M Hn dV ≥ vol(Sn)",
+  "topic": "极小曲面/子流形",
+  "method": "平均曲率积分下界（Willmore 型）",
+  "diff": 5
+ },
+ {
+  "year": "2019",
+  "kind": "Overall",
+  "paper": "2019Geometry (Overall).pdf",
+  "n": 3,
+  "gist": "计算单位 2-球面上长度 4π 闭测地线的指标",
+  "topic": "测地线与变分",
+  "method": "测地线指标（Jacobi 场计数）",
+  "diff": 4
+ },
+ {
+  "year": "2019",
+  "kind": "Team",
+  "paper": "2019Geometry (Team).pdf",
+  "n": 1,
+  "gist": "R3 中曲面 M，若每点附近有两族交角为常数的测地线，则 M 的高斯曲率为 0",
+  "topic": "曲面整体性质",
+  "method": "测地网、Codazzi 方程、K 恒为 0",
+  "diff": 5
+ },
+ {
+  "year": "2019",
+  "kind": "Team",
+  "paper": "2019Geometry (Team).pdf",
+  "n": 2,
+  "gist": "Sn 中两个闭极小超曲面必相交",
+  "topic": "极小曲面/子流形",
+  "method": "极小曲面唯一延拓/极大值原理",
+  "diff": 4
+ },
+ {
+  "year": "2019",
+  "kind": "Team",
+  "paper": "2019Geometry (Team).pdf",
+  "n": 3,
+  "gist": "R^{n+1} 中紧闭超曲面，若常平均曲率且 Ricci 非负，则为 n 球面",
+  "topic": "极小曲面/子流形",
+  "method": "Alexandrov 型刚性/Hopf 引理",
+  "diff": 5
+ },
+ {
+  "year": "2019",
+  "kind": "Team",
+  "paper": "2019Geometry (Team).pdf",
+  "n": 4,
+  "gist": "紧连通流形上紧 Lie 群 K 有效作用，实辛形式 ω 满足 df=i_X ω，证明 max f−min f 与 ω 取定同一上同调类时无关",
+  "topic": "辛几何",
+  "method": "动量映射、辛形式的上同调不变性",
+  "diff": 5
+ },
+ {
+  "year": "2020",
+  "kind": "Individual",
+  "paper": "2020 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "极小图方程 div(∇u/√(1+|∇u|2))=0：证明 Vol(B_r∩graph u) ≤ (Vol(Sn)/2) r^n",
+  "topic": "极小曲面/子流形",
+  "method": "极小图的体积单调性公式",
+  "diff": 5
+ },
+ {
+  "year": "2020",
+  "kind": "Individual",
+  "paper": "2020 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "R3 中任意闭嵌入曲面 ∫_Σ H2 ≥ 16π，等号何时成立",
+  "topic": "极小曲面/子流形",
+  "method": "Willmore 猜想（Willmore 能量 ≥16π）",
+  "diff": 5
+ },
+ {
+  "year": "2020",
+  "kind": "Individual",
+  "paper": "2020 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "同痕：(a) I 上保序同胚同痕于恒等；(b) S1 上同胚同痕于恒等或反射",
+  "topic": "低维拓扑/纽结",
+  "method": "同痕（isotopy）分类、Alexander 技巧",
+  "diff": 3
+ },
+ {
+  "year": "2020",
+  "kind": "Overall",
+  "paper": "2020 Geometry (Overall).pdf",
+  "n": 1,
+  "gist": "平均曲率流：n=2 时 grim reaper（y=−log cos x）是平移孤子 T=(0,1)；M=Γ×Rk 是 R^{k+2} 中的平移孤子",
+  "topic": "极小曲面/子流形",
+  "method": "平均曲率流、平移孤子（translating soliton）",
+  "diff": 5
+ },
+ {
+  "year": "2020",
+  "kind": "Overall",
+  "paper": "2020 Geometry (Overall).pdf",
+  "n": 2,
+  "gist": "紧可定向正 Ricci 曲率流形：(a) b1=0；(b) Ric ≥ (n−1)λ 推出 λ1 ≥ nλ",
+  "topic": "Laplace 特征值/谱几何",
+  "method": "Bochner 技巧、Lichnerowicz 特征值估计",
+  "diff": 5
+ },
+ {
+  "year": "2020",
+  "kind": "Overall",
+  "paper": "2020 Geometry (Overall).pdf",
+  "n": 3,
+  "gist": "同痕：(1) D2 上保定向同胚同痕于边界上为恒等的同胚；(2) D2 上同胚同痕于恒等或反射",
+  "topic": "低维拓扑/纽结",
+  "method": "同痕分类、圆盘上的 Alexander 技巧",
+  "diff": 4
+ },
+ {
+  "year": "2021",
+  "kind": "Individual",
+  "paper": "2021 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "M={(x,[y])∈Rn×RP^{n−1}: x_i y_j=x_j y_i}，π:M→Rn 是否为淹没？",
+  "topic": "微分拓扑",
+  "method": "子流形/淹没判据、RP^{n−1} 上 tautological 丛",
+  "diff": 3
+ },
+ {
+  "year": "2021",
+  "kind": "Individual",
+  "paper": "2021 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "证明对所有 n 有 H̃_n(SX) 同构于 H̃_{n−1}(X)（SX 为悬挂）",
+  "topic": "上同调/示性类",
+  "method": "悬挂与约化同调的移位同构（Mayer-Vietoris）",
+  "diff": 3
+ },
+ {
+  "year": "2021",
+  "kind": "Individual",
+  "paper": "2021 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "紧可定向非负 Ricci 流形：(a) b1≤dim M；(b) 等号即平坦环面；(c) 正 Ricci 推出 b1=0",
+  "topic": "Laplace 特征值/谱几何",
+  "method": "Bochner 公式、调和 1-形式、Cheeger-Gromoll 分裂定理",
+  "diff": 5
+ },
+ {
+  "year": "2021",
+  "kind": "Individual",
+  "paper": "2021 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "证明截面曲率 K(Π)=lim_{r→0+}(12πr2−A_r)/(πr4)",
+  "topic": "黎曼曲率与比较定理",
+  "method": "指数映射的 Jacobi 场展开、面积第二变分",
+  "diff": 4
+ },
+ {
+  "year": "2021",
+  "kind": "Overall",
+  "paper": "2021 Geometry (Overall).pdf",
+  "n": 1,
+  "gist": "Σ 为 R3 中正则曲面，Σ̂={p+f(p)ν(p)}：若 id+fh 处处可逆则 Σ̂ 也是正则曲面",
+  "topic": "曲面整体性质",
+  "method": "平行曲面、Weingarten 映射",
+  "diff": 4
+ },
+ {
+  "year": "2021",
+  "kind": "Overall",
+  "paper": "2021 Geometry (Overall).pdf",
+  "n": 2,
+  "gist": "M 为带边紧流形，沿边界粘合得 M̂：用 Mayer-Vietoris 给出 χ(M̂)、χ(∂M)、χ(M) 的关系",
+  "topic": "上同调/示性类",
+  "method": "Mayer-Vietoris 序列与 Euler 示性数加性",
+  "diff": 3
+ },
+ {
+  "year": "2022",
+  "kind": "Individual",
+  "paper": "2022 Geometry (Individual&Overall).pdf",
+  "n": 1,
+  "gist": "(a) 定义 f:M→Sn 的度；(b) 对任意 k∈N 构造度为 k 的映射",
+  "topic": "同伦论/映射度",
+  "method": "映射度、坍缩/楔和构造",
+  "diff": 3
+ },
+ {
+  "year": "2022",
+  "kind": "Individual",
+  "paper": "2022 Geometry (Individual&Overall).pdf",
+  "n": 2,
+  "gist": "在 CP2#CP2 上构造非负截面曲率度量",
+  "topic": "黎曼曲率与比较定理",
+  "method": "Cheeger 形变、非负曲率连通和（Cheeger/Gromoll-Wolf）",
+  "diff": 5
+ },
+ {
+  "year": "2022",
+  "kind": "Individual",
+  "paper": "2022 Geometry (Individual&Overall).pdf",
+  "n": 3,
+  "gist": "S^{n+1} 中闭嵌入极小超曲面 Mn 的第一特征值 λ1(Mn) ≥ n/2",
+  "topic": "Laplace 特征值/谱几何",
+  "method": "极小超曲面的第一特征值下界（Simons/Reilly）",
+  "diff": 5
+ },
+ {
+  "year": "2022",
+  "kind": "Overall",
+  "paper": "2022 Geometry (Individual&Overall).pdf",
+  "n": 1,
+  "gist": "证明乘积 S2×S3 的切丛平凡",
+  "topic": "向量丛/示性类",
+  "method": "切丛平凡性、平行化（S3 平行化 + S2 稳定平凡）",
+  "diff": 4
+ },
+ {
+  "year": "2022",
+  "kind": "Overall",
+  "paper": "2022 Geometry (Individual&Overall).pdf",
+  "n": 2,
+  "gist": "闭、可定向、连通偶维正截面曲率流形必单连通",
+  "topic": "比较定理",
+  "method": "Synge 定理",
+  "diff": 4
+ },
+ {
+  "year": "2023",
+  "kind": "Individual",
+  "paper": "2023 Geometry (Individual).pdf",
+  "n": 1,
+  "gist": "证明 S2×S1 是 RP3#RP3 的二重覆叠",
+  "topic": "低维拓扑/纽结",
+  "method": "连通和、二重覆叠与对径映射",
+  "diff": 3
+ },
+ {
+  "year": "2023",
+  "kind": "Individual",
+  "paper": "2023 Geometry (Individual).pdf",
+  "n": 2,
+  "gist": "Heisenberg 型幂零矩阵群 G，证明 exp:Lie(G)→G 是微分同胚，并给出推广与理由",
+  "topic": "李群与齐性空间",
+  "method": "单连通幂零 Lie 群上指数映射是微分同胚",
+  "diff": 4
+ },
+ {
+  "year": "2023",
+  "kind": "Individual",
+  "paper": "2023 Geometry (Individual).pdf",
+  "n": 3,
+  "gist": "R4 中超曲面 H={x2+2y2+3z2+4w2=1}：是否存在 3 维线性子空间与 H 交成圆？",
+  "topic": "黎曼曲率与比较定理",
+  "method": "椭球的平面截线为圆的条件（共形/主轴）",
+  "diff": 4
+ },
+ {
+  "year": "2023",
+  "kind": "Individual",
+  "paper": "2023 Geometry (Individual).pdf",
+  "n": 4,
+  "gist": "闭曲面 (M,ds2)：λ1(M)·Vol(M) ≤ 2V_c(n,M)（n-共形体积），等号推出 M 是 Sn 的极小子流形且浸入由第一特征空间给出",
+  "topic": "Laplace 特征值/谱几何",
+  "method": "共形体积（Li-Yau 型）特征值上界、第一特征函数坐标映射",
+  "diff": 5
+ },
+ {
+  "year": "2023",
+  "kind": "Overall",
+  "paper": "2023 Geometry (Overall).pdf",
+  "n": 1,
+  "gist": "求 S2 上所有满足 Δω+ω=0 的光滑 1-形式 ω",
+  "topic": "Laplace 特征值/谱几何",
+  "method": "Hodge-Laplace 算子特征形式、球面 Hodge 分解",
+  "diff": 5
+ },
+ {
+  "year": "2023",
+  "kind": "Overall",
+  "paper": "2023 Geometry (Overall).pdf",
+  "n": 2,
+  "gist": "R^{n+1} 中紧无边等距浸入流形 Mn：λ1(Mn) ≤ (n/Vol)∫_M H2 dμ，等号即圆球面",
+  "topic": "Laplace 特征值/谱几何",
+  "method": "Reilly/Simons 不等式、平均曲率与第一特征值",
+  "diff": 5
+ },
+ {
+  "year": "2023",
+  "kind": "Team",
+  "paper": "2023 Geometry2023-团体赛.pdf",
+  "n": 1,
+  "gist": "不存在紧 5 维带边流形 W 使 ∂W=CP2",
+  "topic": "上同调/示性类",
+  "method": "配边障碍（Pontryagin/签名/Stokes 论证）",
+  "diff": 5
+ },
+ {
+  "year": "2023",
+  "kind": "Team",
+  "paper": "2023 Geometry2023-团体赛.pdf",
+  "n": 2,
+  "gist": "Lorentz 度量 (r−1)du2+dr2/(1−r)+r2dθ2 能否光滑延拓到 r=0 与 r=1",
+  "topic": "曲面整体性质",
+  "method": "度量的坐标奇异性/延拓分析（Lorentz 锥）",
+  "diff": 4
+ },
+ {
+  "year": "2023",
+  "kind": "Team",
+  "paper": "2023 Geometry2023-团体赛.pdf",
+  "n": 3,
+  "gist": "R^{n+p} 中 n 维闭子流形：∫_M Hn dμ ≥ Vol(Sn)",
+  "topic": "极小曲面/子流形",
+  "method": "平均曲率积分下界（与 2019 Overall Q2 同题）",
+  "diff": 5
+ },
+ {
+  "year": "2024",
+  "kind": "Individual",
+  "paper": "2024 GeomTop (Individual).pdf",
+  "n": 1,
+  "gist": "K⊂S3 为光滑嵌入圆周（纽结），计算补集 S3\\K 的所有整同调群",
+  "topic": "低维拓扑/纽结",
+  "method": "Alexander 对偶、纽结补集 H1=Z",
+  "diff": 4
+ },
+ {
+  "year": "2024",
+  "kind": "Individual",
+  "paper": "2024 GeomTop (Individual).pdf",
+  "n": 2,
+  "gist": "(1) S2 上高度函数 z 的临界点非退化且个数等于 H*(S2,R) 的总秩；(2) Hopf 纤维化拉回函数 π*f 的临界点、退化性与扰动",
+  "topic": "Morse理论",
+  "method": "Morse 理论、临界点非退化、Hopf 纤维化",
+  "diff": 4
+ },
+ {
+  "year": "2024",
+  "kind": "Individual",
+  "paper": "2024 GeomTop (Individual).pdf",
+  "n": 3,
+  "gist": "锥面 H={Σ_{i≤k}x_i2 = c Σ_{i>k}x_i2}∩Sn：(1) 是光滑子流形；(2) 对哪些 c 是极小的",
+  "topic": "极小曲面/子流形",
+  "method": "Clifford 环面/极小积子流形（极小方程定 c）",
+  "diff": 5
+ },
+ {
+  "year": "2024",
+  "kind": "Individual",
+  "paper": "2024 GeomTop (Individual).pdf",
+  "n": 4,
+  "gist": "度量 f(u)dφ2+f(u)^{−1}du2（f=(1+a2)(1−u2)/(1+a2u2)）：(1) 可光滑延拓到 S2；(2) 对哪些 a 可作为 R3 中闭曲面的诱导度量",
+  "topic": "曲面整体性质",
+  "method": "旋转对称度量、嵌入性（刚性/球面情形）",
+  "diff": 5
+ },
+ {
+  "year": "2024",
+  "kind": "Overall",
+  "paper": "2024 GeomTop (Overall).pdf",
+  "n": 1,
+  "gist": "辛形式与 Hamilton 向量场 V_H：(1) R2 面积形式非退化，H=x2+y2 时求 V_H 与流；(2) 证明 V_H·H=0 一般成立；(3) ω 闭时流保持 ω",
+  "topic": "辛几何",
+  "method": "Hamilton 向量场、Lie 导数、Cartan 公式",
+  "diff": 4
+ },
+ {
+  "year": "2024",
+  "kind": "Overall",
+  "paper": "2024 GeomTop (Overall).pdf",
+  "n": 2,
+  "gist": "证明任意紧奇维正截面曲率黎曼流形可定向",
+  "topic": "比较定理",
+  "method": "Synge 定理（奇维情形）",
+  "diff": 3
+ },
+ {
+  "year": "2024",
+  "kind": "Team",
+  "paper": "2024 GeomTop (Team).pdf",
+  "n": 1,
+  "gist": "(1) 定义映射度；(2) CPm→CPm 的度必为 k^m；(3) 对任意 k>0 存在度为 k^m 的映射",
+  "topic": "同伦论/映射度",
+  "method": "上同调环生成元 H^m 的拉回",
+  "diff": 4
+ },
+ {
+  "year": "2024",
+  "kind": "Team",
+  "paper": "2024 GeomTop (Team).pdf",
+  "n": 2,
+  "gist": "CP2→Hermite 矩阵的 U(3)-等变嵌入 z z*，并证明是等距嵌入（Fubini-Study 度量 vs 平坦度量）",
+  "topic": "复几何/代数几何",
+  "method": "Fubini-Study 度量、Veronese 型等距嵌入",
+  "diff": 5
+ },
+ {
+  "year": "2024",
+  "kind": "Team",
+  "paper": "2024 GeomTop (Team).pdf",
+  "n": 3,
+  "gist": "S2 上 ∇ω 与 g 成比例的光滑 1-形式：(1) 求出所有 ω；(2) 其对偶生成的微分同胚是什么",
+  "topic": "黎曼曲率与比较定理",
+  "method": "Codazzi 张量、Hodge 分解、Killing 场（旋转）",
+  "diff": 5
+ },
+ {
+  "year": "2025",
+  "kind": "Individual",
+  "paper": "2025 GeomTop (Individual).pdf",
+  "n": 1,
+  "gist": "T*Sn：(1) 是 C^{n+1} 的复子流形；(2) 其标准辛结构是否辛同胚于 C^{n+1} 的辛子流形",
+  "topic": "辛几何",
+  "method": "余切丛的复结构/辛结构、Stein 流形",
+  "diff": 5
+ },
+ {
+  "year": "2025",
+  "kind": "Individual",
+  "paper": "2025 GeomTop (Individual).pdf",
+  "n": 2,
+  "gist": "(C×)2 上 Ω=dz1∧dz2/(z1z2) 延拓到 CP2：(1) 极点除子；(2) 圆盘映射像的边界落在 |z1|=|z2|=1 的环面上；(3) 理解 u*Ω 及其极点个数",
+  "topic": "复几何/代数几何",
+  "method": "亚纯 2-形式、极点除子、Blow-up 与留数",
+  "diff": 5
+ },
+ {
+  "year": "2025",
+  "kind": "Individual",
+  "paper": "2025 GeomTop (Individual).pdf",
+  "n": 3,
+  "gist": "Rn 中完备极小曲面 Σ：(1) 坐标函数调和；(2) 证明 Σ 不闭",
+  "topic": "极小曲面/子流形",
+  "method": "极小图的调和坐标、极大值原理",
+  "diff": 3
+ },
+ {
+  "year": "2025",
+  "kind": "Individual",
+  "paper": "2025 GeomTop (Individual).pdf",
+  "n": 4,
+  "gist": "Einstein 张量 G=Ric−(scal/2)g：(1) div G=0；(2) dim 2 时 G=0；dim>2 时 G=0 当且仅当 Ricci 平坦",
+  "topic": "黎曼曲率与比较定理",
+  "method": "Bianchi 恒等式、Einstein 张量的迹与维数分析",
+  "diff": 4
+ },
+ {
+  "year": "2025",
+  "kind": "Overall",
+  "paper": "2025 GeomTop (Overall).pdf",
+  "n": 1,
+  "gist": "(1) TSn 直和 R 是 Sn 上平凡丛；(2) n=2m 偶时 TS^{2m} 非平凡",
+  "topic": "向量丛/示性类",
+  "method": "Euler 类、Whitney 和与稳定平凡性",
+  "diff": 4
+ },
+ {
+  "year": "2025",
+  "kind": "Overall",
+  "paper": "2025 GeomTop (Overall).pdf",
+  "n": 2,
+  "gist": "Hopf 不变量 H(f)=∫_{S3}α∧dα：(1) 与 α 选取无关；(2) 同伦不变",
+  "topic": "同伦论/映射度",
+  "method": "Hopf 不变量、de Rham 上同调",
+  "diff": 4
+ },
+ {
+  "year": "2025",
+  "kind": "Team",
+  "paper": "2025 GeomTop (Team).pdf",
+  "n": 1,
+  "gist": "证明 Ω=(x dy∧dz+y dz∧dx+z dx∧dy)/(x2+y2+z2)^{3/2} 在 R3\\{0} 上不恰当",
+  "topic": "微分形式/Stokes",
+  "method": "闭而不恰当形式、S2 的生成上同调类",
+  "diff": 3
+ },
+ {
+  "year": "2025",
+  "kind": "Team",
+  "paper": "2025 GeomTop (Team).pdf",
+  "n": 2,
+  "gist": "浸入 ι:Ln→M^{2n} 自交横截：(1) 自交为有限点集；(2) L×_ιL 的连通分支；(3) 扭欧拉示性数等于 2χ(Γ)",
+  "topic": "微分拓扑",
+  "method": "横截性、纤维积、Euler 示性数（相交图）",
+  "diff": 4
+ },
+ {
+  "year": "2025",
+  "kind": "Team",
+  "paper": "2025 GeomTop (Team).pdf",
+  "n": 3,
+  "gist": "带联络的向量丛 E：(1) 成链复形的条件；(2) 任意联络 ∇̃=∇+A；(3) 形变复形的条件与闭性；(4) H1(Ω•(X,End E),∇) 的几何意义",
+  "topic": "联络与曲率形式",
+  "method": "曲率平方为零、联络空间是仿射空间、形变/模空间",
+  "diff": 5
+ }
+]

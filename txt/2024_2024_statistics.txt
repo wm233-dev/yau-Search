@@ -1,0 +1,108 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Probability and Statistics
+1. There are r players, with player i initially having ni units, ni > 0, i =
+1, . . . , r. At each stage, two of the players are chosen to play a game, with
+the winner of the game receiving 1 unit from the loser. Any player whose
+fortune drops to 0 is eliminated, and this continues until a single player
+has all n = Pr
+i=1 ni units, with that player designated as the winner. Note
+that the mechanism to choose two players at each stage is unknown. It can
+be either deterministic or random. Assume that the results of successive
+games are independent and that each game is equally likely to be won by
+either of its two players.
+For any set of players S ⊆{1, . . . , r}, let X(S) denote the number of
+games involving only members of S. Does E(X(S)) depend on the player
+selection mechanism? If you think it doesn’t depend, calculate the expec-
+tation. If you think it depends, give two mechanisms leading to diﬀerent
+expectations.
+2. Let X1, X2, . . . be independent Bernoulli random variables satisfying P(Xi =
+1) = p and P(Xi = −1) = q = 1 −p for some p ∈(0, 1). Let Sn =
+X1 + . . . + Xn and M = supn≥1(Sn/n).
+(a) Calculate P(M = 0).
+(b) Show that P(p −q < M ≤1) = 1. For any rational number x ∈
+(p −q, 1], is P(M = x) > 0? If so, prove it. If not, ﬁnd a point with
+zero probability.
+3. Let X have a uniform distribution on the interval [0,1] and let Nm,k be
+the digit in the mth place to the right of the decimal point in Xk.
+(a) Find limm→∞P(Nm,m = i) for i = 0, 1, 2, . . . , 9.
+(b) Let k(m) be a function of m, taking values greater than 1. Find a nec-
+essary and suﬃcient condition on k(m) such that limm→∞P(Nm,k(m) =
+i) =
+1
+10 for i = 0, 1, 2, . . . , 9.
+4. Assume we have n observations: (Yi, xi), i = 1, . . . , n, where Yi is the
+random response and xi = (xi1, · · · , xip)T is a vector of p ﬁxed covariates
+for the ith observation. Denote β = (β1, · · · , βp) be a unknown p-length
+vector of regression coeﬃcients. Let θi = Pp
+j=1 xijβj, µi = E(Yi) and σ2
+i =
+V ar(Yi). Assume the density of Yi belongs to the following exponential
+family:
+f(yi; θi) = exp{θiyi −b(θi)},
+(1)
+where b′(θi) = µi, b
+′′(θi) = σ2
+i . Suppose that all θi’s are contained in a
+compact subset of a space Θ. Let ℓn(β) be the log-likelihood function of
+the data, and let Hn(β) = −∂2ℓn(β)
+∂β∂βT .
+1
+
+=== page 2 ===
+Let X be the set of all p covariates under consideration. Let α0 ⊂X be
+the subset that contains and only contains all the important covariates
+aﬀecting Y (the corresponding βj’s are nonzero). Let α be any subset of
+X, and let β(α) be the vector of the components in β that correspond to
+the covariates in α. Let A = {α : α0 ⊂α} be the collection of models that
+including all important covariates. We assume:
+(I) There exist positive constants C1, C2 such that for all suﬃciently
+large n,
+C1 < λmin
+n 1
+nHn(β)
+o
+< λmax
+n 1
+nHn(β)
+o
+< C2,
+where λmin
+n
+1
+nHn(β)
+o
+and λmax
+n
+1
+nHn(β)
+o
+are the smallest and largest
+eigenvalues of 1
+nHn(β).
+(II) For any given ϵ > 0, there exists a constant δ > 0 such that, when n
+is suﬃciently large,
+(1 −ϵ)Hn(β(α)) ≤Hn( ˜β) ≤(1 + ϵ)Hn(β(α))
+for all α ∈A and ˜β satisfying ∥˜β −β(α)∥≤δ.
+For any model α, let ˆβα be the MLE of β(α) based on this model. Show
+that
+max
+α∈A ∥ˆβα −β(α)∥= Op(n−1/3).
+5. Consider a random sample of size n, and write the data as an r = rn by
+c = cn matrix, {Xij : i = 1, . . . , rn; j = 1, . . . , cn} with n = rncn. To
+specify notation, {Xij} are i.i.d. with c.d.f. F(x) and continuous density
+f(x). Let β denote the median, i.e., F(β) = 0.5. Deﬁne an estimator by
+ˆβn = min
+j
+n
+max
+i {Xij}
+o
+.
+(a) What is the condition on rn when n →∞for median-unbiasedness,
+i.e., β is also the median for the distribution of ˆβn?
+(b) We further assume F is diﬀerentiable in an open neighborhood of β
+and has a positive derivative at β. For rn in (a), show that rn(ˆβn−β)
+converges in distribution, and ﬁnd the limiting distribution function.
+2

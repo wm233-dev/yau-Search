@@ -1,0 +1,35 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Probability and Statistics
+Individual (5 problems)
+Problem 1. A random walker moves on the lattice Z2 according to the following rule:
+in the ﬁrst step it moves to one of its neighbors with probability 1/4, and then in step
+n > 1 it moves to one of the neighbors that it didn’t visit in the step n −1 with equal
+probability. Let T be the time when the random walker steps on a site that it already
+visited. Please show that the expectation of T is less than 35.
+Problem 2. Let X be a N × N random matrix with i.i.d. random entries, and
+P(X11 = 1) = P(X11 = −1) = 1/2
+Deﬁne
+∥X∥op =
+sup
+v∈CN:∥v∥2=1
+∥Xv∥2
+Please show that for any ﬁxed δ > 0,
+lim
+N→∞P(∥X∥op ≥N 1/2+δ) = 0
+Hint: ∥X∥2
+op ≤tr|X|2
+Problem 3. Suppose that 2016 balls are put into 2016 boxes with each ball indepen-
+dently being put into box i with probability
+1
+3×1008 for i ≤1008 and
+2
+3×1008 for i > 1008.
+Let T be the number of boxes containing exactly 2 balls. Please ﬁnd the variance of T.
+Problem 4. Let b > a > 0 be real numbers. Let X be a random variable taking values
+in [a, b], and let Y = 1
+X . Determine the set of all possible values of E(X) × E(Y ).
+Problem 5. Let X1, X2, . . . be independent and identically distributed real-valued
+random variables such that E(X1) = −1. Let Sn = X1 + · · · + Xn for all n ≥1, and let
+T be the total number of n ≥1 satisfying Sn ≥0. Compute P(T = ∞).

@@ -1,0 +1,83 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Applied and Computational Math
+Team (5 problems)
+1) (10 points)
+Show that the quadrature formula
+Z 1
+−1
+f(x)
+√
+1 −x2 dx = π
+n
+n−1
+X
+k=0
+f
+µ
+cosπ 2k + 1
+2n
+¶
+is exact for all polynomials
+of degree up to and including 2n −1.
+2) (15 pointes) Let x = (x0, . . . , xN−1) ∈RN, x ̸= 0 and ˆx be its discrete Fourier transform, i.e.
+ˆxw =
+1
+√
+N
+N−1
+X
+t=0
+xt exp(−2πiwt/N), w = 0, . . . , N −1.
+Prove that ∥x∥0∥ˆx∥0 ⩾N where ∥x∥0 denotes the number of nonzero entries in x. (Hint: show that ˆx
+can not have ∥x∥0 consecutive zeros.)
+3) (20 pointes)
+Let m ⩽n. Consider the (n + m) × (n + m) real matrix deﬁned by
+A =
+· I
+X
+X⊤
+O
+¸
+,
+where I is the n × n identity matrix, X is a full-rank n × m matrix, O is the m × m zero matrix.
+(i) Show that A is nonsingular.
+(ii) Find the eigenvalues of A, some of which are in terms of the singular values of X.
+(iii) Under what conditions on X would the iteration
+xn+1 = xn −(Axn −b)
+converge to the solution of Ax = b for any (n + m) × (n + m) real vector b?
+4) (25 pointes)
+Let f be a continuously diﬀerentiable convex function deﬁned on Rn, i.e., f : Rn →R is continuously
+diﬀerentiable and for any x, y ∈Rn and any α ∈(0, 1), f(αx + (1 −α)y) ≤αf(x) + (1 −α)f(y).
+Suppose that the gradient of f is Lipschitz continuous, i.e., there exists a constant L > 0 such that
+∥∇f(x) −∇f(y)∥2 ≤L∥x −y∥2.
+Prove the following inequalities:
+(i). f(y) ≤f(x) + (∇f(x))T (y −x) + L
+2 ∥y −x∥2
+2,
+∀x, y ∈Rn;
+(ii). f(y) ≥f(x) + (∇f(x))T (y −x) +
+1
+2L∥∇f(y) −∇f(x)∥2
+2,
+∀x, y ∈Rn;
+(iii).
+1
+L∥∇f(y) −∇f(x)∥2
+2 ≤(∇f(y) −∇f(x))T (y −x),
+∀x, y ∈Rn.
+5) (30 pointes) Consider the following problems.
+(i) Determine the order of St¨ormer’s method,
+yn+2 −2yn+1 + yn = h2f(tn+1, yn+1),
+n ⩾0,
+for solving the second order system of ODE’s
+y′′ = f(t, y),
+t ⩾0,
+with the initial conditions y(0) = y0 and y′(0) = y′
+0.
+(ii) Using the second order central diﬀerences in space and St¨ormer’s method in time, construct a
+scheme to solve the wave equation,
+utt = uxx.
+(iii) Determine the condition for its stability.
+1

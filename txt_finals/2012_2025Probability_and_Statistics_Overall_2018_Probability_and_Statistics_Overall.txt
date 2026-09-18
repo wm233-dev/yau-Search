@@ -1,0 +1,27 @@
+
+=== page 1 ===
+3
+Yau Mathematical Competition 2018
+Probability and Statistics Overall
+Problem 1 (Probability) Let X be a real valued random variable such that
+Ef(X +1) = E(X f(X))
+for all smooth function f with compact support.
+(1) Show that X has a rapidly vanishing positive tail probability, i.e.,
+P{X > N} ≤1
+N!.
+(2) Use (1) or otherwise to show that X has the standard Poisson distribution P(1).
+Problem 2 (Statistics) Let X1,··· ,Xm be a random sample from a N(µ1,σ2
+1) distribution and let
+Y1,··· ,Yn be another random sample from N(µ2,σ2
+2). Further, assume that
+(a) X1,··· ,Xm and Y1,··· ,Yn are independent;
+(b) m ≥2 and n ≥2;
+(c) µ1 and µ2 are real, and σ1 and σ2 are positive.
+Finally, the parameters are all unknown.
+(1) How to test H0 : σ2
+1 ≤σ2
+2 versus H1 : σ2
+1 > σ2
+2?
+(2) If we cannot assume that the distributions for the Xi’s and Yi’s are normal, how would you test
+whether the two samples come from the same distribution?

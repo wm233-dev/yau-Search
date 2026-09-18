@@ -1,0 +1,157 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Computational and Applied Mathematics
+Solve every problem.
+1. Consider the forward and the centered ﬁnite diﬀerence formulas
+D+
+h f(x0) = f(x0 + h) −f(x0)
+h
+,
+(1)
+D0
+hf(x0) = f(x0 + h) −f(x0 −h)
+2h
+,
+(2)
+to approximate the derivative of f at a point x0. Assume f is a smooth function in a
+neighborhood of x0 containing the points x0 + h and x0 −h.
+(a) Prove that D+
+h f(x0) and D0
+hf(x0) approximate f ′(x0) to O(h) and O(h2), respec-
+tively.
+(b) Derive an O(h2) approximation to f ′(x0) from D+
+h f(x0) by doing Richardson
+extrapolation.
+(c) Take f(x) = sin x and x0 = 0.
+Prove that both D+
+h f(x0) and D0
+hf(x0) con-
+verge quadratically to f ′(x0) as h →0 and that in fact they produce the same
+approximation to f ′(x0) in this particular case.
+2. For functions deﬁned on a closed interval [0, 1], we want to compute the following
+deﬁnite integral,
+I[f] =
+Z 1
+0
+f(x) log(1/x)dx.
+Here we consider the weight function log(1/x), and denote Pn(x) as the monic orthog-
+onal polynomials for the corresponding weighted inner product.
+(a) Let P0 = 1. Find P1(x), and the corresponding node x1
+1 and weight ω1
+1 for the
+1-point Gaussian quadrature rule.
+(b) Derive a recursive formula for Pn+1(x) using Pn(x) and Pn−1(x).
+(c) Consider the normalized orthogonal polynomials Qn(x) = Pn(x)/||Pn||, where
+||Pn|| =
+p
+Pn(x)2 log(1/x)dx.
+Derive a recursive formula for Qn+1(x) using Qn(x) and Qn−1(x).
+1
+
+=== page 2 ===
+(d) Use the above recursive formula to show that x = λ is a node of the 4-point
+Gaussian quadrature if and only if it is an eigenvalue of a symmetric, tridiagonal
+matrix. Write out the form of the symmetric and tridiagonal matrix explicitly.
+3. Let A be a real n × n matrix with distinct eigenvalues such that
+|λ1| > |λ2| ≥|λ3| ≥· · · ≥|λn| ≥0,
+with corresponding eigenvectors {vj}n
+j=1.
+(a) Show that the power iteration
+zm =
+Amz0
+||Amz0||∞
+−→± v1
+||v1||∞
+,
+∀z0 ∈Rn.
+(b) Consider the following iteration with initial guess x0 = y0 = 1,
+xn+1 = xn + yn,
+yn+1 = xn+1 + xn.
+Show that yn/xn →
+√
+2 as n →∞.
+4. Consider the initial value problem
+y′ = f(t, y),
+0 < t ≤T.
+(3)
+y(0) = y0.
+(4)
+Assume f is continuous and Lipschitz in y in [0, T] × (−∞, ∞). Denote yn ≈y(tn),
+tn = nh, and h = T/N, with N a positive integer, and consider the one-step method
+yn+1 = yn + αhf(tn, yn) + βhf(tn + γh, yn + γhf(tn, yn)),
+where α, β and γ are real parameters.
+(a) Prove that the method is consistent if and only if α + β = 1, and the order of the
+method can not exceed 2.
+(b) Suppose that a second-order method of the above form is applied to f(t, y) = −λy
+with λ > 0, and the initial condition y0 = 1. Show that the sequence (yn)n≥0 is
+bounded if and only if h ≤2
+λ. Show further that for such h,
+|y(tn) −yn| ≤1
+6λ3h2tn,
+n ≥0.
+2
+
+=== page 3 ===
+5. Let u(t, x) be the solution of the initial-boundary value problem
+ut = Duxx,
+0 < x < L,
+0 < t ≤T,
+(5)
+u(0, x) = f(x)
+(6)
+u(t, 0) = u(t, L) = 0,
+(7)
+where L > 0 and D > 0. Consider the ﬁnite diﬀerence scheme
+un+1
+j
+−un
+j
+∆t
+= Dun
+j+1 −2un
+j + un
+j−1
+(∆x)2
+,
+j = 1, . . . , M −1,
+n = 0, 1, . . . , N −1
+(8)
+with un
+0 = un
+M = 0 for all n and u0
+j = f(j∆x), j = 0, . . . , M . Here ∆t = T/N and
+∆x = L/M and un
+j ≈u(n∆t, j∆x).
+(a) Prove that (8) is consistent with (5).
+(b) Prove that if ∆t ≤
+1
+2D(∆x)2 the ﬁnite diﬀerence scheme (8) is stable under the
+l∞norm.
+(c) Prove that if ∆t ≤
+1
+2D(∆x)2 the ﬁnite diﬀerence scheme (8) converges in the l∞
+norm to the exact solution of (5)-(7).
+6. Let ψε(t, x) be the solution to the following Schr¨odinger equation:
+iε∂ψε
+∂t = −ε2
+2 ∇2
+xψε + V (x)ψε,
+x = (x1, · · · , xn)T ∈Rn,
+where i = √−1, ε ≪1 is a small positive real number (rescaled Planck constant),
+∇2
+x =
+n
+X
+j=1
+∂2
+xj, and V (x) ∈C∞(Rn) is the potential function.
+Consider the WKB expansion
+ψε(t, x) = A(t, x)ei S(t,x)
+ε
+,
+(a) Derive equations for A(t, x) and S(t, x) by asymptotic expansion. (Here both
+A(t, x) and S(t, x) are real-valued functions, and do not depend on ε.)
+(b) Deﬁne u(t, x) = ∇xS(t, x) ∈Rn. Derive an equation for u(t, x). Suppose u(0, x) ∈
+C∞(Rn), will u(t, x) always be in C∞(Rn) for all t > 0? Explain why.
+3

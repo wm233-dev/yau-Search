@@ -1,0 +1,157 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Computational and Applied Mathematics
+1. Let A ∈Rn×n be a non-singular matrix. Let u, v ∈Rn be column vectors. Deﬁne the
+rank 1 perturbation bA = A + uvT.
+(a) Derive a necessary and suﬃcient condition for bA to be invertible.
+(b) Let x, z and b be column vectors in Rn. Suppose one can solve Az = b with
+O(n) ﬂoating-point operations (ﬂops). Under the conditions derived in(a), design
+an algorithm to solve bAx = b with O(n) ﬂops, and provide justiﬁcation for your
+answer.
+2. Consider the integral
+Z ∞
+0
+f(x) dx
+where f is continuous, f ′(0) ̸= 0, and f(x) decays like x−1−α with α > 0 in the limit
+x →∞.
+(a) Suppose you apply the equispaced composite trapezoid rule with n subintervals
+to approximate
+Z L
+0
+f(x) dx.
+What is the asymptotic error formula for the error in the limit n →∞with L
+ﬁxed?
+(b) Suppose you consider the quadrature from (a) to be an approximation to the full
+integral from 0 to ∞. How should L increase with n to optimize the asymptotic
+rate of total error decay? What is the rate of error decrease with this choice of
+L? 5
+(c) Make the following change of variable x = L(1 + y)
+1 −y
+, y = x −L
+x + L in the original
+integral to obtain
+Z 1
+−1
+FL(y) dy.
+Suppose you apply the equispaced composite trapezoid rule; what is the asymp-
+totic error formula for ﬁxed L?
+(d) Depending on α, which method - domain truncation or change-of-variable - is
+preferable?
+1
+
+=== page 2 ===
+3. Consider the Chebyshev polynomial of the ﬁrst kind
+Tn(x) = cos(nθ),
+x = cos(θ),
+x ∈[−1, 1].
+The Chebyshev polynomials of the second kind are deﬁned as
+Un(x) =
+1
+n + 1T ′(x),
+n ≥0.
+(a) Derive a recursive formula for computing Un(x) for all n ≥0.
+(b) Show that the Chebyshev polynomials of the second kind are orthogonal with
+respect to the inner product
+⟨f, g⟩=
+Z 1
+−1
+f(x)g(x)
+√
+1 −x2 dx
+(c) Derive the 2-point Gaussian Quadrature rule for the integral
+Z 1
+−1
+f(x)
+√
+1 −x2 dx =
+2
+X
+j=1
+wjf(xj)
+4. Consider the boundary value problem
+−d
+dx
+
+a(x)du
+dx
+
+= f(x),
+u(0) = u(1) = 0
+where a(x) > δ ≥0 is a bounded diﬀerentiable function in [0, 1]. We assume that,
+although a(x) is available, an expression for its derivative, da
+dx, is not available.
+(a) Using ﬁnite diﬀerences and an equally spaced grid in [0, 1], xl = hl, l = 0, . . . , n
+and h = 1/n, we discretize the ODE to obtain a linear system of equations, yield-
+ing an O(h2) approximation of the ODE. After the application of the boundary
+conditions, the resulting coeﬃcient matrix of the linear system is an (n−1)×(n−1)
+tridiagonal matrix.
+Provide a derivation and write down the resulting linear system (by giving the
+expressions of the elements).
+(b) Utilizing all the information provided, ﬁnd a disc in C, the smaller the better,
+that is guaranteed to contain all the eigenvalues of the linear system constructed
+in part (a).
+2
+
+=== page 3 ===
+5.
+(a) Verify that the PDE
+ut = uxxx
+is well posed as an initial value problem.
+(b) Consider solving it numerically using the scheme
+u(t + k, x) −u(t −k, x)
+2k
+= −1
+2u(x −2h, t) + u(x −h, t) −u(x + h, t) + 1
+2u(x + 2h, t)
+h
+.
+Determine this scheme’s stability condition.
+6. Consider the diﬀusion equation
+∂v
+∂t = µ∂2v
+∂x2,
+v(x, 0) = φ(x),
+Z b
+a
+v(x, t) dx = 0
+with x ∈[a, b] and periodic boundary conditions. The solution is to be approximated
+using the central diﬀerence operator L for the 1D Laplacian.
+Lvm = vm+1 −2vm + vm−1
+h2
+,
+and the following two ﬁnite diﬀerent approximations, (i) Forward-Euler
+vn+1 = vn + µkLvn,
+(1)
+and (ii) Crank-Nicolson
+vn+1 = vn + µk(Lvn + Lvn+1).
+(2)
+Throughout, consider [a, b] = [0, 2π] and the ﬁnite diﬀerence stencil to have periodic
+boundary conditions on the spatial lattice [0, h, 2h, . . . , (N −1)h] where h = 2π
+N and
+N is even.
+(a) Determine the order of accuracy of the central diﬀerence operator Lv in approxi-
+mating the second derivative vxx.
+(b) Using vn
+m =
+N−1
+X
+l=0
+ˆvn
+l exp
+
+−i2πlm
+N
+
+give the updates ˆvn+1
+l
+in terms of ˆvn
+l for each
+of the methods, including the case l = 0.
+(c) Give the solution for vn
+m for each method when the initial condition is φ(m∆x) =
+(−1)m.
+(d) What are the stability constraints on the time step k for each of the methods,
+if any, in equations (1) and (2)? Show there are either no constraints or express
+them in the form k ≤F(h, µ).
+3

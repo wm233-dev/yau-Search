@@ -1,0 +1,250 @@
+@@@ A1 | 2013_algebra2013_individual.txt
+5. (60 pt)
+5.1 (20pt) Find a polynomial f(x) with integer coeﬃcients which has a
+root over Fp for each prime p but has not root over Q.
+5.2 (20pt) Can you ﬁnd f irreducible?
+5.3 (20pt) What is the smallest possible degree of f?
+2
+
+@@@ A2 | 2015_algebra2015_individual.txt
+Problem 3. (40pt) Consider the equation f(x) := x3 + x + 1 = 0. We want to show
+in steps that
+for any prime p, if
+(
+31
+p
+)
+= −1, then x3 + x + 1 is solvable mod p.
+Let x1, x2, x3 be three roots of f(x) := x3 + x + 1 = 0. Let F = Q(x1), and L =
+Q(x1, x2, x3), and K = Q(
+√
+∆) where ∆is the discriminant of f(x):
+∆= [(x1 −x2)(x2 −x3)(x3 −x1)]2.
+(3.1) (10pt) Show that f is irreducible, that ∆= −31, and that F is not Galois over
+Q;
+(3.2) (10pt) Show that Gal(L/Q) ≃S3, the permutation group of three letters, that
+Gal(L/K) ≃Z/3Z, and that Gal(L/F) ≃Z/2Z;
+(3.3) (20pt) Let OF, OK, OL = be rings of integers of F, K, L respectively. Let p be a
+prime such that x3 + x + 1 = 0 is not soluble in Z/pZ. Show the following:
+(a) (5pt) pOF is still a prime ideal in OF,
+(b) (5pt) pOL is product of two prime ideals in OL, and
+(c) (5pt) pOK is product of two primes ideals in OK, and
+(d) (5pt) x2 + 31 = 0 is soluble in Fp.
+2
+
+=== page 3 ===
+
+@@@ A3 | 2015_algebra2015_individual.txt
+Problem 5 (20pt). Check if the following rings are UFD (unique factorization domain).
+(5.1) (5pt) R1 = Z[
+√
+6];
+(5.2) (5pt) R2 = Z[(1 + √−11)/2];
+(5.3) (5pt) R3 = C[x, y]/(x2 + y2 −1);
+(5.4) (5pt) R4 = C[x, y]/(x3 + y3 −1).
+3
+
+@@@ B1 | 2014_analysis2014_individual.txt
+5. Let f ∈L2(R) and let ˆf be its Fourier transform. Prove that
+∫∞
+−∞
+x2|f(x)|2dx
+∫∞
+−∞
+ξ2| ˆf(ξ)|2dξ ≥
+(
+∫∞
+−∞|f(x)|2dx)2
+16π2
+,
+under the condition that the two integrals on the left are bounded.
+(Hint: Operators f(x) →xf(x) and ˆf(ξ) →ξ ˆf(ξ) after Fourier
+transform are non-commuting operators. The inequality is a version of
+the uncertainty principle.)
+
+@@@ B2 | 2013_TeamProblems2013.txt
+1. Scaling behavior is one of the most important phenomena in sci-
+entiﬁc modeling and mathematical analysis.
+The following problem
+shows the universality and rigidity of scaling limits.
+(a): (10 points) Suppose U > 0 is an increasing function on [0, ∞)
+and there is a function 0 < ψ(x) < ∞for x > 0 such that
+lim
+t→∞
+U(tx)
+U(t) = ψ(x),
+for all x > 0
+Then ψ(x) = xα for some α ≥0.
+(b): (10 points) The above problem can be generalized as:
+Suppose U > 0 is an increasing function on [0, ∞) and there
+is an extended function 0 ≤ψ(x) ≤∞and a set A dense in
+[0, ∞) such that
+lim
+t→∞
+U(tx)
+U(t) = ψ(x),
+for all x ∈A
+Then ψ(x) = xα for some α ∈[0, ∞].
+(c): (15 points) (Warming: this part is hard).
+A function L : (0, ∞) →(0, ∞) is called slowly varying at ∞
+if
+lim
+t→∞
+L(tx)
+L(t) = 1,
+for all x ∈A dense in (0, ∞)
+The function U in (a) and (b) can be recast as U(x) = c xαL(x)
+for some c ≥0. Now we can extend (b) to an even more general
+setting:
+Suppose U > 0 is increasing on (0, ∞), set A dense in [0, ∞)
+and
+lim
+n→∞anU(bnx) = ψ(x) ≤∞, for all x ∈A.
+where bn →∞and an+1
+an
+→1 for some interval. Then there is a
+real number α ∈[0, ∞], constant c ≥0, and a function L slowly
+varying at ∞such that ψ(x) = xα and U(x) = c xαL(x).
+
+@@@ C1 | 2015_geometry2015_individual.txt
+5. Let M be an n-dimensional compact Riemannian manifold with diameter π/c and
+Ricci curvature ≥(n −1)c2 > 0. Show that M is isometric to the standard n-sphere
+in Rn+1 with radius 1/c.
+6. Suppose (M, g) is a Riemannian manifold and p ∈M. Show that the second-order
+Taylor series of g in normal coordinates centered at p is
+gij(x) = δij −1
+3
+∑
+k,l
+Rikljxkxl + O(|x|3).
+1
+
+@@@ C2 | 2013_TeamProblems2013.txt
+6. Let C be a regular closed curve in R3. Its torsion is τ. The integral
+1
+2π
+∫
+C τds is called the total torsion of C, where s is the arc length
+parameter. Prove: Given a smooth surface M in R3, if for any regular
+closed curve C on M, the total torsion of C is always an integer, then
+M is a part of a sphere or a plane.
+1
+
+=== page 4 ===
+S.-T. Yau College Student Mathematics Contests 2013
+Algebra and Number Theory
+Team
+The exam contains 6 problems. Please choose 5 of them to
+work on.
+1. (20pt) Let A be an n × n skew symmetric real matrix.
+1.1 (10 pt) Prove that all eigenvalues of A are imaginary or zero and that
+eA is orthogonal.
+1.2 (10 pt) Find conditions on an orthogonal B such that B = eA is solvable
+for some skew symmetric and real matrix A.
+2. (20pt) Let E/F be a ﬁeld extension. Let A be an m × m matrix with
+entries in E such that tr(An) belongs to F for every n ≥2. Show that tr(A)
+belongs to F by following steps.
+2.1 (5pt) Show that there is a polynomial P(x) = P
+i aixi ∈¯E[x] with
+a0 = 1 such that
+X
+i
+aitr(Ai+k) = 0,
+∀k ≥1.
+2.2 (5pt) Show that we have a polynomial Q = P
+i bixi ∈F[x] with b0 = 1
+such that
+X
+i
+bitr(Ai+k) = 0,
+∀k ≥2.
+2.3 (5pt) Let t ∈¯E be an eigenvalue of A with multiplicity m invertible in
+F. Show that Q(t) = 0.
+2.4 (5pt) Show that tr(A) belongs to F.
+Hint: Let ti ∈¯E be all distinct non-zero eigen values of A with multiplicity
+mi invertible in F. Then
+tr(An) =
+X
+i
+mitn
+i .
+1
+
+=== page 5 ===
+3. (20pt) Let p be a prime and G = SL2(Fp).
+3.1 (10pt) Find the order of G.
+3.2 (10pt) Show that the order of every element of G divides either (p2 −1)
+or 2p.
+4. (20pt) Let S4 be the symmetric group of 4 letters.
+4.1 (10pt) Classify all complex irreducible representations of S4;
+4.2 (10pt) Find the character table of S4.
+5. (20pt) Let F2 be the ﬁnite ﬁeld of two elements.
+5.1 (10pt ) Find all irreducible polynomials of degree 2 and 3 over F2;
+5.2 (10pt) What is the number of irreducible polynomials of degree 6 over
+F2?
+6. (20pt) Let F be the splitting ﬁeld of x4 −2.
+6.1 (10pt) Describe the ﬁeld F and the Galois group G = Gal(F/Q).
+6.2 (10pt) Describe all subﬁelds K of F and corresponding Galois sub-
+groups GK = Gal(F/K).
+2
+
+=== page 6 ===
+S.-T. Yau College Student Mathematics Contests 2013
+Applied Math. and Computational Math.
+Team
+Please solve as many problems as you can!
+1. Scaling behavior is one of the most important phenomena in sci-
+entiﬁc modeling and mathematical analysis.
+The following problem
+shows the universality and rigidity of scaling limits.
+(a): (10 points) Suppose U > 0 is an increasing function on [0, ∞)
+and there is a functi
+
+@@@ D1 | 2015_team_probability2015.txt
+Problem 1. One hundred passengers board a plane with exactly 100 seats. The ﬁrst
+passenger takes a seat at random. The second passenger takes his own seat if it is
+available, otherwise he takes at random a seat among the available ones. The third
+passenger takes his own seat if it is available, otherwise he takes at random a seat
+among the available ones.
+This process continues until all the 100 passengers have
+boarded the plane. What is the probability that the last passenger takes his own seat?
+
+@@@ E1 | 2014_algebra2014_team.txt
+<<NOT FOUND: Problem 6\. Let c be a non-zero in 2014_algebra2014_team.txt>>
+
+@@@ E2 | 2015_team_applied2015.txt
+Problem 1. Consider the elliptic interface problem
+(a(x)ux)x = f, x ∈(0, 1)
+with the Dirichlet boundary condition
+u(0) = u(1) = 0.
+Here, f is a smooth function, the elliptic coeﬃcient a(x) is discontinuous across an
+interface point ξ, that is,
+a(x) =
+{
+a0
+for 0 < x < ξ
+a1
+for ξ < x < 1,
+a0, a1 > 0 are positive constants, and 0 < ξ < 1 is an interface point. Across the
+interface, we need to impose two jump conditions
+u(ξ−) = u(ξ+), a(ξ−)ux(ξ−) = a(ξ+)ux(ξ+).
+Question:
+1. (25%) Design a numerical method to solve this problem. The method should
+be at least ﬁrst order. It is better to be high order (if your method is ﬁrst order,
+you get 20% points).
+2. (75%) Prove your accuracy and convergence arguments (if your method is ﬁrst
+order, you get 60% points).
+
+@@@ E3 | 2013_probability2013_individual.txt
+Problem 5. Let X1, X2 be iid uniform on θ −1
+2 to θ + 1
+2.
+(a) Show that for any given 0 < α < 1, you can ﬁnd c > 0 such that
+Pθ{ ¯X −c < θ < ¯X + c} = 1 −α,
+where ¯X is the sample mean.
+(b) Show that for ϵ positive and suﬃciently small
+Pθ{ ¯X −c < θ < ¯X + c
+ |X2 −X1| ≥1 −ϵ} = 1
+(c) The statement in (a) is used to assert that ¯X ±c is a 100(1−α)% conﬁdence interval
+for θ. Does the assertion in (b) contradict this? If your sample observations are
+X1 = 1, X2 = 2, would you use the conﬁdence interval in (a)?

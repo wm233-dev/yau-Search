@@ -1,0 +1,143 @@
+
+=== page 1 ===
+Yau College Math Competition 2021
+Final Probability and Statistics
+Individual Overall Exam Problems (May 30, 2021)
+Problem 1. Let X1, X2, · · · , Xn be independent exponential random variables with pa-
+rameter 1, and X(1), X(2), · · · , X(n) be their order statistics. Let X(0) = 0.
+(1) Find the joint density function of
+Yk = (n + 1 −k)(X(k) −X(k−1)),
+k = 1, 2, · · · , n.
+(2) Find the limit
+lim
+n→∞P
+(
+X(n) −ln n ≤x
+)
+.
+(3) Find the limit
+lim
+n→∞
+∫∞
+0
+P
+(
+X(n) −ln n > x
+)
+dx.
+Solution
+(1) Notice that the joint density function of X(1), X(2), · · · , X(n) is
+h(x1, · · · , xn) =
+{
+n!e−∑n
+i=1 xi,
+if
+x1 ≤x2 ≤· · · ≤xn,
+0,
+otherwise.
+Let x0 = 0 and deﬁne
+yk = (n + 1 −k)(xk −xk−1),
+k = 1, 2, · · · , n,
+then
+xk =
+k
+∑
+i=1
+yi
+n −i + 1,
+k = 1, 2, · · · , n,
+and the Jacobian is 1/n!. So the density function of Y1, · · · , Yn is e−∑n
+i=1 yi.
+(2) Since
+P(X(n) ≤x) = (1 −e−x)n,
+we have
+P(X(n) ≤x + ln n) =
+(
+1 −e−x
+n
+)n
+n→∞
+−→e−e−x.
+(3) According to the above two steps and the lack-of-memory property, we have
+E(X(n)) = 1 + 1
+2 + · · · + 1
+n.
+1
+
+=== page 2 ===
+Consequently,
+lim
+n→∞
+∫∞
+0
+P
+(
+X(n) −ln n > x
+)
+dx = lim
+n→∞E
+(
+X(n) −ln n
+)
+= lim
+n→∞
+(
+1 + 1
+2 + · · · + 1
+n −ln n
+)
+= γ.
+Problem 2.
+Let {Xn}n≥1 be i.i.d.
+random variables such that P(X1 = 1) = 1 −
+P(X1 = −1) = p >
+1
+2. Let S0 = 0, Sn = ∑n
+i=1 Xi.
+Deﬁne the range of {Sn}n≥0 by
+Rn = #{S0, S1, S2, · · · , Sn}, which is the number of distinct points visited by the random
+walk {Sn}n≥0 up to time n.
+(1) Prove E(Rn) = E(Rn−1) + P(S1S2 · · · Sn ̸= 0),
+n = 1, 2, · · · .
+(2) Find limn→∞1
+nE(Rn).
+Solutions
+(1)
+P(Rn = Rn−1 + 1) = P(Sn /∈{S0, S1, · · · Sn−1})
+= P(Sn ̸= S0, Sn ̸= S1, · · · , Sn ̸= Sn−1)
+= P(X1 + X2 + · · · + Xn ̸= 0, X2 + X3 + · · · + Xn ̸= 0, · · · , Xn ̸= 0)
+= P(X1 ̸= 0, X1 + X2 ̸= 0, · · · , X1 + X2 + · · · + Xn ̸= 0)
+(by i.i.d)
+= P(S1S2 · · · Sn ̸= 0).
+Thus
+E(Rn) = E(Rn−1) + P(S1S2 · · · Sn ̸= 0).
+(2) Using the above relation recursively, one has
+1
+nE(Rn) = 1
+n + 1
+n
+n
+∑
+k=1
+P(S1S2 · · · Sk ̸= 0) n→∞
+−→P(Sk ̸= 0, ∀k ≥1).
+On the other hand, according to law of large numbers,
+lim
+n→∞
+Sn
+n = 2p −1 > 0,
+a.s.
+Thus
+P(Sk ̸= 0, ∀k ≥1) = P(Sk > 0, ∀k ≥1)
+= lim
+n→∞P(Sk > 0, k = 1, 2, · · · , n)
+2
+
+=== page 3 ===
+By the reﬂection principle,
+P(Sk > 0, k = 1, 2, · · · , n) = 1
+nE(Sn ∨0) n→∞
+−→2p −1.
+Thus limn→∞1
+nE(Rn) = 2p −1.
+3

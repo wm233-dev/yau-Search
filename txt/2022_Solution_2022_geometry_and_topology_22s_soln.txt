@@ -1,0 +1,148 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Geometry and Topology
+Solve every problem.
+Problem 1.
+The topological space 𝑋is obtained by gluing two tetrahedra as illustrated by the figure. There
+is a unique way to glue the faces of one tetrahedron to the other so that the arrows are matched. The resulting
+complex has 2 tetrahedra, 4 triangles, 2 edges and 1 vertex.
+Show that 𝑋can not have the homotopy type of a compact manifold without boundary.
+Solution:
+One can calculate the (𝐙-coefficient) simplicial homology to see that 𝐻0(𝑋) = 𝐙, 𝐻1(𝑋) = 𝐙2, 𝐻2(𝑋) = 𝐙/2,
+𝐻3(𝑋) = 𝐙. This does not satisfy Poincaré duality, hence the 𝑋can not have the homotopy type of a compact manifold
+without boundary. Or one can notice that 𝑋has Euler characteristic 1, but a closed odd-dimensional manifold has Euler
+characteristic 0.
+Problem 2. Suppose (𝑀, ℎ) is a closed (i.e., compact without boundary) Riemannian manifold, and ℎis a metric
+on 𝑀with sec(ℎ) ≤−1, where sec(ℎ) is the sectional curvature. Suppose Σ is a closed minimal surface with genus
+𝑔in (𝑀, ℎ). Show that
+Area(Σ) ≤4𝜋(𝑔−1).
+Remark: A minimal surface is an immersed surface with constant mean curvature 0.
+Solution: For any surface Σ in a Riemannian manifold (𝑀, ℎ), let 𝑥∈Σ, and {𝑒1, 𝑒2, 𝑒3, 𝑒4, … , 𝑒𝑛} be a local orthonormal
+frame of 𝑀at 𝑥where 𝑒1 and 𝑒2 are tangent to Σ and 𝑒3, … , 𝑒𝑛are normal to Σ. The Gauss equation shows that
+𝜅(𝑥) =𝐾12 + ⟨𝐴11, 𝐴22⟩−⟨𝐴12, 𝐴12⟩,
+=𝐾12 + |𝐻|2
+2
+−|𝐴|2
+2 .
+Here, 𝐾12 is the sectional curvature of 𝑇𝑥Σ ⊂𝑇𝑀. Integrate this identity over Σ and use the Gauss-Bonnet theorem; we get
+2𝜋𝜒(Σ) = ∫
+Σ
+(𝐾12 + |𝐻|2
+2
+−|𝐴|2
+2 ) .
+Equivalently,
+Area(Σ) = 4𝜋(𝑔−1) + ∫
+Γ
+(1 + 𝐾12 + |𝐻|2
+2
+−|𝐴|2
+2 ) ,
+where 𝑔is the genus of Σ. Σ being minimal implies that 𝐻= 0, and sec(ℎ) ≤−1 implies that 𝐾12 ≤−1. Se we get
+Area(Σ) ≤4𝜋(𝑔−1).
+
+=== page 2 ===
+Problem 3. For any topological space 𝑋, the 𝑛-th symmetric product of 𝑋is the quotient of the Cartesian product
+(𝑋)𝑛by the action of the symmetric group 𝑆𝑛, which permutes the factors in (𝑋)𝑛. This space is denoted by
+SP𝑛(𝑋), and the topology is the natural quotient topology induced from (𝑋)𝑛.
+Show that SP𝑛(𝐂𝐏1) is homeomorphic to 𝐂𝐏𝑛. Here 𝐂𝐏1 and 𝐂𝐏𝑛are equipped with the manifold topology.
+Solution: 𝐂𝐏𝑛can be interpreted as the space of homogeneous polynomials in two variables of degree 𝑛modulo multipli-
+cation by a non-zero complex constant. Each polynomial is determined up to a constant complex number by its 𝑛complex
+roots on 𝐂𝐏1. On the other hand, SP𝑛(𝐂𝐏1) is exactly the 𝑛-tuples of unordered points in 𝐂𝐏1. This induces a bijection
+𝐹∶SP𝑛(𝐂𝐏1) →𝐂𝐏𝑛.
+It remains to show 𝐹and 𝐹−1 are both continuous. One direction is relatively easy: because the coefficients of the poly-
+nomials are determined by the roots via Vieta’s formulas, and Vieta’s formulas are polynomials, 𝐹is continuous. For the
+other direction, notice that SP𝑛(𝐂𝐏1) is compact (because it is the quotient of a compact space), 𝐂𝐏𝑛is Hausdorff, and 𝐹is
+a continuous bijection, so 𝐹−1 is also a continuous bijection.
+Problem 4.
+Let 𝑀be a complete noncompact Riemannian manifold. 𝑀is said to have the geodesic loops to
+infinity property if for any [𝛼] ∈𝜋1(𝑀) and any compact subset 𝐾⊂𝑀, there is a geodesic loop 𝛽⊂𝑀\𝐾, such
+that 𝛽is homotopic to 𝛼.
+Show that if a complete noncompact Riemannian manifold 𝑀does not have the geodesic loops to infinity property,
+then there is a line in the universal cover ˜
+𝑀.
+Remark: A line is a geodesic 𝛾∶(−∞, ∞) →𝑀such that dist (𝛾(𝑠), 𝛾(𝑡)) = |𝑠−𝑡|; a geodesic loop is a curve
+𝛽∶[0, 1] →𝑀that is a geodesic and 𝛽(0) = 𝛽(1).
+Solution: Suppose [𝛼] ∈𝜋1(𝑀) is a loop that 𝑀has no geodesic loops to infinity with respect to 𝛼, 𝐾. Suppose 𝛼is based
+at 𝑥0. Let 𝐾be a compact subset 𝐾⊂𝐵𝑅(𝑥0) ⊂𝑀. Let us choose 𝑥𝑖∈𝑀with dist(𝑥0, 𝑥𝑖) > 𝑅. Minimize curves passing
+through 𝑥𝑖in the homotopy class [𝛼] to get a geodesic loop 𝛾𝑖that is based at 𝑥𝑖. Because 𝑀has no geodesic loops to infinity
+with respect to 𝛼, 𝛾𝑖intersects with 𝐾; let 𝑦𝑖∈𝐾∩𝛾𝑖.
+Now we go to the universal cover ˜
+𝑀, and consider the lift ̃𝛾𝑖of 𝛾𝑖, such that ̃𝛾𝑖connects
+̃𝑥𝑖and [𝛼] ̃𝑥𝑖in the universal cover.
+We assume
+̃𝑦𝑖is the lift of 𝑦𝑖lying on
+̃𝛾𝑖. Let us estimate the distance 𝑑𝑖between
+̃𝑦𝑖and [𝛼]𝑥𝑖. Because
+̃𝛾𝑖is a minimizing
+geodesic segment, we have dist( ̃𝑦𝑖, [𝛼] ̃𝑥𝑖) equals to the length of the geodesic line segment ̃𝛾𝑖from ̃𝑦𝑖to [𝛼] ̃𝑥𝑖. This is exactly
+the length of the part of the geodesic loop that connects 𝑦𝑖and 𝑥𝑖. By the triangle inequality, 𝑑𝑖≥𝑚𝑖−𝑅. Similarly, the
+distance 𝑒𝑖between ̃𝑦𝑖and 𝑥𝑖satisfies the bound 𝑒𝑖≥𝑚𝑖−𝑅.
+Therefore, there is a geodesic starting from
+̃𝑦𝑖that extends to both directions with length longer than 𝑚𝑖−𝑅. Notice that
+𝑦𝑖∈𝐾, so for any 𝑖, we can choose
+̃𝑦𝑖in some fixed compact domain of ˜
+𝑀. Then as 𝑚𝑖→∞, we can pass to a subsequence
+of
+̃𝑦𝑖to get a limit ̃𝑦∞, and a line passing through this point.
+Problem 5. A topological space 𝑋is called an H-space if there exist 𝑒∈𝑋and 𝜇∶𝑋×𝑋→𝑋such that 𝜇(𝑒, 𝑒) = 𝑒
+and the maps 𝑥→𝜇(𝑒, 𝑥) and 𝑥→𝜇(𝑥, 𝑒) are both homotopic to the identity map.
+(a) Show that the fundamental group of an H-space is Abelian.
+(b) Show that the sphere 𝑆2022 is not an H-space.
+Historic Remark: “H” was suggested by Jean-Pierre Serre in recognition of the contributions in Topology by Heinz
+Hopf.
+Solution:
+(a) Let [𝑓] and [𝑔] be two elements in the fundamental group of 𝑋. We may assume 𝑓∶[0, 1] →𝑋and 𝑔∶[0, 1] →𝑋
+are both continuous maps with 𝑓(0) = 𝑓(1) = 𝑔(0) = 𝑔(1) = 𝑒.
+
+=== page 3 ===
+Now we define a map 𝐹∶[0, 1] × [0, 1] →𝑋by 𝐹(𝑥, 𝑦) = 𝜇(𝑓(𝑥), 𝑔(𝑦)). Then 𝐹(⋅, 0) is homotopic to 𝑓and 𝐹(0, ⋅) is
+homotopic to 𝑔. It is clear that
+ℎ(𝑠, 𝑡) = { 𝐹((1 −𝑡)2𝑠, 𝑡⋅2𝑠)
+𝑠∈[0, 1
+2],
+𝐹(𝑡⋅2(𝑠−1
+2), (1 −𝑡) ⋅2(𝑠−1
+2))
+𝑠∈[ 1
+2, 1]
+is a homotopy from a curve representing [𝑓] ⋅[𝑔] to a curve representing [𝑔] ⋅[𝑓]. Therefore [𝑓] ⋅[𝑔] = [𝑔] ⋅[𝑓], and
+hence 𝜋1(𝑋) is Abelian.
+(b) We will show that 𝑆2𝑛is not a H-space. In the following we consider 𝐑-coefficient cohomology. Suppose 𝑆𝑘is an
+H-space, then the map 𝜇induces
+𝜇∗∶𝐻∗(𝑆𝑘) →𝐻∗(𝑆𝑘) ⊗𝐻∗(𝑆𝑘),
+and for a generator 𝑥∈𝐻𝑘(𝑆𝑘), 𝜇∗(𝑥) = 1⊗𝑥+𝑥⊗1 (to see this, one can consider the composition 𝑋↪𝑋×𝑋
+𝜇−→𝑋,
+where the inclusion is 𝑎→(𝑎, 𝑒) or 𝑎→(𝑒, 𝑎)).
+The universality of the cup product gives
+𝜇∗(𝑥∪𝑥) = (1 ⊗𝑥+ 𝑥⊗1) ∪(1 ⊗𝑥+ 𝑥⊗1).
+The left hand side is clearly 0, and the right hand side is (1 + (−1)𝑘2)𝑥⊗𝑥. Here, notice that (𝑎⊗𝑏) ∪(𝑐⊗𝑑) =
+(−1)| deg(𝑏)|| deg(𝑐)|(𝑎∪𝑐) ⊗(𝑏∪𝑑). Thus, 𝑆𝑘being an H-space implies that 𝑘is odd.
+Remark: In fact, Adams’ Hopf invariant one theorem shows that among all the spheres, only 𝑆0, 𝑆1, 𝑆3, 𝑆7 are H-
+spaces.
+Problem 6. A hypersurface Σ ⊂𝐑𝐧+𝟏is called a shrinker if it satisfies the equation
+𝐻(𝑥) = 1
+2⟨𝑥, ⃗𝑛⟩.
+Here 𝐻is the mean curvature, which is −⟨tr𝐴, ⃗𝑛⟩where 𝐴is the second fundamental form, 𝑥is the position vector,
+and
+⃗𝑛is outer unit normal vector.
+(a) Show that 𝑆𝑛(√2𝑛), the sphere with radius √2𝑛, is a shrinker.
+(b) Show that any compact shrinker without boundary must intersect with 𝑆𝑛(√2𝑛).
+Solution:
+(a) One can calculate that for 𝑆𝑛(√2𝑛), 𝐴= −
+1
+√2𝑛
+𝑔⃗𝑛, hence 𝐻=
+𝑛
+√2𝑛
+. Also, 𝑥= √2𝑛⃗𝑛, so 𝑆𝑛(√2𝑛) satisfies the
+shrinker’s equation.
+(b) Suppose Σ is a closed shrinker. On any hypersurface, ∇Σ𝑥= 𝐼, where 𝐼is the (𝑛+ 1) × (𝑛+ 1) matrix that is the
+identity on 𝑇𝑥Σ ⊗𝑇𝑥Σ and vanishes elsewhere, ΔΣ𝑥= −𝐻⃗𝑛, so
+ΔΣ|𝑥|2 = 2⟨∇Σ𝑥, ∇Σ𝑥⟩+ 2⟨ΔΣ𝑥, 𝑥⟩= 2𝑛−2⟨𝑥, ⃗𝑛⟩2.
+Consider 𝑥max such that |𝑥|2 attains the maximum, and 𝑥min such that |𝑥|2 attains the minimum. First let us consider
+𝑥min ≠0. Differentiating |𝑥|2 shows that 𝑥max and 𝑥min are normal to the tangent hyperplane, and ⟨𝑥⋅, ⃗𝑛⟩2 = |𝑥⋅|2 for
+⋅= max or ⋅= min. Then ΔΣ|𝑥|2 ≤0 at 𝑥max, hence 2𝑛−⟨𝑥max, ⃗𝑛⟩2 ≤0. This implies that |𝑥max|2 ≥2𝑛. Similarly,
+ΔΣ|𝑥|2 ≥0 at 𝑥min, and |𝑥min|2 ≤2𝑛. Finally, if 𝑥min = 0, then it is clear |𝑥min|2 ≤2𝑛. Therefore Σ must intersect
+𝑆𝑛(√2𝑛).

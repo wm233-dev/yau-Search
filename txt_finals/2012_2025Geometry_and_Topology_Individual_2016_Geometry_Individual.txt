@@ -1,0 +1,17 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Oral Exam of Geometry and Topology
+Individual
+1. Let M be an orientable closed regular surface in the 3-dimensional Euclidean space
+with positive Gaussian curvature. Prove that the intersection of any two simple (i.e.
+no self- intersection) closed geodesics on M is non-empty.
+2. Let M be a embedded compact surface with positive genus in R3, show that the
+Gaussian curvature of M must vanish somewhere on M.
+3. Prove the Cartan formulas: LX = diX + iXd and i[X,Y ] = [LX, iY ].
+4.
+(1) State K¨unneth formula for product manifold M × N. Apply it to S2 × S2.
+(2) Let f : S2 →S2 be a degree 2 map. Determine the cohomology deﬁned by the
+graph of f in H∗(S2 × S2, Q).
+(3) Compute the intersection of the graph with the diagonal in S2 × S2.
+1

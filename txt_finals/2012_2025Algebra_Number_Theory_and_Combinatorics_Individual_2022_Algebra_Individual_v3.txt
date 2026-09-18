@@ -1,0 +1,22 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+Individual
+Problem 1. Let M denote the C-vector space consisting of n × n C-matrices. Let
+Id denote the identity matrix.
+Please determine all C-linear functions σ on M such that σ(AB) = σ(BA) and
+σ(Id) = n.
+Problem 2. Let p be a prime number and F a ﬁnite extension of the ﬁeld Qp of
+p-adic numbers.
+(a) Suppose p ̸= 2. Prove that every element of OF can be written as a sum of
+three squares in OF.
+(b) Suppose F = Q2. Prove that every element of OF can be written as a sum of
+four squares in OF.
+Problem 3. Let R =
+Q
+p Fp, where p runs through all prime numbers.
+(a) Show that there exists a maximal ideal m of R such that R/m is a ﬁeld of
+characteristic zero in which −1 is not a square.
+(b) Show that there is no maximal ideal n of R admitting an embedding R/n ,→R.
+1

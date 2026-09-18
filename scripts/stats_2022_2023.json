@@ -1,0 +1,1602 @@
+{
+ "rows": [
+  {
+   "file": "2022_ExamPaper_2022_Mathematical_Physics_22s.txt",
+   "year": 2022,
+   "kind": "试题",
+   "subject": "数学物理",
+   "pages": 3,
+   "chars": 3760,
+   "nonspace": 3060,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 16,
+   "romans": 2,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_ExamPaper_2022_algebra_and_numbertheory_22s.txt",
+   "year": 2022,
+   "kind": "试题",
+   "subject": "代数与数论",
+   "pages": 1,
+   "chars": 2300,
+   "nonspace": 1881,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 11,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_ExamPaper_2022_analysis_and_differential_22s.txt",
+   "year": 2022,
+   "kind": "试题",
+   "subject": "分析与微分方程",
+   "pages": 1,
+   "chars": 1477,
+   "nonspace": 1193,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 0,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+   "year": 2022,
+   "kind": "试题",
+   "subject": "计算与应用数学",
+   "pages": 3,
+   "chars": 3458,
+   "nonspace": 2829,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 8,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_ExamPaper_2022_geometry_and_topology_22s.txt",
+   "year": 2022,
+   "kind": "试题",
+   "subject": "几何与拓扑",
+   "pages": 2,
+   "chars": 2576,
+   "nonspace": 2126,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 4,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_ExamPaper_2022_probability_and_statistics_22s.txt",
+   "year": 2022,
+   "kind": "试题",
+   "subject": "概率统计",
+   "pages": 2,
+   "chars": 2747,
+   "nonspace": 2251,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 4,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_Solution_2022_Mathematical_Physics_solution.txt",
+   "year": 2022,
+   "kind": "解答",
+   "subject": "数学物理",
+   "pages": 8,
+   "chars": 10758,
+   "nonspace": 8629,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 16,
+   "romans": 2,
+   "points": 100,
+   "npoints": 17
+  },
+  {
+   "file": "2022_Solution_2022_algebra_and_numbertheory_22s_soln.txt",
+   "year": 2022,
+   "kind": "解答",
+   "subject": "代数与数论",
+   "pages": 4,
+   "chars": 8887,
+   "nonspace": 7125,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 25,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_Solution_2022_analysis_and_differential_22s_soln.txt",
+   "year": 2022,
+   "kind": "解答",
+   "subject": "分析与微分方程",
+   "pages": 3,
+   "chars": 4200,
+   "nonspace": 3401,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 0,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_Solution_2022_computational_and_applied_22s_soln.txt",
+   "year": 2022,
+   "kind": "解答",
+   "subject": "计算与应用数学",
+   "pages": 7,
+   "chars": 11409,
+   "nonspace": 9102,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 16,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_Solution_2022_geometry_and_topology_22s_soln.txt",
+   "year": 2022,
+   "kind": "解答",
+   "subject": "几何与拓扑",
+   "pages": 3,
+   "chars": 7777,
+   "nonspace": 6375,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 8,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2022_Solution_2022_probability_and_statistics_22s_soln.txt",
+   "year": 2022,
+   "kind": "解答",
+   "subject": "概率统计",
+   "pages": 4,
+   "chars": 9944,
+   "nonspace": 8039,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 9,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2023_Algebra_Number_theory.txt",
+   "year": 2023,
+   "kind": "试题",
+   "subject": "代数与数论",
+   "pages": 2,
+   "chars": 4110,
+   "nonspace": 3278,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 7,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2023_Analysis_and_differential_equation.txt",
+   "year": 2023,
+   "kind": "试题",
+   "subject": "分析与微分方程",
+   "pages": 2,
+   "chars": 2192,
+   "nonspace": 1728,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 0,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2023_Computational_Applied.txt",
+   "year": 2023,
+   "kind": "试题",
+   "subject": "计算与应用数学",
+   "pages": 3,
+   "chars": 4136,
+   "nonspace": 3273,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 16,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2023_Geometry_and_Topology.txt",
+   "year": 2023,
+   "kind": "试题",
+   "subject": "几何与拓扑",
+   "pages": 2,
+   "chars": 2372,
+   "nonspace": 1890,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 11,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2023_Mathematical_Physics.txt",
+   "year": 2023,
+   "kind": "试题",
+   "subject": "数学物理",
+   "pages": 4,
+   "chars": 4899,
+   "nonspace": 3970,
+   "nprob": 7,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    12
+   ],
+   "subparts": 21,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  },
+  {
+   "file": "2023_probability_statistics.txt",
+   "year": 2023,
+   "kind": "试题",
+   "subject": "概率统计",
+   "pages": 2,
+   "chars": 3707,
+   "nonspace": 2932,
+   "nprob": 6,
+   "probs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "subparts": 6,
+   "romans": 0,
+   "points": 0,
+   "npoints": 0
+  }
+ ],
+ "keywords": [
+  {
+   "cat": "代数/数论",
+   "kw": "norm",
+   "c22": 28,
+   "c23": 6,
+   "tot": 34
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "ODE",
+   "c22": 30,
+   "c23": 4,
+   "tot": 34
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "norm",
+   "c22": 28,
+   "c23": 6,
+   "tot": 34
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "metric",
+   "c22": 17,
+   "c23": 8,
+   "tot": 25
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "module",
+   "c22": 12,
+   "c23": 12,
+   "tot": 24
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "End",
+   "c22": 15,
+   "c23": 8,
+   "tot": 23
+  },
+  {
+   "cat": "概率统计",
+   "kw": "distribution",
+   "c22": 14,
+   "c23": 8,
+   "tot": 22
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "ideal",
+   "c22": 20,
+   "c23": 1,
+   "tot": 21
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "compact",
+   "c22": 18,
+   "c23": 1,
+   "tot": 19
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "geodesic",
+   "c22": 19,
+   "c23": 0,
+   "tot": 19
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "normal",
+   "c22": 16,
+   "c23": 2,
+   "tot": 18
+  },
+  {
+   "cat": "概率统计",
+   "kw": "normal",
+   "c22": 16,
+   "c23": 2,
+   "tot": 18
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "iteration",
+   "c22": 16,
+   "c23": 2,
+   "tot": 18
+  },
+  {
+   "cat": "概率统计",
+   "kw": "random variable",
+   "c22": 11,
+   "c23": 6,
+   "tot": 17
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "manifold",
+   "c22": 13,
+   "c23": 3,
+   "tot": 16
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Lagrangian",
+   "c22": 11,
+   "c23": 4,
+   "tot": 15
+  },
+  {
+   "cat": "概率统计",
+   "kw": "sufficient",
+   "c22": 14,
+   "c23": 0,
+   "tot": 14
+  },
+  {
+   "cat": "概率统计",
+   "kw": "estimator",
+   "c22": 12,
+   "c23": 2,
+   "tot": 14
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "eigenvalue",
+   "c22": 12,
+   "c23": 2,
+   "tot": 14
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "Lie algebra",
+   "c22": 12,
+   "c23": 1,
+   "tot": 13
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Gauss",
+   "c22": 10,
+   "c23": 2,
+   "tot": 12
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Killing",
+   "c22": 10,
+   "c23": 1,
+   "tot": 11
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Killing",
+   "c22": 10,
+   "c23": 1,
+   "tot": 11
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Hamiltonian",
+   "c22": 9,
+   "c23": 2,
+   "tot": 11
+  },
+  {
+   "cat": "概率统计",
+   "kw": "independen",
+   "c22": 8,
+   "c23": 2,
+   "tot": 10
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "fractional ideal",
+   "c22": 9,
+   "c23": 0,
+   "tot": 9
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "H-space",
+   "c22": 9,
+   "c23": 0,
+   "tot": 9
+  },
+  {
+   "cat": "概率统计",
+   "kw": "complete",
+   "c22": 7,
+   "c23": 2,
+   "tot": 9
+  },
+  {
+   "cat": "概率统计",
+   "kw": "Gaussian",
+   "c22": 7,
+   "c23": 2,
+   "tot": 9
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "integral basis",
+   "c22": 8,
+   "c23": 0,
+   "tot": 8
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Lebesgue",
+   "c22": 7,
+   "c23": 1,
+   "tot": 8
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "L2",
+   "c22": 4,
+   "c23": 4,
+   "tot": 8
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "shrinker",
+   "c22": 8,
+   "c23": 0,
+   "tot": 8
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "curvature",
+   "c22": 7,
+   "c23": 1,
+   "tot": 8
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "smooth",
+   "c22": 3,
+   "c23": 5,
+   "tot": 8
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Riemannian",
+   "c22": 7,
+   "c23": 1,
+   "tot": 8
+  },
+  {
+   "cat": "概率统计",
+   "kw": "unbiased",
+   "c22": 7,
+   "c23": 1,
+   "tot": 8
+  },
+  {
+   "cat": "数学物理",
+   "kw": "anti-unitary",
+   "c22": 8,
+   "c23": 0,
+   "tot": 8
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Killing vector",
+   "c22": 7,
+   "c23": 1,
+   "tot": 8
+  },
+  {
+   "cat": "数学物理",
+   "kw": "curvature",
+   "c22": 7,
+   "c23": 1,
+   "tot": 8
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "projective",
+   "c22": 5,
+   "c23": 2,
+   "tot": 7
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "harmonic",
+   "c22": 6,
+   "c23": 1,
+   "tot": 7
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "time-step",
+   "c22": 7,
+   "c23": 0,
+   "tot": 7
+  },
+  {
+   "cat": "数学物理",
+   "kw": "wave function",
+   "c22": 7,
+   "c23": 0,
+   "tot": 7
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "invertible",
+   "c22": 6,
+   "c23": 0,
+   "tot": 6
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "discriminant",
+   "c22": 6,
+   "c23": 0,
+   "tot": 6
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "irreducible",
+   "c22": 6,
+   "c23": 0,
+   "tot": 6
+  },
+  {
+   "cat": "概率统计",
+   "kw": "uniform",
+   "c22": 3,
+   "c23": 3,
+   "tot": 6
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Jacobian",
+   "c22": 6,
+   "c23": 0,
+   "tot": 6
+  },
+  {
+   "cat": "数学物理",
+   "kw": "time reversal",
+   "c22": 6,
+   "c23": 0,
+   "tot": 6
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "ring of integers",
+   "c22": 4,
+   "c23": 1,
+   "tot": 5
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "representation",
+   "c22": 4,
+   "c23": 1,
+   "tot": 5
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "minimal polynomial",
+   "c22": 5,
+   "c23": 0,
+   "tot": 5
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "hypersurface",
+   "c22": 5,
+   "c23": 0,
+   "tot": 5
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "homotopy",
+   "c22": 5,
+   "c23": 0,
+   "tot": 5
+  },
+  {
+   "cat": "概率统计",
+   "kw": "Markov chain",
+   "c22": 5,
+   "c23": 0,
+   "tot": 5
+  },
+  {
+   "cat": "概率统计",
+   "kw": "stationary",
+   "c22": 5,
+   "c23": 0,
+   "tot": 5
+  },
+  {
+   "cat": "概率统计",
+   "kw": "coupling",
+   "c22": 4,
+   "c23": 1,
+   "tot": 5
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "number field",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "trace",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "characteristic",
+   "c22": 3,
+   "c23": 1,
+   "tot": 4
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "homology",
+   "c22": 2,
+   "c23": 2,
+   "tot": 4
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Ricci",
+   "c22": 0,
+   "c23": 4,
+   "tot": 4
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "minimal surface",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "fundamental group",
+   "c22": 3,
+   "c23": 1,
+   "tot": 4
+  },
+  {
+   "cat": "概率统计",
+   "kw": "UMVUE",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "概率统计",
+   "kw": "Bayes",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Runge-Kutta",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Lagrange",
+   "c22": 3,
+   "c23": 1,
+   "tot": 4
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "quadrature",
+   "c22": 2,
+   "c23": 2,
+   "tot": 4
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Feynman",
+   "c22": 4,
+   "c23": 0,
+   "tot": 4
+  },
+  {
+   "cat": "数学物理",
+   "kw": "regulariz",
+   "c22": 3,
+   "c23": 1,
+   "tot": 4
+  },
+  {
+   "cat": "数学物理",
+   "kw": "spin",
+   "c22": 3,
+   "c23": 1,
+   "tot": 4
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Ricci",
+   "c22": 0,
+   "c23": 4,
+   "tot": 4
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "Galois",
+   "c22": 2,
+   "c23": 1,
+   "tot": 3
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "root of unity",
+   "c22": 2,
+   "c23": 1,
+   "tot": 3
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "solvable",
+   "c22": 0,
+   "c23": 3,
+   "tot": 3
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Maurer-Cartan",
+   "c22": 0,
+   "c23": 3,
+   "tot": 3
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "sectional curvature",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "概率统计",
+   "kw": "minimax",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "概率统计",
+   "kw": "Dirichlet process",
+   "c22": 0,
+   "c23": 3,
+   "tot": 3
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Gaussian quadrature",
+   "c22": 1,
+   "c23": 2,
+   "tot": 3
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "orthogonal polynomial",
+   "c22": 2,
+   "c23": 1,
+   "tot": 3
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "convergen",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "truncation error",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "数学物理",
+   "kw": "propagator",
+   "c22": 2,
+   "c23": 1,
+   "tot": 3
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Einstein",
+   "c22": 0,
+   "c23": 3,
+   "tot": 3
+  },
+  {
+   "cat": "数学物理",
+   "kw": "creation",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "数学物理",
+   "kw": "annihilation",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "数学物理",
+   "kw": "commutation",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "数学物理",
+   "kw": "su(2)",
+   "c22": 3,
+   "c23": 0,
+   "tot": 3
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "p-adic",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "commutator",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "logarithm",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Banach",
+   "c22": 1,
+   "c23": 1,
+   "tot": 2
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "holomorphic",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Lipschitz",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Euler characteristic",
+   "c22": 1,
+   "c23": 1,
+   "tot": 2
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "soliton",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "symmetric product",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "orient",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "概率统计",
+   "kw": "total variation",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "概率统计",
+   "kw": "i.i.d",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "概率统计",
+   "kw": "asymptotic",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "概率统计",
+   "kw": "power",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "概率统计",
+   "kw": "concentration",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Lax-Wendroff",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "linear programming",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "tridiagonal",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "interpolation",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "renormaliz",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "one-loop",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "gauge",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Maxwell",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "scale invariance",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "fermion",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "perturbation",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Hilbert space",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "cat": "数学物理",
+   "kw": "vacuum",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "Dedekind",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "Eisenstein",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "free module",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "Chinese Remainder",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "代数/数论",
+   "kw": "uniformizer",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Ascoli",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Arzel",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Banach-Steinhaus",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Gronwall",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "weakly",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "entire",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "Laplacian",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "分析/方程",
+   "kw": "equicontinuous",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Leray",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "cohomology",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Poincar",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "几何/拓扑",
+   "kw": "Gauss-Bonnet",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "概率统计",
+   "kw": "characteristic function",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "概率统计",
+   "kw": "hypothesis",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "概率统计",
+   "kw": "Poisson",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "概率统计",
+   "kw": "Bernoulli",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "power iteration",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "stable",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "stability",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Richardson",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "WKB",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "Gershgorin",
+   "c22": 1,
+   "c23": 0,
+   "tot": 1
+  },
+  {
+   "cat": "计算/应用",
+   "kw": "asymptotic expansion",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "数学物理",
+   "kw": "heat capacity",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "数学物理",
+   "kw": "boson",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "数学物理",
+   "kw": "cosmological constant",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Minkowski",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "数学物理",
+   "kw": "Lorentz",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "cat": "数学物理",
+   "kw": "dimensional regularization",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  }
+ ],
+ "verbs": [
+  {
+   "v": "Prove",
+   "c22": 23,
+   "c23": 22,
+   "tot": 45
+  },
+  {
+   "v": "Show",
+   "c22": 19,
+   "c23": 31,
+   "tot": 50
+  },
+  {
+   "v": "Compute",
+   "c22": 6,
+   "c23": 7,
+   "tot": 13
+  },
+  {
+   "v": "Calculate",
+   "c22": 3,
+   "c23": 1,
+   "tot": 4
+  },
+  {
+   "v": "Find",
+   "c22": 5,
+   "c23": 7,
+   "tot": 12
+  },
+  {
+   "v": "Determine",
+   "c22": 3,
+   "c23": 3,
+   "tot": 6
+  },
+  {
+   "v": "Construct",
+   "c22": 4,
+   "c23": 1,
+   "tot": 5
+  },
+  {
+   "v": "Derive",
+   "c22": 0,
+   "c23": 10,
+   "tot": 10
+  },
+  {
+   "v": "Explain",
+   "c22": 2,
+   "c23": 1,
+   "tot": 3
+  },
+  {
+   "v": "Solve",
+   "c22": 6,
+   "c23": 8,
+   "tot": 14
+  },
+  {
+   "v": "Write down",
+   "c22": 3,
+   "c23": 3,
+   "tot": 6
+  },
+  {
+   "v": "Verify",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "v": "Justify",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "v": "Assume",
+   "c22": 10,
+   "c23": 15,
+   "tot": 25
+  },
+  {
+   "v": "State",
+   "c22": 7,
+   "c23": 5,
+   "tot": 12
+  },
+  {
+   "v": "Check",
+   "c22": 0,
+   "c23": 2,
+   "tot": 2
+  },
+  {
+   "v": "Give",
+   "c22": 3,
+   "c23": 5,
+   "tot": 8
+  },
+  {
+   "v": "Describe",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "v": "List",
+   "c22": 2,
+   "c23": 0,
+   "tot": 2
+  },
+  {
+   "v": "Evaluate",
+   "c22": 0,
+   "c23": 1,
+   "tot": 1
+  },
+  {
+   "v": "Discuss",
+   "c22": 0,
+   "c23": 0,
+   "tot": 0
+  }
+ ]
+}

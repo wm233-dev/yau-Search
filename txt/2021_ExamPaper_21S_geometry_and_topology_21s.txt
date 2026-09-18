@@ -1,0 +1,24 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Geometry and Topology
+Solve every problem.
+Problem 1.
+(a) Show that P2n can not be the boundary of a compact manifold.
+(b) Show that P3 is the boundary of some compact manifold.
+Problem 2. Suppose M is a noncompact, complete n-dimensional manifold, and suppose there is an open
+subset U ⊂M and an open set V ⊂Rn such that M\U is isomorphic to Rn\V. If RicM ≥0, show that M is
+isometric to Rn.
+Problem 3. Compute all the homotopy groups of the n-torus T n = S1 × S1 × · · · × S1, n ≥2.
+Problem 4.
+Consider the upper half space H3 = {(x, y, z) | z > 0} equipped with hyperbolic metric
+g = dx2 + dy2 + dz2
+z2
+. Let P be the surface deﬁned by {z = x tan α, z > 0} for some α ∈(0, π
+2 ). Compute
+the mean curvature of P.
+Problem 5. Suppose M is a compact 2-dimensional Riemannian manifold without boundary, with positive
+sectional curvature. Show that any two compact closed geodesics on M must intersect with each other.
+Problem 6.
+Suppose Σ is a smooth compact embedded hypersurface (i.e. a codimension 1 submanifold)
+without boundary in Rn for n ≥3. Show that Σ is orientable.

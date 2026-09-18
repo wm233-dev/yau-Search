@@ -1,0 +1,19 @@
+
+=== page 1 ===
+Geometry and Topology: Team
+(1) Let M be a surface in R3. Suppose for each point of M, there exist
+two families of geodesics which intersect at a constant angle. Prove
+that M has constant zero Gaussian curvature.
+(2) Prove that two closed minimal hypersurfaces in Sn must intersect
+each other.
+(3) Let M be a compact closed hypersurface in Rn+1. Prove that M
+is an n-sphere if M has constant mean curvature and nonnegative
+Ricci curvature.
+(4) Let X ∈k := Lie(K) be a real vector ﬁeld on a compact connected
+smooth manifold M with an eﬀective action of a compact real Lie
+group K. By choosing a K-invariant real symplectic form ω on M,
+assume f ∈C∞(M)R is such that
+df = iXω
+Show that the value maxM f −minM f is independent of the choice
+of ω as far as ω deﬁnes the same de Rham cohomology class [ω].
+1

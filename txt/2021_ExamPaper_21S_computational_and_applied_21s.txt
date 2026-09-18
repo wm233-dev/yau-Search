@@ -1,0 +1,110 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1.
+(a) Show that
+Tn(x) = cos(n arccos x),
+x ∈[−1,1],
+is a polynomial of degree n with extrema at
+xk = cos
+
+k π
+n
+
+,
+k = 0,1,. . .,n
+and leading coeﬃcient 2n−1.
+(b) Show that if f ∈Cn+1[−1,1] and if P(x) is the polynomial with degree at most n that interpolates f
+at xk, k = 0,1,. . .,n then
+∥f (x) −P(x)∥∞≤
+1
+2n−1(n + 1)!
+ f n+1
+∞.
+Problem 2.
+Let S(x) be a cubic spline with knots {ti}n
+i=0. If it is determined that S(x) is linear over [t1,t2]
+and [t3,t4]. Prove that S(x) is also linear over [t2,t3].
+Problem 3. Let f : R →R be deﬁned by f (x) = 2x −cos x.
+(a) Prove that the equation f (x) = 0 has a unique solution x∗∈R that lies in the interval (1
+4, 1
+2).
+(b) Prove that the sequence deﬁned by the ﬁxed point iteration
+x0,
+xn = 1
+2 cos xn−1,
+n = 1,2,. . .
+converges to x∗with any initial guess x0.
+(c) For the ﬁxed point iteration in (b) with x0 = π
+6 , determine an n that guarantees |xn −x∗| < 1
+2 × 10−8.
+For the ﬁxed point iteration in (b) with x0 = 20, determine an n that guarantees |xn −x∗| < 1
+4.
+Problem 4. Let matrix A ∈Rm×n with m ≥n and r = rank(A) < n, and assume A has the following SVD
+decomposition
+A = [U1,U2]
+Σ1
+0
+0
+0
+
+[V1,V2]T = U1Σ1VT
+1 ,
+where Σ1 is r × r nonsingular and U1 and V1 have r columns. Let σ = σmin(Σ1), the smallest nonzero
+singular value of A. Consider the following least square problem, for some b ∈Rm,
+min
+x∈Rn ∥Ax −b∥2 .
+
+=== page 2 ===
+(a) Show that all solutions x can be written as
+x = V1Σ−1
+1 UT
+1 b + V2z2,
+with z2 an arbitrary vector.
+(b) Show that the solution x has minimal norm ∥x∥2 precisely when z2 = 0, and in which case,
+∥x∥2 ≤∥b∥2
+σ .
+Problem 5. Consider the family of semi-implicit Runge-Kutta methods
+k1 = f (yn + βhk1),
+k2 = f (yn + hk1 + βhk2),
+yn+1 = yn + h
+
+( 1
+2 + β)k1 + (1
+2 −β)k2
+
+.
+(a) Determine the order and the principal part of the local truncation error.
+(b) Show that if β > 1
+2, then the negative real axis {z : Re(z) < 0,Im(z) = 0} is contained in the region of
+absolute stability of the method.
+Problem 6. Consider the Beam equation from mechanics with boundary conditions that model a cantilever
+beam:
+u(4) = f (x),
+x ∈(0, 1),
+u(0) = u′(0) = u′′(1) = u′′′(1) = 0.
+(1)
+(a) Recast this equation into a variational problem, stating the trial and test function spaces.
+(b) Interpret the variational problem as an energy minimization problem, clearly stating the energy
+functional. Prove that the variational problem and the energy minimization problems are equivalent.
+(c) Develop a CG(3) (cubic continuous Galerkin method) ﬁnite element method for this problem.
+(d) Prove an a priori error estimate for this method in the energy norm:
+∥e∥E =
+ ∫1
+0
+(e′′)2dx
+ 1
+2
+,
+Where e = u(x) −U(x), in which, u(x) is the exact solution to VP (variational problem), U(x) is the
+FEM (ﬁnite element method) solution.
+(e) Prove an a priori error estimate for this method in the L2 norm:
+∥e∥L2 =: ∥e∥=
+ ∫1
+0
+e2dx
+ 1
+2
+.

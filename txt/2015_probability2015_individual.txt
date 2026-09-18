@@ -1,0 +1,46 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Probability and Statistics
+Individual (5 problems)
+Problem 1. (a) Let X and Y be two random variables with zero means, variance 1,
+and correlation ρ. Prove that
+E[max{X2, Y 2}] ≤1 +
+√
+1 −ρ2.
+(b) Let X and Y have a bivariate normal distribution with zero means, variances
+σ2 and τ 2, respectively, and correlation ρ. Find the conditional expectation E(X|Y ).
+Problem 2. We ﬂip a fair coin until heads turns out twice consecutively. What is the
+expected number of ﬂips?
+Problem 3. Let (Xn, n ≥1) be a sequence of independent Gaussian variables, with
+respective mean µn, and variance σ2
+n.
+(a) Prove that if ∑
+n X2
+n converges in L1, then ∑
+n X2
+n converges in Lp, for every
+p ∈[1, ∞).
+(b) Assume that µn = 0, for every n. Prove that if ∑
+n σ2
+n = ∞, then
+P(
+∑
+n
+X2
+n = ∞) = 1.
+Problem 4.
+Let X1, . . . , Xn be a random sample of size n from the exponential
+distribution with pdf f(x; θ) = θ−1 exp(−x/θ) for x, θ > 0, zero elsewhere.
+Let
+Y1 = min{X1, . . . , Xn}. Consider an estimator nY1.
+(a) Show this estimate is unbiased.
+(b) Prove or disprove: This estimate is a consistent estimator.
+(c) Prove or disprove: This estimate is an eﬃcient estimator.
+Problem 5. Let the independent normal random variables Y1, . . . , Yn have, respec-
+tively, the probability density functions N(µ, γ2x2
+i ), i = 1, . . . , n, where the given
+x1, . . . , xn are not all equal and no one of which is zero.
+(a) Construct a conﬁdence interval for γ with signiﬁcance level 1 −α.
+(b) Discuss the test of the hypothesis H0 : γ = 1, µ unspeciﬁed, against all alternatives
+H1 : γ ̸= 1, µ unspeciﬁed.

@@ -1,0 +1,375 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Probability and Statistics
+Solve every problem.
+Part I: Probability
+Problem 1.
+Suppose that a sequence {Xn} of real-valued random variables converges to X in distribution
+and there are positive constants r and C such that E|Xn|r ≤C for all n. Show that
+lim
+n→∞E|Xn|s = E|X|s
+for all 0 < s < r.
+Solution:
+Xn →X in distribution if and only if limn→∞Ex f (Xn) = E f (X) for all bounded continuous functions f .
+Let M be a ﬁxed large positive number and deﬁne
+fM(x) =
+(
+|x|s,
+|x| < M;
+Ms,
+|x| ≥M.
+Then fM is a bounded continuous function and 0 ≤fM(x) ↑|x|s as M ↑∞. We have
+lim
+n→∞E fM(Xn) = E fM(X).
+On the other hand,
+0 ≤E|Xn|s −E fM(Xn) ≤E [|Xn|s; |Xn| ≥M] ≤
+1
+Mr−s E [|Xn|r; |Xn| ≥M] ≤
+C
+Mr−s .
+Hence
+E fM(Xn) ≤E|Xn|s ≤E fM(Xn) +
+C
+Mr−s .
+Letting n →∞and then M ↑∞we have limn→∞E|Xn|s = E|X|s. In the second limit we use the monotone convergence
+theorem.
+Problem 2.
+Let p(x, y) be the (one-step) transition function of a Markov chain on a discrete state space S
+and pn(x, y) be the n-step transition function. Show that for any positive integers L and N and any two states
+x and y we have
+N+L
+Õ
+n=L
+pn(x, y) ≤
+N
+Õ
+n=0
+pn(y, y).
+Solution:
+The intuition of this problem is that for counting how many steps the chain starting from x to be at y the
+chain needs to spend time to reach y ﬁrst.
+By the Markov property at L we have for n ≥L,
+pn(x, y) = Px {Xn = y} = Expn−L(XL, y).
+If the assertion holds for L = 0, then (l = n −L)
+N+L
+Õ
+n=L
+pn(x, y) = Ex
+" N
+Õ
+l=0
+pl(XL, y)
+#
+≤
+N
+Õ
+l=0
+pl(y, y).
+
+=== page 2 ===
+Thus it is enough to show for the case L = 0. By the strong Markov property at Ty, we have
+pn(x, y) = Px
+
+Xn = y, Ty ≤n
+	
+= Ex
+
+pn−Ty(y, y);Ty ≤n
+
+.
+It follows that (l = n −Ty)
+N
+Õ
+n=0
+pn(x, y) =
+N
+Õ
+n=0
+Ex
+
+pn−Ty(y, y);Ty ≤n
+
+= Ex
+
+N−Ty
+Õ
+l=0
+pl(y, y);Ty ≤N
+
+≤
+N
+Õ
+l=0
+pn(y, y).
+Problem 3.
+Let {Xn} be an independent, identically distributed sequence of random variables with the
+symmetric Bernoulli distribution
+P {X = 1} = P {X = −1} = 1
+2.
+Let Sn =
+N
+Õ
+i=1
+Xi be the partial sum. Show that for all α > 1
+2,
+P
+
+lim
+n→∞
+Sn
+nα = 0
+
+= 1.
+Solution: Let k be a positive integer. By Markov’s inequality we have
+P
+(
+Sn
+nα
+
+2k
+≥1
+n
+)
+≤n−(2kα−1)E|Sn|2k.
+We have
+E|Sn|2k =
+Õ
+1≤i1,...,i2k ≤n
+E
+
+Xi1 Xi2 · · · Xi2k
+
+.
+Since the sequences are independent and each random variable has mean zero, each expectation is zero unless the
+indices i1, i2,. . .,i2k can be grouped into k pairs of identical indices. The number of such groups is at most (2k)! · nk.
+Hence
+P
+(
+Sn
+nα
+
+2k
+≥1
+n
+)
+≤Ckn−(2kα−k−1).
+Choosing k > 2/(2α −1) we have 2kα −k −1 > 1. By the Borel-Cantelli lemma, the probability that |Sn|/nα ≥n−1
+happens inﬁnitely often is zero, hence limn→∞Sn/nα = 0 with probability one.
+Problem 4.
+Let Xn =
+
+Xij
+	
+be an n × n random matrix whose entries are independent and identically
+distributed random variables with the symmetric Bernoulli distribution
+P {X = 0} = P {X = 1} = 1
+2.
+Let pn = P {det XN is odd}. Show that lim
+n→∞pn > 0.
+Solution:
+Consider the (algebraic) ﬁeld Z/2Z = {0,1} with two elements, so we need det Xn , 0 in Z/2Z, which
+means that pn is the probability that the n rows of the random matrix are independent.
+Each row has 2n choices. There are 2n −1 choices for the ﬁrst row X1 (the zero column is not allowed). The linear
+span for the ﬁrst row has two vectors (the zero vector and X1), and we cannot choose from this linear span, hence the
+number of choices for X2 is 2n −2. In general after the ﬁrst l rows are ﬁxed, the linear span of these rows has 2l vectors,
+
+=== page 3 ===
+and we cannot choose Xl+1 from this linear span, hence the number of choices for Xl+1 is 2n −2l. It follows that the
+total number of choices for the matrix det Xn with nonvanishing determinant is
+(2n −1) · (2n −2) · (2n −22) · · · (2n −2n−1).
+The total number of choices for the random matrix Xn is (2n)n = 2n2 and the probability distribution is uniform, hence
+pn =
+n
+Ö
+l=1
+
+1 −1
+2l
+
+→
+∞
+Ö
+l=1
+
+1 −1
+2l
+
+> 0.
+Part II: Statistics
+Problem 5. You have been asked to help design a randomized trial of a new drug, call it drug A, to be used
+in place of the current drug, call it drug B, for a particular medical condition. The budget is ﬁxed to have
+1000 patients treated with A and 1000 treated with drug B. The issue is how to do the allocation of patients,
+because we have many pre-randomization measurements on each patient, roughly 200, such as blood pressure
+recordings, age, sex, and a large collection of genetics measurements. Obviously it is desirable to have the
+A group similar to the B group with respect to all pre-treatment covariates and non-linear functions of them
+that are expected to inﬂuence the eﬀectiveness of the drugs with respect to the outcome variables.
+Complete (or simple) randomization does this in expectation, but with many covariates, some covariates will
+not be balanced between the A and B groups in any one single randomized allocation. Standard blocking
+used in traditional experimental design can force balance on a few covariates, but the designer of drug A
+wants to have an experimental design that creates balance on many covariates, and feels that you, as a modern
+applied mathematician/statistician, should be able to do this.
+Describe a class of methods that achieves this goal where each patient has a positive probability of receiving
+drug A and a positive probability of receiving drug B. Provide enough detail that you are describing an
+explicit algorithm.
+Solution:
+Let Xi denote the covariate vector of unit i, which can include the pre-treatment measurements as well as
+their non-linear functions, and let X = (X1,. . ., Xn)T denote the convariate matrix for all n = 2000 units. Let zi denote
+the treatment allocation for unit i, which equals 1 if the unit is assigned to drug A and 0 otherwise, and z ∈{0,1}n
+denote the treatment allocation for all n units.
+Let φ (X, z) denote a pre-determined covariate balance criterion, which equals 1 if the allocation z is acceptable and
+0 otherwise. Moreover, we construct the criterion φ such that it is invariant when we switch treatment and control
+groups, i.e., φ (X, z) = φ (X,1 −z). We then consider the following re-randomization design to randomly allocate the
+patients to groups A and B:
+(i) Completely randomize the patients to groups A and B, with 1000 patients within each group.
+(ii) If the balance criterion is satisﬁed (i.e., φ (X, Z) = 1), proceed to step (iii); otherwise, return to step (i)
+(iii) Conduct the experiment using the ﬁnal randomization obtained in step (ii).
+Note that under the completely randomized experiment (CRE) with the same number of units assigned to each treatment
+group, Z and 1 −Z follows the same distribution. This implies that, under re-randomization described above (i.e., the
+CRE with balance criterion φ,
+Z | φ(X, Z) = 1 ∼1 −Z | φ(X,1 −Z) = 1 ∼1 −Z | φ(X, Z) = 1.
+Thus, under re-randomization, Z and 1 −Z must have the same distribution. Consequently, for any 1 ≤i ≤N,
+E (Zi | X, φ(X, Z) = 1) = E (1 −Zi | X, φ(X, Z) = 1) = 1 −E (Zi | X, φ(X, Z) = 1),
+which immediately implies that E (Zi | X, φ(X, Z) = 1) = 0.5. Therefore, under our proposed design, each patient has
+a positive probability (i.e., 1
+2) to receive either drug A or drug B.
+
+=== page 4 ===
+Problem 6. You are given the results of a randomized experiment of two drugs, A and B. The experiment
+was not conducted in the usual way, however, but rather by allocating patients by a machine-learning
+algorithm under which each patient has a positive probability of receiving A and of receiving B; moreover
+the algorithm is completely speciﬁed and is built to create better than random balance on the covariates.
+(a) Can unbiased estimates of the causal eﬀect of drug A versus B be found, and if so, show why.
+(b) Can exact small sample, non-parametric inferences for the causal eﬀect in part (a) be derived, based
+solely on the randomization distribution of some statistic? For example, can we ﬁnd exact signiﬁcance
+levels under a sharp null hypothesis? If so, outline how to accomplish this goal.
+Solution:
+(a) Yes.
+For each patient i, let Yi(1) and Yi(0) denote the potential outcomes under drug A and drug B, Zi
+be the treatment assignment indicator, where Zi = 1 if the patient receives drug A and 0 otherwise, and
+Yi = ZiYi(1) + (1 −Zi)Yi(0) be the observed outcome.
+For each patient i, let ei = Pr(Zi = 1) denote the probability of receiving drug A. Then 1 −ei is the probability
+of receiving drug B for patient i. Because the algorithm for allocating the patients are completely speciﬁed and
+each patient has a positive probability of receiving A and of receiving B, ei is known for all i and ei ∈(0,1).
+We can construct the following unbiased estimator for the average causal eﬀect of drug A versus B for patients
+in the experiment:
+ˆτ = 1
+n
+n
+Õ
+i=1
+Zi
+ei
+Yi −1
+n
+n
+Õ
+i=1
+1 −Zi
+1 −ei
+Yi.
+Below we show that ˆτ is unbiased for the average causal eﬀect τ ≡n−1 Ín
+i=1 (Yi(1) −Yi(0)). By deﬁnition we
+have
+E ˆτ =E
+ 
+1
+n
+n
+Õ
+i=1
+Zi
+ei
+Yi −1
+n
+n
+Õ
+i=1
+1 −Zi
+1 −ei
+Yi
+!
+= E
+ 
+1
+n
+n
+Õ
+i=1
+Zi
+ei
+Yi(1) −1
+n
+n
+Õ
+i=1
+1 −Zi
+1 −ei
+Yi(0)
+!
+=1
+n
+n
+Õ
+i=1
+E (Zi)
+ei
+Yi(1) −1
+n
+n
+Õ
+i=1
+1 −E (Zi)
+1 −ei
+Yi(0) = 1
+n
+n
+Õ
+i=1
+ei
+ei
+Yi(1) −1
+n
+n
+Õ
+i=1
+1 −ei
+1 −ei
+Yi(0)
+=1
+n
+n
+Õ
+i=1
+Yi(1) −1
+n
+n
+Õ
+i=1
+Yi(0) = τ.
+Therefore, ˆτ is unbiased for τ.
+(b) Yes. For example we consider the sharp null hypothesis of no treatment eﬀect:
+H0 : Yi(1) = Yi(0),
+i = 1,2,. . .,n.
+Let t (Z,Y) denote a general test statistic, based on which we test the null hypothesis H0.
+First, we can impute all the unknown potential outcomes based on the observed data and the null hypothesis H0.
+Speciﬁcally, under H0, Yi(1) = Yi(0) = Yi, i.e., both potential outcomes are the same as the observed one.
+Second, we can know the distribution of the test statistic under the null hypothesis H0. Because the algorithm
+for allocating the patients are completely speciﬁed, we know the distribution of the treatment assignment
+(i.e., treatment assignment mechanism). Let W denote a random vector following this treatment assignment
+mechanism. Under H0, the test statistic follows the same distribution as
+t (W,W ◦Y(1) + (1 −W) ◦Y(0)),
+where Y(1) and Y(0) denote the potential outcome vectors for all units, and ◦denotes element-wise multiplica-
+tion.
+Third, we can then evaluate the tail probability of the null distribution of the test statistic at its observed value
+to get the p-value. Speciﬁcally, let
+G(c) = Pr
+
+t (W,W ◦Y(1) + (1 −W) ◦Y(0)) ≥c
+	
+
+=== page 5 ===
+denote the tail probability of the null distribution. Then the p-value is
+p = G(t(Z,Y)),
+which is valid for testing H0.
+Note that, for a general sharp null hypothesis, we can obtain a valid p-value in a similar way.

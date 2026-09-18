@@ -1,0 +1,45 @@
+
+=== page 1 ===
+3
+S.-T. Yau College Student Mathematics Contests 2025
+Oral Exams in Geometry and Topology
+Team (Solve 2 out of 3 problems)
+1. Let Ωbe the 2-form on R3 −{0} deﬁned by
+Ω=
+1
+(x2 + y2 + z2)3/2(xdy ∧dz + ydz ∧dx + zdx ∧dy).
+Prove that Ωis not exact.
+2. Let ι : L →M be an immersion between compact topological manifolds L and M
+with dimension n and 2n respectively. Suppose the self intersection of the image ι(L)
+is transverse. Consider the ﬁber product
+L ×ι L = {(x, y) ∈L × L : ι(x) = ι(y)}.
+(1) Show that the self intersection must be a ﬁnite set of points.
+(2) What are the connected components of L ×ι L?
+(3) Now take L to be a disjoint union of k copies of two-dimensional spheres S2.
+We deﬁne the twisted Euler characteristic of the immersion to be
+χ(ι(L)) := χ(∆L) −
+X
+P
+χ(P)
+where ∆L = {(x, x) : x ∈L} ⊂L ×ι L denotes the diagonal component, and P
+runs over all other components of L×ιL, and χ denotes the Euler characteristic
+of the components. Show that χ(ι(L)) equals two times the Euler characteristic
+of the intersection graph Γ (as a curve), where Γ has k vertices corresponding to
+the sphere components and edges corresponding to intersection points between
+the sphere components.
+3. Consider a smooth vector bundle E over a compact smooth manifold X with a
+connection ∇. Let Ω•(X, E) denote the space of smooth diﬀerential forms valued in
+E.
+(1) What is the condition on ∇such that (Ω•(X, E), ∇) forms a chain complex?
+(2) Given another connection ˜∇on E, show that it must be of the form ∇+ A
+where A is a one-form valued endomorphism of E, that is, A ∈Ω1(X, End(E)).
+(3) Suppose ∇satisﬁes the condition above. Consider the deformed chains
+(Ω•(X, E), ∇+At) for a one-parameter smooth family of elements At ∈Ω1(X, End(E))
+with A0 = 0. What is the condition on At such that it forms a chain complex?
+Show that this implies dAt
+dt
+¯¯
+t=0 is a closed element in degree one in the complex
+(Ω•(X, End(E)), ∇).
+(4) Could you elaborate on the geometric meaning of the ﬁrst cohomology group
+of the complex (Ω•(X, End(E)), ∇)?

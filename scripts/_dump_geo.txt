@@ -1,0 +1,1023 @@
+##### n/a (root) SyllabusonGeometryandTopology.pdf
+=== page 1 ===
+Syllabus on Geometry and Topology 
+ 
+Differential Geometry:  
+ Basics of smooth manifolds: Inverse function theorem, implicit 
+function theorem, submanifolds, Sard’s Theorem, embedding 
+theorem, transversality, degree theory, integration on manifolds. 
+ Basics of matrix Lie groups over R and C: The definitions of Gl(n), 
+SU(n), SO(n), U(n), their manifold structures, Lie algebras, right 
+and left invariant vector fields and differential forms, the 
+exponential map. 
+ Definition of real and complex vector bundles, tangent and 
+cotangent bundles, basic operations on bundles such as dual bundle, 
+tensor products, exterior products, direct sums, pull-back bundles. 
+ Definition of differential forms, exterior product, exterior 
+derivative, de Rham cohomology, behavior under pull-back. 
+ Metrics on vector bundles. 
+ Riemannian metrics, definition of a geodesic, existence and 
+uniqueness of geodesics. 
+ Definition of a principal Lie group bundle for matrix groups. 
+ Associated vector bundles: Relation between principal bundles and 
+vector bundles 
+
+=== page 2 ===
+ Definition of covariant derivative for a vector bundle and 
+connection on a principal bundle. Relations between the two. 
+ Definition of curvature, flat connections, parallel transport. 
+ Definition of Levi-Civita connection and properties of the Riemann 
+curvature tensor, manifolds of constant curvature. 
+ Jacobi fields, second variation of geodesics 
+ Manifolds of nonpositive curvature, manifolds of positive 
+curvature 
+References: V. Guillemin, A. Pollack, Differential topology; J. Milnor, 
+Topology from the differentiable viewpoint; Cliff Taubes: Differential 
+geometry: Bundles, Connections, Metrics and Curvature; John Lee: 
+Introduction to Riemannian manifolds, second edition; S. Kobayashi and 
+K. Nomizu: Foundations of Differential Geometry.  
+ 
+Algebraic Topology:  
+ Fundamental groups 
+ Covering spaces 
+ Higher homotopy groups 
+ Fibrations and the long exact sequence of a fibration 
+ Singular homology and cohomology 
+ Relative homology 
+
+=== page 3 ===
+ CW complexes and the homology of CW complexes 
+ Mayer-Vietoris sequence 
+ Universal coefficient theorem 
+ Kunneth formula 
+ Poincare duality 
+ Lefschetz fixed point formula 
+ Hopf index theorem 
+ Cech cohomology and de Rham cohomology.  
+ Equivalence between singular, Cech and de Rham cohomology 
+References: Alan Hatcher: Algebraic Topology; William Fulton: 
+Algebraic Topology; Edwin Spanier: Algebraic Topology; M. Greenberg 
+and J. Harper: Algebraic Topology: A First Course.
+
+##### 2012 Individual 2012 Geometry (Individual).pdf
+=== page 1 ===
+S-T Yau College Math Contests 2012 Oral Exam
+Geometry and Topology
+1. (a) Show that for any k ∈Z, there exists a continuous map f :
+S1 × S1 →S2 of degree k.
+(b) Let Σ2 be the closed surface of genus 2. Show that any continuous
+map f : S1 × S1 →Σ2 has degree 0.
+2. Let Σ2 be the closed orientable surface of genus 2.
+(a) What is G = π1(Σ2)?
+(b) Why is G non-abelian?
+(c) Why does G contain a subgroup of index 7?
+(d) Show that Σ2 is not a non-trivial cover of any orientable surface.
+(e) Show that Σ2 is a non-trivial cover of a space.
+3. State and prove the Crofton formula.
+4. State and sketch the proof of Bonnet-Meyer’s theorem.
+5. What is a Jacobi ﬁeld? Compute it in the space form M n
+k . What is
+the relationship between Jacobi ﬁelds and the exponential map.
+6. What is the Cartan-Hadamard theorem for non-positively curved
+spaces? Why is the space a K(π, 1) space?
+7. Let S be a compact surface in R3 with smooth boundary and S has
+negative curvature. Show that S is contained in convex hull of ∂S.
+1
+
+##### 2013 Individual 2013 Geometry (Individual&Team).pdf
+=== page 1 ===
+Geometry and Topology 
+Oral Exam (Individual) 
+ 
+1. How many S2 bundles on S2 are there?  
+ 
+2. Describe normal coordinate what is derivative? 
+When is the derivative nonsingular? 
+State Catan Hademand Theorem. 
+And find Taylor expansion of gij in normal coordinate.   
+ 
+3. Define Hopf Algebra. 
+Which space has Hopf Algebra structure. 
+Why dose Lie group structure  =>  Hopf Algebra structure. 
+Showπi (closed loop space) = πi+1 .    
+
+=== page 2 ===
+Geometry and Topology 
+Oral Exam (Team) 
+ 
+1. State and prove Synge Theorem. 
+ 
+2. Why does Euler number of odd dimensional manifold equal to zero? 
+ 
+3. State Hopf-Poincare Theorem. 
+Idea of the proof. 
+Any interesting application. 
+ 
+4. State clear Euler Formula. 
+Prove there are 5 regular Spheres.
+
+##### 2015 Individual 2015 Geometry (Individual).pdf
+=== page 1 ===
+Oral-Example-Geometry-Topology
+1
+Personal
+1. Let π : S3 →S2 be the Hopf ﬁbration. Recall that if we identify S3 = {(z1, z2) ∈
+C2||z1|2 + |z2|2 = 1} and S2 = CP1 with homogenous coordinate [z1, z2], then
+π : (z1, z2) →[z1, z2].
+Show that there doesn’t exist a section for π, i.e., a smooth map s : S2 →S3 such
+that π ◦s : S3 →S2 is the identity.
+2. Show that there exists no degree one map from S2 × S2 to CP2.
+3. Show that there exists no metric on RP2 × RP2 with positive sectional curvature.
+1
+
+##### 2016 Individual 2016 Geometry (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Oral Exam of Geometry and Topology
+Individual
+1. Let M be an orientable closed regular surface in the 3-dimensional Euclidean space
+with positive Gaussian curvature. Prove that the intersection of any two simple (i.e.
+no self- intersection) closed geodesics on M is non-empty.
+2. Let M be a embedded compact surface with positive genus in R3, show that the
+Gaussian curvature of M must vanish somewhere on M.
+3. Prove the Cartan formulas: LX = diX + iXd and i[X,Y ] = [LX, iY ].
+4.
+(1) State K¨unneth formula for product manifold M × N. Apply it to S2 × S2.
+(2) Let f : S2 →S2 be a degree 2 map. Determine the cohomology deﬁned by the
+graph of f in H∗(S2 × S2, Q).
+(3) Compute the intersection of the graph with the diagonal in S2 × S2.
+1
+
+##### 2017 Individual 2017 Geometry (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Individual Problems
+1. Show that S2 × S2 and CP2 ∨S2 are not homotopically equivalent.
+2 (Bonnet-Myers theorem). Prove that a complete Riemannian manifold M whose
+sectional curvature is everywhere bounded below by a constant k has diameter at most
+π/
+√
+k. In particular, M is compact.
+3 (Isoperimetric inequality). For the length L of a closed curve and the area A of the
+planar region that it encloses, show that 4πA ≤L2 and that equality holds if and only
+if the curve is a circle.
+4. (a) Compute the cohomology of the unitary group U(n).
+(b) Compute π1(U(n)) and π2(U(n)).
+1
+
+=== page 2 ===
+2
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Team Problems
+1. (a) Describe the loop space ΩS2 and path space PS2 of the sphere S2 in the following
+ﬁbration:
+ΩS2
+/ PS2
+²
+S2.
+(b) Compute the cohomology of the loop space ΩS2. What is the ring structure of
+H∗(ΩS2)?
+2 (Synge theorem). Let M be an even-dimensional compact Riemannian manifold with
+positive sectional curvature.
+(a) When M is orientable, show that M is simply connected.
+(b) When M is unorientable, what is π1(M)?
+3. (a) Let C be a smooth curve on the sphere. The Crofton formula expresses the arc
+length L(C) of the curve C as
+L(C) = 1
+4
+Z
+S2 n(C ∩W ⊥)dW.
+Here W ⊥is the plane with normal W going through the origin and n(C ∩W ⊥) is the
+number of points in the intersection of C and W ⊥.
+(b) Sketch a proof of Crofton formula.
+4. Let Ω= xdy ∧dz + ydz ∧dx + zdx ∧dy and α > 0. Suppose D is the surface in R3
+deﬁned by {(x, y, z) | x2 + y2 + z2 = 1, z ≥α
+p
+x2 + y2}.
+(a) Show that Ω|D is an orientation form and makes D an oriented manifold with
+boundary.
+(b) Evaluate
+R
+D Ω. Your answer should be in terms of α.
+
+=== page 3 ===
+3
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Overall Problems
+1. Let Σg be a compact Riemann surface of genus g > 1, Aut(Σg) be the automorphism
+group of biholomorphic maps of Σg. Let V = H0(Σg, K) be the space of holomorphic
+1-forms on Σg.
+(a) Show that the natural group homomorphism
+ρ : Aut(Σg) →GL(V )
+is injective.
+(b) V carries a natural hermitian structure
+< ω1, ω2 >= i
+Z
+Σg
+ω1 ∧ω2,
+ωi ∈V.
+Show that ρ(Aut(Σg)) lies inside the unitary subgroup.
+(c) V carries a natural integral structure from the lattice
+H1(Σ, Z)(≃Z2g) ⊂V.
+Show that ρ(Aut(Σg)) lies inside GL(Z2g).
+(d) Conclude that Aut(Σg) is a ﬁnite group.
+2. (a) What is a Killing ﬁeld on a Riemannian manifold?
+(b) Explain why a Killing ﬁeld on a connected Riemannian manifold is determined by
+its value and the value of its ﬁrst derivative at a given point.
+(c) Show that the maximal dimension of the space of Killing ﬁelds on a three dimen-
+sional connected Riemannian manifold is six.
+3. (a) Let X be an n-dimensional compact Riemannian manifold. Show that
+dim(Isom(X)) ≤n(n + 1)
+2
+.
+(b) List all possible M when the equality in the above is achieved.
+
+##### 2018 Individual 2018 Geometry (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Oral Exams in Geometry and Topology
+Individual (4 problems)
+1. Is the surface of genus 3 a covering space of the surface of genus 2. Is the surface
+of genus 2 a covering space of the surface of genus 3. If so, then exhibit an example of
+such a covering.
+2. Consider a smooth map f : S2n−1 →Sn with n ≥2. Let ν be a volume form on Sn
+with volume 1.
+a). Show that f ∗ν is exact.
+b). Write f ∗ν = dα. Show that the integral
+Z
+S2n−1 α ∧f ∗ν
+is independent of the choice of α.
+c). Show that the integral above is actually an invariant of the homotopy class of f.
+d). Show that the integral is 0 if n is odd.
+e). Calculate this integral if f is the Hopf map (z0, z1) →[z0, z1].
+3. (D. Hilbert) There does not exist a complete regular surface in R3 whose Gaussian
+curvature is a negative constant K0.
+4. Let CP 2 denote the complex projective plane with the opposite orientation.
+a). Show that S2×S2 and CP 2#CP 2 have the same cohomology group but diﬀerent
+cohomology ring.
+b). Show that (S2 × S2)#CP 2 and CP 2#2CP 2 have the same cohomology.
+1
+
+##### 2019 Individual 2019 Geometry (Individual).pdf
+=== page 1 ===
+Geometry and Topology: Individual
+(1) Let M = {(x1, y1, · · · , xn, yn) | Pn
+i=1(xi)2 = 1, Pn
+i=1 xiyi = 0} ⊂
+R2n. Show that
+(a) M is a smooth manifold and a vector bundle over the (n −1)
+dimensional sphere. Compute the Euler class of this vector bundle.
+(b) M is a symplectic manifold, i.e. there exists a non-degenerate
+closed 2-form on M.
+(2) Let f be a smooth function on Rn that satisﬁes |∇f| < 1 and f
+vanishes at the origin, and let M be the graph of f in Rn+1 with
+standard coordinates x1, · · · , xn+1. Show that the function
+g = −(xn+1)2 +
+n
+X
+i=1
+(xi)2
+restricts to a proper function on M, i.e for any c > 0, the intersection
+of g−1((−∞, c]) with M is always compact.
+(3) Let X and Y be two compact Riemann surfaces with Euler charac-
+teristics χ(X) and χ(Y ), respectively. Suppose χ(X) > χ(Y ), prove
+that there exists no non-trivial holomorphic map from X to Y .
+(4) Show that a complete surface in R3 with ﬁnite area and negative
+curvature has at least four ends.
+1
+
+##### 2020 Individual 2020 Geometry (Individual).pdf
+=== page 1 ===
+Geometry and Topology
+For morning of October 24th
+Problem 1 Let 
+ be a domain in Rn, containing the ball Dr of radius r with
+center at the origin. Consider u : 
+ ! R satisfying the minimal graph equation:
+div
+0
+@
+5u
+q
+1 + j5uj2
+1
+A = 0.
+Namely,  u = f(x; u (x)) jx 2 
+g is a minimal graph in Rn+1. Let Br  Rn+1
+be the ball of radius r centered at the origin. Show that
+V ol (Br \  u)  V ol (Sn)
+2
+rn
+where Sn is the unit hypersphere of Rn+1.
+Problem 2 Show that
+R
+ H2  16 for any closed embedded surface  in R3.
+When does equality hold?
+(Here H is the mean curvature of the surface ,
+namely H is the sum of principal curvatures).
+Problem 3 Let I be the interval [0; 1]. For a topological space B, say home-
+omorphisms g0; g1 : B ! B are isotopic if they are homotopic via a homotopy
+G : B  I ! B  I with each Gt : B ! B de…ned by Gt (b) = G (b; t) also a
+homeomorphism.
+(a) Show that any order-preserving homeomorphism f : I ! I is isotopic to
+the identity.
+(b) Show that any homeomorphism f : S1 ! S1 of the unit circle is isotopic
+to the identity or the re‡ection along the x-axis.
+1
+
+##### 2021 Individual 2021 Geometry (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Oral Exams in Geometry and Topology
+Individual (4 problems)
+1. Consider the manifold
+M =
+©¡
+(x1, · · · , xn), [y1 : · · · : yn]
+¢
+∈Rn × RPn−1 : xiyj = xjyi ∀i, j
+ª
+,
+and the projection map π : M →Rn onto its Rn-factor. Determine whether or not π
+is a submersion.
+2. The suspension SX of a topological space X is deﬁned as the quotient space of
+X × [0, 1] modulo the equivalence relation generated by
+(x1, 0) ∼(x2, 0) and (x1, 1) ∼(x2, 1) for all x1, x2 ∈X.
+Show that for all n there are isomorphisms eHn(SX) = eHn−1(X).
+3. Let M be a compact orientable Riemannian manifold with nonnegative Ricci cur-
+vature. Then prove the following:
+(a) The ﬁrst Betti number b1(M) ≤dim M.
+(b) The above equality holds if and only if M is isometric to a ﬂat torus.
+(c) If we further assume M has positive Ricci curvature, then b1(M) = 0.
+4. Let M be a Riemannian manifold, let p ∈M, and let Π be a plane in TpM (i.e.,
+a 2-dimensional linear subspace of TpM). Let Dr ⊂TpM be the open disc of radius
+r in the plane Π, centered at 0. For r suﬃciently small, we know that expp(Dr) is an
+embedded 2-dimensional submanifold of M; call its area Ar. Prove that the sectional
+curvature
+K(Π) = lim
+r→0+ 12πr2 −Ar
+πr4
+.
+If you could not give a general proof, maybe try when M is surface, i.e., dim M = 2.
+1
+
+##### 2022 Individual 2022 Geometry (Individual&Overall).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Oral Exams in Geometry and Topology
+Individual (3 problems)
+1. Let M be a closed orientable manifold with dimension n, and let Sn be the n
+dimensional sphere.
+(a) What is the degree deg(f) of a continuous map f : M →Sn;
+(b) For an non-negative integer k ∈N construct a map f : M →Sn with deg(f) =
+k.
+2. Construct a Riemannian metric on CP 2#CP 2 with nonnegative sectional curvature.
+3. Let M n be a closed and embedded minimal hypersurface in the unit sphere Sn+1.
+Then the ﬁrst eigenvalue λ1(M n) of M n satisﬁes
+λ1(M n) ⩾n
+2.
+1
+
+=== page 2 ===
+2
+S.-T. Yau College Student Mathematics Contests 2022
+Oral Exams in Geometry and Topology
+All-round (2 problems)
+1. Prove that the tangent bundle of the product S2 × S3 is trivial.
+2. Any closed (compact and without boundary), oriented and connected even-dimensional
+Riemannian manifold with positive sectional curvature is simply connected.
+
+##### 2023 Individual 2023 Geometry (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Oral Exams in Geometry and Topology
+Individual (Solve 3 out of 4 problems)
+1. Show that S2 × S1 is a double cover of the connected sum RP 3#RP 3.
+2. Consider the matrix group
+G =
+
+
+
+
+
+1
+a
+b
+0
+1
+c
+0
+0
+1
+
+: a, b, c ∈R
+
+
+.
+Prove that its exponential map from its Lie algebra
+exp : G →G
+is a diﬀeomorphism. Provide a generalization and justiﬁcation of the statement.
+3. In the four-dimensional Euclidean space, consider the smooth hypersurface H
+{(x, y, z, w) | x2 + 2y2 + 3z2 + 4w2 = 1}.
+Does there exist a 3-dimensional linear subspace which intersects H along a round
+sphere? Explain.
+4. Let (M, ds2) be a closed surface. Prove that the ﬁrst nonzero eigenvalue λ1(M) of
+the Laplacian satisﬁes
+λ1(M) · Vol(M) ⩽2Vc(n, M)
+for all n where the n-conformal volume Vc(n, M) of M is deﬁned. Equality implies that
+M must be a minimal surface of the unit n-sphere Sn and the immersion is given by a
+subspace of the ﬁrst eigenspace. Here Vol(M) denotes the volume of M.
+Hint of Problem 4: Let φ : M m →Sn be a conformal map from a m-dimensional
+compact Riemannian manifold into the unit n-sphere (Sn, ds2
+0). Let G denote the group
+of conformal diﬀeomorphisms of Sn. Deﬁne
+Vc(n, φ) = sup
+g∈G
+Z
+M
+dµg = sup
+g∈G
+Z
+M
+|∇(g ◦φ)|2dµM,
+where dµg is the volume element (possibly degenerate) associated to the tensor φ∗(g∗ds2
+0).
+For any compact Riemannian manifold M, its n-conformal volume is deﬁned to be
+Vc(n, M) = inf
+φ Vc(n, φ),
+where φ runs over all non-degenerate conformal mappings of M into Sn.
+1
+
+##### 2024 Individual 2024 GeomTop (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Oral Exams in Geometry and Topology
+Individual (Solve 3 out of 4 problems)
+1. Let K ⊂S3 be a smoothly embedded circle (we call it a knot) in the 3-sphere S3.
+Compute all the homology groups of the complement S3 \ K over Z.
+2.
+(1) Consider the height function z on the unit sphere S2 ⊂R3. Show that its
+critical points are non-degenerate (namely, the Hessian matrix at the critical
+point is non-degenerate). Moreover, the number of critical points equals to the
+rank of its total cohomology H∗(S2, R).
+(2) Let π : S3 →CP1 be the ﬁbration deﬁned by [z1 : z2], where S3 is the unit
+sphere in C2. Consider the pull-back function π∗f on S3. What are the critical
+points of π∗f? Are the critical points non-degenerate? If not, can you perturb
+π∗f so that the resulting function only has non-degenerate critical points?
+3. Let n, k be positive integers and 2 ≤k ≤n −1. Suppose Sn is the n-dimensional
+unit sphere in Rn+1 given by
+{(x1, · · · , xn+1) |
+n+1
+X
+i=1
+x2
+i = 1}.
+Suppose H is the cone in Rn+1 given by
+{(x1, · · · , xn+1 |
+k
+X
+i=1
+x2
+i = c
+n+1
+X
+i=k+1
+x2
+i },
+for a constant c > 0.
+(1) Show that H ∩Sn is a smooth submanifold of Sn.
+(2) For what value(s) of c (in terms of n and k) is H ∩Sn a minimal submanifold of
+Sn?
+4. Let a be a positive constant less than 1 and
+f(u) = (1 + a2) 1 −u2
+1 + a2u2 for u ∈(−1, 1).
+Consider the Riemmanian metric
+f(u)dφ ⊗dφ +
+1
+f(u)du ⊗du
+deﬁned on {(u, φ) | −1 < u < 1, 0 < φ < 2π}.
+(1) Show that the metric can be extended to a smooth Riemmanian metric on S2.
+(2) For what value(s) of a can this metric be realized as the induced metric on a
+closed surface in R3?
+1
+
+##### 2025 Individual 2025 GeomTop (Individual).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Oral Exams in Geometry and Topology
+Individual (Solve 3 out of 4 problems)
+1. Let Sn be the unit n-sphere and T ∗Sn be its cotangent bundle.
+(1) Show that T ∗Sn is a complex submanifold of Cn+1.
+(2) Is T ∗Sn, with its standard symplectic structure, symplectomorphic to a sym-
+plectic submanifold of Cn+1? Show your answer explicitly.
+2. Consider the 2-form
+Ω= dz1 ∧dz2
+z1z2
+on (C×)2, where C× = C −{0} denotes the punctured complex plane. Ωis extended
+as a meromorphic 2-form on the complex projective plane CP2.
+(1) What is the pole divisor of Ωon CP2? Show your assertion.
+(2) Consider the disc map u : ∆→CP2, where ∆⊂C is the unit disc, and
+u(ζ) = (z1(ζ), z2(ζ)) =
+µ ζ −a
+1 −¯aζ , ζ −b
+1 −¯bζ
+¶
+where a, b are constants that satisfy |a|, |b| < 1, and (z1, z2) are the inhomoge-
+neous coordinates of CP2. Show that the image of the disc boundary ∂∆lies
+in the torus deﬁned by |z1| = |z2| = 1.
+(3) Could you make sense of the ‘pullback’ u∗Ω(rather than just being simply
+zero), and how many poles does u∗Ωhave?
+3. Let Σ ⊂Rn be a complete minimal surface in Rn.
+(1) Show that the coordinate function xi(i = 1, . . . , n) is harmonic on Σ.
+(2) Prove that Σ is not closed.
+4. The Einstein tensor on a Riemannian manifold with dimension≥2 is deﬁned as
+G = Ric −scal
+2 g.
+(1) Show that divG =0.
+(2) Show that G = 0 in dimension 2 and that G = 0 in dimensions> 2 if and only
+if the metric is Ricci-ﬂat.
+1
+
+##### 2015 Overall 2015 Geometry(Overall).pdf
+=== page 1 ===
+Oral-Example-Geometry-Topology
+All-round
+1.
+(a) Let f : CP2 →CP2 be a continuous map of degree d with |d| ≥2. Show that
+there are at least 3 ﬁxed points.
+(b) Show that CP2n does not cover any manifold except itself.
+2. Let D be a bounded and simply connected domain in R2, and Γ be the boundary of
+D. Set
+A := Area(D),
+L := Length(Γ).
+(a) Prove that
+4πA ≤L2,
+and the equality holds iﬀΓ is a circle.
+(b) Generalize the theorem above to the case where D is a compact and simply
+connected minimal surface with boundary in R3.
+1
+
+##### 2016 Overall 2016 Geometry(Overall).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+All Around of Geometry and Topology
+1. Let P1 = (a1, b1), · · · , Pn = (an, bn) be n distinct points in R2. Deﬁne a 1-form ω
+on R2 −{P1, · · · , Pn} by
+ω =
+n
+X
+i=1
+(x −ai)dy −(y −bi)dx
+(x −ai)2 + (y −bi)2 .
+Let C be a simple closed curve containing P1, · · · , Pn inside and rotate in the positive
+direction. Compute the line integral
+Z
+C
+ω.
+2.
+(a) Deﬁne complex projective space CP n.
+(b) Compute the homology and cohomology of CP n.
+1
+
+##### 2017 Overall 2017 Geometry (Overall).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Overall Problems
+1. Let Σg be a compact Riemann surface of genus g > 1, Aut(Σg) be the automorphism
+group of biholomorphic maps of Σg. Let V = H0(Σg, K) be the space of holomorphic
+1-forms on Σg.
+(a) Show that the natural group homomorphism
+ρ : Aut(Σg) →GL(V )
+is injective.
+(b) V carries a natural hermitian structure
+< ω1, ω2 >= i
+Z
+Σg
+ω1 ∧ω2,
+ωi ∈V.
+Show that ρ(Aut(Σg)) lies inside the unitary subgroup.
+(c) V carries a natural integral structure from the lattice
+H1(Σ, Z)(≃Z2g) ⊂V.
+Show that ρ(Aut(Σg)) lies inside GL(Z2g).
+(d) Conclude that Aut(Σg) is a ﬁnite group.
+2. (a) What is a Killing ﬁeld on a Riemannian manifold?
+(b) Explain why a Killing ﬁeld on a connected Riemannian manifold is determined by
+its value and the value of its ﬁrst derivative at a given point.
+(c) Show that the maximal dimension of the space of Killing ﬁelds on a three dimen-
+sional connected Riemannian manifold is six.
+3. (a) Let X be an n-dimensional compact Riemannian manifold. Show that
+dim(Isom(X)) ≤n(n + 1)
+2
+.
+(b) List all possible M when the equality in the above is achieved.
+1
+
+##### 2018 Overall 2018 Geometry (Overall).pdf
+=== page 1 ===
+3
+All-round (3 problems)
+1. Suppose f(z0, z1, z2, z3) is a degree 2 homogeneous polynomial and its zero set S is a
+smooth submanifold in CP 3. Then S is called a smooth degree 2 complex hypersurface
+in CP 3.
+a). Compute the Euler number of S.
+b). Suppose that f(z0, z1, z2, z3) = z0z3 −z1z2. Identify the zero set as a familiar 4
+dimensional manifold.
+2. Show that a positively curved noncompact surface in R3 has inﬁnite area.
+3. If M is a compact manifold with negative sectional curvature, then the fundamental
+group of M is of exponential growth.
+S.-T. Yau College Student Mathematics Contests 2018
+Oral Exams in Geometry and Topology
+
+##### 2019 Overall 2019Geometry (Overall).pdf
+=== page 1 ===
+Geometry and Topology: Overall
+(1) Show that a compact torus T n = (S1)n cannot admit a Riemannian
+metric of negative sectional curvature.
+(2) Let M be an n-dimensional closed submanifold in the Euclidean
+space Rn+p. Prove the following inequality
+Z
+M
+HndV ≥vol(Sn),
+where H and dV are the mean curvature and the volume element of
+M, respectively, and Sn is the standard unit sphere of dimension n.
+(3) Compute the index of a closed geodesic of length 4π on the standard
+unit 2-sphere.
+1
+
+##### 2020 Overall 2020 Geometry (Overall).pdf
+=== page 1 ===
+Geometry and Topology
+For morning of October 25th
+Problem 1 Consider the mean curvatur ‡ow (MCF for short) f : M I ! Rn
+of a hypersurface M in Rn where ft = f (; t) : M ! Rn. This means
+@f
+@t
+?
+= H (t)
+where ? denotes the normal component, and H (t) is the mean curvature vec-
+tor of ft (M). In particular when
+@f
+@t = T, a constant vector, Mt is called a
+translating soliton, which is just a parallel transport of M in the direction T.
+(1) When n = 2, show that the MCF of the grim reaper 
+ in R2
+y =   log cos x
+is the translating soliton with T = (0; 1).
+(2) Show that M = 
+  Rk is a translating soliton in Rk+2.
+Problem 2 Let (M n; g) be a closed, orientable n-dimensional Riemannian man-
+ifold with positive Ricci curvature.
+(a) Prove that the …rst Betti number b1 of M vanishes.
+(b) Suppose RicM  (n   1) > 0, show that 1  n, where 1 is the …rst
+eigenvalue of the Laplace-Beltrami operator  on (M; g).
+Problem 3 Let I be the interval [0; 1]. For a topological space B, say home-
+omorphisms g0; g1 : B ! B are isotopic if they are homotopic via a homotopy
+G : B  I ! B with each Gt : B ! B de…ned by Gt (b) = G (b; t) also a
+homeomorphism.
+(1) Show that any orientation-preserving homeomorphism f : D2 ! D2 of
+the closed unit disc is isotopic to a homeomorphism which is the identity on the
+boundary S1.
+(You can use the fact that any orientation-preserving homeomorphim  :
+S1 ! S1 is isotopic to the identity).
+(2) Show that a homeomorphism f : D2 ! D2 of the unit disc is isotopic to
+the identity or the re‡ection along the x-axis.
+1
+
+##### 2021 Overall 2021 Geometry (Overall).pdf
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2021
+Oral Exams in Geometry and Topology
+All-round (2 problems)
+1. Let Σ be a regular surface in R3, and ν be its Gauss map. Let f : Σ →(0, ∞) be a
+smooth function on Σ, and consider the set:
+ˆΣ = {p + f(p)ν(p) : p ∈Σ}.
+Show that if id + fh : TpΣ →TpΣ is invertible for all p ∈Σ, then ˆΣ is also a regular
+surface. Here h is the second fundamental form.
+2. Suppose M is a compact manifold with boundary. Glue together a pair of M’s along
+their boundaries to form a new manifold f
+M. Explain how to use a Mayer-Vietoris
+sequence to ﬁnd a relation between χ(f
+M), χ(∂M) and χ(M).
+
+##### 2022 Overall 2022 Geometry (Individual&Overall).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Oral Exams in Geometry and Topology
+Individual (3 problems)
+1. Let M be a closed orientable manifold with dimension n, and let Sn be the n
+dimensional sphere.
+(a) What is the degree deg(f) of a continuous map f : M →Sn;
+(b) For an non-negative integer k ∈N construct a map f : M →Sn with deg(f) =
+k.
+2. Construct a Riemannian metric on CP 2#CP 2 with nonnegative sectional curvature.
+3. Let M n be a closed and embedded minimal hypersurface in the unit sphere Sn+1.
+Then the ﬁrst eigenvalue λ1(M n) of M n satisﬁes
+λ1(M n) ⩾n
+2.
+1
+
+=== page 2 ===
+2
+S.-T. Yau College Student Mathematics Contests 2022
+Oral Exams in Geometry and Topology
+All-round (2 problems)
+1. Prove that the tangent bundle of the product S2 × S3 is trivial.
+2. Any closed (compact and without boundary), oriented and connected even-dimensional
+Riemannian manifold with positive sectional curvature is simply connected.
+
+##### 2023 Overall 2023 Geometry (Overall).pdf
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2023
+Oral Exams in Geometry and Topology
+All-round (Solve 1 out of 2 problems)
+1. Consider the two-dimensional unit sphere S2. Let ∆denote the Laplace operator
+of 1-form on S2. Find all smooth 1-forms ω that satisfy the equation
+∆ω + ω = 0.
+2. Let M n be an n(⩾2)-dimensional compact Riemannian manifold without boundary
+isometrically immersed in the Euclidean space Rn+1. Then the ﬁrst eigenvalue λ1(M n)
+of the Laplacian on M n satisﬁes
+λ1(M n) ⩽
+n
+Vol(M n)
+Z
+M
+H2dµ.
+Furthermore, the equality holds if and only if M n is a round sphere in Rn+1. Here
+H =
+1
+n
+Pn
+i=1 κi is the mean curvature of M n in Rn+1 and Vol(M n) is the volume of
+M n.
+
+##### 2024 Overall 2024 GeomTop (Overall).pdf
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2024
+Oral Exams in Geometry and Topology
+All-round (Solve 1 out of 2 problems)
+1. A 2-form ω on a manifold X is said to be non-degenerate if the contraction with ω
+is an isomorphism TM ∼= T ∗M. Then a smooth function H on X produces a vector
+ﬁeld VH, which corresponds to dH under the above isomorphism TM ∼= T ∗M.
+(1) For example, show that the standard area form on R2 is non-degenerate. As
+an example, let H = x2 + y2. Compute the vector ﬁeld VH. What is the ﬂow
+generated by this vector ﬁeld?
+(2) Note that the directional derivative VH · H is zero in the above example. Prove
+that this is generally true.
+(3) Note that the area form ω is invariant under the ﬂow in the above example.
+Prove that this is generally true, if we further assume the non-degenerate two-
+form ω is closed.
+2. Show that any compact odd-dimensional Riemannian manifold with positive sec-
+tional curvature is orientable.
+
+##### 2025 Overall 2025 GeomTop (Overall).pdf
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2025
+Oral Exams in Geometry and Topology
+All-round (Solve 1 out of 2 problems)
+1. Let Sn be the unit n-sphere and TSn be its tangent bundle.
+(1) Show that TSn × R is a trivial bundle over Sn.
+(2) If n = 2m is even, show that TS2m is not a trivial bundle.
+2. Let ω be a volume form on S2. For each map f : S3 →S2, the form f ∗ω is a closed
+2-form, so we can write f ∗ω = dα for some 1-form α. The number
+H(f) =
+Z
+S3 α ∧dα
+is called the Hopf invariant of f.
+(1) Prove that H(f) does not depend on the choice of α.
+(2) Prove that homotopic maps have the same Hopf invariant.
+
+##### 2015 Team 2015 Geometry (Team).pdf
+=== page 1 ===
+Oral-Example-Geometry-Topology
+1
+Group
+1. Show that S2 × S2 and the connected sum CP2♯CP2 are not homotopic equivalent.
+2. Show that any closed surface has a closed geodesic.
+3. Compute the Euler number of a smooth degree d hypersurface in CP3.
+1
+
+##### 2016 Team 2016 Geometry (Team).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Oral Exam of Geometry and Topology
+1.
+(1) Let F : Sn →Sn be a continuous map.
+Deﬁne the degree of F and show that when F is smooth,
+degF
+Z
+Sn ω =
+Z
+Sn F ∗ω
+for all ω ∈Ωn(Sn).
+(2) Show that if F has no ﬁxed point then degF = (−1)n+1.
+2. Let n ≥0 be an integer, M be a compact smooth manifold of dimension 4n + 2,
+show that dimH2n+1(M, R) is even.
+3. Let M be a compact, simply connected smooth manifold of dimension n, prove that
+there is no smooth immersion
+f : M →T n,
+where T n is n-torus.
+4. Let a > 0 be a real number.
+Let S′(a) denote the circle obtained by identifying the end points of the interral [0, a].
+Consider the Riemannian metric deﬁned by
+r2
+µ
+1 −1
+r2
+¶
+dx2 +
+µ
+1 −1
+r2
+¶−1
+r−2dr2,
+where x ∈S′(a) and r ∈(1, ∞).
+Find the value of a such that the metric can be smoothly extended to r = 1.
+1
+
+##### 2017 Team 2017 Geometry (Team).pdf
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Team Problems
+1. (a) Describe the loop space ΩS2 and path space PS2 of the sphere S2 in the following
+ﬁbration:
+ΩS2
+/ PS2
+²
+S2.
+(b) Compute the cohomology of the loop space ΩS2. What is the ring structure of
+H∗(ΩS2)?
+2 (Synge theorem). Let M be an even-dimensional compact Riemannian manifold with
+positive sectional curvature.
+(a) When M is orientable, show that M is simply connected.
+(b) When M is unorientable, what is π1(M)?
+3. (a) Let C be a smooth curve on the sphere. The Crofton formula expresses the arc
+length L(C) of the curve C as
+L(C) = 1
+4
+Z
+S2 n(C ∩W ⊥)dW.
+Here W ⊥is the plane with normal W going through the origin and n(C ∩W ⊥) is the
+number of points in the intersection of C and W ⊥.
+(b) Sketch a proof of Crofton formula.
+4. Let Ω= xdy ∧dz + ydz ∧dx + zdx ∧dy and α > 0. Suppose D is the surface in R3
+deﬁned by {(x, y, z) | x2 + y2 + z2 = 1, z ≥α
+p
+x2 + y2}.
+(a) Show that Ω|D is an orientation form and makes D an oriented manifold with
+boundary.
+(b) Evaluate
+R
+D Ω. Your answer should be in terms of α.
+1
+
+##### 2018 Team 2018 Geometry (Team).pdf
+=== page 1 ===
+2
+Team (5 problems)
+1. Show that a closed simply connected 3-manifold is homotopically equivalent to the
+3-sphere.
+2. Recall that a symplectic form ω on a smooth manifold M is a degree 2 diﬀerential
+form which is closed and non-degenerate. Here non-degeneracy means that if there is
+a point x ∈M and a tangent vector u ∈TxM such that ω(u, v) = 0 for any v ∈TxM,
+then u = 0. Let ω be a symplectic form on M.
+a). Show that M is orientable.
+b). A vector ﬁeld V on M is called a Liouville vector ﬁeld with respect to ω if
+LV ω = ω. Here LV denotes the Lie derivative wit respect to V . Show that there isn’t
+any Liouville vector ﬁeld on M if M is a closed manifold.
+3. Prove that there is no nonconstant continuous function on R which is periodic with
+respect to two periods 1 and π.
+4. If M is a compact manifold with negative sectional curvature, then the isometry
+group of M is ﬁnite.
+5. (E. Cartan) Let K be a compact Lie group acting by isometries on a simply
+connected, complete Riemannian manifold M of negative curvature. Then there is a
+common ﬁxed point of all k ∈K.
+S.-T. Yau College Student Mathematics Contests 2018
+Oral Exams in Geometry and Topology
+
+##### 2019 Team 2019Geometry (Team).pdf
+=== page 1 ===
+Geometry and Topology: Team
+(1) Let M be a surface in R3. Suppose for each point of M, there exist
+two families of geodesics which intersect at a constant angle. Prove
+that M has constant zero Gaussian curvature.
+(2) Prove that two closed minimal hypersurfaces in Sn must intersect
+each other.
+(3) Let M be a compact closed hypersurface in Rn+1. Prove that M
+is an n-sphere if M has constant mean curvature and nonnegative
+Ricci curvature.
+(4) Let X ∈k := Lie(K) be a real vector ﬁeld on a compact connected
+smooth manifold M with an eﬀective action of a compact real Lie
+group K. By choosing a K-invariant real symplectic form ω on M,
+assume f ∈C∞(M)R is such that
+df = iXω
+Show that the value maxM f −minM f is independent of the choice
+of ω as far as ω deﬁnes the same de Rham cohomology class [ω].
+1
+
+##### 2023 Team 2023 Geometry2023-团体赛.pdf
+=== page 1 ===
+3
+S.-T. Yau College Student Mathematics Contests 2023
+Oral Exams in Geometry and Topology
+Team (Solve 2 out of 3 problems)
+1. Prove that there does not exist a compact 5-dimensional manifold W with boundary
+such that its boundary ∂W = CP 2.
+2. Consider the Lorentzian metric
+(r −1)du ⊗du +
+1
+1 −rdr ⊗dr + r2dθ ⊗dθ
+deﬁned on {(u, r, θ) | −∞< u < ∞, 0 < r < 1, 0 ≤θ < 2π}. Can the metric be
+smoothly extended to r = 0 and r = 1.
+3. Let M n be an n(⩾2)-dimensional closed submanifold in the Euclidean space Rn+p.
+Show that
+Z
+M
+Hndµ ⩾Vol(Sn).
+Here H is the mean curvature norm of M, and Sn is the unit n-sphere.
+
+##### 2024 Team 2024 GeomTop (Team).pdf
+=== page 1 ===
+3
+S.-T. Yau College Student Mathematics Contests 2024
+Oral Exams in Geometry and Topology
+Team (Solve 2 out of 3 problems)
+1.
+(1) Let X and Y be compact, orientable manifolds of the same dimension. Deﬁne
+the degree of a continuous map f : X →Y .
+(2) Show that the degree of any continuos map f : CPm →CPm is of the form km
+for some integer k.
+(3) Conversely, show that for any k ∈Z>0, there is a continuous map f : CPm →
+CPm with degree km.
+2. Show that the matrix multiplication ⃗z · ⃗z∗, where ⃗z denotes a unit column vector in
+C3 and ⃗z∗is its conjugate transpose row vector, deﬁnes a U(3)-equivariant embedding
+from CP2 to the vector space of (3 × 3) Hermitian matrices.
+Moreover, show that this is an isometric embedding. Here, CP2 is equipped with the
+standard Fubini-Study metric
+1
+|⃗z|4
+¡
+|⃗z|2|d⃗z|2 −(d⃗z∗· ⃗z)(⃗z∗· d⃗z)
+¢
+.
+The vector space of Hermitian matrices is equipped with the ﬂat metric.
+3. Let (S2, g) be the two-dimensional unit sphere with the standard round metric g
+and ∇be the covariant derivative associated with g. Suppose ω is a smooth diﬀerential
+1-form on S2 such that ∇ω is proportional to g at each point.
+(1) Find all such ω.
+(2) What is the diﬀeomorphism (of S2) generated by the dual of ω?
+
+##### 2025 Team 2025 GeomTop (Team).pdf
+=== page 1 ===
+3
+S.-T. Yau College Student Mathematics Contests 2025
+Oral Exams in Geometry and Topology
+Team (Solve 2 out of 3 problems)
+1. Let Ωbe the 2-form on R3 −{0} deﬁned by
+Ω=
+1
+(x2 + y2 + z2)3/2(xdy ∧dz + ydz ∧dx + zdx ∧dy).
+Prove that Ωis not exact.
+2. Let ι : L →M be an immersion between compact topological manifolds L and M
+with dimension n and 2n respectively. Suppose the self intersection of the image ι(L)
+is transverse. Consider the ﬁber product
+L ×ι L = {(x, y) ∈L × L : ι(x) = ι(y)}.
+(1) Show that the self intersection must be a ﬁnite set of points.
+(2) What are the connected components of L ×ι L?
+(3) Now take L to be a disjoint union of k copies of two-dimensional spheres S2.
+We deﬁne the twisted Euler characteristic of the immersion to be
+χ(ι(L)) := χ(∆L) −
+X
+P
+χ(P)
+where ∆L = {(x, x) : x ∈L} ⊂L ×ι L denotes the diagonal component, and P
+runs over all other components of L×ιL, and χ denotes the Euler characteristic
+of the components. Show that χ(ι(L)) equals two times the Euler characteristic
+of the intersection graph Γ (as a curve), where Γ has k vertices corresponding to
+the sphere components and edges corresponding to intersection points between
+the sphere components.
+3. Consider a smooth vector bundle E over a compact smooth manifold X with a
+connection ∇. Let Ω•(X, E) denote the space of smooth diﬀerential forms valued in
+E.
+(1) What is the condition on ∇such that (Ω•(X, E), ∇) forms a chain complex?
+(2) Given another connection ˜∇on E, show that it must be of the form ∇+ A
+where A is a one-form valued endomorphism of E, that is, A ∈Ω1(X, End(E)).
+(3) Suppose ∇satisﬁes the condition above. Consider the deformed chains
+(Ω•(X, E), ∇+At) for a one-parameter smooth family of elements At ∈Ω1(X, End(E))
+with A0 = 0. What is the condition on At such that it forms a chain complex?
+Show that this implies dAt
+dt
+¯¯
+t=0 is a closed element in degree one in the complex
+(Ω•(X, End(E)), ∇).
+(4) Could you elaborate on the geometric meaning of the ﬁrst cohomology group
+of the complex (Ω•(X, End(E)), ∇)?
+

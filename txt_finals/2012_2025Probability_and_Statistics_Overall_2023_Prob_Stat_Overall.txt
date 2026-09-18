@@ -1,0 +1,26 @@
+
+=== page 1 ===
+Yau College Math Competition 2023
+Final Probability and Statistics
+Individual All-round Problems (June 10-11, 2023)
+Choose 1 from the following 2 problems.
+Problem 1. Suppose that X1, X2, · · · are i.i.d. random variables such that P(Xi =
+1) = P(Xi = −1) = 1
+2. Take some a ∈(0, 1).
+(1) Prove or disprove that the distribution function of ξ = P∞
+k=1 akXk is contin-
+uous.
+(2) For a = 1
+2, ﬁnd the distribution of ξ.
+(3) For a = 1
+3, ﬁnd the distribution of ξ.
+Problem 2. Let F2 = {0, 1} be the number ﬁeld with two elements and F d
+2 be
+the d-dimensional vector space over F2. Let t ≤d and Xk, k = 1, 2, · · · , t, be i.i.d
+random variables uniformly distributed on F d
+2 .
+(1) Find the probability that X1, X2, · · · , Xt are linearly independent (as vectors
+in F d
+2 ).
+(2) Give a positive lower bound (independent of t, and as large as you can) of
+the above probability.

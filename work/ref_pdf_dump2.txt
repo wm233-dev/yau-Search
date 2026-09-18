@@ -1,0 +1,250 @@
+##########################################################################################
+## 2014 / analysis2014(individual).pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2014
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let f : R →R be a continuous function which satisﬁes
+sup
+x,y∈R
+|f(x + y) −f(x) −f(y)| < ∞.
+If we have
+lim
+n→∞,n∈N
+f(n)
+n
+= 2014, prove sup
+x∈R
+|f(x) −2014 x| < ∞.
+2. Let f1, ..., fn are analytic functions on D = {z||z| < 1} and contin-
+uous on ¯D, prove that ϕ(z) = |f1(z)| + |f2(z)| + ... + |fn(z)| achieves
+maximum values at the boundary ∂D.
+3. Prove that if there is a conformal mapping between the annulus
+{z|r1 < |z| < r2} and the annulus {z|ρ1 < |z| < ρ2}, then r2
+r1 = ρ2
+ρ1.
+4. Let U(ξ) be a bounded function on R with ﬁnitely many points of
+discontinuity, prove that
+PU(x) = 1
+π
+∫
+R
+y
+(x −ξ)2 + y2U(ξ)dξ
+is a harmonic function on the upper half plane {z ∈C|Imz > 0} and
+it converges to U(ξ) as z →ξ at a point ξ where U(ξ) is continuous.
+5. Let f ∈L2(R) and let ˆf be its Fourier transform. Prove that
+∫∞
+−∞
+x2|f(x)|2dx
+∫∞
+−∞
+ξ2| ˆf(ξ)|2dξ ≥
+(
+∫∞
+−∞|f(x)|2dx)2
+16π2
+,
+under the condition that the two integrals on the left are bounded.
+(Hint: Operators f(x) →xf(x) and ˆf(ξ) →ξ ˆf(ξ) after Fourier
+transform are non-commuting operators. The inequality is a version of
+the uncertainty principle.)
+6. Let Ωbe an open domain in the complex plane C. Let H be the
+subspace of L2(Ω) consisting of holomorphic functions on Ω.
+a) Show that H is a closed subspace of L2(Ω), and hence is a Hilbert
+space with inner product
+(f, g) =
+∫
+Ω
+f(z)¯g(z)dxdy, where z = x + iy.
+b) If {ϕn}∞
+n=0 is an orthonormal basis of H, then
+1
+---- page 2 ----
+2
+Σ∞
+n=0|ϕn(z)|2 ≤
+c2
+d(z, Ωc), for z ∈Ω.
+c) The sum
+B(z, w) = Σ∞
+n=0ϕn(z)¯ϕn(w)
+converges absolutely for (z, w) ∈Ω× Ω, and is independent of the
+choice of the orthonormal basis.
+##########################################################################################
+## 2014 / analysis2014(team).pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2014
+Analysis and Diﬀerential Equations
+Team
+Please solve 5 out of the following 6 problems.
+1. Calculate the integral:
+∫∞
+0
+log x
+1 + x2dx.
+2. Construct an increasing function on R whose set of discontinuities
+is precisely Q.
+3. Prove that any bounded analytic function F over {z|r < |z| < R}
+can be written as F(z) = zαf(z), where f is an analytic function over
+the disk {z||z| < R} and α is a constant.
+4. Let D ⊂Rn be a bounded open set, f : ¯D →¯D is a smooth map
+such that its Jacobian
+
+∂f
+∂x
+ ≡1, where ¯D denotes the closure of D.
+Prove
+(a) for each small ball Bϵ(x), there exists a positive integer k such
+that f k(Bϵ(x)) ∩Bϵ(x) ̸= ∅, where Bϵ(x) denotes the ball cen-
+tered at x with radius ϵ;
+(b) there exists x ∈¯D and a sequence k1, k2, · · · kj, · · · such that
+f kj(x) →x as kj →∞.
+5. Let u be a subharmonic function over a domain Ω⊂C, i.e., it is
+twice diﬀerentiable and ∆u = ∂2u
+∂x2 + ∂2u
+∂y2 ≥0. Prove that u achieves its
+maximum in the interior of Ωonly when u is a constant.
+6. Suppose that ϕ ∈C∞
+0 (Rn),
+∫
+Rn ϕdx = 1. Let ϕϵ(x) = ϵ−nϕ(x/ϵ), x ∈
+Rn, ϵ > 0. Prove that if f ∈Lp(Rn), 1 ≤p < ∞, then f ∗ϕϵ →f in
+Lp(Rn), as ϵ →0. It is not true for p = ∞.
+1
+##########################################################################################
+## 2016 / analysis2016-individual.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2016
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Suppose that F is continuous on [a, b], F
+′(x) exists for every x ∈(a, b), F
+′(x) is
+integrable. Prove that F is absolutely continuous and
+F(b) −F(a) =
+∫b
+a
+F
+′(x)dx.
+2. Suppose that f is integrable on Rn, let Kδ(x) = δ−n
+2 e
+−π|x|2
+δ
+for each δ > 0. Prove
+that the convolution
+(f ∗Kδ)(x) =
+∫
+Rn f(x −y)Kδ(y)dy
+is integrable and ||(f ∗Kδ) −f||L1(Rn) →0, as δ →0.
+3. Prove that a bounded function on interval I = [a, b] is Riemann integrable if and
+only if its set of discontinuities has measure zero. You may prove this by the following
+steps.
+Deﬁne I(c, r) = (c −r, c + r), osc(f, c, r) = supx,y∈J∩I(c,r) |f(x) −f(y)|, osc(f, c) =
+limr→0 osc(f, r, c).
+1) f is continuous at c ∈J if and only if osc(f, c) = 0.
+2) For arbitrary ϵ > 0, {c ∈J|osc(f, c) ≥ϵ} is compact.
+3) If the set of discontinuities of f has measure 0, then f is Riemann integrable.
+4. 1) Let f be the Rukowski map: w = 1
+2(z + 1
+z). Show that it maps {z ∈¯C||z| > 1}
+to ¯C/[−1, 1], ¯C = C ∪{∞}.
+2) Compute the integral:
+∫∞
+0
+log x
+x2 −1dx.
+5. Let f be a doubly periodic meromorphic function over the complex plane, i.e. f(z +
+1) = f(z), f(z + i) = f(z), z ∈C, prove that the number of zeros and the number of
+poles are equal.
+6. Let A be a bounded self-adjoint operator over a complex Hilbert space. Prove that
+the spectrum of A is a bounded closed subset of the real line R.
+1
+##########################################################################################
+## 2019 / Analysis2019-individual.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2019
+Analysis and Diﬀerential Equations
+Individual (5 problems)
+1) Let F : R →R be a strictly convex function. Let u: [0, 1] →R be a continuous function, with
+Z 1
+0
+u(x) dx = 0.
+Show that
+Z 1
+0
+F(u(x)) dx ⩽F(∥u∥∞) + F(−∥u∥∞)
+2
+where ∥u∥∞:= sup
+x∈[0,1]
+|u(x)|. Also determine when equality occurs.
+2) Prove that there exists a universal constant K, for all C1 function f : R2 →R, if f ∈L1 ¡
+R2¢
+∩L2 ¡
+R2¢
+and |∇f| ∈L2(R2), we have the following inequality:
+∥f∥2
+L2(R2) ⩽K ∥f∥L1(R2) ∥∇f∥L2(R2) .
+Can you provide constant K so that K < 10? In the problem, all the Lp-spaces are deﬁned with
+respect to the Lebesgue measure.
+3) Let f : R2 →R be a harmonic function. Suppose
+lim
+|x|→∞
+|f(x)|
+ln |x| = 0.
+Prove or disprove that f is a constant.
+4) (a) Show that there does not exist a holomorphic function f on C \ {1, −1} so that
+f ′(z) =
+1
+(z2 −1)2019
+for all z ∈C \ {1, −1}.
+(b) Show that there exist a set L ⊂C and a holomorphic function F on C \ L so that L has Hausdorﬀ
+dimension 1, and
+F ′(z) =
+1
+(z2 −1)2019
+for all z ∈C \ L.
+5) Let Ω⊂R2 be a bounded domain with smooth boundary. Prove that, for all p > 1 and 1 ⩽q < ∞,
+for all f ∈Lp(Ω), there exists a unique u ∈H1
+0(Ω), such that
+△u = |u|q−1u + f in Ω.
+1
+##########################################################################################
+## 2019 / Analysis2019-team.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2019
+Analysis and Diﬀerential Equations
+Team (5 problems)
+1) Show that there is no non-zero f ∈C∞
+0 (R2) (compactly supported smooth function) so that its Fourier
+transform bf(ξ) is also compactly supported.
+2) Prove the following classical interior Schauder estimates:
+There exists a universal constant C, for all smooth compactly supported functions u, f ∈C∞
+0 (R3) with
+△u = f, we have
+∥u∥C2,α ⩽C∥f∥C0,α,
+where 0 < α < 1 and ∥· ∥Ck,α are H¨older norms.
+3) Let (X, A, µ) be a probability space and let T : X →X be a measurable and measure preserving map,
+i.e., for all A ∈A, we have µ
+¡
+T −1(A)
+¢
+= µ(A). For A, B ∈A, if µ(A −B) = µ(B −A) = 0, we say
+that A = B a.e.
+Assume A ∈A such that T −1(A) = A a.e..Prove that there exists a set B ∈A so that T −1B = B and
+A = B a.e.
+4) Is there an entire function f with inﬁnitely many zeroes, so that for every r ∈(0, 1), there exist
+constants Ar, Br < ∞such that
+|f(z)| ⩽AreBr|z|r
+for every z ∈C?
+5) Let u(t, x, y) be a smooth real function deﬁned on R × R2 where t ∈R and (x, y) ∈R2. We assume
+that it solves the following semilinear wave equation:
+−∂2
+∂t2 u + △u = u3.
+If the supports of the initial data u(0, x) and ∂u
+∂t (0, x) are compact, prove that, for all t0 ∈R, the
+supports of u(t0, x) and ∂u
+∂t (t0, x) are compact.
+1

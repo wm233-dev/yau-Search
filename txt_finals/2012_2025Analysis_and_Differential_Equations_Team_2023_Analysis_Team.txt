@@ -1,0 +1,26 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+Team
+Please solve two from the following three problems.
+1. Given two lattices Γ1 = Z · ω1,1 + Z · ω1,2 and Γ2 = Z · ω2,1 + Z · ω2,2 in the complex
+plane C having full rank. Let f : C →C be an entire function inducing a holomorphic
+map between two elliptic curves C/Γ1 and C/Γ2, i.e.,
+f(z) = f(z + γ)
+(mod Γ2)
+(∀z ∈C, γ ∈Γ1).
+Show that f(z) = a·z+b for any z ∈C, where a, b are some complex numbers satisfying
+a · Γ1 ⊂Γ2, b ∈Γ2.
+2. Let T be a bounded self-adjoint operator, prove that the spectrum of T is not empty.
+If T is self-adjoint but unbounded, is the spectrum of T necessarily non-empty? Prove
+your conclusion.
+3. Let {fn}n be a bounded sequence in L2(R3), and let {gn}n be a sequence of Schwartz
+functions.
+Assume,
+(0.1)
+(−∆+ |x|2)gn = fn.
+Prove that
+• {gn}n is a bounded sequence in L2(R3).
+• One can ﬁnd a subsequence {gnk}k, which converges in L2(R3).
+1

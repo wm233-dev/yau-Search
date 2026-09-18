@@ -1,0 +1,28 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Geometry and Topology
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let n, m be positive integers. Show that the product of spheres Sn × Sm has trivial
+tangent bundle if and only if n or m is odd.
+2. Show that there does not exist a compact three-dimensional manifold M whose
+boundary is the real projective space RP2.
+3. Let M n be a smooth manifold without boundary and X a smooth vector ﬁeld on
+M. If X does not vanish at p ∈M, show that there exists a local coordinate chart
+(U; x1, . . . , xn) centered at p such that in U the vector ﬁeld X takes the form X =
+∂
+∂x1.
+4. Let M →R3 be a compact simply-connected closed surface. Prove that if M has
+constant mean curvature, then M is a standard sphere.
+5. Let M be an n-dimensional compact Riemannian manifold with diameter π/c and
+Ricci curvature ≥(n −1)c2 > 0. Show that M is isometric to the standard n-sphere
+in Rn+1 with radius 1/c.
+6. Suppose (M, g) is a Riemannian manifold and p ∈M. Show that the second-order
+Taylor series of g in normal coordinates centered at p is
+gij(x) = δij −1
+3
+∑
+k,l
+Rikljxkxl + O(|x|3).
+1

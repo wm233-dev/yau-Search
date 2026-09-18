@@ -1,0 +1,1167 @@
+[
+ {
+  "id": "PS-M01",
+  "name": "部分和/平均的几乎必然收敛与可积性",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "first": "2010",
+  "last": "2019",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M02",
+  "name": "多项/离散模型的 MLE、似然比检验与渐近分布",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2010",
+  "last": "2023",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M03",
+  "name": "归一化比值导出 Beta/Dirichlet/F（Gamma 和与正态二次型）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2010",
+  "last": "2015",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M04",
+  "name": "次序统计量与间距的分布及其渐近",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 1
+   }
+  ],
+  "first": "2010",
+  "last": "2018",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M05",
+  "name": "条件期望作为最优预测（正态线性投影、给定统计量的最优猜测）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2010",
+  "last": "2014",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M06",
+  "name": "极小极大估计与风险下界",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2010",
+  "last": "2022",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M07",
+  "name": "Borel-Cantelli 与 limsup 几乎必然极限（含逆命题）",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2012",
+  "last": "2021",
+  "trend": "升要求",
+  "size": 8
+ },
+ {
+  "id": "PS-M08",
+  "name": "用特征函数刻画与识别分布（正定性、单位根消去、稳定律）",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2012",
+  "last": "2026",
+  "trend": "升要求",
+  "size": 5
+ },
+ {
+  "id": "PS-M09",
+  "name": "收敛模式之间的关系（依概率、依分布、矩收敛、随机下标、一致可积）",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2012",
+  "last": "2021",
+  "trend": "升要求",
+  "size": 5
+ },
+ {
+  "id": "PS-M10",
+  "name": "贝叶斯更新、贝叶斯检验与经验贝叶斯",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2012",
+  "last": "2018",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M11",
+  "name": "条件期望的测度论性质：测度变换、分布不变性与条件独立",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2012",
+  "last": "2014",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M12",
+  "name": "正态族的独立性层级：不相关、独立与条件独立",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2012",
+  "last": "2018",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M13",
+  "name": "支撑依赖参数的非正则 MLE 及其极限分布",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2012",
+  "last": "2024",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M14",
+  "name": "检验统计量的构造、p 值分布与功效",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2012",
+  "last": "2013",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M15",
+  "name": "秩检验与 P(X<Y) 型效应量",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2012",
+  "last": "2026",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M16",
+  "name": "充分性、完备性与 UMVUE",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2013",
+  "last": "2023",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M17",
+  "name": "置信区间的覆盖概率与构造",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2013",
+  "last": "2025",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M18",
+  "name": "记录值与排列圈数：调和和型期望及其极限",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2013",
+  "last": "2023",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M19",
+  "name": "正态向量的旋转/正交投影技巧与 t 分布构造",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2013",
+  "last": "2018",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M20",
+  "name": "线性模型的代数：可估性、FWL 定理与 OLS 投影",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2013",
+  "last": "2026",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M21",
+  "name": "Lasso 与稀疏估计的刻画",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2013",
+  "last": "2015",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M22",
+  "name": "由函数恒等式/不变性反推分布（Stein 恒等式、旋转不变性、和差独立）",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2014",
+  "last": "2026",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M23",
+  "name": "估计量的无偏性、相合性、渐近正态与渐近效率",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2014",
+  "last": "2017",
+  "trend": "升要求",
+  "size": 3
+ },
+ {
+  "id": "PS-M24",
+  "name": "指定模式首次出现的等待时间",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2015",
+  "last": "2022",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M25",
+  "name": "经典递推/对称性技巧求期望（飞机座位、无放回取球）",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2015",
+  "last": "2017",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M26",
+  "name": "矩约束下的极值与可达集",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2015",
+  "last": "2016",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M27",
+  "name": "集中不等式：MGF/矩方法",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2016",
+  "last": "2020",
+  "trend": "换皮",
+  "size": 3
+ },
+ {
+  "id": "PS-M28",
+  "name": "随机游走的极值与访问计数",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2016",
+  "last": "2024",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M29",
+  "name": "格点随机游走的相交与自回避",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 4
+   }
+  ],
+  "first": "2016",
+  "last": "2017",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M30",
+  "name": "树上随机游走与信号传播的临界阈值",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2016",
+  "last": "2017",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M31",
+  "name": "占位与匹配问题的极限分布",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2016",
+  "last": "2018",
+  "trend": "升要求",
+  "size": 2
+ },
+ {
+  "id": "PS-M32",
+  "name": "随机矩阵的典型性质",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2016",
+  "last": "2021",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M33",
+  "name": "Markov 链的常返性、平稳分布与几何混合",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2017",
+  "last": "2022",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M34",
+  "name": "赌局与随机游走的吸收概率、停止时间（赌徒输光型）",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2017",
+  "last": "2024",
+  "trend": "升要求",
+  "size": 4
+ },
+ {
+  "id": "PS-M35",
+  "name": "随机图的阈值现象",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 4
+   }
+  ],
+  "first": "2017",
+  "last": "2019",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M36",
+  "name": "重随机化与基于设计的因果推断",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2019",
+  "last": "2021",
+  "trend": "升要求",
+  "size": 5
+ },
+ {
+  "id": "PS-M37",
+  "name": "正则条件概率与条件期望的极限逼近",
+  "members": [
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2023",
+  "last": "2023",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M38",
+  "name": "高维 M 估计量的均匀偏差界",
+  "members": [
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2024",
+  "last": "2025",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-M39",
+  "name": "非传递性与决策悖论",
+  "members": [
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2025",
+  "last": "2025",
+  "trend": "换皮",
+  "size": 2
+ },
+ {
+  "id": "PS-S01",
+  "name": "自归一化/三角阵列的中心极限定理",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "first": "2010",
+  "last": "2010",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S02",
+  "name": "iid 对称化测度不等式 P(|X+Y|<1) <= 3P(|X-Y|<1)",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2012",
+  "last": "2012",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S03",
+  "name": "随机变量之比的密度（Jacobian 变换）",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "first": "2014",
+  "last": "2014",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S04",
+  "name": "用可测集把 Bernoulli 概率测度两两分离",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2017",
+  "last": "2017",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S05",
+  "name": "灯泡随机切换过程的返回概率",
+  "members": [
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "first": "2018",
+  "last": "2018",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S06",
+  "name": "Sanov 型熵函数 l(mu) 的凹性与单调性",
+  "members": [
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2018",
+  "last": "2018",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S07",
+  "name": "直方图密度估计的偏差-方差与窗宽选择",
+  "members": [
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 4
+   }
+  ],
+  "first": "2018",
+  "last": "2018",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S08",
+  "name": "随机幂级数的零点无穷多次",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2019",
+  "last": "2019",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S09",
+  "name": "耦合与全变差距离的变分刻画",
+  "members": [
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2022",
+  "last": "2022",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S10",
+  "name": "Dirichlet 过程的边缘分布与二值化",
+  "members": [
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2023",
+  "last": "2023",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S11",
+  "name": "X^k 数位的等分布与 k(m) 的充要条件",
+  "members": [
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2024",
+  "last": "2024",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S12",
+  "name": "验证 2*phi(x)*Phi(ax) 是密度并求期望（skew-normal）",
+  "members": [
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2026",
+  "last": "2026",
+  "trend": "孤题",
+  "size": 1
+ },
+ {
+  "id": "PS-S13",
+  "name": "Brownian 运动首次退出区间的二阶矩",
+  "members": [
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2026",
+  "last": "2026",
+  "trend": "孤题",
+  "size": 1
+ }
+]

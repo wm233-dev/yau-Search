@@ -1,0 +1,23 @@
+
+=== page 1 ===
+Yau 2025 Applied Math – Individual Overall Contest
+1. Given a convex function f : Rn →R and a scalar α > 0, the proximal operator proxα,f of f is defined
+as the mapping from a point x ∈Rn to the unique solution of the minimization problem:
+min
+y∈Rn f(y) + 1
+2α∥y −x∥2
+2.
+(For the solution to always exist, we technically assume f is closed and proper, but these conditions
+are not crucial for this problem.)
+Many functions, such as ∥x∥1 and ∥x∥2, have explicit forms for their proximal operators. For a fixed
+α > 0 and n ∈N, perform the following:
+(a) Derive the explicit formula for proxα,f when f(x) = ∥x∥1.
+(b) Derive the explicit formula for proxα,g when g(x) = ∥x∥2.
+(c) Prove that proxf+g = proxg ◦proxf holds for f(x) = ∥x∥1 and g(x) = ∥x∥2.
+2. Consider the boundary value problem:
+(
+εy′′ + (1 + ε)y′ + y = 0,
+x ∈(0, 1), ε > 0
+y(0) = 0, y(1) = 1.
+Derive the leading-order uniform approximation of the solution as ε →0.
+1

@@ -1,0 +1,83 @@
+
+=== page 1 ===
+Oral Exam, Applied and Computational Mathematics
+Question I
+Consider the Allen-Cahn equation for u := u(x, t) ∈R (natural boundary
+conditions)
+∂tu = ∂xxu + u(1 −u2),
+u(x, 0) = u0(x),
+x ∈(0, 1),
+t > 0,
+where u0 is a suﬃciently smooth function.
+1. Denote the energy functional as E(u)
+E(u(·, t)) =
+Z 1
+0
+1
+2|∂xu(x, t)|2 + 1
+4(u(x, t) −1)2
+
+dx.
+Show E(u(·, t)) is a decreasing function respect to t.
+2. Consider a semi-discrete-in-time scheme
+un+1 −un
+τ
+= ∂xxun+1 −(un+1)3 + un,
+(1)
+where u0 = u0 and un is the numerical approximation of u(·, tn) with
+tn = nτ (τ > 0 is the time step size, n = 0, 1, 2, · · ·). Show that the
+scheme is energy stable, i.e. E(un+1) ≤E(un) (n = 0, 1, 2, · · ·).
+3. For given un, prove that (1) admits a unique solution un+1 at each time
+step.
+Question II
+For an integer n ≥1, consider the equation
+f(x) = 0, f(x) = xn+1 −bnx + abn, a > 0, b > 0.
+(a) Prove that the equation has exactly two distinct positive roots if and
+only if
+a <
+n
+(n + 1)1+ 1
+n b.
+(b) Assuming that the condition in (a) holds, show that Newton’s method
+converges to the smaller positive root, when started at x0 = a, and to
+the larger one, when started at x0 = b.
+1
+
+=== page 2 ===
+Question III
+1. Consider a non-singular tridiagonal n × n matrix given by:
+A =
+
+
+a1
+b1
+c1
+a2
+b2
+c2
+a3
+...
+...
+...
+bn−1
+cn−1
+an
+
+
+with no zero on all three diagonals. Denote the strictly lower triangular,
+diagonal, strictly upper triangular of A by L, D, U respectively.
+(a) Let BJ = In −D−1A, and pBJ(λ) be the characteristic polyno-
+mial of BJ. Also, let BGS = −(L + D)−1U, and pBGS(λ) be the
+charateristic polynomial of BGS. Prove that
+pBJ(λ) = det(−D−1) det(L + λD + U) and
+pBGS(λ) = det(−(L + D)−1) det(λL + λD + U).
+(b) Prove that
+det(λ2L + λ2D + U) = λn det(L + λD + U).
+(c) Using part (a) and (b), prove that
+ρ(BGS) = ρ(BJ)2,
+where ρ(BGS) and ρ(BJ are the spectral radii of BGS and BJ
+respectively.
+Hence, determine whether Jacobi or Gauss-Seidel
+methods to solve Ax = b converges faster if they both converge.
+Please explain your answers with details.
+2

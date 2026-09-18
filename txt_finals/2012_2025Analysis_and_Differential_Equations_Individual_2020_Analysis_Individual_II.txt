@@ -1,0 +1,34 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Individual-II
+Please solve the following problems.
+1. (a) Assume that the function f : [a, b] →R with a < b is diﬀerentiable and satisﬁes
+|f
+′(t)| ≥β for all t ∈[a, b] for some β > 0. Prove the following estimate
+m{t ∈[a, b] : |f(t)| ≤ε} ≤2ε
+β
+for ε > 0,
+where m{B} denotes the Lebesgue measure of set B.
+(b) Assume that the function f : [a, b] →R with a < b is q-times continuously
+diﬀerentiable and satisﬁes |f (q)(t)| ≥β for all t ∈[a, b] for some positive integer q and
+β > 0. Prove the following estimate
+m{t ∈[a, b] : |f(t)| ≤ε} ≤4
+
+q! ε
+2β
+ 1
+q
+for ε > 0,
+where m{B} denotes the Lebesgue measure of set B.
+2. Suppose that Ep(z) = (1 −z) exp(z + z2
+2 + · · · + zp
+p ), p ∈N. Then prove that:
+|1 −Ep(z)| ≤|z|p+1, |z| ≤1.
+3. Solve the following ordinary diﬀerential equation by elementary integration
+xdy
+dx =
+p
+x6 −y2 + 3y.
+1

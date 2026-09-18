@@ -1,0 +1,71 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Suppose f is integrable on [−π, π], prove that Σ∞
+n=−∞anr|n|einx tends to f(x) for a.e.
+x, as r →1, r < 1. Here an =
+1
+2π
+R π
+−π f(x)e−inxdx.
+2. Let H be a Hilbert space equipped with an inner product (.,.) and a norm ||.|| =
+(., .)
+1
+2. A sequence {fk} is converge to f ∈H if ||fk −f|| →0. A sequence {fk} ⊂H
+is said converge weakly to f ∈H if (fk, g) →(f, g) for any g ∈H. Prove the following
+statements:
+a) {fk} converges to f if and only if ||fk|| →||f|| and {fk} converges weakly to f.
+b) If H is a ﬁnite dimensional Hilbert space, then the weak convergence implies con-
+vergence. Give a counter example to show that weak convergence does not necessarily
+imply convergence in an inﬁnite dimensional Hilbert space.
+3. Let f : C/{0} →C be a holomorphic function and
+|f(z)| ≤|z|2 +
+1
+|z|1/2,
+for z near 0. Determine all such functions.
+4. Find a conformal mapping which maps the region {z||z −i| <
+√
+2, |z + i| <
+√
+2}
+onto the unit disk.
+5. If E is a compact set in a region Ω, prove that there exists a constant M > 0,
+depending only on E and Ω, such that every positive harmonic function u(z) in Ω
+satisﬁes u(z2) ≤Mu(z1) for any two points z1, z2 ∈E.
+6. 1) For any bounded domain Ω⊂Rn, there exists a smallest constant C(Ω), such
+that
+Z
+Ω
+|u|2dx ≤C(Ω)
+Z
+Ω
+Σn
+i=1| ∂u
+∂xi
+|2dx
+for every function u ∈H1
+0(Ω) = C∞
+0 (Ω) ⊂H1(Ω), where C∞
+0 (Ω) is the space of
+smooth functions over Ωand vanishing on boundary of Ωand H1(Ω) is the Banach
+space of functions u ∈L2(Ω), ∇u ∈L2(Ω)⊗n with the norm:
+||u||2
+H1(Ω) = ||u||2
+L2(Ω) + ||∇u||2
+L2(Ω)⊗n
+=
+Z
+Ω
+(|u|2 + Σn
+i=1| ∂u
+∂xi
+|2)dx.
+H1
+0(Ω) is the completion of C∞(Ω) in H1(Ω) with the above norm.
+2) Let Π = {(x, y)|0 < x < a, 0 < y < b}, show that C(Π) ≥
+a2b2
+π2(a2+b2).
+1

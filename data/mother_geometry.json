@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "GT-M01",
+    "name": "球面/复射影空间之间映射的度数与存在性：用上同调环判定 deg≠0 何时可能",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2011",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2012",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2018",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2024",
+        "kind": "individual",
+        "n": 1
+      }
+    ],
+    "first": "2010",
+    "last": "2024",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M02",
+    "name": "把空间拆成已知小块（楔和/连通和/贴胞腔/商空间）后用 Mayer–Vietoris、胞腔链复形、van Kampen 计算同调与基本群",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2011",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2013",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2014",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2014",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2017",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2018",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2018",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2019",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2023",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2010",
+    "last": "2023",
+    "trend": "换皮+升要求"
+  },
+  {
+    "id": "GT-M03",
+    "name": "构造性同调函子（悬挂/约化悬挂/映射环面/映射锥）与已知空间同调的关系",
+    "members": [
+      {
+        "year": "2015",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2016",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2017",
+        "kind": "team",
+        "n": 2
+      }
+    ],
+    "first": "2015",
+    "last": "2017",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M04",
+    "name": "R^3 中链环/扭结补空间的基本群与一阶上同调：形变收缩到图后读表示、判非零伦",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2013",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2017",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2018",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2019",
+        "kind": "team",
+        "n": 2
+      }
+    ],
+    "first": "2011",
+    "last": "2019",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M05",
+    "name": "覆叠空间理论：局部微分同胚何时是覆叠、万有覆叠的紧性与 π1 的有限性/挠性、覆叠与子群及自由群作用的对应",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2010",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2011",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2012",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2014",
+        "kind": "team",
+        "n": 3
+      },
+      {
+        "year": "2014",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2019",
+        "kind": "team",
+        "n": 3
+      },
+      {
+        "year": "2020",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2020",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2010",
+    "last": "2026",
+    "trend": "换皮+升要求"
+  },
+  {
+    "id": "GT-M06",
+    "name": "可定向性的判定与边界/χ 障碍：RP^n、Möbius 带、群作用商、嵌入超曲面、奇数 χ 不能作边界",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2014",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2015",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2021",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2021",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2010",
+    "last": "2021",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M07",
+    "name": "Poincaré 对偶与相交形式的具体计算：写出子流形的对偶形式、算交形式符号差",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2014",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2019",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2011",
+    "last": "2019",
+    "trend": "原样重复+加对象",
+    "note": "2011 个人 4 与 2014 个人 3 的题面文字完全逐字相同（同一条线 3x=7y），是最硬的原样重复证据。"
+  },
+  {
+    "id": "GT-M08",
+    "name": "de Rham 理论：Stokes/散度定理的证明与 L^1 推广、短正合列给出的长正合列、上同调类的零与非零判定",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "team",
+        "n": 3
+      },
+      {
+        "year": "2011",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2012",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2016",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2019",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2023",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2011",
+    "last": "2023",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M09",
+    "name": "向量场的局部标准形与 Frobenius 可积性：对合分布 ⇔ 局部平坦坐标",
+    "members": [
+      {
+        "year": "2012",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2015",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2016",
+        "kind": "team",
+        "n": 3
+      }
+    ],
+    "first": "2012",
+    "last": "2016",
+    "trend": "升要求",
+    "note": "2012 个人 2 的 text 开头被并入了另一题（Show that π3(S2)≠0，应为缺失的 2012 个人 1），本条只取其“对合向量场⇒平坦坐标”部分。"
+  },
+  {
+    "id": "GT-M10",
+    "name": "Lie 导数与 Lie 括号的自然性恒等式（L_X Y=[X,Y]、F_*[X,Y]=[F_*X,F_*Y]）",
+    "members": [
+      {
+        "year": "2015",
+        "kind": "team",
+        "n": 3
+      },
+      {
+        "year": "2017",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2015",
+    "last": "2017",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M11",
+    "name": "欧拉示性数的计算与作为障碍：奇数维边界公式、Poincaré–Hopf 与向量场零点、复形是否为流形、维数与 Betti 数的奇偶约束",
+    "members": [
+      {
+        "year": "2016",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2017",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2022",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2024",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2016",
+    "last": "2024",
+    "trend": "换皮+升要求"
+  },
+  {
+    "id": "GT-M12",
+    "name": "向量丛/切丛的示性类与平凡性判定，以及单位切丛的识别与浸入的示性类障碍",
+    "members": [
+      {
+        "year": "2014",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2015",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2018",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2019",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2025",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2025",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2014",
+    "last": "2026",
+    "trend": "升要求",
+    "note": "2018 个人 3 的第二问（分类 S^1 上向量丛）与 2025 个人 5 的 text 前半段（CP^2 不能浸入 R^6，疑为缺失的 2025 个人 4）计入本条；2026 个人 4 同时属于 GT-M19。2025 个人 5 一行含两道题，故该行在两个母题中各计一次。"
+  },
+  {
+    "id": "GT-M13",
+    "name": "曲率张量的代数结构：迹恒等式、由截面曲率决定张量、张量分量的 pinching 界、Einstein/Schur/常曲率条件",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2011",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2012",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2013",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2013",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2016",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2024",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2011",
+    "last": "2024",
+    "trend": "原样重复+升要求",
+    "note": "2011 团队 5 与 2024 个人 4（标量曲率＝Ricci 在单位球面上的平均）是同一命题，间隔 13 年逐字重考，只是把 ω_{n-1}、S_p、V 等记号换掉。"
+  },
+  {
+    "id": "GT-M14",
+    "name": "Lie 群上的不变度量与曲率：双不变度量的非负截面曲率、左不变标架下的联络与标量曲率、Maurer–Cartan 结构方程",
+    "members": [
+      {
+        "year": "2014",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2023",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2025",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2014",
+    "last": "2026",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M15",
+    "name": "曲率比较与 Jacobi 场：Sturm/共轭点比较、Hessian 比较、法坐标展开、Busemann 函数与分裂定理",
+    "members": [
+      {
+        "year": "2013",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2015",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2015",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2020",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2021",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2022",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2013",
+    "last": "2022",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M16",
+    "name": "正曲率/正 Ricci 的整体刚性：Myers、极大直径(Obata)、Synge、球面定理、闭测地线的稳定性与相交、Ricci 衰减下的紧性",
+    "members": [
+      {
+        "year": "2013",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2013",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2015",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2018",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2018",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2021",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2013",
+    "last": "2026",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M17",
+    "name": "Bochner 技巧：Bochner 公式与正 Ricci ⇒ 无调和 1-形式、Killing 场的 Hessian 公式与消灭定理、Ricci soliton 在紧流形上退化为 Einstein",
+    "members": [
+      {
+        "year": "2016",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2019",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2019",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2023",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2016",
+    "last": "2023",
+    "trend": "升要求",
+    "note": "2019 个人 5(b)（S^2 上 Δln f + Ef^2 = 1）是 Bochner 公式的配套应用，与 (a) 同题计一次。"
+  },
+  {
+    "id": "GT-M18",
+    "name": "距离函数与磨光技术：单位分解/嵌入 R^N、截断函数引理、1-Lipschitz 函数对距离的变分刻画、梯度流线是测地线",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "team",
+        "n": 3
+      },
+      {
+        "year": "2016",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2017",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2017",
+        "kind": "team",
+        "n": 6
+      }
+    ],
+    "first": "2010",
+    "last": "2017",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M19",
+    "name": "Morse 理论与临界点：紧流形上函数的临界点下界、能量泛函的临界点与指数、环路空间的同伦型",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2010",
+    "last": "2026",
+    "trend": "升要求",
+    "note": "2026 个人 4 同时属于 GT-M12（(1)(2) 为 Euler 类与单位切丛 Poincaré 级数）。"
+  },
+  {
+    "id": "GT-M20",
+    "name": "欧氏空间超曲面的基本形式与支撑函数/Minkowski 积分公式，及 Gauss 映射的面积畸变",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2012",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2015",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 1
+      }
+    ],
+    "first": "2010",
+    "last": "2026",
+    "trend": "换皮+升要求"
+  },
+  {
+    "id": "GT-M21",
+    "name": "欧氏空间闭超曲面的刚性：常平均曲率/常 σ_r 必为球面、Cauchy 刚性、shrinkers 必与标准球相交、闭极小曲面不存在",
+    "members": [
+      {
+        "year": "2015",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2016",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2017",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2022",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2024",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2015",
+    "last": "2024",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M22",
+    "name": "极小子流形：极小图的曲率公式与 Bernstein 定理、Simons 型不等式(λ1≥n/2、S=0 或 S≥n)、pinching 刚性、负曲率环境中的面积界",
+    "members": [
+      {
+        "year": "2013",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2014",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2016",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2016",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2017",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2022",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2013",
+    "last": "2022",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M23",
+    "name": "Gauss–Bonnet 定理的证明与等号刚性判定",
+    "members": [
+      {
+        "year": "2012",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2026",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2012",
+    "last": "2026",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M24",
+    "name": "总曲率/Willmore 型整体积分不等式：用 Gauss 映射的度数与 Gauss–Bonnet 给出下界",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2014",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2018",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2018",
+        "kind": "team",
+        "n": 5
+      }
+    ],
+    "first": "2011",
+    "last": "2018",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M25",
+    "name": "空间曲线的标架计算与刚性：Bertrand 曲线、总挠率的整性 ⇒ 球面/平面、测地挠率公式、Liouville 公式",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2013",
+        "kind": "team",
+        "n": 6
+      },
+      {
+        "year": "2017",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2017",
+        "kind": "team",
+        "n": 3
+      }
+    ],
+    "first": "2011",
+    "last": "2017",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M26",
+    "name": "常曲率模型空间（球面、双曲空间、上半平面）的度量与子流形计算：球极投影共形性、H^n 中测地线与平均曲率、完备性参数范围",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2010",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2014",
+        "kind": "team",
+        "n": 5
+      },
+      {
+        "year": "2016",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2021",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2010",
+    "last": "2021",
+    "trend": "换皮+升要求"
+  },
+  {
+    "id": "GT-M27",
+    "name": "二维共形度量的 Gauss 曲率方程与极值原理：Δu−K+K̂e^{2u}=0 的推导及不存在性/刚性判定",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2020",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2025",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2010",
+    "last": "2025",
+    "trend": "升要求",
+    "note": "2025 个人 5 与 GT-M12 共用一行（该行文字含两道题）。"
+  },
+  {
+    "id": "GT-M28",
+    "name": "辛形式与接触形式的存在性障碍：ω∧ω 无处为零/乘函数后不闭的上同调论证",
+    "members": [
+      {
+        "year": "2010",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2018",
+        "kind": "team",
+        "n": 3
+      }
+    ],
+    "first": "2010",
+    "last": "2018",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M29",
+    "name": "紧度量空间上的等距必为满射",
+    "members": [
+      {
+        "year": "2011",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2013",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2011",
+    "last": "2013",
+    "trend": "原样重复",
+    "note": "2011 个人 2 与 2013 个人 2 题面逐字相同。"
+  },
+  {
+    "id": "GT-M30",
+    "name": "光滑流形结构的构造与验证（图册、正则值定理）",
+    "members": [
+      {
+        "year": "2012",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2018",
+        "kind": "team",
+        "n": 4
+      }
+    ],
+    "first": "2012",
+    "last": "2018",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M31",
+    "name": "Riemann 联络的存在唯一性(Koszul)与曲率恒等式(第二 Bianchi)",
+    "members": [
+      {
+        "year": "2012",
+        "kind": "team",
+        "n": 3
+      },
+      {
+        "year": "2015",
+        "kind": "team",
+        "n": 5
+      }
+    ],
+    "first": "2012",
+    "last": "2015",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M32",
+    "name": "经典矩阵 Lie 群的拓扑：维数、π1、π2、π3（SU(n)/SO(n)/U(n)，双覆叠与纤维化）",
+    "members": [
+      {
+        "year": "2015",
+        "kind": "team",
+        "n": 1
+      },
+      {
+        "year": "2019",
+        "kind": "team",
+        "n": 4
+      },
+      {
+        "year": "2020",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2025",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2015",
+    "last": "2025",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M33",
+    "name": "同伦群的计算：用纤维化/覆叠/乘积结构的长正合列把未知同伦群化为球面或已知群",
+    "members": [
+      {
+        "year": "2021",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2024",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2021",
+    "last": "2024",
+    "trend": "升要求"
+  },
+  {
+    "id": "GT-M34",
+    "name": "球面之间映射的 Hopf 不变量与 H-空间障碍（上同调环/杯积结构）",
+    "members": [
+      {
+        "year": "2020",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2022",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2020",
+    "last": "2022",
+    "trend": "换皮"
+  },
+  {
+    "id": "GT-M35",
+    "name": "CP^n 自映射的上同调环与 Lefschetz 不动点定理：保定向性与不动点存在性",
+    "members": [
+      {
+        "year": "2012",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2025",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2012",
+    "last": "2025",
+    "trend": "升要求"
+  }
+]

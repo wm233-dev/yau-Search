@@ -1,0 +1,70 @@
+
+=== page 1 ===
+Oral Exam for Individuals: Applied and Computational Mathematics 2017
+1. Consider the following Burgers’ equation:
+(
+ut + uux = νuxx,
+x ∈R,
+t > 0
+u(x, 0) = u0(x),
+x ∈R ,
+(1)
+which can be used to model the motion of a viscous compressible gas, where u(x, t) is the speed
+of the gas, ν > 0 is the kinematic viscosity, x is the spatial coordinate, and t is the time. As it is
+shown below, we can apply the Hopf-Cole transformation to solve the strongly nonlinear Burgers
+equation (1).
+(a) Let Ux = u and introduce the Hopf-Cole transformation U(x, t) = −2ν log(φ(x, t)). Derive
+the equation for φ(x, t).
+(b) Solve the equation for φ(x, t), and then obtain the solution to the Burgers equation (1).
+(c) When ν = 0 the Burgers’ equation (1) becomes the inviscid Burgers’ equation. Show that
+if we solve the inviscid Burgers’ equation with smooth initial data u0(x), for which u′
+0(x) is
+negative and bounded from below, then the solution will break at time Tb =
+−1
+min u′
+0(x). The
+term “break” here means the solution u(x, t) has an inﬁnite slope and a shock form.
+2.
+(a) Consider the following Rudin-Osher-Fatemi model for image regularization
+min
+u
+Z
+Ω
+∥∇u∥+ λ (F −u)2
+(2)
+for some given function F in a boundary rectangular domain Ω, where ∥· ∥is the usual
+2-norm. Show that the Euler-Lagrange equation corresponding to the variational problem
+(2) is given by
+u −1
+2λ∇·
+ ∇u
+∥∇u∥
+
+= F .
+(b) Consider the following variational problem for the cartoon-texture decomposition in image
+processing
+min
+u,g,h
+Z
+Ω
+∥∇u∥+ λ
+
+f −∂g
+∂x −∂h
+∂y −u
+2
++ µ
+p
+g2 + h2 ,
+(3)
+where f is the given image, λ and µ are two positive constants, and f, u, g, h : Ω→R. With
+appropriate boundary conditions, derive the system of Euler-Lagrangian equations for (3)
+that the minimizers u, g and h should satisfy.
+(c) Let κ(u) = ∇·
+
+∇u
+∥∇u∥
+
+be the curvature operator. If u solves the variational problem (3),
+show that ∥∇κ(u)∥= µ.
+1

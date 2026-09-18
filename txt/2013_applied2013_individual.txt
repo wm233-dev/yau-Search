@@ -1,0 +1,178 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2013
+Applied Math. and Computational Math.
+Individual
+Please solve as many problems as you can!
+1. We consider the wave equation utt = ∆u in R3 × R+.
+(a): (5 pts) A right going pulse with speed 1
+u(x, y, z, t) = 1 for t < x < t + 1;
+u(x, y, z, t) = 0 else
+is clearly a solution to the wave equation.
+However, it is a
+discontinuous solution, explain in which sense it is a solution to
+the equation.
+(b): (5 pts) Surprisingly, one can construct smooth progressive
+wave solutions with speed larger than 1.
+In astronomy this
+kind of wave known as superluminal wave. Try a solution of
+the form
+u(x, y, z, t) = v( x −ct
+√
+c2 −1, y, z),
+c ∈R3,
+|c| > 1.
+Derive an equation for v and show that there is a nontrivial
+solution with compact support in (y, z) for any ﬁxed x, t.
+(c): (5 pts) For any R > 0, 0 < t < R, show that energy
+E(t) :=
+∫
+|⃗x|≤R−t
+(
+|ut(·, t)|2 + |∇u(·, t)|2)
+d⃗x
+is a decreasing function.
+(c): (10 pts) Show that smooth superluminal progressive wave
+solutions of the form
+u(⃗x, t) = v(⃗x −⃗ct),⃗c ∈R3,
+|⃗c| > 1.
+cannot have a ﬁnite energy.
+Hint: Using (c) and look at the energy of the solution in
+various balls.
+2. Finite time extinction and hyper-contractiveity are important prop-
+erties in modeling of some physical and biology systems. The essence
+of estimates is given by the following problem for ODE.
+Assume y(t) ≥0 is a C1 function for t > 0 satisfying y′(t) ≤α −
+βy(t)a for α > 0, β > 0, then
+(a) (10 points) For a > 1, y(t) has the following hyper-contractive
+property
+y(t) ≤(α/β)1/a +
+[
+1
+β(a −1)t
+]
+1
+a−1
+,
+for t > 0.
+1
+
+=== page 2 ===
+2
+(b) (2 points) For a = 1, y(t) decays exponentially
+y(t) ≤α/β + y(0)e−βt.
+(c) (10 points) For a < 1, α = 0, y(t) has ﬁnite time extinction,
+which means that there exists Text such that 0 < Text ≤y1−a(0)
+β(1−a)
+and that y(t) = 0 for all t > Text.
+3. Consider the speed v of a ball (density ρ, radius R) falling through
+a viscous ﬂuid (density ρf, viscosity µ) with drag coeﬃcient given by
+Stokes’ law ζ = 6πRµ:
+4
+3πR3ρdv
+dt = 4
+3πR3(ρ −ρf)g −ζv,
+v(0) = v0
+(a): (5 points) Nondimensionalize the equation by writing, v(t) =
+V ˜v(˜t) with t = T˜t. Select V , T (characteristic scales known
+as terminal velocity and settling time respectively) so that all
+coeﬃcients in the ODE but one are equal to 1. Your equation
+will have a single dimensionless parameter given by the ratio of
+the initial speed v0 to the characteristic speed V .
+(b): (2 points) Solve the nondimensional problem for ˜v(˜t).
+(c): (8 points) Describe the behavior of the solution if the initial
+speed v0 is (i) faster than and (ii) slower than the characteristic
+speed V . Compute the time to reach (v0 + V )/2.
+4. Let
+Vh = {v : v|Ij ∈P k(Ij)
+1 ≤j ≤N}
+where
+Ij = (xj−1, xj),
+1 ≤j ≤N
+with
+xj = jh,
+h = 1
+N .
+Here P k(Ij) denotes the set of polynomials of degree at most k in the
+interval Ij.
+Recall the L2 projection of a function u(x) into the space Vh is deﬁned
+by the unique function uh ∈Vh which satisﬁes
+||u −uh|| ≤||u −v||
+∀v ∈Vh
+where the norm is the usual L2 norm. We assume u(x) has at least
+k + 2 continuous derivatives.
+(1) (5 points) Prove the error estimate
+||u −uh|| ≤Chk+1
+Explain how the constant C depends on the derivatives of u(x).
+
+=== page 3 ===
+3
+(2) (10 points)
+If another function φ(x) also has at least k + 2
+continuous derivatives, prove
+|
+∫1
+0
+(u(x) −uh(x))φ(x)dx| ≤Ch2k+2
+Explain how the constant C depends on the derivatives of u(x)
+and φ(x).
+5. (15 points)
+Let G(V, E) be a simple graph of order n and δ the
+minimum degree of vertices. Suppose that the degree sum of any pair
+of nonadjacent vertices is at least n and F ⊂E with |F| ≤⌊δ−2
+2 ⌋. Let
+G−F be the graph obtained from G by deleting the edges in F. Prove
+that
+(1) G −F is connected and
+(2) G −F is Hamiltonian.
+6. (15 points)
+Let (Fn)n be the Fibonacci sequence. Namely, F0 =
+0, F1 = 1, . . . , Fn+2 = Fn+1 + Fn.
+Establish a relation between
+(
+0
+1
+1
+1
+)n
+and Fn and use it to design
+an eﬃcient algorithm that for a given n computes the n-th Fibonacci
+number Fn. In particular, it must be more eﬃcient than computing
+Fn in n consecutive steps.
+Give an estimate on the number of steps of your algorithm.
+Hint: Not that if m is even then
+(
+0
+1
+1
+1
+)m
+=
+((
+0
+1
+1
+1
+)m/2)2
+and if m is odd then
+(
+0
+1
+1
+1
+)m
+=
+(
+0
+1
+1
+1
+)m−1
+·
+(
+0
+1
+1
+1
+)
+and m −1 is even.

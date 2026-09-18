@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+import io, re
+p = r'E:\deepseek_exclusive\math\.tmp\burn2026\scripts\_report_tpl_tail.md'
+t = io.open(p, encoding='utf-8').read()
+# 1) clean the 6.2 statement header (it contains a stray newline + control-derived text)
+t = re.sub(r'\*\*\u9898\u9762\uff08\u539f\u6587\uff0c\u62bd\u53d6\u6587\u672c\u5df2\u6309\u6570\u5b66\u8bed\u4e49\u8fd8\u539f\s*\n\s*//\s*\u7b49\u9519\u6620\u5c04\u7b26\u53f7\uff09\*\*',
+           '**\u9898\u9762\uff08\u539f\u6587\uff1bPDF \u6587\u672c\u5c42\u628a\u6570\u5b66\u5b57\u4f53\u9519\u6620\u5c04\uff0c\u5df2\u6309\u6570\u5b66\u8bed\u4e49\u8fd8\u539f\uff09**', t)
+# 2) improve the 7.1 row 6 wording
+old6 = 'PDF \u6587\u672c\u5c42\u628a\u6570\u5b66\u5b57\u4f53\u9519\u6620\u5c04\uff08\u2310\u2192\u2207\u3001\u221a\u2192\u221a\u3001\u29d5\u2192\u2264\u3001\u03a9\u2192\u7a7a/\u4e71\u7801\uff0c\u51fa\u73b0 "5u" = \u2207u\u3001"u = f(x; u(x))" \u7b49\u9519\u4f4d\uff09'
+new6 = 'PDF \u6587\u672c\u5c42\u628a\u6570\u5b66\u5b57\u4f53\u9519\u6620\u5c04\uff08\u4f8b\u5982 \u2207u \u88ab\u62bd\u6210 "5u"\u3001\u2202/4 \u88ab\u62bd\u6210\u03a9 \u7b49\u7a7a\u767d\u4e0e\u4e71\u7801\u5b57\u7b26\uff0c\u51fa\u73b0 "u = f(x; u (x))" \u8fd9\u79cd\u9519\u4f4d\uff09'
+t = t.replace(old6, new6)
+io.open(p, 'w', encoding='utf-8').write(t)
+print('header fixed:', '\u62bd\u53d6\u6587\u672c\u5df2\u6309' not in t)

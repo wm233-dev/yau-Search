@@ -1,0 +1,148 @@
+
+=== page 1 ===
+Question I
+Let A be an m × n matrix and its singular value decomposition (SVD) be
+V T A U = F =
+
+
+µ1
+0
+· · ·
+0
+· · ·
+0
+0
+µ2
+· · ·
+0
+· · ·
+0
+...
+...
+...
+...
+...
+...
+0
+0
+· · ·
+µr
+· · ·
+0
+0
+0
+· · ·
+0
+· · ·
+0
+...
+...
+...
+...
+...
+...
+0
+0
+· · ·
+0
+· · ·
+0
+
+
+,
+where the matrices U and V are orthogonal, and the singular values µi satisfy
+µ1 ≥µ2 ≥· · · ≥µr > 0.
+Deﬁne the n × m matrix
+F + =
+
+
+µ−1
+1
+0
+· · ·
+0
+· · ·
+0
+0
+µ−1
+2
+· · ·
+0
+· · ·
+0
+...
+...
+...
+...
+...
+...
+0
+0
+· · ·
+µ−1
+r
+· · ·
+0
+0
+0
+· · ·
+0
+· · ·
+0
+...
+...
+...
+...
+...
+...
+0
+0
+· · ·
+0
+· · ·
+0
+
+
+and
+A+ = U F + V T.
+The matrix A+ is called as the generalized inverse of A.
+1. Show that x∗= A+b is the least square solution of the linear system Ax = b.
+2. Show that
+lim
+α→0+(αI + ATA)−1AT = A+,
+where α > 0.
+Question II
+Consider the following ﬁnite diﬀerence scheme
+vn+1
+m
+−vn−1
+m
+2τ
++ a
+
+1 + h2
+6 δ2−1
+δ0vn
+m = f n
+m
+for the transport equation ut + aux = f, where a is a constant, τ > 0 is the time
+step, δ0 denotes the standard second order central diﬀerence operator for ux, and δ2
+1
+
+=== page 2 ===
+denotes the standard second order central diﬀerence operator for uxx. Assume that
+λ = τ/h is a constant with h being the spatial mesh size. Show that the scheme is
+stable if and only if
+|aλ| < 1
+√
+3.
+How do you modify the scheme when a is not a constant without aﬀecting the
+accuracy of the scheme? Justify your answer.
+Question III
+Show that the following system of ordinary diﬀerential equations
+dx
+dt = 0.5x + 2.5y −x(x2 + y2),
+dy
+dt = −0.5x + 1.5y −y(x2 + y2).
+has at least one periodic solution.
+2

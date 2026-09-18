@@ -1,0 +1,26 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest, 2018
+Applied Mathematics, team
+1. Given a set of column vectors y1, · · · , yn ∈Rm, we set V =span{y1, · · · , yn} ⊂Rm. How
+to ﬁnd ℓ≤dimV orthonormal vectors {ψi}ℓ
+i=1 in Rm that minimize
+J(ψ1, · · · , ψℓ) =
+n
+X
+j=1
+||yj −
+ℓ
+X
+i=1
+(yT
+j ψi)ψi||2
+with the Euclidean norm ||y|| =
+p
+yTy.
+2. Suppose there are n hyper-planes in the d dimensional Euclidean space Rd, the planes
+partition the space into convex cells, the maximal number of cells is denoted as fd(n),
+1. Find the formula for d = 2 case, namely, the plane is partitioned by n lines, prove
+it.
+2. Find the formula for general d and n and prove.
+1

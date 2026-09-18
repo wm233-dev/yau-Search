@@ -1,0 +1,742 @@
+{
+ "rows": [
+  {
+   "file": "2019_Algebra2019_individual.txt",
+   "year": "2019",
+   "subject": "Algebra & Number Theory",
+   "kind": "试卷",
+   "pages": 1,
+   "chars": 1398,
+   "probs": 5
+  },
+  {
+   "file": "2019_Algebra2019_team.txt",
+   "year": "2019",
+   "subject": "Algebra & Number Theory",
+   "kind": "团体卷",
+   "pages": 1,
+   "chars": 1710,
+   "probs": 5
+  },
+  {
+   "file": "2019_Analysis2019_individual.txt",
+   "year": "2019",
+   "subject": "Analysis & Differential Eq.",
+   "kind": "试卷",
+   "pages": 1,
+   "chars": 1322,
+   "probs": 5
+  },
+  {
+   "file": "2019_Analysis2019_team.txt",
+   "year": "2019",
+   "subject": "Analysis & Differential Eq.",
+   "kind": "团体卷",
+   "pages": 1,
+   "chars": 1376,
+   "probs": 5
+  },
+  {
+   "file": "2019_AppliedMath2019_individual.txt",
+   "year": "2019",
+   "subject": "Computational & Applied",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 2768,
+   "probs": 4
+  },
+  {
+   "file": "2019_AppliedMath2019_team.txt",
+   "year": "2019",
+   "subject": "Computational & Applied",
+   "kind": "团体卷",
+   "pages": 1,
+   "chars": 2163,
+   "probs": 5
+  },
+  {
+   "file": "2019_Geometry2019_individual.txt",
+   "year": "2019",
+   "subject": "Geometry & Topology",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 2219,
+   "probs": 5
+  },
+  {
+   "file": "2019_Geometry2019_team.txt",
+   "year": "2019",
+   "subject": "Geometry & Topology",
+   "kind": "团体卷",
+   "pages": 1,
+   "chars": 1851,
+   "probs": 5
+  },
+  {
+   "file": "2019_ProbaStat2019_individual.txt",
+   "year": "2019",
+   "subject": "Probability & Statistics",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 4197,
+   "probs": 4
+  },
+  {
+   "file": "2019_ProbaStat2019_team.txt",
+   "year": "2019",
+   "subject": "Probability & Statistics",
+   "kind": "团体卷",
+   "pages": 1,
+   "chars": 1164,
+   "probs": 4
+  },
+  {
+   "file": "2020_Algebra_NumberTheory_algebra_and_numbertheory_20.txt",
+   "year": "2020",
+   "subject": "Algebra & Number Theory",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 3392,
+   "probs": 6
+  },
+  {
+   "file": "2020_Algebra_NumberTheory_algebra_and_numbertheory_soln_20.txt",
+   "year": "2020",
+   "subject": "Algebra & Number Theory",
+   "kind": "官方解答",
+   "pages": 5,
+   "chars": 12357,
+   "probs": 6
+  },
+  {
+   "file": "2020_Analysis_DifferentialEquations_analysis_and_differential_20.txt",
+   "year": "2020",
+   "subject": "Analysis & Differential Eq.",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 2310,
+   "probs": 6
+  },
+  {
+   "file": "2020_Analysis_DifferentialEquations_analysis_and_differential_soln_20.txt",
+   "year": "2020",
+   "subject": "Analysis & Differential Eq.",
+   "kind": "官方解答",
+   "pages": 5,
+   "chars": 7250,
+   "probs": 6
+  },
+  {
+   "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+   "year": "2020",
+   "subject": "Computational & Applied",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 2094,
+   "probs": 6
+  },
+  {
+   "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_soln_20.txt",
+   "year": "2020",
+   "subject": "Computational & Applied",
+   "kind": "官方解答",
+   "pages": 6,
+   "chars": 8879,
+   "probs": 6
+  },
+  {
+   "file": "2020_Geometry_Topology_geometry_and_topology_20.txt",
+   "year": "2020",
+   "subject": "Geometry & Topology",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 2663,
+   "probs": 6
+  },
+  {
+   "file": "2020_Geometry_Topology_geometry_and_topology_soln_20.txt",
+   "year": "2020",
+   "subject": "Geometry & Topology",
+   "kind": "官方解答",
+   "pages": 5,
+   "chars": 11684,
+   "probs": 6
+  },
+  {
+   "file": "2020_Prob_Stat_probability_and_statistics_20.txt",
+   "year": "2020",
+   "subject": "Probability & Statistics",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 2903,
+   "probs": 6
+  },
+  {
+   "file": "2020_Prob_Stat_probability_and_statistics_soln_20.txt",
+   "year": "2020",
+   "subject": "Probability & Statistics",
+   "kind": "官方解答",
+   "pages": 5,
+   "chars": 10663,
+   "probs": 6
+  },
+  {
+   "file": "2021_ExamPaper_21S_algebra_and_numbertheory_21s.txt",
+   "year": "2021",
+   "subject": "Algebra & Number Theory",
+   "kind": "试卷",
+   "pages": 1,
+   "chars": 1844,
+   "probs": 6
+  },
+  {
+   "file": "2021_ExamPaper_21S_analysis_and_differential_21s.txt",
+   "year": "2021",
+   "subject": "Analysis & Differential Eq.",
+   "kind": "试卷",
+   "pages": 1,
+   "chars": 1448,
+   "probs": 6
+  },
+  {
+   "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+   "year": "2021",
+   "subject": "Computational & Applied",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 3147,
+   "probs": 6
+  },
+  {
+   "file": "2021_ExamPaper_21S_geometry_and_topology_21s.txt",
+   "year": "2021",
+   "subject": "Geometry & Topology",
+   "kind": "试卷",
+   "pages": 1,
+   "chars": 1168,
+   "probs": 6
+  },
+  {
+   "file": "2021_ExamPaper_21S_probability_and_statistics_21s.txt",
+   "year": "2021",
+   "subject": "Probability & Statistics",
+   "kind": "试卷",
+   "pages": 2,
+   "chars": 3545,
+   "probs": 6
+  },
+  {
+   "file": "2021_Solution_21S_algebra_and_numbertheory_21s_soln.txt",
+   "year": "2021",
+   "subject": "Algebra & Number Theory",
+   "kind": "官方解答",
+   "pages": 4,
+   "chars": 11647,
+   "probs": 6
+  },
+  {
+   "file": "2021_Solution_21S_analysis_and_differential_21s_soln.txt",
+   "year": "2021",
+   "subject": "Analysis & Differential Eq.",
+   "kind": "官方解答",
+   "pages": 3,
+   "chars": 4603,
+   "probs": 6
+  },
+  {
+   "file": "2021_Solution_21S_computational_and_applied_21s_soln.txt",
+   "year": "2021",
+   "subject": "Computational & Applied",
+   "kind": "官方解答",
+   "pages": 8,
+   "chars": 12633,
+   "probs": 6
+  },
+  {
+   "file": "2021_Solution_21S_geometry_and_topology_21s_soln.txt",
+   "year": "2021",
+   "subject": "Geometry & Topology",
+   "kind": "官方解答",
+   "pages": 3,
+   "chars": 7044,
+   "probs": 6
+  },
+  {
+   "file": "2021_Solution_21S_probability_and_statistics_21s_soln.txt",
+   "year": "2021",
+   "subject": "Probability & Statistics",
+   "kind": "官方解答",
+   "pages": 5,
+   "chars": 11143,
+   "probs": 6
+  }
+ ],
+ "kw": [
+  {
+   "name": "Galois 理论",
+   "exam": 2,
+   "soln": 7,
+   "total": 9
+  },
+  {
+   "name": "有限域 Fp/Fq",
+   "exam": 15,
+   "soln": 37,
+   "total": 52
+  },
+  {
+   "name": "分圆域/分圆多项式",
+   "exam": 1,
+   "soln": 3,
+   "total": 4
+  },
+  {
+   "name": "p 进数 Zp/Qp",
+   "exam": 34,
+   "soln": 77,
+   "total": 111
+  },
+  {
+   "name": "素理想/极大理想",
+   "exam": 3,
+   "soln": 1,
+   "total": 4
+  },
+  {
+   "name": "Noether 环",
+   "exam": 0,
+   "soln": 2,
+   "total": 2
+  },
+  {
+   "name": "整扩张/整闭（normalization）",
+   "exam": 4,
+   "soln": 9,
+   "total": 13
+  },
+  {
+   "name": "Dedekind 环/类数",
+   "exam": 1,
+   "soln": 3,
+   "total": 4
+  },
+  {
+   "name": "理想 ideal",
+   "exam": 5,
+   "soln": 9,
+   "total": 14
+  },
+  {
+   "name": "不可约/Eisenstein",
+   "exam": 3,
+   "soln": 15,
+   "total": 18
+  },
+  {
+   "name": "分裂域/自同构群",
+   "exam": 2,
+   "soln": 7,
+   "total": 9
+  },
+  {
+   "name": "幂零/特征多项式",
+   "exam": 3,
+   "soln": 8,
+   "total": 11
+  },
+  {
+   "name": "迹/Newton 恒等式",
+   "exam": 5,
+   "soln": 13,
+   "total": 18
+  },
+  {
+   "name": "有限群/置换群/中心化子",
+   "exam": 1,
+   "soln": 5,
+   "total": 6
+  },
+  {
+   "name": "表示论/特征标",
+   "exam": 2,
+   "soln": 0,
+   "total": 2
+  },
+  {
+   "name": "Hensel/分歧",
+   "exam": 1,
+   "soln": 4,
+   "total": 5
+  },
+  {
+   "name": "Witt 向量",
+   "exam": 0,
+   "soln": 2,
+   "total": 2
+  },
+  {
+   "name": "Gauss 和/二次剩余",
+   "exam": 0,
+   "soln": 1,
+   "total": 1
+  },
+  {
+   "name": "范映射 norm",
+   "exam": 6,
+   "soln": 13,
+   "total": 19
+  },
+  {
+   "name": "全纯/整函数",
+   "exam": 5,
+   "soln": 9,
+   "total": 14
+  },
+  {
+   "name": "Liouville/Picard 定理",
+   "exam": 0,
+   "soln": 2,
+   "total": 2
+  },
+  {
+   "name": "极值原理",
+   "exam": 0,
+   "soln": 2,
+   "total": 2
+  },
+  {
+   "name": "调和函数",
+   "exam": 1,
+   "soln": 5,
+   "total": 6
+  },
+  {
+   "name": "Poisson/Laplace 方程",
+   "exam": 8,
+   "soln": 15,
+   "total": 23
+  },
+  {
+   "name": "Fourier（变换/系数）",
+   "exam": 1,
+   "soln": 5,
+   "total": 6
+  },
+  {
+   "name": "卷积",
+   "exam": 1,
+   "soln": 1,
+   "total": 2
+  },
+  {
+   "name": "Lebesgue 测度/可测",
+   "exam": 13,
+   "soln": 13,
+   "total": 26
+  },
+  {
+   "name": "Sobolev 空间/H^1_0",
+   "exam": 3,
+   "soln": 6,
+   "total": 9
+  },
+  {
+   "name": "Schauder/Holder 估计",
+   "exam": 0,
+   "soln": 2,
+   "total": 2
+  },
+  {
+   "name": "a priori 估计",
+   "exam": 2,
+   "soln": 2,
+   "total": 4
+  },
+  {
+   "name": "变分/能量泛函/极小化",
+   "exam": 6,
+   "soln": 16,
+   "total": 22
+  },
+  {
+   "name": "Bochner 公式",
+   "exam": 1,
+   "soln": 0,
+   "total": 1
+  },
+  {
+   "name": "Jacobi 场/测地线/指数映射",
+   "exam": 3,
+   "soln": 12,
+   "total": 15
+  },
+  {
+   "name": "曲率（Ricci/截面/Riemann）",
+   "exam": 7,
+   "soln": 13,
+   "total": 20
+  },
+  {
+   "name": "Killing 向量场",
+   "exam": 0,
+   "soln": 2,
+   "total": 2
+  },
+  {
+   "name": "Bishop-Gromov/分裂定理",
+   "exam": 0,
+   "soln": 5,
+   "total": 5
+  },
+  {
+   "name": "平均曲率",
+   "exam": 1,
+   "soln": 3,
+   "total": 4
+  },
+  {
+   "name": "等距 isometry",
+   "exam": 1,
+   "soln": 2,
+   "total": 3
+  },
+  {
+   "name": "Stiefel-Whitney/可定向",
+   "exam": 1,
+   "soln": 3,
+   "total": 4
+  },
+  {
+   "name": "Euler 示性数/signature/Mayer-Vietoris",
+   "exam": 1,
+   "soln": 4,
+   "total": 5
+  },
+  {
+   "name": "上同调/De Rham",
+   "exam": 2,
+   "soln": 4,
+   "total": 6
+  },
+  {
+   "name": "基本群/同伦群",
+   "exam": 3,
+   "soln": 12,
+   "total": 15
+  },
+  {
+   "name": "覆叠空间",
+   "exam": 1,
+   "soln": 9,
+   "total": 10
+  },
+  {
+   "name": "向量丛/切丛",
+   "exam": 1,
+   "soln": 6,
+   "total": 7
+  },
+  {
+   "name": "Lie 群 SO(n)/SU(n)",
+   "exam": 5,
+   "soln": 37,
+   "total": 42
+  },
+  {
+   "name": "自由群",
+   "exam": 1,
+   "soln": 2,
+   "total": 3
+  },
+  {
+   "name": "环面/球面",
+   "exam": 17,
+   "soln": 45,
+   "total": 62
+  },
+  {
+   "name": "配边/boundary of compact",
+   "exam": 1,
+   "soln": 2,
+   "total": 3
+  },
+  {
+   "name": "VC 维",
+   "exam": 2,
+   "soln": 0,
+   "total": 2
+  },
+  {
+   "name": "特征值/奇异值/SVD",
+   "exam": 6,
+   "soln": 18,
+   "total": 24
+  },
+  {
+   "name": "矩阵范数/非奇异",
+   "exam": 10,
+   "soln": 28,
+   "total": 38
+  },
+  {
+   "name": "幂法 power method",
+   "exam": 1,
+   "soln": 2,
+   "total": 3
+  },
+  {
+   "name": "迭代/不动点/Newton 法",
+   "exam": 8,
+   "soln": 15,
+   "total": 23
+  },
+  {
+   "name": "截断误差/精度阶",
+   "exam": 3,
+   "soln": 4,
+   "total": 7
+  },
+  {
+   "name": "稳定性多项式/稳定域/von Neumann",
+   "exam": 9,
+   "soln": 11,
+   "total": 20
+  },
+  {
+   "name": "Runge-Kutta/Stoermer/多步法",
+   "exam": 3,
+   "soln": 5,
+   "total": 8
+  },
+  {
+   "name": "差分格式",
+   "exam": 11,
+   "soln": 9,
+   "total": 20
+  },
+  {
+   "name": "有限元/Galerkin",
+   "exam": 5,
+   "soln": 11,
+   "total": 16
+  },
+  {
+   "name": "先验误差估计 (FEM)",
+   "exam": 2,
+   "soln": 2,
+   "total": 4
+  },
+  {
+   "name": "Chebyshev/插值/Lagrange",
+   "exam": 1,
+   "soln": 10,
+   "total": 11
+  },
+  {
+   "name": "样条 spline",
+   "exam": 1,
+   "soln": 1,
+   "total": 2
+  },
+  {
+   "name": "求积公式 quadrature",
+   "exam": 0,
+   "soln": 1,
+   "total": 1
+  },
+  {
+   "name": "凸优化/投影/Lipschitz",
+   "exam": 3,
+   "soln": 7,
+   "total": 10
+  },
+  {
+   "name": "Markov 链/常返",
+   "exam": 5,
+   "soln": 3,
+   "total": 8
+  },
+  {
+   "name": "鞅/停时",
+   "exam": 0,
+   "soln": 3,
+   "total": 3
+  },
+  {
+   "name": "Borel-Cantelli/大数律",
+   "exam": 1,
+   "soln": 5,
+   "total": 6
+  },
+  {
+   "name": "中心极限/Lindeberg/正态",
+   "exam": 3,
+   "soln": 8,
+   "total": 11
+  },
+  {
+   "name": "特征函数",
+   "exam": 0,
+   "soln": 5,
+   "total": 5
+  },
+  {
+   "name": "Poisson 分布",
+   "exam": 2,
+   "soln": 4,
+   "total": 6
+  },
+  {
+   "name": "独立同分布 i.i.d.",
+   "exam": 9,
+   "soln": 15,
+   "total": 24
+  },
+  {
+   "name": "Erdos-Renyi 随机图",
+   "exam": 0,
+   "soln": 3,
+   "total": 3
+  },
+  {
+   "name": "随机游走",
+   "exam": 3,
+   "soln": 3,
+   "total": 6
+  },
+  {
+   "name": "因果效应/潜在结果",
+   "exam": 5,
+   "soln": 16,
+   "total": 21
+  },
+  {
+   "name": "无偏估计/SUTVA/estimand",
+   "exam": 6,
+   "soln": 7,
+   "total": 13
+  },
+  {
+   "name": "随机化/再随机化/allocation",
+   "exam": 21,
+   "soln": 33,
+   "total": 54
+  },
+  {
+   "name": "Mahalanobis/协变量平衡",
+   "exam": 9,
+   "soln": 17,
+   "total": 26
+  },
+  {
+   "name": "置换的轮换数",
+   "exam": 0,
+   "soln": 1,
+   "total": 1
+  }
+ ],
+ "totals": {
+  "exam_chars": 36432,
+  "soln_chars": 106181
+ }
+}

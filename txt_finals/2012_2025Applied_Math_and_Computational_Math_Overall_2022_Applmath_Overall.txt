@@ -1,0 +1,40 @@
+
+=== page 1 ===
+Overall Exam, Applied and Computational Mathematics part
+Question I
+Consider the ordinary diﬀerential equation (ODE) for y(t) ∈R as
+ε2y′′(t) +
+
+µ2 + 1
+ε2
+
+y(t) = f(t),
+t > 0, y(0) = y0,
+where µ > 0 is a constant, f(t) is a given function, and 0 < ε ≪1 is a small
+parameter.
+1. Use variation-of-constant formula to reformulate the ODE into an equiv-
+alent integral form.
+2. Construct a second order numerical scheme for solving the ODE, whose
+accuracy is independent of ε.
+3. Prove the convergence rates of the constructed numerical scheme above.
+Question II
+Show that the ﬁnite diﬀerence method
+un+1
+j
+−un
+j
+∆t
+= un
+j−1 −2un
+j + un
+j+1
+∆x2
++ un
+j
+for the equation ∂u
+∂t = ∂2u
+∂x2 + u(−∞< x < +∞, t > 0) is stable if
+∆t
+∆x2 ≤1
+2.
+1

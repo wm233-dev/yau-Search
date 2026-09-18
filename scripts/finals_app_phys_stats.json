@@ -1,0 +1,2892 @@
+{
+ "papers": [
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\SyllabusonComputationalandAppliedMathematics.pdf",
+   "kind": "Syllabus",
+   "year": "n/a",
+   "chars": 2462,
+   "pages": 3,
+   "nprob": 0,
+   "probchars": [],
+   "tier": "考纲"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2012 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2012",
+   "chars": 1330,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    505,
+    721
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2013 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2013",
+   "chars": 1971,
+   "pages": 2,
+   "nprob": 2,
+   "probchars": [
+    295,
+    1609
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2014 Applmath (Individual and Overall).pdf",
+   "kind": "Individual",
+   "year": "2014",
+   "chars": 5200,
+   "pages": 6,
+   "nprob": 2,
+   "probchars": [
+    1689,
+    1924
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2015 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2015",
+   "chars": 1069,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    202,
+    602,
+    158
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2016 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2016",
+   "chars": 2432,
+   "pages": 2,
+   "nprob": 2,
+   "probchars": [
+    793,
+    1637
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2017 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2017",
+   "chars": 1907,
+   "pages": 1,
+   "nprob": 1,
+   "probchars": [
+    1836
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2018 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2018",
+   "chars": 789,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    381,
+    322
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2019 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2019",
+   "chars": 2023,
+   "pages": 2,
+   "nprob": 5,
+   "probchars": [
+    316,
+    165,
+    483,
+    668,
+    336
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2020 Applmath (Individual)- set1（密码Yau-ACM20).pdf",
+   "kind": "Individual",
+   "year": "2020",
+   "chars": 0,
+   "pages": 0,
+   "nprob": 0,
+   "probchars": [],
+   "tier": "无文字层"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2020 Applmath (Individual)- set2（密码Yau-ACM20).pdf",
+   "kind": "Individual",
+   "year": "2020",
+   "chars": 0,
+   "pages": 0,
+   "nprob": 0,
+   "probchars": [],
+   "tier": "无文字层"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2021  Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2021",
+   "chars": 1671,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    730,
+    517,
+    423
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2022 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "chars": 2042,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    722,
+    393,
+    875
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2023 Individual_ACM.pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "chars": 2712,
+   "pages": 3,
+   "nprob": 4,
+   "probchars": [
+    461,
+    657,
+    613,
+    873
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2024 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "chars": 2295,
+   "pages": 2,
+   "nprob": 4,
+   "probchars": [
+    245,
+    244,
+    792,
+    901
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2025 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "chars": 1886,
+   "pages": 1,
+   "nprob": 4,
+   "probchars": [
+    827,
+    579,
+    217,
+    216
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2012 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2012",
+   "chars": 823,
+   "pages": 1,
+   "nprob": 1,
+   "probchars": [
+    720
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2013 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2013",
+   "chars": 545,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    108,
+    112,
+    74
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2015 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2015",
+   "chars": 213,
+   "pages": 1,
+   "nprob": 1,
+   "probchars": [
+    127
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2016 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2016",
+   "chars": 543,
+   "pages": 1,
+   "nprob": 1,
+   "probchars": [
+    446
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2017 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2017",
+   "chars": 537,
+   "pages": 1,
+   "nprob": 1,
+   "probchars": [
+    468
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2018 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2018",
+   "chars": 389,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    43,
+    57
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2019 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2019",
+   "chars": 1229,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    164,
+    225,
+    809
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2020 Applmath (Overall)（密码Yau-ACM20).pdf",
+   "kind": "Overall",
+   "year": "2020",
+   "chars": 0,
+   "pages": 0,
+   "nprob": 0,
+   "probchars": [],
+   "tier": "无文字层"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2021 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2021",
+   "chars": 2072,
+   "pages": 2,
+   "nprob": 2,
+   "probchars": [
+    897,
+    1175
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2022 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "chars": 733,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    490,
+    184
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2023 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "chars": 873,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    196,
+    136,
+    186
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2024 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2024",
+   "chars": 3129,
+   "pages": 2,
+   "nprob": 1,
+   "probchars": [
+    3010
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2025 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2025",
+   "chars": 928,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    697,
+    178
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2012 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2012",
+   "chars": 958,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    614,
+    245
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2014 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2014",
+   "chars": 1914,
+   "pages": 3,
+   "nprob": 1,
+   "probchars": [
+    1917
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2015 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2015",
+   "chars": 1436,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    375,
+    495,
+    485
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2017 Applied (Team) (2).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "chars": 1264,
+   "pages": 2,
+   "nprob": 1,
+   "probchars": [
+    1265
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2017 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "chars": 1629,
+   "pages": 2,
+   "nprob": 2,
+   "probchars": [
+    896,
+    610
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2017 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "chars": 984,
+   "pages": 1,
+   "nprob": 4,
+   "probchars": [
+    143,
+    115,
+    236,
+    129
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2018 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2018",
+   "chars": 652,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    253,
+    319
+   ],
+   "tier": "稀疏(<800)"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2019 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2019",
+   "chars": 2371,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    655,
+    842,
+    826
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2023 ACM GROUP (3 choose 2).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "chars": 2721,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    820,
+    1143,
+    655
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2024 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "chars": 5048,
+   "pages": 3,
+   "nprob": 3,
+   "probchars": [
+    371,
+    1615,
+    2958
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Team\\2025 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "chars": 1711,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    738,
+    499,
+    434
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Syllabus on Mathematical Physics.pdf",
+   "kind": "Syllabus",
+   "year": "n/a",
+   "chars": 2973,
+   "pages": 3,
+   "nprob": 0,
+   "probchars": [],
+   "tier": "考纲"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Individual\\2022 Mathematical Physics (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "chars": 1615,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    419,
+    486,
+    665
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Individual\\2023 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "chars": 3864,
+   "pages": 3,
+   "nprob": 4,
+   "probchars": [
+    565,
+    1112,
+    1738,
+    354
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Individual\\2024 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "chars": 3234,
+   "pages": 2,
+   "nprob": 4,
+   "probchars": [
+    529,
+    676,
+    1535,
+    376
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Individual\\2025 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "chars": 2802,
+   "pages": 2,
+   "nprob": 4,
+   "probchars": [
+    234,
+    183,
+    1288,
+    985
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Overall\\2022 Mathematical Physics (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "chars": 1913,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    93,
+    219,
+    1231
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Overall\\2023 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "chars": 2598,
+   "pages": 2,
+   "nprob": 2,
+   "probchars": [
+    1053,
+    1432
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Overall\\2024 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2024",
+   "chars": 1029,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    470,
+    434
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Overall\\2025 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2025",
+   "chars": 1905,
+   "pages": 1,
+   "nprob": 2,
+   "probchars": [
+    1478,
+    309
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Team\\2023 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "chars": 2944,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    1165,
+    652,
+    1024
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Team\\2024 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "chars": 4175,
+   "pages": 3,
+   "nprob": 3,
+   "probchars": [
+    1256,
+    1957,
+    853
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2022-2025Mathematical_Physics\\Team\\2025 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "chars": 2275,
+   "pages": 1,
+   "nprob": 3,
+   "probchars": [
+    1375,
+    411,
+    384
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set1（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "chars": 1618,
+   "pages": 2,
+   "nprob": 3,
+   "probchars": [
+    801,
+    616,
+    182
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set2（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "chars": 1878,
+   "pages": 2,
+   "nprob": 4,
+   "probchars": [
+    129,
+    421,
+    895,
+    413
+   ],
+   "tier": "正常"
+  },
+  {
+   "rel": "2012-2025Applied Math and Computational Math\\Overall\\2020_Applmath_(Overall)（密码Yau-ACM20).txt",
+   "kind": "Overall",
+   "year": "2020",
+   "chars": 1892,
+   "pages": 2,
+   "nprob": 2,
+   "probchars": [
+    1176,
+    698
+   ],
+   "tier": "正常"
+  }
+ ],
+ "problems": [
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2012 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2012",
+   "label": "N:1",
+   "chars": 505,
+   "subparts": 2,
+   "syms": 10,
+   "tags": [],
+   "head": "1. Let f(x) deﬁned on [0, 1] be a smooth function with suﬃciently many derivatives. xi = ih, where h = 1 N and i = 0, 1, · · · , N are uniformly distributed poi",
+   "full": "1. Let f(x) deﬁned on [0, 1] be a smooth function with suﬃciently many derivatives. xi = ih, where h = 1 N and i = 0, 1, · · · , N are uniformly distributed points in [0, 1]. What is the highest integer k such that the numerical integration formula (1) IN = 1 N a0(f(x0) + f(xN)) + a1(f(x1) + f(xN−1)) + N−2 X i=2 f(xi) ! is k-th order accurate, namely (2) IN − Z 1 0 f(x)dx ≤Chk for a constant C independent of h? Please describe the procedure to obtain the two constants a0 and a1 for this k."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2012 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2012",
+   "label": "N:2",
+   "chars": 721,
+   "subparts": 0,
+   "syms": 11,
+   "tags": [
+    "离散数学/组合算法"
+   ],
+   "head": "2. The classical Euclidean Algorithm to ﬁnd the greatest common di- visor gcd(m, n) of two positive integers m < n requires only O(log n) arithmetic operation. ",
+   "full": "2. The classical Euclidean Algorithm to ﬁnd the greatest common di- visor gcd(m, n) of two positive integers m < n requires only O(log n) arithmetic operation. However, it uses division with a reminder, which is a rather slow operation. Your task is to design and analyze a division-free algorithm. More precisely, using that for non-zero integers k and l we have gcd(2k, 2l) = 2 gcd(k, l), gcd(2k + 1, 2l) = gcd(2k + 1, l), gcd(2k + 1, l) = gcd(2k + 1 −l, l) • design an eﬃcient algorithm to compute gcd(m, n) that uses only subtraction and division by 2 (the latter is very fast as it is equivalent to a shift of the bit representation of the operand); • give a motivated estimate on the complexity of your algorithm. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2013 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2013",
+   "label": "L:Problem1",
+   "chars": 295,
+   "subparts": 2,
+   "syms": 2,
+   "tags": [],
+   "head": "Problem 1. Suppose A ∈Rn×n is nonsingular, u and v are two vectors. (a) Find condition such that A + uv⊤is invertible, in that case ﬁnd (A + uv⊤)−1. (b) Change ",
+   "full": "Problem 1. Suppose A ∈Rn×n is nonsingular, u and v are two vectors. (a) Find condition such that A + uv⊤is invertible, in that case ﬁnd (A + uv⊤)−1. (b) Change the ﬁrst column of A:      a11 a21 ... an1     by      b1 b2 ... bn     resulting in a new matrix ¯A. Find ( ¯A)−1."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2013 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2013",
+   "label": "L:Problem2",
+   "chars": 1609,
+   "subparts": 0,
+   "syms": 10,
+   "tags": [
+    "离散微分几何/网格/共形",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 2. A discrete surface is represented as a simplicial complex, such that each face is a Euclidean triangle, which is also called a triangle mesh. Suppose",
+   "full": "Problem 2. A discrete surface is represented as a simplicial complex, such that each face is a Euclidean triangle, which is also called a triangle mesh. Suppose M = (V, E, F) is a triangle mesh, where V, E, F represents the set of vertices, edges and faces respectively. The Euler number of M is deﬁned as χ(M) := |V | + |F| −|E|. An edge is called an interior edge if it is adjacent to two faces; an edge is called a boundary edge if it is adjacent to only one face. A vertex is called an interior vertex, if all the edges adjacent to it are interior; a vertex is called a boundary vertex, if it attaches to at least one boundary edge. A triangle mesh is called a closed mesh, if it has no boundary edges. Figure 1: A discrete surface is represented as a triangle mesh. Suppose vi ∈V is an interior vertex on M, [vi, vj, vk] ∈F is a face on M. θjk i is the corner angle on the face [vi, vj, vk] with apex vi. Then the discrete Gaussian curvature at vi is deﬁned as K(vi) := 2π − X [vi,vj,vk]∈F θjk i . If vi is an boundary vertex, then the discrete Gaussian curvature at vi is deﬁned as K(vi) := π − X [vi,vj,vk]∈F θjk i . 1. Suppose M is a closed triangle mesh, prove the Discrete Gauss-Bonnet theorem: X vi∈V K(vi) = 2πχ(M). 1 푣푖 푣푗 푣푘 휃푗푘 푖 Figure 2: Discrete Gaussian curvature for an interior vertex. 2. (optional) Suppose the faces of M are not only triangles, but also general planar polygons, prove the discrete Gauss-Bonnet theorem. 3. (Optional) Suppose M is a triangle mesh with boundaries, different boundary connect compo- nents have no intersection, prove the discrete Gauss-Bonnet theorem. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2014 Applmath (Individual and Overall).pdf",
+   "kind": "Individual",
+   "year": "2014",
+   "label": "L:Problem1",
+   "chars": 1689,
+   "subparts": 0,
+   "syms": 36,
+   "tags": [
+    "插值/逼近与求积",
+    "变分法/Euler-Lagrange/最优化",
+    "离散微分几何/网格/共形",
+    "量子场论/QFT"
+   ],
+   "head": "Problem 1. Discrete Optimal Mass Transportation Suppose Ω ⊂ℝ2 is a convex planar domain, 𝑃= {𝑝1, 𝑝2, ⋅⋅⋅, 𝑝𝑛} are discrete points on ℝ2, each point has a Dirac ",
+   "full": "Problem 1. Discrete Optimal Mass Transportation Suppose Ω ⊂ℝ2 is a convex planar domain, 𝑃= {𝑝1, 𝑝2, ⋅⋅⋅, 𝑝𝑛} are discrete points on ℝ2, each point has a Dirac measure {𝐴𝑖𝛿(𝑝−𝑝𝑖)}, such that 𝐴𝑟𝑒𝑎(Ω) = 𝑛 ∑ 𝑖=1 𝐴𝑖. A mapping 𝑓: Ω →𝑃is called measure preserving, if the area of the pre-image of 𝑝𝑖equals to 𝐴𝑖, 𝐴𝑟𝑒𝑎(𝑓−1(𝑝𝑖)) = 𝐴𝑖. The transportation cost of a mapping is given by 𝐸(𝑓) := ∫ Ω ∣𝑝−𝑓(𝑝)∣2𝑑𝑝. Among all the measure preserving mappings, the one which minimizes the transportation cost is called the optimal mass transportation map. We want to show that: if 𝑓is the optimal mass transportation map, then there exists a convex function 𝑢: Ω →ℝ, such that 𝑓is the gradient map of 𝑢, 𝑓= ∇𝑢. 1. Let 𝐻= {ℎ1, ℎ2, ⋅⋅⋅, ℎ𝑛} be weights. The power voronoi diagram induced by (𝑃, 𝐻) is a cell decom- position of ℝ2, ℝ2 = 𝑛∪ 𝑖=1 𝑊𝑖, where 𝑊𝑖= {𝑞∈ℝ2∣∣𝑞−𝑝𝑖∣2 + ℎ𝑖≤∣𝑞−𝑝𝑗∣2 + ℎ𝑗, ∀1 ≤𝑗≤𝑛}. Deﬁne a map: 𝜑: 𝑊𝑖→𝑝𝑖. Show that there is a piecewise linear convex function 𝑢: Ω →ℝ, such that 𝑊𝑖= {𝑞∈ℝ2 ∣∇𝑢(𝑞) = 𝑝𝑖}, namely 𝜑is the gradient map of 𝑢. 2. Suppose there is another cell decomposition ℝ2 = 𝑛∪ 𝑖=1 𝑊𝑖, such that 𝐴𝑟𝑒𝑎(𝑊𝑖∩Ω) = 𝐴𝑟𝑒𝑎(𝑊𝑖∩Ω), The map induced by this cell decomposition is ¯𝜑: 𝑊𝑖→𝑝𝑖. prove the transportation cost of 𝜑is no greater than that of ¯𝜑, ∫ Ω ∣𝑞−𝜑(𝑞)∣2𝑑𝑞≤ ∫ Ω ∣𝑞−¯𝜑(𝑞)∣2𝑑𝑞. Namely, the discrete optimal mass transportation map must be induced by a power voronoi diagram. 3. Suppose given any 𝐴= {𝐴1, 𝐴2, ⋅⋅⋅, 𝐴𝑛}, such that 𝐴𝑖> 0 and ∑𝑛 𝑖=1 𝐴𝑖= 𝐴𝑟𝑒𝑎(Ω), we can always ﬁnd 𝐻, such that the power voronoi diagram induced by 𝐻satisﬁes the condition 𝐴𝑟𝑒𝑎(𝑊𝑖) = 𝐴𝑖, then show that the discrete optimal mass transportation is given by the gradient map of a convex function. 1 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2014 Applmath (Individual and Overall).pdf",
+   "kind": "Individual",
+   "year": "2014",
+   "label": "L:Problem2",
+   "chars": 1924,
+   "subparts": 0,
+   "syms": 25,
+   "tags": [
+    "离散微分几何/网格/共形",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 2. Circle Packing A discrete surface is represented as a simplicial complex, such that each face is a Euclidean triangle, which is also called a triangl",
+   "full": "Problem 2. Circle Packing A discrete surface is represented as a simplicial complex, such that each face is a Euclidean triangle, which is also called a triangle mesh. Suppose 𝑀= (𝑉, 𝐸, 𝐹) is a triangle mesh, where 𝑉, 𝐸, 𝐹represents the set of vertices, edges and faces respectively. The Euler number of the mesh is 𝜒(𝑀) = ∣𝑉∣+ ∣𝐹∣−∣𝐸∣. Furthermore, a circle packing deﬁned on the mesh. Each vertex 𝑣𝑖is associated with a circle (𝑣𝑖, 𝑟𝑖), two circles on an edge are tangent to each other. Figure 1: A discrete surface is represented as a triangle mesh. Suppose 𝑣𝑖∈𝑉is an interior vertex on 𝑀, [𝑣𝑖, 𝑣𝑗, 𝑣𝑘] ∈𝐹is a face on 𝑀. 𝜃𝑗𝑘 𝑖 is the corner angle on the face [𝑣𝑖, 𝑣𝑗, 𝑣𝑘] with apex 𝑣𝑖. The discrete curvature at 𝑣𝑖is deﬁned as 𝐾𝑖= 2𝜋− ∑ [𝑣𝑖,𝑣𝑗,𝑣𝑘]∈𝐹 𝜃𝑗𝑘 𝑖 The the total curvature satisﬁes the Gauss-Bonnet theorem ∑ 𝑖𝐾𝑖= 2𝜋𝜒(𝑀). Let 𝑢𝑖= log 𝑟𝑖, which is called the discrete conformal factor. We want to show the mapping from the discrete conformal factor to the discrete curvature 𝜑: (𝑢1, 𝑢2, ⋅⋅⋅, 𝑢𝑛) 7→(𝐾1, 𝐾2, ⋅⋅⋅, 𝐾𝑛), where ∑ 𝑖𝑢𝑖= 0, is deffeomorphic. 1. Derivative Cosine Law 휃푖 휃푗 휃푘 푙푖 푙푗 푙푘 푣푖 푣푗 푣푘 Figure 2: A Euclidean triangle. Consider one triangle [𝑣𝑖, 𝑣𝑗, 𝑣𝑘], the corner angles are the functions of edge lengths, 𝜃𝑖(𝑙𝑖, 𝑙𝑗, 𝑙𝑘), prove ∂𝜃𝑖 ∂𝑙𝑖 = 𝑙𝑖 2𝐴, ∂𝜃𝑖 ∂𝑙𝑗 = −𝑙𝑖 2𝐴cos 𝜃𝑘, 2 where 𝐴is the triangle area. 푣푖 푣푗 푣푘 푙푘 푙푖 푙푗 푑 Figure 3: A Euclidean triangle with a circle packing. 2. Circle Packing on one Triangle. Suppose we associate each vertex 𝑣𝑖with a circle 𝑐𝑖(𝑣𝑖, 𝑟𝑖) centered at 𝑣𝑖 with radius 𝑟𝑖. All three circles are tangent to each other, the inner circle has radius 𝑟, let 𝑢𝑖= log 𝑟𝑖, prove ∂𝜃𝑖 ∂𝑢𝑗 = ∂𝜃𝑗 ∂𝑢𝑖 = 𝑟 𝑙𝑘 and ∂𝜃𝑖 ∂𝑢𝑖 = −∂𝜃𝑖 ∂𝑢𝑗 −∂𝜃𝑖 ∂𝑢𝑘 . Prove that the mapping 𝜑: {(𝑢𝑖, 𝑢𝑗, 𝑢𝑘)∣𝑢𝑖+ 𝑢𝑗+ 𝑢𝑘= 0} →{(𝜃𝑖, 𝜃𝑗, 𝜃𝑘)∣𝜃𝑖+ 𝜃𝑗+ 𝜃𝑘= 𝜋} is a diffeomorphism. 3. Consider the whole triangle mesh, prove the mapping 𝜑: (𝑢1, 𝑢2, ⋅⋅⋅, 𝑢𝑛) 7→(𝐾1, 𝐾2, ⋅⋅⋅, 𝐾𝑛), where ∑ 𝑖𝑢𝑖= 0, is deffeomorphic. 3"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2015 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2015",
+   "label": "N:1",
+   "chars": 202,
+   "subparts": 0,
+   "syms": 2,
+   "tags": [],
+   "head": "1. Suppose an n by n matrix A is given by A =          1 r 1 r 1 r ... ... ... 1 r r 1          n×n Ax = b, prove that ∥x∥≤C∥b∥, where the con",
+   "full": "1. Suppose an n by n matrix A is given by A =          1 r 1 r 1 r ... ... ... 1 r r 1          n×n Ax = b, prove that ∥x∥≤C∥b∥, where the constant C is independent of the dimension n."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2015 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2015",
+   "label": "N:2",
+   "chars": 602,
+   "subparts": 0,
+   "syms": 18,
+   "tags": [
+    "插值/逼近与求积"
+   ],
+   "head": "2. For an interval [a, b], we divide it into N + 1 equally spaced subintervals by using the nodal points: a = x0 < x1 < · · · < xN+1 = b, with xi = a + i h, h =",
+   "full": "2. For an interval [a, b], we divide it into N + 1 equally spaced subintervals by using the nodal points: a = x0 < x1 < · · · < xN+1 = b, with xi = a + i h, h = (b −a)/(N + 1). For any continuous function w on [0, π], we deﬁne Πhw to be the piecewise linear interpolation of w, namely Πhw is linear on each subinterval (xi, xi+1) for i = 0, 1, · · · , N, and it takes the same values as w at all nodal points xi, i = 0, 1, · · · , N + 1. For any function w, we deﬁne ∥w∥= \u0010 Z π 0 w2(x)dx \u00111/2 . Prove the following estimates for any function u ∈C2[0, π]: ∥u −Πhu∥≤1 π2h2 ∥u′′∥, ∥u′ −(Πhu)′∥≤1 πh ∥u′′∥."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2015 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2015",
+   "label": "N:3",
+   "chars": 158,
+   "subparts": 0,
+   "syms": 4,
+   "tags": [
+    "非线性方程/牛顿法"
+   ],
+   "head": "3. Newton iteration for computing the kth root (k ≥2) of C > 0 is xn+1 = xn −xk n −C kxk−1 n . Show that the iteration converges for any initial value x0 > 0.",
+   "full": "3. Newton iteration for computing the kth root (k ≥2) of C > 0 is xn+1 = xn −xk n −C kxk−1 n . Show that the iteration converges for any initial value x0 > 0."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2016 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2016",
+   "label": "L:Problem1",
+   "chars": 793,
+   "subparts": 3,
+   "syms": 16,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "变分法/Euler-Lagrange/最优化"
+   ],
+   "head": "Problem 1. Given a vector b ∈Rm and A ∈Rm×m, the Arnoldi process is a systematic way of constructing an orthonormal bases for the sucessive Krylov subspaces Kn ",
+   "full": "Problem 1. Given a vector b ∈Rm and A ∈Rm×m, the Arnoldi process is a systematic way of constructing an orthonormal bases for the sucessive Krylov subspaces Kn = ⟨b, Ab, . . . , An−1b⟩, n = 1, 2, . . . . It gives AQn = Qn+1 ˜Hn, where Qn ∈Rm×n, Qn+1 ∈Rm×(n+1) are with orthonormal columns and ˜Hn ∈R(n+1)×n is upper-Hessenberg. Let Hn ∈Rn×n be obtained by deleting the last row of ˜Hn. (a) Write out the Arnoldi algorithm. (b) Assume that at step n, the (n + 1, n)-th entry of ˜Hn is zero. i. Show that Kn is an invariant subspace of A and that Kn = Kn+1 = Kn+2 = . . .. ii. Show that each eigenvalue of Hn is an eigenvalue of A for n > 1. (c) Let Pn be the set of monic polynomials of degree n. Show that the minimizer of min pn∈Pn ∥pn(A)b∥2 is given by the characteristic polynomial of Hn. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2016 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2016",
+   "label": "L:Problem2",
+   "chars": 1637,
+   "subparts": 6,
+   "syms": 37,
+   "tags": [
+    "渐近分析/奇异摄动/边界层"
+   ],
+   "head": "Problem 2. The following FitzHugh-Nagumo model is a simpliﬁed version of the Hodgkin-Huxley model (1963 Nobel Prize in Physiology or Medicine) which models in a",
+   "full": "Problem 2. The following FitzHugh-Nagumo model is a simpliﬁed version of the Hodgkin-Huxley model (1963 Nobel Prize in Physiology or Medicine) which models in a detailed manner activation and deactivation dynamics of a spiking neuron. ϵ˙v = v −1 3v3 −w + Iext ˙w = v + a −bw where v is the membrane voltage, w is a linear recovery variable, Iext is the external stimulus. It contains the van der Pol oscillator as a special case for a = b = Iext = 0. Fig 1 gives a qualtitative description of the four-stage structure of FitzHugh-Nagumo limit cycle solution and Fig 2 sketchs the time-proﬁle illustrating the four stages in the limit cycle. Figure 1: (a) The blue line is the trajectory of the FHN model in phase space. The pink line is the cubic nullcline w = v −1 3v3 + Iext and the yellow line is the linear nullcline w = a/b + v/b. (b) Graph of v with parameters Iext = 0.5, a = 0.7, b = 0.8, and ϵ = 1/12.5. (a) (10 pts) Use the expansions v(t) = v0(t)+ϵv0(t)+O(ϵ2), w(t) = w0(t)+ϵw0(t)+O(ϵ2) to determine the equations for the leading order slow solution. Point out the slow manifold (w0 as a function of v0) in Fig 1(a) and indicate the direction of the motion on each part, and identify the two attracting points on the curve. (b) (5 pts) Use the expansion v(t) = V0(T)+ϵV1(T)+O(ϵ2), w(t) = W0(T)+ϵW1(T)+O(ϵ2) with T = t/ϵ to obtain the equations for the leading order fast solution. (c) (5 pts) Use the phase plane to determine the maximum and the minimum values of v(t) during an oscillation. Point out in Fig 1(a) and Fig 1 (b) the part of slow dynamics and fast dynamics, estimate the period for v(t) as a function of time. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2017 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2017",
+   "label": "N:1",
+   "chars": 1836,
+   "subparts": 15,
+   "syms": 24,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann",
+    "变分法/Euler-Lagrange/最优化",
+    "反问题/正则化/稀疏",
+    "流体力学/连续介质",
+    "经典力学/哈密顿-拉格朗日",
+    "广义相对论/引力"
+   ],
+   "head": "1. Consider the following Burgers’ equation: ( ut + uux = νuxx, x ∈R, t > 0 u(x, 0) = u0(x), x ∈R , (1) which can be used to model the motion of a viscous compr",
+   "full": "1. Consider the following Burgers’ equation: ( ut + uux = νuxx, x ∈R, t > 0 u(x, 0) = u0(x), x ∈R , (1) which can be used to model the motion of a viscous compressible gas, where u(x, t) is the speed of the gas, ν > 0 is the kinematic viscosity, x is the spatial coordinate, and t is the time. As it is shown below, we can apply the Hopf-Cole transformation to solve the strongly nonlinear Burgers equation (1). (a) Let Ux = u and introduce the Hopf-Cole transformation U(x, t) = −2ν log(φ(x, t)). Derive the equation for φ(x, t). (b) Solve the equation for φ(x, t), and then obtain the solution to the Burgers equation (1). (c) When ν = 0 the Burgers’ equation (1) becomes the inviscid Burgers’ equation. Show that if we solve the inviscid Burgers’ equation with smooth initial data u0(x), for which u′ 0(x) is negative and bounded from below, then the solution will break at time Tb = −1 min u′ 0(x). The term “break” here means the solution u(x, t) has an inﬁnite slope and a shock form. 2. (a) Consider the following Rudin-Osher-Fatemi model for image regularization min u Z Ω ∥∇u∥+ λ (F −u)2 (2) for some given function F in a boundary rectangular domain Ω, where ∥· ∥is the usual 2-norm. Show that the Euler-Lagrange equation corresponding to the variational problem (2) is given by u −1 2λ∇· \u0012 ∇u ∥∇u∥ \u0013 = F . (b) Consider the following variational problem for the cartoon-texture decomposition in image processing min u,g,h Z Ω ∥∇u∥+ λ \u0012 f −∂g ∂x −∂h ∂y −u \u00132 + µ p g2 + h2 , (3) where f is the given image, λ and µ are two positive constants, and f, u, g, h : Ω→R. With appropriate boundary conditions, derive the system of Euler-Lagrangian equations for (3) that the minimizers u, g and h should satisfy. (c) Let κ(u) = ∇· \u0010 ∇u ∥∇u∥ \u0011 be the curvature operator. If u solves the variational problem (3), show that ∥∇κ(u)∥= µ. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2018 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2018",
+   "label": "N:1",
+   "chars": 381,
+   "subparts": 0,
+   "syms": 2,
+   "tags": [
+    "插值/逼近与求积",
+    "谱方法/FFT/Fourier"
+   ],
+   "head": "1. Consider the deﬁnite integral I = Z b a f(x) dx. a. Construct an approximation to I by using the composite trapezoidal rule with a uniform partition of the i",
+   "full": "1. Consider the deﬁnite integral I = Z b a f(x) dx. a. Construct an approximation to I by using the composite trapezoidal rule with a uniform partition of the interval [a, b]. b. Suppose f ∈C2[a, b], show that the above approximation is second-order accurate. c. Suppose f is periodic and smooth on the interval [a, b], show that the above approximation is spectral order accurate."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2018 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2018",
+   "label": "N:2",
+   "chars": 322,
+   "subparts": 1,
+   "syms": 10,
+   "tags": [
+    "能量稳定/能量守恒格式",
+    "变分法/Euler-Lagrange/最优化",
+    "流体力学/连续介质"
+   ],
+   "head": "2. Let (u, p) be the solution of the Stokes equation on a domain Ω    −∇p + ∆u = 0 ∇· u = 0 u|∂Ω= g (1) where u(x, y) = (u(x, y), v(x, y)), ∇· u = ∂u ∂x + ∂v",
+   "full": "2. Let (u, p) be the solution of the Stokes equation on a domain Ω    −∇p + ∆u = 0 ∇· u = 0 u|∂Ω= g (1) where u(x, y) = (u(x, y), v(x, y)), ∇· u = ∂u ∂x + ∂v ∂y and g is the given boundary value. Show that u is a minimizer of the dissipation functional E(v) = Z Ω |∇v|2dxdy among all v such that ∇· v = 0 and v|∂Ω= g. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2019 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2019",
+   "label": "L:Problem1",
+   "chars": 316,
+   "subparts": 0,
+   "syms": 3,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "Problem 1. Show that if C =   0 0 · · · 0 −c0 1 0 · · · 0 −c1 0 1 · · · 0 −c2 ... ... ... ... ... 0 0 · · · 1 −cn−1   is a companion matrix with dis",
+   "full": "Problem 1. Show that if C =   0 0 · · · 0 −c0 1 0 · · · 0 −c1 0 1 · · · 0 −c2 ... ... ... ... ... 0 0 · · · 1 −cn−1   is a companion matrix with distinct eigenvalues λ1, ..., λn, then V CV −1 = diag(λ1, ..., λn) where V =   1 λ1 · · · λn−1 1 1 λ2 · · · λn−1 2 ... ... ... ... 1 λn · · · λn−1 n  ."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2019 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2019",
+   "label": "L:Problem2",
+   "chars": 165,
+   "subparts": 1,
+   "syms": 6,
+   "tags": [
+    "插值/逼近与求积"
+   ],
+   "head": "Problem 2. Prove the following error estimate for the Simpson’s rule: Z b a f(x) dx −b −a 6 \u0010 f(a) + 4f(a + b 2 ) + f(b) \u0011 = − \u0010b −a 2 \u00115f (4)(ξ) 90 where a < ξ",
+   "full": "Problem 2. Prove the following error estimate for the Simpson’s rule: Z b a f(x) dx −b −a 6 \u0010 f(a) + 4f(a + b 2 ) + f(b) \u0011 = − \u0010b −a 2 \u00115f (4)(ξ) 90 where a < ξ < b."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2019 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2019",
+   "label": "L:Problem3",
+   "chars": 483,
+   "subparts": 2,
+   "syms": 12,
+   "tags": [],
+   "head": "Problem 3. Consider the ﬁxed point iteration method to solve non- linear equation f(x) = 0 (1) xn+1 = g(xn). a. State the necessary conditions for existence and",
+   "full": "Problem 3. Consider the ﬁxed point iteration method to solve non- linear equation f(x) = 0 (1) xn+1 = g(xn). a. State the necessary conditions for existence and uniqueness of a ﬁxed-point x = α in (1), and derive the criteria that determines the order of convergence. b. Consider instead the ﬁxed-point iteration xn+1 = G(xn) = xn − (g(xn) −xn)2 g(g(xn)) −2g(xn) + xn . Show that if α is a ﬁxed-point of g(x), then it is also a ﬁxed point of G(x). 1 2 PROBLEMS FOR PERSONAL CONTEST"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2019 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2019",
+   "label": "L:Problem4",
+   "chars": 668,
+   "subparts": 0,
+   "syms": 18,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "Problem 4. Consider the following parabolic equation ∂u ∂t = a∂2u ∂x2 where a > 0 is a constant. Consider the following ﬁnite diﬀerence scheme 1 12 vn+1 m+1 −vn",
+   "full": "Problem 4. Consider the following parabolic equation ∂u ∂t = a∂2u ∂x2 where a > 0 is a constant. Consider the following ﬁnite diﬀerence scheme 1 12 vn+1 m+1 −vn m+1 k + 5 6 vn+1 m −vn m k + 1 12 vn+1 m−1 −vn m−1 k = a(δ2v)n+1 m + (δ2v)n m 2 where δ2 is the standard central diﬀerence operator in space, namely, (δ2v)n m = vn m+1 −2vn m + vn m−1 h2 and k, h > 0 are the time step size and the mesh size respectively. It is known that the scheme is second order in time and fourth order in space. How to modify the above scheme for the equation ∂u ∂t = σ(x)∂2u ∂x2 where σ(x) ≥σ0 > 0, so that the resulting scheme is still second order in time and fourth order in space?"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2019 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2019",
+   "label": "L:Problem5",
+   "chars": 336,
+   "subparts": 0,
+   "syms": 10,
+   "tags": [
+    "迭代法收敛性(Jacobi/GS/不动点)"
+   ],
+   "head": "Problem 5. Let A and B be n×n matrices, A non-singular. Consider solving the linear system of equations A x1 + B x2 = b1 B x1 + A x2 = b2 where x1, x2, b1, b2 ∈",
+   "full": "Problem 5. Let A and B be n×n matrices, A non-singular. Consider solving the linear system of equations A x1 + B x2 = b1 B x1 + A x2 = b2 where x1, x2, b1, b2 ∈Rn. Find the necessary and suﬃcient condi- tion(s) for the convergence of the iterative method A xk+1 1 = b1 −B xk 2 A xk+1 2 = b2 −B xk 1 for some initial guess x0 1 and x0 2."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2021  Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2021",
+   "label": "L:QuestionI",
+   "chars": 730,
+   "subparts": 0,
+   "syms": 15,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "Question I Let A be an n×n matrix with real and positive eigenvalues and b be a given vector. Consider the solution of Ax = b by the following Richardson’s iter",
+   "full": "Question I Let A be an n×n matrix with real and positive eigenvalues and b be a given vector. Consider the solution of Ax = b by the following Richardson’s iteration x(k+1) = (I −ωA)x(k) + ωb where ω is a damping coeﬃcient. Let λ1 and λn be the smallest and the largest eigenvalues of A. Let Gω = I −ωA. 1. Prove that the Richardson’s iteration converges if and only if 0 < ω < 2 λn . 2. Prove that the optimal choice of ω is given by ωopt = 2 λ1 + λn . Prove also that ρ(Gω) =      1 −ωλ1, ω ≤ωopt (λn −λ1)/(λn + λ1), ω = ωopt ωλn −1, ω ≥ωopt where ρ(Gω) is the spectral radius of Gω. 3 Prove that, if A is symmetric and positive deﬁnite, then ρ(Gωopt) = κ2(A) −1 κ2(A) + 1 where κ2(A) is the spectral condition number of A."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2021  Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2021",
+   "label": "L:QuestionII",
+   "chars": 517,
+   "subparts": 0,
+   "syms": 9,
+   "tags": [
+    "能量稳定/能量守恒格式"
+   ],
+   "head": "Question II Let the energy functional for u(x) ∈R (x ∈[0, 1]) be given as E[u] = Z 1 0 \u00141 2|∂xu(x)|2 + 1 4ε2(1 −|u|2)2 \u0015 dx, 0 < ε ≪1. Consider the dynamical eq",
+   "full": "Question II Let the energy functional for u(x) ∈R (x ∈[0, 1]) be given as E[u] = Z 1 0 \u00141 2|∂xu(x)|2 + 1 4ε2(1 −|u|2)2 \u0015 dx, 0 < ε ≪1. Consider the dynamical equation (natural boundary condtions) d dtu(x, t) = −δE δu [u(x, t)], u(x, 0) = u0, where u0 is a suﬃciently smooth function. 1 1. Show that E[u(x, t)] is decreasing in t. 2. If initially u0(x) ∈[−1, 1], show that u(x, t) ∈[−1, 1] for all t > 0. 3. Design a semi-discrete-in-time scheme such that the energy functional is decreasing for the discrete scheme."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2021  Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2021",
+   "label": "L:QuestionIII",
+   "chars": 423,
+   "subparts": 0,
+   "syms": 12,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "Question III Let ak(t), bk(t) ∈R (k = 1, 2, . . . , n) satisfy the diﬀerential equations: d dtak(t) = 2(b2 k −b2 k−1), d dtbk(t) = bk(ak+1 −ak), k = 1, 2, · · ·",
+   "full": "Question III Let ak(t), bk(t) ∈R (k = 1, 2, . . . , n) satisfy the diﬀerential equations: d dtak(t) = 2(b2 k −b2 k−1), d dtbk(t) = bk(ak+1 −ak), k = 1, 2, · · · , n, where b0(t) = bn(t) = 0. Consider the n × n tri-diagonal matrix L(a, b) L(a, b) =   a1 b1 b1 a2 0 ... bn−1 0 bn−1 an   , show that: 1. The eigenvalues of L(t) = L(a(t), b(t)) are independent of t. 2. lim t→∞bk(t) = 0, k = 1, 2, · · · , n −1. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2022 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "label": "L:QuestionI",
+   "chars": 722,
+   "subparts": 2,
+   "syms": 23,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann",
+    "能量稳定/能量守恒格式"
+   ],
+   "head": "Question I Consider the Allen-Cahn equation for u := u(x, t) ∈R (natural boundary conditions) ∂tu = ∂xxu + u(1 −u2), u(x, 0) = u0(x), x ∈(0, 1), t > 0, where u0",
+   "full": "Question I Consider the Allen-Cahn equation for u := u(x, t) ∈R (natural boundary conditions) ∂tu = ∂xxu + u(1 −u2), u(x, 0) = u0(x), x ∈(0, 1), t > 0, where u0 is a suﬃciently smooth function. 1. Denote the energy functional as E(u) E(u(·, t)) = Z 1 0 \u00121 2|∂xu(x, t)|2 + 1 4(u(x, t) −1)2 \u0013 dx. Show E(u(·, t)) is a decreasing function respect to t. 2. Consider a semi-discrete-in-time scheme un+1 −un τ = ∂xxun+1 −(un+1)3 + un, (1) where u0 = u0 and un is the numerical approximation of u(·, tn) with tn = nτ (τ > 0 is the time step size, n = 0, 1, 2, · · ·). Show that the scheme is energy stable, i.e. E(un+1) ≤E(un) (n = 0, 1, 2, · · ·). 3. For given un, prove that (1) admits a unique solution un+1 at each time step."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2022 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "label": "L:QuestionII",
+   "chars": 393,
+   "subparts": 3,
+   "syms": 11,
+   "tags": [],
+   "head": "Question II For an integer n ≥1, consider the equation f(x) = 0, f(x) = xn+1 −bnx + abn, a > 0, b > 0. (a) Prove that the equation has exactly two distinct posi",
+   "full": "Question II For an integer n ≥1, consider the equation f(x) = 0, f(x) = xn+1 −bnx + abn, a > 0, b > 0. (a) Prove that the equation has exactly two distinct positive roots if and only if a < n (n + 1)1+ 1 n b. (b) Assuming that the condition in (a) holds, show that Newton’s method converges to the smaller positive root, when started at x0 = a, and to the larger one, when started at x0 = b. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2022 Applmath (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "label": "L:QuestionIII",
+   "chars": 875,
+   "subparts": 5,
+   "syms": 21,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "迭代法收敛性(Jacobi/GS/不动点)"
+   ],
+   "head": "Question III 1. Consider a non-singular tridiagonal n × n matrix given by: A =   a1 b1 c1 a2 b2 c2 a3 ... ... ... bn−1 cn−1 an   with no zero on a",
+   "full": "Question III 1. Consider a non-singular tridiagonal n × n matrix given by: A =   a1 b1 c1 a2 b2 c2 a3 ... ... ... bn−1 cn−1 an   with no zero on all three diagonals. Denote the strictly lower triangular, diagonal, strictly upper triangular of A by L, D, U respectively. (a) Let BJ = In −D−1A, and pBJ(λ) be the characteristic polyno- mial of BJ. Also, let BGS = −(L + D)−1U, and pBGS(λ) be the charateristic polynomial of BGS. Prove that pBJ(λ) = det(−D−1) det(L + λD + U) and pBGS(λ) = det(−(L + D)−1) det(λL + λD + U). (b) Prove that det(λ2L + λ2D + U) = λn det(L + λD + U). (c) Using part (a) and (b), prove that ρ(BGS) = ρ(BJ)2, where ρ(BGS) and ρ(BJ are the spectral radii of BGS and BJ respectively. Hence, determine whether Jacobi or Gauss-Seidel methods to solve Ax = b converges faster if they both converge. Please explain your answers with details. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2023 Individual_ACM.pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "N:1",
+   "chars": 461,
+   "subparts": 3,
+   "syms": 6,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "1. Let U ∈Rn×n be an orthogonal matrix satisfying det(U) = 1. (a) Prove that U can be written into the product of ﬁnitely many Givens rotation matrices. Recall ",
+   "full": "1. Let U ∈Rn×n be an orthogonal matrix satisfying det(U) = 1. (a) Prove that U can be written into the product of ﬁnitely many Givens rotation matrices. Recall that an n × n Givens rotation matrix is an orthogonal matrix G(i, j, θ), for some given indices i > j and some angle θ ∈[0, 2π], whose entries are the same as the identity matrix except for ( gii = gjj = cos θ, gij = −gji = sin θ. (b) Find an algorithm to compute the Givens decomposition in part (a)."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2023 Individual_ACM.pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "N:2",
+   "chars": 657,
+   "subparts": 3,
+   "syms": 12,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "2. Let A ∈Cn×n be a self-adjoint matrix wth k dominant eigenvalues, which are denoted by λj, j = 1, 2, · · · , n. In particular, we have |λ1| ≥|λ2| ≥· · · ≥|λk|",
+   "full": "2. Let A ∈Cn×n be a self-adjoint matrix wth k dominant eigenvalues, which are denoted by λj, j = 1, 2, · · · , n. In particular, we have |λ1| ≥|λ2| ≥· · · ≥|λk| > |λk+1| ≥· · · ≥|λn|. We write A = QDQ∗ where Q ∈Cn×n is unitary and D = diag(λj) ∈Cn×n is diagonal. Con- sider the following iteration X(m+1) = AX(m). Assume that X(0) ∈Cn×k is given. Deﬁne bP ∈Cn×n by bP = \u0012Ik 0 0 0 \u0013 where Ik is the k×k identity matrix, and P = Q bPQ∗. Assume that PX(0) has independent columns. 1 (a) Show that PX(m) also has independent columns. (b) Hence, show that X(m) has independent columns. (c) Show that, there is a matrix Λ ∈Ck×k such that for all non-zero y ∈Ck."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2023 Individual_ACM.pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "N:3",
+   "chars": 613,
+   "subparts": 3,
+   "syms": 21,
+   "tags": [
+    "常微分方程数值解"
+   ],
+   "head": "3. Consider a system of two ODEs of the form dx dt = f(x, y), dy dt = g(x, y). Suppose that it is more computationally expensive to evaluate g than to evaluate ",
+   "full": "3. Consider a system of two ODEs of the form dx dt = f(x, y), dy dt = g(x, y). Suppose that it is more computationally expensive to evaluate g than to evaluate f. (a) Prove that the multi-rate explicit Euler method deﬁned by xj+1/2 = xj + k 2f(xj, yj), xj+1 = xj+1/2 + k 2f(xj+1/2, yj), yj+1 = yj + kg(xj, yj), is locally second order, where k is the time step. (b) Consider applying the method from (a) to the following linear prob- lem: dx dt = −x + y, dy dt = −y. Under what conditions on the time step k will the discrete solution remain stable, i.e., as j →∞, both xj →0 and yj →0 for any initial conditions?"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2023 Individual_ACM.pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "N:4",
+   "chars": 873,
+   "subparts": 2,
+   "syms": 17,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "4. For the advection equation ut+aux = 0 with a > 0, consider the ﬁve-point stencil: un+1 j = 1 2(un j−1 + un j+1) + ak 12h(un j+2 −8un j+1 + 8un j−1 −un j−2). ",
+   "full": "4. For the advection equation ut+aux = 0 with a > 0, consider the ﬁve-point stencil: un+1 j = 1 2(un j−1 + un j+1) + ak 12h(un j+2 −8un j+1 + 8un j−1 −un j−2). (a) Recall that the CFL condition for a scheme is when the numerical domain of dependence contains the analytic domain of dependence. It is a necessary condition for stability but not suﬃcient. Write down the CFL condition for this scheme. (b) Write down its ampliﬁcation factor g(ω). Recall that the von Neu- mann stability Condition for a scheme is the condition on a, k, h such that |g(ω)| < 1 + Kk for all admissible ω, h, k. It is a necessary and 2 suﬃcient condition for stability. In this case, we see |g(ω)| depends on k through λ = k/h, so the criterion reduced to |g(ω)| ≤1 for all admissible ω, k, h. Find out the von Neumann condition for this scheme. How does that compare with the CFL condition? 3"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2024 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "N:1",
+   "chars": 245,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [],
+   "head": "1. Find an algorithm of O(n2) operations for solving the following linear system (ST −λI)x = b, where S, T ∈Rn×n are given upper triangular matrices, λ ∈R is gi",
+   "full": "1. Find an algorithm of O(n2) operations for solving the following linear system (ST −λI)x = b, where S, T ∈Rn×n are given upper triangular matrices, λ ∈R is given such that ST −λI is nonsingular, b ∈Rn is given, and x ∈Rn is the unknown vector."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2024 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "N:2",
+   "chars": 244,
+   "subparts": 0,
+   "syms": 12,
+   "tags": [],
+   "head": "2. Let dn, gn and hn be three non-negative series satisfying dn+1 −dn k ≤gndn + hn, ∀n ≥n0, and          k ∑N+k0 n=k0 gn ≤a1 k ∑N+k0 n=k0 hn ≤a2 , ∀k0 ",
+   "full": "2. Let dn, gn and hn be three non-negative series satisfying dn+1 −dn k ≤gndn + hn, ∀n ≥n0, and          k ∑N+k0 n=k0 gn ≤a1 k ∑N+k0 n=k0 hn ≤a2 , ∀k0 ≥n0 k ∑N+k0 n=k0 dn ≤a3 with kN = r. Show that dn ≤(a2 + a3 r ) exp(a1), ∀n ≥n0 + N."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2024 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "N:3",
+   "chars": 792,
+   "subparts": 5,
+   "syms": 12,
+   "tags": [
+    "有限元/弱解/Sobolev"
+   ],
+   "head": "3. Consider the heat distribution in a rod of length L > 0 made of two materials with diﬀerent heat conductivities, denoted as a ∈R+ and b ∈ R+, and distributed",
+   "full": "3. Consider the heat distribution in a rod of length L > 0 made of two materials with diﬀerent heat conductivities, denoted as a ∈R+ and b ∈ R+, and distributed alternatively along the rod with a periodicity of ε := L/N, N ∈N. The problem can be modelled by the following system      −d dx ( Aε(x) d dxuε(x) ) = f(x), x ∈(0, L) uε(0) = uε(L) = 0, (1) 1 where Aε(x) =      a if x ∈ ( 0, ε 2 ) ∪ ( ε, 3 2ε ) ∪...... ∪ ( (N −1)ε, 2N −1 2 ε ) , b otherwise , and f(x) ∈L2((0, L)) signiﬁes a source. (1) Show that equation (1) has a unique weak solution in H1 0((0, L)). (2) Show that there is a constant A such that uε →u weakly in H1 0((0, L)), and u is the solution of the following system:      −d dx ( A d dxu(x) ) = f(x), x ∈(0, L), u(0) = u(L) = 0. (2) Find the value of A."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2024 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "N:4",
+   "chars": 901,
+   "subparts": 2,
+   "syms": 22,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "4. Let u be the solution to the reaction-diﬀusion equation ut = βuxx + f(u), in [0, L] × (0, T] with the homogeneous Neumann boundary condition. We assume that ",
+   "full": "4. Let u be the solution to the reaction-diﬀusion equation ut = βuxx + f(u), in [0, L] × (0, T] with the homogeneous Neumann boundary condition. We assume that A1. The reaction function f satisﬁes that f ∈C2(R) and f(0) = 0. A2. ∃K > 0 such that |f ′(u)| ≤K, ∀u ∈R. We assume further that the problem is well-posed for a given initial con- dition u(x, 0). (a) Consider the following standard forward-in-time and central-in-space discretization vn+1 j = vn j + β ∆t (∆x)2 (vn j−1 −2vn j + vn j+1) + ∆tf(vn j ) on a uniform space-time mesh tn = n∆t and xj = j∆x. Assume that K is small enough. Derive a suﬃcient condition on ∆t, assuming everything else is ﬁxed, for the numerical stability, in an appropriate sense, of the scheme. (b) Let en j := un j −vn j be the numerical error (where un j = u(xj, tn)). Show that the scheme is convergent by showing that ∥en∥→0, in appropriate norm, as ∆t, ∆x →0. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2025 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "N:1",
+   "chars": 827,
+   "subparts": 12,
+   "syms": 12,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "非线性方程/牛顿法",
+    "有限元/弱解/Sobolev",
+    "反问题/正则化/稀疏"
+   ],
+   "head": "1. Consider the following boundary value problem for the stationary Schr¨odinger equation: −∆u(x) + V (x)u(x) = 0 in Ω; ∂νu(x) = ψ(x) on ∂Ω, (1) where V ∈L2(Ω),",
+   "full": "1. Consider the following boundary value problem for the stationary Schr¨odinger equation: −∆u(x) + V (x)u(x) = 0 in Ω; ∂νu(x) = ψ(x) on ∂Ω, (1) where V ∈L2(Ω), ν denotes the exterior unit normal vector to ∂Ω, and ψ ∈H−1/2(∂Ω). It is assumed that 0 is not a Neumann eigenvalue of the operator −∆+V in Ω, ensuring the boundary value problem (1) is well-posed with a unique solution u ∈H1(Ω) for any ψ. For fixed ψ, define the boundary dataset: Mψ := u|∂Ω∈H1/2(∂Ω), (2) where u solves (1). The inverse problem is to recover V from Mψ with a given ψ, formulated as the operator equation: F(V ) = Mψ, (3) where F is defined via (1). (a) Prove that F in (3) is Fr´echet differentiable and derive its derivative. (b) Suppose V ∈Span{V1(x), . . . , VN(x)} for given functions Vj. Sketch a Newton-type method for solving (3) using (a)."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2025 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "N:2",
+   "chars": 579,
+   "subparts": 3,
+   "syms": 9,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "2. Consider the linear transport equation with variable coefficients: ut + a(x)ux + a′(x)u = 0, x ∈[0, 1], t > 0, with periodic boundary conditions and initial ",
+   "full": "2. Consider the linear transport equation with variable coefficients: ut + a(x)ux + a′(x)u = 0, x ∈[0, 1], t > 0, with periodic boundary conditions and initial data u(x, 0) = u0(x). Assume a(x) ∈C2([0, 1]), and a(x) > 0 for all x. (a) Rewrite the PDE in conservation form and explain the meaning of conservation in this context. (b) Construct a second-order central difference scheme using numerical fluxes F n j+1/2. Ensure that your scheme is at least conditionally stable. (c) Derive a CFL condition for the case a(x) ≡a0 (constant) by applying von Neumann stability analysis."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2025 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "N:3",
+   "chars": 217,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化"
+   ],
+   "head": "3. Consider a smooth simple closed curve C with a bounded interior region Ωin R2. Formulate a variational problem to show that, among all such curves with a fix",
+   "full": "3. Consider a smooth simple closed curve C with a bounded interior region Ωin R2. Formulate a variational problem to show that, among all such curves with a fixed enclosed area A, the circle minimizes the perimeter L."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2025 ACM_Individual.pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "N:4",
+   "chars": 216,
+   "subparts": 0,
+   "syms": 6,
+   "tags": [],
+   "head": "4. In R3, prove that the shape of the intersection of • the unit 4-norm ball x4 + y4 + z4 ≤1, and • the plane x + y + z = 0, is a disk. (This is a simplified pr",
+   "full": "4. In R3, prove that the shape of the intersection of • the unit 4-norm ball x4 + y4 + z4 ≤1, and • the plane x + y + z = 0, is a disk. (This is a simplified problem that arises in conic mathematical optimization.) 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2012 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2012",
+   "label": "N:1",
+   "chars": 720,
+   "subparts": 2,
+   "syms": 11,
+   "tags": [],
+   "head": "1. Let Vh = {v : v|Ij ∈P k(Ij) 1 ≤j ≤N} where Ij = (xj−1, xj), 1 ≤j ≤N with xj = jh, h = 1 N . Here P k(Ij) denotes the set of polynomials of degree at most k i",
+   "full": "1. Let Vh = {v : v|Ij ∈P k(Ij) 1 ≤j ≤N} where Ij = (xj−1, xj), 1 ≤j ≤N with xj = jh, h = 1 N . Here P k(Ij) denotes the set of polynomials of degree at most k in the interval Ij. Recall the L2 projection of a function u(x) into the space Vh is deﬁned by the unique function uh ∈Vh which satisﬁes ||u −uh|| ≤||u −v|| ∀v ∈Vh where the norm is the usual L2 norm. We assume u(x) has at least k + 2 continuous derivatives. (1) Prove the error estimate ||u −uh|| ≤Chk+1 Explain how the constant C depends on the derivatives of u(x). (2) If another function ϕ(x) also has at least k+2 continuous deriva- tives, prove | Z 1 0 (u(x) −uh(x))ϕ(x)dx| ≤Ch2k+2 Explain how the constant C depends on the derivatives of u(x) and ϕ(x). 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2013 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2013",
+   "label": "N:1",
+   "chars": 108,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "1. Prove H−1(0) is a smooth curve for almost all a ∈Dn. (Hint: Sard’s theorem and implicit function theorem)",
+   "full": "1. Prove H−1(0) is a smooth curve for almost all a ∈Dn. (Hint: Sard’s theorem and implicit function theorem)"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2013 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2013",
+   "label": "N:2",
+   "chars": 112,
+   "subparts": 0,
+   "syms": 4,
+   "tags": [],
+   "head": "2. Prove this curve starts from x = a will stay inside Dn for 0 ≤t < 1 and when t = 1 yields x0 s.t. f(x0) = x0.",
+   "full": "2. Prove this curve starts from x = a will stay inside Dn for 0 ≤t < 1 and when t = 1 yields x0 s.t. f(x0) = x0."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2013 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2013",
+   "label": "N:3",
+   "chars": 74,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "3. How to follow this curve? (Hint: parametrize the curve by arc length) 1",
+   "full": "3. How to follow this curve? (Hint: parametrize the curve by arc length) 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2015 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2015",
+   "label": "N:1",
+   "chars": 127,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [
+    "渐近分析/奇异摄动/边界层"
+   ],
+   "head": "1. There are three roots of the cubic equation ǫx3 −x −2 = 0. Find the asymptotic expansion of these roots in terms of small ǫ.",
+   "full": "1. There are three roots of the cubic equation ǫx3 −x −2 = 0. Find the asymptotic expansion of these roots in terms of small ǫ."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2016 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2016",
+   "label": "N:1",
+   "chars": 446,
+   "subparts": 0,
+   "syms": 5,
+   "tags": [],
+   "head": "1. Consider n scalars: a(1), a(2), . . . , a(n). Our goal is to ﬁnd the max partial sum, that is, ﬁnd two indices p and q, where p ≤q, such that the partial sum",
+   "full": "1. Consider n scalars: a(1), a(2), . . . , a(n). Our goal is to ﬁnd the max partial sum, that is, ﬁnd two indices p and q, where p ≤q, such that the partial sum, a(p : q) = a(p) + a(p + 1) + · · · + a(q), is maximized. Develop an algorithm that ﬁnds p, q, and a(p : q) by accessing each a(i) only once. For solution existence, assume that not all scalars are negative. Please provide a convincing oral proof to the correctness of your algorithm 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2017 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2017",
+   "label": "N:1",
+   "chars": 468,
+   "subparts": 2,
+   "syms": 14,
+   "tags": [
+    "常微分方程数值解",
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "1. Consider a vector-valued ODE: mt = −a × m , where a = (a1, a2, a3)T is a non-zero real constant vector, and m(t) = (m1(t), m2(t), m3(t))T is the unknown vect",
+   "full": "1. Consider a vector-valued ODE: mt = −a × m , where a = (a1, a2, a3)T is a non-zero real constant vector, and m(t) = (m1(t), m2(t), m3(t))T is the unknown vector-valued function. Consider a uniform time sequence 0 = t0 < t1 < · · · < tk < · · · , with tk = k∆t, and the explicit time marching scheme: mn+1 −mn ∆t = −a × mn , (a) Analyse the stability of the scheme. (b) Propose a numerical strategy to improve the scheme so that the new scheme has better stability. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2018 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2018",
+   "label": "N:1",
+   "chars": 43,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "1. Show that the scheme is always unstable.",
+   "full": "1. Show that the scheme is always unstable."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2018 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2018",
+   "label": "N:2",
+   "chars": 57,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "2. Discuss ways to improve the stability of the scheme. 1",
+   "full": "2. Discuss ways to improve the stability of the scheme. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2019 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2019",
+   "label": "L:Problem1",
+   "chars": 164,
+   "subparts": 0,
+   "syms": 3,
+   "tags": [],
+   "head": "Problem 1. Show that for any integer n ≥3 there are inﬁnitely many irreducible polynomials of the form xn + (6a −1)x2 + (7b −3)x + 25c ∈Z[x] for some a, b, c ∈Z",
+   "full": "Problem 1. Show that for any integer n ≥3 there are inﬁnitely many irreducible polynomials of the form xn + (6a −1)x2 + (7b −3)x + 25c ∈Z[x] for some a, b, c ∈Z[x]."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2019 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2019",
+   "label": "L:Problem2",
+   "chars": 225,
+   "subparts": 0,
+   "syms": 8,
+   "tags": [],
+   "head": "Problem 2. The matrix A is deﬁned by aij = 1, when i + j is even and aij = 0, when i + j is odd. The order of the matrix is 2n. Show that ∥A∥F = ∥A∥∞= n, where ",
+   "full": "Problem 2. The matrix A is deﬁned by aij = 1, when i + j is even and aij = 0, when i + j is odd. The order of the matrix is 2n. Show that ∥A∥F = ∥A∥∞= n, where ∥A∥F is the Frobenius norm, and that ∞ X k=1 \u0012 1 2n \u0013k Ak = 1 nA."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2019 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2019",
+   "label": "L:Problem3",
+   "chars": 809,
+   "subparts": 4,
+   "syms": 13,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化",
+    "量子力学"
+   ],
+   "head": "Problem 3. Let X and Y be two Hilbert spaces, with inner products (·, ·)X and (·, ·)Y , and the norms ∥·∥X and ∥·∥Y , respectively. Consider a bounded operator ",
+   "full": "Problem 3. Let X and Y be two Hilbert spaces, with inner products (·, ·)X and (·, ·)Y , and the norms ∥·∥X and ∥·∥Y , respectively. Consider a bounded operator T mapping from X to Y , with its adjoint operator given by T ∗. For any β > 0 and z ∈Y , consider the minimization min f∈X J(f) := 1 2∥Tf −z∥2 Y + β 2 ∥f∥2 X , and write its minimizer f as f(β), and its minimal value function as F(β), i.e., F(β) = J(f(β)). (1) Prove f(β) ∈X satisﬁes (Tf, Tg)Y + β (f, g)X = (z, Tg)Y for all g ∈X. (2) Prove the n-th derivative w = f (n)(β) ∈X satisﬁes (Tw, Tg)Y + β (w, g)X = −n (f (n−1)(β), g)X for all g ∈X. (3) Prove the ﬁrst and second derivatives of F(β) are given by F ′(β) = 1 2∥f(β)∥2 X, F ′′(β) = (f(β), f ′(β))X . (4) If z /∈ker T ∗, prove F(β) is strictly monotonically increasing and strictly concave. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2021 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2021",
+   "label": "L:QuestionI",
+   "chars": 897,
+   "subparts": 0,
+   "syms": 31,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "Question I Suppose A ∈Mn×n(C) is normal, i.e., A = QDQ∗for some unitary Q. Also, we suppose there are k dominant eigenvalues of A, i.e., |λ1| ≥· · · ≥|λk| > |λk",
+   "full": "Question I Suppose A ∈Mn×n(C) is normal, i.e., A = QDQ∗for some unitary Q. Also, we suppose there are k dominant eigenvalues of A, i.e., |λ1| ≥· · · ≥|λk| > |λk+1| ≥· · · ≥|λn| Consider the power iteration: xm+1 = Axm. Deﬁne the angle between a non-zero vector x and a non-trivial subspace W. cos ∠(x, W) := max \b cos ∠(x, y) : y ∈W \\ {0} , sin ∠(x, W) := min \b sin ∠(x, y) : y ∈W \\ {0} , tan ∠(x, W) := sin ∠(x, W) cos ∠(x, W). Using the given deﬁnitions, prove that: 1. Let W be a nontrivial subspace of Cn and P be the orthogonal projection onto W. Then, for x ̸= 0 and x /∈W, cos ∠(x, W) = ∥Px∥ ∥x∥, sin ∠(x, W) = ∥x −Px∥ ∥x∥ , tan ∠(x, W) = ∥x −Px∥ ∥Px∥ Here, || · || is the usual Euclidean norm in Cn. 2. Let {δi : i = 1, · · · , n} be the standard ordered basis for Cn. Let Wk := span{Qδj : j = 1, · · · , k} and let cos ∠(x0, Wk) ̸= 0. Then, tan ∠(xm+1, Wk) ≤|λk+1| |λk| tan ∠(xm, Wk)."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2021 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2021",
+   "label": "L:QuestionII",
+   "chars": 1175,
+   "subparts": 0,
+   "syms": 15,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "插值/逼近与求积"
+   ],
+   "head": "Question II Consider the linear system Ax = b. The (Generalized minimal residual method) GMRES method is a projection method which obtains a solution in the m-t",
+   "full": "Question II Consider the linear system Ax = b. The (Generalized minimal residual method) GMRES method is a projection method which obtains a solution in the m-th Krylov subspace Km so that the residual is orthogonal to AKm. Let r0 be the initial residual and let v0 = r0. The Arnoldi process (see the hint below) is applied to build an orthonormal system v1, v2, . . . , vm−1 with v1 = Av0/∥Av0∥2 (∥· ∥2- the l2 norm). The approximate solution is obtained from the following space Km = span {v0, v1, . . . , vm−1} . 1. Show that the approximate solution is obtained as the solution of a least-square prob- lem, and that this problem is triangular. 1 2. Prove that the residual rk is orthogonal to {v1, v2, . . . , vk−1}. 3. Find a formula for the residual norm. 4. Derive the complete GMRES algorithm. Hint: The Arnoldi process uses the stabilized Gram-Schmidt process to produce a sequence of orthonormal vectors v1, v2, v3, . . .. Explicitly, the algorithm is as follows: (1.) Start with an arbitrary vector v1 with norm 1. (2.) Repeat for k = 2, 3, . . . i. vk ←Avk−1 ii. for j from 1 to k −1 A. hj,k−1 ←v∗ jvk B. vk ←vk −hj,k−1vj iii. hk,k−1 ←∥vk∥2 iv. vk ← vk hk,k−1 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2022 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "label": "L:QuestionI",
+   "chars": 490,
+   "subparts": 0,
+   "syms": 10,
+   "tags": [
+    "有限元/弱解/Sobolev"
+   ],
+   "head": "Question I Consider the ordinary diﬀerential equation (ODE) for y(t) ∈R as ε2y′′(t) + \u0012 µ2 + 1 ε2 \u0013 y(t) = f(t), t > 0, y(0) = y0, where µ > 0 is a constant, f(",
+   "full": "Question I Consider the ordinary diﬀerential equation (ODE) for y(t) ∈R as ε2y′′(t) + \u0012 µ2 + 1 ε2 \u0013 y(t) = f(t), t > 0, y(0) = y0, where µ > 0 is a constant, f(t) is a given function, and 0 < ε ≪1 is a small parameter. 1. Use variation-of-constant formula to reformulate the ODE into an equiv- alent integral form. 2. Construct a second order numerical scheme for solving the ODE, whose accuracy is independent of ε. 3. Prove the convergence rates of the constructed numerical scheme above."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2022 Applmath (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "label": "L:QuestionII",
+   "chars": 184,
+   "subparts": 0,
+   "syms": 11,
+   "tags": [],
+   "head": "Question II Show that the ﬁnite diﬀerence method un+1 j −un j ∆t = un j−1 −2un j + un j+1 ∆x2 + un j for the equation ∂u ∂t = ∂2u ∂x2 + u(−∞< x < +∞, t > 0) is ",
+   "full": "Question II Show that the ﬁnite diﬀerence method un+1 j −un j ∆t = un j−1 −2un j + un j+1 ∆x2 + un j for the equation ∂u ∂t = ∂2u ∂x2 + u(−∞< x < +∞, t > 0) is stable if ∆t ∆x2 ≤1 2. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2023 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "label": "N:1",
+   "chars": 196,
+   "subparts": 0,
+   "syms": 5,
+   "tags": [
+    "能量稳定/能量守恒格式",
+    "经典力学/哈密顿-拉格朗日"
+   ],
+   "head": "1. Define the Hamiltonian (or energy) as E(t) := Z 1 0 \u0014 ε2 |∂tu|2 + |∂xu|2 + 1 ε2u2 + F(u) \u0015 dx, t ≥0, where F(u) = 2 Z u 0 f(s) ds. Show that the Hamiltonian ",
+   "full": "1. Define the Hamiltonian (or energy) as E(t) := Z 1 0 \u0014 ε2 |∂tu|2 + |∂xu|2 + 1 ε2u2 + F(u) \u0015 dx, t ≥0, where F(u) = 2 Z u 0 f(s) ds. Show that the Hamiltonian is conserved, i.e. E(t) ≡E(0), t ≥0."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2023 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "label": "N:2",
+   "chars": 136,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "2. Construct an explicit second-order (in space and time) finite difference (EXFD) method for the problem and find its linear stability.",
+   "full": "2. Construct an explicit second-order (in space and time) finite difference (EXFD) method for the problem and find its linear stability."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2023 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "label": "N:3",
+   "chars": 186,
+   "subparts": 0,
+   "syms": 2,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann",
+    "经典力学/哈密顿-拉格朗日"
+   ],
+   "head": "3. Construct a second-order (in space and time) finite difference method for the problem such that the the Hamiltonian (or energy) is conserved in the dis- cret",
+   "full": "3. Construct a second-order (in space and time) finite difference method for the problem such that the the Hamiltonian (or energy) is conserved in the dis- cretized level and prove it. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2024 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2024",
+   "label": "N:1",
+   "chars": 3010,
+   "subparts": 10,
+   "syms": 53,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化",
+    "反问题/正则化/稀疏",
+    "概率/随机过程/统计物理"
+   ],
+   "head": "1. Consider the following optimization problem min x∈Rn ∥x∥1 s.t. Ax = Ax0, (1) where ∥x∥1 = Pn i=1 |xi|, A ∈Rm×n with m ≤n, x0 ∈Rn, and b ∈Rm. Let s < n be an ",
+   "full": "1. Consider the following optimization problem min x∈Rn ∥x∥1 s.t. Ax = Ax0, (1) where ∥x∥1 = Pn i=1 |xi|, A ∈Rm×n with m ≤n, x0 ∈Rn, and b ∈Rm. Let s < n be an integer. Deﬁne the set Cs = {η ∈Rn | ∃S ⊂{1, 2, . . . , n}, s.t. |S| ≤s and ∥ηS∥1 ≥∥ηSc∥1, }. Here ηS ∈Rn is the vector whose components are the same as η on S and 0 on Sc := {1, . . . , n} \\ S. (a) Prove that every s-sparse vector x0 is the unique solution of (1) if and only if Ker(A) ∩Cs = {0}. (2) (A vector is called s-sparse if it contains at most s nonzero entries.) (b) Prove that there exists a universal constant C > 0 such that Cs ∩{x | ∥x∥2 ≤1} ⊆{x | ∥x∥s ≤C}, where ∥x∥(s) is deﬁned as ∥x∥(s) := min n X i ∥xi∥2 x = X i xi, where xi ∈Rn is s-sparse for all i. o (Since in the general case ∥x∥(s) ≤ p n/s∥x∥2, the above result implies that Cs restricted to the 2-norm ball is very small, indicating that even if A is a wide matrix, the large Ker(A) can still miss the small Cs. Consequently, sparse recovery through 1-norm minimization is possible even if m is very small.) 2. (a) Consider the random walk of a particle along the real line. At each time step of size τ > 0, the particle jumps left or right with a distance h > 0 with equal probability 1/2. Let x and t denote the space and time variables, respectively. Derive an equation for the probability density of the particle at (x, t), as the time/space steps τ, h ↘0 in the limit h2/τ →d. (b) Consider a particle moving randomly in a 2-dimensional space, where it can move up/down/left/right with a distance h > 0 with equal probability p ≤1 4. Let (x, y) and t denote the space and time variables, respectively. Derive an equation for the probability density of the particle at (x, y, t), as the time/space steps τ, h ↘0 in the limit h2/τ →d. 1 (c) Consider the problem in item (2) over a ﬁnite time interval (0, T) with T > 0 signifying the terminal time. Let u(z, t), z = (x, y), denote the probability density and let p and d be both positive constants. Assume the initial distribution of u is given by f(z). Derive the system to model the particle’s motion in terms of u. We further assumed that f is compactly supported, i.e. there is a bounded domain Ω⋐R2 such that supp(f) ⋐Ω. Let us consider the problem of ﬁnding the initial distribution f by monitoring the motion of the particle on the boundary ∂Ω. To that end, we introduce Mf = u(z, t)|(z,t)∈∂Ω×(0,T ). (c-i). Can we uniquely determine f by knowledge of Mf? That is, is the correspondence between f and Mf one-to-one? (c-ii). Suppose that f is a delta distribution of the form α0δ(z −z0), with z0 ∈Ωand α0 ∈R+. Here, δ is the Kronecker delta function. Can one determine the initial distribution f by knowledge of Mf? If so, can you describe a numerical scheme of locating z0, independent of α0? (c-iii). If f is a collection of sparsely distributed point distributions, namely, f(x) = N X j=1 αjδ(z −zj), αj ∈R, zj ∈Ω, |zj −zj′| ≫1, 1 ≤j ̸= j′ ≤N, can you sketch an idea of extending your result in item (b)? 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2025 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2025",
+   "label": "N:1",
+   "chars": 697,
+   "subparts": 3,
+   "syms": 9,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化",
+    "凸分析/机器学习(softmax)"
+   ],
+   "head": "1. Given a convex function f : Rn →R and a scalar α > 0, the proximal operator proxα,f of f is defined as the mapping from a point x ∈Rn to the unique solution ",
+   "full": "1. Given a convex function f : Rn →R and a scalar α > 0, the proximal operator proxα,f of f is defined as the mapping from a point x ∈Rn to the unique solution of the minimization problem: min y∈Rn f(y) + 1 2α∥y −x∥2 2. (For the solution to always exist, we technically assume f is closed and proper, but these conditions are not crucial for this problem.) Many functions, such as ∥x∥1 and ∥x∥2, have explicit forms for their proximal operators. For a fixed α > 0 and n ∈N, perform the following: (a) Derive the explicit formula for proxα,f when f(x) = ∥x∥1. (b) Derive the explicit formula for proxα,g when g(x) = ∥x∥2. (c) Prove that proxf+g = proxg ◦proxf holds for f(x) = ∥x∥1 and g(x) = ∥x∥2."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2025 ACM (Overall).pdf",
+   "kind": "Overall",
+   "year": "2025",
+   "label": "N:2",
+   "chars": 178,
+   "subparts": 0,
+   "syms": 8,
+   "tags": [
+    "渐近分析/奇异摄动/边界层"
+   ],
+   "head": "2. Consider the boundary value problem: ( εy′′ + (1 + ε)y′ + y = 0, x ∈(0, 1), ε > 0 y(0) = 0, y(1) = 1. Derive the leading-order uniform approximation of the s",
+   "full": "2. Consider the boundary value problem: ( εy′′ + (1 + ε)y′ + y = 0, x ∈(0, 1), ε > 0 y(0) = 0, y(1) = 1. Derive the leading-order uniform approximation of the solution as ε →0. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2012 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2012",
+   "label": "N:1",
+   "chars": 614,
+   "subparts": 7,
+   "syms": 10,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "1. We would like to solve the following PDE (1) ut + ux = u by a ﬁnite diﬀerence scheme (2) un+1 j = q X k=−p akun j+k where ak are constants depending on the m",
+   "full": "1. We would like to solve the following PDE (1) ut + ux = u by a ﬁnite diﬀerence scheme (2) un+1 j = q X k=−p akun j+k where ak are constants depending on the mesh sizes ∆x and ∆t, and un j are approximations to the exact solution u(xj, tn) with xj = j∆x and tn = n∆t. A student deﬁnes stability of the scheme by (3) ∥un+1∥≤∥un∥ where ∥·∥is the usual discrete L2-norm. Do you believe this deﬁnition is reasonable, namely do you believe there are consistent and accurate schemes (2) approximating the PDE (1) which will be stable under the deﬁnition (3)? If yes, give your reasons. If not, modify the deﬁnition (3)."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2012 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2012",
+   "label": "N:2",
+   "chars": 245,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [
+    "离散数学/组合算法"
+   ],
+   "head": "2. Let T be a rooted tree with the root r. Show that there is an injection f from the set of vertices of degree at least 3 to the set of leaves (not the root) s",
+   "full": "2. Let T be a rooted tree with the root r. Show that there is an injection f from the set of vertices of degree at least 3 to the set of leaves (not the root) such that for each vertex v of degree at least 3, v lies in the path from r to f(v). 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2014 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2014",
+   "label": "(whole)",
+   "chars": 1917,
+   "subparts": 7,
+   "syms": 52,
+   "tags": [
+    "插值/逼近与求积",
+    "PDE 有限差分/CFL/von Neumann",
+    "离散数学/组合算法"
+   ],
+   "head": "S.-T. Yau College Student Mathematics Contest Applied Mathematics, Team, 2014 For the interval [0, π], we divide it into N + 1 equally spaced subintervals by us",
+   "full": "S.-T. Yau College Student Mathematics Contest Applied Mathematics, Team, 2014 For the interval [0, π], we divide it into N + 1 equally spaced subintervals by using the nodal points: 0 = x0 < x1 < · · · < xN+1 = π, with xi = i h, h = π/(N + 1). For any continuous function w on [0, π], we deﬁne Πhw to be the piecewise lin- ear interpolation of w, namely Πhw is linear on each subinterval (xi, xi+1) for i = 0, 1, · · · , N, and it takes the same values as w at all nodal points xi, i = 0, 1, · · · , N + 1. For any function w, we deﬁne ∥w∥= \u0010 Z π 0 w2(x)dx \u00111/2 . Prove the following estimates for any function u ∈C2[0, π]: ∥u −Πhu∥≤1 π2h2 ∥u′′∥, ∥u′ −(Πhu)′∥≤1 πh ∥u′′∥. claw-free graphs A graph G(V, E) is claw-free if it has no induced subgraph isomophic to the bipartite complete graph K1,3,(i.e, V = {w, u1, u2, u3}, E = {wu1, wu2, wu3}). Let G be a claw-free graph of order n. Let δ be the minimum degree of G and α the size of a maximum independent set. Prove that α ≤ 2n δ + 2. 1 Over Ω= (0, 1), consider the heat equation with a homogeneous Dirichelt boundary condition ∂tu = uxx + f, in Ω, (1) u(0, t) = u(1, t) = 0, (2) in which f(x, t) is a given force term, with ∥f(·, t)∥L2 ≤M, for any t ≥0. The following semi- discrete implicit scheme is given un+1 −un ∆t = un+1 xx + fn+1, in Ω, (3) un+1(0) = un+1(1) = 0, (4) in which uk denotes the numerical solution at tk, with tk = k∆t, ∆t being the time step size. The ﬁnal time is set as T > 0 and the initial data is given by u0(x). Prove the following uniform in time L2 bound for the numerical scheme (3)-(4): uk 2 L2 ≤˜C := u0 2 L2 + C4 2M2, for any k ≥0, (5) in which ˜C is independent on the time step tk, and C2 is given by the following Pincar´e inequality ∥v∥L2 ≤C2 ∥vx∥L2 , if v(0) = v(1) = 0. (6) Hint. Take an L2 inner product with 2un+1, use Poincar´e inequality, and apply an induction in time to derive a uniform in time L2 bound. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2015 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2015",
+   "label": "N:1",
+   "chars": 375,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [],
+   "head": "1. Find the following generalized eigen value λ and the eigen vector (x1, x2, · · · , xn)T, such that          2 −1 −1 2 −1 −1 2 −1 ... ... −1 2 −1 −1 ",
+   "full": "1. Find the following generalized eigen value λ and the eigen vector (x1, x2, · · · , xn)T, such that          2 −1 −1 2 −1 −1 2 −1 ... ... −1 2 −1 −1 2          n×n          x1 x2 x3 ... xn−1 xn          = λ          4 1 1 4 1 1 4 1 ... ... ... 1 4 1 1 4                   x1 x2 x3 ... xn−1 xn         "
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2015 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2015",
+   "label": "N:2",
+   "chars": 495,
+   "subparts": 0,
+   "syms": 13,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "流体力学/连续介质"
+   ],
+   "head": "2. Let A be a positive deﬁnite matrix. Consider the quadratic function g(x) = xT Ax. Suppose the eigenvalues of A are given by 0 < λ1 ≤λ2 ≤· · · ≤λn, k = λn λ1 ",
+   "full": "2. Let A be a positive deﬁnite matrix. Consider the quadratic function g(x) = xT Ax. Suppose the eigenvalues of A are given by 0 < λ1 ≤λ2 ≤· · · ≤λn, k = λn λ1 . Let the sequence {xk} be generated by the steepest descent method: xk+1 = xk −αk∇g(xk), k = 0, 1, 2, · · · , where αk is selected such that g(xk −αk∇g(xk)) = min α≥0 g(xk −α∇g(xk)). Prove that g(xk+1) ≤ \u0012k −1 k + 1 \u00132 g(xk) ≤ \u0012k −1 k + 1 \u00132(k+1) g(x0). a water solid Air γ1 γ γ2 f(x) b Figure 1: Equilibrium shape of water droplet."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2015 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2015",
+   "label": "N:3",
+   "chars": 485,
+   "subparts": 0,
+   "syms": 4,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化",
+    "流体力学/连续介质",
+    "广义相对论/引力"
+   ],
+   "head": "3. Consider a water droplet on a solid surface as shown in Figure 1. The air-water surface tension is γ, the air-solid surface tension is γ1, the water-solid su",
+   "full": "3. Consider a water droplet on a solid surface as shown in Figure 1. The air-water surface tension is γ, the air-solid surface tension is γ1, the water-solid surface tension is γ2. The interface energy = surface tension × length of the interface. The equilibrium state should minimizes the total interface energy. (neglecting gravity) Formulate a variational problem to show that the equilibrium droplet should have circular shape (i.e. the curvature of the curve f(x) is a constant )."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applied (Team) (2).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "(whole)",
+   "chars": 1265,
+   "subparts": 2,
+   "syms": 23,
+   "tags": [
+    "有限元/弱解/Sobolev",
+    "变分法/Euler-Lagrange/最优化",
+    "离散微分几何/网格/共形"
+   ],
+   "head": "1 (Optimal Mass Transport). Suppose D is the unit disk in the plane, P = {p1, p2, · · · , pn} is a discrete planar point set. Each point pi is associated with a",
+   "full": "1 (Optimal Mass Transport). Suppose D is the unit disk in the plane, P = {p1, p2, · · · , pn} is a discrete planar point set. Each point pi is associated with a weight ri, the power distance between any point p ∈R2 to pi is deﬁned as Pow(p, pi) = |p −pi|2 + ri. The power Voronoi diagram is a partition of the whole plane R2 = n[ i=1 Wi, Wi = {p ∈R2|Pow(p, pi) ≤Pow(p, pj), ∀1 ≤j ≤n}. The power Vornoi diagram induces a cell decomposition of D, D = n[ i=1 Wi ∩D, suppose the area of each cell D ∩Wi is Ai. Construct a mapping ϕ : D →P, such that each cell Wi ∩D is mapped to the point pi, ϕ : Wi ∩D 7→pi, ∀1 ≤i ≤n. (1) Suppose given another cell decomposition D = n[ i=1 ˜Wi ∩D, and construct a mapping ˜ϕ, such that ˜ϕ : ˜Wi ∩D 7→pi, and the area of each cell ˜Wi ∩D equals to Ai as well. The L2 transportation cost of ϕ is deﬁned as E(ϕ) := Z D |p −ϕ(p)|2dA, show that the mapping ϕ is optimal, i.e. E(ϕ) ≤E( ˜ϕ). (2) Show that there exists real numbers h1, h2, · · · , hn, which determine n planes πi(p) := ⟨p, pi⟩+ hi, the upper envelope of the planes {πi} is the graph of the convex PL function f(p) = max 1≤i≤n πi(p). The power Voronoi diagram is induced by the projection of the upper envelope of these planes {πi, i = 1, 2, · · · , n} 1 2 Ω 푊푖 퐹푖 휋푗 푢ℎ(푥)"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "N:1",
+   "chars": 896,
+   "subparts": 3,
+   "syms": 20,
+   "tags": [
+    "离散微分几何/网格/共形"
+   ],
+   "head": "1. Given a Euclidean triangle [vi, vj, vk] with edge lengths li, lj, lk and corner angles θi, θj, θk (see Figure 1), we treat the angles as the functions of edg",
+   "full": "1. Given a Euclidean triangle [vi, vj, vk] with edge lengths li, lj, lk and corner angles θi, θj, θk (see Figure 1), we treat the angles as the functions of edge lengths, namely, θi = θi(li, lj, lk). (a) Show that ∂θi ∂li = li 2A, ∂θi ∂lj = −li 2A cos θk, where A is the area of the triangle. (b) Suppose the initial edge lengths are (l0 i , l0 j, l0 k), the conformal factor (ui, uj, uk) are three real numbers associated with the vertices, the vertex scaling operator changes each edge length by multiplying the exponential of conformal factors at its two end vertces, namely: li = eujl0 i euk, lj = eukl0 jeui, lk = euil0 keuj, Show that ∂θi ∂uj = ∂θj ∂ui = cot θk, ∂θi ∂ui = −cot θj −cot θk (c) If the initial triangle is an acute triangle, then in a neighborhood of (ui, uj, uk) = (0, 0, 0), the mapping ϕ : {(ui, uj, uk)|ui + uj + uk = 0} →{(θi, θj, θk)|θi + θj + θk = π} is diﬀeomorphic. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "N:2",
+   "chars": 610,
+   "subparts": 4,
+   "syms": 23,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "2. Let A ∈Rn×n be symmetric and let ∥q1∥2 = 1. Consider the following Lanczos iteration: r0 = q1, β0 = 1, q0 = 0, k := 0 while βk ̸= 0 qk+1 := rk/βk k := k + 1 ",
+   "full": "2. Let A ∈Rn×n be symmetric and let ∥q1∥2 = 1. Consider the following Lanczos iteration: r0 = q1, β0 = 1, q0 = 0, k := 0 while βk ̸= 0 qk+1 := rk/βk k := k + 1 αk := qT k Aqk rk := (A −αkI)qk −βk−1qk−1 βk := ∥rk∥2 end Let Kn = span{q1, Aq1, · · · , An−1q1}. (a) Show that AQk = QkTk + rkeT k where ek is the k-th unit vector, Qk = [q1 · · · qk] and (b) Assume that the iteration does not terminate. Show that Qk has orthonormal columns, and that they span Kk. (c) Show that the Lanczos iteration will stop when k = m, where m = rank(Kn). (d) What is the purpose of this algorithm? Brieﬂy justify your answer. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "L:Question1",
+   "chars": 143,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "Question 1: Given two diﬀerent expression of the change of the mass in Ωof the ﬂuid with the density ρ(t, x) within the time interval [t1, t2].",
+   "full": "Question 1: Given two diﬀerent expression of the change of the mass in Ωof the ﬂuid with the density ρ(t, x) within the time interval [t1, t2]."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "L:Question2",
+   "chars": 115,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "Question 2: Please deduce the partial diﬀerential equations of ρ, u according to the conservation of the mass in Ω.",
+   "full": "Question 2: Please deduce the partial diﬀerential equations of ρ, u according to the conservation of the mass in Ω."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "L:Question3",
+   "chars": 236,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "Question 3: Assume there is no outside force acting on the ﬂuid in Ω, please give two diﬀerent expression of the change of the momentum of the ﬂuid with the den",
+   "full": "Question 3: Assume there is no outside force acting on the ﬂuid in Ω, please give two diﬀerent expression of the change of the momentum of the ﬂuid with the density ρ(t, x) and the velocity u(t, x) in Ωwithin the time interval [t1, t2]."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2017 Applmath (Team).pdf",
+   "kind": "Team",
+   "year": "2017",
+   "label": "L:Question4",
+   "chars": 129,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [],
+   "head": "Question 4: According to the conservation of the momentum of the ﬂuid in Ω, deduce the partial diﬀerential equation of ρ, u, p. 1",
+   "full": "Question 4: According to the conservation of the momentum of the ﬂuid in Ω, deduce the partial diﬀerential equation of ρ, u, p. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2018 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2018",
+   "label": "N:1",
+   "chars": 253,
+   "subparts": 0,
+   "syms": 10,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化"
+   ],
+   "head": "1. Given a set of column vectors y1, · · · , yn ∈Rm, we set V =span{y1, · · · , yn} ⊂Rm. How to ﬁnd ℓ≤dimV orthonormal vectors {ψi}ℓ i=1 in Rm that minimize J(ψ",
+   "full": "1. Given a set of column vectors y1, · · · , yn ∈Rm, we set V =span{y1, · · · , yn} ⊂Rm. How to ﬁnd ℓ≤dimV orthonormal vectors {ψi}ℓ i=1 in Rm that minimize J(ψ1, · · · , ψℓ) = n X j=1 ||yj − ℓ X i=1 (yT j ψi)ψi||2 with the Euclidean norm ||y|| = p yTy."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2018 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2018",
+   "label": "N:2",
+   "chars": 319,
+   "subparts": 0,
+   "syms": 2,
+   "tags": [
+    "离散数学/组合算法"
+   ],
+   "head": "2. Suppose there are n hyper-planes in the d dimensional Euclidean space Rd, the planes partition the space into convex cells, the maximal number of cells is de",
+   "full": "2. Suppose there are n hyper-planes in the d dimensional Euclidean space Rd, the planes partition the space into convex cells, the maximal number of cells is denoted as fd(n), 1. Find the formula for d = 2 case, namely, the plane is partitioned by n lines, prove it. 2. Find the formula for general d and n and prove. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2019 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2019",
+   "label": "L:Problem1",
+   "chars": 655,
+   "subparts": 3,
+   "syms": 9,
+   "tags": [
+    "离散数学/组合算法"
+   ],
+   "head": "Problem 1. The following statement informally means that if a sys- tem of homogeneous equations with integer coeﬃcients has a nontrivial solution then it has an",
+   "full": "Problem 1. The following statement informally means that if a sys- tem of homogeneous equations with integer coeﬃcients has a nontrivial solution then it has an integer solutions with reasonably small compo- nents. It is required in many applications. Let A = (aij)m,n i,j=1 be an m × n matrix of rank r ≤n −1 with integer entries of size at most H, that is, |aij| ≤H, 1 ≤i ≤m, 1 ≤j ≤n. (i) Show that for K ≥0 there are at most (2K + 1)n vectors x ∈Zn with ∥x∥∞≤K, where ∥x∥∞= max1≤i≤n |xi|. (ii) Apply (i) and Dirichlet’s pigeon hole principle to prove that there is an integer non-zero vector x = (x1, . . . , xn) ∈Zn such that Ax = 0 and ∥x∥∞≤(2nH)n−1."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2019 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2019",
+   "label": "L:Problem2",
+   "chars": 842,
+   "subparts": 3,
+   "syms": 21,
+   "tags": [
+    "迭代法收敛性(Jacobi/GS/不动点)",
+    "常微分方程数值解"
+   ],
+   "head": "Problem 2. Let u(x), a(x) and f(x) be smooth functions on [0, 1]. (i) Determine the order of accuracy of the following approximation d dx \u0014 a(x)du dx \u0015 x=xi ≃(a",
+   "full": "Problem 2. Let u(x), a(x) and f(x) be smooth functions on [0, 1]. (i) Determine the order of accuracy of the following approximation d dx \u0014 a(x)du dx \u0015 x=xi ≃(ai+1 + ai)(ui+1 −ui) −(ai + ai−1)(ui −ui−1) 2h2 where h = 1 m+1 is the mesh size, xi = ih, ai = a(xi), and ui = u(xi) for i = 1, · · · , m such that xm+1 = 1. (ii) For given functions a(x) > 0 and f(x), one determines the function u that solves the following second order ordinary diﬀerential equation u −d dx \u0014 a(x)du dx \u0015 = f(x) with boundary conditions u(0) = 0 and u(1) = 0. Apply the dis- cretization given in (i) and let fi = f(xi). Denote the linear system that one has to solve by Au = f where A ∈Rm×m and u, f ∈Rm. If Gauss-Seidel method is used to solve this linear system, show that the iterative method converges for any initial guess. 1 2 PROBLEMS FOR TEAM CONTEST"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2019 Applied (Team).pdf",
+   "kind": "Team",
+   "year": "2019",
+   "label": "L:Problem3",
+   "chars": 826,
+   "subparts": 2,
+   "syms": 18,
+   "tags": [
+    "概率/随机过程/统计物理"
+   ],
+   "head": "Problem 3. Maximal entropy principle. Consider probability distri- butions on a discrete random variable X taking on possible values of x1, x2, . . . , xn. Deno",
+   "full": "Problem 3. Maximal entropy principle. Consider probability distri- butions on a discrete random variable X taking on possible values of x1, x2, . . . , xn. Denote the probability Pr(X = xi) = pi, i = 1, . . . , n, and recall that its Shannon entropy S is S = − n X i=1 pi log pi Now suppose we have some knowledge of p1, . . . , pn, speciﬁed in terms of its expectation values Ej with respects to k known functions fj(·) of the random variable X n X i=1 pifj(xi) = Ej, j = 1, 2, . . . , k < n. (i) Show that the probability distribution p = [p1, . . . , pn] that maxi- mized the entropy S has the form of an exponential family: pi = e Pk j=1 λjfj(xi) Z where λj are all constants, and Z is the normalization constant given by Z = n X i=1 e Pk j=1 λjfj(xi) (ii) Show that the constants λj are related to Ej by Ej = ∂log Z ∂λj ."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2023 ACM GROUP (3 choose 2).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "label": "L:Problem1",
+   "chars": 820,
+   "subparts": 2,
+   "syms": 8,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "Problem 1: LU factorization Let A ∈Rn be a real tridiagonal matrix A =   α1 γ2 β1 α2 γ3 β2 α3 ... ... ... γn βn−1 αn   . Consider applying the L",
+   "full": "Problem 1: LU factorization Let A ∈Rn be a real tridiagonal matrix A =   α1 γ2 β1 α2 γ3 β2 α3 ... ... ... γn βn−1 αn   . Consider applying the LU factorization with partial pivoting to this A to get LU = PA. The algorithm (“Algorithm 3”) proceeds as follows, where L and U are stored in the lower and upper parts of A respectively: (i). Let a∗= maxi,j |aij|. Show that |uii| ≤2a∗, ∀i, and |uij| ≤a∗, ∀j > i. Then conclude that the growth factor ρ = maxi,j |uij| maxi,j |aij| ≤2. (ii). Assume that |α1| ≥|β1|, |αn| ≥|γn|, and |αi| ≥|βi|+|γi|, i = 2, · · · , n−1, i.e., A is column diagonally dominant. Show that the LU factorization with or without partial pivoting are step-wise equivalent for A. In other words, for the algorithm with partial pivoting, no actual pivoting happens throughout the process."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2023 ACM GROUP (3 choose 2).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "label": "L:Problem2",
+   "chars": 1143,
+   "subparts": 3,
+   "syms": 17,
+   "tags": [
+    "迭代法收敛性(Jacobi/GS/不动点)",
+    "变分法/Euler-Lagrange/最优化"
+   ],
+   "head": "Problem 2: Deformation to Legendre transform Given a strictly convex function f : Rn →R that is at least twice diﬀerentiable, its Legendre transform f ∗: Rn →R ",
+   "full": "Problem 2: Deformation to Legendre transform Given a strictly convex function f : Rn →R that is at least twice diﬀerentiable, its Legendre transform f ∗: Rn →R is deﬁned as f ∗(u) = sup x {⟨x, u⟩−f(x)} , where x ∈Rn, u ∈Rn and ⟨x, u⟩is the bilinear form. Recall that ∇f and ∇f ∗are inverse functions of each other, and that Hessf and Hessf ∗are inverse matrices of each other. Here ∇f and Hessf denote, respectively, the ﬁrst and second derivative of the function f: ∇f = [ ∂f ∂x1 , · · · , ∂f ∂xn ], Hessijf = ∂f ∂xi∂xj . Page 1 of 2 (i) For any ﬁxed real number λ in an open neighborhood of 0, the λ-deformed Legendre transform of f is deﬁned by f (λ)(u) = sup x \u001a 1 λ log (1 + λ⟨x, u⟩) −f(x) \u001b , so that limλ→0 f (λ)(u) = f ∗(u). Show that f(x) + f (λ)(u(λ)) = 1 λ log \u0010 1 + λ⟨x, u(λ)⟩ \u0011 , where u(λ) = ∇f(x) 1 −λ⟨x, ∇f(x)⟩. The righthand side of the above can be called the λ-gradient of f. (ii) Deﬁne x(λ) ≡xe−λf(x), and deﬁne the function g(λ) by g(λ)(x(λ)) = 1 λ \u0010 1 −e−λf(x)\u0011 . Show u(λ) = ∇g(λ)(x(λ)) by explicitly evaluating the Jacobian of the transform x ←→x(λ). (iii) Calculate (f (λ))(λ) and state whether (f (λ))(λ) = f holds."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2023 ACM GROUP (3 choose 2).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "label": "L:Problem3",
+   "chars": 655,
+   "subparts": 2,
+   "syms": 4,
+   "tags": [
+    "有限元/弱解/Sobolev"
+   ],
+   "head": "Problem 3: Numerical PDE Let K and bK be two aﬃne-equivalent bounded open subsets of Rd, that is, there is a bijiective aﬃne mapping F : bK →K deﬁned by F(bx) =",
+   "full": "Problem 3: Numerical PDE Let K and bK be two aﬃne-equivalent bounded open subsets of Rd, that is, there is a bijiective aﬃne mapping F : bK →K deﬁned by F(bx) = Bbx + b, where B is a nonsingular matrix and b ∈Rd. (i). Let v(x) ∈Hm(K) and bv(bx) = v(F(bx)) ∈Hm( bK). Prove that |bv|Hm( b K) ≤C∥B∥m|det(B)|−1 2 |v|Hm(K) and |v|Hm(K) ≤C∥B−1∥m|det(B)| 1 2 |bv|Hm( b K) where C depends on d and m only. Here Hm(K) is the standard Sobolev space. (ii). Let hK and h b K be the diameters of K and bK respectively, and let ρK and ρ b K be the diameters of the largest circle inscribed in K and bK respectively. Show that ∥B∥≤hK ρ b K , ∥B−1∥≤h b K ρK . Page 2 of 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2024 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "label": "L:Question1",
+   "chars": 371,
+   "subparts": 0,
+   "syms": 12,
+   "tags": [],
+   "head": "Question 1 Let ϕ : (0, ∞) →(0, ∞) be continuous and increasing, and let M > 0. Given any T∗such that 0 < T∗< R ∞ M dz/ϕ(z), show that there exists C∗> 0 indepen",
+   "full": "Question 1 Let ϕ : (0, ∞) →(0, ∞) be continuous and increasing, and let M > 0. Given any T∗such that 0 < T∗< R ∞ M dz/ϕ(z), show that there exists C∗> 0 independent of ∆t > 0 with the following property. Suppose that quantities zn, wn ≥0 satisfy zn + n−1 X k=0 wk∆t ≤yn := M + n−1 X k=0 ϕ (zk) ∆t, for n = 0, 1, . . . , n∗, with n∗∆t ≤T∗. Then yn∗≤C∗(independent of ∆t )."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2024 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "label": "L:Question2",
+   "chars": 1615,
+   "subparts": 7,
+   "syms": 47,
+   "tags": [
+    "常微分方程数值解",
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "Question 2 Let u be the solution to the transport equation ut + ux = 0, on the 0 ≤x ≤2π with periodic boundary conditions and the initial data u(x, 0) = exp(−(x",
+   "full": "Question 2 Let u be the solution to the transport equation ut + ux = 0, on the 0 ≤x ≤2π with periodic boundary conditions and the initial data u(x, 0) = exp(−(x−π)2). Consider the discrete approximation to the solution vj ≈u(xj, t) on the grid xj = jh, h = 2π N + 1, j = 1, · · · , N + 1. We deﬁne three ﬁnite diﬀerence operators acting on a grid function vj: D−vj = vj −vj−1 h , D+vj = vj+1 −vj h , D0vj = vj+1 −vj−1 2h . (a) Consider the following three semi-discretizations (i) dvj dt + D−vj = 0, (ii) dvj dt + D+vj = 0, (iii) dvj dt + D0vj = 0 . It is known that two of the above (i) - (iii) are stable and produce the results in Figure 1 when evolved one period in time using the classic fourth-order Runge-Kutta method. (a-i). Which of the three semi-discretizations is not stable and why? (a-ii). For the two stable methods, what method goes with which plot in Figure 1 and why? (b) Let D denote one of the diﬀerence operators above. We take a forward Euler scheme in time to have vn+1 j −vn j ∆t + D \u0010vn+1 j + vn j 2 \u0011 = 0 1 (A) (B) Figure 1: Solid lines represent the numerical solutions, and dashed lines represent the exact solutions where the superscript n now denotes the time index. Show that with this time-stepping, the spatial dis- cretization corresponding to Figure 1 (A) satisﬁes ∥vn+1∥2 h = ∥vn∥2 h , while the discretization corresponding to Figure 1 (B) satisﬁes ∥vn+1∥2 h ≤∥vn∥2 h . where the norm ∥v∥2 h = (v, v)h with the inner product (v, w)h = PN+1 j=1 hvjwj. Hint: For the derivation of the last inequality, it might be useful to ﬁrst ﬁnd α+ and/or α−such that D±vj = D0vj + α±D+D−vj."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2024 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "label": "L:Question3",
+   "chars": 2958,
+   "subparts": 21,
+   "syms": 25,
+   "tags": [
+    "插值/逼近与求积",
+    "有限元/弱解/Sobolev",
+    "变分法/Euler-Lagrange/最优化",
+    "离散微分几何/网格/共形"
+   ],
+   "head": "Question 3 Let u be a velocity ﬁeld in R3 and let Γu(t) be a surface which evolves under velocity ﬁled u as time t increases, with a bounded closed initial surf",
+   "full": "Question 3 Let u be a velocity ﬁeld in R3 and let Γu(t) be a surface which evolves under velocity ﬁled u as time t increases, with a bounded closed initial surface Γu(0) = Γ0. Namely, the surface is the image of a ﬂow map Xu(., t) : Γ0 →R3 satisfying the following diﬀerential equation: ∂ ∂tXu(p, t) = u(Xu(p, t)) for p ∈Γ0 Xu(p, 0) = p for p ∈Γ0. (1) If one solves this ordinary diﬀerential equation (ODE) for a set of points p on the initial surface Γ0, then one gets the location of these points at any time t. However, since the surface may have large deformation, the points obtained in this way may not form a good mesh for Γu(t), as shown in Figure 2 (b). David Gu and Shing-Tung Yau considered the following problem of ﬁnding a “good” map between two surfaces Γ0 and Γu(t) to produce good mesh on Γu(t): Find X(·, t) : Γ0 →Γu(t) to minimize Z Γ0 |∇Γ0X|2S., (2) where ∇Γ0 denotes surface tangential gradient and S. denotes the surface area element. This map X(·, t) : Γ0 →Γu(t) minimizes the deformation energy R Γ0 |∇Γ0X|2S. and therefore could produce a better mesh (with less deformation). An eﬃcient method of computing a good ﬂow map X(·, t) : Γ0 →R3 satisfying (2) is to solve the following problem: v · n = u · n on Γ(t) −∆Γ0X = κ (n ◦X) on Γ0, (3) 2 (a) Mesh on initial surface Γ0 (b) Surface at t = 4 by solv- ing ODE (1) (c) Surface at t = 23 by solv- ing PDE (3) Figure 2: Surface Γ(t) computed by diﬀerent numerical methods where n denotes the unit normal vector on surface Γ(t), where κ is an unknown scalar function to be solved. The method in (3) is based on the following ideas: The shape of an evolving surface is only determined by its normal velocity, rather than its tangential velocity. However, solving PDE (3) signiﬁcantly improves the mesh quality, as shown in Figure 2 (c). Problem (3) can be solved by a ﬁnite element method as follows. Let tm = mτ, m = 0, 1, 2, . . . , with time stepsize τ, and suppose that Γm h is a given triangulated surface which well approximates the bounded smooth closed surface Γ(tm). Let Xm h : Γ0 h →Γm h be the piecewise linear map which maps each triangle of Γ0 h to a triangle of Γm h (thus Xm h maps Γ0 h onto Γm h ), and let N m h = nm h ◦Xm h with nm h being the unit normal vector on Γm h (piecewise constant vector deﬁned on each triangle). Let S1 h(Γ0 h)3 be the ﬁnite element space of 3-dimensional vector-valued piecewise linear functions on Γ0 h, and let S0 h(Γ0 h) be the ﬁnite element space of scalar-valued piecewise constant functions on Γ0 h. Find (Xm+1 h , κm+1 h ) ∈S1 h(Γ0 h)3 × S0 h(Γ0 h) such that Z Γ0 h Xm+1 h −Xm h τ · N m h χhS. = Z Γ0 h (u ◦Xm h ) · N m h χhS. ∀χh ∈Sh(Γ0 h) Z Γ0 h ∇Γ0 hXm+1 h · ∇Γ0 hvhS. = Z Γ0 h κm+1 h N m h · vhS. ∀vh ∈Sh(Γ0 h)3. (4) (i) Show that the map X determined by (3) is a local minimizer of (2) with Γu(t) determined by (1). (ii) Show that the weak formulation in (4) has a unique solution (Xm+1 h , κm+1 h ) ∈S1 h(Γ0 h)3 × S0 h(Γ0 h). 3"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2025 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "label": "N:1",
+   "chars": 738,
+   "subparts": 2,
+   "syms": 13,
+   "tags": [
+    "有限元/弱解/Sobolev",
+    "变分法/Euler-Lagrange/最优化"
+   ],
+   "head": "1. Given a bounded Lipschitz domain Ω⊂Rn with piecewise hyperplanar boundary ∂Ω. For p ≥1, let Ap := W 1,p 0 (Ω; R) denote the standard Sobolev space, and Vh ⊂A",
+   "full": "1. Given a bounded Lipschitz domain Ω⊂Rn with piecewise hyperplanar boundary ∂Ω. For p ≥1, let Ap := W 1,p 0 (Ω; R) denote the standard Sobolev space, and Vh ⊂Ap denote the subspace of all piecewise affine finite element functions with respect to a shape-regular and quasi-uniform triangulation Th parametrized by the mesh size h. Consider the minimization of an energy E : Ap →R ∪{+∞}: inf E(Ap) := inf v∈Ap E(v), where E(v) := Z Ω W(x, v(x), ∇v(x)) dx, ∀v ∈A∞, associated with a continuous energy density function W: Ω× R × Rn →R, and its finite element approx- imation: Eh := inf vh∈Vh E(vh). (a) Show that if W is continuous, then lim h→0 Eh = inf v∈A∞E(v). (b) Find an example of W on Ω= (0, 1) such that lim h→0 Eh ̸= inf v∈A1 E(v)."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2025 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "label": "N:2",
+   "chars": 499,
+   "subparts": 4,
+   "syms": 12,
+   "tags": [
+    "变分法/Euler-Lagrange/最优化",
+    "凸分析/机器学习(softmax)"
+   ],
+   "head": "2. The softmax function p = softmax(z) is defined as pi = ezi P j ezj , for z ∈RK. Let SK−1 := \b p ∈RK pi ≥0, P i pi = 1 be the probability simplex. (a) Define ",
+   "full": "2. The softmax function p = softmax(z) is defined as pi = ezi P j ezj , for z ∈RK. Let SK−1 := \b p ∈RK pi ≥0, P i pi = 1 be the probability simplex. (a) Define the log-sum-exp function lse(z) := log K X i=1 ezi ! . Prove that lse(z) is convex. (b) Show that the convex conjugate (Fenchel-Legendre transform) is: lse∗(y) = (PK i=1 yi log yi if y ∈SK−1, ∞ otherwise. (c) Derive the biconjugate lse∗∗and verify that it equals lse. (d) Prove that softmax(z) = arg max p∈SK−1 (z · p −p · log p) . 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Team\\2025 ACM (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "label": "N:3",
+   "chars": 434,
+   "subparts": 4,
+   "syms": 5,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "3. Let A = λI + N ∈Cn×n, where N is nilpotent of index m, i.e., N m = 0, and λ ∈C. Let f be analytic near λ. (a) Derive a general expression for f(A) in terms o",
+   "full": "3. Let A = λI + N ∈Cn×n, where N is nilpotent of index m, i.e., N m = 0, and λ ∈C. Let f be analytic near λ. (a) Derive a general expression for f(A) in terms of the derivatives of f at λ and powers of N. (b) Specialize to the case f(z) = ez, and compute eA explicitly. (c) If A ∈Rn×n is real but has complex eigenvalues, explain how to compute eAt ∈Rn×n efficiently. (d) Let A = \u0012 0 1 −1 0 \u0013 . Compute eAt and interpret the result. 2"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2022 Mathematical Physics (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "label": "L:Prob.1",
+   "chars": 419,
+   "subparts": 0,
+   "syms": 10,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "经典力学/哈密顿-拉格朗日",
+    "量子力学",
+    "量子场论/QFT"
+   ],
+   "head": "Prob. 1 The Hellmann-Feynman theorem: Given a Hamiltonian H which has discrete energy levels and smoothly depends on a coupling parameter γ, deﬁne A = ∂H ∂γ . •",
+   "full": "Prob. 1 The Hellmann-Feynman theorem: Given a Hamiltonian H which has discrete energy levels and smoothly depends on a coupling parameter γ, deﬁne A = ∂H ∂γ . • For every eigenstate |Ψj⟩of H with its energy eigenvalue Ej, prove that ⟨Ψj|A|Ψj⟩= ∂Ej ∂γ . • Taking as an example the one-dimensional quantum oscillator described by the Hamilto- nian H = −∂2 ∂x2 + ω2x2 4 , ω ∈R and ω > 0, show that ⟨Ψj|x2|Ψj⟩= (2j + 1) ω ."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2022 Mathematical Physics (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "label": "L:Prob.2",
+   "chars": 486,
+   "subparts": 2,
+   "syms": 16,
+   "tags": [
+    "广义相对论/引力"
+   ],
+   "head": "Prob. 2 You are given the weak-ﬁeld Newtonian limit of space-time as ds2 = −(1 + 2φ)dt2 + dx2 + dy2 + dz2, (1) and the Newtonian gravitational potential φ satis",
+   "full": "Prob. 2 You are given the weak-ﬁeld Newtonian limit of space-time as ds2 = −(1 + 2φ)dt2 + dx2 + dy2 + dz2, (1) and the Newtonian gravitational potential φ satisfying ⃗∇2φ = 4πGρ (i.e., ⃗∇2g00 = −8πGρ) with ⃗∇2 = ∂2 x + ∂2 y + ∂2 z, G the Newton constant and ρ the matter density. Based on this information and the principle of general covariance, derive the complete Einstein ﬁeld equation. You are given Rρ µσν = ∂σΓρ µν −∂νΓρ σµ + ΓΓ −terms Γρ µν = 1 2gρσ (∂µgσν + ∂νgµσ −∂σgµν) . (2)"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2022 Mathematical Physics (Individual).pdf",
+   "kind": "Individual",
+   "year": "2022",
+   "label": "L:Prob.3",
+   "chars": 665,
+   "subparts": 5,
+   "syms": 13,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日"
+   ],
+   "head": "Prob.3 Consider a 2-form ﬁeld in 6-dimensional spacetime B(2) = 1 2 Bµνdxµ ∧dxν, µ, ν = 0, 1, · · · , 5. (3) The free theory action is S = − Z d6x \u0012 1 12HµνρHµν",
+   "full": "Prob.3 Consider a 2-form ﬁeld in 6-dimensional spacetime B(2) = 1 2 Bµνdxµ ∧dxν, µ, ν = 0, 1, · · · , 5. (3) The free theory action is S = − Z d6x \u0012 1 12HµνρHµνρ + 1 4m2BµνBµν \u0013 , (4) where H is the corresponding 3-form ﬁeld strength associated with the 2-form B(2) H(3) = 1 6 Hµνρdxµ ∧dxν ∧dxρ = 1 2∂[µBνρ]dxµ ∧dxν ∧dxρ = dB(2) . (5) (a)In the massive case, count the on-shell propagating degrees of freedom and describe the corresponding representation of Poincar´e group. (b)In the massless case, count the physical on-shell propagating degrees of freedom by eliminating the gauge redundancies, and describe the corresponding representation of Poincar´e group. 1"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2023 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "L:Question1",
+   "chars": 565,
+   "subparts": 2,
+   "syms": 11,
+   "tags": [],
+   "head": "Question 1. Newtonian Mechanics (1) In Newton’s second law, if we set force ⃗F = 0 we get acceleration ⃗a = 0, which seems to give the Newton ﬁrst law. Explain ",
+   "full": "Question 1. Newtonian Mechanics (1) In Newton’s second law, if we set force ⃗F = 0 we get acceleration ⃗a = 0, which seems to give the Newton ﬁrst law. Explain whether we need the ﬁrst law as an independent postulate. (2) A particle of mass M moves in the x −y plane the piece-wise in presence of the constant potential V = ( V2 x > 0 V1 x < 0 In crossing from the domain x < 0, where its velocity ⃗v makes the angle θ1 with the x-axis, to the domain x > 0, it changes its velocity (magnitude and angle). x What is the relation of θ1 to θ2 when V1 < V2 and V1 > V2?"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2023 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "L:Question2",
+   "chars": 1112,
+   "subparts": 3,
+   "syms": 17,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日",
+    "量子力学",
+    "量子场论/QFT"
+   ],
+   "head": "Question 2. Consider a charged particle on a circle, parameterized by angle θ ∼θ + 2π. It moves under a constant magnetic ﬁeld B perpendicular to the plane of t",
+   "full": "Question 2. Consider a charged particle on a circle, parameterized by angle θ ∼θ + 2π. It moves under a constant magnetic ﬁeld B perpendicular to the plane of the circle. The Lagrangian of the system is given by L = 1 2 ˙θ2 + B 2π ˙θ . (1) Find the spectra and corresponding wave functions of the system (set ℏ= 1), and show the ground states have a two-fold degeneracy for B = π. 1 (2) For B = π, the system admits a Z2×Z2 symmetry generated by θ →θ+π and θ →−θ. Find how they act on the two-fold ground states and the commutation relation of the two operators, and thus show that the Z2×Z2 symmetry is central extended to the dihedral group with 8 elements D8 = r, s | r4 = s2 = 1, s r s = r3 . (3) Suppose now the particle moves under an extra potential V = λ cos(2 θ). Show that there are still two ground states perturbatively. Use the above results to argue that the two-fold ground states cannot be lifted non- perturbatively for generic λ, and explicitly verify it via an one-instanton computation (i.e. the leading contribution as ℏ→0 to the tunnelling amplitude between the two perturbative vacua)."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2023 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "L:Question3",
+   "chars": 1738,
+   "subparts": 10,
+   "syms": 36,
+   "tags": [
+    "量子力学",
+    "量子场论/QFT"
+   ],
+   "head": "Question 3. We introduce the spinor-helicity formalism for massless particles. We write any four-momentum pµ as a 2 × 2 matrix p ˙αα via pµ →p ˙αα = ¯σ ˙αα µ pµ",
+   "full": "Question 3. We introduce the spinor-helicity formalism for massless particles. We write any four-momentum pµ as a 2 × 2 matrix p ˙αα via pµ →p ˙αα = ¯σ ˙αα µ pµ = \u0012 p0 + p3 p1 −ip2 p1 + ip2 p0 −p3 \u0013 , ¯σ ˙αα µ = (1,⃗σ), (1) where ⃗σ = (σ1, σ2, σ3) are the three 2×2 Pauli matrices. For massless particles, the matrix pi ˙αα can be written as a product of two 2-component vectors ˜λ ˙α i and λα i which are called the spinor helicity variables, i.e. pi ˙αα = ˜λ ˙α i λα i . (2) Any Lorentz-invariant can be built from these λi and ˜λi through the angle ⟨..⟩ and square [..] brackets deﬁned as ⟨λiλj⟩:= εαβλα i λβ j = −⟨λjλi⟩=: ⟨ij⟩, h ˜λi˜λj i := −ε ˙α ˙β˜λ ˙α i ˜λ ˙β j = −[λjλi] =: [ij], (3) where the εαβ is the rank 2 Levi-Civita tensor. We also deﬁne the helicity operator for the n-point amplitude as ˆh = 1 2 n X i=1 −λα i ∂ ∂λα i + ˜λ ˙α i ∂ ∂˜λ ˙α i ! ≡ n X i=1 ˆhi, (4) which means we have assigned helicity −1 2 to λ and helicity 1 2 to ˜λ. (1) Show the on-shell condition can be expressed as p2 i = m2 ⇔ det \u0000pi ˙αα\u0001 = m2. (5) In particular, for a massless particle, prove that pi ˙αα can be written as in Equation (2). 2 (2) Show that for two general four-vectors Aµ and Bµ, their Lorentz product A · B can be written in terms of the matrix A ˙αα, B ˙αα; write the so-called Mandelstam variable sij = (pi + pj)2 = 2pi · pj for two massless particles in terms of square and angle brackets. (3) Consider the 3-point amplitude where the helicity of particle i is hi. Sup- pose it only depends on angle brackets, we can then write an ansatz A3 \u00001h12h23h3\u0001 = c⟨12⟩x12⟨13⟩x13⟨23⟩x23, (6) where c is a constant independent of the kinematics. Express x12, x13, x23 in terms of hi, and write down three-gluon amplitude A3 (1−2+3−)."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2023 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2023",
+   "label": "L:Question4",
+   "chars": 354,
+   "subparts": 0,
+   "syms": 6,
+   "tags": [
+    "量子力学",
+    "量子场论/QFT",
+    "广义相对论/引力"
+   ],
+   "head": "Question 4. Consider the 3d pure gravity theory with the Einstein-Hilbert action S = 1 16πGN Z M dx3√−g R . Recast the action in terms of vierbein ea µ and spin",
+   "full": "Question 4. Consider the 3d pure gravity theory with the Einstein-Hilbert action S = 1 16πGN Z M dx3√−g R . Recast the action in terms of vierbein ea µ and spin-connection ω a µ b, and further show its equivalence to a Chern-Simon theory with action S = k 4π Z M Tr \u0012 AdA + 2 3A3 \u0013 , where the gauge ﬁeld A takes values in the Lie algebra of ISO(1, 2). 3"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2024 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "L:Problem1",
+   "chars": 529,
+   "subparts": 2,
+   "syms": 3,
+   "tags": [
+    "迭代法收敛性(Jacobi/GS/不动点)",
+    "量子力学"
+   ],
+   "head": "Problem 1 A non-relativistic, spinless, quantum particle of mass m moves in the Euclidean plane R2. The particle is connected by ideal springs of elastic consta",
+   "full": "Problem 1 A non-relativistic, spinless, quantum particle of mass m moves in the Euclidean plane R2. The particle is connected by ideal springs of elastic constant k to three fixed points in the plane {p1, p2, p3} ⊂R2 which lay at the vertices of an equilateral triangle whose sides have length L. (a) determine the Lie group of continuous symmetries of the system (the generators of its Lie algebra should contain a maximal set of functional independent conserved quantities); (b) compute the energy levels of the quantum system."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2024 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "L:Problem2",
+   "chars": 676,
+   "subparts": 0,
+   "syms": 6,
+   "tags": [
+    "概率/随机过程/统计物理",
+    "经典力学/哈密顿-拉格朗日",
+    "量子力学"
+   ],
+   "head": "Problem 2 Let Γv be the Caley tree of valency v ≥3, i.e. the connected graph over infinitely-many nodes without non-trivial closed paths (≡a tree) where each no",
+   "full": "Problem 2 Let Γv be the Caley tree of valency v ≥3, i.e. the connected graph over infinitely-many nodes without non-trivial closed paths (≡a tree) where each node is connected to other v nodes by a single link. On each node i ∈Γv there is a Ising spin σi which takes the two values ±1 (spin up and spin down) and the system has Hamiltonian (≡energy) H = −J X ⟨i,j⟩ σiσj, J > 0 where the notation P ⟨i,j⟩means that the sum is over pairs of sites i, j ∈Γv connected by a link (≡nearest neighbors sites). Question. Use the free boundary condition. Is there a positive temperature Tc at which we have a phase transition and yet the free energy F(T) is real analytic for 0 < T < ∞?"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2024 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "L:Problem3",
+   "chars": 1535,
+   "subparts": 0,
+   "syms": 10,
+   "tags": [
+    "渐近分析/奇异摄动/边界层",
+    "电动力学/电磁学",
+    "量子力学",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 3 Orders-of-magnitude black hole physics. Assuming black holes indeed evaporate via quantum effect as predicted by Hawking. Answer the following questio",
+   "full": "Problem 3 Orders-of-magnitude black hole physics. Assuming black holes indeed evaporate via quantum effect as predicted by Hawking. Answer the following questions to an order of magnitude. (Hint: for this problem, it is the most convenient to work in the Planck units with c = G = ℏ= kB = 1 and convert the answer in the end using the values of Planck length, mass, time, and temperature: lP ∼10−35 m, mP ∼10−8 kg, tP ∼10−43 s, and TP ∼1032 K. Also, please feel free to ignore 2’s and π’s.) 1. If a black hole has mass M and its Hawking radiation has a black-body spectrum with temperature proportional to its “surface gravity” (at, say, twice the radius of the horizon), what is the temperature and total power of the Hawking radiation in Planck units? And for a solar-mass black hole (∼1038 mP), what is the temperature and power in Kelvins and Watts? 1 Figure 1: Problem 4 2. What is the maximum mass of a black hole that can evaporate via Hawking radiation in the lifetime of the Universe (10 billion years ∼1060tP)? Compare its temperature with that of the cosmic microwave background (∼2.7K). 3. How much mass (in kilograms) does a black hole radiate away in its final second? Would this be large or small in astronomical standard? 4. For a solar-mass black hole, what is the charge in conventional units (Coulombs) that would have to be present to make Q = M in relativistic units? How does this compare to the total charge of a solar mass of protons? (Hint: the charge of a proton is 10−19 Coulomb while its mass is 10−19mP.)"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2024 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2024",
+   "label": "L:Problem4",
+   "chars": 376,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [
+    "量子力学",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 4 A spherical container is partially filled with a slowly hardening epoxy resin (Figure 1). The container is spinning with angular velocity ω1 about the",
+   "full": "Problem 4 A spherical container is partially filled with a slowly hardening epoxy resin (Figure 1). The container is spinning with angular velocity ω1 about the O1 −O2 axis, which in turn is spinning with angular velocity ω2 about the fixed O3 −O4 axis. Assuming ω1 ̸= ω2, find the final shape of the hardened resin (use g for gravitational acceleration at Earth’s surface). 2"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2025 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "L:Problem1",
+   "chars": 234,
+   "subparts": 0,
+   "syms": 3,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日",
+    "电动力学/电磁学"
+   ],
+   "head": "Problem 1 Consider Born-Infeld electrodynamics with Lagrangian L = b2 \u0012 1 − q 1 −E2−B2 b2 \u0013 . 1. Find the electrostatic field of a point charge and show it has ",
+   "full": "Problem 1 Consider Born-Infeld electrodynamics with Lagrangian L = b2 \u0012 1 − q 1 −E2−B2 b2 \u0013 . 1. Find the electrostatic field of a point charge and show it has finite self-energy. 2. Derive the speed of light in a background field E0."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2025 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "L:Problem2",
+   "chars": 183,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [
+    "概率/随机过程/统计物理"
+   ],
+   "head": "Problem 2 Consider a 1D Ising model with interactions decaying as J(r) ∝r−α where α ∈(1, 2). 1. Compute the approximate free energy for α = 3 2. 2. Find the cri",
+   "full": "Problem 2 Consider a 1D Ising model with interactions decaying as J(r) ∝r−α where α ∈(1, 2). 1. Compute the approximate free energy for α = 3 2. 2. Find the critical temperature Tc(α)"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2025 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "L:Problem3",
+   "chars": 1288,
+   "subparts": 0,
+   "syms": 12,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日",
+    "电动力学/电磁学"
+   ],
+   "head": "Problem 3 Maxwell theory in various dimensions. In any spacetime dimension d ≥2, one can define a theory of a massless vector field Aµ with the Lagrangian L = −",
+   "full": "Problem 3 Maxwell theory in various dimensions. In any spacetime dimension d ≥2, one can define a theory of a massless vector field Aµ with the Lagrangian L = −1 4FµνF µν, where the field strength is Fµν = ∂µAν −∂νAµ. 1. Show that this Lagrangian is invariant under gauge transformations Aµ →Aµ + ∂µf, where f is an arbitrary real function. 2. Explain how to quantize this theory in the Coulomb gauge ∇· ⃗A = 0, and determine the number of polarization states. 3. Show that, for d = 2, the only solution of the classical equations of motion is F12 being a constant. If the spacetime is the Euclidean space R2, find a solution of the gauge field Aµ that is rotational invariant with non-zero F12 = c. It might be convenient to work with polar coordinates. 4. When the space-time is S2, glue together the solution for the previous part on the northern and southern hemisphere via a gauge transformation along the equator. Show that R S2 F has to be quantized for the solution to be consistent. 5. Prove that, for d = 3, this theory on R2,1 is equivalent to a theory of a free massless scalar. (Hint: the scalar φ would satisfy F = ⋆dφ. Show that such φ exist and satisfy the equation of motion □φ = 0. Furthermore, show that the equal-time commutation relation for φ is the standard one.) 1"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Individual\\2025 Math-Phys (Individual).pdf",
+   "kind": "Individual",
+   "year": "2025",
+   "label": "L:Problem4",
+   "chars": 985,
+   "subparts": 1,
+   "syms": 2,
+   "tags": [],
+   "head": "Problem 4 General Lorentz Transformation: 1. Please write down the Lorentz transformation of the moving system (t′, x′, y′, z′) with relative velocity v along t",
+   "full": "Problem 4 General Lorentz Transformation: 1. Please write down the Lorentz transformation of the moving system (t′, x′, y′, z′) with relative velocity v along the positive X-axis. 2. Now, could you use the result in part (a) to derive the General Lorentz Transformation when the relative motion is along any −→ v direction. The result should be in the form of vectors −→ v and −→r (not in the component form as x, y, z). 3. Now we consider the Lorentz transformation where the moving system has the relative velocity v −→ v = (vx, vy, 0) Student A has tried to solve this problem by first taking the Lorentz transformation with relative velocity (vx, 0, 0) and then another Lorentz transformation with relative velocity (0, vy, 0). Student B has tried to solve this problem by first taking the Lorentz transformation with relative velocity (0, vy, 0) and then another Lorentz transformation with relative velocity (vx, 0, 0). Now the question is which student gives the right answer? 2"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2022 Mathematical Physics (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "label": "N:1",
+   "chars": 93,
+   "subparts": 0,
+   "syms": 0,
+   "tags": [
+    "广义相对论/引力"
+   ],
+   "head": "1) Derive the Einstein equation and the equation of motion for the scalar ﬁeld, respectively;",
+   "full": "1) Derive the Einstein equation and the equation of motion for the scalar ﬁeld, respectively;"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2022 Mathematical Physics (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "label": "N:2",
+   "chars": 219,
+   "subparts": 1,
+   "syms": 3,
+   "tags": [
+    "广义相对论/引力"
+   ],
+   "head": "2) In any dimension, the Riemann tensor obeys Rαβγδ = Rγδαβ = −Rβαγδ = −Rαβδγ. (2) Now in two dimensions, these relations imply a connection between the Riemann",
+   "full": "2) In any dimension, the Riemann tensor obeys Rαβγδ = Rγδαβ = −Rβαγδ = −Rαβδγ. (2) Now in two dimensions, these relations imply a connection between the Riemann tensor and the Ricci scalar R. Find this precise relation;"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2022 Mathematical Physics (Overall).pdf",
+   "kind": "Overall",
+   "year": "2022",
+   "label": "N:3",
+   "chars": 1231,
+   "subparts": 5,
+   "syms": 12,
+   "tags": [
+    "迭代法收敛性(Jacobi/GS/不动点)",
+    "量子场论/QFT",
+    "广义相对论/引力"
+   ],
+   "head": "3) Using this relation, what is the implication of the Einstein equation obtained in 1) for D = 2 ? Prob. 2 Consider the four-dimensional U(1) gauge theory: L =",
+   "full": "3) Using this relation, what is the implication of the Einstein equation obtained in 1) for D = 2 ? Prob. 2 Consider the four-dimensional U(1) gauge theory: L = −1 4FµνF µν, where Fµν = ∂µAν −∂νAµ. One can construct a class of gauge invariant local operators in the following form O2n(x) ∼( Y n-pairs ηµiµj)(∂µ1∂µ2 . . . ∂µm−2Fµm−1µm)(∂µm+1 . . . ∂µ2n−2Fµ2n−1µ2n)(x) , (3) which contains 2 ﬁeld strength tensor Fµν and 2n −4 derivatives ∂µ. All 2n Lorentz indices are contracted in n pairs, thus every operator is a Lorentz scalar. By contracting Lorentz indices in diﬀerent ways, you may write down diﬀerent operators for a given n. Let Aµ be on-shell physical ﬁelds in the operator, and solve the following problems: (1) Derive all the equations that Fµν should satisfy. (2) In the n = 2 case, it should be easy to see that there is only one operator FµνF µν. Show that, for all possible ways of Lorentz contractions, there is only one independent operator for the n = 3 case. (3) Derive the set of independent operators for the n = 4 case. (4) Derive the set of independent operators for general n. You may ﬁnd it convenient to use a short notation for Lorentz indices such that FµνF µν = F12F12, and ∂ρF µν∂µFνρ = ∂1F23∂2F31. 1"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2023 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "label": "L:Question1",
+   "chars": 1053,
+   "subparts": 4,
+   "syms": 23,
+   "tags": [
+    "谱方法/FFT/Fourier",
+    "概率/随机过程/统计物理",
+    "经典力学/哈密顿-拉格朗日",
+    "量子力学"
+   ],
+   "head": "Question 1. Consider a d-dimensional Ising model on a square lattice, which is periodic in all directions. The Hamiltonian is given by H = − X a,b Jabσaσb − X a",
+   "full": "Question 1. Consider a d-dimensional Ising model on a square lattice, which is periodic in all directions. The Hamiltonian is given by H = − X a,b Jabσaσb − X a Baσa where Ba is an external magnetic ﬁeld, σa = ±1, and the spin-spin coupling Jab ≡J(|⃗a −⃗b|) fall oﬀwith distance. (1) Compute the classical partition function when Jab = 0 ﬁrst, then show that for non-vanishing J, this can be written as Z = N Z Dψ e−S[ψ], S[ψ] = X a,b ψaKabψb− X a βψaBa−ln cosh(2 X b Kabψb) where K = (βJ)−1 (2) Show that at low temperature S = X k [φk(c0+c1k·k)ψ−k+c2ψkB−k]+c3 X k1,k2,k3,k4 ψk1ψk2ψk3ψk4δk1+k2+k3+k4+· · · where ψa = 1 √ N X k e−ik·aψk Kab = 1 N X k e−ik·(a−b)Kk then ﬁnd coeﬃcents ci and explain when you can neglect the ellipsis in above expression. (3) For vanishing external magnetic ﬁeld, upon Fourier transforming and rescaling, the action become a φ4 theory Z = Z0 Z Dφ e−S[φ] S[φ] = Z ddx \u00121 2(∂φ)2 + m 2 φ2 + λφ4 \u0013 1 (4) At what temperature does the Ising model have a transition? (Hint: the Ising model has a transition when m changes sign)"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2023 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2023",
+   "label": "L:Question2",
+   "chars": 1432,
+   "subparts": 9,
+   "syms": 13,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日",
+    "量子力学",
+    "量子场论/QFT"
+   ],
+   "head": "Question 2. Consider a free massless Dirac fermion in two-dimensions with Lagrangian L = i ¯ψ/∂ψ The vector current Jµ ≡¯ψγµψ is conserved ∂µJµ = 0. By the Poin",
+   "full": "Question 2. Consider a free massless Dirac fermion in two-dimensions with Lagrangian L = i ¯ψ/∂ψ The vector current Jµ ≡¯ψγµψ is conserved ∂µJµ = 0. By the Poincar´e lemma this means that we can introduce a scalar operator (ﬁeld) φ(x) such that Jµ(x) = ϵµν∂νφ(x). (1) Answer to either one of the following two questions (they are equivalent, just stated in two diﬀerent languages so that you can use the one which you feel more convenient): (a) using the symmetries of the theory, write down the dynamical equa- tions of the 2d Dirac theory as a ﬁeld equation for the scalar ﬁeld φ(x); (b) compute the two-point function of φ(x) from the identity ⟨Jµ1(x1) Jµ2(x2)⟩= ϵµ1ν1ϵµ2,ν2∂xν1 1 ∂xν2 2 ⟨φ(x1) φ(x2)⟩ [Hint: working in momentum space is more convenient] (2) can you write a local action for the ﬁeld φ(x) whose variation yields the ﬁeld equations obtained in (1)? (3) discuss brieﬂy what your answer to (1) teaches us regarding the relation of bosons to fermions in two-dimensions (4) is your result (and discussion) consistent with the Spin & Statistics theo- rem of QFT? (5) Now couple your massless 2d Dirac fermion to an Abelian gauge ﬁeld Aµ L = −1 4e2 FµνF µν + i ¯ψγµ(∂µ −iAµ)ψ. What is the particle spectrum of the resulting theory (≡massless 2d QED)? To avoid all computation, the numerical value of the masses of the various particles is NOT required. Just say for each particle whether its mass is zero or non-zero. 2"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2024 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2024",
+   "label": "L:Problem1",
+   "chars": 470,
+   "subparts": 0,
+   "syms": 7,
+   "tags": [
+    "概率/随机过程/统计物理",
+    "经典力学/哈密顿-拉格朗日",
+    "量子场论/QFT"
+   ],
+   "head": "Problem 1 Statistical Mechanics: Feynman gas We have a one-dimensional classical gas consisting of N impenetrable particles (i.e. the par- ticles cannot cross e",
+   "full": "Problem 1 Statistical Mechanics: Feynman gas We have a one-dimensional classical gas consisting of N impenetrable particles (i.e. the par- ticles cannot cross each other) which move in the segment [0, L] ⊂R. The particles screen each other, so that each particle interacts only with the particles next to it along the line. The Hamiltonian is HN = N X i=1 p2 i 2m −λ N−1 X i=1 log |xi+1 −xi| Compute the Gibbs free energy in the thermodynamic limit (N →∞with L/N fixed)."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2024 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2024",
+   "label": "L:Problem2",
+   "chars": 434,
+   "subparts": 0,
+   "syms": 1,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日",
+    "电动力学/电磁学",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 2 Relativistic Mechanics A particle with mass m and electric charge e is launched horizontally with velocity v from a height h above the ground. It then",
+   "full": "Problem 2 Relativistic Mechanics A particle with mass m and electric charge e is launched horizontally with velocity v from a height h above the ground. It then falls under the influence of constant vertical electric field ⃗E and lands a distance R away. Find the relativistic Hamiltonian, the Hamiltonian equations of motion, and express R in terms of h, m, and v. (Set c = 1 for simplicity and neglect air resistance and gravity.) 1"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2025 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2025",
+   "label": "L:Problem1",
+   "chars": 1478,
+   "subparts": 0,
+   "syms": 8,
+   "tags": [
+    "电动力学/电磁学"
+   ],
+   "head": "Problem 1 The linking number. A wire along an oriented loop L1 ⊂R3 in the three-dimensional space carries a constant electric current I. Let L2 be another loop ",
+   "full": "Problem 1 The linking number. A wire along an oriented loop L1 ⊂R3 in the three-dimensional space carries a constant electric current I. Let L2 be another loop that does not intersect L1. 1. We have Z L2 ⃗B · d⃗l2 = lk(L1, L2) · µ0I. Explain why geometrically the quantity lk(L1, L2) can be referred to as the “linking number” of L1 and L2 by showing that, when it is non-zero, one can not separate L1 and L2. Also argue that it remains constant under deformations of L1 and L2 as long as they don’t cross each other. 2. Give a physics derivation of the Gauss linking integral formula lk(L1, L2) = 1 4π Z L1×L2 d⃗l2 · d⃗l1 × ⃗l1 −⃗l2 |⃗l1 −⃗l2|3. (0.1) Here ⃗l1,2 respectively parametrize L1,2, while “×” and “·” are respectively the cross and scalar products in R3. 3. Verify that the integral (0.1) is symmetric under L1 ↔L2. Explain this physically using electric-magnetic duality. (Hint: consider a “magnetic current” Im along L2. Also you don’t need to keep track of constants such as µ0, ϵ0 and c.) 4. Argue that given a projection of the link, the linking number can be computed by summing over crossings with each contributing ±1 2 according to the following rule. Here, the two strands belong to the two different components, but it doesn’t matter which is which due to the symmetry we have seen. (Hint: arrange the configuration of L1 and L2 so that you can evaluate/approximate the integral. You may find the following formula useful, Z ∞ −∞ dx r2 (x2 + r2) 3 2 = 2.)"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Overall\\2025 Math-Phys (Overall).pdf",
+   "kind": "Overall",
+   "year": "2025",
+   "label": "L:Problem2",
+   "chars": 309,
+   "subparts": 1,
+   "syms": 2,
+   "tags": [
+    "概率/随机过程/统计物理",
+    "量子力学"
+   ],
+   "head": "Problem 2 A non-relativistic quantum particle of spin zero moves on the real line R subjected to the linear potential V (x) = 2gx (x being the standard Cartesia",
+   "full": "Problem 2 A non-relativistic quantum particle of spin zero moves on the real line R subjected to the linear potential V (x) = 2gx (x being the standard Cartesian coordinate in R and g a real parameter). Find the heat kernel x′ e−βH x of this quantum system by a direct computation of the path integral. 1"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2023 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "label": "L:Question1",
+   "chars": 1165,
+   "subparts": 3,
+   "syms": 25,
+   "tags": [
+    "迭代法收敛性(Jacobi/GS/不动点)",
+    "概率/随机过程/统计物理",
+    "量子场论/QFT"
+   ],
+   "head": "Question 1. Consider a free electron-positron system with linearly spaced energy level En = ϵ0 \u0000n −1 2 \u0001 for n ∈Z, and total fermion number N = Ne−Np. Deﬁne q =",
+   "full": "Question 1. Consider a free electron-positron system with linearly spaced energy level En = ϵ0 \u0000n −1 2 \u0001 for n ∈Z, and total fermion number N = Ne−Np. Deﬁne q = e−ϵ0/T and w = eµ/T for the energy and fermion number fugacities, then the grand canonical partition function is given by Z(w, q) = X fermion occupations e−E/T +µN/T = +∞ X N=−∞ wNZN(q) , where ZN(q) is the partition function counting states for given fermionic number N. (1) From the perspective of “Dirac sea” (The vacuum is the state in which all negative energy states are ﬁlled. Therefore an electron is a state created above the vacuum, while a positron is a “hole” state where all negative energy states are occupied except one), show that Z0(q) = ∞ Y n=1 1 1 −qn , and thus ZN(q) = q N2 2 Z0(q) ; (2) In a modern QFT perspective the electron and positron states are pro- duced by two kinds of anti-commuting creation operators acting on the vacuum. Rewrite the partition function Z(w, q) in this way, and thus prove the Jacobi’s triple product identity ∞ Y n=1 (1 −qn) \u0010 1 + w qn−1 2 \u0011 \u0010 1 + w−1qn−1 2 \u0011 = +∞ X N=−∞ wNq N2 2 . (3) Can you name a relativistic model with this partition function? 1"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2023 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "label": "L:Question2",
+   "chars": 652,
+   "subparts": 8,
+   "syms": 24,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "经典力学/哈密顿-拉格朗日",
+    "量子力学"
+   ],
+   "head": "Question 2. Consider the following one-dimensional Hamiltonian deﬁned on the inﬁnite line −∞< x < ∞with a well-like potential V (x): ˆH = 1 2m ˆp2 x + V (x), V ",
+   "full": "Question 2. Consider the following one-dimensional Hamiltonian deﬁned on the inﬁnite line −∞< x < ∞with a well-like potential V (x): ˆH = 1 2m ˆp2 x + V (x), V (x) = ( −V0/L, |x| < L/2 0, |x| > L/2 where V0 > 0. We are interested in the bound states of ˆH, i.e. eigenstates of ˆH with negative eigenvalues. (1) Compare the two limits L →0 and L →∞: which limit has the largest number of bound states? (2) What is the minimum number of bound states as we vary L ∈(0, ∞)? (3) Modify the potential V (x) to the following form: V (x) =      0, x > L/2 −V0/L, −L/2 < x < L/2 +∞, x < −L/2 What is the minimum number of bound states as we vary L ∈(0, ∞)?"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2023 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2023",
+   "label": "L:Question3",
+   "chars": 1024,
+   "subparts": 5,
+   "syms": 14,
+   "tags": [
+    "电动力学/电磁学",
+    "量子力学",
+    "量子场论/QFT"
+   ],
+   "head": "Question 3. Consider the QFT of an Abelian gauge ﬁeld Aµ in 3-dimensional Minkowski space with action S = − 1 4g2 YM Z d3x FµνF µν + λ Z d3x ϵµνρAµFνρ (1) where",
+   "full": "Question 3. Consider the QFT of an Abelian gauge ﬁeld Aµ in 3-dimensional Minkowski space with action S = − 1 4g2 YM Z d3x FµνF µν + λ Z d3x ϵµνρAµFνρ (1) where Fµν = ∂µAν −∂νAµ is the Maxwell ﬁeld strength and λ is a real coupling. Answer the following questions: (1) is this theory consistent at the full quantum level? Motivate your answer (2) answer to the following questions only if you said “yes” to ques- tion (1) (2a) which symmetries which are unbroken at λ = 0 get broken for λ ̸= 0? (2b) when λ ̸= 0 is the theory gapped? (2c) does this theory contain gauge-invariant conserved currents Ja µ (that is, such that ∂µJa µ = 0) which allow us to deﬁne non-identically-zero internal quantum numbers (i.e. charges) Qa = R d2x Ja 0 (x)? If yes, say how many non-trivial Qa’s there are, and which compact Lie group G they generate. (2d) determine the spectrum of the theory, namely list its particle content (mass, spin, # of states at ﬁxed momentum, and internal quantum numbers Qa for each particle in the spectrum). 2"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2024 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "label": "L:Problem1",
+   "chars": 1256,
+   "subparts": 0,
+   "syms": 19,
+   "tags": [
+    "渐近分析/奇异摄动/边界层",
+    "电动力学/电磁学",
+    "量子力学"
+   ],
+   "head": "Problem 1 Scattering off a constant magnetic strip Consider a non-relativistic electron with mass m and charge e in a two-dimensional plane (x1, x2). In what fo",
+   "full": "Problem 1 Scattering off a constant magnetic strip Consider a non-relativistic electron with mass m and charge e in a two-dimensional plane (x1, x2). In what follows, you can set ℏ= c = 1 for convenience. Now the electron is placed in a perpendicular magnetic field ˆB that is constant within an infinite strip and vanishes elsewhere: ˆB = ( B ˆx3, x2 ∈[−L, 0] 0, otherwise (0.1) where B > 0. Recall that: ˆB = ⃗∇× ⃗A →B = ∂1A2 −∂2A1 (0.2) 1. Consider the electron scattering from the asymptotic region x2 →∞at incident angle θ along the x2-axis, and with energy E. Solve the wave-function of the electron in the asymptotic region x2 →−∞. How large should E be for the electron to scatter through as a plane-wave? In these cases, calculate the out-going angle θ′ of the electron in the asymptotic region x2 →−∞region. 2. Now we take the limit L →∞, so that the magnetic field is present for the full half-plane x2 < 0. In this limit, the system only contains bound-states in the region x2 →−∞. Consider the sector of Hilbert-space characterised by: • Having zero momentum along x1 direction: p1 = 0. • Satisfying the total reflection condition along x2 direction at x2 = 0, i.e: ψ(x1, x2) ∝cos (k2x2), x2 > 0 (0.3) In this sector, find the energy spectrum."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2024 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "label": "L:Problem2",
+   "chars": 1957,
+   "subparts": 0,
+   "syms": 24,
+   "tags": [
+    "电动力学/电磁学",
+    "量子场论/QFT"
+   ],
+   "head": "Problem 2 QFT with an external gauge potential Consider a massless complex scalar field coupled to an external gauge potential S = Z d4x [−gµν(∂µ + iqAµ)ϕ(∂ν −i",
+   "full": "Problem 2 QFT with an external gauge potential Consider a massless complex scalar field coupled to an external gauge potential S = Z d4x [−gµν(∂µ + iqAµ)ϕ(∂ν −iqAν)ϕ∗] , (0.4) where the external gauge potential Aµ = (A0(x), 0, 0, 0) (here and hereafter, x denote the first spatial direction, not a four-dimensional vector). 1 1. Write down the equation of motion for the field operator ϕ. 2. Consider a solution ϕω = e−iωtψω(x). Write down the differential equation for ψω(x). 3. Consider a step potential qA0(x) = ( 0 (x < 0) µ (x > 0) . (0.5) We will only consider ϕω where ω < µ. When t →−∞, consider an incoming normalizable “wave packet” (i.e., one can integrate over a range of ω to localize the wave packet, and the motion of the wave packet is characterized by its group velocity) of the field operator ϕω = cωe−iωt+iωx which is located at x →−∞. Find the solution of ϕω in the limit t →+∞. 4. At x →±∞, we expect that the quantization of our model should be the same as that of free fields: ϕ(t, x, y, z) =      R d3k (2π)3 1 √ 2|k| \u0010 ake−i|k|t+ik·x + b† kei|k|t−ik·x\u0011 (x →−∞) e−iµt R d3k (2π)3 1 √ 2|k| \u0010 ˜ake−i|k|t+ik·x + ˜b† kei|k|t−ik·x\u0011 (x →+∞) (0.6) where ak and bk are the annihilation operators for particle and anti-particle at x →−∞, respectively. ˜ak and ˜bk are the corresponding quantities at x →+∞. Compare our ϕω and ϕ(t, x, y, z), we get, up to a normalization factor, at t →−∞, x →−∞: ϕω ∝a(ω,0,0)e−iωt+iωx , (0.7) where (ω, 0, 0) is a momentum vector along the x direction. In other words, ϕω plays the role of the annihilation operator at the initial time. At t →+∞, compared with the quantization of a free field at x →±∞, write down ϕω in terms of the creation and annihilation operators (up to the same normalization factor as in (0.7)), and describe the physical meaning of ϕω at t →+∞. 5. If we set up our initial state to be the vacuum state where ⟨ϕ† ωϕω⟩in = 0, then qualitatively describe what happens afterwards."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2024 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2024",
+   "label": "L:Problem3",
+   "chars": 853,
+   "subparts": 3,
+   "syms": 20,
+   "tags": [
+    "电动力学/电磁学",
+    "量子场论/QFT",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 3 General Relativity 1. Conservation laws: Let (M, gab) be a 4-dimensional vacuum spacetime. Recall that a Killing-Yano 2-tensor is a 2-form Yab = Y[ab]",
+   "full": "Problem 3 General Relativity 1. Conservation laws: Let (M, gab) be a 4-dimensional vacuum spacetime. Recall that a Killing-Yano 2-tensor is a 2-form Yab = Y[ab], satisfying ∇(aYb)c = 0. (a) Show that ∇aYbc = ∇[aYbc] (b) Use the result from (a) to show that for S1, S2 closed surfaces in M bounding a 3-volume Σ, it holds that Z S1 RabcdYcddSab = Z S2 RabcdYcddSab 2 2. Stress-energy tensor: Show that the Maxwell action S = 1 16π Z FabF abp | det g|d4x is conformally invariant and use this to show the Maxwell stress-energy tensor is traceless. 3. Particle horizon: Let M = (0, ∞)×Σ where Σ is hyperbolic 3-space. Assume that M has line element ds2 = −dt2 + t2γ for t > 0. Let P, Q be two events at time t0 > 0. Show that there is an event to the past of P, Q that can send signals to both P, Q. Is the same true for the line element −dt2 + t3/2γ?. 3"
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2025 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "label": "L:Problem1",
+   "chars": 1375,
+   "subparts": 0,
+   "syms": 9,
+   "tags": [
+    "经典力学/哈密顿-拉格朗日",
+    "量子场论/QFT"
+   ],
+   "head": "Problem 1 Consider a scalar field theory in D spacetime dimensions with global O(N) symmetry and a quartic interaction potential. Let the scalar field transform",
+   "full": "Problem 1 Consider a scalar field theory in D spacetime dimensions with global O(N) symmetry and a quartic interaction potential. Let the scalar field transform either in the fundamental or adjoint representation of O(N). The classical action is of the form: S[ϕ] = Z dDx \u00141 2∂µϕa∂µϕa −λ 4 \u0000ϕaϕa −v2\u00012 \u0015 , a = 1, . . . , N. 1. Explain how the global O(N) symmetry can be spontaneously broken when the scalar field transforms in the fundamental representation of O(N). Determine the vacuum manifold and describe the pattern of symmetry breaking from G = O(N) to a subgroup H. 2. Repeat the analysis assuming that the scalar field transforms in the adjoint representation of O(N), by giving an example. Briefly discuss the non-uniqueness of the symmetry breaking pattern. 3. Explain the concept of non-linear realization of a spontaneously broken symmetry. Show how the scalar field ϕa in the fundamental representation can be expressed as exponential in the Goldstone fields πm, such that the constraint ϕaϕa = v2 is satisfied. Discuss how elements of the unbroken subgroup H act linearly on πm, while elements of G/H act non-linearly through the exponential map. 4. Write down the generic form of the effective action for the Goldstone modes at low energies. Explain the geometric meaning of the action and how the unbroken (H) and broken (G/H) symmetries leave it invariant."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2025 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "label": "L:Problem2",
+   "chars": 411,
+   "subparts": 0,
+   "syms": 3,
+   "tags": [
+    "概率/随机过程/统计物理",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 2 Black Hole Thermodynamics from Microcanonical Ensemble Treat a Schwarzschild black hole as a statistical mechanical system with energy E = Mc2 and ent",
+   "full": "Problem 2 Black Hole Thermodynamics from Microcanonical Ensemble Treat a Schwarzschild black hole as a statistical mechanical system with energy E = Mc2 and entropy S = kBA 4ℓ2p . 1. Compute the density of states Ω(E) and show it grows exponentially. 2. Derive the negative heat capacity C = −kB E2 E2p , where Ep is the Planck energy. 3. Discuss the implications for black hole evaporation (Hawking radiation)."
+  },
+  {
+   "paper": "2022-2025Mathematical_Physics\\Team\\2025 Math-Phys (Team).pdf",
+   "kind": "Team",
+   "year": "2025",
+   "label": "L:Problem3",
+   "chars": 384,
+   "subparts": 0,
+   "syms": 8,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "量子力学",
+    "广义相对论/引力"
+   ],
+   "head": "Problem 3 A non-relativistic spinless quantum particle of mass m is constrained to move in a spherical triangle T ⊂S2 where S2 is a sphere of radius R with the ",
+   "full": "Problem 3 A non-relativistic spinless quantum particle of mass m is constrained to move in a spherical triangle T ⊂S2 where S2 is a sphere of radius R with the usual SO(3)-invariant metric. The internal angles of the spherical triangle T are {π/2, π/2, π/3} There is no magnetic potential, ⃗A = 0, and the potential vanishes V ≡0. Find the energy eigenvalues and their degeneracies. 1"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set1（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:QuestionI",
+   "chars": 801,
+   "subparts": 0,
+   "syms": 17,
+   "tags": [
+    "数值线性代数/矩阵分解",
+    "插值/逼近与求积"
+   ],
+   "head": "Question I Let A be an m × n matrix and its singular value decomposition (SVD) be V T A U = F =   µ1 0 · · · 0 · · · 0 0 µ2 · · · 0 · · · 0 ... ... .",
+   "full": "Question I Let A be an m × n matrix and its singular value decomposition (SVD) be V T A U = F =   µ1 0 · · · 0 · · · 0 0 µ2 · · · 0 · · · 0 ... ... ... ... ... ... 0 0 · · · µr · · · 0 0 0 · · · 0 · · · 0 ... ... ... ... ... ... 0 0 · · · 0 · · · 0   , where the matrices U and V are orthogonal, and the singular values µi satisfy µ1 ≥µ2 ≥· · · ≥µr > 0. Deﬁne the n × m matrix F + =   µ−1 1 0 · · · 0 · · · 0 0 µ−1 2 · · · 0 · · · 0 ... ... ... ... ... ... 0 0 · · · µ−1 r · · · 0 0 0 · · · 0 · · · 0 ... ... ... ... ... ... 0 0 · · · 0 · · · 0   and A+ = U F + V T. The matrix A+ is called as the generalized inverse of A. 1. Show that x∗= A+b is the least square solution of the linear system Ax = b. 2. Show that lim α→0+(αI + ATA)−1AT = A+, where α > 0."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set1（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:QuestionII",
+   "chars": 616,
+   "subparts": 0,
+   "syms": 16,
+   "tags": [
+    "PDE 有限差分/CFL/von Neumann"
+   ],
+   "head": "Question II Consider the following ﬁnite diﬀerence scheme vn+1 m −vn−1 m 2τ + a \u0010 1 + h2 6 δ2\u0011−1 δ0vn m = f n m for the transport equation ut + aux = f, where a",
+   "full": "Question II Consider the following ﬁnite diﬀerence scheme vn+1 m −vn−1 m 2τ + a \u0010 1 + h2 6 δ2\u0011−1 δ0vn m = f n m for the transport equation ut + aux = f, where a is a constant, τ > 0 is the time step, δ0 denotes the standard second order central diﬀerence operator for ux, and δ2 1 === page 2 === denotes the standard second order central diﬀerence operator for uxx. Assume that λ = τ/h is a constant with h being the spatial mesh size. Show that the scheme is stable if and only if |aλ| < 1 √ 3. How do you modify the scheme when a is not a constant without aﬀecting the accuracy of the scheme? Justify your answer."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set1（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:QuestionIII",
+   "chars": 182,
+   "subparts": 0,
+   "syms": 6,
+   "tags": [],
+   "head": "Question III Show that the following system of ordinary diﬀerential equations dx dt = 0.5x + 2.5y −x(x2 + y2), dy dt = −0.5x + 1.5y −y(x2 + y2). has at least on",
+   "full": "Question III Show that the following system of ordinary diﬀerential equations dx dt = 0.5x + 2.5y −x(x2 + y2), dy dt = −0.5x + 1.5y −y(x2 + y2). has at least one periodic solution. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set2（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:QuestionI",
+   "chars": 129,
+   "subparts": 0,
+   "syms": 3,
+   "tags": [],
+   "head": "Question I Let A ∈Rn×n be a symmetric matrix and let q1 ∈Rn satisfy ∥q1∥2 = 1. Consider the following iteration: r0 = q1, β0 = 1,",
+   "full": "Question I Let A ∈Rn×n be a symmetric matrix and let q1 ∈Rn satisfy ∥q1∥2 = 1. Consider the following iteration: r0 = q1, β0 = 1,"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set2（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:q0",
+   "chars": 421,
+   "subparts": 0,
+   "syms": 18,
+   "tags": [],
+   "head": "q0 = 0, k := 0 while βk ̸= 0 qk+1 := rk/βk k := k + 1 αk := qT k Aqk rk := (A −αkI)qk −βk−1qk−1 βk := ∥rk∥2 end Let Kk = span{q1, Aq1, · · · , Ak−1q1} and Qk = ",
+   "full": "q0 = 0, k := 0 while βk ̸= 0 qk+1 := rk/βk k := k + 1 αk := qT k Aqk rk := (A −αkI)qk −βk−1qk−1 βk := ∥rk∥2 end Let Kk = span{q1, Aq1, · · · , Ak−1q1} and Qk = [q1 · · · qk] be a matrix whose columns are {qi}k i=1 obtained from the above iteration. 1. Assume that the iteration does not terminate. Show that Qk has orthonormal columns, and that they span Kk. 2. What is the purpose of this algorithm? Justify your answer."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set2（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:QuestionII",
+   "chars": 895,
+   "subparts": 0,
+   "syms": 28,
+   "tags": [],
+   "head": "Question II Consider the oscillatory second order ordinary diﬀerential equation (ODE) y′′(t) + λ2 y(t) + g(y(t)) = 0, 0 < t ≤T, with the initial data y(0) = α, ",
+   "full": "Question II Consider the oscillatory second order ordinary diﬀerential equation (ODE) y′′(t) + λ2 y(t) + g(y(t)) = 0, 0 < t ≤T, with the initial data y(0) = α, y′(0) = β, where λ >> 1, α and β are given constants, and g(y) is a given Lipschitz continuous function. Choose a time step τ > 0 and denote tn = nτ for n ≥0. Let yn be the numerical approximation of y(tn) for n ≥0. 1. Re-write the above ODE into its equivalent integral formulation near t = tn with t = tn + s for s ∈R via the variation-of-constant formula. 2. Based on the integral formulation, design the following time integrator via proper numerical quadratures yn+1 = 2 cos(λτ)yn −yn−1 −sin(λτ) λ g(yn), n ≥1, with y0 = α, y1 = α cos(λτ) + β λ sin(λτ) −sin(λτ) 2λ g(α). 1 === page 2 === Under proper stability assumption, prove the following error bound |y(tn) −yn| ≤Cτ 2, 0 ≤n ≤T τ , where C > 0 is a constant independent of τ."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Individual\\2020_Applmath_(Individual)-_set2（密码Yau-ACM20).txt",
+   "kind": "Individual",
+   "year": "2020",
+   "label": "L:QuestionIII",
+   "chars": 413,
+   "subparts": 0,
+   "syms": 6,
+   "tags": [
+    "能量稳定/能量守恒格式",
+    "变分法/Euler-Lagrange/最优化"
+   ],
+   "head": "Question III Consider an energy functional for ρ ∈P(R) (probability distribution on the real line), given by F[ρ] = Z R×R ρ(x)K(x −y)ρ(y) dx dy + Z R ρ(x)(1 −ρ(",
+   "full": "Question III Consider an energy functional for ρ ∈P(R) (probability distribution on the real line), given by F[ρ] = Z R×R ρ(x)K(x −y)ρ(y) dx dy + Z R ρ(x)(1 −ρ(x)) dx + Z R ρ(x) ln ρ(x) dx, where K : R →R+ is a given kernel. 1. Write down explicitly the Euler-Lagrange equation corresponding to F. 2. Consider the dynamics d dtρ(x, t) = ∇· \u0010 ρ(x, t)∇δF δρ \u0002 ρ(x, t) \u0003\u0011 . Show that F[ρ(x, t)] is decreasing in t. 2"
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2020_Applmath_(Overall)（密码Yau-ACM20).txt",
+   "kind": "Overall",
+   "year": "2020",
+   "label": "L:QuestionI",
+   "chars": 1176,
+   "subparts": 3,
+   "syms": 36,
+   "tags": [],
+   "head": "Question I Consider the following gradient ﬂow with discrete normalization (GFDN) ∂tu(x, t) = \u0002 ∂xx −V (x) −β|u|2\u0003 u, 0 < x < 1, tn ≤t < tn+1, n ≥0, u(x, tn+1) ",
+   "full": "Question I Consider the following gradient ﬂow with discrete normalization (GFDN) ∂tu(x, t) = \u0002 ∂xx −V (x) −β|u|2\u0003 u, 0 < x < 1, tn ≤t < tn+1, n ≥0, u(x, tn+1) = u(x, t+ n+1) := u(x, t− n+1) ∥u(·, t− n+1)∥L2 , 0 ≤x ≤1, n ≥0, u(x, 0) = g0(x), 0 ≤x ≤1, u(0, t) = u(1, t) = 0, t ≥0, where u = u(x, t) is a real-valued function, V (x) ≥0 for 0 ≤x ≤1 is a given function, β ≥0 is a given constant, tn = nτ for n = 0, 1, 2, . . . with τ > 0 being the time step, u(x, t± n ) := limt→t± n u(x, t), ∥u∥2 L2 = R 1 0 |u(x)|2 dx and g0(x) is a given function satisfying ∥g0∥L2 = 1. Deﬁne the mass and energy as M(t) := M(u(·, t)) = Z 1 0 |u(x, t)|2 dx, t ≥0, E(t) := E(u(·, t)) = Z 1 0 \u0014 |∂xu(x, t)|2 + V (x)|u(x, t)|2 + β 2 |u(x, t)|4 \u0015 dx. 1. Show that the mass and energy are diminishing in each time interval [tn, tn+1), i.e. M(t2) ≤M(t1), E(t2) ≤E(t1), tn ≤t1 ≤t2 < tn+1, n ≥0. 2. When β = 0, show that E(g0) = E(u(x, t0)) ≥E(u(x, t1)) ≥· · · ≥E(u(x, tn)) ≥· · · , n ≥0, for any given time step τ > 0 and initial data g0(x). 3. Let τ →0+ in the problem GFDN, what partial diﬀerential equations can you get? Show that the limiting equation is mass conservative and energy diminishing."
+  },
+  {
+   "paper": "2012-2025Applied Math and Computational Math\\Overall\\2020_Applmath_(Overall)（密码Yau-ACM20).txt",
+   "kind": "Overall",
+   "year": "2020",
+   "label": "L:QuestionII",
+   "chars": 698,
+   "subparts": 5,
+   "syms": 20,
+   "tags": [
+    "数值线性代数/矩阵分解"
+   ],
+   "head": "Question II Deﬁne a dynamical system dyt dt = −AT (Axt −b), (1a) yt ∈∂ψ(xt), (1b) where A ∈Rn×k satisﬁes that ATA has smallest eigenvalue γ > 0, b = Ax∗, and ψ(",
+   "full": "Question II Deﬁne a dynamical system dyt dt = −AT (Axt −b), (1a) yt ∈∂ψ(xt), (1b) where A ∈Rn×k satisﬁes that ATA has smallest eigenvalue γ > 0, b = Ax∗, and ψ(x) = ∥x∥1 + ∥x∥2 2 2α has its subgradient set ∂ψ(x) at x ∈Rk, where α > 0 is a given constant. For a convex function ψ : Rk →R, deﬁne the Bregman divergence function associated with ψ, Dψ : Rk × Rk →R, by Dψ(x′, x) := ψ(x′) −ψ(x) −⟨∂ψ(x), x′ −x⟩. (2) 1 === page 2 === 1. Show that (1) leads to the following ODE dDψ(x∗, xt) dt = −∥A(xt −x∗)∥2 2. (3) 2. For xt in (1), deﬁne τ := inf{t > 0 : sign(xt) = sign(x∗)}. (4) Denote by x∗the smallest nonzero magnitude of |xi| (i = 1, . . . , k). Find an upper bound of τ, as tight as possible. 2"
+  }
+ ],
+ "agg": {
+  "by_year": {
+   "2012": {
+    "n": 5,
+    "chars": 2805,
+    "mean": 561
+   },
+   "2013": {
+    "n": 5,
+    "chars": 2198,
+    "mean": 439.6
+   },
+   "2014": {
+    "n": 3,
+    "chars": 5530,
+    "mean": 1843.3
+   },
+   "2015": {
+    "n": 7,
+    "chars": 2444,
+    "mean": 349.1
+   },
+   "2016": {
+    "n": 3,
+    "chars": 2876,
+    "mean": 958.7
+   },
+   "2017": {
+    "n": 9,
+    "chars": 5698,
+    "mean": 633.1
+   },
+   "2018": {
+    "n": 6,
+    "chars": 1375,
+    "mean": 229.2
+   },
+   "2019": {
+    "n": 11,
+    "chars": 5489,
+    "mean": 499
+   },
+   "2020": {
+    "n": 9,
+    "chars": 5331,
+    "mean": 592.3
+   },
+   "2021": {
+    "n": 5,
+    "chars": 3742,
+    "mean": 748.4
+   },
+   "2022": {
+    "n": 11,
+    "chars": 5777,
+    "mean": 525.2
+   },
+   "2023": {
+    "n": 19,
+    "chars": 14835,
+    "mean": 780.8
+   },
+   "2024": {
+    "n": 17,
+    "chars": 18222,
+    "mean": 1071.9
+   },
+   "2025": {
+    "n": 18,
+    "chars": 11032,
+    "mean": 612.9
+   }
+  },
+  "by_kind": {
+   "Individual": {
+    "n": 59,
+    "chars": 39529,
+    "mean": 670.0,
+    "subparts": 1.69
+   },
+   "Overall": {
+    "n": 33,
+    "chars": 19095,
+    "mean": 578.6,
+    "subparts": 1.48
+   },
+   "Team": {
+    "n": 36,
+    "chars": 28730,
+    "mean": 798.1,
+    "subparts": 2.64
+   }
+  },
+  "by_subj_kind": {
+   "2025Applied Math and Computational Math | Individual": {
+    "n": 44,
+    "mean": 645.1,
+    "subparts": 1.7
+   },
+   "2025Applied Math and Computational Math | Overall": {
+    "n": 24,
+    "mean": 515.7,
+    "subparts": 1.21
+   },
+   "2025Applied Math and Computational Math | Team": {
+    "n": 27,
+    "mean": 727.9,
+    "subparts": 2.81
+   },
+   "2025Mathematical_Physics | Individual": {
+    "n": 15,
+    "mean": 743,
+    "subparts": 1.67
+   },
+   "2025Mathematical_Physics | Overall": {
+    "n": 9,
+    "mean": 746.6,
+    "subparts": 2.22
+   },
+   "2025Mathematical_Physics | Team": {
+    "n": 9,
+    "mean": 1008.6,
+    "subparts": 2.11
+   }
+  },
+  "topic_by_year": {
+   "数值线性代数/矩阵分解": {
+    "2015": 1,
+    "2016": 1,
+    "2017": 1,
+    "2019": 1,
+    "2020": 2,
+    "2021": 4,
+    "2022": 2,
+    "2023": 4,
+    "2025": 3
+   },
+   "变分法/Euler-Lagrange/最优化": {
+    "2014": 1,
+    "2015": 1,
+    "2016": 1,
+    "2017": 2,
+    "2018": 2,
+    "2019": 1,
+    "2020": 1,
+    "2023": 1,
+    "2024": 2,
+    "2025": 4
+   },
+   "量子力学": {
+    "2019": 1,
+    "2022": 1,
+    "2023": 7,
+    "2024": 5,
+    "2025": 2
+   },
+   "广义相对论/引力": {
+    "2013": 1,
+    "2014": 1,
+    "2015": 1,
+    "2017": 1,
+    "2022": 4,
+    "2023": 1,
+    "2024": 4,
+    "2025": 2
+   },
+   "经典力学/哈密顿-拉格朗日": {
+    "2017": 1,
+    "2022": 2,
+    "2023": 6,
+    "2024": 3,
+    "2025": 3
+   },
+   "PDE 有限差分/CFL/von Neumann": {
+    "2012": 1,
+    "2014": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2022": 1,
+    "2023": 3,
+    "2024": 2,
+    "2025": 1
+   },
+   "量子场论/QFT": {
+    "2014": 1,
+    "2022": 2,
+    "2023": 6,
+    "2024": 3,
+    "2025": 1
+   },
+   "概率/随机过程/统计物理": {
+    "2019": 1,
+    "2023": 2,
+    "2024": 3,
+    "2025": 3
+   },
+   "电动力学/电磁学": {
+    "2023": 1,
+    "2024": 5,
+    "2025": 3
+   },
+   "插值/逼近与求积": {
+    "2014": 2,
+    "2015": 1,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2021": 1,
+    "2024": 1
+   },
+   "有限元/弱解/Sobolev": {
+    "2017": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 2,
+    "2025": 2
+   },
+   "迭代法收敛性(Jacobi/GS/不动点)": {
+    "2019": 2,
+    "2022": 2,
+    "2023": 2,
+    "2024": 1
+   },
+   "离散微分几何/网格/共形": {
+    "2013": 1,
+    "2014": 2,
+    "2017": 2,
+    "2024": 1
+   },
+   "渐近分析/奇异摄动/边界层": {
+    "2015": 1,
+    "2016": 1,
+    "2024": 2,
+    "2025": 1
+   },
+   "离散数学/组合算法": {
+    "2012": 2,
+    "2014": 1,
+    "2018": 1,
+    "2019": 1
+   },
+   "能量稳定/能量守恒格式": {
+    "2018": 1,
+    "2020": 1,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1
+   },
+   "常微分方程数值解": {
+    "2017": 1,
+    "2019": 1,
+    "2023": 1,
+    "2024": 1
+   },
+   "流体力学/连续介质": {
+    "2015": 2,
+    "2017": 1,
+    "2018": 1
+   },
+   "反问题/正则化/稀疏": {
+    "2017": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "凸分析/机器学习(softmax)": {
+    "2025": 2
+   },
+   "谱方法/FFT/Fourier": {
+    "2018": 1,
+    "2023": 1
+   },
+   "非线性方程/牛顿法": {
+    "2015": 1,
+    "2025": 1
+   }
+  },
+  "topic_totals": {
+   "数值线性代数/矩阵分解": 19,
+   "变分法/Euler-Lagrange/最优化": 16,
+   "量子力学": 16,
+   "广义相对论/引力": 15,
+   "经典力学/哈密顿-拉格朗日": 15,
+   "PDE 有限差分/CFL/von Neumann": 14,
+   "量子场论/QFT": 13,
+   "概率/随机过程/统计物理": 9,
+   "电动力学/电磁学": 9,
+   "插值/逼近与求积": 8,
+   "有限元/弱解/Sobolev": 7,
+   "迭代法收敛性(Jacobi/GS/不动点)": 7,
+   "离散微分几何/网格/共形": 6,
+   "渐近分析/奇异摄动/边界层": 5,
+   "离散数学/组合算法": 5,
+   "能量稳定/能量守恒格式": 5,
+   "常微分方程数值解": 4,
+   "流体力学/连续介质": 4,
+   "反问题/正则化/稀疏": 3,
+   "凸分析/机器学习(softmax)": 2,
+   "谱方法/FFT/Fourier": 2,
+   "非线性方程/牛顿法": 2
+  },
+  "verbs": {
+   "show": 59,
+   "prove": 35,
+   "find": 26,
+   "derive": 18,
+   "write": 12,
+   "compute": 9,
+   "determine": 9,
+   "solve": 9,
+   "explain": 9,
+   "construct": 7,
+   "describe": 5,
+   "give": 5,
+   "state": 5,
+   "estimate": 4,
+   "compare": 4,
+   "define": 4,
+   "discuss": 4,
+   "verify": 3,
+   "sketch": 2,
+   "calculate": 2,
+   "analyze": 1,
+   "identify": 1,
+   "analyse": 1,
+   "count": 1,
+   "recast": 1
+  },
+  "totals": {
+   "files": 55,
+   "in_scope_papers": 53,
+   "no_text_layer": 3,
+   "sparse": 8,
+   "problems": 128,
+   "total_chars": 87354
+  }
+ }
+}

@@ -1,0 +1,33 @@
+
+=== page 1 ===
+Yau College Math Competition 2023
+Final Probability and Statistics
+Individual Exam Problems (June 10-11, 2023)
+Choose 3 of the following 4 problems.
+Problem 1.
+Suppose that Yn ∼Poisson(n) is a Poisson random variable with
+parameter n ∈N∗= {1, 2, · · · }.
+(1) Calculate E(Yn −n)+, where x+ = max{x, 0}.
+(2) Prove that E(Yn−n)+
+√n
+converges to EN+ as n →∞, where N ∼N(0, 1)
+(standard normal).
+(3) Use the above results to derive Stirling’s formula for the factorial n!.
+Problem 2. For any random variables ξ and η on the same probability space taking
+values in N∗= {1, 2, · · · }, assume that P(ξ is divisible by r) = P(η is divisible by r),
+∀r ∈N∗. Prove or disprove that ξ
+d= η (i.e., ξ and η have the same distribution).
+Problem 3. Fix some integer k ≥2. For any n ≥1, let {Xn,i : i = 1, 2, · · · , k} be
+i.i.d. uniform random variables taking values in {1, 2, · · · , n}. Let Zn = gcd{Xn,i :
+i = 1, 2, · · · , k} be the greatest common divisor of {Xn,i : i = 1, 2, · · · , k}.
+(1) Prove that Zn converges in law to some limit Z with P(Z = r) ∝r−k, ∀r ∈
+N∗.
+(2) Choose k numbers independently and uniformly from {1, 2, · · · , n}. Let Pn(k)
+be the probability that these numbers are relatively prime. Find limn→∞Pn(k).
+Problem 4.
+Let X1, . . . , Xn be independent observations.
+Assume that Xi ∼
+Poisson(iλ), where λ is an unkonwn parameter.
+(1) Find an unbiased estimator of the parameter λ. Is your estimator the best
+unbiased estimator in terms of minimizing the mean squared error?
+(2) Is your estimator asymptotically normal?

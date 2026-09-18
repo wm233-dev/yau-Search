@@ -1,0 +1,73 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest
+Applied Mathematics, Team, 2014
+For the interval [0, π], we divide it into N + 1 equally spaced subintervals by
+using the nodal points:
+0 = x0 < x1 < · · · < xN+1 = π,
+with
+xi = i h,
+h = π/(N + 1).
+For any continuous function w on [0, π], we deﬁne Πhw to be the piecewise lin-
+ear interpolation of w, namely Πhw is linear on each subinterval (xi, xi+1) for
+i = 0, 1, · · · , N, and it takes the same values as w at all nodal points xi, i =
+0, 1, · · · , N + 1. For any function w, we deﬁne
+∥w∥=
+ Z π
+0
+w2(x)dx
+1/2
+.
+Prove the following estimates for any function u ∈C2[0, π]:
+∥u −Πhu∥≤1
+π2h2 ∥u′′∥,
+∥u′ −(Πhu)′∥≤1
+πh ∥u′′∥.
+
+=== page 2 ===
+claw-free graphs
+A graph G(V, E) is claw-free if it has no induced subgraph isomophic to the bipartite
+complete graph K1,3,(i.e, V = {w, u1, u2, u3}, E = {wu1, wu2, wu3}).
+Let G be a claw-free graph of order n. Let δ be the minimum degree of G and α the
+size of a maximum independent set. Prove that
+α ≤
+2n
+δ + 2.
+1
+
+=== page 3 ===
+Over Ω= (0, 1), consider the heat equation with a homogeneous Dirichelt boundary condition
+∂tu = uxx + f,
+in Ω,
+(1)
+u(0, t) = u(1, t) = 0,
+(2)
+in which f(x, t) is a given force term, with ∥f(·, t)∥L2 ≤M, for any t ≥0. The following semi-
+discrete implicit scheme is given
+un+1 −un
+∆t
+= un+1
+xx
++ fn+1,
+in Ω,
+(3)
+un+1(0) = un+1(1) = 0,
+(4)
+in which uk denotes the numerical solution at tk, with tk = k∆t, ∆t being the time step size.
+The ﬁnal time is set as T > 0 and the initial data is given by u0(x). Prove the following uniform
+in time L2 bound for the numerical scheme (3)-(4):
+uk
+2
+L2 ≤˜C :=
+u02
+L2 + C4
+2M2,
+for any k ≥0,
+(5)
+in which ˜C is independent on the time step tk, and C2 is given by the following Pincar´e inequality
+∥v∥L2 ≤C2 ∥vx∥L2 ,
+if v(0) = v(1) = 0.
+(6)
+Hint. Take an L2 inner product with 2un+1, use Poincar´e inequality, and apply an induction
+in time to derive a uniform in time L2 bound.
+1

@@ -1,0 +1,60 @@
+
+=== page 1 ===
+Syllabus on Geometry and Topology 
+ 
+Differential Geometry:  
+ Basics of smooth manifolds: Inverse function theorem, implicit 
+function theorem, submanifolds, Sard’s Theorem, embedding 
+theorem, transversality, degree theory, integration on manifolds. 
+ Basics of matrix Lie groups over R and C: The definitions of Gl(n), 
+SU(n), SO(n), U(n), their manifold structures, Lie algebras, right 
+and left invariant vector fields and differential forms, the 
+exponential map. 
+ Definition of real and complex vector bundles, tangent and 
+cotangent bundles, basic operations on bundles such as dual bundle, 
+tensor products, exterior products, direct sums, pull-back bundles. 
+ Definition of differential forms, exterior product, exterior 
+derivative, de Rham cohomology, behavior under pull-back. 
+ Metrics on vector bundles. 
+ Riemannian metrics, definition of a geodesic, existence and 
+uniqueness of geodesics. 
+ Definition of a principal Lie group bundle for matrix groups. 
+ Associated vector bundles: Relation between principal bundles and 
+vector bundles 
+
+=== page 2 ===
+ Definition of covariant derivative for a vector bundle and 
+connection on a principal bundle. Relations between the two. 
+ Definition of curvature, flat connections, parallel transport. 
+ Definition of Levi-Civita connection and properties of the Riemann 
+curvature tensor, manifolds of constant curvature. 
+ Jacobi fields, second variation of geodesics 
+ Manifolds of nonpositive curvature, manifolds of positive 
+curvature 
+References: V. Guillemin, A. Pollack, Differential topology; J. Milnor, 
+Topology from the differentiable viewpoint; Cliff Taubes: Differential 
+geometry: Bundles, Connections, Metrics and Curvature; John Lee: 
+Introduction to Riemannian manifolds, second edition; S. Kobayashi and 
+K. Nomizu: Foundations of Differential Geometry.  
+ 
+Algebraic Topology:  
+ Fundamental groups 
+ Covering spaces 
+ Higher homotopy groups 
+ Fibrations and the long exact sequence of a fibration 
+ Singular homology and cohomology 
+ Relative homology 
+
+=== page 3 ===
+ CW complexes and the homology of CW complexes 
+ Mayer-Vietoris sequence 
+ Universal coefficient theorem 
+ Kunneth formula 
+ Poincare duality 
+ Lefschetz fixed point formula 
+ Hopf index theorem 
+ Cech cohomology and de Rham cohomology.  
+ Equivalence between singular, Cech and de Rham cohomology 
+References: Alan Hatcher: Algebraic Topology; William Fulton: 
+Algebraic Topology; Edwin Spanier: Algebraic Topology; M. Greenberg 
+and J. Harper: Algebraic Topology: A First Course.  

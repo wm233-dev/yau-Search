@@ -1,0 +1,65 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+Solve every problem.
+1. Let (Mn, ∥· ∥) be the Banach space formed by n × n real matrices, equipped with
+Hilbert-Schmidt norm. Prove:
+(1). If γ : R →Mn is a C1-function with γ(0) = I (the identity matrix) and ˙γ(0) =
+A ∈Mn, then for ∀t ∈R, the sequence {γn(t/n)}∞
+n=1 converges to exp(tA); In
+particular, for ∀A, B ∈Mn, et(A+B) = limn→∞(e
+t
+nAe
+t
+nB)n;
+(2). For ∀A, B ∈Mn, if et(A+B) = etAetB, ∀t ∈R, then [A, B] := AB −BA = 0.
+2. Let f(t, x, y) be a C1 function on [0, 1] × R2. Let ϕ be a solution of the second-order
+ordinary diﬀerential equation (∗)d2x
+dt2 = f(t, x, d
+dtx), t ∈[0, 1] such that ϕ(0) = a, ϕ(1) =
+b where a, b are given real numbers. Suppose ∂f
+∂x(t, x, y) > 0 for all (t, x, y) ∈[0, 1]×R2.
+Prove: if |β −b|, β ∈R, is suﬃciently small, then there exists a solution ψ of (∗) such
+that ψ(0) = a, ψ(1) = β.
+3. A function ϕ : Rn →C is called positive deﬁnite if for all k ∈N, yj ∈Rn, cj ∈C,
+j = 1, . . . , k, one have Pk
+i,j=1 ci¯cjϕ(yi −yj) ⩾0. If ϕ is a measurable positive deﬁnite
+function on Rn. Prove:
+(1) ϕ(−y) = ϕ(y) and |ϕ(y)| ⩽ϕ(0).
+(2) For every Lebesgue integrable nonnegative function f on Rn, one have
+Z
+Rn ϕ(x −y)f(x)f(y)dxdy ⩾0.
+(3) If the function f is also even, then
+Z
+Rn ϕ(x)f ∗f(x)dx ⩾0,
+where ∗stands for convolution.
+(4) For all α > 0, we have
+Z
+Rn ϕ(x) exp(−α|x|2)dx ⩾0.
+1
+
+=== page 2 ===
+4. For a 2π-periodic function x ∈L2([0, 2π]), let xn(t) = x(nt), n = 1, 2, . . . .
+Prove that {xn} converges weakly in L2([0, 2π]) and ﬁnd the limit.
+5. Let f be an entire function on C and there exists a constant C > 0 such that f(z)| ⩽
+C
+p
+|z|| cos(z)| for all z ∈C. Prove that f is identically zero.
+6. Let u(t, x) satisfy the following equation,
+ut +
+n
+X
+i=1
+ψi(t, x, u)uxi = µ∆u; u(0, x) = u0,
+where u0 ∈C2(Rn), ψi, i = 1, . . . , n are of bounded C2-norm, ∆= Pn
+i=1 ∂2
+xi is the
+Laplacian in Rn and µ > 0. Assume |u0| ⩽eΦ/µ where Φ is bounded above and has
+Lipschitz constant 1. Assume that (Pn
+i=1 |Ψi(t, x, u)|2)1/2 ⩽A, where A is a postive
+constant.
+Prove that there exists a constant C depending only on n that
+|u(t, x)| ⩽eCte((A+1)t+Φ(x)+2)/µ,
+∀t ⩾0.
+2

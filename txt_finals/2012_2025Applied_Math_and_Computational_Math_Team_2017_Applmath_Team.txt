@@ -1,0 +1,17 @@
+
+=== page 1 ===
+(Applied Math. of TEAM)
+Given a region Ω⊂R3, please deduce the partial diﬀerential equations of the ﬂuid
+movement according to the conservation law of the mass and momentum.
+Assume ρ = ρ(t, x) is the density, u = (u1, u2, u3)(ui = ui(t, x)) is the velocity(speed)
+of the ﬂuid, and p = p(t, x) is the pressure, where x = (x1, x2, x3) is the space variables.
+Question 1: Given two diﬀerent expression of the change of the mass in Ωof the ﬂuid
+with the density ρ(t, x) within the time interval [t1, t2].
+Question 2: Please deduce the partial diﬀerential equations of ρ, u according to the
+conservation of the mass in Ω.
+Question 3: Assume there is no outside force acting on the ﬂuid in Ω, please give two
+diﬀerent expression of the change of the momentum of the ﬂuid with the density ρ(t, x)
+and the velocity u(t, x) in Ωwithin the time interval [t1, t2].
+Question 4: According to the conservation of the momentum of the ﬂuid in Ω, deduce
+the partial diﬀerential equation of ρ, u, p.
+1

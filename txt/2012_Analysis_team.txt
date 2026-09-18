@@ -1,0 +1,54 @@
+
+=== page 1 ===
+GROUP TEST
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Analysis and Diﬀerential Equations
+Please solve 5 out of the following 6 problems.
+1. Let A = [aij] be a real symmetric n × n matrix. Deﬁne f : Rn →R
+by f(x1, · · · , xn) = exp(−1
+2
+Pn
+i,j=1 aijxixj). Prove that f is in L1(Rn)
+if and only if the matrix A is positive deﬁnite.
+Compute
+R
+Rn exp(−1
+2
+Pn
+i,j=1 aijxixj +Σn
+i=1bixi)dx when A is positive
+deﬁnite.
+2. Let V be a simply connected region in the complex plane and V ̸= C.
+Let a, b be two distinct points in V .
+Let φ1, φ2 be two one-to-one
+holomorphic maps of V onto itself. If φ1(a) = φ2(a) and φ1(b) = φ2(b),
+show that φ1(z) = φ2(z) for all z ∈V .
+3. In the unit interval [0, 1] consider a subset
+E = {x| in the decimal expansion of x there is no 4},
+show that E is measurable and calculate its measure.
+4. Let 1 < p < ∞, Lp([0, 1], dm) be the completion of C[0, 1] with the
+norm: ||f||p = (
+R 1
+0 |f(x)|pdm)
+1
+p, where dm is the Lebesgue measure.
+Show that limλ→∞λpm(x||f(x)| > λ) = 0.
+5. Let F = {eν}, ν = 1, 2, ..., n or ν = 1, 2, ... is an orthonormal basis in
+an inner product space H. Let E be the closed linear subspace spanned
+by F. For any x ∈H show that the following are equivalent: 1) x ∈E;
+2) ||x||2 = Σν|(x, eν)|2; 3) x = Σν(x, eν)eν.
+Let H = L2[0, 2π] with the inner product < f, g >= 1
+π
+R 2π
+0
+f(x)g(x)dx,
+F = { 1
+√
+2, cos x, sin x, ..., cos nx, sin nx, ...}
+be an orthonormal basis. Show that the closed linear sub-space E
+spanned by F is H.
+6. Let H = L2[0, 1] relative to the Lebesgue measure and deﬁne (Kf)(s) =
+R s
+0 f(t)dt for each f in H. Show that K is a compact operator without
+eigenvalues.
+1

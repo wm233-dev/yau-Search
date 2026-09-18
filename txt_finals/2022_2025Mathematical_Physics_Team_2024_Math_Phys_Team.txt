@@ -1,0 +1,136 @@
+
+=== page 1 ===
+Mathematical Physics
+Team Contest
+To complete this assessment, answer at least 2 of the following 3 problems.
+Problem 1
+Scattering off a constant magnetic strip
+Consider a non-relativistic electron with mass m and charge e in a two-dimensional plane
+(x1, x2). In what follows, you can set ℏ= c = 1 for convenience. Now the electron is placed in a
+perpendicular magnetic field ˆB that is constant within an infinite strip and vanishes elsewhere:
+ˆB =
+(
+B ˆx3,
+x2 ∈[−L, 0]
+0,
+otherwise
+(0.1)
+where B > 0. Recall that:
+ˆB = ⃗∇× ⃗A →B = ∂1A2 −∂2A1
+(0.2)
+1. Consider the electron scattering from the asymptotic region x2 →∞at incident angle
+θ along the x2-axis, and with energy E.
+Solve the wave-function of the electron in the
+asymptotic region x2 →−∞. How large should E be for the electron to scatter through as a
+plane-wave? In these cases, calculate the out-going angle θ′ of the electron in the asymptotic
+region x2 →−∞region.
+2. Now we take the limit L →∞, so that the magnetic field is present for the full half-plane
+x2 < 0.
+In this limit, the system only contains bound-states in the region x2 →−∞.
+Consider the sector of Hilbert-space characterised by:
+• Having zero momentum along x1 direction: p1 = 0.
+• Satisfying the total reflection condition along x2 direction at x2 = 0, i.e:
+ψ(x1, x2) ∝cos (k2x2),
+x2 > 0
+(0.3)
+In this sector, find the energy spectrum.
+Problem 2
+QFT with an external gauge potential
+Consider a massless complex scalar field coupled to an external gauge potential
+S =
+Z
+d4x [−gµν(∂µ + iqAµ)ϕ(∂ν −iqAν)ϕ∗] ,
+(0.4)
+where the external gauge potential Aµ = (A0(x), 0, 0, 0) (here and hereafter, x denote the first
+spatial direction, not a four-dimensional vector).
+1
+
+=== page 2 ===
+1. Write down the equation of motion for the field operator ϕ.
+2. Consider a solution ϕω = e−iωtψω(x). Write down the differential equation for ψω(x).
+3. Consider a step potential
+qA0(x) =
+(
+0
+(x < 0)
+µ
+(x > 0)
+.
+(0.5)
+We will only consider ϕω where ω < µ.
+When t →−∞, consider an incoming normalizable “wave packet” (i.e., one can integrate over
+a range of ω to localize the wave packet, and the motion of the wave packet is characterized
+by its group velocity) of the field operator ϕω = cωe−iωt+iωx which is located at x →−∞.
+Find the solution of ϕω in the limit t →+∞.
+4. At x →±∞, we expect that the quantization of our model should be the same as that of
+free fields:
+ϕ(t, x, y, z) =
+
+
+
+
+
+R
+d3k
+(2π)3
+1
+√
+2|k|
+
+ake−i|k|t+ik·x + b†
+kei|k|t−ik·x
+(x →−∞)
+e−iµt R
+d3k
+(2π)3
+1
+√
+2|k|
+
+˜ake−i|k|t+ik·x + ˜b†
+kei|k|t−ik·x
+(x →+∞)
+(0.6)
+where ak and bk are the annihilation operators for particle and anti-particle at x →−∞,
+respectively. ˜ak and ˜bk are the corresponding quantities at x →+∞.
+Compare our ϕω and ϕ(t, x, y, z), we get, up to a normalization factor, at t →−∞, x →−∞:
+ϕω ∝a(ω,0,0)e−iωt+iωx ,
+(0.7)
+where (ω, 0, 0) is a momentum vector along the x direction. In other words, ϕω plays the
+role of the annihilation operator at the initial time.
+At t →+∞, compared with the quantization of a free field at x →±∞, write down ϕω in
+terms of the creation and annihilation operators (up to the same normalization factor as in
+(0.7)), and describe the physical meaning of ϕω at t →+∞.
+5. If we set up our initial state to be the vacuum state where ⟨ϕ†
+ωϕω⟩in = 0, then qualitatively
+describe what happens afterwards.
+Problem 3
+General Relativity
+1. Conservation laws: Let (M, gab) be a 4-dimensional vacuum spacetime. Recall that a
+Killing-Yano 2-tensor is a 2-form Yab = Y[ab], satisfying ∇(aYb)c = 0.
+(a) Show that ∇aYbc = ∇[aYbc]
+(b) Use the result from (a) to show that for S1, S2 closed surfaces in M bounding a 3-volume
+Σ, it holds that
+Z
+S1
+RabcdYcddSab =
+Z
+S2
+RabcdYcddSab
+2
+
+=== page 3 ===
+2. Stress-energy tensor: Show that the Maxwell action
+S =
+1
+16π
+Z
+FabF abp
+| det g|d4x
+is conformally invariant and use this to show the Maxwell stress-energy tensor is traceless.
+3. Particle horizon: Let M = (0, ∞)×Σ where Σ is hyperbolic 3-space. Assume that M has
+line element
+ds2 = −dt2 + t2γ
+for t > 0. Let P, Q be two events at time t0 > 0. Show that there is an event to the past of
+P, Q that can send signals to both P, Q. Is the same true for the line element −dt2 + t3/2γ?.
+3

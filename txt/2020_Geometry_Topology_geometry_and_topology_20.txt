@@ -1,0 +1,97 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Geometry and Topology
+Solve every problem.
+Problem 1.
+Let Sn be the unit sphere in Rn+1.
+(a) Find a 6-form α on R7 \ {0} such that
+dα = 0,
+and
+∫
+S6 α = 1.
+(b) For any smooth map f : S11 →S6, show that there exists a 5-form ϕ on S11 such that
+f ∗α = dϕ.
+(1)
+(c) Let
+H( f ) =
+∫
+S11 ϕ ∧dϕ.
+Show that H( f ) is independent of the choice of ϕ satisfying (1).
+(d) Show that H( f ) is an even integer, for any smooth map f : S11 →S6.
+Problem 2.
+For any h ∈C∞(R2) and h > 0 on R2, deﬁne the Ricci curvature Ric(h) associated
+with h by
+Ric(h) = 1
+h
+ ∂2
+∂x2 + ∂2
+∂y2
+
+log h,
+where (x, y) are the standard Cartesian coordinates in R2. Either construct a positive smooth function
+h1 such that Ric(h1) = 1, or show that no such function h1 exists.
+Problem 3.
+Let M be an n-dimensional Riemannian manifold, and p ∈M. Let {e1,. . .,en} be
+an orthonormal basis of the tangent space TpM, and let {x1,. . ., xn} be a coordinate system of M
+centered at p such that
+exp−1
+p (q) =
+n
+Õ
+j=1
+x j(q)ej,
+where expp denotes the exponential map. Let γ(t) = expp(te1), 0 ≤t ≤δ, where δ is a positive
+constant less than 1.
+(a) For 2 ≤α ≤n, which one of the following,
+t ∂
+∂xα
+
+γ(t)
+or
+∂
+∂xα
+
+γ(t)
+,
+is a Jacobi ﬁeld along γ(t)? Prove your assertion.
+
+=== page 2 ===
+(b) Denote
+gij =
+D ∂
+∂xi, ∂
+∂x j
+E
+,
+1 ≤i, j ≤n.
+Compute
+∂2g22
+∂x1∂x1
+at the point p.
+(c) Show that
+max
+0≤t ≤δ
+
+∂g22
+∂x1 (γ(t))
+ ≤CδA,
+where C > 0 is a constant depending only on n, and A is the C0-bound of the curvature tensor
+of M along γ(t), for 0 ≤t ≤δ.
+Problem 4.
+Let SO(n) be the set of n × n orthogonal real matrices with determinant equal to 1.
+Endow SO(n) with the relative topology as a subspace of Euclidean space Rn2.
+(a) Show that SO(n) is compact.
+(b) Is SO(3) homeomorphic to the real projective space RP3? Prove your assertion.
+(c) Compute the fundamental group of SO(2020).
+Problem 5.
+Let X be a topological space and π : R2 →X a covering map. Let K be a compact
+subset of X and B the closed unit ball centered at the origin in R2.
+(a) Suppose π : R2 \ B →X \ K is a homeomorphism. Show that π : R2 →X is a homeomor-
+phism.
+(b) Suppose R2 \ B is homeomorphic to X \ K, where the homeomorphism may not be π. Is X
+necessarily homeomorphic to R2? Prove your assertion.
+Problem 6. Let Fn be the free group of rank n,
+(a) Give an example of a ﬁnite connected graph such that its fundamental group is F2.
+(b) Does F2 contain a proper subgroup isomorphic to F2?
+(c) Does F2 contain a proper ﬁnite index subgroup isomorphic to F2?

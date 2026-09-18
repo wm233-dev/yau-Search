@@ -1,0 +1,13 @@
+
+=== page 1 ===
+Oral-Example-Geometry-Topology
+1
+Personal
+1. Let π : S3 →S2 be the Hopf ﬁbration. Recall that if we identify S3 = {(z1, z2) ∈
+C2||z1|2 + |z2|2 = 1} and S2 = CP1 with homogenous coordinate [z1, z2], then
+π : (z1, z2) →[z1, z2].
+Show that there doesn’t exist a section for π, i.e., a smooth map s : S2 →S3 such
+that π ◦s : S3 →S2 is the identity.
+2. Show that there exists no degree one map from S2 × S2 to CP2.
+3. Show that there exists no metric on RP2 × RP2 with positive sectional curvature.
+1

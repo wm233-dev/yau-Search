@@ -1,0 +1,25 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Oral Exams in Geometry and Topology
+Individual (3 problems)
+1. Let M be a closed orientable manifold with dimension n, and let Sn be the n
+dimensional sphere.
+(a) What is the degree deg(f) of a continuous map f : M →Sn;
+(b) For an non-negative integer k ∈N construct a map f : M →Sn with deg(f) =
+k.
+2. Construct a Riemannian metric on CP 2#CP 2 with nonnegative sectional curvature.
+3. Let M n be a closed and embedded minimal hypersurface in the unit sphere Sn+1.
+Then the ﬁrst eigenvalue λ1(M n) of M n satisﬁes
+λ1(M n) ⩾n
+2.
+1
+
+=== page 2 ===
+2
+S.-T. Yau College Student Mathematics Contests 2022
+Oral Exams in Geometry and Topology
+All-round (2 problems)
+1. Prove that the tangent bundle of the product S2 × S3 is trivial.
+2. Any closed (compact and without boundary), oriented and connected even-dimensional
+Riemannian manifold with positive sectional curvature is simply connected.

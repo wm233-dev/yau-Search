@@ -1,0 +1,74 @@
+
+=== page 1 ===
+2
+Yau Mathematical Competition 2018
+Probability and Statistics Team
+Problem 1 (Probability) Let {Xn} be a sequence of independent and identically distributed random
+variables with the distribution P{Xn = 1} = P{Xn = −1} = 1/2. Deﬁne
+Z =
+v
+u
+u
+t1
+2 + X1
+2
+s
+1
+2 + X2
+2
+r
+1
+2 +···.
+(1) Let
+ZN =
+v
+u
+u
+u
+t1
+2 + X1
+2
+v
+u
+u
+t1
+2 + X2
+2
+s
+1
+2 +···XN
+r
+1
+2
+be the random variable Z truncated at the nth step. Show that
+ZN = sin
+ 
+π
+4
+N
+∑
+n=0
+X1X2 ···Xn
+2n
+!
+.
+(2) Let
+Yn = X1X2 ···Xn,
+n = 1,2,....
+What is the joint distribution of the random variables {Yn}?
+(3) Find the distribution function FZ of the random variable Z.
+Problem 2 (Statistics) For n ≥2, let (X1,Y1),··· ,(Xn,Yn) be independent, identically distributed
+random vectors, with a common distribution which is bivariate normal with two component means µ1
+and µ2 and the variance-covariance elements
+var(X1) = σ2
+1,
+var(X2) = σ2
+2,
+cov(X1,X2) = ρσ1σ2.
+We assume that σ1 and σ2 are both positive. Let θ = (µ1,µ2,σ1,σ2,ρ)T.
+(1) Assuming that the parameter θ is known, show that if one desires to predict Y1 by using a function
+g(X1,··· ,Xn) that minimizes Eθ(Y1 −g(X1,··· ,Xn))2, then the solution is given by
+g(X1,··· ,Xn) = β0 +β1X1.
+Provide expressions for β0 and β1 in terms of θ.
+(2) Assuming that the parameter θ is unknown, how do you predict Y1 and how do you measure the
+uncertainty of your prediction?

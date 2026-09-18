@@ -1,0 +1,49 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Geometry and Topology
+Problem 1. Let n > 1 be a positive integer.
+(i) Does there exist a map f : S2n →CPn with deg(f) ̸= 0? Construct an example or
+disprove it.
+(ii) Does there exist a map f : CPn →S2n with deg(f) ̸= 0? Construct an example or
+disprove it.
+Problem 2. Let Σ ⊂R3 be an embedded surface in R3. A surface is called minimal
+if, for any p ∈Σ, we have κ1(p) + κ2(p) = 0, where κ1(p) and κ2(p) are the two principal
+curvatures at p. Prove that if Σ is closed, then Σ cannot be minimal.
+Problem 3. Let M be a closed, simply connected 6-dimensional manifold. Suppose
+H2(M) = Z2. Prove that the Euler characteristic χ(M) ̸= −1.
+Problem 4. Let (M, g) be a closed oriented n-dimensional Riemannian manifold. Let
+p ∈M and Ricp be the Ricci curvature tensor at p, p be the scalar curvature at p which is
+deﬁned to be Sp := 1
+nTrg(Ricp). Prove that the scalar curvature S(p) at p ∈M is given by
+Sp =
+1
+ωn−1
+ˆ
+Sn−1 Ricp(V, V )dSn−1,
+where ωn−1 is the area of the unit sphere Sn−1 in TpM, V ∈Sn−1 are unit vector ﬁelds,
+and dSn−1 is the area element on Sn−1.
+Problem 5. Let Sn be the n-dimensional sphere with n ≥2, and let G be a ﬁnite group
+that acts freely on Sn. Suppose G is non-trivial. Then,
+(i) Compute the homotopy groups of the quotient space πi(Sn/G) for 0 ≤i ≤n.
+(ii) Suppose n is even. Prove that G is isomorphic to Z2.
+(iii) Suppose n is odd. Show that G cannot be isomorphic to Zp × Zp for p a prime
+number.
+Problem 6. Let M be a closed oriented Riemannian manifold, where gt is a family of
+smooth Riemannian metrics smoothly depending on t ∈(−ϵ, ϵ). Suppose there exists a
+family of eigenfunctions ft and eigenvalues λt smoothly depending on t such that
+∆gtft = λtft,
+where ∆gt is the Laplace-Beltrami operator deﬁned using the Riemannian metric gt.
+Additionally, assume that f0 is not a constant function.
+We deﬁne ˙λ :=
+d
+dt|t=0λt and
+˙∆:= d
+dt|t=0∆gt. Prove the following:
+(i) As λ0 is an eigenvalue of ∆g0, let Vλ0 := Ker(∆g0 −λ0) be the eigenspace of λ0, and
+let Π : L2(M, g0) →Vλ0 be the orthogonal projection onto the eigenspace. Prove
+that ˙λ is an eigenvalue of the operator Π ◦∆′ : Vλ0 →Vλ0.
+(ii) Let ϕt : M →M be a 1-parameter family of diﬀeomorphisms of M and assume
+gt = ϕ∗
+t g0. Prove that ˙λ = 0.
+1

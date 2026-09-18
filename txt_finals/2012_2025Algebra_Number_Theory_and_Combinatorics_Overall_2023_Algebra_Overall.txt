@@ -1,0 +1,21 @@
+
+=== page 1 ===
+S.-T. Yau College Math Contest
+Final Contest
+2023
+Algebra, Number Theory and Combinatorics
+Problem for Individual Overall Contest
+Problem 1.
+(1) Express the quotient ring
+Z[x1, x2, x3]/(x1x2 + x2
+3 −2)
+as
+Z[x1, · · · , xn]/(f1, · · · , fm)
+for some integers n and m such that
+(a) fi are square-free polynomials;
+(b) deg f ≤2;
+(c) all coeﬀicients of fi are equal to 1.
+for all 1 ≤i ≤k.
+(2) Can every quotient ring Z[z1, · · · , zk]/I be expressed as Z[x1, · · · , xn]/(f1, · · · , fm)
+satisfying the above three conditions as in (1)?
+1

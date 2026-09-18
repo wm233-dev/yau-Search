@@ -1,0 +1,52 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Oral Exams in Geometry and Topology
+Individual (Solve 3 out of 4 problems)
+1. Let K ⊂S3 be a smoothly embedded circle (we call it a knot) in the 3-sphere S3.
+Compute all the homology groups of the complement S3 \ K over Z.
+2.
+(1) Consider the height function z on the unit sphere S2 ⊂R3. Show that its
+critical points are non-degenerate (namely, the Hessian matrix at the critical
+point is non-degenerate). Moreover, the number of critical points equals to the
+rank of its total cohomology H∗(S2, R).
+(2) Let π : S3 →CP1 be the ﬁbration deﬁned by [z1 : z2], where S3 is the unit
+sphere in C2. Consider the pull-back function π∗f on S3. What are the critical
+points of π∗f? Are the critical points non-degenerate? If not, can you perturb
+π∗f so that the resulting function only has non-degenerate critical points?
+3. Let n, k be positive integers and 2 ≤k ≤n −1. Suppose Sn is the n-dimensional
+unit sphere in Rn+1 given by
+{(x1, · · · , xn+1) |
+n+1
+X
+i=1
+x2
+i = 1}.
+Suppose H is the cone in Rn+1 given by
+{(x1, · · · , xn+1 |
+k
+X
+i=1
+x2
+i = c
+n+1
+X
+i=k+1
+x2
+i },
+for a constant c > 0.
+(1) Show that H ∩Sn is a smooth submanifold of Sn.
+(2) For what value(s) of c (in terms of n and k) is H ∩Sn a minimal submanifold of
+Sn?
+4. Let a be a positive constant less than 1 and
+f(u) = (1 + a2) 1 −u2
+1 + a2u2 for u ∈(−1, 1).
+Consider the Riemmanian metric
+f(u)dφ ⊗dφ +
+1
+f(u)du ⊗du
+deﬁned on {(u, φ) | −1 < u < 1, 0 < φ < 2π}.
+(1) Show that the metric can be extended to a smooth Riemmanian metric on S2.
+(2) For what value(s) of a can this metric be realized as the induced metric on a
+closed surface in R3?
+1

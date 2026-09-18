@@ -1,0 +1,22 @@
+
+=== page 1 ===
+Analysis questions for teams
+1. Suppose that f ∈C∞
+c (R2) has the property that
+R
+L f = 0 for every line L ⊂R2. Show
+that f = 0.
+2. Let D ⊂C be an open set. Let Aut(D) denote the set of invertible conformal self-maps
+ψ : D →D.
+(a) Show that there is a domain D such that Aut(D) is countably inﬁnite.
+(b) Show that there is a domain D such that Aut(D) is isomorphic to the integers Z.
+(c) Is it possible for Aut(D) to be isomorphic to the real numbers R?
+3. Suppose that f : R →R is of class C1 and satisﬁes
+Z ∞
+−∞
+1
+|f(x)|dx = +∞
+Prove that the maximal interval of existence for the solution of
+dx
+dt = f(x)
+is (−∞, ∞).

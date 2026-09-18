@@ -1,0 +1,23 @@
+
+=== page 1 ===
+2
+Team (5 problems)
+1. Show that a closed simply connected 3-manifold is homotopically equivalent to the
+3-sphere.
+2. Recall that a symplectic form ω on a smooth manifold M is a degree 2 diﬀerential
+form which is closed and non-degenerate. Here non-degeneracy means that if there is
+a point x ∈M and a tangent vector u ∈TxM such that ω(u, v) = 0 for any v ∈TxM,
+then u = 0. Let ω be a symplectic form on M.
+a). Show that M is orientable.
+b). A vector ﬁeld V on M is called a Liouville vector ﬁeld with respect to ω if
+LV ω = ω. Here LV denotes the Lie derivative wit respect to V . Show that there isn’t
+any Liouville vector ﬁeld on M if M is a closed manifold.
+3. Prove that there is no nonconstant continuous function on R which is periodic with
+respect to two periods 1 and π.
+4. If M is a compact manifold with negative sectional curvature, then the isometry
+group of M is ﬁnite.
+5. (E. Cartan) Let K be a compact Lie group acting by isometries on a simply
+connected, complete Riemannian manifold M of negative curvature. Then there is a
+common ﬁxed point of all k ∈K.
+S.-T. Yau College Student Mathematics Contests 2018
+Oral Exams in Geometry and Topology

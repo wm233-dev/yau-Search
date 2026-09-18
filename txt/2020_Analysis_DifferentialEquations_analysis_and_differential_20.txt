@@ -1,0 +1,106 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Let χ be a real valued smooth function with compact support on R. We assume that
+∫
+R1 χ(x)dx = 1.
+For all ε > 0, we deﬁne
+χε(x) = 1
+ε χ
+ x
+ε
+
+.
+Prove that for any given f ∈L1(R), for almost every x ∈R, we have
+lim
+ε→0(χε ∗f )(x) = f (x).
+Problem 2. In last year’s Yau College Student Mathematics Contests, four students Tintin, Haddock,
+Dupont and Dupond made it to the last round of the oral exam in analysis. Professor Yau asked them
+to compute the Fourier coeﬃcients of the 2π-periodic function F (deﬁned on R):
+F : (0,2π) →R,
+x 7→F(x) = arctan
+ x
+2π esin(x) + x2019(x −2π) + 2019 sin(x)
+
+.
+Here were their solutions: for k , 0,
+Tintin : bF(k) = cos(kπ)
+|k|
+1
+2
++ a
+|k| +
+b
+|k|3,
+Haddock : bF(k) = c
+k2 + d
+k4 + e
+k6,
+Dupont : bF(k) = 1
+k + 1
+k2 + f
+k3 + g
+k5,
+Dupond : bF(k) = 2019
+√
+−1
+k
++ hk
+k ,
+where a, b,c, d,e, f,g, hk(k ∈Z) were constants and
+Õ
+k∈Z
+|hk|2 < ∞.
+Whose solutions were correct?
+Problem 3.
+Let B1 be the unit ball centered at the origin in R4 and u ∈W1,2(B1) ∩C∞(R4) be a
+nonnegative real valued function so that
+−△u ≤u2,
+
+=== page 2 ===
+where △=
+4
+Õ
+i=1
+∂2
+∂x2
+i
+. Prove that, there exists a constant ε > 0, so that if ∥u∥L2(B1) ≤ε, we have
+∥∇u∥L2(B 1
+2
+) ≤10000∥u∥L2(B1),
+where B 1
+2 is the ball of radius 1
+2 centered at the origin.
+Problem 4.
+Let f and g be two holomorphic functions deﬁned on the entire complex plane C so
+that for all z ∈C, we have
+f (z)2020 + g(z)2020 = 1.
+Prove that f and g are constants.
+Problem 5. We consider the following ordinary diﬀerential equation:
+(
+x′′(t) + x(t) + x(t)3 = 0,
+(x(0), x′(0)) = (x0,0),
+where x(t) takes values in R. Prove that for all x0 ∈R, the solution of the above system is periodic.
+Problem 6. Let α ∈R and ak ∈C with |ak| < 1, where k = 1,2,. . .,n. We consider the following
+holomorphic map
+f :C −
+
+(a1)−1,. . .,(an)−1	
+→C,
+z 7→f (z) = e2
+√
+−1παz · z −a1
+1 −a1z · · · z −an
+1 −anz .
+Let S1 be the unit circle in C, i.e.,
+S1 =
+
+z ∈C
+ |z| = 1
+	
+.
+Prove that f maps S1 to itself and f preserves the surface measure (i.e., dθ in terms of standard
+polar coordiantes of R2) of S1.

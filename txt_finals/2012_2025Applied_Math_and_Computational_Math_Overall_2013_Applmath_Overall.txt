@@ -1,0 +1,14 @@
+
+=== page 1 ===
+Oral exam, applied and computational
+mathematics, all-around, 2013
+Let Dn = {x ∈Rn : |x| < 1}, f be a smooth map from Dn to ¯Dn. For
+homotopy H : Dn × [0, 1] →Rn
+H(x, t) = (1 −t)(x −a) + t(x −f(x))
+we can ﬁnd x = f(x) from H(x, t) = 0. Here a ∈Dn.
+1. Prove H−1(0) is a smooth curve for almost all a ∈Dn. (Hint: Sard’s
+theorem and implicit function theorem)
+2. Prove this curve starts from x = a will stay inside Dn for 0 ≤t < 1
+and when t = 1 yields x0 s.t. f(x0) = x0.
+3. How to follow this curve? (Hint: parametrize the curve by arc length)
+1

@@ -1,0 +1,65 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2010
+Analysis and Diﬀerential Equations
+Individual
+(Please select 5 problems to solve)
+1.
+a) Let xk, k = 1, . . . , n be real numbers from the interval (0, π)
+and deﬁne x =
+n
+X
+i=1
+xi
+n
+. Show that
+n
+Y
+k=1
+sin xk
+xk
+≤
+µsin x
+x
+¶n
+.
+b) From
+Z ∞
+0
+e−x2dx =
+√π
+2 ,
+calculate the integral
+R ∞
+0 sin(x2)dx.
+2. Let f : R →R be any function. Prove that the set of points x in
+R where f is continuous is a countable intersection of open sets.
+3. Let f(z) be holomorphic in D: |z| < 1 and |f(z)| ≤1 (z ∈D). If
+z0 is a point in D such that both z0 and −z0 are zeros of order m of
+f(z) and 0 < |z0| ≤m −1
+m
+, then |f(0)| < e−2.
+4. Find a harmonic function f on the right half-plane such that when
+approaching any point in the positive half of the y-axis, the function
+has limit 1, while when approaching any point in the negative half of
+the y-axis, the function has limit −1.
+5. Let K(x, y) ∈L1([0, 1] × [0, 1]). For all f ∈C0[0, 1], the space of
+continuous functions on [0, 1], deﬁne a function
+Tf(x) =
+Z 1
+0
+K(x, y)f(y)dy
+Prove that Tf ∈C0([0, 1]). Moreover Ω= {Tf| ||f||sup ≤1} is pre-
+compact in C0([0, 1]), i.e. every sequence in Ωhas a converging subse-
+quence, here ||f||sup = sup{|f(x)||x ∈[0, 1]}. (Hint: Every Lebesgue
+integrable function over the square can be approximated by polynomial
+functions in the L1 norm.)
+1
+
+=== page 2 ===
+2
+6. Consider the equation ˙x = −x + f(t, x), where |f(t, x)| ≤φ(t)|x|
+for all (t, x) ∈R × R,
+R ∞φ(t)dt < ∞.
+Prove that every solution
+approaches zero as t →∞.

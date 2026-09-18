@@ -1,0 +1,2842 @@
+
+====================================================================================================
+### 0 ALG | Individual | 2012 | chars=362 pages=1 | 2012 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+ALGEBRA ORAL
+(1) Let k be a ﬁeld and B ⊂GL2(k) the subgroup of
+upper triangles. Describe all B×B-orbits in GL2(k),
+where B × B acts on GL2(k) by
+(b1, b2) · g = b1gb−1
+2 , ∀(b1, b2) ∈B × B, g ∈GL2(k).
+(2) Let k be a ﬁeld and A, B ∈Mn×n(k). Prove that
+det(I −AB) = det(I −BA).
+(3) Find Q-algebras R such that in R[X, Y ], X2 +Y 2 =
+(aX + bY )2 for some a, b ∈R.
+1
+
+====================================================================================================
+### 1 ALG | Individual | 2013 | chars=1487 pages=2 | 2013 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+Algebra and Number Theory
+Individual Oral Test
+1. Consider f ∈Z>0 and nonzero vector spaces Vi indexed by i ∈Z/fZ.
+Suppose that there are linear maps φi : Vi →Vi+1 and ψi : Vi →Vi−1 such
+that
+φi−1 ◦ψi = 0,
+ψi+1 ◦φi = 0.
+(We may think of a circular graph with oriented edges such that the “Orpheus
+condition” holds: Whenever you turn back while traveling through the graph
+you are killed.)
+Prove that there exists lines ℓi ⊂Vi for every i ∈Z/fZ such that
+φi(ℓi) ⊂ℓi+1,
+ψi(ℓi) ⊂ℓi−1
+under one of the following two conditions:
+1. all ψi = 0, or
+2. dim Vi are equal to each other.
+Hint: use induction
+2. For k non-negative integer, let Vk := R[x]≤k be the vector space of real
+polynomials of degree at most k with an action by SL2(R) by
+γ · P(x) = (cx + d)kP
+ax + b
+cx + d
+
+,
+γ =
+a
+b
+c
+d
+
+∈SL2(R).
+1. Show that Vk is an irreducible representation of SL2(R);
+1
+
+=== page 2 ===
+2. For non-negative integers m, n, consider Vm,n := Vm ⊗Vn as a subspace
+of C[x, y] of polynomials with both x, y-degrees at most k. Assume
+m ≥n ≥1. Show that following exact sequence is exact and split as
+representations of SL2(R).
+0−→Vm−1,n−1
+·(y−x)
+−→Vm,n
+y=x
+−→Vm+n−→0.
+This implies the following decomposition of representations:
+Vm ⊗Vn = ⊕n
+i=0Vm+n−2i.
+3. For non-negative integers ℓ≥m ≥n consider the space of invariants
+(Vℓ⊗Vm ⊗Vn)SL2(R).
+Show that this space is either trivial or one-
+dimensional; it is non-trivial if and only if
+ℓ+ m + n ≡0
+mod 2,
+ℓ+ m ≥n.
+3. Is (x2 + 3)(x3 + 2) solvable mod p for every prime p?
+2
+
+====================================================================================================
+### 2 ALG | Individual | 2014 | chars=567 pages=1 | 2014 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.T. YAU COLLEGE MATH COMPETITION 2014 ORAL
+EXAM
+Algebra
+Problem 1. Solve the equation x2 = x in End kn where k is a ﬁeld.
+Problem 2. Let n ≥1 be an integer. Construct a Galois extension over Q
+with Galois group Z/nZ.
+Problem 3. Let p > 3 be a prime. Consider the equation
+x3 + y3 = 1 (∗)
+in Z/pZ.
+(1) When p ≡2 (3), ﬁnd the number of solutions.
+(2) When p ≡1 (3), prove that there exists a pair (a, b) of integers such that
+(a) 4p = a2 + 27b2
+(b) a ≡1 mod 3. (Note: a is unique.)
+(3) (Continuation of (2)) When p ≡1 (3). Prove that (*) has p−2+a solution
+in Z/pZ.
+1
+
+====================================================================================================
+### 3 ALG | Individual | 2015 | chars=391 pages=1 | 2015 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+1. •Äî¼˜mRn§Ùƒ´•þ"én × n¢Ý
+˜mMn(R)¥?˜
+ƒM, ½Â∥M∥=
+sup
+∥x∥=1
+∥Mx∥, x ∈Rn"·GLn(R) •n × nŒ_¢Ý
++§G´GLn(R)f+§•¹3ü m¥¥µ
+B(I, 1) = {M ∈Mn(R) | ∥M −I∥< 1}.
+(a) g ∈G§λ ∈C´g˜‡AŠ§y²|λ −1| < 1.
+(b) y²gk•˜EAŠ§ÙŠu1.
+(c) y²g = I.
+2. G ´GLn(Z)k•f+§p ≥3´ƒê§Fp ´p•"
+(a) y²µg,NGLn(Z) →GLn(Fp) 3Gþ•›´ü"
+(b) M ∈GL2(Z) ´•m < ∞ƒ§y²: m ∈{1, 2, 3, 4, 5, 6}.
+3. f ∈R(x) ´kn¼ê§3êþêŠ§y²f´õ‘ª"
+1
+
+====================================================================================================
+### 4 ALG | Individual | 2016 | chars=718 pages=1 | 2016 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+PROBLEMS FOR ALGEBRA SECTION
+1. Individual test
+Problem 1 (Individual 1). Let K be the splitting ﬁeld of f(x) = x4 −4x2 −1 over Q.
+(1) Show that f(x) is irreducible over Q.
+(2) Describe the Galois group Gal(K/Q).
+Problem 2 (Individual 2). Let Fp be an algebraic closure of Fp (p is a prime). Describe the abelian group
+F
+×
+p in more elementary terms. What is the action of the Frobenius in terms of your description?
+Problem 3 (Individual 3). Let A and B be two n × n matrices with coeﬃcients in Q. For any ﬁeld
+extension K of Q, we say that A and B are similar over K if A = PBP −1 for some n×n invertible matrix
+P with coeﬃcients in K. Prove that A and B are similar over Q if and only if they are similar over C.
+1
+
+====================================================================================================
+### 5 ALG | Individual | 2017 | chars=799 pages=1 | 2017 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+ALGEBRA (INDIVIDUAL)
+Problem 1.
+(1) Classify the groups of order 8.
+(2) For each ﬁnite group of order 8, classify the irreducible ﬁnite dimensional repre-
+sentations over C.
+Problem 2. For each integer m ą 1, let Km “ Qpe
+2πi
+m q.
+(1) Prove that the polynomial x4 ` x3 ` x2 ` x ` 1 is irreducible over Q.
+(2) Prove that K5 is a Galois extension of Q whose Galois group is cyclic of order 4.
+(3) Prove that K5 Ě Qpcos 2π
+5 q.
+(4) Prove that K20 is a Galois extension of Q whose Galois group is isomorphic to
+pZ{20Zqˆ.
+(Recall that pZ{20Zqˆ is the group of units of the ring Z{20Z.)
+Problem 3. Let f be a nonconstant polynomial in Crxs and R “ Crxs{pfq. Show that
+the following are equivalent:
+(1) R has no nonzero nilpotent element.
+(2) any ﬁnitely generated indecomposable R-module is projective.
+1
+
+====================================================================================================
+### 6 ALG | Individual | 2018 | chars=1105 pages=2 | 2018 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+YAU COLLEGE MATH CONTESTS INDIVIDUAL ALGEBRA
+2018
+Problem 1
+Factorize the polynomial
+f(x) = 6x5 + 3x4 −9x3 + 15x2 −13x −2
+into a product of irreducible polynomials in the ring Q[x].
+Problem 2
+Prove that any group of order 588 is solvable, given that any group of order 12
+is solvable.
+Problem 3
+Decide which ﬁeld F has the following property: for each integer n > 0, and
+for every n × n matrix A with entries in F, we can conjugate A to an upper
+triangular matrix under GLn(F).
+Problem 4
+Let n be a positive integer.
+(1) Find the image of the map
+Mn×n(C) −→Mn×n(C), A →AtA.
+Here Mn×n(C) denotes the space of all (n × n) matrices with complex entries.
+(2) Find the image of the map
+Mn×n(R) −→Mn×n(R), A →AtA.
+Here Mn×n(R) denotes the space of all (n × n) matrices with real entries.
+Problem 5
+1
+
+=== page 2 ===
+2
+YAU COLLEGE MATH CONTESTS INDIVIDUAL ALGEBRA 2018
+Let k be a ﬁeld of characteristic p > 0, and let x, y be algebraically independent
+over k. Prove the following
+(a). k(x, y) has ﬁeld extension degree p2 over k(xp, yp).
+(b). There are inﬁnitely many intermediate ﬁeld extensions between k(x, y)
+and k(xp, yp).
+
+====================================================================================================
+### 7 ALG | Individual | 2019 | chars=1650 pages=1 | 2019 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.T. Yau College Student Mathematics Contests 2019
+Algebra and Number Theory Individual
+1.
+Consider the group GL(m, R). Given g ∈GL(m, R), prove there is a decomposition of
+g as
+g = k1 d k2
+where k1 and k2 are orthogonal matrices, and d is a diagonal matrix whose diagonal entries
+are positive.
+2. (a) Let P ∈Q[X] be a monic, irreducible polynomial of degree n.
+(i) Prove that its roots in C are simple.
+(ii) Prove there exists a matrix M ∈Mn×n(Q) whose characteristic polynomial is P.
+(b) Let P ∈Z[X] be a monic polynomial of degree n.
+Prove there exists a matrix
+M ∈Mn×n(Z) whose characteristic polynomial is P and which is diagonalizable over
+the ﬁeld C.
+3.
+Prove that a group G of order 48 cannot be a simple group.
+4.
+(a) Describe, in as simple terms as possible, the splitting ﬁeld of the characteristic
+polynomial of the matrix
+A =
+1
+1
+1
+0
+
+,
+regarded as a matrix with entries in Q. Is A semisimple?
+(b) Same problem as (a), but with A now regarded as a matrix with entries in the ﬁeld
+F2 =def Z/(2Z).
+How many elements does the splitting ﬁeld have?
+(c) Once more the same problem as (a), but over the ﬁeld F5 =def Z/(5Z).
+Is A
+semisimple now?
+(d) Recall the inductive deﬁnition of the sequence of the Fibonacci numbers {fn} : f0 = 1,
+f1 = 1, and fn+1 = fn + fn−1 for n ≥1.
+Argue that the sequence { n√fn} must have
+a limit as n →∞, and compute that limit.
+(e) What does (c) tell you about the behavior of the Fibonacci numbers modulo 5 , i.e.,
+as a sequence of values in F5?
+5.
+Let k an inﬁnite ﬁeld and take K to be an extension ﬁeld of k.
+Let A, B ∈Mn×n(k).
+Prove that if A and B are similar in Mn×n(K), then they are similar in Mn(k).
+1
+
+====================================================================================================
+### 8 ALG | Individual | 2020 | chars=1706 pages=2 | 2020 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+Problem 1. Let R be the subring of C[x] consisting of all polyno-
+mials f(x) ∈C[x] such that f ′(0) = 0; i.e, the derivative of f at 0 is 0.
+Is R a ﬁnitely generated ring over C? If yes, ﬁnd an isomorphism from
+R to some quotient of a polynomial ring over C (with ﬁnitely many
+indeterminates). If no, justify your answer.
+Problem 2. In this problem K is either the ﬁeld of real numbers
+or the ﬁeld of complex numbers. Let N denote the set of nilpotents in
+Mn×n(K), the set of n × n matrices with entries in K, and U the set
+of unipotents – i.e., matrices A such that A −1n×n is nilpotent. Show
+that the exponential map
+exp : Mn×n(K) −→Mn×n(K) ,
+exp A = P∞
+n=0
+An
+n!
+maps N one-to-one onto U . Can you describe the inverse of this map?
+2b) What can you say about the exponential map from Mn×n(K) to
+itself? What is its image? Is it invertible in any sense?
+Problem 3. Let p be a prime, Fp the prime ﬁeld of p elements, and
+ζp a primitive p-th root of unity in C. For a positive integer d, deﬁne
+the algebraic integer
+Gd =
+X
+x∈Fp
+ζxd
+p .
+Prove that the degree over Q of the algebraic integer Gd is equal to
+(d, p −1).
+
+=== page 2 ===
+2
+Problem 1. Let d ∈N and ζ := e
+2π√−1
+d
+be a d-th primitive root
+of unity. Let A be the (d −1) × (d −1) matrix whose (i, j) entry is
+Aij = ζij −ζ(i−1)j. Show that det(A)2 ∈Z. For d ≡0, 3 (mod 4) show
+that det(A) ̸∈Z.
+Problem 2. Let k be any ﬁeld of characteristic not equal to 2. Let
+M be an n × n orthogonal matrix over k; that is, the coeﬃcients of M
+are in k, and MM t = In. Assume that n is odd. Prove that M has an
+eigenvalue equal to det(M).
+Problem 3. Let G ⊂GLn(Z) a ﬁnite subgroup. Prove that there
+is a constant cn depending only on n such that the order of G satisﬁes:
+|G| ≤cn.
+
+====================================================================================================
+### 9 ALG | Individual | 2021 | chars=4015 pages=3 | 2021 Algebra (Individual) (S).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number Theory and Combinatorics
+(2021)
+Problem 1. (Individual round.) Let p be a prime number and Qp the ﬁeld of p-adic
+numbers. Let n ≥1 be an integer and L = Qp(ζpn), where ζpn denotes a primitive
+pn-th roots of unity. Determine the image of the norm map NL/Qp : L× →Q×
+p . You
+may use the inequality [L : Qp] ≤(Q×
+p : NL/Qp(L×)) without proof in the case n ≥2.
+Problem 2. (Individual round.) Let k be a ﬁeld and V a k-vector space of dimension
+n. Consider the group homomorphism:
+φ : GL(V ) →GL(∧2V ), f 7→∧2f.
+(1) Determine the kernel of φ.
+(2) Show that φ induces a group homomorphism ψ : SL(V ) →SL(∧2V ). Express
+det(∧2f) in terms of det(f).
+Problem 3. (Individual round.) Let A be a rank 2 integer matrix of size 5 × 3.
+Classify all possible groups of the form Z5/AZ3.
+1
+
+=== page 2 ===
+Solution to Problem 1. We will show that NL/Qp(L×) = pZ(1 + pnZp), where Zp
+denotes the ring of p-adic integers.
+Let Φ(X) = (Xpn −1)/(Xpn−1 −1) be the pn-th cyclotomic polynomial. Then
+Φ(X +1) is an Eisenstein polynomial. Thus Φ(X) is the minimal polynomial of ζpn,
+so that
+NL/Qp(1 −ζpn) = Φ(1) = p.
+We have [L : Qp] = φ(pn) = pn −pn−1. For p odd, the φ(pn)-th power map on
+1 + pZp is the composition
+1 + pZp
+log
+−→
+∼pZp
+φ(pn)
+−−−→
+∼
+pnZp
+exp
+−−→
+∼
+1 + pnZp.
+Thus
+NL/Qp(L×) ⊇NL/Qp(1 + pZp) = 1 + pnZp.
+For p = 2, we may assume n ≥2. The φ(2n)-th power map on 1 + 4Z2 is the
+composition
+1 + 4Z2
+log
+−→
+∼4Z2
+φ(2n)
+−−−→
+∼
+2n+1Z2
+exp
+−−→
+∼
+1 + 2n+1Z2.
+Thus
+NL/Q2(L×) ⊇NL/Q2(1 + 4Z2) = 1 + 2n+1Z2.
+It is easy to see that
+1 + 2nZ2 = (1 + 2n+1Z2)
+a
+52n−2(1 + 2n+1Z2)
+and
+52n−2 = NL/Q2(2 + ζ4).
+This ﬁnishes the proof of NL/Qp(L×) ⊇pZ(1 + pnZp) in all cases.
+Let OL denote the integral closure of Zp in L. The residue ﬁeld of L is Fp,
+so that NL/Qp|O×
+L is compatible with the φ(pn)-th power map on F×
+p , which carries
+every element to 1.
+In other words, NL/Qp(L×) ∩Z×
+p = NL/Qp(O×
+L) ⊆1 + pZp.
+This ﬁnishes the proof in the case n = 1. For n ≥2, it suﬃces to apply the given
+inequality (Q×
+p : NL/Qp(L×)) ≥φ(pn) = (Q×
+p : pZ(1 + pnZp)).
+Solution to Problem 2. (1) If n = 2, then ∧2V ≃k and φ(f) ∈GL(k) is just the
+multiplication by det(f), hence the kernel is just SL(V ) = SL2. Now assume n ≥3.
+By deﬁnition, f ∈Ker(φ) if and only if f(x)∧f(y) = x∧y for all x, y ∈V . We claim
+x and f(x) are proportional: otherwise expand to a basis e1 = x, e2 = f(x), e3, ..., en,
+then we have e2 ∧f(e3) = e1 ∧e3 which is not possible as ei ∧ej is a basis of ∧2V .
+Hence x and f(x) are proportional for all x ∈V . This implies that f(x) = ax for
+some a ∈k. Then f(x) ∧f(y) = a2x ∧y = x ∧y, thus a = ±1. So the kernel is just
+±Id.
+(2) First we show the case for elementary matrices: Take a basis e1, · · · , en of V
+and consider the endomorphism f ∈GL(V ) deﬁned by f(ei) = ei + bδ1,ie2 for all i,
+where b is a constant. We have (∧2f)(e1 ∧ej) = e1 ∧ej + be2 ∧ej for all j ≥2, and
+for 2 ≤i < j, (∧2f)(ei ∧ej) = ei ∧ej. Thus ∧2f is lower triangular in the basis of
+ei ∧ej with 1 on the diagonal, which gives det(∧2f) = 1.
+2
+
+=== page 3 ===
+Recall that any matrix of determinant 1 is a product of elementary matrices,
+hence by (ii) φ sends SL(V ) to SL(∧2V ). Take t in an extension of k, such that
+tndet(f) = 1. Then det(tf) = 1 and
+1 = det(∧2(tf)) = det(t2 ∧2 f) = (t2)(n
+2)det(∧2f),
+which gives det(∧2f) = t−n(n−1) = det(f)n−1.
+Solution to Problem 3. We can change Z bases of Z5 and Z3 to turn A in to a
+"canonical form". Equivalently, we can do the usual row-column reduction on A.
+Since A rank 2 means that AZ3 is a rank 2 subgroup of Z5, which means the free
+part of G is Z3. So, in the reduced form A has 3 zero rows, and 2 positive diagonal
+entries of all possibilities. We can arrange so that
+G ≃Z/a ⊕Z/b ⊕Z3with a ≥b > 0.
+Finally list all possible non-isomorphic torsion part Z/a ⊕Z/b, by factorizing a, b.
+Possible follow up: Generalize this as follows: A is rank k of size m × n with
+m > n > k. Classify all possible abelian groups of the form G = Zm/AZn. The
+same method would likewise yield G ≃Z/a1 ⊕· · · ⊕Z/an−k ⊕Zm−k with a1 ≥a2 ≥
+· · · ≥an−k > 0.
+3
+
+====================================================================================================
+### 10 ALG | Individual | 2022 | chars=849 pages=1 | 2022 Algebra (Individual)-v3.pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+Individual
+Problem 1. Let M denote the C-vector space consisting of n × n C-matrices. Let
+Id denote the identity matrix.
+Please determine all C-linear functions σ on M such that σ(AB) = σ(BA) and
+σ(Id) = n.
+Problem 2. Let p be a prime number and F a ﬁnite extension of the ﬁeld Qp of
+p-adic numbers.
+(a) Suppose p ̸= 2. Prove that every element of OF can be written as a sum of
+three squares in OF.
+(b) Suppose F = Q2. Prove that every element of OF can be written as a sum of
+four squares in OF.
+Problem 3. Let R =
+Q
+p Fp, where p runs through all prime numbers.
+(a) Show that there exists a maximal ideal m of R such that R/m is a ﬁeld of
+characteristic zero in which −1 is not a square.
+(b) Show that there is no maximal ideal n of R admitting an embedding R/n ,→R.
+1
+
+====================================================================================================
+### 11 ALG | Individual | 2023 | chars=1061 pages=1 | 2023 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Math Contest
+Final Contest
+2023
+Algebra, Number Theory and Combinatorics
+Problems for Individual Contest
+Problem 1. Choose (1) or (2), but not both.
+(1) Let p be a prime number, and k, n a positive integer. Count the number of subgroups
+of the group (Z/pZ)n with pk elements.
+(2) Classify all groups of the form Z5/AZn up to isomorphisms, where A is an 5 × n
+integer matrix and n is an arbitrary positive integer.
+Problem 2. Let V be a complex vector space of dimension n. Let u1, . . . , un be nilpotent
+linear endomorphisms of V , which pairwise commute.
+What can we say about their
+composition u1 ◦· · · ◦un?
+Problem 3.
+(1) Let ρ : G →GL(V ) be a finite dimensional representation of a finite
+group G. Let V G be the subspace of fixed points. Prove that
+dim V G =
+1
+|G|
+∑
+G∈G
+χ(g)
+where χ : G →C, g →trρ(g) is the character.
+(2) Consider the graded ring S = C[x1, · · · , xn] = ⊕d≥0Sd. Let G ⊂GL(n) be any finite
+subgroup with the induced action on S. We have SG = ⊕d≥0SG ∩Sd. Prove that
+∑
+d≥0
+(dim SG ∩Sd)td =
+1
+|G|
+∑
+A∈G
+1
+det(In −tA).
+1
+
+====================================================================================================
+### 12 ALG | Individual | 2024 | chars=960 pages=1 | 2024 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number Theory and Combinatorics
+Individual
+Problem 1. Let G be a finite group, H ≤G a subgroup, N = NG(H) its normalizer and
+N′ = NG(N) the normalizer of its normalizer. Assume that the order |H| of H is coprime
+to the index [N : H]. Prove that N = N′.
+Problem 2. Let F be a field. A Zariski closed subset Y of ¯F n is F-closed if the ideal
+I corresponding to Y is defined over F. A subset of ¯F n is F-open if its complement is
+F-closed. Do the F-open sets always form a topology on ¯F n?
+Problem 3. (a) Let A be the C-algebra generated by the symbols ai, bi, i = 1, ..., n, with
+the relations
+aibj + bjai = δij1.
+Classify all simple A-modules.
+(b) What if the relations are replaced by these
+aibj −bjai = δij1 ?
+Problem 4. Let A = C[t, t−1]. Consider the following endomorphism γ of A
+γ : A −→A,
+∑
+m
+amtm 7→
+∑
+m
+am
+(−1
+t
+)m
+.
+Compute explicitly R := {f ∈A|γ(f) = f} and show that R is finitely generated as an
+R-algebra. Is R a UFD or even a PID?
+1
+
+====================================================================================================
+### 13 ALG | Individual | 2025 | chars=899 pages=1 | 2025 Algebra (Individual).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number theory and Combinatorics
+Individual Contest
+Question 1. Let Mn be the space of real n×n matrices with euclidean topology.
+Let G = GLn(R) act on Mn by conjugation. For a diagonal matrix D ∈Mn,
+denote by GD the G-orbit of D. Show that GD is closed in Mn.
+Question 2. Let A be the abelian category of ﬁnite abelian groups. Show that
+A has neither enough projective objects nor enough injective objects.
+Question 3. Let G be a group of cardinality n. Prove that G has at most
+nlog2 n automorphisms.
+Question 4. Let K be a ﬁeld, we deﬁne l(K) to be the smallest natural number
+n such that there are n elements x1, . . . , xn in K satisfying
+−1 = x2
+1 + x2
+2 + · · · + x2
+n.
+If no such n exists, we denote l(K) by ∞.
+1. Prove that
+l(K) = l(K(t)),
+here K(t) is the ﬁeld of rational functions with coeﬃcients in K.
+2. Compute l(K) when K are the following ﬁelds: Q(e2iπ/3), Q(e2iπ/321/3).
+1
+
+====================================================================================================
+### 14 ALG | Overall | 2012 | chars=262 pages=1 | 2012 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+ALL ROUND TEST: ALGEBRA
+Let C be a double cover over P1 ramiﬁed at 6 points.
+(1) Classify all unramiﬁed 7-cyclic covers D over C.
+(2) Prove that all such D are Galois over P1 with Galois
+group Z/7Z ⋊Z/2Z.
+(3) Classify all intermediate curves between D and P1.
+1
+
+====================================================================================================
+### 15 ALG | Overall | 2015 | chars=0 pages=1 | 2015 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+
+====================================================================================================
+### 16 ALG | Overall | 2016 | chars=424 pages=1 | 2016 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+PROBLEMS FOR ALGEBRA SECTION
+1. Around test
+Problem 1. For p any prime and n ∈N, we let ζpn = exp(2πi/pn).
+(1) When p is an odd prime, show that there is a unique subﬁeld K ⊂Q(ζpn) that is quadratic over
+Q.
+(2) When p is an odd prime, determine which quadratic ﬁeld K is in Q(ζpn)? (Hint: you may consider
+the sum g = P
+a∈Z/pZ ζa2
+p .)
+(3) When p = 2 and n ≥3, how many quadratic subﬁelds does Q(ζpn) have? What are they?
+1
+
+====================================================================================================
+### 17 ALG | Overall | 2017 | chars=589 pages=1 | 2017 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+ALGEBRA (OVERALL)
+Problem 1.
+(1) Prove that any ﬁnite ﬁeld has order pn for some prime p and integer n.
+(2) State the law of quadratic reciprocity. For which odd prime p is ´1 a square
+modulo p? For which odd prime p is 2 a square modulo p?
+(3) Assuming that 691 is a prime, prove that 439 is not a square modulo 691.
+(4) For which odd prime p does the polynomial x2 ` 6x ` 1 have two roots in Z{pZ?
+Problem 2. Let G “ GL2pFpq
+(1) Prove that the subgroup of upper triangular matrices with 1’s on the diagonal is
+a Sylow p-subgroup of G.
+(2) Compute the number of Sylow p-subgroups of G.
+1
+
+====================================================================================================
+### 18 ALG | Overall | 2018 | chars=1496 pages=2 | 2018 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+YAU COLLEGE MATH CONTESTS ALL AROUND ALGEBRA
+2018
+Problem 1
+Let ζn be a primitive n-th root of unity, where n > 1 is a positive integer. Show
+that the number
+N :=
+Y
+1≤i≤n,(i,n)=1
+(1 −ζi
+n)
+is p if n is a power of a prime p, and is 1 if n is not a power of a prime (i.e., n is
+divisible by at least two distinct primes).
+Problem 2
+Let F be a ﬁeld. Let G = GL2(F) and B be the subgroup of G consisting of all
+upper triangular matrices. Then B×B acts on G by left and right multiplication,
+i.e.
+B × B × G −→G, (b1, b2, a) = b1ab−1
+2 .
+Prove that there are exactly two orbits, and they can be represented by
+ 
+1
+0
+0
+1
+!
+,
+and
+ 
+0
+1
+1
+0
+!
+.
+Generalize this to GLn(F).
+Problem 3
+Let Mn(Q) be the ring of all n×n matrices with coeﬃcients in Q for a positive
+integer n. Describe all ﬁeld extensions K of Q such that there is an injective ring
+1
+
+=== page 2 ===
+2
+YAU COLLEGE MATH CONTESTS ALL AROUND ALGEBRA 2018
+homomorphism K →Mn(Q). (Note: we take the convention that a ring homo-
+morphism maps the additive identity and the multiplicative identity respectively
+to the additive identity and the multiplicative identity.)
+Remark. This is a special case of classiﬁcation of commutative sub-algebras
+in central simple algebras.
+Problem 4
+Fix positive integers n > m > k, and ﬁx a C-linear subspace E ⊂Cn of
+dimension k. Let
+X = {C-linear subspace V ⊂Cn|V ⊃E, dim V = m}.
+Does X naturally have the structure of a compact manifold?
+If so, what is
+dimR X? Does X naturally have the structure of the coset space of a group?
+
+====================================================================================================
+### 19 ALG | Overall | 2019 | chars=1345 pages=1 | 2019 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.T. Yau College Student Mathematics Contests 2019 Ma
+Algebra and Number Theory Overall
+1.
+This problem is meant to show for any prime number p, that there exists an irreducible
+polynomial of degree p with (p −2) real roots and 2 (nonreal) complex conjugate roots. Let
+P0(X) =
+p−2
+Y
+k=1
+(X + k) (X2 + 1)
+(a) Prove that for any integer k, that Pk(X) = kp2P0(X) + Xp −p is an irreducible
+polynomial in Z[X]
+(b) Deduce from Pk a sequence of polynomials in Q[X] converging uniformly to P0 on any
+compact subset of C.
+(c) Prove that for k large enough, Pk has two complex conjugates roots and (p −2) real
+roots.
+2.
+Let k be a ﬁeld and take L = k(x, y), where x is transcendental over k and x2 + y2 = 1.
+Find the Galois group of L over k.
+3.
+Let G be a ﬁnite group and ρ : G −→GL(V ) a representation on a complex ﬁnite
+dimensional vector space V . Let ρ∗: G −→GL(V ∗) be the dual representation.
+Consider the symmetric algebra S(V ), viewed as polynomial functions on V ∗For l ∈V ∗and
+p ∈S(V ), denote by pl the fonction on G given by: pl(g) = p(g(l)); this deﬁnes a function
+S(V )
+φl
+−→C[G]
+p −→pl
+(a) Prove ∃u ∈V ∗whose stabilizer is the neutral element of G.
+(b) Prove that φu is surjective.
+(c) Prove that for any faithful irreducible representation ρ of G, there exists an integer n
+such that ρ is equivalent to a subrepresentation de Sn(V ).
+1
+
+====================================================================================================
+### 20 ALG | Overall | 2020 | chars=715 pages=1 | 2020 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+Overall Exam Problems for Algebra, Number Theory and Combinatorics
+1. Show that any ﬁnite abelian group is the Galois group of some ﬁeld extension of Q.
+Give an example of a ﬁnite extension of Q with non-abelian Galois group.
+2. Let p > 2 be a prime number and Fp the ﬁnite ﬁeld with p elements.
+i) Determine the order of the group SL2(Fp).
+ii) How many Sylow p-subgroups are there in SL2(Fp)?
+iii) Show that there exists an element µ ∈Fp which is not a square. For a, b ∈Fp with
+a2 −b2µ = 1, consider the following element in SL2(Fp):
+Ma,b :=
+
+a
+bµ
+b
+a
+
+.
+Show that Ma,b is conjugate to Ma′,b′ in SL2(Fp) if and only if a = a′ and b = ±b′.
+iv) How many conjugacy classes of the form Ma,b are there in SL2(Fp)?
+1
+
+====================================================================================================
+### 21 ALG | Overall | 2021 | chars=2708 pages=2 | 2021 Algebra (Overall) (S).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number Theory and Combinatorics
+(Overall individual round, 2021)
+Problem 1. (Overall individual round).
+For any n ≥1, let A denote the C-
+algebra consisting of n × n upper triangular complex matrices {
+
+
+
+∗
+∗
+∗
+0
+∗
+∗
+0
+0
+∗
+
+
+
+n×n
+}.
+We shall consider the left A-modules (that is, C-vector spaces V with C-algebra
+homomorphisms ρ : A →End(V )).
+(1) Show that all simple modules of A are ﬁnite dimensional.
+(2) Determine all simple modules of A.
+Problem 2. (Overall individual round).
+Let p be a prime number.
+Prove the
+following theorem of Euler: the equation p = x2 +3y2 has a solution with x, y ∈Z if
+and only if p = 3 or p ≡1 (mod 3). (You may use the fact that the ring of integers
+of Q(√−3) is a principal ideal domain.)
+1
+
+=== page 2 ===
+Solution to Problem 1 (Overall individual round). (1) Let Eij denote the ma-
+trix whose (i, j)-entry is 1 and other entries vanish. Then Eij, i ≤j, form a basis
+of A. In particular, A is ﬁnite dimensional.
+Let V denote a non-zero module. Take any 0 ̸= v ∈V . Then Av is a non-zero
+submodule of V . And Av is ﬁnite dimensional because A is. Since V is simple,
+V = Av is ﬁnite dimensional.
+(2a) Let Si, 1 ≤i ≤n, denote the 1-dimensional modules such that Eii acts by
+1 and Eij, Ejj acts by 0 for j ̸= i. They are simple modules.
+(2b) It remains to show that the Si we have constructed are the only simple
+modules. Let S denote any ﬁnite dimensional simple module.
+We claim that Eij, i < j, form a nilpotent 2-sided ideal N (because the product
+of an upper triangular matrix with a strictly upper one is strictly upper).
+Then N acts on S by 0 (To see this, NS is a submodule of S. It is proper because
+N is nilpotent. Since S is simple, we deduce that NS = 0.)
+Note that the action of Eii commute with each other (and with the 0-action by
+Eij), thus they are module endomorphisms. By Schur’s Lemma, Eii acts on S as a
+scalar. Since EiiEjj = 0 for i ̸= j, at most one Eii acts as a non-zero scalar. Recall
+that 1 = P
+i Eii acts by the identity. The claim follows.
+Solution to Problem 2 (Overall individual round). The “only if” part is clear.
+We prove the “if” part. For p = 3 one can take (x, y) = (0, 1). Assume p ≡1
+(mod 3). By quadratic reciprocity, (−3
+p ) = (p
+3) = 1. Thus p splits in Q(√−3). The
+ring of integers of Q(√−3) is Z[ω], where ω = −1+√−3
+2
+. Since Z[ω] is a PID, there
+exists π ∈Z[ω] such that NQ(√−3)/Q(π) = p. We claim that at least one of π, πω,
+and πω2 belongs to Z[√−3] and thus is of the form x+y√−3 with x, y ∈Z. Taking
+norms, we then get p = x2 + 3y2.
+To prove the claim, we may assume π = a+b√−3
+2
+, where a and b are odd integers.
+Then either 4 | a −b (which is equivalent to πω ∈Z[√−3]) or 4 | a + b (which is
+equivalent to πω2 ∈Z[√−3]).
+2
+
+====================================================================================================
+### 22 ALG | Overall | 2022 | chars=541 pages=1 | 2022 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+(Overall individual round)
+Problem 1. Prove that C[x, y]/(x2+y2−1) is a unique factorization domain (UFD),
+but R[x, y]/(x2 + y2 −1) is not a UFD.
+Problem 2. Consider the equation f(x) = x3 −x−1 ∈Z[x]. Let p ̸= 23 be a prime
+number.
+(a) Prove that f(x) = 0 (mod p) has exactly one root in Fp if and only if
+
+p
+23
+
+= −1.
+(b) Let K/Q be the Galois closure corresponding to f. For p as in (a), determine
+the values of e, f, g in the prime decomposition of pOK.
+.
+1
+
+====================================================================================================
+### 23 ALG | Overall | 2023 | chars=535 pages=1 | 2023 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Math Contest
+Final Contest
+2023
+Algebra, Number Theory and Combinatorics
+Problem for Individual Overall Contest
+Problem 1.
+(1) Express the quotient ring
+Z[x1, x2, x3]/(x1x2 + x2
+3 −2)
+as
+Z[x1, · · · , xn]/(f1, · · · , fm)
+for some integers n and m such that
+(a) fi are square-free polynomials;
+(b) deg f ≤2;
+(c) all coeﬀicients of fi are equal to 1.
+for all 1 ≤i ≤k.
+(2) Can every quotient ring Z[z1, · · · , zk]/I be expressed as Z[x1, · · · , xn]/(f1, · · · , fm)
+satisfying the above three conditions as in (1)?
+1
+
+====================================================================================================
+### 24 ALG | Overall | 2024 | chars=385 pages=1 | 2024 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number Theory and Combinatorics
+Overall
+Problem 1. Let G be a finite group. Let k be a field of positive characteristic p. Show
+that the following assertions are equivalent:
+(1) G is a p-group;
+(2) for every non-zero k-representation V of G, V G ̸= 0.
+Problem 2. (a) Construct a diffeomorphism GL3(R) →O(3) × R6.
+(b) Propose an analogous statement for GLn(C), and prove it.
+1
+
+====================================================================================================
+### 25 ALG | Overall | 2025 | chars=396 pages=1 | 2025 Algebra (Overall).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number theory and Combinatorics
+Overall Contest
+Question 1. Let G be a non-abelian ﬁnite p-group (p being a prime). Show
+that [G : G′] ≥p2, where G′ = [G, G].
+Question 2. Suppose that B is a non-degenerate symmetric bilinear form on
+V = Cn, T is a nilpotent linear operator on V whose Jordan form is a single
+block, such that B(Tv, w) = −B(v, Tw) for all v, w ∈V . Show that n is odd.
+1
+
+====================================================================================================
+### 26 ALG | Team | 2012 | chars=671 pages=1 | 2012 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+GROUP TEST: ALGEBRA
+(1)(a) The group SO(2) acts on C[X, Y ] as follows:
+µ
+cos θ
+sin θ
+−sin θ cos θ
+¶
+·P(X, Y ) = P(cos θX+sin θY, −sin θX+cos θY ).
+Prove that its invariant subspace C[X, Y ]SO(2) =
+C[X2 + Y 2].
+(b) Let S = C[X, Y ]e−π(X2+Y 2) and let F be the
+Fourier transformation:
+Fφ(x, y) =
+Z
+R2 φ(u, v)e2πi(ux+vy)dudv.
+Prove that for any P ∈C[X, Y ], φ ∈S,
+F(P · φ) = P
+µ ∂
+∂x, ∂
+∂y
+¶
+F(φ).
+(c) Describe the space C
+h
+∂
+∂x, ∂
+∂y
+iSO(2)
+.
+(2)(a) What is the Galois group of Q(ζ7) over Q, where
+ζ7 = e2πi/7?
+(b) Find a Galois extension ﬁeld F of Q such that
+Gal(F/Q) ∼= Z/3Z? Are there inﬁnitely many
+such Galois extensions?
+(c) Find the quadratic subﬁeld of Q(ζ7)?
+1
+
+====================================================================================================
+### 27 ALG | Team | 2013 | chars=763 pages=1 | 2013 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+Algebra and Number Theory
+Team Oral Test
+1. Let E/F be a ﬁeld extension. Let A be an m × m matrix with entries in
+E such that tr(An) belongs to F for every n ≥2. Show that tr(A) belongs
+to F by following steps.
+a Show that there is a polynomial P(x) = P
+i aixi ∈¯E[x] with a0 = 1
+such that
+X
+i
+aitr(Ai+k) = 0,
+∀k ≥1.
+b Show that we have a polynomial Q = P
+i bixi ∈F[x] with b0 = 1 such
+that
+X
+i
+bitr(Ai+k) = 0,
+∀k ≥2.
+c Let t ∈¯E be an eigenvalue of A with multiplicity m invertible in F.
+Show that Q(t) = 0.
+d Show that tr(A) belongs to F.
+Hint: Let ti ∈¯E be all distinct non-zero eigen values of A with multiplicity
+mi invertible in F. Then
+tr(An) =
+X
+i
+mitn
+i .
+2.
+a Prove that R[x, y]/(x2 + y2 −1) is not a UFD.
+b Prove that C[x, y]/(x2 + y2 −1) is a PID.
+1
+
+====================================================================================================
+### 28 ALG | Team | 2015 | chars=701 pages=1 | 2015 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+1. p´ƒê§w´pgü Š"-Fp•p•"
+(a) y²Z[w]/(1 −w) ÓuFp"
+(b) ϕ ∈Fp[x]´gêupš"õ‘ª"y²ϕ3Fp¥Š-ê˜
+½uϕš"Xê‡ê"
+(c) I = {a1, · · · , an}, J = {b1, · · · , bn}•Fpü‡nf8"y²:
+n × n Ý
+(waibj)i,j Œ_"
+2. (a) P(x) = anxn+an−1xn−1+· · ·+a1x+a0 ∈Z[x] ÷van ≥1, an−1 ≥0§
+éi ∈{0, 1, · · · , n −2},
+|ai| ≤H§Ù¥H•~ê"-α•P(x)˜‡
+EŠ"y²µ½öα ¢Üš§½ö|α| < 1+√1+4H
+2
+"
+(b) b > 2 •ê§p´ƒê"•Äpb –?›Ðm
+p = anbn + an−1bn−1 + · · · + a1b + a0
+y²: õ‘ªP(x) = anxn + an−1xn−1 + · · · + a1x + a0 3Q þ
+ØŒ"
+3. ^< ·, · >L«CnIOSÈ"é?¿A ∈Mn(C)§-
+W(A) = {< x, Ax >; ∥x∥= 1}.
+z1, z2, z3 ∈C…|zi| = 1, △(z1, z2, z3) L«±z1, z2, z3•º:n/"
+Áy²µW(A) ⊆△(z1, z2, z3) …=•3Œ½Ý
+A1, A2, A3
+∈Mn(C) ÷v
+A = z1A1 + z2A2 + z3A3,
+3
+X
+i=1
+Ai = I.
+1
+
+====================================================================================================
+### 29 ALG | Team | 2016 | chars=1055 pages=1 | 2016 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+PROBLEMS FOR ALGEBRA SECTION
+1. Team test
+Problem 1. Let A be a ﬁnitely generated Z-algebra and let m be a maximal ideal of A. Show that A/m
+is a ﬁnite ﬁeld.
+Problem 2. Let C be a category. Denote by 1C : C →C the identity functor on C. A natural transform
+from 1C to 1C consists of a collection {ηX}X∈Ob(C) such that
+• for any X ∈Ob(C), ηX is a morphism from X to X;
+• for any morphism f : X →Y in C, the following square is commutative:
+X
+ηX
+−−−−→X
+fy
+yf
+Y
+ηY
+−−−−→Y.
+We call the set of all natural transforms from 1C to 1C the center of C.
+(1) Determine the center of the category of abelian groups.
+(2) Determine the center of the category of groups.
+Problem 3. Let W be the Weyl algebra over a ﬁeld k, which is the associative algebra generated by
+x1, ..., xn, y1, ..., yn such that [xi, xj] = [yi, yj] = 0 and [xi, yj] = δi
+j for all 1 ≤i, j ≤n. (δi
+j = 0 or 1 is the
+Kronecker symbol.)
+(1) In case char(k) = 0, show that W does not have ﬁnite dimensional representation.
+(2) In case char(k) > 0, ﬁnd all ﬁnite dimensional representations of W.
+1
+
+====================================================================================================
+### 30 ALG | Team | 2017 | chars=638 pages=1 | 2017 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+ALGEBRA (TEAM)
+Problem 1. Let G “ GL2pCq.
+(1) Prove all ﬁnite dimensional representations of G over C are completely reducible.
+(2) Find all irreducible ﬁnite dimensional representations of G over C.
+Problem 2. Let K and L over Q be ﬁeld extensions of prime degrees. Show that if
+rKL : Qs ă rK : QsrL : Qs, then the Galois closure of K{Q equals to the Galois closure
+of L{Q.
+Problem 3. Let G be a ﬁnite group. Let N be a minimal nontrivial normal subgroup of
+G (i.e., N does not properly contain any other nontrivial normal subgroup of G). Show
+that N is isomorphic to a direct product L ˆ ... ˆ L of copies of a single simple group L.
+1
+
+====================================================================================================
+### 31 ALG | Team | 2018 | chars=1256 pages=2 | 2018 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+YAU COLLEGE MATH CONTESTS TEAM ALGEBRA 2018
+Problem 1
+Let di (1 ≤i ≤n) be positive integers such that Pn
+i=1
+1
+di > 1. For a prime
+number p, let Fp be the ﬁnite ﬁeld of p elements. For
+f(x1, · · · , xn) = xd1
+1 + xd2
+2 + · · · + xdn
+n ,
+prove that the number
+N := #{(x1, · · · , xn) ∈Fn
+p|f(x1, · · · , xn) = 0}
+is divisible by p. Hint: consider the sum P
+(x1,··· ,xn)∈Fnp f(x1, · · · , xn)p−1.
+Problem 2
+Let G be a ﬁnite group acting on the polynomial ring R = k[x1, · · · , xn] with
+n variables x1, · · · , xn. Let S := {f ∈R | g · f = f, ∀g ∈G} be the subring of
+invariants. Prove that S is a ﬁnitely generated k-algebra.
+Problem 3
+Let k be any ﬁeld. Let R = k[[t]] be the ring of formal power series over k. Let
+M be a ﬁnitely generated free R-module. Let v1, · · · , vn ∈M, and denote their
+images in M/tM by ¯v1, · · · , ¯vn. Assume that {¯v1, · · · , ¯vn} is a basis of the vector
+space M/tM over k. Prove that {v1, · · · , vn} is an R-basis of the module M.
+Remark. This is a special case of Nakayama’s lemma.
+Problem 4
+Let µ(t) ∈k[t] be the minimal polynomial of A ∈Mn(k) and
+WA = { AX −XA | ∀X ∈Mn(k) } ⊂Mn(k).
+1
+
+=== page 2 ===
+2
+YAU COLLEGE MATH CONTESTS TEAM ALGEBRA 2018
+Prove that
+dim(WA) ≤n2 −deg(µ(t))
+and the equality holds if and only if deg(µ(t)) = n.
+
+====================================================================================================
+### 32 ALG | Team | 2019 | chars=2651 pages=2 | 2019 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+S.T. Yau College Student Mathematics Contests 2019
+Algebra and Number Theory Team
+1.
+(a) Let p be a (positive) prime integer, and P ∈Q[X] an irreducible polynomial of
+degree p having two complex conjugate roots and (p−2) real roots. Let K the subﬁeld of C
+generated by the roots of P. Prove that K is a Galois extension of Q, whose Galois group
+is the symmetric group on p elements.
+(b) What is the Galois group of the polynomial P(X) = X5 −6X + 3?
+2.
+Let K be a nonalgebraically closed ﬁeld. Let f1, f2, . . . , fm ∈K[x1, . . . , xn] and let
+S ⊂Kn be the set of solutions of the system of equations f1 = · · · = fm = 0.
+Show that
+there exists a polynomial P such that S is the set of solutions of the equation P = 0.
+3.
+(a) Let K be a ﬁeld and K[X] the ring of polynomials with coeﬃcients in K. Deﬁne
+v0 : K[X] −{0} →N by the rule
+v0
+  X
+0≤k≤d
+akXk 
+= min{ k| ak ̸= 0 } .
+Fix a real number C > 1 (the particular choice will not matter).
+For p ∈K[X], deﬁne
+∥p∥0 = c−v0(p) if p ̸= 0 , and ∥0∥0 = 0. Show that
+d0(p, q) = ∥p −q∥0
+deﬁnes an ultrametric on K[X]. Recall the notion of an ultrametric: a metric d( , ) such
+that d(p, r) ≤max
+ d(p, q) , d(q, r)
+
+for all p, q, r ∈K[X].
+(b) A formal power series with coeﬃcients in K is a formal sum
+∞
+X
+k=0
+ak Xk ,
+ak ∈K .
+The set K[[X]] of all formal power series is a commutative ring with 1 under formal
+addition and multiplication of series. Note that every polynomial can be regarded as a
+formal power series, with only ﬁnitely many non-zero coeﬃcients; thus K[X] ⊂K[[X]].
+Show that v0, ∥∥0, and d0 extend naturally from K[X] to K[[X]] and identify K[[X]]
+with the completion of K[X]: a metric space containing K[X] whose metric agreeds
+with d0 on K[X], such that K[X] is dense in the completion.
+(c) Prove that K[[X]], equipped with the ultrametric d0( , ), is a compact metric space,
+provided the ﬁeld K is ﬁnite.
+4.
+A integer n is said to be a Congruent Number if it is the area of a right triangle with
+each of the three sides rational numbers. For example, 6 is a congruent number since it is
+the area of the right triangle of sides length (3, 4, 5).
+Prove the following:
+1
+
+=== page 2 ===
+(a) n ∈N is a congruent number if and only if there exist m, a, b ∈N such that
+nm2 = ab(a + b)(a −b)
+(b) For each of r ∈{1, 2, 3, 5, 6, 7}, there exists inﬁnitely many square free congruent
+numbers n ≡r (mod 8).
+5.
+Let R be a commutative ring, and suppose
+0 →K −→P
+f
+−→M →0
+and
+0 −→K′ −→P ′ f′
+−→M →0
+are short exact sequences with P and P ′ projective. Prove that K ⊕P ′ is isomorphic to
+K′ ⊕P.
+Hint.
+With the indicated f and f ′, consider Z = {(p, p′) ∈P ⊕P ′; f(p) = f ′(p′)} and the
+natural maps from Z to P and P ′.)
+2
+
+====================================================================================================
+### 33 ALG | Team | 2023 | chars=518 pages=1 | 2023 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Math Contest
+Final Contest
+2023
+Algebra, Number Theory and Combinatorics
+Problems for Group Contest
+Problem 1. Prove that, for any integer n ≥1, there exists a unique subgroup of (Q/Z, +)
+of order n.
+Problem 2. Let p be a prime, Fpk the finite field of pk elements, and ζp a primitive p-th
+root of unity in C. For a positive integer d, define the algebraic integer
+Sk(d) :=
+∑
+x∈Fpk
+ζTrk(xd)
+p
+∈Z[ζp],
+where Trk is the trace map from Fpk to Fp. Assume that d divides pk−1
+p−1 . Prove that
+Sk(d) ∈Z.
+1
+
+====================================================================================================
+### 34 ALG | Team | 2024 | chars=815 pages=1 | 2024 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Algebra, Number Theory and Combinatiorics
+Team
+Problem 1. Find all the diagonalisable invertible n×n complex matrices A with real eigenvalues
+such that
+AT −I = A + A−1.
+Problem 2. For any f ∈Q[x], we let rad(f) be the product of all prime polynomials dividing f.
+(This is unique up to nonzero scalar multiple.)
+Let P, Q, R ∈Z[x] be nonconstant relatively-prime polynomials that satisfy P +Q = R. Prove
+that
+deg R < deg rad(PQR).
+Problem 3.
+(1). Consider the proﬁnite group A = bZ = lim
+←−n Z/nZ. Show that a subgroup of A
+is open if and only if it is of ﬁnite index.
+(2). Let p be a prime number, N be the set of natural numbers, B = Q
+N Z/pZ, equipped with
+the product topology. Does the analogous equivalence in (1) above holds for B? Justify your
+assertion.
+1
+
+====================================================================================================
+### 35 ALG | Team | 2025 | chars=901 pages=1 | 2025 Algebra (Team).pdf
+====================================================================================================
+=== page 1 ===
+Algebra, Number theory and Combinatorics
+Team Contest
+Question 1. Fix positive integers 0 < k < n. Denote by Vk,n the space of k×n
+real matrices of rank k. Given A ∈Vk,n, we write A =
+ v1
+· · ·
+vi
+· · ·
+vn
+
+where vi is the i-th column vector of A. Let
+A∞=
+ · · ·
+v1
+· · ·
+vi
+· · ·
+vn
+· · ·
+
+be the k × ∞matrix that is the cyclic extension of A, i.e. vi+dn = vi for any
+d ∈Z. Deﬁne a function fA : Z →Z by
+fA(i) = min{j ≥i|vi ∈Span(vi+1, vi+2, . . . , vj)}.
+Note that span of the empty set is the zero space. Show that
+1. fA is bijective.
+2.
+n
+X
+i=1
+fA(i) =
+n + 1
+2
+
++ k · n.
+Question 2. For p a prime number, we write Qp the ﬁeld of p-adic numbers.
+1. Show that the polynomials f(X) = X4 +9 ∈Q3[X] and g(X) = X8 +9 ∈
+Q3[X] are irreducible.
+2. Let K/Q3 be a splitting ﬁeld of g(X). Determine [K : Q3].
+Question 3. Prove that GLn(Z) contains, up to isomorphism, only ﬁnitely
+many ﬁnite subgroups.
+1
+
+====================================================================================================
+### 36 ANA | Individual | 2015 | chars=716 pages=1 | 2015 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+Problems for 24/7
+1. Show that the series
+2 sin 1
+3x + 4 sin 1
+9x + · · · + 2n sin
+1
+3nx + · · ·
+converges absolutely for x ̸= 0 but does not converge uniformly on any interval (0, ϵ) with
+ϵ > 0.
+2. Suppose that f(t) ∈C(n)[0, 1]. If
+Z 1
+0
+f(t)tj dt = 0,
+j = 1, 2, . . . , n,
+prove that ∃ξ ∈(0, 1) such that f (n)(ξ) = 0.
+3. (a) Suppose that ∆= {z ∈C : |z| < 1}. Suppose f : ∆→∆is an analytic function and
+can be extended continuously to an arc I ⊂∂∆. Prove that if f|I is constant, then f
+is constant on ∆.
+(b) Can you prove a similar result if D is a Jordan domain?
+4. Let L∗denote Lebesgue outer measure. What are the (not necessarily measurable) sets
+E such that L∗(E ∩[a, b]) ≤(b −a)/2 for all intervals [a, b]?
+
+====================================================================================================
+### 37 ANA | Individual | 2016 | chars=1106 pages=1 | 2016 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+ANALYSIS 2016.
+1. Individual
+Problem 1.1. Suppose that f is analytic on ∆= {|z| < 1} and |f(z)| ≤1 for z ∈∆. If
+f(1
+2) = f(−1
+2) = 0, then
+|f(0)| ≤1
+4.
+Problem 1.2. Let a1 = sin(x) where x ∈(0, π
+2 ). For n ≥2, an = sin(an−1). Show that
+the series
+∞
+X
+n=1
+a2
+n
+is divergent.
+Problem 1.3. Let Lp[0, 1] be the space of Lp-integrable functions on [0, 1] where
+∥f∥p =
+µZ 1
+0
+|f|pdx
+¶1/p
+,
+p > 0.
+Show the ∥• ∥p satisﬁes the parallelogram law if and only if p = 2.
+Problem 1.4. Find all the bounded solutions of
+
+
+
+
+
+∆u(x, y) = 0,
+for
+(x, y) ∈R2
++,
+u(x, 0) =
+(
+1, x > 0,
+0, x < 0
+Problem 1.5. Suppose f(x) ∈C[0, +∞), and for any non-negative real number a, we
+have
+(1)
+lim
+x→+∞(f(x + a) −f(x)) = 0.
+Show that there exist g(x) ∈C[0, +∞) and h(x) ∈C1[0, +∞) such that f(x) = g(x)+h(x)
+and
+(2)
+lim
+x→+∞g(x) = 0,
+lim
+x→+∞h′(x) = 0.
+Problem 1.6. Let f be a Riemann integrable function on [−π, π] with Fourier series
+(3)
+f(x) ∼
+∞
+X
+n=−∞
+aneinx.
+Suppose
+|an| ≤K
+|n|
+for some positive constant K and all n ̸= 0. Show that
+(4)
+¯¯¯¯¯
+N
+X
+n=−N
+aneinx
+¯¯¯¯¯ ≤
+sup
+y∈[−π,π]
+|f(y)| + 2K
+for all x ∈[−π, π] and all N ∈N.
+
+====================================================================================================
+### 38 ANA | Individual | 2017 | chars=1650 pages=2 | 2017 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Analysis and Diﬀerential Equations
+Individual
+Please solve the following problems.
+1. Suppose f(x) is a positive and continuous function over [a, b] and g(x) is a positive
+and decreasing function over [a, b]. Prove that
+R b
+a xf(x)g(x)dx
+R b
+a f(x)g(x)dx
+≤
+R b
+a xf(x)dx
+R b
+a f(x)dx
+.
+2. Let E be a closed subset of Rn and
+Er = {x ∈Rn : d(x, E) = r},
+for r > 0.
+Prove that Er is measurable and is of Lebesgue measure zero.
+3. (1). Prove that
+w −→z =
+Z w
+0
+(1 −xn)−2
+ndx
+is a conformal mapping from the unit disk onto the interior of a regular n-gon Γ.
+(2). Find an explicit formula for the boundary value problem of the Laplace equation
+over an n-gon Γ, where φ is a continuous function on ∂Γ:
+(
+∆u = 0,
+u|∂Γ = φ.
+4. Prove the uniqueness of the following problem for u(x, t) of
+
+
+
+
+
+
+
+
+
+ut = uxx,
+in
+(−1, 1) × (0, +∞),
+u(±1, t) = 1,
+for
+t > 0,
+u(x, 0) = 0,
+for x ∈(−1, 1),
+u is uniformly bounded.
+(∗)
+Prove that the last condition (∗) is necessary for the result.
+5. Let (v, u)(x, t) (0 ≤x ≤1, t ≥0) with v > 0 for 0 ≤x ≤1, t ≥0 be the C∞smooth
+solution of the following initial boundary value problem
+
+
+
+
+
+vt −ux = 0,
+ut +
+¡ 1
+vγ
+¢
+x =
+¡ ux
+v
+¢
+x ,
+0 < x < 1, t > 0
+¡ ux
+v −1
+vγ
+¢
+(0, t) =
+¡ ux
+v −1
+vγ
+¢
+(1, t) = 0,
+t > 0
+v(x, 0) = v0(x), u(x, 0) = u0(x), 0 ≤x ≤1.
+where γ > 1 is a constant.
+Prove that
+1
+
+=== page 2 ===
+2
+(1)
+Z 1
+0
+µ1
+2u2 +
+1
+γ −1v1−γ
+¶
+(x, t)dx ≤
+Z 1
+0
+µ1
+2u2
+0 +
+1
+γ −1v1−γ
+0
+¶
+(x)dx,
+for
+t > 0.
+(2) there exist positive constants c1, c2, c3, c4 independent of x and t such that
+c1v0(x)
+¡
+1 + c2v−γ
+0 (x)t
+¢ 1
+γ ≤v(x, t) ≤c3v0(x)
+¡
+1 + c4v−γ
+0 (x)t
+¢ 1
+γ
+for 0 < x < 1, t > 0.
+
+====================================================================================================
+### 39 ANA | Individual | 2018 | chars=2039 pages=2 | 2018 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Individual
+Please solve the following problems.
+1. A map f : A →Rn, A ⊂Rm is a (L−)Lipschitz map if there is a constant L < ∞
+such that
+|f(x) −f(y)| ≤L|x −y| for all x, y ∈A.
+The smallest such constant L is called the Lipschitz constant of f and denoted by
+Lip(f).
+1) Let f : A →R,A ⊂Rm. Let G = {(x, f(x)) : x ∈A} ⊂Rm × R denote its graph.
+Suppose that there exists α > 0, such that for any z ∈G, the cone
+Cz,α := z + {(y1, y2) ∈Rm × R : |y2| > α|y1|} ⊂Rm × R
+does not meet G. Prove that f is Lipschitz, with Lip(f) ≤α.
+2) Suppose that f : A →R, A ⊂Rm is an L-Lipschitz map. Prove that f can
+be extended to a L-Lipschitz map on Rm, that is, there exists an L-Lipschitz map
+g : Rm →R, such that g⌊A= f.
+2. Let D be a region in the complex plane, z0 a point in D. Let U be the open unit
+disk. If D is simply connected and D ̸= C, then there exists at least one univalent
+function from f : D →U such that f
+′(z0) > 0.
+You can not use Riemann mapping theorem directly.
+3. Let P(x) be polynomial of degree n. Show that
+|P(0)| ≤C
+Z 1
+−1
+|P(x)|dx
+4. Prove uniqueness of solutions to the following problem
+∆u + √u = 0 in Ω
+1
+
+=== page 2 ===
+2
+u > 0 in Ω
+u = 0 on ∂Ω
+5. Let ℓ2 be the Hilbert space of all square summable complex sequences x = (xk)k≥1,
+equipped with the following inner product and norm
+⟨x, y⟩=
+X
+k≥1
+xk yk and ∥x∥=
+  X
+k≥1
+|xk|21/2 .
+Let u : ℓ2 →ℓ2 be the linear operator deﬁned by
+∀x = (xk)k≥1 ∈ℓ2,
+u(x) =
+ ∞
+X
+k=1
+xk
+j + k
+
+j≥1.
+The aim of this exercise is to calculate the norm ∥u∥.
+a) Let ϕ be the 2π-periodic function deﬁned by ϕ(t) = i(π −t) for 0 ≤t < 2π, where
+i = √−1. Show that
+X
+j,k≥1
+xjyk
+j + k = 1
+2π
+Z 2π
+0
+  X
+j≥1
+xje−ijt  X
+k≥1
+yke−ikt
+ϕ(t)dt ,
+∀x, y ∈ℓ2.
+b) Deduce that u is bounded and ∥u∥≤π.
+c) For any given n ≥1 let an = (1,
+1
+√
+2, · · · ,
+1
+√n, 0, 0, · · · ). Show that
+⟨u(an), an⟩≥π ln n + O(1).
+Deduce ∥u∥≥π.
+d) For any given n ≥1 let an = (1,
+1
+√
+2, · · · ,
+1
+√n, 0, 0, · · · ). Show that
+⟨u(an), an⟩≥π ln n + O(1).
+Deduce ∥u∥≥π.
+
+====================================================================================================
+### 40 ANA | Individual | 2019 | chars=1528 pages=1 | 2019 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+Question 1.
+Let Mn(C) be the algebra of all n × n matrices of complex entries. Suppose E, F ∈Mn(C)
+are projections, i.e., E, F are selfadjoint matrices so that E = E2 and F = F 2.
+Assume that
+||E −F|| ≤1/2, where || · || is the operator norm. Show that there is a unitary matrix U such that
+UEU ∗= F.
+Question 2. Let E be a measurable subset of Rd with mes(E) < +∞, g is a measureable function
+on E.
+(a) Suppse that for all f ∈L1(E), there holds f(x)g(x) ∈L1(E). Then g ∈L∞(E).
+(b) Given g ∈L∞(E), we have
+∥g∥L∞=
+sup
+∥f∥L1=1
+{|
+Z
+E
+f(x)g(x)dx|}
+Question 3.
+Let u be a harmonic function over {z ∈C | 0 < |z| < 1}, prove there exist constants α, β such
+that for all r,
+1
+2π
+Z
+|z|=r
+udθ = α log r + β.
+Question 4.
+Let D = (0, 1) × (0, ∞). Find all the solutions:
+
+
+
+∆u
+=
+0 in D
+u
+>
+0 in D
+u
+=
+0 on ∂D
+Question 5. Consider Legendre polynomials (up to a multiple constant), i.e.,
+P0(x) = 1,
+Pn(x) = dn
+dxn
+ (x2 −1)n
+,
+n ≥1,
+1) Show that Pn is orthogonal to all polynomials with degree less than n in the sense
+Z 1
+−1
+Pn(x)P(x)dx = 0
+if degP < n.
+2) Show that all roots of Legendre polynomial Pn(x) are real, simple and lie in (−1, 1).
+3) Consider approximation of integral
+R 1
+−1 f(x)dx ≈Pn
+i=1 wif(xi).
+How to choose n points
+x1, x2, · · · , xn on (−1, 1) and the weights w1, w2, · · · , wn such that the approximation of the above
+integral is exact for all polynomials with degree ≤2n −1?
+4) Given a function, say f(x) = sin x, ex or e−x2, how to ﬁnd a degree 2 polynomial P(x) such
+that
+R 1
+−1 |f(x) −P(x)|2dx is minimized?
+1
+
+====================================================================================================
+### 41 ANA | Individual | 2020 | chars=920 pages=1 | 2020 Analysis (Individual)-II.pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Individual-II
+Please solve the following problems.
+1. (a) Assume that the function f : [a, b] →R with a < b is diﬀerentiable and satisﬁes
+|f
+′(t)| ≥β for all t ∈[a, b] for some β > 0. Prove the following estimate
+m{t ∈[a, b] : |f(t)| ≤ε} ≤2ε
+β
+for ε > 0,
+where m{B} denotes the Lebesgue measure of set B.
+(b) Assume that the function f : [a, b] →R with a < b is q-times continuously
+diﬀerentiable and satisﬁes |f (q)(t)| ≥β for all t ∈[a, b] for some positive integer q and
+β > 0. Prove the following estimate
+m{t ∈[a, b] : |f(t)| ≤ε} ≤4
+
+q! ε
+2β
+ 1
+q
+for ε > 0,
+where m{B} denotes the Lebesgue measure of set B.
+2. Suppose that Ep(z) = (1 −z) exp(z + z2
+2 + · · · + zp
+p ), p ∈N. Then prove that:
+|1 −Ep(z)| ≤|z|p+1, |z| ≤1.
+3. Solve the following ordinary diﬀerential equation by elementary integration
+xdy
+dx =
+p
+x6 −y2 + 3y.
+1
+
+====================================================================================================
+### 42 ANA | Individual | 2020 | chars=852 pages=1 | 2020 Analysis (Individual)l-I.pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Individual-I
+Please solve the following problems.
+1. (a) Assume that f is a non-decreasing function in [0, 1]. Show that f
+′ is integrable
+and that
+R 1
+0 f
+′(x)dx ≤f(1) −f(0). (b) Let fn(x) be a sequence of non-decreasing
+functions in [0, 1], and F(x) = P∞
+n=1 fn(x) converges for all x ∈[0, 1]. Show that
+F
+′(x) = P∞
+n=1 f
+′
+n(x) almost everywhere.
+2. Suppose that Ω⊆C is a domain and the unit disk D ⊆Ω. Let f : Ω→C be
+holomorphic with f(0) = 0, and |f(eiθ)| ≥3 for any θ ∈R.
+If λ1, · · · , λN are all zeroes (counting multiplicities) of 1 −f(z) in D, then we have
+|λ1 · · · λN| < 1
+2.
+3. Let u satisfy
+n
+X
+i,j=1
+aijuij −u ≥0 in Rn
+where (aij) > 0 is a bounded and positive deﬁnite matrix. Furthermore assume that
+u(x) ≤2020 + |x|2020.
+Show that
+u(x) ≤0 in Rn.
+1
+
+====================================================================================================
+### 43 ANA | Individual | 2021 | chars=1507 pages=2 | 2021 Analysis (Individual)_5 questions.pdf
+====================================================================================================
+=== page 1 ===
+12th Oral Exam of S.-T. Yau College Student Mathematics Contests 2021
+Analysis and diﬀerential equations
+Individual Contest
+(∗The forth and ﬁfth problems are optional)
+1. Let Z be the set of integers. Recall that ⃗a := {aj}j∈Z ∈lq(Z) if and only if
+(P
+j∈Z |aj|q)
+1
+q < ∞. Answer the following questions and justify your answers:
+(i) Is the embedding l2(Z) →l4(Z) continuous ?
+(ii) Is the embedding l2(Z) →l4(Z) compact?
+(iii) Is the embedding l2(Z) →l4(Z) compact modulo translation? More pre-
+cisely, let {⃗an}n be a sequence in l2(Z) with ⃗an = {aj,n}j∈Z. Can one ﬁnd
+kn ∈Z for n ≥1, such that {⃗bn}n, with ⃗bn := {bj,n}j∈Z and bj,n = aj−kn,n
+has a convergent subsequence in l4(Z)?
+2. Let S1 be the unit circle in R2. For any v ∈S1, let πv : R2 →R : πv(x) = ⟨v, x⟩.
+Let A, B be two bounded open convex sets in R2 and λ1 be the Lebesgue measure
+on R1.
+(i) If for all v ∈S1, λ1(πv(A)) = λ1(πv(B)), can one conclude that A = B? Can
+one conclude that A = B modulo isometries?
+(ii) If for all v ∈S1, πv(A) = πv(B), can one say that A = B?
+Justify your answers.
+3. Assume that ρ ∈C1
+0(R3) satisﬁes ρ(x) ≥0 for x ∈R3 and
+∇(ρ4/3) + ρ∇φ = 0, on R3
+where
+φ(x) = −
+Z
+R3
+ρ(y)
+|x −y|dy.
+Evaluate the integral
+Z
+R3(3ρ4/3 + 1
+2ρφ)dx,
+and justify your answer.
+1
+
+=== page 2 ===
+4∗. Let D = {z, |z| < 1}. Determine Aut(D), the group of holomorphic automor-
+phisms of the unit disk.
+5∗. Assume that H is space with inner product, and xk
+w→x (k →∞). Prove that
+there exists a subsequence {xkn} ⊂{xk} such that
+xk1+xk2+···+xkn
+n
+→x(n →∞).
+2
+
+====================================================================================================
+### 44 ANA | Individual | 2022 | chars=1362 pages=1 | 2022 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Analysis and differential equations individual
+Problem 1. Assume U is a bounded smooth open set, q ∈[1, ∞) and fk ⇀f
+weakly in Lq(U)
+and fk →f
+a.e in U, then limk→∞
+ ∥fk∥Lq(U) −∥fk −f∥Lq(U)
+
+= ∥f∥Lq(U).
+Problem 2. Let Ωbe a proper (nonempty and ̸= C) region of C which is simply
+connected. Let D be the unit disc and z0 ∈Ω, and
+F = {f|f : Ω→D holomorphic, injective and f(z0) = 0}
+One strategy of proving the (existence part of the) Riemann mapping theorem is that
+the desired map f satisfies
+f ′(z0) = sup
+g∈F
+|g′(z0)|.
+Try to explain the proof following this strategy as detailed as possible.
+Problem 3. Assume that u solves the nonlinear heat equation
+ut = uxx
+u2x in R × (0, ∞)
+with ux > 0. Find a transformation which changes the above equation into a linear
+PDE.
+Problem 4. Let ϕ ∈C∞([0, T], Rn) be a solution of linear wave equation
+n
+X
+α,β=0
+gαβ∂α∂βϕ = F,
+where ∂α :=
+∂
+∂xα, α = 0, 1, 2, · · · , n, t = x0, gαβ, F are smooth functions in [0, T] × Rn,
+gαβ is symmetric and
+sup
+[0,T]×Rn
+X
+α,β
+|gαβ −ηαβ| <
+1
+2022,
+where η00 = −1, ηii = 1, i = 1, 2, · · · , n and ηαi = 0 otherwise. Show that there is a
+constant C depending only on n such that for any t ∈[0, T],
+∥∂ϕ(t, ·)∥L2(Rn) ≤C
+
+∥∂ϕ(0, ·)∥L2(Rn) +
+Z t
+0
+∥F(s, ·)∥L2(Rn)ds
+
+× exp
+ Z t
+0
+X
+α,β
+∥∂gαβ(s, ·)∥L2(Rn)ds
+!
+,
+here |∂f|2 := Pn
+α=0 |∂αf|2.
+
+====================================================================================================
+### 45 ANA | Individual | 2023 | chars=910 pages=1 | 2023 Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+Individual
+Please solve three out of the following four problems.
+1. Suppose ψ is a Schwartz function (i.e, sup(|x|k + 1)|ψ(l)(x)| < ∞, for all k, l ≥0 )
+with
+R ∞
+−∞|ψ(x)|2dx = 1. Then
+(
+Z ∞
+−∞
+x2|ψ(x)|2dx)(
+Z ∞
+−∞
+|ψ
+′(x)|2dx) ≥1
+4
+and equality holds if and only if ψ(x) = Ae−Bx2, B > 0 such that
+R ∞
+−∞|ψ(x)|2dx = 1.
+2. Suppose f is holomorphic in a neighbourhood Ωof the closed unit disc, except for
+a pole at z0 on the unit circle. Show that if
+∞
+X
+n=0
+anzn
+represents the power expansion of f in the open unit disc, then
+lim
+n→∞
+an
+an+1
+= z0.
+3. Consider the following planar system:
+(
+˙x = xy + x3,
+˙y = −y −2x2.
+Is the equilibrium (0, 0) stable or unstable? Justify your answer.
+4. Prove any bounded harmonic function u(x, y) deﬁned in the domain {y > x2} with
+Dirichlet boundary condition u(x, x2) = 0 must be 0.
+1
+
+====================================================================================================
+### 46 ANA | Individual | 2024 | chars=1736 pages=2 | 2024- Analysis (Individual)-new(1).pdf
+====================================================================================================
+=== page 1 ===
+Individual
+Problem 1. Let ϕ : (x, y) ∈U ⊂C →(u, v) ∈C be a smooth orientation
+preserving mapping near P ∈U, i.e. det(Dϕ(P)) > 0, where
+Dϕ(P) =
+
+ux
+vx
+uy
+vy
+
+.
+Dene ϕ¯z = 1
+2(ϕx + iϕy), ϕz = 1
+2i(ϕx −iϕy). Show that:
+a) µ := |ϕ¯z|
+|ϕz|(P) < 1.
+b) Dϕ(P) maps a circle to an ellipse. µ is the ratio of length of the short axe
+with the length of the long axe.
+Problem 2. Complete the following two parts:
+(i) Consider the following Cauchy problem:
+(
+ut −(a(x)ux)x = 0
+for x ∈R, t > 0,
+u|t=0 = u0(x),
+(1)
+where a(x) ∈C2 is bounded with a(x) ≥a0 > 0.
+(a) Let u(x, t) be the solution of the Cauchy problem with the following
+initial data:
+u0(x) =
+(
+1
+for x ∈[−1, 1],
+0
+otherwise.
+Does u(x, t) have zero points on the line t =
+1
+1000? Explain your reasons.
+(b) Is it possible to prepare some bounded initial data u0(x) such that the
+solution u(t, x) becomes
+u(x, 1) =
+(
+1
+for x ∈[−1, 1],
+0
+otherwise,
+at t = 1? Explain your reasons.
+(ii) Consider the following Cauchy problem:
+(
+utt −(a(x)ux)x = 0
+for x ∈R, t > 0,
+u|t=0 = u0(x),
+ut|t=0 = 0.
+(2)
+1
+
+=== page 2 ===
+where a(x) ∈C2 is bounded with a(x) ≥a0 > 0. Let u(x, t) be the solution of
+the Cauchy problem with the following initial data:
+u0(x) =
+(
+1
+for x ∈[−1, 1],
+0
+otherwise.
+Does u(x, t) have zero points on the line t = 1000? Explain your reasons.
+Problem 3.
+Let B ⊂Rn denote the open unit ball, n ≥2.
+Assume that
+v ∈C∞(B) and u ∈C∞(B \ {0}) satisfy
+∆u = 0
+in B \ {0},
+u > 0
+∆v = 0
+in B,
+u = v
+on ∂B.
+Prove that u ≥v on B \ {0}.
+Problem 4. Let ϕ ∈C∞
+c (R) be a compactly supported smooth function.
+a) Prove that
+lim
+λ→+∞
+Z +∞
+−∞
+eiλx2ϕ(x) dx = 0.
+b) Prove that there are constants α > 0 and C > 0 such that
+∀λ ≥1,
+
+Z +∞
+−∞
+eiλx2ϕ(x) dx
+ ≤Cλ−α.
+The constant C may depend on ϕ.
+2
+in B \ {0},
+
+====================================================================================================
+### 47 ANA | Individual | 2025 | chars=983 pages=1 | 2025-Analysis (Individual).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Differential Equations
+Individual
+Please solve at least three out of the following four problems.
+1. Let α > 0 be an irrational number. For any (a, b) ⊂[0, 1], prove that
+lim
+N→+∞
+1
+N #
+
+n ∈[0, N], n integer, {nα} ∈[a, b]
+	
+= b −a
+where {nα} = nα −⌊nα⌋is the fractional part of nα.
+2. Let
+Ω= { x + iy ∈C : x > 0, y > 0 }.
+Assume that f : Ω→C is a bounded continuous function on Ωand holomorphic on Ω
+such that
+∀x ∈[0, +∞],
+max{|f(x)|, |f(ix)|} ≤
+
+
+
+2
+if x ≤1,
+1
+if x > 1.
+Show that
+∀x + iy ∈Ω,
+|f(x + iy)| ≤2
+2
+π arctan
+1
+2xy .
+3. Suppose that V is a closed subspace of L2([0, 1]) and V ⊂C([0, 1]). Show that
+dim V < ∞.
+4. Consider a smooth and non-negative function u(x) on Rn with integer n ≥2.
+Supposing that ∆2u = ∆(∆u) = 0 where ∆u = Pn
+i=1
+∂2
+∂x2
+i u, prove that u(x) is a
+quadratic polynomial with the form
+u(x) =
+n
+X
+i=1
+ai(xi −bi)2 + a0
+where x = (x1, · · · , xn) ∈Rn, ai ≥0, and bi are some constants.
+1
+
+====================================================================================================
+### 48 ANA | Overall | 2015 | chars=540 pages=1 | 2015 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+Analysis questions 24/7 Evening
+1. Suppose that f : R →R is a function such that f(x + y) = f(x) + f(y) for all x, y ∈R.
+(a) Show that if f is continuous, then it is linear.
+(b) Show that if f is Borel measurable, then it is continuous and thus linear.
+2. Suppose that µ is a Borel measure of total mass 1, and let ˆµ(ξ) =
+R
+e−ixξµ(dx) be
+its Fourier transform. Show that if the ˆµ(ξ0) = 1 for some ξ0, then the support of µ is
+contained in a translation and dilation of Z, i.e., it is contained in {ak + b : k ∈Z} for
+some real a and b.
+1
+
+====================================================================================================
+### 49 ANA | Overall | 2016 | chars=718 pages=1 | 2016 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+ANALYSIS 2016.
+3
+3. All-round
+Problem 3.1. Let A be an N ×N positive deﬁnite symmetric matrix with N ≥2. Assume
+that there exists ε ∈(0, 1) with
+tr A ≤N + ε,
+det A ≥1 −ε.
+Then there exists a constant CN depending only on N such that
+∥A −I∥≤CN
+√ε,
+where ∥· ∥is the Hilbert-Schmidt norm, and I is the N × N identity matrix.
+Problem 3.2. Let N = {1, 2, · · · } be the set of positive integers. Let {en} be the standard
+orthonormal basis of ℓ2(N). Deﬁne Tn : ℓ2(N) →ℓ2(N) by
+(10)
+Tn(em) = enm.
+Prove that
+(1) The elements in {Tn, T ∗
+n} can commute with the elements in {Tm, T ∗
+m} if and only
+if (n, m) = 1.
+(2) Let T be a bounded linear operator which can commute with all Tn, T ∗
+n, then
+T = c · I for some constant c.
+
+====================================================================================================
+### 50 ANA | Overall | 2017 | chars=697 pages=1 | 2017 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+ANALYSIS 2017.
+1. All-around
+Problem 1.1. Let f : D →D be a holomorphic function, where D is the unit disk. If
+f(0) = 0, then
+|z| |f′(0)| −|z|
+1 −|f′(0)||z| ≤|f(z)| ≤|z| |f′(0)| + |z|
+1 + |f′(0)||z|
+Problem 1.2. Suppose f(x) is a convex function deﬁned on the whole real axis with the
+condition that
+|f(x)| ≤C(1 + |x|)
+for some constant C. Prove
+(1) limx→+∞
+f(x)
+x
+= α exists for some real number α.
+(2) There is a β such that f(x) ≤αx + β for x large.
+(3) Is there a constant γ such that
+f(x) ≥αx + γ
+for all x?
+Problem 1.3. Can you solve the equation
+(
+∆u =
+x
+x2+y2 ,
+in {(x, y) : x2 + y2 < 1},
+u = 0,
+on {(x, y) : x2 + y2 = 1}
+in the weak sense? What is the optimal continuity property of u?
+1
+
+====================================================================================================
+### 51 ANA | Overall | 2018 | chars=600 pages=1 | 2018 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Individual Overall
+Please solve the following problems.
+1. Let f be an analytic function in a neighborhood of ¯U where U = {|z| < 1}. Show
+that if f is real on ∂U, then f must be constant.
+2. Find the Green’s function for
+−u
+′′ = f
+u(0) = u(1), u
+′(0) = u
+′(1)
+∫1
+0
+u = 0,
+∫1
+0
+f = 0
+3. Let BR(0) = {x ∈Rn : |x| < R} for n > 2 and R > 0. Prove that there exists a
+constant C independent of R such that
+∫
+BR(0)
+|v(x)|2
+|x|2 dx ≤C
+∫
+BR(0)
+(|vr|2 + R−2v2)dx
+for any function v ∈C∞(BR(0)), where vr(x) = x·∇v
+|x| .
+1
+
+====================================================================================================
+### 52 ANA | Overall | 2019 | chars=397 pages=1 | 2019 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+Question 1. If the restriction of f(x, y), where (x, y) ∈R2, to each line in the plane is continuous,
+is f necessarily continuous?
+Question 2.
+Prove:
+π2
+sin2 πz = Σ∞
+n=−∞
+1
+(z−n)2 .
+Question 3.
+Let D = {(x, y) : x2 + y2 < 1}. Solve the equation
+
+
+
+∆u
+=
+cos(xy)
+p
+x2 + y2 in D
+u
+=
+0 on ∂D,
+Explain in what sense the equation holds and indicate where the equation holds in the classical
+sense.
+1
+
+====================================================================================================
+### 53 ANA | Overall | 2020 | chars=632 pages=1 | 2020 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Individual Overall
+Please solve the following problems.
+1. Construct real numbers through decimal numbers. Prove that a bounded increasing
+sequence of decimal numbers has a limit of decimal number.
+2. Let B1(0) be the unit ball in Rn centered at the origin. Assume that the function
+f ∈C2(B1(0)). Prove that
+1) If f satisﬁes
+n
+X
+i,j=1
+xixj
+∂2f
+∂xi∂jxj
+= 0
+on B1(0), and ∇f(0) = 0, then f is constant in B1(0).
+2) If f satisﬁes
+xi
+∂f
+∂xj
+−xj
+∂f
+∂xi
+= 0, i, j = 1, · · · , n
+on B1(0), then f is constant on the sphere {x : x ∈B1(0), |x| = 1/2}.
+1
+
+====================================================================================================
+### 54 ANA | Overall | 2021 | chars=853 pages=1 | 2021 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+12th Oral Exam of S.-T. Yau College Student Mathematics Contests 2021
+Analysis and diﬀerential equations
+Group Contest
+1. Explain that the dual space of L∞(R) is not L1(R).
+2. Let ϕ : [0, 1] →R be integrable for the Lebesgue measure. Deﬁne G : R →R+ by
+G(t) =
+Z
+[0,1]
+|ϕ(x) −t|dx.
+(i) Show that G is continuous on R;
+(ii) Show that G is derivable at t ∈R if and only if
+λ1({x : ϕ(x) = t}) = 0,
+here λ1 denotes the Lebesgue measure on R1.
+3. Let B1(0) be the unit ball in R3 centered at the origin. Assume that the function
+v is a smooth function deﬁned on R3 with vr = x·∇v
+|x| ∈L2(B1(0). Prove that
+Z
+B1(0)
+|v(x)|2
+|x|2 dx ≤C(
+Z
+B1(0)
+|vr|2dx +
+Z
+∂B1(0)
+|v|2dσ)
+≤C1
+Z
+B1(0)
+(|vr|2 + |v|2)dx,
+where C and C1 are some constants independent of v.
+4. Prove that the life span of any solution to the following diﬀerential equation
+dy
+dx = x2 + y2
+is ﬁnite.
+
+====================================================================================================
+### 55 ANA | Overall | 2022 | chars=1554 pages=1 | 2022 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Analysis and differential equations overall
+Problem 1. Let f : C →C be a non-constant holomorphic function.
+1) Prove that the image of f is dense in C.
+2) Prove that the image of f can miss only one point in C. (Hint: The universal
+cover of C −{0, 1} is the unit disk.)
+Problem 2. Let K be a measurable function on Rn × Rn. Define
+Tf(x) =
+Z
+Rn K(x, y)f(y)dy.
+(1) Suppose that K ∈L∞
+x L1
+y ∩L∞
+y L1
+x. Show that T is a bounded operator on L2(Rn).
+Remark: K ∈L∞
+x L1
+y means ess supx∈Rn
+R
+Rn |K(x, y)|dy < +∞.
+(2) Suppose that K ∈L2(Rn × Rn). Show that T is a compact operator on L2(Rn).
+(3) Suppose that K is compactly supported, and satisfies |K(x, y)| ≤A|x −y|−n+α for
+some α > 0, whenever x, y ∈Rn. Show that K is not necessarily ∈L2(Rn × Rn), but
+T is still a compact operator on L2(Rn).
+Problem 3. Consider the Cauchy problem for the linear homogeneous wave equation
+in R3 × R:
+□ϕ = 0,
+ϕ(x, 0) = φ(x),
+∂tϕ(x, 0) = ψ(x).
+Suppose that the smooth functions φ(x), ψ(x) have compact support and they only
+depend on the radial variable r, i.e. φ(x) = φ(r), ψ(x) = ψ(r).
+ The solution ϕ to the above Cauchy problem only depends on the radial variable
+r and the time variable t, i.e. ϕ(x, t) = ϕ(r, t).
+ Prove that for sufficiently large T0 > 0, we have
+∂r (rϕ) (0, t) ≡0,
+for all
+t ≥T0.
+ Let u := t−r, ¯u := t+r. Therefore ϕ can be viewed as a function of (¯u, u). Prove
+that if there is a r0 > 0 such that
+−ψ(r0) + ∂rφ(r0) + 1
+r0
+φ(r0)/=0,
+then there is a u0 ∈R such that
+lim
+¯u→∞∂u (rϕ) (¯u, u0)/=0.
+
+====================================================================================================
+### 56 ANA | Overall | 2023 | chars=568 pages=1 | 2023 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+All-around
+Please solve one of the following two problems.
+1. Let φ : R3 →R be a C∞
+c
+function. We assume φ ≥0 and
+R
+R3 φ(x) = 1. Consider
+convolution operator Tf := f ∗φ, i.e.
+(0.1)
+(Tf)(x) :=
+Z
+R3 f(x −y)φ(y)dy.
+Is T a bounded operator from L3(R3) to L2(R3)? Prove your conclusion.
+2. Given discrete points {ai}i⩾1 on D = {|z| < 1}, construct a holomorphic function f
+on D such that the zero set of f is exactly {ai}i⩾1.
+Hint: there are no accumulation points in the interior.
+1
+
+====================================================================================================
+### 57 ANA | Overall | 2024 | chars=367 pages=1 | 2024 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+Overall
+Problem 1. Let u ∈C∞(R2, R) be 1-periodic in each variable. Prove that for
+any 2 × 2 real matrix A,
+Z
+[0,1]n det(D2u + A) = det A,
+where D2u denotes the Hessian matrix.
+Problem 2. Let A and B be bounded invertible operators on a Hilbert space.
+a) Prove that σ(AB) = σ(BA) where σ(X) denotes the spectrum of X.
+b) What can you say if they are not invertible ?
+
+====================================================================================================
+### 58 ANA | Overall | 2025 | chars=829 pages=1 | 2025 Analysis (Overall).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Differential Equations
+Individual All-around
+Please solve one out of the following two problems.
+1. Let f : R →R be a measurable function supported on [0, 1]. Let Mf denotes its
+maximal function:
+∀x ∈R,
+Mf(x) = sup
+r>0
+1
+2r
+Z x+r
+x−r
+|f(x)| dx.
+Show that if
+R 1
+0 |f(x)| max {1, log|f(x)|} dx < +∞, then
+Z 1
+0
+Mf(x) dx < +∞.
+2. Let u(t, x) : R × R →C be periodic in x variable, i.e. ∀t, x, one has u(t, x + 2π) =
+u(t, x). Suppose u(t, x) is smooth and solves the linear Schr¨odinger equation,
+(0.1)
+
+
+
+i∂tu(t, x) + ∂xxu(t, x) = 0,
+u(0, x) = f(x).
+Prove the following estimate
+(0.2)
+Z 2π
+0
+Z 2π
+0
+|u(t, x)|4 dx dt ≤C(
+Z 2π
+0
+|f(x)|2 dx)2
+Here C is some universal constant.
+Hint: Try to use Fourier series and Plancherel theorem. Also recall ∥F∥2
+L4 = ∥F 2∥L2.
+1
+
+====================================================================================================
+### 59 ANA | Team | 2015 | chars=620 pages=1 | 2015 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+Analysis questions for teams
+1. Suppose that f ∈C∞
+c (R2) has the property that
+R
+L f = 0 for every line L ⊂R2. Show
+that f = 0.
+2. Let D ⊂C be an open set. Let Aut(D) denote the set of invertible conformal self-maps
+ψ : D →D.
+(a) Show that there is a domain D such that Aut(D) is countably inﬁnite.
+(b) Show that there is a domain D such that Aut(D) is isomorphic to the integers Z.
+(c) Is it possible for Aut(D) to be isomorphic to the real numbers R?
+3. Suppose that f : R →R is of class C1 and satisﬁes
+Z ∞
+−∞
+1
+|f(x)|dx = +∞
+Prove that the maximal interval of existence for the solution of
+dx
+dt = f(x)
+is (−∞, ∞).
+
+====================================================================================================
+### 60 ANA | Team | 2016 | chars=1226 pages=1 | 2016 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+2
+ANALYSIS 2016.
+2. Team
+Problem 2.1. Let f(z) : C →C be a polynomial of degree n. For any r > 0, let
+(5)
+M(r) := max
+|z|≤r |f(z)|.
+Show that if R > r > 0, then
+(6)
+M(R)
+Rn
+≤M(r)
+rn
+.
+Moreover, “=” holds in (6) if and only if f(z) = czn for some constant c.
+Problem 2.2. If b1 = 1, b2 = 2 and
+bn+1 = bn + bn−1
+for n ≥2. Does the series
+∞
+X
+n=1
+1
+bn
+converge? Show all your work.
+Problem 2.3. Find all solutions of
+
+
+
+
+
+∆u = 0,
+in
+B1 \ {0} ⊂R2,
+u(x) = 0
+on
+∂B1,
+u ≥0,
+where B1 = {(x, y) ∈R2 | x2 + y2 < 1}
+Problem 2.4. Assume the function f : [0, 1] →R is of C1[0, 1]. Prove that the set of
+critical values of f has measure zero.
+Problem 2.5. Let w(r) and σ(r) be non-decreasing functions in an interval (0, R]. Sup-
+pose there holds for all r < R
+(7)
+w(τr) ≤γw(r) + σ(r)
+for some γ, τ ∈(0, 1). Then for any µ ∈(0, 1) and r < R we have
+(8)
+w(r) ≤C
+n³ r
+R
+´α
+w(R) + σ(rµR1−µ)
+o
+where C = C(γ, τ) and α = α(γ, τ, µ) are positive constants.
+Problem 2.6. Let Pk(x) denote the k-th Chebyshev polynomial, i.e. Pk(cos θ) = cos(kθ)
+for k ∈N. Suppose
+f(x) =
+n
+X
+k=0
+akxk
+is a real monic polynomial (i.e. an = 1) with all roots in (−1, 1). Prove that all the roots
+of
+(9)
+g(x) =
+n
+X
+k=0
+akPk(x)
+are all real numbers and in (−1, 1).
+
+====================================================================================================
+### 61 ANA | Team | 2017 | chars=1557 pages=2 | 2017 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+ANALYSIS 2017.
+1. Team
+Problem 1.1. Let µ and ν be two ﬁnite Borel measures on Rn such that ∀x ∈Rn and
+∀R > 1, we have
+µ(B(x, R)) = ν(B(x, R))
+where B(x, R) = {y ∈Rn : |x −y| < R}.
+(1) Prove that if µ and ν are absolutely continuous with respect to the Lebesgue
+measure, then µ = ν.
+(2) What if µ and ν are not absolutely continuous with respect to the Lebesgue mea-
+sure?
+Problem 1.2. Let Ωbe a bounded simply connected domain. If f : Ω→Ωis analytic
+and there exists a point z0 ∈Ωsuch that
+f(z0) = z0,
+and
+f′(z0) = 1
+then f(z) = z for all z ∈Ω.
+Problem 1.3. Find all the solutions of
+(
+∆u = 0,
+u > 0
+in
+{(x, y) : x > 0, y > 0},
+u(x, 0) = 0, u(0, y) = 0,
+for
+x > 0, y > 0.
+Here we assume all the conditions hold in the classical sense.
+Problem 1.4. For 0 ≤t ≤T(T > 0), Ωt is an open bounded region in R3 with smooth
+boundary ∂Ωt. Set
+DΓ = {(x, t) : x ∈Ωt, 0 ≤t ≤T},
+∂Dt = {(x, t) : x ∈∂Ωt, 0 ≤t ≤T}.
+Let η(x, t) = (η0, η1, η2, η3)(x, t) be the unit outward normal of ∂DΓ at (x, t). Suppose that
+v(x, t) = (v1, v2, v3)(x, t) is a smooth vector ﬁeld and P(x, t) is a smooth scalar function
+deﬁned on DΓ satisfying
+(∂vi
+∂t + P3
+j=1 vj ∂vi
+∂xj + ∂P
+∂xi = 0,
+i = 1, 2, 3
+in
+DΓ,
+P3
+j=1
+∂vj
+∂xj = 0,
+in
+DΓ,
+(
+η0 + P3
+j=1 vjηj = 0,
+on
+∂DΓ
+P = 0,
+on
+∂DΓ.
+(1) Prove that
+R
+Ωt |v|2(x, t)dx is a constant for 0 < t < T.
+(2) Suppose that
+∂vi
+∂xj
+−∂vj
+∂xi
+= 0
+for all 1 ≤i, j ≤3 in DΓ, and
+∂vi0(x, t0)
+∂xj0
+̸= 0
+1
+
+=== page 2 ===
+2
+ANALYSIS 2017.
+for x ∈Ωt0 and t0 ∈(0, T) and some i0, j0 ∈{1, 2, 3}. Prove that
+∂P
+∂n < 0
+on ∂Ωt0, where n = (n1.n2, n3) is the unit outer normal to ∂Ωt0.
+
+====================================================================================================
+### 62 ANA | Team | 2018 | chars=2658 pages=2 | 2018 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Team
+Please solve the following problems.
+1. Isoperimetric inequality. and Steiner symmetrization.
+It is well known that in R2, any region Ωwith continuous piecewise C1 boundary
+∂Ωsatisﬁes that
+4π|Ω| ≤Length(∂Ω)2.
+When the equality holds for a region Ωwith continuous piecewise C1 boundary, it is
+then called an isoperimetric set. For example, all disks are isoperimetric sets.
+1) Prove that any isoperimetric set is convex;
+2) Given a line V in R2 passing through the origin, the Steiner symmetrization with
+respect to V is the operation which associates with each bounded convex subset C of
+R2 the subset S(C) of R2 such that, for every line L (not necessarily passing through
+the origin) perpendicular to V ,
+either L ∩C = ∅and L ∩S(C) = ∅,
+or L ∩C ̸= ∅and L ∩S(C) is a closed segment with center in V , and Length(L ∩
+S(C))=Length(L ∩C). In other words, L ∩S(C) is a translation of the segment L ∩C
+along L, such that the segment L ∩S(C) is symmetric with respect to V .
+Prove that |S(C)| = |C|, and Length(∂S(C)) ≥Length(C), equality holds if and
+only if C is symmetric with respect to V .
+3) Deduce that the only isoperimetric sets are the disks.
+2. Deﬁne ζ(s) = Σ∞
+n=1n−s, s = σ + it . Show that
+ζ(s) = −Γ(1 −s)
+2πi
+Z
+C
+(−z)s−1
+ez −1 dz
+where Γ(s) =
+R ∞
+0 xs−1e−xdx, (−z)s−1 is deﬁned on the complement of the positive
+real axis as e(s−1) log(−z) with −π < Im log(−z) < π.C is the contor consisting of upper
+1
+
+=== page 2 ===
+2
+real axis in the direction from +∞to 0, a small circle around 0 counter-clockwise, and
+lower real axis in the direction from 0 to +∞.
+Show that ζ(s) is a meromorphic function of the complex plane.
+3. Consider the following linear parabolic equation
+(
+∂tu(t; r, z) = (∂2
+r + ∂2
+z + 1
+r∂r −1
+r2)u(t; r, z), on R+ × Ω
+u(0; r, z) = u0(r, z), u(t; 0, z) = 0
+where Ω= {(r, z); r > 0, z ∈R}. Given initial data u0 satisfying
+Z
+Ω
+|u0|drdz < ∞.
+Prove that u(t; r, z) is given by
+u(t; r, z) =
+1
+4πt
+Z
+Ω
+|r
+′
+r |
+1
+2H( t
+rr
+′ )exp(−(r −r
+′)2 + (z −z
+′)2
+4t
+)u0(r
+′, z
+′)dr
+′dz
+′
+where
+H(y) =
+1
+√πy
+Z
+π
+2
+−π
+2
+e−sin2 φ
+y
+cos(2φ)dφ
+4. Let Ωbe a bounded and connected smooth domain in R2, and ˜N = ( ˜N1, ˜N2) be
+a smooth vector ﬁeld deﬁned on ¯Ωthat equals to the outer unit normal N on the
+boundary ∂Ωsatisfying supx∈¯Ω| ˜N|(x) ≤1 and supx∈¯Ω|∂xj ˜N|(x) ≤K (j = 1, 2) for
+some constant K. Prove that there exists a constant C independent of K such that
+Z
+Ω
+2
+X
+i,j=1
+|∂ivj|2dx
+≤C
+Z
+Ω
+X
+1≤i,k,l≤2
+( ˜N k ˜N l∂ivk∂ivl + |curlv|2 + |divv|2 + K|v|2)(x)dx,
+for any smooth vector ﬁeld v = (v1, v2) on ¯Ω, where |curlv|2 = P2
+i,j=1(∂ivj −∂jvi)2,
+|divv|2 = P2
+i=1(∂ivi)2.
+
+====================================================================================================
+### 63 ANA | Team | 2019 | chars=1231 pages=1 | 2019 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+Question 1. Suppose f(x, y) is a non-smooth bounded convex function deﬁned on R1×[0, 1]. Prove
+that f is independent of x.
+Question 2.
+Let f : [0, 1] →[0, 1] be the tent map given by
+f(x) =
+n 2x,
+when 0 ≤x ≤1/2,
+and
+2(1 −x),
+when 1/2 < x ≤1.
+Prove that there is a point x0 ∈(0, 1) such that the orbit of x0 under f is dense in [0, 1], i.e., the
+set {f n(x0)|n = 1, 2, 3, ...} is a dense subset of [0, 1].
+Question 3.
+Consider the Cauchy problem for the Burger’s equation (B):
+n ∂tu + u∂xu = ϵ∂2
+xu, x ∈R, t > 0
+u(x, t = 0) = u0(x)
+where ϵ ∈(0, 1) is a constant, and u0(x) is a smooth periodic function of period 1.
+(1) Prove that if uϵ(x, t) is a solution to (B), then uϵ(x, t) is uniformly bounded independent of
+ϵ.
+(2) Prove that the solution uϵ(x, t) is periodic in x with period 1.
+(3) Show that if uϵ(x, t) is a solution to (B), then ∂xuϵ(x, t) ≤1
+t for all x ∈R, t > 0.
+(4) Show that total variation of uϵ(x, t) in x is uniformly bounded independent of ϵ for t > 0, i.e.
+TV[0,1]uϵ(x, t) ≤C(t).
+(5)(*) Discuss the convergence property of uϵ(x, t) as ϵ →0+.
+Question 4.
+Let D+ = {(x, y) : x2 + y2 < 1, y > 0}. Find all the solutions:
+
+
+
+∆u
+=
+0 in D+
+u
+>
+0 in D+
+u
+=
+0 on {(x, y) : x2 + y2 = 1, y > 0} ∪{(x, 0) : |x| < 1}.
+1
+
+====================================================================================================
+### 64 ANA | Team | 2023 | chars=954 pages=1 | 2023 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+Team
+Please solve two from the following three problems.
+1. Given two lattices Γ1 = Z · ω1,1 + Z · ω1,2 and Γ2 = Z · ω2,1 + Z · ω2,2 in the complex
+plane C having full rank. Let f : C →C be an entire function inducing a holomorphic
+map between two elliptic curves C/Γ1 and C/Γ2, i.e.,
+f(z) = f(z + γ)
+(mod Γ2)
+(∀z ∈C, γ ∈Γ1).
+Show that f(z) = a·z+b for any z ∈C, where a, b are some complex numbers satisfying
+a · Γ1 ⊂Γ2, b ∈Γ2.
+2. Let T be a bounded self-adjoint operator, prove that the spectrum of T is not empty.
+If T is self-adjoint but unbounded, is the spectrum of T necessarily non-empty? Prove
+your conclusion.
+3. Let {fn}n be a bounded sequence in L2(R3), and let {gn}n be a sequence of Schwartz
+functions.
+Assume,
+(0.1)
+(−∆+ |x|2)gn = fn.
+Prove that
+• {gn}n is a bounded sequence in L2(R3).
+• One can ﬁnd a subsequence {gnk}k, which converges in L2(R3).
+1
+
+====================================================================================================
+### 65 ANA | Team | 2024 | chars=1203 pages=1 | 2024 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+Team
+Problem 1. Consider the mixed problem for u(t, x) = u(t, x1, x2, x3):
+
+
+
+
+
+□u = 0
+for t > 0, x3 > 0,
+u|t=0 = g(x),
+ut|t=0 = h(x)
+for x3 > 0,
+Mu|x3=0 = 0
+for t > 0,
+(∗∗∗)
+where □= ∂2
+t −∆, and M denotes a rst-order transport operator of the form
+M = ∂t +
+3
+X
+i=1
+bi∂xi + c
+with constant coecients (b1, b2, b3) and c, and g, h vanish for all suciently
+small x3 > 0. Assume that u, g, h are smooth and bounded and that b3 ≤0.
+(i) Prove that w = Mu for t > 0, x3 > 0 also satises the wave equation:
+□w = 0,
+and then determine w(t, x) for t > 0, x3 > 0 from its initial and boundary
+conditions as a solution of □w = 0.
+(ii) Find the solution u(t, x) of problem (***) through the solution of the
+following transport equation:
+(
+Mu = w
+for t > 0, x3 > 0,
+u|t=0 = g,
+where w(t, x) is your solution to part (i) above in this problem.
+Problem 2. Assume that A and B are bounded self-adjoint linear operators
+on a Hilbert space. If A ≥B ≥0, then there is a linear operator T such that
+B = T ∗AT.
+Problem 3. Consider the upper half plane H = { z ∈C : Im(z) > 0 }. Let
+k > 2 and let f : H →C be a holomorphic function satisfying
+Z
+H
+yk−2 |f(x + iy)| dx dy < +∞.
+Prove that ykf(x + iy) is bounded on H.
+
+====================================================================================================
+### 66 ANA | Team | 2025 | chars=2122 pages=2 | 2025 Analysis (Team).pdf
+====================================================================================================
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Differential Equations
+Team
+Please solve at least two out of the following three problems.
+1. Problem 1 (This is the mathematical foundation of Artificial Intelligence)
+Let f be a continuous function [0, 1]2 →R such that ∥f∥= 1, i.e. its supremum
+norm is one. Let t be a positive irrational number and I = [0, 1]. Take any func-
+tion ψ1 ∈C[I] = {I →R continuous}. For any ϵ > 0, there exists a N such that
+the variants of f on squares of width less than 1/N is less than 1/7. One can con-
+struct ϕ1 ∈C[I] such that: ∥ψ1 −ϕ1∥< ϵ, ϕ1 is constant on each of the intervals
+[0/5N, 4/5N], [5/5N, 9/5N], . . . , [1 −5/5N, 1 −1/5N] and ϕ1 taking values of different
+rational numbers.
+This function ϕ1 creates a grid address system on [0, 1]2, divided into streets and
+blocks. The blocks are of form [0/5N, 4/5N]×[0/5N, 4/5N], [0/5N, 4/5N]×[5/5N, 9/5N], . . . .
+To each block one can associate an unique address ϕ1(x) + tϕ1(y). Enumerate R1,r as
+the r-th block with address a1,r = ϕ1(x) + tϕ1(y).
+1) Show that there exists an open and dense set Uf ⊂C[I]5, for each (ϕ1, ..., ϕ5) ∈Uf,
+associate grid address system for each ϕi with address ai,r, one can construct covers of
+[0, 1]2, such that each point in [0, 1]2 is covered by 3 to 5 blocks and 2 to 0 streets.
+2) Enumerate Ri,r the same way as R1,r for each ϕi. For each block Ri,r, if f > 0
+on all of Ri,r define g(ai,r) = 1/7; if f < 0 on all of Ri,r define g(ai,r) = −1/7.
+Linearly interpolate g between these defined values. Prove that ∥g∥< 1.01
+7 ∥f∥, and
+∥f(x, y) −P5
+i=1 g(ϕi(x) + tϕi(y))∥< 6.01
+7 ∥f∥.
+2. Let B be a Banach space, V a normed linear space and let L1, L0 be bounded
+linear operators from B to V . For each t ∈[0, 1], set
+Lt = (1 −t)L0 + tL1
+1
+
+=== page 2 ===
+2
+and suppose that there is a constant C such that
+||x||B ≤C||Ltx||V
+for t ∈[0, 1]. Then L1 maps B onto V if and only if L0 maps B onto V .
+3. Let Ωbe a bounded smooth domain and let Γ be an open, smooth portion of ∂Ω.
+Prove that if f, g ∈C1(¯Ω), then the equation
+
+
+
+
+
+
+
+∆u = f,
+in Ω,
+u = g,
+on Γ,
+∂u
+∂⃗n = 0,
+on Γ
+has at most one solution.

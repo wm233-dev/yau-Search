@@ -1,0 +1,125 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Analysis and Diﬀerential Equations
+Individual
+Please solve the following problems.
+1. Suppose f(x) is a positive and continuous function over [a, b] and g(x) is a positive
+and decreasing function over [a, b]. Prove that
+R b
+a xf(x)g(x)dx
+R b
+a f(x)g(x)dx
+≤
+R b
+a xf(x)dx
+R b
+a f(x)dx
+.
+2. Let E be a closed subset of Rn and
+Er = {x ∈Rn : d(x, E) = r},
+for r > 0.
+Prove that Er is measurable and is of Lebesgue measure zero.
+3. (1). Prove that
+w −→z =
+Z w
+0
+(1 −xn)−2
+ndx
+is a conformal mapping from the unit disk onto the interior of a regular n-gon Γ.
+(2). Find an explicit formula for the boundary value problem of the Laplace equation
+over an n-gon Γ, where φ is a continuous function on ∂Γ:
+(
+∆u = 0,
+u|∂Γ = φ.
+4. Prove the uniqueness of the following problem for u(x, t) of
+
+
+
+
+
+
+
+
+
+ut = uxx,
+in
+(−1, 1) × (0, +∞),
+u(±1, t) = 1,
+for
+t > 0,
+u(x, 0) = 0,
+for x ∈(−1, 1),
+u is uniformly bounded.
+(∗)
+Prove that the last condition (∗) is necessary for the result.
+5. Let (v, u)(x, t) (0 ≤x ≤1, t ≥0) with v > 0 for 0 ≤x ≤1, t ≥0 be the C∞smooth
+solution of the following initial boundary value problem
+
+
+
+
+
+vt −ux = 0,
+ut +
+¡ 1
+vγ
+¢
+x =
+¡ ux
+v
+¢
+x ,
+0 < x < 1, t > 0
+¡ ux
+v −1
+vγ
+¢
+(0, t) =
+¡ ux
+v −1
+vγ
+¢
+(1, t) = 0,
+t > 0
+v(x, 0) = v0(x), u(x, 0) = u0(x), 0 ≤x ≤1.
+where γ > 1 is a constant.
+Prove that
+1
+
+=== page 2 ===
+2
+(1)
+Z 1
+0
+µ1
+2u2 +
+1
+γ −1v1−γ
+¶
+(x, t)dx ≤
+Z 1
+0
+µ1
+2u2
+0 +
+1
+γ −1v1−γ
+0
+¶
+(x)dx,
+for
+t > 0.
+(2) there exist positive constants c1, c2, c3, c4 independent of x and t such that
+c1v0(x)
+¡
+1 + c2v−γ
+0 (x)t
+¢ 1
+γ ≤v(x, t) ≤c3v0(x)
+¡
+1 + c4v−γ
+0 (x)t
+¢ 1
+γ
+for 0 < x < 1, t > 0.

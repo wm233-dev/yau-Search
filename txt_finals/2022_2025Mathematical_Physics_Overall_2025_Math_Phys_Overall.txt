@@ -1,0 +1,55 @@
+
+=== page 1 ===
+Mathematical Physics: Individual All-Round Competition
+To complete this assignment, answer 1 out of the 2 problems.
+Problem 1
+The linking number.
+A wire along an oriented loop L1 ⊂R3 in the three-dimensional space
+carries a constant electric current I. Let L2 be another loop that does not intersect L1.
+1. We have
+Z
+L2
+⃗B · d⃗l2 = lk(L1, L2) · µ0I.
+Explain why geometrically the quantity lk(L1, L2) can be referred to as the “linking number”
+of L1 and L2 by showing that, when it is non-zero, one can not separate L1 and L2. Also
+argue that it remains constant under deformations of L1 and L2 as long as they don’t cross
+each other.
+2. Give a physics derivation of the Gauss linking integral formula
+lk(L1, L2) = 1
+4π
+Z
+L1×L2
+d⃗l2 · d⃗l1 ×
+⃗l1 −⃗l2
+|⃗l1 −⃗l2|3.
+(0.1)
+Here ⃗l1,2 respectively parametrize L1,2, while “×” and “·” are respectively the cross and scalar
+products in R3.
+3. Verify that the integral (0.1) is symmetric under L1 ↔L2. Explain this physically using
+electric-magnetic duality. (Hint: consider a “magnetic current” Im along L2. Also you don’t
+need to keep track of constants such as µ0, ϵ0 and c.)
+4. Argue that given a projection of the link, the linking number can be computed by summing
+over crossings with each contributing ±1
+2 according to the following rule.
+Here, the two strands belong to the two different components, but it doesn’t matter which is
+which due to the symmetry we have seen. (Hint: arrange the configuration of L1 and L2 so
+that you can evaluate/approximate the integral. You may find the following formula useful,
+Z ∞
+−∞
+dx
+r2
+(x2 + r2)
+3
+2 = 2.)
+Problem 2
+A non-relativistic quantum particle of spin zero moves on the real line R subjected to the linear
+potential
+V (x) = 2gx
+(x being the standard Cartesian coordinate in R and g a real parameter).
+Find the heat kernel
+
+x′e−βHx
+
+of this quantum system by a direct computation of the path
+integral.
+1

@@ -1,0 +1,15 @@
+
+=== page 1 ===
+Probability problems: personal-overall
+May 2019
+1. Let {Sn} be a simple random walk in one dimension, with S0 = 0, and let
+τ = τ[0,5]c = inf{n : Sn /∈[0, 5]}
+be the ﬁrst time the random walk exits the set {0, 1, 2, 3, 4, 5}. Evaluate E[Sτ−1]
+(Hint: use Wald’s identity)
+2. Prove that for any two events,
+P{A ∩B} −P{A}P{B}
+ ≤1
+4
+and
+P{A ∪B}P{A ∩B} ≤P{A}P{B}.
+1

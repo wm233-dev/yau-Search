@@ -1,0 +1,32 @@
+
+=== page 1 ===
+1
+Yau Mathematical Competition 2018
+Probability and Statistics Individual
+Problem 1 (Probabability) Suppose that for each n, the (n × n) random matrix Xn has the uniform
+distribution on the orthogonal group O(n).
+(1) What is the distribution of the ﬁrst row vector
+Xn
+1 = (Xn
+11,Xn
+12,...Xn
+1n)?
+(2) Show that in distribution
+Xn
+11 ∼
+Z1
+q
+∑n
+i=1 Z2
+i
+,
+where Zi are independent, identically distributed random variables with the standard normal distribution.
+(3) Find the limit in distribution of the random variables √nXn
+11 as n →∞.
+Problem 2 (Statistics) Suppose we toss an unbiased coin and record K1, the number of tosses needed
+to obtain the ﬁrst head. Then, we draw X1 from a normal distribution with mean K1µ and variance
+K1σ2, and record the pair (K1,X1).
+By repeating the experiment n −1 times, we obtain the pairs
+(K2,X2),...,(Kn,Xn). Using all the n data pairs (K1,X1),...,(Kn,Xn):
+(1) How would you best estimate µ and σ2?
+(2) Can you give a 95% conﬁdence interval for µ?

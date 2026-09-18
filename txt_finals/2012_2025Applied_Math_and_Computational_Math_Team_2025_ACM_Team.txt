@@ -1,0 +1,78 @@
+
+=== page 1 ===
+Yau 2025 Applied Math – Team Contest
+1. Given a bounded Lipschitz domain Ω⊂Rn with piecewise hyperplanar boundary ∂Ω.
+For p ≥1,
+let Ap := W 1,p
+0
+(Ω; R) denote the standard Sobolev space, and Vh ⊂Ap denote the subspace of all
+piecewise affine finite element functions with respect to a shape-regular and quasi-uniform triangulation
+Th parametrized by the mesh size h. Consider the minimization of an energy E : Ap →R ∪{+∞}:
+inf E(Ap) := inf
+v∈Ap E(v), where E(v) :=
+Z
+Ω
+W(x, v(x), ∇v(x)) dx, ∀v ∈A∞,
+associated with a continuous energy density function W: Ω× R × Rn →R, and its finite element approx-
+imation:
+Eh :=
+inf
+vh∈Vh
+E(vh).
+(a) Show that if W is continuous, then
+lim
+h→0 Eh =
+inf
+v∈A∞E(v).
+(b) Find an example of W on Ω= (0, 1) such that
+lim
+h→0 Eh ̸= inf
+v∈A1 E(v).
+2. The softmax function p = softmax(z) is defined as
+pi =
+ezi
+P
+j ezj ,
+for z ∈RK.
+Let SK−1 :=
+
+p ∈RK  pi ≥0, P
+i pi = 1
+	
+be the probability simplex.
+(a) Define the log-sum-exp function
+lse(z) := log
+ K
+X
+i=1
+ezi
+!
+.
+Prove that lse(z) is convex.
+(b) Show that the convex conjugate (Fenchel-Legendre transform) is:
+lse∗(y) =
+(PK
+i=1 yi log yi
+if y ∈SK−1,
+∞
+otherwise.
+(c) Derive the biconjugate lse∗∗and verify that it equals lse.
+(d) Prove that
+softmax(z) = arg max
+p∈SK−1 (z · p −p · log p) .
+1
+
+=== page 2 ===
+3. Let A = λI + N ∈Cn×n, where N is nilpotent of index m, i.e., N m = 0, and λ ∈C. Let f be analytic
+near λ.
+(a) Derive a general expression for f(A) in terms of the derivatives of f at λ and powers of N.
+(b) Specialize to the case f(z) = ez, and compute eA explicitly.
+(c) If A ∈Rn×n is real but has complex eigenvalues, explain how to compute eAt ∈Rn×n efficiently.
+(d) Let A =
+ 0
+1
+−1
+0
+
+. Compute eAt and interpret the result.
+2

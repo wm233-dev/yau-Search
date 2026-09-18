@@ -1,0 +1,7 @@
+# RECOVERED BY VISION (2013 Probability (Overall).pdf, handwritten scan, NO text layer at all)
+# transcription is human/vision reading of handwriting -> lower confidence
+概率论试题 (Probablity and Statistics, handwritten)
+(1) X, Y independent, X has a density, does X + Y also have a density? [second line unreadable: "also have a density?" - extraction doubtful]
+(2) 0 <= X <= 1. For what distributions of X does Var X have the largest value?
+(3) X, Y i.i.d. N(0,1). What is the distribution of ( X1 / sqrt(X1^2 + X2^2), X2 / sqrt(X1^2 + X2^2) )?
+(4) P(N = i) = 1/3, i = 1, 2, 3. X1, X2, X3 i.i.d. normal N(0,1), independent of N. X = sum_{i=1}^{N} X_i. Is X also normal?

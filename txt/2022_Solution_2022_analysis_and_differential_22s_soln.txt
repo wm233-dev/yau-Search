@@ -1,0 +1,140 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Analysis and Differential Equations
+Solve every problem.
+Problem 1. For 𝑛≥1, we consider the integral
+𝐼𝑛= ∫
+[0,1]𝑛
+𝑛
+1
+𝑥1 + 1
+𝑥2 + ⋯+
+1
+𝑥𝑛
+𝑑𝑥1 ⋯𝑑𝑥𝑛.
+Prove that lim
+𝑛→∞𝐼𝑛exists.
+Solution: For all positive integers 𝑚and 𝑛, for all 𝑥, 𝑦> 0, we check that
+(𝑚+ 𝑛)2
+𝑥+ 𝑦
+≤𝑚2
+𝑥+ 𝑛2
+𝑦.
+Thus, 𝐽𝑛= 𝑛𝐼𝑛satisfies
+𝐽𝑚+𝑛≤𝐽𝑚+ 𝐽𝑛.
+It is well-known that lim
+𝑛→∞
+𝐽𝑛
+𝑛exists.
+Problem 2. Let 𝑈⊂𝐂be a non-empty open set and 𝑓∶𝑈→𝑈be a non-constant holomorphic function. Prove
+that, if 𝑓∘𝑓= 𝑓, then 𝑓(𝑧) ≡𝑧for all 𝑧∈𝑈.
+Solution: Since 𝑓is not a constant map, 𝑉B 𝑓(𝑈) ⊂𝑈is an nonempty open set (the open mapping property). Thus, for
+𝑧∈𝑉, we have 𝑧= 𝑓(𝑧). This implies that 𝑓(𝑧) ≡𝑧.
+Problem 3.
+Let 𝑋⊂𝐑be a set with positive (Lebesgue) measure. Show that we can find an arithmetic pro-
+gression of 2022 terms in 𝑋, i.e., there exists 𝑥1, … , 𝑥2022 ∈𝑋so that the 𝑥𝑖+1 −𝑥𝑖’s are all equal and positive,
+𝑖= 1, … , 2021.
+Solution: We use 𝑚to denote the Lebesgue measure. Let 𝑥∈𝑋be a Lebesgue point; therefore, there exists an interval 𝐼
+so that 𝑥∈𝐼and 𝑚(𝐼∩𝑋)
+𝑚(𝐼)
+≥1 −𝜖and 𝜖will be determined at the end of the proof. By translating and rescaling, we may
+assume that 𝐼= [0, 1]. We divide 𝐼into 2022 intervals:
+𝐼= 𝐼1 ∪𝐼2 ∪⋯∪𝐼2022, 𝐼𝑘= [ 𝑘−1
+2022,
+𝑘
+2022] , 𝑘= 1, 2, … , 2022.
+Let 𝑋𝑘= (𝐼𝑘∩𝑋) −𝑘−1
+2022 be the translation of 𝐼𝑘∩𝑋and 𝑋𝑘⊂𝐼1, 𝑘= 1, … , 2022. We know that
+2022
+∑
+𝑘=1
+𝑚(𝑋𝑘) ≥1 −𝜖.
+Thus,
+𝑚(
+⋂
+1≤𝑘≤2022
+𝑋𝑘) ≥
+1
+2022 −2022𝜖.
+We may take 𝜖= 2023, thus, ⋂1≤𝑘≤2022 𝑋𝑘≠∅. Let 𝑥1 ∈⋂1≤𝑘≤2022 𝑋𝑘. Then 𝑥𝑘= 𝑥1+ 𝑘−1
+2022 is the arithmetic progression.
+Problem 4.
+Let 𝐶([0, 1]) be the space of all continuous 𝐂-valued functions equipped with 𝐿∞-norm. Let 𝐏⊂
+𝐶([0, 1]) be a closed linear subspace. Assume that the elements of 𝐏are polynomials. Prove that dim 𝐏< ∞.
+
+=== page 2 ===
+Solution: Let 𝐼= {(𝑥, 𝑦) ∈[0, 1]2 || 𝑥≠𝑦}. For each (𝑥, 𝑦) ∈𝐼, we define a mapping
+𝑇(𝑥,𝑦) ∶𝐏→𝐂, 𝑢↦𝑢(𝑥) −𝑢(𝑦)
+|𝑥−𝑦|
+.
+Therefore, we have
+sup
+(𝑥,𝑦)∈𝐼
+||𝑇(𝑥,𝑦)𝑢|| ≤‖𝑢′‖𝐿∞.
+Since 𝐏is closed, we can apply the Banach-Steinhaus Theorem: there exists 𝐶> 0, so that
+sup
+(𝑥,𝑦)∈𝐼
+‖
+‖𝑇(𝑥,𝑦)‖
+‖
+𝐏→𝐂
+≤𝐶.
+We consider the unit ball of 𝐏:
+𝐵= {𝑢∈𝐏|| ‖𝑢‖𝐿∞≤1} .
+Hence, for all 𝑢∈𝐵, we have
+|𝑢(𝑥) −𝑢(𝑦)| ≤𝐶|𝑥−𝑦|.
+Thus, the family 𝐵is equicontinuous. By the Arzelà-Ascoli Theorem, it is compact. Thus, 𝐏is finite-dimensional.
+Problem 5.
+Let Ω ⊂𝐑3 be a bounded domain with smooth boundary. Assume that 𝑢∈𝐶(𝐑3 −Ω) is a
+harmonic function on 𝐑3 −Ω so that 𝑢||Ω = 1 and lim
+|𝑥|→∞|𝑢(𝑥)| = 0.
+Prove that for such 𝑢, lim
+|𝑥|→∞|𝑥|𝑢(𝑥) exists.
+Solution:
+Let 𝜑(𝑥) ∈𝐶∞(𝐑3) so that 𝜑≡0 on an open neighborhood of Ω and 𝜑≡1 for |𝑥| ≥𝑅where 𝑅> 0 is a
+sufficiently large number. Therefore, we can regard 𝜑⋅𝑢as a smooth function defined on 𝐑3. Hence,
+Δ(𝜑𝑢) = 𝜌,
+where 𝜌≡0 for |𝑥| ≥𝑅. Therefore, for sufficiently large |𝑥|, we have
+𝑢(𝑥) = 𝜑(𝑥)𝑢(𝑥)
+= −1
+4𝜋∫
+𝐑3
+𝜌(𝑦)
+|𝑦−𝑥| 𝑑𝑦
+= −1
+4𝜋∫
+|𝑦|≤𝑅
+𝜌(𝑦)
+|𝑦−𝑥| 𝑑𝑦
+Therefore,
+|𝑥|𝑢(𝑥) = −1
+4𝜋∫
+|𝑦|≤𝑅
+|𝑥|
+|𝑦−𝑥|𝜌(𝑦) 𝑑𝑦.
+Since |𝑦| ≤𝑅,
+|𝑥|
+|𝑦−𝑥| converges uniformly to 1 as |𝑥| →∞, the conclusion follows.
+Problem 6. Let 𝑓(𝑥, 𝑦) ∈𝐶1(𝐑2). We assume that there exists 𝐶> 0 so that for all (𝑥, 𝑦) ∈𝐑2, ||
+𝜕𝑓
+𝜕𝑦(𝑥, 𝑦)|| ≤𝐶.
+Prove that the following ODE has a globally defined solution for all 𝑦(0) = 𝑦0 ∈𝐑:
+{
+𝑑
+𝑑𝑥𝑦(𝑥) = 𝑓(𝑥, 𝑦(𝑥)),
+𝑦(0) = 𝑦0.
+(1)
+In addition, we assume that 𝑓is 1-periodic in 𝑥, i.e., for all (𝑥, 𝑦) ∈𝐑2, we have 𝑓(𝑥+ 1, 𝑦) = 𝑓(𝑥, 𝑦). Prove that
+if (1) admits a globally defined bounded solution, then (1) admits a periodic solution.
+
+=== page 3 ===
+Solution: The global existence is easy: fix an interval [0, 𝑎), we have
+|𝑦′| ≤|𝑓(𝑥, 𝑦(𝑥)) −𝑓(𝑥, 𝑦(0))| + |𝑓(𝑥, 𝑦(0))| ≤𝐶|𝑦(𝑥) −𝑦(0)| + 𝑀≤𝐶|𝑦| + 𝑀.
+where 𝑀= sup𝑥∈[0,𝑎] |𝑓(𝑥, 𝑦(0))|. By Gronwall’s inequality, 𝑦is bounded all the way up to [0, 𝑎]. We can then extend 𝑓
+across 𝑎. This shows the solution can be defined globally.
+Assume that 𝜑is a bounded solution. We may assume that 𝜑(1) ≠𝜑(0). Otherwise, 𝜑is a periodic solution. Without
+loss of generality, we may assume that 𝜑(1) > 𝜑(0). By comparing two solutions 𝜑(𝑥) and 𝜑(𝑥+ 1) of (1), we see that
+𝜑(0) < 𝜑(1) < ⋯< 𝜑(𝑛) < ⋯. Thus, by the boundedness of 𝜑, we may assume that
+𝜑(𝑛) →𝑦∗∈𝐑, 𝑛→∞.
+Therefore, the solution to (1) with 𝑦∗as the initial data is a 1-periodic solution.

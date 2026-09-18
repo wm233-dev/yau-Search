@@ -1,0 +1,136 @@
+{
+ "2013": [
+  {
+   "num": 1,
+   "chars": 264,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 2,
+   "chars": 678,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 3,
+   "chars": 155,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 4,
+   "chars": 160,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 5,
+   "chars": 198,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 6,
+   "chars": 220,
+   "suba": 0,
+   "suball": 0
+  }
+ ],
+ "2016": [
+  {
+   "num": 1,
+   "chars": 231,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 2,
+   "chars": 459,
+   "suba": 3,
+   "suball": 3
+  },
+  {
+   "num": 3,
+   "chars": 388,
+   "suba": 2,
+   "suball": 2
+  },
+  {
+   "num": 4,
+   "chars": 987,
+   "suba": 4,
+   "suball": 5
+  },
+  {
+   "num": 5,
+   "chars": 477,
+   "suba": 3,
+   "suball": 3
+  }
+ ],
+ "2017": [
+  {
+   "num": 1,
+   "chars": 336,
+   "suba": 2,
+   "suball": 2
+  },
+  {
+   "num": 2,
+   "chars": 255,
+   "suba": 2,
+   "suball": 2
+  },
+  {
+   "num": 3,
+   "chars": 326,
+   "suba": 0,
+   "suball": 0
+  },
+  {
+   "num": 4,
+   "chars": 540,
+   "suba": 3,
+   "suball": 3
+  },
+  {
+   "num": 5,
+   "chars": 407,
+   "suba": 2,
+   "suball": 2
+  }
+ ],
+ "2018": [
+  {
+   "num": 1,
+   "chars": 431,
+   "suba": 2,
+   "suball": 2
+  },
+  {
+   "num": 2,
+   "chars": 511,
+   "suba": 3,
+   "suball": 3
+  },
+  {
+   "num": 3,
+   "chars": 613,
+   "suba": 2,
+   "suball": 2
+  },
+  {
+   "num": 4,
+   "chars": 514,
+   "suba": 2,
+   "suball": 2
+  },
+  {
+   "num": 5,
+   "chars": 776,
+   "suba": 2,
+   "suball": 2
+  }
+ ]
+}

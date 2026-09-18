@@ -1,0 +1,70 @@
+
+=== page 1 ===
+（Ⅵ）Syllabus on Mathematical Physics 
+ 
+1. Classical mechanics 
+Lagrangian formalism: inciple of least action, Euler-Lagrangian equation, 
+Noether theorem, Kepler problem, rigid body 
+Hamiltonian formalism: Hamilton’s equation, Poisson bracket, Liouville’s 
+theorem, canonical transformation, Hamilton-Jacobi theory 
+Reference: Landau and Lifshitz, Mechanics 
+                  Goldestine, Classical Mechanics 
+ 
+2. Electrodynamics  
+Electrostatics and magnetostatics: fields, potentials, charges, electric and 
+magnetic fields in matter, 
+Electrodynamics: Coulomb’s law, Lorentz force law, Ohm’s law, Faraday’s law, 
+Gauss’s law, Maxwell’s equation, conservation laws, electromagnetic waves, 
+radiation 
+Basic methods: the method of images, separation of variables, multipole 
+expansion 
+Reference: Grifiths, Introduction to electrodynamics 
+ 
+3. Thermodynamics and statistical physics 
+Fundamental principles of thermodynamics, thermodynamic potentials and 
+processes, phase equilibrium and phase transitions, partition function, entropy 
+Probability theory, the microcanonical, canonical and grand-canonical ensembles, 
+The Boltzmann, Bose and Fermi statistical distributions 
+Examples: ideal gas model, paramagnet, ideal quantum gases, degenerate Fermi 
+systems; photons and phonons; Bose–Einstein condensation.  
+Reference: Mehran Kardar, Statistical physics of particles 
+
+=== page 2 ===
+ 
+4.Quantum mechanics: 
+Fundamental concepts: Hilbert space, states, observables, wave functions,  
+Schrodinger equation, Schrodinger and Heisenberg pictures, canonical 
+quantization, density matrix. 
+Examples: harmonic oscillator, hydrogen atom model, potential well problems 
+Symmetry in quantum mechanics，angular momentum, spin, identical particles, 
+and atomic structure. 
+Perturbation theory, scattering, approximation method 
+Reference: JJ.Sakurai Mordern quantum mechanics  
+ 
+5. General relativity: 
+Differential geometry: metric, vector, tensor, differential forms, manifold, 
+connections, curvature, geodesic, tetrads, Lie derivatives, isometries and Killing 
+vectors. 
+Gravitation: the principle of equivalence, Einstein’s equation, Hilbert-Einstein 
+action. 
+Exact solutions: Minkowski, de Sitter, anti-de Sitter spacetimes, and black hole 
+solutions 
+Causal structure 
+References:  
+Sean Carroll: Spacetime and Geometry: An Introduction to General Relativity 
+Robert M. Wald: General relativity 
+ 
+6. Quantum field theory: 
+Classical field theory: Lagrangian and Hamiltonian formalism, Noether’s 
+theorem 
+Quantization: canonical quantization and path integrals 
+Fermions: representations of Poincare group, Dirac equation  
+
+=== page 3 ===
+S-matrix: LSZ reduction, Feymann propagator, Feymann rules, normal ordering, 
+Wick’s theorem, the optical theorem, locality  
+Renormalization: regularization and cutoff, counter terms, renormalization group 
+References:  
+Michael E. Peskin and Daniel V.Schroeder: An Introduction To Quantum Field 
+Theory 
+S. Weinberg: The quantum theory of fields, Vol 1,2 

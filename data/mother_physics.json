@@ -1,0 +1,575 @@
+[
+  {
+    "id": "MP-M01",
+    "name": "拉格朗日力学：有效一维势 → 平衡与稳定性 → 线性化小振动频率",
+    "members": [
+      {
+        "year": "2024",
+        "subject": "Mathematical Physics",
+        "paper": "2024_2024_Math_physics",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2025",
+        "subject": "Mathematical Physics",
+        "paper": "2025_physics",
+        "kind": "individual",
+        "n": 1
+      },
+      {
+        "year": "2026",
+        "subject": "Mathematical Physics",
+        "paper": "2026_2026_physics",
+        "kind": "individual",
+        "n": 1
+      }
+    ],
+    "first": "2024",
+    "last": "2026",
+    "trend": "升要求",
+    "active": true,
+    "confidence": "高",
+    "core": "把约束/中心力系统写成广义坐标下的 L，抽出守恒量做有效一维约化，再在有效势上做平衡点分析、稳定性判据与线性化小振动频率计算。",
+    "chain": "2024 单自由度中心势（V=αr^k，直接给 k 讨论稳定性）→ 2025 单自由度含时约束（旋转圆环，需先求临界角速度 Ω）→ 2026 两自由度耦合（滑动摆，含张力与圆锥摆扩展）"
+  },
+  {
+    "id": "MP-M02",
+    "name": "由拉格朗日量反推磁矢势/规范结构（并讨论对称性与守恒量）",
+    "members": [
+      {
+        "year": "2023",
+        "subject": "Mathematical Physics",
+        "paper": "2023_Mathematical_Physics",
+        "kind": "individual",
+        "n": 2,
+        "part": "卷面第1题（PDF 提取时与第2题合并入同一记录 n=2）"
+      }
+    ],
+    "first": "2023",
+    "last": "2023",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "高",
+    "core": "给定一个含 1/r² 因子的非常规拉格朗日量，把它配成 ½f[(p−A)²] 的规范耦合形式，读出 A、算出 B=∇×A，再讨论旋转与标度对称性对应的守恒量与轨道方程。",
+    "chain": "仅 2023 出现一次"
+  },
+  {
+    "id": "MP-Q01",
+    "name": "二维各向同性谐振子的简并微扰：微扰论与精确解对照",
+    "members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2023",
+        "subject": "Mathematical Physics",
+        "paper": "2023_Mathematical_Physics",
+        "kind": "individual",
+        "n": 2,
+        "part": "卷面第2题（PDF 提取时与第1题合并入同一记录 n=2）"
+      }
+    ],
+    "first": "2022",
+    "last": "2023",
+    "trend": "换皮",
+    "active": false,
+    "confidence": "高",
+    "core": "n₁+n₂=n 的简并子空间上做一阶微扰：先在简并子空间内对角化（或找出把简并子空间组织成不可约表示的代数），再与精确可解的模型对照。",
+    "chain": "2022 用 Schwinger 玻色子构造 su(2) 代数、把简并层分类为不可约表示，微扰项为 x₁²p₂²，只做一阶微扰 → 2023 改为各向异性二次型扰动 αmω²xy，除一阶微扰外还要求旋转坐标求精确谱并回验微扰结果"
+  },
+  {
+    "id": "MP-Q02",
+    "name": "谐振子的含时线性驱动：位移（压缩）算符、跃迁概率与期望值",
+    "members": [
+      {
+        "year": "2024",
+        "subject": "Mathematical Physics",
+        "paper": "2024_2024_Math_physics",
+        "kind": "individual",
+        "n": 2
+      },
+      {
+        "year": "2025",
+        "subject": "Mathematical Physics",
+        "paper": "2025_physics",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2024",
+    "last": "2025",
+    "trend": "换皮",
+    "active": true,
+    "confidence": "高",
+    "core": "H=H₀+F(t)x 型线性驱动谐振子：把驱动写成位移算符（或 e^{−A}H₀e^{A}+B 的算符因式分解），得到 a_±∞ 之间的平移关系，从而把跃迁概率化为相干态的 Poisson 分布，并计算末态能量/偶极矩期望值。",
+    "chain": "2024 瞬态脉冲 F(t)x（Heisenberg 绘景 + 高斯脉冲的短/长脉冲极限）→ 2025 突加匀强电场 −qEx（e^{−A}H₀e^{A}+B 因式分解 + 存活概率与回复时间 + 偶极矩期望值）"
+  },
+  {
+    "id": "MP-Q03",
+    "name": "时间反演算符的反幺正性及其对波函数的后果",
+    "members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 1
+      }
+    ],
+    "first": "2022",
+    "last": "2022",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "高",
+    "core": "用 Wigner 定理证明 Θ 反幺正；由 Θ|x⟩=|x⟩ 推出 ψ(x)→ψ(x)*；再对无简并定态推出可取实波函数。",
+    "chain": "仅 2022 出现一次"
+  },
+  {
+    "id": "MP-Q04",
+    "name": "δ 势散射：无反射透射与双中心束缚态",
+    "members": [
+      {
+        "year": "2026",
+        "subject": "Mathematical Physics",
+        "paper": "2026_2026_physics",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2026",
+    "last": "2026",
+    "trend": "孤题",
+    "active": true,
+    "confidence": "高",
+    "core": "由 δ 势的匹配条件求透射系数，找共振（无反射）能量；再借 S 波散射长度 a 的符号判据，判断双中心吸引势能否支持束缚态。",
+    "chain": "仅 2026 出现一次"
+  },
+  {
+    "id": "MP-E01",
+    "name": "势与规范：从 A_µ 到 E、B，剩余 Maxwell 方程的推迟解",
+    "members": [
+      {
+        "year": "2023",
+        "subject": "Mathematical Physics",
+        "paper": "2023_Mathematical_Physics",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2023",
+    "last": "2023",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "高",
+    "core": "用 (φ,A) 表示 E、B 并验证规范不变性；把两对 Maxwell 方程分别化为恒等式与波动方程；再用推迟 Green 函数从源（运动点电荷）解得非相对论远场势。",
+    "chain": "仅 2023 出现一次"
+  },
+  {
+    "id": "MP-E02",
+    "name": "电磁波在导体介质中的传播与反射（边界条件定场）",
+    "members": [
+      {
+        "year": "2024",
+        "subject": "Mathematical Physics",
+        "paper": "2024_2024_Math_physics",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2024",
+    "last": "2024",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "高",
+    "core": "由 Maxwell 方程在良导体极限下解出复波数 k_c 与 E-H 振幅关系；用边界条件说明理想导体反射的极化反相，并在有限电导率下求金属内场的领头阶。",
+    "chain": "仅 2024 出现一次"
+  },
+  {
+    "id": "MP-E03",
+    "name": "近轴波包：梯度展开的高阶修正与光的角动量",
+    "members": [
+      {
+        "year": "2025",
+        "subject": "Mathematical Physics",
+        "paper": "2025_physics",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2025",
+    "last": "2025",
+    "trend": "孤题",
+    "active": true,
+    "confidence": "高",
+    "core": "零阶平面波解不满足 Maxwell 方程；按梯度（kσ≫1）做一阶展开，强制 ∇·E=0 得到纵向修正项，再通过平面波叠加验证，最后算 ⟨L_z⟩/⟨U⟩ 并用光子图像解释。",
+    "chain": "仅 2025 出现一次"
+  },
+  {
+    "id": "MP-E04",
+    "name": "准静态场的离轴泰勒展开、感应场与近似失效判据",
+    "members": [
+      {
+        "year": "2026",
+        "subject": "Mathematical Physics",
+        "paper": "2026_2026_physics",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2026",
+    "last": "2026",
+    "trend": "孤题",
+    "active": true,
+    "confidence": "高",
+    "core": "在轴上场的基础上用 ∇·B=0、∇×B=0 把 B 展开为 (z,ρ) 的二次多项式；对缓变电流求感应 E 场；最后估计有限频率修正的量级与磁静近似失效的 z 尺度。",
+    "chain": "仅 2026 出现一次"
+  },
+  {
+    "id": "MP-S01",
+    "name": "Ising 模型：配分函数 → 自由能/热容/磁化率 → 临界与低温行为",
+    "members": [
+      {
+        "year": "2024",
+        "subject": "Mathematical Physics",
+        "paper": "2024_2024_Math_physics",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2025",
+        "subject": "Mathematical Physics",
+        "paper": "2025_physics",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2024",
+    "last": "2025",
+    "trend": "换皮",
+    "active": true,
+    "confidence": "中",
+    "core": "建立配分函数 Z（平均场自洽方程或有限格点精确枚举），由 F=−T ln Z 及对 h、T 的导数得到 m、C、χ，再取临界/低温极限读出幂律指数或涨落。",
+    "chain": "2024 平均场 Ising（N 自旋、自洽方程、图形解、T_c 与临界指数 α/β/γ）→ 2025 三角格点 3 自旋精确解（Z、F、S、C、M、χ 与低温磁化涨落）"
+  },
+  {
+    "id": "MP-S02",
+    "name": "自由量子气体的热容：Bose/Fermi 分布与积分求值",
+    "members": [
+      {
+        "year": "2023",
+        "subject": "Mathematical Physics",
+        "paper": "2023_Mathematical_Physics",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2023",
+    "last": "2023",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "高",
+    "core": "由玻色/费米分布写出内能积分，在 μ=0（玻色）与 μ≫k_BT（费米）两种极限下求值，得到热容的温度幂次。",
+    "chain": "仅 2023 出现一次"
+  },
+  {
+    "id": "MP-S03",
+    "name": "相平衡条件与 Clausius–Clapeyron 关系",
+    "members": [
+      {
+        "year": "2026",
+        "subject": "Mathematical Physics",
+        "paper": "2026_2026_physics",
+        "kind": "individual",
+        "n": 4
+      }
+    ],
+    "first": "2026",
+    "last": "2026",
+    "trend": "孤题",
+    "active": true,
+    "confidence": "高",
+    "core": "由两相化学势相等（或 Gibbs 自由能相等）写出共存曲线条件，再结合相变潜热/熵变推出蒸气压沿共存曲线的斜率。",
+    "chain": "仅 2026 出现一次"
+  },
+  {
+    "id": "MP-G01",
+    "name": "非标准定义的度规：先导出度规，再算曲率，判定 Einstein / 常曲率性质",
+    "members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 4
+      },
+      {
+        "year": "2023",
+        "subject": "Mathematical Physics",
+        "paper": "2023_Mathematical_Physics",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2024",
+        "subject": "Mathematical Physics",
+        "paper": "2024_2024_Math_physics",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2026",
+        "subject": "Mathematical Physics",
+        "paper": "2026_2026_physics",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2022",
+    "last": "2026",
+    "trend": "升要求",
+    "active": true,
+    "confidence": "高",
+    "cross_members": [
+      {
+        "year": "2010",
+        "subject": "Geometry & Topology",
+        "paper": "2010_GeometryTopology_team",
+        "kind": "team",
+        "n": 1,
+        "note": "球极投影导出 S^n 标准度量——同属「由非标准几何描述导出度量」的上半段，但未进入曲率计算"
+      }
+    ],
+    "core": "面对一个不是直接给出的度规（嵌入超曲面、距离公式、ansatz），先把 g_µν 导出来，再算 Christoffel/Ricci/标量曲率，最后判定它是不是 Einstein 度量/常曲率，并检验 Killing 向量。",
+    "chain": "2022 EF 度规 + 零超曲面验证（只算法向量与 l²=0，最浅）→ 2023 静态球对称 ansatz，需完整算 Ricci 分量并带 Λ 解出 f(r)，再验 Killing → 2024 de Sitter：先从嵌入 −(x⁰)²+Σ(xⁱ)²=α² 与静态坐标导出诱导度规，再算 dS₃ 的 Ricci 与 R → 2026 Klein 圆盘：从 cosh d 的距离公式反推 g₁₁,g₁₂,g₂₂，换极坐标算 Christoffel、Riemann 分量，判定 R_µνρσ=K(g_µσg_νρ−g_µρg_νσ) 并求 K"
+  },
+  {
+    "id": "MP-G02",
+    "name": "Killing 场：等距方程 ⟺ 协变反对称 ⟹ 沿测地线守恒量",
+    "members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 3
+      }
+    ],
+    "first": "2022",
+    "last": "2022",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "高",
+    "cross_members": [
+      {
+        "year": "2019",
+        "subject": "Geometry & Topology",
+        "paper": "2019_Geometry2019_team",
+        "kind": "team",
+        "n": 5,
+        "note": "同一母题 P 的几何分支：用 ∇_V X 的反对称性证 Hessian 恒等式，再由曲率负性排除非平凡 Killing 场"
+      }
+    ],
+    "core": "把坐标形式的 Killing 方程翻译成协变形式 D_µk_ν+D_νk_µ=0（即 ∇_V X 反对称），再由此导出推论：物理上是沿测地线的守恒量 k_µP^µ，几何上是 |X|² 的 Hessian 恒等式与曲率符号障碍。",
+    "chain": "物理卷 2022 一次；同母题的几何分支见 2019 几何卷队赛第 5 题"
+  },
+  {
+    "id": "MP-G03",
+    "name": "引力波四极辐射与双星并合时标",
+    "members": [
+      {
+        "year": "2025",
+        "subject": "Mathematical Physics",
+        "paper": "2025_physics",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2025",
+    "last": "2025",
+    "trend": "孤题",
+    "active": true,
+    "confidence": "高",
+    "core": "把给定四极公式代入圆轨道得到 h₊、h_×，由 p 的角向积分得辐射功率 P，再用能量损失率 dE/dt=−P 积分出 f(t) 与并合时标，最后做数量级估计。",
+    "chain": "仅 2025 出现一次"
+  },
+  {
+    "id": "MP-F01",
+    "name": "标量/汤川理论单圈发散：Feynman 规则 → 维数正规化 → 抵消项与重整化",
+    "members": [
+      {
+        "year": "2023",
+        "subject": "Mathematical Physics",
+        "paper": "2023_Mathematical_Physics",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2024",
+        "subject": "Mathematical Physics",
+        "paper": "2024_2024_Math_physics",
+        "kind": "individual",
+        "n": 6
+      },
+      {
+        "year": "2026",
+        "subject": "Mathematical Physics",
+        "paper": "2026_2026_physics",
+        "kind": "individual",
+        "n": 5
+      }
+    ],
+    "first": "2023",
+    "last": "2026",
+    "trend": "升要求",
+    "active": true,
+    "confidence": "高",
+    "core": "写传播子与顶点 → 列出指定阶的圈图 → 用 Feynman 参数化 + d 维动量积分把发散收成 Γ 函数的 1/ε 极点 → 定义抵消项消掉极点并写出重整化后的耦合/质量。",
+    "chain": "2023 φ³ 自能 + 质量抵消项 δm²（单一发散、单一抵消项）→ 2024 Yukawa：同时处理 φ 与 ψ 的自能，还要求判断是否存在不可重整的发散 → 2026 φ⁴ 四点函数：抵消项 + 重整化耦合 + 重整化群跑动方程（β 函数）"
+  },
+  {
+    "id": "MP-F02",
+    "name": "大 N 展开：O(N) 模型的图计数与 1/N 领头阶",
+    "members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2022",
+    "last": "2022",
+    "trend": "孤题",
+    "active": false,
+    "confidence": "中",
+    "core": "在 O(N) 线性 σ 模型上写 Feynman 规则、枚举单圈四点图，然后对每张图数出 g₀=λ₀N 与 N 的幂次，固定 g₀ 取 N→∞ 得到领头阶图集合。",
+    "chain": "仅 2022 出现一次"
+  },
+  {
+    "id": "MP-F03",
+    "name": "标度/共形不变性：变换下的作用量、守恒流与量子破缺",
+    "members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 5
+      },
+      {
+        "year": "2025",
+        "subject": "Mathematical Physics",
+        "paper": "2025_physics",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2022",
+    "last": "2025",
+    "trend": "升要求",
+    "active": true,
+    "confidence": "中",
+    "core": "给定标度/共形变换律，计算作用量（或能量动量张量构造的流）的变化，要求它为零从而定出不变性成立的条件（θ^µν 无迹、标度维 Δ、共形耦合 ξ=1/6），并讨论经典不变性在量子层面被破坏。",
+    "chain": "2022 从 θ^µν 构造膨胀流 s^µ 与共形流 K^{λµ} 求守恒条件，并证明一个含 e^{fσ} 的拉氏量标度不变，最后定性解释迹反常 → 2025 完整做 Weyl 变换下的作用量变换、求 R 的变换律、由 ξRφ² 定出 ξ=1/6，并证明 AdS 型度规下共形标量等价于有质量场"
+  },
+  {
+    "id": "XSUB-01",
+    "name": "【跨科目】Killing 场的一阶恒等式及其推论（物理：守恒量；几何：Bochner 型恒等式）",
+    "members": [],
+    "cross_members": [
+      {
+        "year": "2022",
+        "subject": "Mathematical Physics",
+        "paper": "2022_ExamPaper_2022_Mathematical_Physics_22s",
+        "kind": "individual",
+        "n": 3
+      },
+      {
+        "year": "2019",
+        "subject": "Geometry & Topology",
+        "paper": "2019_Geometry2019_team",
+        "kind": "team",
+        "n": 5
+      }
+    ],
+    "first": "2019",
+    "last": "2022",
+    "trend": "跨科目各出现一次",
+    "active": false,
+    "confidence": "高",
+    "note": "与 MP-G02 为同一母题的跨科目视图，二者共享「Killing 方程 ⟹ ∇_V X 反对称」这一唯一的第一性步骤。"
+  },
+  {
+    "id": "XSUB-02",
+    "name": "【跨科目】物理内核：哈密顿动力学的辛结构与保辛数值积分",
+    "members": [],
+    "cross_members": [
+      {
+        "year": "2018",
+        "subject": "Computational & Applied",
+        "paper": "2018_applied2018_individual",
+        "kind": "individual",
+        "n": 2
+      }
+    ],
+    "first": "2018",
+    "last": "2018",
+    "trend": "物理卷无对应母题",
+    "active": false,
+    "confidence": "高",
+    "note": "把 q''=−∇V(q) 改写成哈密顿系统并证明流映射满足 ΦᵀJΦ=J，再验证 velocity-Verlet 既保辛又二阶精度。物理内核=辛结构守恒，但物理卷从未考过辛性判据。"
+  },
+  {
+    "id": "XSUB-03",
+    "name": "【跨科目】物理内核：Schrödinger 算符的谱等价与半经典（WKB）极限",
+    "members": [],
+    "cross_members": [
+      {
+        "year": "2013",
+        "subject": "Computational & Applied",
+        "paper": "2013_TeamProblems2013",
+        "kind": "team",
+        "n": 2
+      },
+      {
+        "year": "2023",
+        "subject": "Computational & Applied",
+        "paper": "2023_Computational_Applied",
+        "kind": "individual",
+        "n": 6
+      }
+    ],
+    "first": "2013",
+    "last": "2023",
+    "trend": "物理卷无对应母题",
+    "active": false,
+    "confidence": "高",
+    "note": "2013 队赛要证 Fokker–Planck / Witten Laplacian / Schrödinger 三个算符同谱（相似变换 e^{±φ}）；2023 个人赛做 WKB 展开导出 Hamilton–Jacobi 与输运方程并讨论焦散。物理卷未出现量子力学半经典极限题。"
+  },
+  {
+    "id": "XSUB-04",
+    "name": "【跨科目】物理内核：波动方程的能量方法与有限传播速度",
+    "members": [],
+    "cross_members": [
+      {
+        "year": "2013",
+        "subject": "Computational & Applied",
+        "paper": "2013_applied2013_individual",
+        "kind": "individual",
+        "n": 1
+      }
+    ],
+    "first": "2013",
+    "last": "2013",
+    "trend": "物理卷无对应母题",
+    "active": false,
+    "confidence": "高",
+    "note": "u_tt=Δu 的超光速行波解、球内能量单调性与有限能量矛盾。物理卷 2025 n=2 也算过波包能量（按长度），但用的是近轴展开而非能量法，内核不同，未归并。"
+  }
+]

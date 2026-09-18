@@ -1,0 +1,64 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Geometry and Topology
+(6 problems)
+Problem 1. Let n > 1 be a positive integer.
+(i) Is the tangent bundle of S2n × S2n trivial? Justify your answer.
+(ii) Is the tangent bundle of S2n × S2n−1 trivial? Justify your answer.
+Problem 2. The Lie group SU(2) is diﬀeomorphic to the 3-sphere S3, with Lie algebra
+spanned by
+X1 =
+
+i
+0
+0
+−i
+
+,
+X2 =
+
+0
+1
+−1
+0
+
+,
+X3 =
+
+0
+i
+i
+0
+
+.
+A positive-deﬁnite inner product on the Lie algebra determines a left-invariant Riemannian
+metric on the Lie group. The Berger metrics gϵ on S3 are obtained by making the inner
+product on the Lie algebra such that ϵ−1X1, X2, and X3 form an orthonormal frame, where
+ϵ > 0 is a positive number.
+(i) Let ∇be the Levi-Civita connection for gϵ. Prove that ∇XiXi = 0 for i = 1, 2, 3.
+(ii) Compute the scalar curvature for gϵ.
+Problem 3. Let n ≥1 be a positive integer, and let U(n) be the group of unitary
+matrices in Cn.
+(i) Compute π2(U(n)) and π3(U(n)).
+(ii) Prove that the determinant map det : U(n) →S1 induces an isomorphism on
+fundamental groups.
+Problem 4. Prove that CP2 does not admit an immersion into R6.
+Problem 5.
+Let (M, g) be a closed, oriented, two-dimensional smooth Riemannian
+manifold with Gaussian curvature K. Suppose u is a smooth function, and deﬁne a new
+metric ˜g := e2ug in the same conformal class as g, with Gaussian curvature ˜K.
+(i) Prove that u satisﬁes the equation
+∆u −K + ˜Ke2u = 0,
+where ∆is the Laplace–Beltrami operator deﬁned by the metric g.
+(ii) Suppose the Euler characteristic χ(M) = 0. Prove that either ˜K ≡0 or
+ˆ
+M
+˜Ke2f dVolg < 0,
+where f is a solution to the equation ∆f = K.
+Problem 6. Let n ≥1 be a positive integer.
+(i) Does there exist a self-homeomorphism of CPn with no ﬁxed points? Either con-
+struct such a homeomorphism or prove that none exists.
+(ii) Does there exist a self-homeomorphism of CP2 × CP2 with no ﬁxed points? Either
+construct such a homeomorphism or prove that none exists.
+1

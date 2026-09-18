@@ -1,0 +1,383 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Probability and Statistics
+Solve every problem.
+Part I: Probability
+Problem 1. Let X be an essentially bounded random variable with mean zero. Show that
+EeX ≤cosh ∥X∥∞,
+where cosh x = ex+e−x
+2
+is the hyperbolic cosine function.
+Solution:
+The equation of the straight line connecting the two points (−M,e−M) and (M,eM) on the curve
+y = ex is
+y = eM + e−M
+x
++
+ eM −e−M
+2M
+
+x = cosh M +
+sinh M
+M
+
+x
+where sinh M = eM −e−M
+2
+is the hyperbolic sine function. Since the function y = ex is a convex function, it
+lies under the the straight line on the interval [−M, M], hence
+ex ≤cosh M
+sinh M
+M
+
+x.
+(1)
+The above inequality can also be proved as follows. We write x ∈[−M, M] as a convex combination of M
+and −M as follows:
+x = 1
+2
+
+1 + x
+M
+
+· M + 1
+2
+
+1 −x
+M
+
+· (−M).
+From the convexity of the function ex we have
+ex ≤1
+2
+
+1 −x
+M
+
+eM + 1
+2
+
+1 −x
+M
+
+e−M = cosh M +
+sinh M
+M
+
+x.
+Now let M = ∥X∥∞. Because |X| ≤M almost surely from (1) we have
+eX ≤cosh M +
+sinh M
+M
+
+X
+almost surely. Taking the expectation and using the assumption that EX = 0 we obtain EeX ≤cosh M.
+Problem 2.
+Let λ be a positive number. Suppose that X is a random variable with E|X| < ∞.
+Suppose that
+λE f (X + 1) = E{X f (X)}
+for all bounded smooth functions. Show that X has the Poisson distribution Poisson(λ).
+Solution:
+We will apply the identity in the problem to the bounded smooth function f (x) = eitx (for a
+ﬁxed t ∈R). The left-hand side is equal to λeitφ(t), where φ(t) = EeitX is the characteristic function of
+X. The right-hand side is E[XeitX] = −iφ′(t). Note that under the assumption E|X| < ∞the function
+φ(t) is continuously diﬀerentiable and the diﬀerentiation under the expectation is justiﬁed by the dominated
+convergence theorem. Therefore φ′(t) = iλeitφ(t).
+Let g(t) = φ(t)e−λ(eit−1). We have
+g′(t) =
+
+φ′(t) −iλeitφ(t)
+	
+e−λ(eit−1) = 0.
+
+=== page 2 ===
+Hence g(t) is a constant, i.e., g(t) = g(0) = 1. It follows that the characteristic function of the random variable
+X is φ(t) = eλ(eit−1). This is the characteristic function of the distribution Poisson(λ). By the uniqueness
+theorem for characteristic functions the distribution of X must be Poisson(λ).
+Problem 3. Consider the random walk
+Sn = a + X1 + X2 + · · · + Xn,
+where a is a positive integer and {Xi} are independent and identically distributed random variables
+with a common distribution
+P{Xi = 1} = p,
+P{Xi = −1} = 1 −p.
+Let τ0 = inf{n : Sn = 0} be the ﬁrst time the random walk reaches the state x = 0. For all p ∈[0,1]
+ﬁnd the probability Pa{τ0 < ∞} that the random walk will eventually hit the state x = 0.
+Solution: It is clear that Pa{τ0 < ∞} = 1 and 0 for p = 0 and p = 1, respectively. We assume that 0 < p < 1.
+Let q = 1 −p for simplicity. Consider the function
+f (x) =
+ q
+p
+x
+.
+It is easy to verify that f (Sn) is a martingale. For each integer b > a let τb = inf {n : Sn = b} and τ = τ0 ∧τb.
+Then the stopped martingale f (Sn∧τ) is bounded. By the martingale convergence theorem, it must converge
+almost surely. Since Pa {τ < ∞} = 1, the walk Sn∧τ stops at either a or b and we have
+f (a) = P {τ0 < τb} + f (b)P {τ0 > τb} .
+Note that f (0) = 1.
+If 0 ≤p > 1/2, then letting b →∞we have τb →∞and f (b) →0, hence
+P {τ0 < ∞} = f (a). If p < 1/2, then f (b) →∞as b →∞and we must have P {τ0 > τb} →0. This means
+that P {τ0 < ∞} = 1.
+For the case p = 1/2, we can use the same argument with the function f (x) = x. We have a = bP {τ0 > τb}
+or P {τ0 > τb} = a/b. Letting b →∞we have again P {τ0 < ∞} = 1. We have
+P {τ0 < ∞} =
+( 1
+0 ≤p ≤1/2,
+
+1−p
+p
+a
+1/2 < p ≤1.
+Problem 4. Let Z = (X,Y) be an R2-valued random variable such that (1) X andY are independent;
+(2) both X and Y have mean zero and ﬁnite (nonvanishing) second moments; (3) the distribution of
+Z is invariant under the rotation counter-clockwise around the origin by an angle θ not a multiple of
+90 degrees. Show that X and Y must be normal random variables with the same variance.
+Solution: We ﬁrst show that X and Y have the same variance σ2 = E|X|2 = E|Y|2. By hypothesis, we have
+E|X|2 = cos2 θE|X|2 + sin2 θE|Y|2,
+E|Y|2 = sin2 θE|X|2 + cos2 θE|Y|2.
+(2)
+Subtracting the two equations we have
+(1 −cos 2θ)
+
+E|X|2 −E|Y|2
+= 0.
+If cos 2θ , 1 we have E|X|2 = E|Y|2; otherwise cosθ = sin2 θ = 1/2 and the equality obviously holds.
+
+=== page 3 ===
+From (2) by induction we can show that
+X ∼
+Õ
+i = 12naniZi
+where {Zi} are independent and have the same distribution as either X or Y, say Xi ∼X for i ∈I and Zi ∼Y
+for i ∈J. Each coeﬃcient has the form ani = ± cosk θ sinn−k θ for some k. Since θ is not a multiple of
+90 degrees, there is a constant 0 < λ < 1 such that |ani| ≤λn. Furthermore, since X and Y have the same
+variance we have
+2n
+Õ
+i=1
+|ani|2 = 1.
+We show that Lindeberg’s condition is satisﬁed for the sum Í2n
+i=1 aniZi. Indeed, by Chebyshev’s inequality
+2n
+Õ
+i=1
+E
+
+|anizi|2 ; |aniZi| ≥ϵ
+	
+≤
+ Õ
+i∈I
+|ani|2
+!
+E
+n
+|X|2 ; |X| ≥ϵ
+λn
+o
++
+ Õ
+i∈J
+|ani|2
+!
+E
+n
+|Y|2 ; |Y| ≥ϵ
+λn
+o
+≤
+λn
+ϵ
+( Õ
+i∈I
+|ani|2
+!
+E|X|2 +
+ Õ
+i∈J
+|ani|2
+!
+E|Y|2
+)
+=
+λn
+ϵ E|X|2 →0.
+Now by the Lindeberg central limit theorem, the above sum converges in distribution to a normal distribution,
+hence X (and also Y by the same argument) are normal random variables.
+We can also work with characteristic functions without using the Lindeberg central limit theorem. We have
+φX(t) =
+Ö
+i∈I
+φX(anit)
+Ö
+i∈J
+φY(anit).
+Since X and Y have mean zero and the same variance σ2
+φX(t) = 1 −σ2
+2 t2 + o(t2) = e−σ2t2/2+o(t2).
+The same equality holds for φY(t). It follows from the fact that ani’s tend to zero uniformly as n →∞and
+Í2n
+i=1 |ani|2 = 1 that
+φX(t) =
+2n
+Ö
+i=1
+e−|ani |2σ2/2+o(|ani |2t2) = e−σ2t2+o(t2) →e−σ2t2/2.
+Part II: Statistics
+The following collection of questions concerns the design of a randomized experiment where the
+N units to be randomized to drug A or drug B are people, for whom we have a large number
+of background covariates, collectively labelled X (e.g., age, sex, blood pressure, height, weight,
+occupational status, history of heart disease, family history of heart disease). The objective is to
+assign approximately half to drug A and half to drug B where the means of each of the X variables
+(and means of non-linear functions of them, such as squares or products) are close to equal in the
+two groups. Instead of using classical methods of design, such as blocking or stratiﬁcation, the plan
+is to use modern computers to try many random allocations and discard those allocations that are
+considered unacceptable according to a pre-determined criterion for balanced X means, in particular
+an aﬃnely invariant measure such as the Mahalanobis distance between the means of X in the two
+groups. After an acceptable allocation is found, outcome variables will be measured, and their
+means will be compared in group A and group B to estimate a treatment eﬀect.
+
+=== page 4 ===
+Problem 5.
+Prove that if the two groups are of the same size (i.e., N/2 for even N), this plan
+will result in unbiased estimates of the A versus B casual eﬀect based on the sample means of Y in
+groups A and B, where Y is any linear function of X.
+Solution:
+Let Xi denote the covariate vector of unit i, and X = (X1,. . ., XN)⊤denote the covariate matrix
+for all N units. Let zi denote the treatment allocation for unit i, which equals 1 if the unit is assinged to drug
+A and 0 otherwise, and z ∈{0,1}N denote the treatment allocation for all N units.
+Let φ(X, z) denote the pre-determined criterion for balanced covariate means, which equals 1 if the allocation
+z is acceptable and 0 otherwise. By construction, the criterion is invariant when we switch treatment and
+control groups, i.e., φ(X, z) = φ(X,1 −z). Note that under a completely randomized experiment (CRE) with
+half of the units assinged to each treatment group, Z and 1 −Z follows the same distribution. This implies
+that, under the randomization (i.e, the CRE with balance criterion φ),
+Z | φ(X, Z) = 1 ∼1 −Z | φ(X,1 −Z) = 1 ∼1 −Z | φ(X, Z) = 1.
+Therefore, under re-randomization, Z and 1 −Z must have the same distribution. Consequently, for any
+1 ≤i ≤N,
+E (Zi | X, φ(X, Z) = 1) = E (1 −Zi | X, φ(X, Z) = 1) = 1 −E (Zi | X, φ(X, Z) = 1),
+which immediately implies that E (Zi | X, φ(X, Z) = 1) = 0.5.
+We consider potential outcomes Yi(1) = Yi(0) = α + β⊤Xi that are some linear function of the covariate.
+Obviously, the treatment eﬀect of drug A versus B on outcome Y is zero. Let Yi = ZiYi(1) + (1 −Zi)Yi(0)
+be the observed outcome for unit i. The estimator of this causal eﬀect based on the samples means of Y in
+groups A and B is
+ˆτ =
+1
+N/2
+N
+Õ
+i=1
+ZiYi −
+1
+N/2
+N
+Õ
+i=1
+(1 −Zi)Yi =
+1
+N/2
+N
+Õ
+i=1
+ZiYi(1) −
+1
+N/2
+N
+Õ
+i=1
+(1 −Zi)Yi(0).
+Under re-randomization, ˆτ has expectation
+E( ˆτ | X, φ(X, Z) = 1)
+=
+2
+N
+N
+Õ
+i=1
+E(Zi | X, φ(X, Z) = 1) · Yi(1) −2
+N
+N
+Õ
+i=1
+{1 −E(Zi | X, φ(X, Z) = 1)} · Yi(0)
+=
+2
+N
+N
+Õ
+i=1
+1
+2 · Yi(1) −2
+N
+N
+Õ
+i=1
+
+1 −1
+2
+
+· Yi(0)
+=
+1
+N
+N
+Õ
+i=1
+Yi(1) −1
+N
+N
+Õ
+i=1
+Yi(0)
+=
+0.
+Therefore, ˆτ is an unbiased estimator for the A versus B causal eﬀect on the outcome Y.
+Problem 6.
+Provide a counter-example to the assertion that Problem 5 is true in small samples
+with odd N.
+Solution: We consider an experiment with three units, among which two will be assigned to drug A and the
+remaining one to drub B. Suppose each unit has a scalar covariate with covariate values (X1, X2, X3) = (0,0,10)
+and the potential outcomes Yi(1) = Yi(0) = Xi for 1 ≤i ≤3.
+We consider re-randomization with the following balance criterion:
+φ(X, z) = 1
+(
+1
+2
+N
+Õ
+i=1
+ziXi −
+N
+Õ
+i=1
+(1 −zi)Xi
+ ≤8
+)
+,
+
+=== page 5 ===
+i.e., a treatment allocation is acceptable if and only if the absolute value of the diﬀerence between covariate
+means in groups A and B are less than or equal to 8. Consequently, for all
+ 3
+2
+
+= 3 treatment allocations,
+only 2 are acceptable:
+z = (z1, z2, z3)⊤
+ˆτX ≡1
+2
+ÍN
+i=1 ziXi −ÍN
+i=1(1 −zi)Xi
+φ(X, z)
+(1,1,0)
+−10
+0; Not acceptable
+(1,0,1)
+5
+1; Acceptable
+(0,1,1)
+5
+1; Acceptable
+By the deﬁnition of potential outcomes, ˆτ is the same as ˆτX in the above table. From the above table, under
+re-randomization with the balance criterion φ, ˆτ has probability 1 to be 5. Note that the true casual eﬀect of
+A versus B on outcome Y is zero. Therefore, in this example, ˆτ is not unbiased for the casual eﬀect.

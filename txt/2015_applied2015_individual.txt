@@ -1,0 +1,106 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Applied Math. and Computational Math.
+Individual (5 problems)
+Problem 1. Let r and s be relatively prime positive integers. Prove that the number
+of lattice paths from (0, 0) to (r, s), which consists of steps (1, 0) and (0, 1) and never
+go above the line ry = sx is given by
+1
+r + s
+(r + s
+s
+)
+.
+Problem 2. The following 2 × 2 block matrix
+C(α) =
+[
+αI
+A
+AT
+0
+]
+plays a key role in an augmented system method to solve linear least squares problem, a
+fundamental numerical linear algebra problem for ﬁtting a linear model to observations
+subject to errors in science, where A ∈Rm×n is of full rank n ≤m, I is a m×m identity
+matrix, and α ≥0. Prove the following results which address the question of optimal
+choice of scaling α for stabiltiy of the augmented system method.
+(a) The eigenvalues of C(α) are
+α
+2 ±
+(α2
+4 + σ2
+i
+)1/2
+for i = 1, 2, . . . , n,
+and
+α
+(m −n times),
+where σi for i = 1, 2, . . . , n are the singular values of A, arranged in the de-
+creasing order, i.e., σ1 ≥σ2 ≥· · · ≥σn.
+(b) The condition number κ2(C(α)) = ∥C(α)∥2 ∥[C(α)]−1∥2 has the following bounds:
+√
+2κ2(A) ≤min
+α κ2(C(α)) ≤2κ2(A),
+with minα κ2(C(α)) being achieved for α = σn/
+√
+2, and
+max
+α
+κ2(C(α)) > κ2(A)2,
+where ∥· ∥is the spectral norm of a matrix.
+Recall that any matrix A ∈Rm×n has a singular value decomposition (SVD):
+A = UΣV T,
+Σ = diag(σ1, σ2, . . . , σp) ∈Rm×n,
+p = min(m, n),
+where σ1 ≥σ2 ≥· · · ≥σp ≥0, and U ∈Rm×m, V ∈Rn×n are both orthogonal. The σi
+are the singular values of A and the columns of U and V are the left and right singular
+vectors of A, respectively.
+1
+
+=== page 2 ===
+2
+Problem 3. Solve the following linear hyperbolic partial diﬀerential equation
+ut + aux = 0,
+t ≥0,
+(1)
+where a is a constant. Using the ﬁnite diﬀerence approximation, we can obtain the
+forward-time central-space scheme as follows,
+un+1
+m
+−un
+m
+k
++ aun
+m+1 −un
+m−1
+2h
+= 0,
+(2)
+where k and h are temporal and spatial mesh sizes.
+(a) Show that when we ﬁx λ = k/h as a positive constant, the forward-time central-
+space scheme (2) is consistent with equation (1).
+(b) Analyze the stability of this method. Is the method stable with λ = k/h being
+ﬁxed as a constant?
+(c) How would the answer change if you are allowed to make λ = k/h small?
+(d) Would this is a good scheme to use even if you can make it stable by making λ
+small? If not, please provide a simple modiﬁcation to make this scheme stable
+by keeping λ ﬁxed.
+Problem 4. Let A, H, Q ∈Cn×n and Q is non-singular. Assume that H = Q−1AQ
+and H is properly upper Hessenberg. Show that
+span{q1, q2, . . . , qj} = Kj(A, q1),
+j = 1, 2, . . . , n
+where qj is the j-th column of Q, and Kj(A, q1) = span{q1, Aq1, . . . , Aj−1q1}.
+Problem 5. Minkowski Problem.
+n푖
+퐹푖
+퐴푖
+Assume P is a convex polyhedron embedded in R3, the faces are {F1, F2, · · · , Fk},
+the unit normal vector to the face Fi is ni, the area of Fi is Ai, 1 ≤i ≤k.
+• Show that
+(3)
+A1n1 + A2n2 + · · · Aknk = 0,
+• Given k unit vectors {n1, n2, · · · , nk} which can not be contained in any half
+space, and k real positive numbers {A1, A2, · · · , Ak}, Ai > 0, and satisfying
+the condition (3), show that there exists a convex polyhedron P, whose face
+normals are ni’s, face areas are Ai’s.

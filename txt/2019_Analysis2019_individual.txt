@@ -1,0 +1,48 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Analysis and Diﬀerential Equations
+Individual (5 problems)
+1) Let F : R →R be a strictly convex function. Let u: [0, 1] →R be a continuous function, with
+Z 1
+0
+u(x) dx = 0.
+Show that
+Z 1
+0
+F(u(x)) dx ⩽F(∥u∥∞) + F(−∥u∥∞)
+2
+where ∥u∥∞:= sup
+x∈[0,1]
+|u(x)|. Also determine when equality occurs.
+2) Prove that there exists a universal constant K, for all C1 function f : R2 →R, if f ∈L1 ¡
+R2¢
+∩L2 ¡
+R2¢
+and |∇f| ∈L2(R2), we have the following inequality:
+∥f∥2
+L2(R2) ⩽K ∥f∥L1(R2) ∥∇f∥L2(R2) .
+Can you provide constant K so that K < 10? In the problem, all the Lp-spaces are deﬁned with
+respect to the Lebesgue measure.
+3) Let f : R2 →R be a harmonic function. Suppose
+lim
+|x|→∞
+|f(x)|
+ln |x| = 0.
+Prove or disprove that f is a constant.
+4) (a) Show that there does not exist a holomorphic function f on C \ {1, −1} so that
+f ′(z) =
+1
+(z2 −1)2019
+for all z ∈C \ {1, −1}.
+(b) Show that there exist a set L ⊂C and a holomorphic function F on C \ L so that L has Hausdorﬀ
+dimension 1, and
+F ′(z) =
+1
+(z2 −1)2019
+for all z ∈C \ L.
+5) Let Ω⊂R2 be a bounded domain with smooth boundary. Prove that, for all p > 1 and 1 ⩽q < ∞,
+for all f ∈Lp(Ω), there exists a unique u ∈H1
+0(Ω), such that
+△u = |u|q−1u + f in Ω.
+1

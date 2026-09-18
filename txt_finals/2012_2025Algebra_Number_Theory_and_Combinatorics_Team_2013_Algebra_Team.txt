@@ -1,0 +1,35 @@
+
+=== page 1 ===
+Algebra and Number Theory
+Team Oral Test
+1. Let E/F be a ﬁeld extension. Let A be an m × m matrix with entries in
+E such that tr(An) belongs to F for every n ≥2. Show that tr(A) belongs
+to F by following steps.
+a Show that there is a polynomial P(x) = P
+i aixi ∈¯E[x] with a0 = 1
+such that
+X
+i
+aitr(Ai+k) = 0,
+∀k ≥1.
+b Show that we have a polynomial Q = P
+i bixi ∈F[x] with b0 = 1 such
+that
+X
+i
+bitr(Ai+k) = 0,
+∀k ≥2.
+c Let t ∈¯E be an eigenvalue of A with multiplicity m invertible in F.
+Show that Q(t) = 0.
+d Show that tr(A) belongs to F.
+Hint: Let ti ∈¯E be all distinct non-zero eigen values of A with multiplicity
+mi invertible in F. Then
+tr(An) =
+X
+i
+mitn
+i .
+2.
+a Prove that R[x, y]/(x2 + y2 −1) is not a UFD.
+b Prove that C[x, y]/(x2 + y2 −1) is a PID.
+1

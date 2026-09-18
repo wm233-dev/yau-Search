@@ -1,0 +1,37 @@
+
+=== page 1 ===
+Syllabus on Algebra and Number Theory 
+Algebra:  
+ Group theory: Sylow theorems, p-groups, solvable groups, free 
+groups. 
+ Rings and modules: tensor products, determinants, Jordan 
+canonical form, PID's, UFD's, polynomials rings.  
+ Field theory: splitting fields, separable and inseparable extensions.  
+ Galois theory: Fundamental theorems of Galois theory, finite fields, 
+cyclotomic fields. 
+ Homological algebra: exact sequences, splittings, snake and five 
+lemmas, projective, injective, and flat modules, complexes, 
+(co)homology. 
+ Commutative ring: localizations, Hilbert’s basis theorem, integral 
+extensions, radicals of ideals, Zariski topology and Hilbert’s 
+Nullstellensatz, Dedekind rings, DVRs. 
+ Representations of Finite Groups: character theory, induced 
+representations, structure of the group ring. 
+ Basics of Lie groups and Lie algebras: exponential map, nilpotent 
+and semi-simple Lie algebras and Lie groups.  
+References: Dummit and Foote: Abstract Algebra, 2nd edition; Serre: 
+Representations of Finite Groups; Fulton-Harris: Representation Theory: 
+
+=== page 2 ===
+A First Course (Graduate Texts in Mathematics/Readings in 
+Mathematics); Serge Lang: Algebra. 
+Number Theory:  
+Factorization and the primes; congruences; quadratic residues and 
+reciprocity; continued fractions and approximations; eta functions; zeta 
+functions;  
+Number fields; unique factorization of ideals; finiteness of class group; 
+structure of unit group; Frobenius elements; local fields; ramification; 
+weak approximation. 
+References: Z.I. Borevich, Igor Shafarevich, Number Theory; Serge 
+Lang, Algebraic Number Theory 
+ 

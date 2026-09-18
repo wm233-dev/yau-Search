@@ -1,0 +1,71 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2013
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Suppose that f is an integrable function on Rd. For each α > 0, let
+Eα = {x||f(x)| > α}. Prove that:
+∫
+Rd |f(x)|dx =
+∫∞
+0
+m(Eα)dα.
+2. Let p(z) be a polynomial of degree d ≥2, with distinct roots
+a1, a2, · · · , ad. Show that
+d
+∑
+i=1
+1
+p′(ai) = 0.
+3. Let α be a number such that α/π is not a rational number. Show
+that:
+1) limN→∞ΣN
+n=1eik(x+nα) =
+1
+2π
+∫π
+−π eiktdt.
+2) For every continuous periodic function f : R →C of period 2π,
+we have
+lim
+N→∞
+1
+N ΣN
+n=1f(x + nα) = 1
+2π
+∫π
+−π
+f(t)dt.
+4. Let u be a positive harmonic function over the punctured complex
+plane C/{0}. Show that u must be a constant function.
+5. Suppose H = L2(B), B is the unit ball in Rd. Let K(x, y) be a
+measurable function on B × B that satisﬁes
+|K(x, y)| ≤A|x −y|−d+α
+for some α > 0, whenever x, y ∈B. Deﬁne
+Tf(x) =
+∫
+B
+K(x, y)f(y)dy
+(a) Prove that T is a bounded operator on H.
+(b) Prove that T is compact.
+6. Let A be a n×n real non-degenerate symmetric matrix. For λ ∈R+,
+we deﬁne:
+∫
+R exp(iλx2)dx = limϵ→0+ ∫∞
+−∞exp(iλx2 −1
+2ϵx2)dx. Show
+that:
+1
+
+=== page 2 ===
+2
+∫
+Rn exp(iλ
+2 < Ax, x > −i < x, ξ >)dx
+= (2π
+λ )n/2| det(A)|−1/2 exp(−i
+2λ < A−1ξ, ξ >) exp(iπ
+4 sgnA).
+Here λ ∈R+, ξ ∈Rn, sgn(A) = ν+(A) −ν−(A), ν+(A)(ν−(A)) is the
+number of positive (negative) eigenvalues of A.

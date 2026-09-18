@@ -1,0 +1,121 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests
+2022
+Mathematical Physics
+说明：Solve every problem
+1
+Problems
+1.
+(a) A symmetry transformation in quantum mechanics is represented by
+a unitary or anti-unitary operator acting on a Hilbert space. The
+time reversal transformation Θ relates the wave function at time t to
+time −t. Prove: Θ is an anti-unitary operator.
+(b) Consider state vector |ψ⟩for a quantum system.
+A time reversal
+transformation is represented by an anti-unitary operator Θ. We now
+consider position space wavefunction ψ(x) = ⟨x|ψ⟩, and Θ|x⟩= |x⟩.
+Prove: the position space wave function for Θ|ψ⟩is
+ψ(x)∗
+(c) A one dimensional quantum system is invariant under time reversal
+transformation, and so its Hamiltonian satisﬁes ΘH = HΘ. If an
+energy eigenstate |ψ⟩has no degeneracy, Prove: it is possible to take
+the position space energy eigenfunction to be real:
+ψ(x)∗= ψ(x)
+2. Consider following quantum Hamiltonian:
+H0 = p2
+1
+2m + 1
+2mω2x2
+1 + p2
+2
+2m + 1
+2mω2x2
+2
+This is the Hamiltonian for two decoupled harmonic oscillators.
+(a) Calculate the eigenstates and eigenvalues for H0 (an energy eigen-
+state could be labeled as |n1, n2⟩).
+(b) Assume the creation and annihilation operators for two harmonic
+oscillators are a†
+i, ai, i = 1, 2. Deﬁne following operators
+J+ = a†
+1a2,
+J−= a†
+2a1,
+Jz = 1
+2(a†
+1a1 −a†
+2a2)
+i. Prove that: [Jz, J±] = ±J±,
+[J+, J−] = 2Jz.
+ii. Consider one eigenvalue En of H0, (here n1 + n2 = n). Prove
+that: all eigenstates of En form an irreducible representation of
+su(2) Lie algebra, and compute the spin.
+(c) Consider following perturbed Hamiltonian (λ is small)
+H = H0 + λx2
+1p2
+2
+Compute the ﬁrst order correction to the energy for the energy level
+n1 + n2 = 2.
+1
+
+=== page 2 ===
+3. A Killing vector ﬁeld kµ
+∂
+∂xµ satisﬁes the equation kλ∂λgµν + ∂µkλgλν +
+∂νkλgλµ = 0.
+(a) Prove: Dµkν + Dνkµ = 0, here Dµ is the covariant derivative.
+(b) For a moving particle in gravitational background with a Killing vec-
+tor ﬁeld, Prove: kµPµ is a conserved quantity, Here Pµ = m dxν
+dτ gµν
+is the momentum for the free falling particle with trajectory xν(τ).
+4. Consider following metric
+ds2 = −(1 −2M
+r )dv2 + drdv + r2dΩ2
+Here dΩ2 is the standard metric on two sphere. Consider the hypersurface
+deﬁned by S = r −2M = 0, and a vector ﬁeld l = ˜f(x)(gµν∂νS)
+∂
+∂xµ , here
+˜f(x) is a non-zero function. Prove:
+(a) l is normal to the surface S.
+(b) l2 = 0 on the surface S.
+(c)
+∂
+∂v is a Killing vector ﬁeld.
+5. The energy momentum tensor for a relativistic quantum ﬁeld theory is
+denoted as θµν, which is symmetric and conserved.
+(a) Deﬁne new current sµ = xνθµν and Kλµ = x2θλµ −2xλxρθρµ. Com-
+pute ∂µsµ and ∂µKλµ, and explain the condition on θµν so that these
+new currents are conserved.
+(b) Consider a scalar ﬁeld σ(x) which transforms under a scale transfor-
+mation as
+δσ = xλ∂λσ + f −1
+we have following Lagrangian
+L = Ls −µ2
+0
+2 φ2e2fσ +
+1
+2f 2 ∂µefσ∂µefσ
+The inﬁnitesimal scale transformation on scalar ﬁeld φ is δφ = (1 +
+xλ∂λ)φ. Here Ls is scale invariant part of the Lagrangian. Prove
+that: the above Lagrangian is scale invariant.
+(c) Explain why a classically scale invariant Lagrangian for a quantum
+ﬁeld theory may fail to be scale invariant quantum mechanically.
+6. Consider following Lagrangian for N scalar ﬁelds φa, a = 1, . . . , N:
+L = 1
+2∂µφa∂µφa −1
+2µ2
+0φaφa −1
+8λ0(φaφa)2
+Here the repeated index implies the summation over the index.
+2
+
+=== page 3 ===
+(a) Write down the propagator and interaction vertex for this model, and
+write down four point Feynman diagrams up to one loop level.
+(b) Deﬁne g0 = λ0N, and compute the order in g0 and N for all the
+diagrams listed in last question. If we ﬁx the coupling g0, and let N
+go to inﬁnity, list the leading order Feynman diagrams in
+1
+N .
+3

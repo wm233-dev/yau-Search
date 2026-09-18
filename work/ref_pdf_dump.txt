@@ -1,0 +1,1299 @@
+##########################################################################################
+## 2011 exists=True
+pages: 1
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2011
+Analysis and Diﬀerential Equations
+Individual
+2:30–5:00 pm, July 9, 2011
+(Please select 5 problems to solve)
+1. a) Compute the integral:
+R ∞
+−∞
+x cos xdx
+(x2+1)(x2+2),
+b) Show that there is a continuous function f : [0, +∞) →(−∞, +∞)
+such that f ̸≡0 and f(4x) = f(2x) + f(x).
+2. Solve the following problem:
+½ d2u
+dx2 −u(x) = 4e−x,
+x ∈(0, 1),
+u(0) = 0,
+du
+dx(0) = 0.
+3. Find an explicit conformal transformation of an open set U = {|z| >
+1} \ (−∞, −1] to the unit disc.
+4. Assume f ∈C2[a, b] satisfying |f(x)| ≤A, |f
+′′(x)| ≤B for each
+x ∈[a, b] and there exists x0 ∈[a, b] such that |f
+′(x0)| ≤D, then
+|f
+′(x)| ≤2
+√
+AB + D, ∀x ∈[a, b].
+5. Let C([0, 1]) denote the Banach space of real valued continuous
+functions on [0, 1] with the sup norm, and suppose that X ⊂C([0, 1])
+is a dense linear subspace. Suppose l : X →R is a linear map (not
+assumed to be continuous in any sense) such that l(f) ≥0 if f ∈X
+and f ≥0. Show that there is a unique Borel measure µ on [0, 1] such
+that l(f) =
+R
+fdµ for all f ∈X.
+6. For s ≥0, let Hs(T) be the space of L2 functions f on the circle
+T = R/(2πZ) whose Fourier coeﬃcients ˆfn =
+R 2π
+0
+e−inxf(x)dx satisfy
+Σ(1 + n2)s|| ˆfn|2 < ∞, with norm ||f||2
+s = (2π)−1Σ(1 + n2)s| ˆfn|2.
+a. Show that for r > s ≥0, the inclusion map i : Hr(T) →Hs(T) is
+compact.
+b.
+Show that if s > 1/2, then Hs(T) includes continuously into
+C(T), the space of continuous functions on T, and the inclusion map
+is compact.
+1
+附件/试卷 1
+Appendix/Contest Paper 1
+##########################################################################################
+## 2014team exists=True
+pages: 1
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2014
+Analysis and Diﬀerential Equations
+Team
+Please solve 5 out of the following 6 problems.
+1. Calculate the integral:
+∫∞
+0
+log x
+1 + x2dx.
+2. Construct an increasing function on R whose set of discontinuities
+is precisely Q.
+3. Prove that any bounded analytic function F over {z|r < |z| < R}
+can be written as F(z) = zαf(z), where f is an analytic function over
+the disk {z||z| < R} and α is a constant.
+4. Let D ⊂Rn be a bounded open set, f : ¯D →¯D is a smooth map
+such that its Jacobian
+
+∂f
+∂x
+ ≡1, where ¯D denotes the closure of D.
+Prove
+(a) for each small ball Bϵ(x), there exists a positive integer k such
+that f k(Bϵ(x)) ∩Bϵ(x) ̸= ∅, where Bϵ(x) denotes the ball cen-
+tered at x with radius ϵ;
+(b) there exists x ∈¯D and a sequence k1, k2, · · · kj, · · · such that
+f kj(x) →x as kj →∞.
+5. Let u be a subharmonic function over a domain Ω⊂C, i.e., it is
+twice diﬀerentiable and ∆u = ∂2u
+∂x2 + ∂2u
+∂y2 ≥0. Prove that u achieves its
+maximum in the interior of Ωonly when u is a constant.
+6. Suppose that ϕ ∈C∞
+0 (Rn),
+∫
+Rn ϕdx = 1. Let ϕϵ(x) = ϵ−nϕ(x/ϵ), x ∈
+Rn, ϵ > 0. Prove that if f ∈Lp(Rn), 1 ≤p < ∞, then f ∗ϕϵ →f in
+Lp(Rn), as ϵ →0. It is not true for p = ∞.
+1
+##########################################################################################
+## 2015 exists=True
+pages: 1
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2015
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let fn ∈L2(R) be a sequence of measurable functions over the line, fn →f almost
+everywhere. Let ||fn||L2 →||f||L2, prove that ||fn −f||L2 →0.
+2. Let f be a continuous function on [a, b], deﬁne Mn =
+∫b
+a f(x)xndx. Suppose that
+Mn = 0 for all integers n ≥0, show that f(x) = 0 for all x.
+3. Determine all entire functions f that satisfying the inequality
+|f(z)| ≤|z|2|Im(z)|2
+for z suﬃciently large.
+4. Describe all functions that are holomorphic over the unit disk D = {z||z| < 1},
+continuous on ¯D and map the boundary of the disk into the boundary of the disk.
+5. Let T : H1 →H2, Q : H2 →H1 be bounded linear operators of Hilbert spaces
+H1, H2. Let QT = Id −S1, TQ = Id −S2 where S1 and S2 are compact operators.
+Prove KerT = {v ∈H1, Tv = 0}, CokerT = H2/Im(T) are ﬁnite dimensional and
+Im(T) = {Tv ∈H2, v ∈H1} is closed in H2.
+Note: S is compact means for every bounded sequence xn ∈H1, Sxn has a converging
+subsequence.
+6. Let H1 be the Sobolev space on the unit interval [0, 1], i.e.
+the Hilbert space
+consisting of functions f ∈L2([0, 1]) such that
+||f||2
+1 = Σ∞
+n=−∞(1 + n2)| ˆf(n)|2 < ∞;
+where
+ˆf(n) = 1
+2π
+∫1
+0
+f(x)e−2πinxdx
+are Fourier coeﬃcients of f. Show that there exists constant C > 0 such that
+||f||L∞≤C||f||1
+for all f ∈H1, where ||.||L∞stands for the usual supremum norm. (Hint: Use Fourier
+series.)
+1
+##########################################################################################
+## 2010 exists=True
+pages: 2
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2010
+Analysis and Diﬀerential Equations
+Individual
+(Please select 5 problems to solve)
+1.
+a) Let xk, k = 1, . . . , n be real numbers from the interval (0, π)
+and deﬁne x =
+n
+X
+i=1
+xi
+n
+. Show that
+n
+Y
+k=1
+sin xk
+xk
+≤
+µsin x
+x
+¶n
+.
+b) From
+Z ∞
+0
+e−x2dx =
+√π
+2 ,
+calculate the integral
+R ∞
+0 sin(x2)dx.
+2. Let f : R →R be any function. Prove that the set of points x in
+R where f is continuous is a countable intersection of open sets.
+3. Let f(z) be holomorphic in D: |z| < 1 and |f(z)| ≤1 (z ∈D). If
+z0 is a point in D such that both z0 and −z0 are zeros of order m of
+f(z) and 0 < |z0| ≤m −1
+m
+, then |f(0)| < e−2.
+4. Find a harmonic function f on the right half-plane such that when
+approaching any point in the positive half of the y-axis, the function
+has limit 1, while when approaching any point in the negative half of
+the y-axis, the function has limit −1.
+5. Let K(x, y) ∈L1([0, 1] × [0, 1]). For all f ∈C0[0, 1], the space of
+continuous functions on [0, 1], deﬁne a function
+Tf(x) =
+Z 1
+0
+K(x, y)f(y)dy
+Prove that Tf ∈C0([0, 1]). Moreover Ω= {Tf| ||f||sup ≤1} is pre-
+compact in C0([0, 1]), i.e. every sequence in Ωhas a converging subse-
+quence, here ||f||sup = sup{|f(x)||x ∈[0, 1]}. (Hint: Every Lebesgue
+integrable function over the square can be approximated by polynomial
+functions in the L1 norm.)
+1
+---- page 2 ----
+2
+6. Consider the equation ˙x = −x + f(t, x), where |f(t, x)| ≤φ(t)|x|
+for all (t, x) ∈R × R,
+R ∞φ(t)dt < ∞.
+Prove that every solution
+approaches zero as t →∞.
+##########################################################################################
+## 2013 exists=True
+pages: 2
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2013
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Suppose that f is an integrable function on Rd. For each α > 0, let
+Eα = {x||f(x)| > α}. Prove that:
+∫
+Rd |f(x)|dx =
+∫∞
+0
+m(Eα)dα.
+2. Let p(z) be a polynomial of degree d ≥2, with distinct roots
+a1, a2, · · · , ad. Show that
+d
+∑
+i=1
+1
+p′(ai) = 0.
+3. Let α be a number such that α/π is not a rational number. Show
+that:
+1) limN→∞ΣN
+n=1eik(x+nα) =
+1
+2π
+∫π
+−π eiktdt.
+2) For every continuous periodic function f : R →C of period 2π,
+we have
+lim
+N→∞
+1
+N ΣN
+n=1f(x + nα) = 1
+2π
+∫π
+−π
+f(t)dt.
+4. Let u be a positive harmonic function over the punctured complex
+plane C/{0}. Show that u must be a constant function.
+5. Suppose H = L2(B), B is the unit ball in Rd. Let K(x, y) be a
+measurable function on B × B that satisﬁes
+|K(x, y)| ≤A|x −y|−d+α
+for some α > 0, whenever x, y ∈B. Deﬁne
+Tf(x) =
+∫
+B
+K(x, y)f(y)dy
+(a) Prove that T is a bounded operator on H.
+(b) Prove that T is compact.
+6. Let A be a n×n real non-degenerate symmetric matrix. For λ ∈R+,
+we deﬁne:
+∫
+R exp(iλx2)dx = limϵ→0+ ∫∞
+−∞exp(iλx2 −1
+2ϵx2)dx. Show
+that:
+1
+---- page 2 ----
+2
+∫
+Rn exp(iλ
+2 < Ax, x > −i < x, ξ >)dx
+= (2π
+λ )n/2| det(A)|−1/2 exp(−i
+2λ < A−1ξ, ξ >) exp(iπ
+4 sgnA).
+Here λ ∈R+, ξ ∈Rn, sgn(A) = ν+(A) −ν−(A), ν+(A)(ν−(A)) is the
+number of positive (negative) eigenvalues of A.
+##########################################################################################
+## 2017team exists=True
+pages: 9
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2017
+Analysis and Diﬀerential Equations
+Team
+Please solve 5 out of the following 6 problems.
+1. Suppose that f is an integrable function on the circle with ˆf(n) =
+1
+2π
+R 2π
+0
+f(x)e−inxdx =
+0, for all n ∈Z. Then f(θ) = 0 whenever f is continuous at the point θ.
+2. Let F be continuous on [a, b]. Show that:
+1) Suppose (D+F)(x) = lim suph→0,h>0
+F(x+h)−F(x)
+h
+> 0 for every x ∈[a, b). Then F
+is increasing on [a, b].
+2) If F
+′(x) exists for every x ∈(a, b) and |F
+′(x)| ≤M, then |F(x)−F(y)| ≤M|x−y|
+and F is absolutely continuous.
+3. Let f(z) be holomorphic for |z| < 1 and assume |f(z)| < 1, if |z| < 1. If α and β
+are such that |α| < 1, |β| < 1, α ̸= β, and f(α) = f(β) = 0, then
+|f(z)| ≤| z −α
+1 −¯αz
+z −β
+1 −¯βz|, |z| < 1.
+4. Show that a single-valued analytic branch of
+√
+1 −z2 can be deﬁned in any region
+such that the points ±1 are in the same component of the complement. What are the
+possible values of
+R
+dz
+√
+1−z2 over a closed curve in the region?
+5. In Rn, consider the Laplace equation
+u11 + u22 + ... + unn = 0.
+Show that the equation is invariant under orthogonal transformation. Find all rota-
+tionally symmetric solutions to this equation.
+6. Let A be an operator over the function space C[a, b] deﬁned as:
+(Af)(x) =
+Z b
+a
+K(x, y)f(y)dy,
+where K(x, y) is continuous over [a, b] × [a, b] except at several curves deﬁned by y =
+φk(x), x ∈[a, b], k = 1, ..., n with φk continuous. Show that A is a compact operator.
+1
+---- page 2 ----
+S.-T. Yau College Student Mathematics Contests 2017
+Probability and Statistics
+Team (5 problems)
+Problem 1. Let µn be the uniform probability measure on the n-dimensional cube
+[−1, 1]n.
+Let H ∈Rn be the hyperplane orthogonal to the principal diagonal, i.e.,
+H = (1, · · · , 1)⊥. For any r > 0, we further deﬁne
+AH, r := {x ∈[−1, 1]n, dist(x, H) ≤r},
+where dist(x, H) represents the distance from the point x to the hyperplane H. Show
+that for any constant ε > 0, the following two estimates hold for all suﬃciently large n
+1 :
+µn¡
+AH, nε¢
+≥1 −n−2ε,
+2 :
+µn¡
+AH, nε¢
+≥1 −e−nε/2
+Problem 2.
+Let X1, X2, . . . be positive random variables.
+We assume that Xn
+converges to 0 in probability, and that limn→∞E(Xn) = 2. Prove that limn→∞E(|Xn −
+1|) exists and compute its value.
+Problem 3. There are n people playing a game. Initially everybody had one dollar at
+hand. During each round of the game, we randomly pick two people and they will toss
+a fair coin, to decide who wins this round of the game. The loser will submit one dollar
+(note: just one, not all of his money) to the winner. Assume that a person who had no
+money at hand will be immediately driven out of the game. The game stops until all
+money is at the hand of only one person. Calculate the average number of rounds that
+the game plays.
+Note: In each round only two players are involved.
+Problem 4.
+Let {Xn}n∈N and {X′
+n}n∈N be two independent simple random walks on Zd such
+that X0 = X′
+0 = 0. Here simple walk means if x, y ∈Zd and ∥x −y∥= 1, then
+P(Xn+1 = y|Xn = x) = (2d)−1
+Let I = {(s, t) : Xs = X′
+t}. Prove that |I| < ∞a.s.
+Hint: You can ﬁrst prove that
+P(Xn = 0) = O(n−d/2),
+n →∞
+Problem 5. Suppose X1, . . . , Xn are i.i.d. Poisson variables with mean λ and we are
+interested in estimating p = Pλ(Xi = 0) = e−λ.
+1
+---- page 3 ----
+(a) One estimator for p is the proportion of zeros in the sample, ˜p = #{i ≤n : Xi =
+0}/n. Determine limiting distribution for √n(˜p −p).
+(b) Another estimator would be the maximum likelihood estimator ˆp. Give a formula
+for ˆp and determine limiting distribution for √n(ˆp −p).
+(c) Find the asymptotic relative eﬃciency of ˜p with respect to ˆp.
+2
+---- page 4 ----
+S.-T. Yau College Student Mathematics Contests 2017
+Geometry and Topology
+Team
+Please solve 5 out of the following 6 problems.
+1. Consider the space X = M1 ∪M2, where M1 and M2 are M¨obius bands and
+M1 ∩M2 = ∂M1 = ∂M2.
+Here a M¨obius band is the quotient space ([−1, 1] ×
+[−1, 1])/((1, y) ∼(−1, −y)). Determine the fundamental group of X.
+2. If f : X →X is a self-map, then the “mapping torus of f” is the quotient
+Tf := (X × [0, 1])/(x, 0) ∼(f(x), 1),
+∀x ∈X.
+For n ∈Z, let fn be a degree n map on S3. Compute the integral homology groups of
+Tfn.
+3. Let C be a regular curve on a smooth surface S in R3. Denote by I = Edu2 +
+2Fdudv + Gdv2 and II = Ldu2 + 2Mdudv + Ndv2 the ﬁrst and second fundamental
+forms of S, respectively. Assume that the equation of C is given by u = u(s), v = v(s),
+where s is the arc-length parameter of C. Show that geodesic torsion along the curve
+C satisﬁes
+τg =
+1
+√
+EG −F 2
+
+dv
+ds
+2
+−du
+ds
+dv
+ds
+du
+ds
+2
+E
+F
+G
+L
+M
+N
+
+.
+4. Let {ei}i=1,...,n be a basis of a vector space V . Denote by {ωi}i=1,...,n the dual basis
+of {ei}i=1,...,n. Show that the set
+{ωi1 ∧· · · ∧ωir | 1 ≤i1 < i2 < · · · < ir ≤n}
+is a basis of Vr V ∗, where r is a positive integer and r ≤n.
+5. Let M →Rn+1 be a compact closed hypersurface in the (n + 1)-dimensional Eu-
+clidean space Rn+1. Prove that M is a hypersphere if M has constant scalar curvature
+and nonnegative Ricci curvature.
+6. On a Riemannian manifold, if f is a smooth function such that |gradf| = 1. Show
+that the integral curves of gradf are geodesics.
+1
+---- page 5 ----
+S.-T. Yau College Student Mathematics Contests 2017
+Algebra and Number Theory
+Team
+This test has 5 problems and is worth 100 points. Carefully justify your answers.
+Problem 1 (20 points). Let G be a group and let g ∈G be an element of ﬁnite
+order n. Suppose that n is the product of two positive integers r and s which are
+coprime to each other.
+(a) (10 points) Show that there is a pair (g1, g2) of elements of G such that gr
+1 = 1,
+gs
+2 = 1 and g1g2 = g2g1 = g.
+(b) (10 points) Show that such a pair is unique.
+Problem 2 (20 points). Let p > 2 be a prime number and let T be a linear operator
+of order p on an n-dimensional vector space V over Q.
+(a) (8 points) Show that the trace tr(T) of T on V is an integer in Z.
+(b) (12 points) Show that tr(T) is congruent to n modulo p.
+Problem 3 (20 points). Let g be a ﬁnite dimensional Lie algebra over C. For each
+x ∈g, deﬁne a linear map
+adx : g →g,
+y 7→[x, y].
+Put
+n(x) := the dimension of the kernel of the operator (adx)dim g.
+The rank of g is deﬁned to be
+rank(g) := min{n(x) | x ∈g}.
+Show that
+{x ∈g | n(x) > rank(g)}
+is the zero set of a polynomial function on g.
+Problem 4 (20 points). Let p be a prime number and let K = Fp(T) be the ﬁeld
+of rational functions over Fp. Consider the polynomials
+f(X) = Xp −TX −T,
+g(X) = Xp−1 −T.
+(a) (5 points) Show that f and g are irreducible and separable over K.
+(b) (5 points) Let M be the splitting ﬁeld of g over K. Show that Gal(M/K) is
+isomorphic to F×
+p .
+(c) (10 points) Let L be the splitting ﬁeld of f over K. Show that g splits in L
+and Gal(L/K) is isomorphic to the semidirect product G = Fp ⋊F×
+p , where
+F×
+p acts on Fp by homotheties.
+Page 1 of 2
+---- page 6 ----
+Problem 5 (20 points). Let a and b be a pair of coprime positive integers. Let
+N(a, b) be the set of nonnegative integral linear combinations of a and b:
+N(a, b) := {N ∈Z | N = ax + by for some x, y ∈Z≥0}.
+(a) (7 points) Show that every integer N satisfying N ≥a(b−1) belongs to N(a, b).
+(b) (13 points) Show that there are exactly (a −1)(b −1)/2 positive integers not
+belonging to N(a, b).
+Page 2 of 2
+---- page 7 ----
+S.-T. Yau College Student Mathematics Contests 2017
+Applied Math. and Computational Math.
+Team (5 problems)
+1. Given an integer parameter K, one can test whether for a vector ⃗u = (u1, . . . , un) ∈
+Nn there is non-zero vector ⃗k = (k1, . . . , kn) ∈Zn with
+∥⃗k∥∞≤K and uk1
+1 · · · ukn
+n = 1,
+where ∥⃗k∥∞= max1≤i≤n |ki| in about O((2K + 1)n) arithmetic operations with inte-
+gers having about O(nK log(∥⃗u∥∞+1)) bits via testing all possible combinations of the
+exponents (ordered lexicographically) and direct computation.
+Assuming that the memory is essentially unlimited, suggest a better algorithm which
+uses about O((2K + 1)n/2) arithmetic operations with integers of the same size as
+above.
+Hints: (i) Use the divide-and-conquer strategy; (ii) Recall that a list L of M real
+numbers can be sorted via O(M log M) comparisons; (iii) A sorted list L of M real
+numbers can be searched for x ∈L via O(log M) comparisons; (iv) To decide whether
+a/b > c/d for two rational numbers with b, d > 0 we simply compare the products ad
+and bc.
+2. We have the following partial diﬀerential equation
+(1)
+ut = H(u)xx,
+0 ≤x < 1
+with an initial condition u(x, 0) = f(x) and periodic boundary condition. Here 0 ≤
+H′(u) ≤d. Consider the following one-step, three-point scheme on a uniform mesh
+xj = j∆x with spatial mesh size ∆x:
+(2)
+un+1
+j
+= un
+j + aH(un
+j−1) + bH(un
+j ) + cH(un
+j+1),
+where a, b, c are constants which may depend on the mesh ratio µ =
+∆t
+∆x2, ∆t is the
+time step, and un
+j approximates the exact solution at u(xj, tn) with tn = n∆t.
+(1) Find the constants a, b, c such that the scheme (2) is second order accurate.
+(2) Find the CFL number µ0 such that the scheme (2), with the constants deter-
+mined by Step 1 above, is stable under the time step restriction µ ≤µ0. Please
+specify which norm you are using for stability, and prove this stability result.
+1
+---- page 8 ----
+2
+3. Consider the problem describing projectile motion on the surface of the Earth,
+written in physical variables as follows:
+d2y
+dt2 = −
+GM
+(R + y)2,
+y(0) = 3m,
+y′(0) = −V m/sec
+Let y(t) = L˜y(˜t) and t = T˜t. Consider two out of the following four cases:
+(a): R = O(1), V →∞, M = O(1): the fast projectile limit
+(b): R = O(1), V = O(1), M →∞: the dense Earth limit
+(c): R = O(1), V = O(1), M →0: the light Earth limit
+(d): R →0, V = O(1), M = O(1): the small Earth limit (two possible scalings,
+determine both)
+In each case:
+• Choose your scalings for L, T to normalize as many terms as possible. Pick your
+scalings so that the time it takes for the projectile to fall to ˜y = 0 is ˜t = O(1).
+• Write the scaled (normalized) problem, identify all remaining dimensionless
+parameters.
+• Identify a limiting small parameter and the leading order problem.
+Note: DO NOT solve-out the problems, just write them!
+Hint: If any scaled coeﬃcients blow-up in the leading order problem, the scaling is
+not good.
+4. Let f be an arbitrary function in Cn(R). Given n distinct points x1, x2, · · · , xn ∈R
+and an extra point x0 ∈R, we want to approximate f ′(x0) using a linear combina-
+tion of the function values at x1, x2, · · · , xn, i.e. we want to compute the coeﬃcients
+c1, c2, · · · , cn such that
+f ′(x0) ≈c1f(x1) + c2f(x2) + · · · + cnf(xn)
+in some sense.
+(a) Consider the undetermined coeﬃcients method. You use Taylor expansion to
+expand each f(xi), i = 1, 2, · · · , n about the point x0,
+f(xi) =
+n−1
+X
+k=0
+1
+k!f (k)(x0)(xi −x0)k + 1
+n!f (n)(ξi)(xi −x0)n,
+ξi ∈[x0, xi] or [xi, x0],
+and choose the coeﬃcients so that the resulting approximation is as accurate
+as possible. This gives you the linear system
+1
+k!
+n
+X
+i=1
+ci(xi −x0)k = δk,1,
+k = 0, 1, · · · , n −1,
+where δk,1 = 1 if k = 1; otherwise δk,1 = 0. Explain why this linear system
+is nonsingular. Then use this method to solve the case when n = 3, x1 = x0,
+x2 = x0 + h, x3 = x0 + 2h for some constant h.
+---- page 9 ----
+3
+(b) You can also make use of interpolation method. Consider the n-point interpo-
+lating polynomial
+p(x) =
+n
+X
+i=1
+³
+n
+Y
+j=1,j̸=i
+x −xj
+xi −xj
+´
+f(xi),
+and the approximation is given by
+f ′(x0) ≈p′(x0).
+This gives the coeﬃcients as
+ci =
+³
+n
+Y
+j=1,j̸=i
+x −xj
+xi −xj
+´′¯¯¯
+x=x0.
+Show that the approximation of this method is exact if f is a polynomial of
+degree no more than n −1.
+(c) Show that the two methods given in (a) and (b) are essentially the same, i.e.
+the coeﬃcients obtained in (a) and (b) are the same.
+5. Let
+A =
+
+
+2
+−1
+−1
+2
+−1
+...
+−1
+2
+−1
+−1
+γ
+
+
+Find A−1 explicitly. Show that all entries of A−1 are nonnegative if and only if γ ≥1.
+##########################################################################################
+## 2020 exists=True
+pages: 2
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Let χ be a real valued smooth function with compact support on R. We assume that
+∫
+R1 χ(x)dx = 1.
+For all ε > 0, we deﬁne
+χε(x) = 1
+ε χ
+ x
+ε
+
+.
+Prove that for any given f ∈L1(R), for almost every x ∈R, we have
+lim
+ε→0(χε ∗f )(x) = f (x).
+Problem 2. In last year’s Yau College Student Mathematics Contests, four students Tintin, Haddock,
+Dupont and Dupond made it to the last round of the oral exam in analysis. Professor Yau asked them
+to compute the Fourier coeﬃcients of the 2π-periodic function F (deﬁned on R):
+F : (0,2π) →R,
+x 7→F(x) = arctan
+ x
+2π esin(x) + x2019(x −2π) + 2019 sin(x)
+
+.
+Here were their solutions: for k , 0,
+Tintin : bF(k) = cos(kπ)
+|k|
+1
+2
++ a
+|k| +
+b
+|k|3,
+Haddock : bF(k) = c
+k2 + d
+k4 + e
+k6,
+Dupont : bF(k) = 1
+k + 1
+k2 + f
+k3 + g
+k5,
+Dupond : bF(k) = 2019
+√
+−1
+k
++ hk
+k ,
+where a, b,c, d,e, f,g, hk(k ∈Z) were constants and
+Õ
+k∈Z
+|hk|2 < ∞.
+Whose solutions were correct?
+Problem 3.
+Let B1 be the unit ball centered at the origin in R4 and u ∈W1,2(B1) ∩C∞(R4) be a
+nonnegative real valued function so that
+−△u ≤u2,
+---- page 2 ----
+where △=
+4
+Õ
+i=1
+∂2
+∂x2
+i
+. Prove that, there exists a constant ε > 0, so that if ∥u∥L2(B1) ≤ε, we have
+∥∇u∥L2(B 1
+2
+) ≤10000∥u∥L2(B1),
+where B 1
+2 is the ball of radius 1
+2 centered at the origin.
+Problem 4.
+Let f and g be two holomorphic functions deﬁned on the entire complex plane C so
+that for all z ∈C, we have
+f (z)2020 + g(z)2020 = 1.
+Prove that f and g are constants.
+Problem 5. We consider the following ordinary diﬀerential equation:
+(
+x′′(t) + x(t) + x(t)3 = 0,
+(x(0), x′(0)) = (x0,0),
+where x(t) takes values in R. Prove that for all x0 ∈R, the solution of the above system is periodic.
+Problem 6. Let α ∈R and ak ∈C with |ak| < 1, where k = 1,2,. . .,n. We consider the following
+holomorphic map
+f :C −
+
+(a1)−1,. . .,(an)−1	
+→C,
+z 7→f (z) = e2
+√
+−1παz · z −a1
+1 −a1z · · · z −an
+1 −anz .
+Let S1 be the unit circle in C, i.e.,
+S1 =
+
+z ∈C
+ |z| = 1
+	
+.
+Prove that f maps S1 to itself and f preserves the surface measure (i.e., dθ in terms of standard
+polar coordiantes of R2) of S1.
+##########################################################################################
+## 2020soln exists=True
+pages: 5
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Let χ be a real valued smooth function with compact support on R. We assume that
+∫
+R1 χ(x)dx = 1.
+For all ε > 0, we deﬁne
+χε(x) = 1
+ε χ
+ x
+ε
+
+.
+Prove that for any given f ∈L1(R), for almost every x ∈R, we have
+lim
+ε→0(χε ∗f )(x) = f (x).
+Solution: Let x0 ∈R be a Lebesgue point of f , i.e., for t →0, we have
+∫
+|y|≤t
+| f (x0 + y) −f (x0)| dy = o(t),
+it suﬃces to show that
+lim
+K→∞(χε ∗f )(x0) = f (x0).
+We assume that supp(χ) ⊂[−M, M]. We have
+(χε ∗f )(x0) −f (x0) =
+∫
+R
+( f (x0 −y) −f (x0)) χε(y)dy
+= ε−1
+∫
+|y|≤M
+( f (x0 −y) −f (x0)) χ(y)dy.
+Thus,
+| χε ∗f )(x0) −f (x0)| ≤ε−1∥χ∥L∞
+∫
+|y|≤εM
+| f (x0 −y) −f (x0)| dy
+= ∥χ∥L∞ε−1o(εM)
+= o(1).
+This proves the statement.
+Problem 2. In last year’s Yau College Student Mathematics Contests, four students Tintin, Haddock,
+Dupont and Dupond made it to the last round of the oral exam in analysis. Professor Yau asked them
+to compute the Fourier coeﬃcients of the 2π-periodic function F (deﬁned on R):
+F : (0,2π) →R,
+x 7→F(x) = arctan
+ x
+2π esin(x) + x2019(x −2π) + 2019 sin(x)
+
+.
+---- page 2 ----
+Here were their solutions: for k , 0,
+Tintin : bF(k) = cos(kπ)
+|k|
+1
+2
++ a
+|k| +
+b
+|k|3,
+Haddock : bF(k) = c
+k2 + d
+k4 + e
+k6,
+Dupont : bF(k) = 1
+k + 1
+k2 + f
+k3 + g
+k5,
+Dupond : bF(k) = 2019
+√
+−1
+k
++ hk
+k ,
+where a, b,c, d,e, f,g, hk(k ∈Z) were constants and
+Õ
+k∈Z
+|hk|2 < ∞.
+Whose solutions were correct?
+Solution:
+We remark that F is smooth on (0,2π). At 0, its right limit is 0; at 2π, its left limit is π
+2 . In
+particular, F is not continous on 2πZ.
+Tintin was wrong: the function F is bounded on (0,2π) hence in L2. Parsevel’s identity implies bF(k) ∈ℓ2(Z).
+But according to Tintin, | bF(k)| ∼
+1
+|k |
+1
+2 . This is not in ℓ2.
+Haddock was wrong: otherwise, since his coeﬃcients were absolutely summable, the function F should be a
+continous function (since its Fourier series should be absolutely convergent).
+Dupont was wrong: since F is a real valued function, we must have bF(k) = bF(−k). Dupont’s coeﬃcients did
+not satisfy this condition.
+To show that Dupond was wrong, we do the following computations:
+bF(k) = 1
+2π
+∫2π
+0
+e−ikxF(x)dx
+= e−kπixΦ(x)
+2πik
+
+2π
+0 +
+1
+2πik
+∫2π
+0
+e−ikxF′(x)dx
+|                {z                }
+∈ℓ2, since F′∈L2((0,2π))
+=
+√
+−1
+8k
++
+h′
+k
+k .
+Now since h′
+k ∈ℓ2, if Dupond was correct, it would imply that 2019
+√
+−1 −
+√
+−1
+8
+is square summable. This is
+absurd.
+Problem 3.
+Let B1 be the unit ball centered at the origin in R4 and u ∈W1,2(B1) ∩C∞(R4) be a
+nonnegative real valued function so that
+−△u ≤u2,
+where △=
+4
+Õ
+i=1
+∂2
+∂x2
+i
+. Prove that, there exists a constant ε > 0, so that if ∥u∥L2(B1) ≤ε, we have
+∥∇u∥L2(B 1
+2
+) ≤10000∥u∥L2(B1),
+where B 1
+2 is the ball of radius 1
+2 centered at the origin.
+---- page 3 ----
+Solution: We can choose a smooth cut-oﬀfunction η so that supp(η) ⊂B1, η
+
+B 1 2 ≡1, η ≥0 and |∇η| ≤4.
+We multiply the −△u ≤u2 by η2u and integrate by parts. This leads to
+∫
+B1
+η2|∇u|2 ≤
+∫
+B1
+η2u3 + 2
+∫
+B1
+ηu|∇η||∇u|.
+According to the Cauchy-Schwarz inequality, we have
+∫
+B1
+η2|∇u|2 ≤
+∫
+B1
+η2u3 + 2
+∫
+B1
+|∇η|2|u|2 + 1
+2
+∫
+B1
+η2|∇u|2.
+Hence,
+∫
+B1
+η2|∇u|2 ≤2
+∫
+B1
+η2u3 + 4
+∫
+B1
+|∇η|2|u|2
+≤2
+∫
+B1
+η2u3 + 64
+∫
+B1
+|u|2.
+On the other hand, we can use four dimension Sobolev inequality to derive
+∫
+B1
+η2u3 ≤∥u∥L2(B1)
+∫
+B1
+(ηu)4
+ 1
+2
+≤∥u∥L2(B1) × C4
+∫
+B1
+|∇(ηu)|2,
+where C4 is the constant coming from the Sobolev inequality. Since ∥u∥L2(B1) ≤ε, we can proceed as follows
+∫
+B1
+η2u3 ≤C4ε
+∫
+B1
+|∇(ηu)|2
+≤2C4ε
+∫
+B1
+|∇η|2|u|2 +
+∫
+B1
+|∇η|2|u|2
+
+≤32C4ε
+∫
+B1
+|u|2 + 2C4ε
+∫
+B1
+|u|2.
+Putting all the inequalities together, we obtain
+∫
+B1
+η2|∇u|2 ≤2
+∫
+B1
+η2u3 + 4
+∫
+B1
+|∇η|2|u|2
+≤64C4ε
+∫
+B1
+|u|2 + 4C4ε
+∫
+B1
+|u|2 + 64
+∫
+B1
+|u|2.
+If we take ε <
+1
+128C4 , we have
+∫
+B1
+η2|∇u|2 ≤1
+2
+∫
+B1
+|u|2 + (64 + 1
+32)
+∫
+B1
+|u|2.
+This leads to the ﬁnal estimate:
+∫
+B1
+η2|∇u|2 ≤(128 + 1
+16)
+∫
+B1
+|u|2.
+Problem 4.
+Let f and g be two holomorphic functions deﬁned on the entire complex plane C so
+that for all z ∈C, we have
+f (z)2020 + g(z)2020 = 1.
+Prove that f and g are constants.
+---- page 4 ----
+Solution: We consider the following holomorphic map
+ϕ : C →P3(C), z 7→( f (z) : g(z) : 1),
+where (z1 : z2 : z3) is the homogenous coordinates on P3(C). Let C be the curve deﬁned by the homogenous
+equation
+C =
+
+(z1 : z2 : z3)
+ z2020
+1
++ z2020
+2
+= z2020
+3
+	
+⊂P3(C).
+It is obviously a smooth curve (by the Jacobian criterion). The maps ϕ factor through C , i.e., we have a
+holomorphic map
+ϕ : C →C .
+On the other hand, the genus g(C ) of the plance curve C can be computed through the genus formula
+g(C ) = 1
+2(2020 −1)(2020 −2) ≥2.
+Therefore, according to the uniformization theorem, the universal covering of C must be the Poincaré disk D.
+Hence, we can lift ϕ to a holomorphic map
+bϕ : C →D,
+i.e., we have the following commutative diagram:
+D
+C
+C
+π
+bϕ
+ϕ
+In particular, bϕ is a bounded entire function, hence a constant map by Liouville’s theorem. Therefore, ϕ is
+also a constant map.
+Problem 5. We consider the following ordinary diﬀerential equation:
+(
+x′′(t) + x(t) + x(t)3 = 0,
+(x(0), x′(0)) = (x0,0),
+where x(t) takes values in R. Prove that for all x0 ∈R, the solution of the above system is periodic.
+Solution: The key is to observe that
+E(t) = 1
+2ξ(t)2 + 1
+2 x(t)2 + 1
+4 x(t)4
+is conserved, where ξ(t) = x′(t). Therefore, on the phase plane (x,ξ), the solution lies on
+1
+2ξ2 + 1
+2 x2 + 1
+4 x4 = 1
+2 x2
+0 + 1
+4 x4
+0.
+The curve is bounded. Hence, x(t) is bounded and the solution to the equation is deﬁned on the whole of
+t ∈R. To show that x(t) is periodic: when x′(t0) = 0, x(t0) is either the maximum or the minimum of x(t)
+for all t ∈R (using the fact that E(t) is conserved). Therefore, it suﬃces to show that x(t) will reach its local
+maximum and local minimum for some later time. If not, then x(t) must be monotone which is impossible
+since this would pose a sign condition on ξ′(t).
+Problem 6. Let α ∈R and ak ∈C with |ak| < 1, where k = 1,2,. . .,n. We consider the following
+holomorphic map
+f :C −
+
+(a1)−1,. . .,(an)−1	
+→C,
+z 7→f (z) = e2
+√
+−1παz · z −a1
+1 −a1z · · · z −an
+1 −anz .
+---- page 5 ----
+Let S1 be the unit circle in C, i.e.,
+S1 =
+
+z ∈C
+ |z| = 1
+	
+.
+Prove that f maps S1 to itself and f preserves the surface measure (i.e., dθ in terms of standard
+polar coordiantes of R2) of S1.
+Solution: It suﬃces to show that
+∫
+S1 ϕdθ =
+∫
+S1 ϕ ◦f dθ, ∀ϕ ∈C0(S1).
+Let ϕ be the harmonic extension of ϕ to the unique disk
+D =
+
+z ∈C
+ |z| ≤1
+	
+,
+i.e., ϕ is the unique solution of the following Dirichlet problem:
+(
+−△ϕ
+= 0, in D,
+ϕ
+
+S1
+= ϕ, on S1.
+Since f is holomophic and f preserves D, ϕ ◦f is still a harmonic function in D and it is the harmonic
+extension of ϕ ◦f .
+We observe that f maps 0 to 0. Therefore, by the mean value property, we have
+∫
+S1 ϕdθ = ϕ(0) = ϕ ◦f (0) =
+∫
+S1 ϕ ◦f dθ.
+This completes the proof.
+##########################################################################################
+## 2018 exists=True
+pages: 2
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Individual
+Please solve the following 6 problems.
+1. Let the sequence of functions {fn}∞
+n=1 in L2(Rd) satisfy that ∥fn∥L2 = 1.
+(1)Show that there exists a subsequence of function {fnj}∞
+j=1 such that fnj converges
+weakly to some function f in L2(Rd), i.e.
+(fnj, g) →(f, g)
+for all g ∈L2(Rd).
+(2)If fn →f weakly in L2(Rd), and ∥fn∥L2 →∥f∥L2 as n →∞.
+Show that
+∥fn −f∥L2 →0 as n →∞.
+2. Let f : U →C be a non-constant holomorphic function where U ⊂C is the open
+set containing the closure D of the unit disk D = {z ∈C||z| < 1}.
+If |f(z)| = 1, for all z ∈∂D, Prove that D ⊂f(D).
+3. Prove that if a sequence of harmonic function on the open disk converges uniformly
+on compact subset of the disk, then the limit is harmonic.
+4. Let µ be a Borel measure on Rn. Let ρ > 0, a ﬁxed positive number, and Bρ(x) =
+{y ∈Rn|d(x, y) < ρ}. For x ∈Rn, deﬁne a function:
+θ(x) : x →µ(Bρ(x))
+1) Show that θ is upper semi-continuous, i.e. for every x ∈Rn, θ(x) ≥lim supy→x θ(y).
+2) Give an example of a Borel measure µ, such that the function θ is not continuous.
+5. Let g denote a smooth function on Rn with compact support. Let f denote the
+function given by the formula
+f(x) =
+1
+n(n −1)α(n)
+Z
+Rn
+1
+|x −y|n−2g(y)dy.
+Here α(n) is volume of the unit ball in Rn.
+(a) Prove that the integral that deﬁnes f converges for each x ∈Rn.
+(b) Prove that f is diﬀerentiable and that the gradient of f if given by the formula
+∇f|x =
+1
+n(n −1)α(n)
+Z
+Rn
+1
+|x −y|n−2(∇g)|ydy.
+(c) Prove the f obeys −∆f = g with ∆denoting
+∂2
+∂x12 + · · · +
+∂2
+∂xn2.
+1
+---- page 2 ----
+2
+6. If u is a positive harmonic function on Rn \ {0} (n ≥2), then exist constants
+a ≥0, b ≥0 such that
+u(x) = a + b|x|2−n
+for all x ∈Rn \ {0}.
+##########################################################################################
+## 2025 exists=True
+pages: 2
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Diﬀerential Equations
+(6 problems)
+Problem 1.
+Find the solution R(r) (r ≥1) of the diﬀerential equation
+r3R′′′(r) + 2r2R′′(r) −rR′(r) + R(r) = 2025,
+r > 1,
+satisfying the conditions
+R(1) = 2025,
+R′(1) = 0
+and
+R′′(1) = 1.
+Problem 2.
+(1). Prove that for n ≥3, there exists a constant C > 0 such that
+Z
+Rn
+u2
+|x|2 dx ≤C
+Z
+Rn |∇u|2 dx,
+∀u ∈H1(Rn);
+(2). Prove that the optimal constant C in (1) is
+4
+(n−2)2 .
+Problem 3.
+(1). Let u(x, y) be a subharmonic function on a domain D containing the annulus {r1 < |x| < r2}.
+Deﬁne
+M(r) =
+max
+x2+y2=r u(x, y)
+for r1 < r < r2. Prove that:
+M(r) ≤M(r1)(log r2 −log r) + M(r2)(log r −log r1)
+log r2 −log r1
+;
+(2). If u is subharmonic on R2 \ {0} and bounded above, prove that u is constant.
+Problem 4.
+Write S1 = {e2π√−1s : s ∈R} ∼= {s : s ∈[0, 1]} = [0, 1]. For a smooth closed curve
+γ : S1 −→R2,
+s 7−→γ(s) = (x(s), y(s))
+we mean that x, y : S1 →R are continuously diﬀerentiable functions of s, γ(0) = γ(1), and
+γ′(s) = dγ(s)
+ds
+̸= 0 for all s ∈[0, 1].
+The degree of a smooth closed curve γ : S1 →R2 is given by
+d(γ) := 1
+2π
+I
+γ
+xdy −ydx
+x2 + y2 .
+1
+---- page 2 ----
+(1) Show that
+d(γ) =
+1
+2π√−1
+I
+γ
+dz
+z .
+Hence d(γ) is an integer.
+(2) For the curve γ(s) = re2π√−1ns ∈C with z0 ∈C, s ∈[0, 1] and n ∈Z, compute d(γ).
+(3) Two smooth closed curves γ0 and γ1 are regularly homotopic if there exists a family of smooth
+closed curves γt with a continuous dependence on t ∈[0, 1], where the curves γ0 and γ1
+correspond to t = 0 and t = 1 respectively. Here, by a continuous dependence on t we mean
+that the map
+[0, 1] × [0, 1] −→R2,
+(s, t) 7−→γ(s, t) = γt(s)
+is continuous.
+Prove that two smooth closed curves γ0 and γ1 are regularly homotopic if and only if there
+have equal degrees.
+Problem 5.
+If A and B are disjoint closed subsets of a metric space (X, d) and [a, b] is a given closed interval,
+then there exists a continuous map f : X →[a, b] such that f(A) = {a} and f(B) = {b}.
+Problem 6.
+For f a complex-valued locally integrable function on Rn, set
+||f||BMO := sup
+Q
+ 1
+|Q|
+Z
+Q
+f(x) −AvgQf
+ dx
+
+,
+where the supremum is taken over all cubes Q in Rn and
+AvgQf :=
+1
+|Q|
+Z
+Q
+f(x) dx.
+Let BMO(Rn) be the set of all complex-valued locally integrable functions on Rn with ||f||BMO <
+∞.
+(1) || · ||BMO is not a norm, and is only a seminorm.
+(2) L∞(Rn) ⊂BMO(Rn) and ||f||BMO ≤2||f||L∞.
+(3) Suppose that there exists an A > 0 such that for all cubes Q in Rn there exists a constant cQ
+such that
+sup
+Q
+ 1
+|Q|
+Z
+Q
+|f(x) −cQ| dx
+
+≤A.
+then f ∈BMO(Rn) and ||f||BMO ≤2A.
+(4) L∞(Rn) is a proper subspace of BMO(Rn).
+2

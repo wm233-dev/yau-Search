@@ -1,0 +1,36 @@
+
+=== page 1 ===
+Statistics problems: individual contest
+May 2019
+1. Suppose we have n pairs of observations (Xi, Yi), i = 1, . . . , n. Suppose we ﬁt a simple linear
+regression with Y as the response variable and the value of the regression coeﬃcient estimator is
+1. What happens if the role of X and Y are switched, i.e., we ﬁt a simple regression with X as the
+response variable?
+2. A math test consists of 10 questions. For each question, one either answers it correctly (Y = 1)
+or incorrectly (Y = 0). Thus for a test taker, his/her answers consist of Y1, . . . , Y10, where Yi is the
+answer to the ith question and takes value 1 or 0. Suppose a reasonable statistical model is that
+for each student, his/her responses to the 10 questions are independent Bernoulli variables with
+the following speciﬁcation:
+P(Yi = 1) = 1 −P(Yi = 0) =
+eθ−bi
+1 + eθ−bi ,
+i = 1, . . . , 10,
+where θ is his/her math ability (diﬀerent students have diﬀerent θ values) and bi is the diﬃculty
+level for the ith question. The test is designed, of course, to ﬁnd out the test taker’s θ value.
+This model implies that a person with higher θ value has a larger probability to answer a question
+correctly, while a more diﬃcult question (larger b value) make the probability of a correct answer
+smaller. The teacher allocates 10 points equally to each of the 10 questions for the total of 100
+points for the test.
+Suppose that student A answered two easiest questions (2 smallest bi values) incorrectly thus
+scoring 80 out of 100 and that student B answered two most diﬃcult questions (2 largest bi values)
+incorrectly thus also scoring 80 out of 100. Student A claims that it is unfair to him (in comparison
+to student B) because his 8 correct answers are on the more diﬃcult questions. And more diﬃcult
+questions should worth more points. Do you think student A has a valid point? Do you think the
+teacher’s scoring system is fair? Explain your thinking from the statistical perspective.
+3. Two research centers, A and B, collected two separate data sets to study relationship between two
+variables X and Y . Center A looked at its data, denoted by (X1, Y1), . . . , (Xm, Ym), and found a pos-
+itive correlation. Center B also looked at its own data, denoted by (Xm+1, Ym+1), . . . , (Xm+n, Ym+n),
+and also found a positive correlation. Now a new researcher pooled the two data set together into
+a larger one, (X1, Y1), . . . , (Xm+n, Ym+n). He claims that for the pooled data set, X and Y are
+negatively correlated. Do you think this is possible? Explain your answer.
+1

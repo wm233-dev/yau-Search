@@ -1,0 +1,168 @@
+
+=== page 1 ===
+PROBLEMS FOR PERSONAL CONTEST
+CHOOSE ANY 3 OUT OF 5
+Problem 1. Show that if
+C =
+
+
+0
+0
+· · ·
+0
+−c0
+1
+0
+· · ·
+0
+−c1
+0
+1
+· · ·
+0
+−c2
+...
+...
+...
+...
+...
+0
+0
+· · ·
+1
+−cn−1
+
+
+is a companion matrix with distinct eigenvalues λ1, ..., λn, then
+V CV −1 = diag(λ1, ..., λn)
+where
+V =
+
+
+1
+λ1
+· · ·
+λn−1
+1
+1
+λ2
+· · ·
+λn−1
+2
+...
+...
+...
+...
+1
+λn
+· · ·
+λn−1
+n
+
+.
+Problem 2. Prove the following error estimate for the Simpson’s rule:
+Z b
+a
+f(x) dx −b −a
+6
+
+f(a) + 4f(a + b
+2
+) + f(b)
+
+= −
+b −a
+2
+5f (4)(ξ)
+90
+where a < ξ < b.
+Problem 3. Consider the ﬁxed point iteration method to solve non-
+linear equation f(x) = 0
+(1)
+xn+1 = g(xn).
+a. State the necessary conditions for existence and uniqueness of a
+ﬁxed-point x = α in (1), and derive the criteria that determines
+the order of convergence.
+b. Consider instead the ﬁxed-point iteration
+xn+1 = G(xn) = xn −
+(g(xn) −xn)2
+g(g(xn)) −2g(xn) + xn
+.
+Show that if α is a ﬁxed-point of g(x), then it is also a ﬁxed
+point of G(x).
+1
+
+=== page 2 ===
+2
+PROBLEMS FOR PERSONAL CONTEST
+Problem 4. Consider the following parabolic equation
+∂u
+∂t = a∂2u
+∂x2
+where a > 0 is a constant.
+Consider the following ﬁnite diﬀerence
+scheme
+1
+12
+vn+1
+m+1 −vn
+m+1
+k
++ 5
+6
+vn+1
+m
+−vn
+m
+k
++ 1
+12
+vn+1
+m−1 −vn
+m−1
+k
+= a(δ2v)n+1
+m
++ (δ2v)n
+m
+2
+where δ2 is the standard central diﬀerence operator in space, namely,
+(δ2v)n
+m = vn
+m+1 −2vn
+m + vn
+m−1
+h2
+and k, h > 0 are the time step size and the mesh size respectively. It
+is known that the scheme is second order in time and fourth order in
+space.
+How to modify the above scheme for the equation
+∂u
+∂t = σ(x)∂2u
+∂x2
+where σ(x) ≥σ0 > 0, so that the resulting scheme is still second order
+in time and fourth order in space?
+Problem 5. Let A and B be n×n matrices, A non-singular. Consider
+solving the linear system of equations
+A x1 + B x2
+=
+b1
+B x1 + A x2
+=
+b2
+where x1, x2, b1, b2 ∈Rn.
+Find the necessary and suﬃcient condi-
+tion(s) for the convergence of the iterative method
+A xk+1
+1
+=
+b1 −B xk
+2
+A xk+1
+2
+=
+b2 −B xk
+1
+for some initial guess x0
+1 and x0
+2.

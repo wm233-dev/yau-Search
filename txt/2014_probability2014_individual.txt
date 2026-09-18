@@ -1,0 +1,53 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2014
+Probability and Statistics Problems
+Individual
+Please solve the following 5 problems.
+Problem 1. Let X be a real valued random variable such that for all smooth functions
+f : R →R with compact support we have E[Xf(X)] = E[f ′(X)]. Show that X has the
+standard normal distribution.
+Problem 2. Let (Xn) be a sequence of uncorrelated random variables of mean zero such
+that
+∞
+X
+n=1
+nE|Xn|2 < ∞.
+Show that Sn = Pn
+i=1 Xi converges almost surely.
+Problem 3. Let (Ω, F) be a measurable space and G be a sub-σ-ﬁeld of F. Let P and
+Q be two probabilities which are mutually absolutely continuous on F. We denote by X0
+the Radon-Nikodym density of Q with respect to P on F. Show that the following two
+properties are satisﬁed:
+(a) 0 < EP[X0|G] < +∞, P-a.s.;
+(b) for every F-measurable non-negative random variable f,
+EP[fX0|G] = EQ[f|G]EP[X0|G].
+Problem 4.
+Suppose X1, . . . , Xn, . . . is a sequence of random numbers drawn from
+the uniform distribution U(0, 1). One observes these numbers sequentially. At time n,
+one keeps a record of Yn
+def
+= X(n) = maxn
+i=1 Xi = max{Yn−1, Xn} and Zn
+def
+=
+¯Xn =
+Pn
+i=1 Xi/n = (n −1)/nZn−1 + 1/nXn and discards all previous recordings.
+(a) What is the best guess of X1 if one only observes Yn?
+(b) What is the best guess of X1 if one only observes Zn?
+(c) Comparing the two guesses of X1, which one is better (and in what sense)?
+Give good reasoning to justify your answers.
+
+=== page 2 ===
+Problem 5. Suppose we take a random sample of size n from a bag of colored balls
+(red, blue and yellow balls) with replacement. Let X1 denote the number of red balls, X2
+denote the number of blue balls, and X3 denote the number of yellow balls in the sample.
+Assuming we know that the total number of yellow balls is triple the total number of red
+balls in the bag. Or in other words, the red, blue and yellow balls occur with probability
+p1, p2 and p3 = 3p1, respectively in the bag.
+1. Find the aymptotic distribution (after appropriate normalization) for the MLE of
+p2.
+2. Construct the likelihood ratio test statistic for the null hypothesis that p1 = p2 =
+p3/3 (the alternative is that p1 = p2 = p3/3 is not true). What is the asymptotic
+distribution of your test statistic under null?

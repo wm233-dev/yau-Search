@@ -1,0 +1,537 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1.
+Let f ∈Ck+1[−1,1] and [−1,1] be partitioned into subintervals Ij = [(j −1)h, jh] of
+width h. Assume p is a polynomial of degree k which approximates f in Ij with
+max
+x∈Ij
+pj(x) −f (x)
+ ≤C0hk+1,
+where C0 is a constant independent of j. Show that there exists an another constant C, independent
+of j, such that
+max
+x∈Ij±1
+pj(x) −f (x)
+ ≤Chk+1.
+(as long as Ij±1 ⊂[−1,1], of course).
+Solution: Pick points 0 ≤x0 < x1 < · · · < xk ≤1, and let
+Li(x) =
+Ö
+l,i
+x −xl
+xi −xl
+be the l-th Lagrange polynomial. Let
+Λ =
+k
+Õ
+i=0
+max
+x∈[−1,2] |Li(x)| .
+On Ij we use rescaled versions with xji = (j −1)h + hxi, and
+Lji(x) =
+Ö
+l,i
+x −xjl
+xji −xjl
+.
+Note that Λ is unchanged with
+Λ =
+Õ
+i
+max
+x∈Lj±1
+Lji(x)
+ .
+Let fj be the interpolating polynomial on Ij
+fj(x) =
+k
+Õ
+i=0
+f (xji)Lji(x),
+and note that also
+pj(x) =
+Õ
+i
+p(xji)Lji(x).
+Then for x ∈Ij±1,
+pj(x) −f (x)
+ ≤
+pj(x) −fj(x)
+ +
+ fj(x) −f (x)
+
+=
+
+k
+Õ
+i=0
+( f (xji) −pj(xji)Lji(x)
+ + |Rk f (x)|
+≤max
+x∈Ij
+ f (x) −pj(x)
+ Λ + ∥f (k+1)∥
+(k + 1)! max
+x∈Ij±1
+
+k
+Ö
+i=0
+(x −xji)
+
+≤C0Λhk+1 + ∥f (k+1)∥
+(k + 1)! max
+x
+(2h)k+1
+= Chk+1,
+
+=== page 2 ===
+C = C0Λ + 2k+1∥f (k+1)∥
+(k + 1)!
+.
+Problem 2. Consider the iteration
+xn+1 = xn −
+
+xn −x0
+f (xn) −f (x0)
+
+f (xn)
+for ﬁnding the roots of a two times continuous diﬀerentiable function f (x). Assuming the method
+converges to a simple root x∗, what is the rate of convergence? Justify your answer.
+Solution: The iteration may be rewritten as
+xn+1 = [xn f (xn) −xn f (x0)] −[xn f (xn) −x0 f (xn)]
+f (xn) −f (x0)
+= x0 f (xn) −xn f (x0)
+f (xn) −f (x0)
+.
+Thus
+xn+1 −x∗= x0 f (xn) −xn f (x0)
+f (xn) −f (x0)
+−x∗= (x0 −x∗) f (xn) −(xn −x∗) f (x0)
+f (xn) −f (x0)
+.
+Taylor’s Theorem asserts that there is ξn between xn and x∗such that
+0 = f (x∗) = f (xn) + f ′(ξn)(x∗−xn)
+⇒
+f (xn) = f ′(ξn)(xn −x∗).
+This implies
+xn+1 −x∗= (x0 −x∗) f ′(ξn) −f (x0)
+f (xn) −f (x0)
+(xn −x∗).
+Evaluating the limit as n →∞, ξn →x∗and
+lim
+n→∞
+
+xn+1 −x∗
+xn −x∗
+ = lim
+n→∞
+
+(x0 −x∗) f ′(ξn) −f (x0)
+f (x∗) −f (x0)
+ =
+
+(x0 −x∗) limn→∞f ′(ξn) −f (x0)
+0 −f (x0)
+ .
+Applying Taylor’s expression one more time, we know there is η between x∗and x0 such that
+f (x0) = f (x∗) + f ′(x∗)(x0 −x∗) + f ′′(η)
+2
+(x0 −x∗)2,
+So
+f ′(x∗)(x0 −x∗) −f (x0) = −f ′′(η)
+2
+(x0 −x∗)2.
+Therefore
+lim
+n→∞
+
+xn+1 −x∗
+xn −x∗
+ =
+
+f ′′(η)
+2 f (x0)
+ (x0 −x∗)2.
+Note the right hand side is dependent only upon x∗and x0. Since we know xn →x∗, this shows the rate of
+convergence is linear.
+Problem 3.
+Suppose A is an m × m matrix with a complete set of orthonormal eigenvectors
+q1,. . .,qm and corresponding eigenvalues λ1,. . .,λm. Assume that |λ1| > |λ2| > |λ3| and λj ≥λj+1
+for j = 3,. . .,m. Consider the power method v(k) = Av(k−1)/λ1, with v(0) = α1q1 + · · · + αmqm
+where α1 and α2 are both nonzero. Show that the sequence {v(k)}∞
+k=0 converges linearly to α1q1 with
+asymptotic constant C = |λ2/λ1|.
+Solution: Matrix A has following eigen-decomposition
+A =
+q1,q2,. . .,qm
+
+
+λ1
+λ2
+...
+λm
+
+q1,q2,. . .,qm
+−1 ,
+
+=== page 3 ===
+thus
+Ak =
+q1,q2,. . .,qm
+
+
+λk
+1
+λk
+2
+...
+λk
+m
+
+q1,q2,. . .,qm
+−1 .
+The power method reduces to
+v(k) = Ak v(0)
+λk
+1
+=
+q1,q2,. . .,qm
+
+
+λk
+1
+λk
+2
+...
+λk
+m
+
+q1,q2,. . .,qm
+−1 q1,q2,. . .,qm
+
+
+α1
+λk
+1
+α2
+λk
+1...
+αm
+λk
+1 ,
+
+= α1q1 +
+m
+Õ
+j=2
+ λj
+λ1
+k
+αjqj,
+from this we deduce v(k) →α1q1 as k →∞, since |λj/λ1| < 1 for j = 2,. . .,m.
+To show the convergencee is linear with asymptotic constant C = |λ2/λ1| we need to verify the limit
+lim
+k→∞
+||e(k+1)||
+||e(k)||
+= lim
+k→∞
+||v(k+1) −α1q1||
+||v(k) −α1q1||
+=
+
+λ2
+λ1
+
+( here || · || denotes the L2-norm).
+Note that e(k) = Ím
+j=2
+ λj
+λ1
+k
+αjqj, using the orthonormality of the eigenvectors we have
+||e(k)||2 =
+m
+Õ
+j=2
+
+λj
+λ1
+
+2k
+|αj|2 =
+
+λ2
+λ1
+
+2k ©­
+«
+|α2|2 +
+m
+Õ
+j=3
+
+λj
+λ2
+
+2k
+|αj|2ª®
+¬
+,
+similarly
+||e(k+1)||2 =
+
+λ2
+λ1
+
+2(k+1) ©­
+«
+|α2|2 +
+m
+Õ
+j=3
+
+λj
+λ2
+
+2(k+1)
+|αj|2ª®
+¬
+.
+Thus
+lim
+k→∞
+||e(k+1)||
+||e(k)||
+= lim
+k→∞
+©­­­­
+«
+ λ2
+λ1
+
+2(k+1) 
+|α2|2 + Ím
+j=3
+
+λj
+λ2
+
+2(k+1)
+|αj|2
+
+ λ2
+λ1
+
+2k 
+|α2|2 + Ím
+j=3
+
+λj
+λ2
+
+2k
+|αj|2
+
+ª®®®®
+¬
+1
+2
+=
+
+λ2
+λ1
+
+|α2|
+|α2|
+( we have used |λ2| > |λ3| ≥|λj| for j > 3 )
+=
+
+λ2
+λ1
+
+( since α2 , 0 ).
+Problem 4.
+For the initial value problem y′ = f (t, y), y(0) = y0 on the interval [0, T], consider
+the implicit two-step method
+yn+1 = 4
+3 yn −1
+3 yn−1 + 2h
+3 f (tn+1, yn+1),
+y1 = y0 + h f (t1, y0),
+where h is the step size and tn = nh.
+
+=== page 4 ===
+(a) What is the order of the accuracy of the scheme?
+(b) Check the stability of the scheme by analyzing the stability polynomial?
+(c) Find the stability region of the scheme.
+Solution: (a) Let y(t) be the exact solution, then the truncation error of form
+hτn+1 := y(tn+1) −
+4
+3 y(tn) −1
+3 y(tn−1) + 2h
+3 f (tn+1, y(tn+1))
+
+can be estimated by using Taylor expansion to every term involved:
+y(tn+1) = yn + hy′
+n + 1
+2 h2y′′
+n + 1
+6 h3y′′′
+n + O(h4),
+−1
+3 yn−1 = −1
+3 yn + 1
+3 hy′
+n −1
+6 h2y′′
+n + 1
+18 h3y′′′
+n + O(h4),
+2h
+3 f (tn+1, yn+1) = 2h
+3 y′
+n+1 = 2
+3 hy′
+n + 2
+3 h2y′′
+n + 1
+3 h3y′′′
+n + O(h4).
+Hence
+hτn+1 =
+
+yn + hy′
+n + 1
+2 h2y′′
+n + 1
+6 h3y′′′
+n + O(h4)
+
+−
+
+yn + hy′
+n + 1
+2 h2y′′
+n + 7
+18 h3y′′′
+n + O(h4)
+
+= −2
+9 h3y′′′
+n + O(h4).
+The method has order of accuracy 2.
+(b) Apply the method to the case f = 0, then
+yn+1 −4
+3 yn + 1
+3 yn−1 = 0,
+when for ansatz of form yn = γn gives the stability polynomial
+γ2 −4
+3γ + 1
+3 = 0,
+which has nonzero roots γ = 1, 1
+3. Since |γ| ≤1 and γ = 1 as a single root, the method is stable.
+(c) Consider the stiﬀproblem y′ = λy. The method becomes
+yn+1 = 4
+3 yn −1
+3 yn−1 + 2
+3 hλyn+1,
+which has stability polynomial
+(3 −2hλ)γ2 −4γ + 1 = 0.
+So the stability region is given by
+
+4 ±
+p
+16 −4(3 −2hλ)
+2(3 −2hλ)
+ < 1,
+i.e.,
+R =
+(
+hλ ∈C :
+
+2 ±
+√
+1 −2hλ
+3 −2hλ
+ < 1
+)
+.
+
+=== page 5 ===
+Problem 5. Suppose the diﬀerence scheme un+1 = Bun is stable, and C(∆t) is a bounded family of
+operators. Show that the scheme
+un+1 = (B + ∆tC(∆t))un
+is stable.
+Solution: Suppose ∥Bk∥≤K1 for 0 ≤k ≤n and ∥C(∆t)∥≤K2. It suﬃces to show (B + ∆tC(∆t))n is
+bounded for n∆t ≤T. This will consist of 2n terms, of which
+ n
+j
+
+terms involve j factors ∆tC interspersed
+in n −j factors B; the latter can occur in at most j + 1 sequences of consecutive factors, the norm of each
+sequence being bounded by K1, and hence the norm of each such term by K j
+2K j+1
+1
+. Thus overall we obtain
+the bound
+∥(B + ∆tC(∆t))n∥≤
+n
+Õ
+j=0
+ n
+j
+
+K j+1
+1
+(∆tK2)j
+= K1 (1 + ∆tK1K2)n
+≤K1en∆tK1K2
+which is bounded for n∆t ≤T.
+Problem 6.
+Let A be an m × m nonsingular matrix. Suppose infpn ∈Pn ||pn(A)|| = ||p∗(A)|| > 0
+where Pn denotes the set of all degree-n monic polynomials:
+Pn = {p : p is a polynomial of degree n, p(z) = zn + · · · } .
+Prove that p∗is unique.
+Solution: We prove by contradiction. Assuming there are two pi fori = 1,2 as minimizers, then p = (p1+p2)/2
+shares the same 2-norm,
+∥p1∥= ∥p2∥= ∥p∥= σ1,
+where σ1 is the largest singular value. Let the SVD of p be
+p(A) = Udiag(σ1,. . .,σn)V∗.
+Suppose σ1 is J−fold, with left and right singular vectors u1,. . .,uJ and v1,. . .,vJ, respectively.
+By convexity of the 2-norm, we have
+σ1 = ∥p(A)vj∥≤1
+2
+ ∥p1(A)vj∥+ ∥p2(A)vj∥ ≤σ1,
+which implies that
+∥p1(A)vj∥= ∥p2(A)vj∥= σ1
+and
+(p1 −p2)vj = 0,1 ≤j ≤J.
+Similarly we can show that (p∗
+1 −p∗
+2)uj = 0.
+Construct q ∈Pn using p1 −p2 so that qvj = 0 and q∗uj = 0. For a ﬁxed ϵ ∈(0,1), deﬁne
+pϵ = (1 −ϵ)p + ϵq ∈Pn.
+Hence
+p∗
+ϵ pϵvj = (1 −ϵ)p∗
+ϵ p(A)vj = (1 −ϵ)σ1p∗
+ϵuj = (1 −ϵ)2σ2
+1 vj.
+
+=== page 6 ===
+This says that pϵ has right singular vector v1,. . .,vJ corresponding to the singular value (1 −ϵ)σ1.
+There are two cases to consider:
+(1) ∥pϵ ∥= (1 −ϵ)σ1 < σ1 is not the largest singular value, we see a contradiction.
+(2) None of v1,. . .,vJ correspond to the largest singular value of pϵ. Using this fact and
+p(A) = UΣV∗,
+we have
+∥pϵ(A)∥= ∥pϵ(A)V∥= ∥pϵ(A)[vJ+1,. . .,vn]∥
+= ∥(1 −ϵ)p(A)[vJ+1,. . . vn] + ϵq(A)[vJ+1,. . .,vn]∥
+≤(1 −ϵ)∥[uJ+1,. . . un]diag(σJ+1,. . .,σn)∥+ ϵ∥q(A)[vJ+1,. . .,vn]∥
+≤(1 −ϵ)σJ+1 + ϵ∥q(A)[vJ+1,. . .,vn]∥→σJ+1 < σJ = σ1
+for ϵ small. This again leads to a contradiction. The uniqueness proof is complete.

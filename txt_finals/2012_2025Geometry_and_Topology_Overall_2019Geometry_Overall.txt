@@ -1,0 +1,15 @@
+
+=== page 1 ===
+Geometry and Topology: Overall
+(1) Show that a compact torus T n = (S1)n cannot admit a Riemannian
+metric of negative sectional curvature.
+(2) Let M be an n-dimensional closed submanifold in the Euclidean
+space Rn+p. Prove the following inequality
+Z
+M
+HndV ≥vol(Sn),
+where H and dV are the mean curvature and the volume element of
+M, respectively, and Sn is the standard unit sphere of dimension n.
+(3) Compute the index of a closed geodesic of length 4π on the standard
+unit 2-sphere.
+1

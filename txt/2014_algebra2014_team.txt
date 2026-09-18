@@ -1,0 +1,88 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2014
+Algebra and Number Theory
+Team
+Solve 5 out of 6 problems, or the highest 5 scores will be counted.
+Problem 1. Let the special linear group (of order 2)
+SL2(R) = {g =
+
+a
+b
+c
+d
+
+∈M2(R) : det g = 1}
+act on the upper half plane H = {z = x + iy ∈C : y > 0} linear fractionally:
+
+a
+b
+c
+d
+
+z = az + b
+cz + d.
+(a) (5 points)
+Prove that the action is transitive, i.e., for any two z1, z2 ∈H, there is
+g ∈SL2(R) such that gz1 = z2.
+(b) (5 points)
+For a ﬁxed z ∈H, prove that its stabilizer Gz = {g ∈SL2(R) : gz = z}
+is isomorphic to SO2(R) = {g ∈M2(R) : ggt = 1}, where gt is the transpose of g.
+(c)(10 points)
+Let Z be the set of integers and let
+Γ(2) =
+
+a
+b
+c
+d
+
+∈SL2(R) : a, b, c, d ∈Z,
+a −1 ≡d −1 ≡b ≡c ≡0
+(mod 2)
+
+be a discrete subgroup of SL2(R) (no need to prove this), and let it act on Q∪{∞} linearly
+fractionally as above. How many orbits does this action have? Give a representative for
+each orbit.
+Problem 2. Let p ≥7 be an odd prime number.
+(a) (5 points) (to warm up) Evaluate the rational number cos(π/7)·cos(2π/7)·cos(3π/7).
+(b) (15 points) Show that Q(p−1)/2
+n=1
+cos(nπ/p) is a rational number and determine its
+value.
+Problem 3. (20 points, 10 points each) For any 3 × 3 matrix A ∈M3(Q), let Adb be the
+6 × 6 matrix
+Adb :=
+
+0
+I3
+A
+0
+
+(a) Express the characteristic and minimal polynomials of Adb over Q in terms of the
+characteristic and minimal polynomial of A.
+(b) Suppose that A, B ∈M3(Q) are such that Adb and Bdb are conjugate in the sense
+that there exists an element C ∈GL6(Q) such that C · Adb · C−1 = Bdb. Are A and
+B conjugate? (Either prove this statement or give a counterexample.)
+Problem 4. (20 points) Classify all groups of order 8.
+1
+
+=== page 2 ===
+2
+Problem 5. Let V be a ﬁnite dimensional vector space over complex ﬁeld C with a non-
+degenerate symmetric bilinear form ( , ). Let
+O(V ) = {g ∈GL(V )|(gu, gv) = (u, v), u, v ∈V }
+be the orthogonal group.
+(a) (10 points) Prove that
+(V ⊗C V )O(V ) ∼= EndO(V )(V ),
+and construct one such isomorphism. Here O(V ) acts on V ⊗C V via g(a ⊗b) =
+ga ⊗gb, and (V ⊗C V )O(V ) is the ﬁxed point subspace of V ⊗V .
+(b) (10 points) Prove that the ﬁxed point subspace (V ⊗C V )O(V ) is 1-dimensional.
+Problem 6. (20 points) Let c be a non-zero rational integer.
+(a) (6 points) Factorize the three variable polynomial
+f(x, y, z) = x3 + cy3 + c2z3 −3cxyz
+over C (you may assume c = θ3 for some θ ∈C).
+(b) (7 points) When c = θ3 is a cube for some rational integer θ, prove that there are
+only ﬁnitely many integer solutions (x, y, z) ∈Z3 to the equation f(x, y, z) = 1.
+(c) (7 points) When c is not a cube of any rational integers, prove that there inﬁnitely
+many integer solutions (x, y, z) ∈Z3 to the equation f(x, y, z) = 1.

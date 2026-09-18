@@ -1,0 +1,386 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Let χ be a real valued smooth function with compact support on R. We assume that
+∫
+R1 χ(x)dx = 1.
+For all ε > 0, we deﬁne
+χε(x) = 1
+ε χ
+ x
+ε
+
+.
+Prove that for any given f ∈L1(R), for almost every x ∈R, we have
+lim
+ε→0(χε ∗f )(x) = f (x).
+Solution: Let x0 ∈R be a Lebesgue point of f , i.e., for t →0, we have
+∫
+|y|≤t
+| f (x0 + y) −f (x0)| dy = o(t),
+it suﬃces to show that
+lim
+K→∞(χε ∗f )(x0) = f (x0).
+We assume that supp(χ) ⊂[−M, M]. We have
+(χε ∗f )(x0) −f (x0) =
+∫
+R
+( f (x0 −y) −f (x0)) χε(y)dy
+= ε−1
+∫
+|y|≤M
+( f (x0 −y) −f (x0)) χ(y)dy.
+Thus,
+| χε ∗f )(x0) −f (x0)| ≤ε−1∥χ∥L∞
+∫
+|y|≤εM
+| f (x0 −y) −f (x0)| dy
+= ∥χ∥L∞ε−1o(εM)
+= o(1).
+This proves the statement.
+Problem 2. In last year’s Yau College Student Mathematics Contests, four students Tintin, Haddock,
+Dupont and Dupond made it to the last round of the oral exam in analysis. Professor Yau asked them
+to compute the Fourier coeﬃcients of the 2π-periodic function F (deﬁned on R):
+F : (0,2π) →R,
+x 7→F(x) = arctan
+ x
+2π esin(x) + x2019(x −2π) + 2019 sin(x)
+
+.
+
+=== page 2 ===
+Here were their solutions: for k , 0,
+Tintin : bF(k) = cos(kπ)
+|k|
+1
+2
++ a
+|k| +
+b
+|k|3,
+Haddock : bF(k) = c
+k2 + d
+k4 + e
+k6,
+Dupont : bF(k) = 1
+k + 1
+k2 + f
+k3 + g
+k5,
+Dupond : bF(k) = 2019
+√
+−1
+k
++ hk
+k ,
+where a, b,c, d,e, f,g, hk(k ∈Z) were constants and
+Õ
+k∈Z
+|hk|2 < ∞.
+Whose solutions were correct?
+Solution:
+We remark that F is smooth on (0,2π). At 0, its right limit is 0; at 2π, its left limit is π
+2 . In
+particular, F is not continous on 2πZ.
+Tintin was wrong: the function F is bounded on (0,2π) hence in L2. Parsevel’s identity implies bF(k) ∈ℓ2(Z).
+But according to Tintin, | bF(k)| ∼
+1
+|k |
+1
+2 . This is not in ℓ2.
+Haddock was wrong: otherwise, since his coeﬃcients were absolutely summable, the function F should be a
+continous function (since its Fourier series should be absolutely convergent).
+Dupont was wrong: since F is a real valued function, we must have bF(k) = bF(−k). Dupont’s coeﬃcients did
+not satisfy this condition.
+To show that Dupond was wrong, we do the following computations:
+bF(k) = 1
+2π
+∫2π
+0
+e−ikxF(x)dx
+= e−kπixΦ(x)
+2πik
+
+2π
+0 +
+1
+2πik
+∫2π
+0
+e−ikxF′(x)dx
+|                {z                }
+∈ℓ2, since F′∈L2((0,2π))
+=
+√
+−1
+8k
++
+h′
+k
+k .
+Now since h′
+k ∈ℓ2, if Dupond was correct, it would imply that 2019
+√
+−1 −
+√
+−1
+8
+is square summable. This is
+absurd.
+Problem 3.
+Let B1 be the unit ball centered at the origin in R4 and u ∈W1,2(B1) ∩C∞(R4) be a
+nonnegative real valued function so that
+−△u ≤u2,
+where △=
+4
+Õ
+i=1
+∂2
+∂x2
+i
+. Prove that, there exists a constant ε > 0, so that if ∥u∥L2(B1) ≤ε, we have
+∥∇u∥L2(B 1
+2
+) ≤10000∥u∥L2(B1),
+where B 1
+2 is the ball of radius 1
+2 centered at the origin.
+
+=== page 3 ===
+Solution: We can choose a smooth cut-oﬀfunction η so that supp(η) ⊂B1, η
+
+B 1 2 ≡1, η ≥0 and |∇η| ≤4.
+We multiply the −△u ≤u2 by η2u and integrate by parts. This leads to
+∫
+B1
+η2|∇u|2 ≤
+∫
+B1
+η2u3 + 2
+∫
+B1
+ηu|∇η||∇u|.
+According to the Cauchy-Schwarz inequality, we have
+∫
+B1
+η2|∇u|2 ≤
+∫
+B1
+η2u3 + 2
+∫
+B1
+|∇η|2|u|2 + 1
+2
+∫
+B1
+η2|∇u|2.
+Hence,
+∫
+B1
+η2|∇u|2 ≤2
+∫
+B1
+η2u3 + 4
+∫
+B1
+|∇η|2|u|2
+≤2
+∫
+B1
+η2u3 + 64
+∫
+B1
+|u|2.
+On the other hand, we can use four dimension Sobolev inequality to derive
+∫
+B1
+η2u3 ≤∥u∥L2(B1)
+∫
+B1
+(ηu)4
+ 1
+2
+≤∥u∥L2(B1) × C4
+∫
+B1
+|∇(ηu)|2,
+where C4 is the constant coming from the Sobolev inequality. Since ∥u∥L2(B1) ≤ε, we can proceed as follows
+∫
+B1
+η2u3 ≤C4ε
+∫
+B1
+|∇(ηu)|2
+≤2C4ε
+∫
+B1
+|∇η|2|u|2 +
+∫
+B1
+|∇η|2|u|2
+
+≤32C4ε
+∫
+B1
+|u|2 + 2C4ε
+∫
+B1
+|u|2.
+Putting all the inequalities together, we obtain
+∫
+B1
+η2|∇u|2 ≤2
+∫
+B1
+η2u3 + 4
+∫
+B1
+|∇η|2|u|2
+≤64C4ε
+∫
+B1
+|u|2 + 4C4ε
+∫
+B1
+|u|2 + 64
+∫
+B1
+|u|2.
+If we take ε <
+1
+128C4 , we have
+∫
+B1
+η2|∇u|2 ≤1
+2
+∫
+B1
+|u|2 + (64 + 1
+32)
+∫
+B1
+|u|2.
+This leads to the ﬁnal estimate:
+∫
+B1
+η2|∇u|2 ≤(128 + 1
+16)
+∫
+B1
+|u|2.
+Problem 4.
+Let f and g be two holomorphic functions deﬁned on the entire complex plane C so
+that for all z ∈C, we have
+f (z)2020 + g(z)2020 = 1.
+Prove that f and g are constants.
+
+=== page 4 ===
+Solution: We consider the following holomorphic map
+ϕ : C →P3(C), z 7→( f (z) : g(z) : 1),
+where (z1 : z2 : z3) is the homogenous coordinates on P3(C). Let C be the curve deﬁned by the homogenous
+equation
+C =
+
+(z1 : z2 : z3)
+ z2020
+1
++ z2020
+2
+= z2020
+3
+	
+⊂P3(C).
+It is obviously a smooth curve (by the Jacobian criterion). The maps ϕ factor through C , i.e., we have a
+holomorphic map
+ϕ : C →C .
+On the other hand, the genus g(C ) of the plance curve C can be computed through the genus formula
+g(C ) = 1
+2(2020 −1)(2020 −2) ≥2.
+Therefore, according to the uniformization theorem, the universal covering of C must be the Poincaré disk D.
+Hence, we can lift ϕ to a holomorphic map
+bϕ : C →D,
+i.e., we have the following commutative diagram:
+D
+C
+C
+π
+bϕ
+ϕ
+In particular, bϕ is a bounded entire function, hence a constant map by Liouville’s theorem. Therefore, ϕ is
+also a constant map.
+Problem 5. We consider the following ordinary diﬀerential equation:
+(
+x′′(t) + x(t) + x(t)3 = 0,
+(x(0), x′(0)) = (x0,0),
+where x(t) takes values in R. Prove that for all x0 ∈R, the solution of the above system is periodic.
+Solution: The key is to observe that
+E(t) = 1
+2ξ(t)2 + 1
+2 x(t)2 + 1
+4 x(t)4
+is conserved, where ξ(t) = x′(t). Therefore, on the phase plane (x,ξ), the solution lies on
+1
+2ξ2 + 1
+2 x2 + 1
+4 x4 = 1
+2 x2
+0 + 1
+4 x4
+0.
+The curve is bounded. Hence, x(t) is bounded and the solution to the equation is deﬁned on the whole of
+t ∈R. To show that x(t) is periodic: when x′(t0) = 0, x(t0) is either the maximum or the minimum of x(t)
+for all t ∈R (using the fact that E(t) is conserved). Therefore, it suﬃces to show that x(t) will reach its local
+maximum and local minimum for some later time. If not, then x(t) must be monotone which is impossible
+since this would pose a sign condition on ξ′(t).
+Problem 6. Let α ∈R and ak ∈C with |ak| < 1, where k = 1,2,. . .,n. We consider the following
+holomorphic map
+f :C −
+
+(a1)−1,. . .,(an)−1	
+→C,
+z 7→f (z) = e2
+√
+−1παz · z −a1
+1 −a1z · · · z −an
+1 −anz .
+
+=== page 5 ===
+Let S1 be the unit circle in C, i.e.,
+S1 =
+
+z ∈C
+ |z| = 1
+	
+.
+Prove that f maps S1 to itself and f preserves the surface measure (i.e., dθ in terms of standard
+polar coordiantes of R2) of S1.
+Solution: It suﬃces to show that
+∫
+S1 ϕdθ =
+∫
+S1 ϕ ◦f dθ, ∀ϕ ∈C0(S1).
+Let ϕ be the harmonic extension of ϕ to the unique disk
+D =
+
+z ∈C
+ |z| ≤1
+	
+,
+i.e., ϕ is the unique solution of the following Dirichlet problem:
+(
+−△ϕ
+= 0, in D,
+ϕ
+
+S1
+= ϕ, on S1.
+Since f is holomophic and f preserves D, ϕ ◦f is still a harmonic function in D and it is the harmonic
+extension of ϕ ◦f .
+We observe that f maps 0 to 0. Therefore, by the mean value property, we have
+∫
+S1 ϕdθ = ϕ(0) = ϕ ◦f (0) =
+∫
+S1 ϕ ◦f dθ.
+This completes the proof.

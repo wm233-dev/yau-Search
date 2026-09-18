@@ -1,0 +1,37 @@
+
+=== page 1 ===
+12th Oral Exam of S.-T. Yau College Student Mathematics Contests 2021
+Analysis and diﬀerential equations
+Group Contest
+1. Explain that the dual space of L∞(R) is not L1(R).
+2. Let ϕ : [0, 1] →R be integrable for the Lebesgue measure. Deﬁne G : R →R+ by
+G(t) =
+Z
+[0,1]
+|ϕ(x) −t|dx.
+(i) Show that G is continuous on R;
+(ii) Show that G is derivable at t ∈R if and only if
+λ1({x : ϕ(x) = t}) = 0,
+here λ1 denotes the Lebesgue measure on R1.
+3. Let B1(0) be the unit ball in R3 centered at the origin. Assume that the function
+v is a smooth function deﬁned on R3 with vr = x·∇v
+|x| ∈L2(B1(0). Prove that
+Z
+B1(0)
+|v(x)|2
+|x|2 dx ≤C(
+Z
+B1(0)
+|vr|2dx +
+Z
+∂B1(0)
+|v|2dσ)
+≤C1
+Z
+B1(0)
+(|vr|2 + |v|2)dx,
+where C and C1 are some constants independent of v.
+4. Prove that the life span of any solution to the following diﬀerential equation
+dy
+dx = x2 + y2
+is ﬁnite.

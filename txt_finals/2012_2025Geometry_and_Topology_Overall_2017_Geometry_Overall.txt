@@ -1,0 +1,33 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Overall Problems
+1. Let Σg be a compact Riemann surface of genus g > 1, Aut(Σg) be the automorphism
+group of biholomorphic maps of Σg. Let V = H0(Σg, K) be the space of holomorphic
+1-forms on Σg.
+(a) Show that the natural group homomorphism
+ρ : Aut(Σg) →GL(V )
+is injective.
+(b) V carries a natural hermitian structure
+< ω1, ω2 >= i
+Z
+Σg
+ω1 ∧ω2,
+ωi ∈V.
+Show that ρ(Aut(Σg)) lies inside the unitary subgroup.
+(c) V carries a natural integral structure from the lattice
+H1(Σ, Z)(≃Z2g) ⊂V.
+Show that ρ(Aut(Σg)) lies inside GL(Z2g).
+(d) Conclude that Aut(Σg) is a ﬁnite group.
+2. (a) What is a Killing ﬁeld on a Riemannian manifold?
+(b) Explain why a Killing ﬁeld on a connected Riemannian manifold is determined by
+its value and the value of its ﬁrst derivative at a given point.
+(c) Show that the maximal dimension of the space of Killing ﬁelds on a three dimen-
+sional connected Riemannian manifold is six.
+3. (a) Let X be an n-dimensional compact Riemannian manifold. Show that
+dim(Isom(X)) ≤n(n + 1)
+2
+.
+(b) List all possible M when the equality in the above is achieved.
+1

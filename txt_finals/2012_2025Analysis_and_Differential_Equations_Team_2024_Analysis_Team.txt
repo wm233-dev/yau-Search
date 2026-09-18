@@ -1,0 +1,46 @@
+
+=== page 1 ===
+Team
+Problem 1. Consider the mixed problem for u(t, x) = u(t, x1, x2, x3):
+
+
+
+
+
+□u = 0
+for t > 0, x3 > 0,
+u|t=0 = g(x),
+ut|t=0 = h(x)
+for x3 > 0,
+Mu|x3=0 = 0
+for t > 0,
+(∗∗∗)
+where □= ∂2
+t −∆, and M denotes a rst-order transport operator of the form
+M = ∂t +
+3
+X
+i=1
+bi∂xi + c
+with constant coecients (b1, b2, b3) and c, and g, h vanish for all suciently
+small x3 > 0. Assume that u, g, h are smooth and bounded and that b3 ≤0.
+(i) Prove that w = Mu for t > 0, x3 > 0 also satises the wave equation:
+□w = 0,
+and then determine w(t, x) for t > 0, x3 > 0 from its initial and boundary
+conditions as a solution of □w = 0.
+(ii) Find the solution u(t, x) of problem (***) through the solution of the
+following transport equation:
+(
+Mu = w
+for t > 0, x3 > 0,
+u|t=0 = g,
+where w(t, x) is your solution to part (i) above in this problem.
+Problem 2. Assume that A and B are bounded self-adjoint linear operators
+on a Hilbert space. If A ≥B ≥0, then there is a linear operator T such that
+B = T ∗AT.
+Problem 3. Consider the upper half plane H = { z ∈C : Im(z) > 0 }. Let
+k > 2 and let f : H →C be a holomorphic function satisfying
+Z
+H
+yk−2 |f(x + iy)| dx dy < +∞.
+Prove that ykf(x + iy) is bounded on H.

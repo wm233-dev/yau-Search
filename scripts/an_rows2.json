@@ -1,0 +1,222 @@
+{
+ "2010": {
+  "n": 12,
+  "chars": 2647,
+  "avg": 220.6,
+  "sub_a": 4,
+  "sub_1": 2,
+  "verbs": {
+   "prove": 6,
+   "show": 3,
+   "calculate": 2,
+   "find": 1
+  }
+ },
+ "2011": {
+  "n": 12,
+  "chars": 2792,
+  "avg": 232.7,
+  "sub_a": 5,
+  "sub_1": 0,
+  "verbs": {
+   "prove": 2,
+   "show": 8,
+   "compute": 1,
+   "find": 2,
+   "solve": 1,
+   "give": 1
+  }
+ },
+ "2012": {
+  "n": 12,
+  "chars": 2506,
+  "avg": 208.8,
+  "sub_a": 0,
+  "sub_1": 1,
+  "verbs": {
+   "prove": 2,
+   "show": 9,
+   "compute": 2,
+   "calculate": 1,
+   "construct": 1
+  }
+ },
+ "2013": {
+  "n": 12,
+  "chars": 3587,
+  "avg": 298.9,
+  "sub_a": 7,
+  "sub_1": 3,
+  "verbs": {
+   "prove": 3,
+   "show": 12
+  }
+ },
+ "2014": {
+  "n": 12,
+  "chars": 2707,
+  "avg": 225.6,
+  "sub_a": 5,
+  "sub_1": 0,
+  "verbs": {
+   "prove": 9,
+   "show": 1,
+   "calculate": 1,
+   "construct": 1
+  }
+ },
+ "2015": {
+  "n": 12,
+  "chars": 2912,
+  "avg": 242.7,
+  "sub_a": 0,
+  "sub_1": 2,
+  "verbs": {
+   "prove": 8,
+   "show": 3,
+   "determine": 1,
+   "describe": 1
+  }
+ },
+ "2016": {
+  "n": 12,
+  "chars": 3462,
+  "avg": 288.5,
+  "sub_a": 3,
+  "sub_1": 6,
+  "verbs": {
+   "prove": 7,
+   "show": 5,
+   "compute": 3,
+   "calculate": 1
+  }
+ },
+ "2017": {
+  "n": 12,
+  "chars": 3119,
+  "avg": 259.9,
+  "sub_a": 2,
+  "sub_1": 3,
+  "verbs": {
+   "prove": 3,
+   "show": 6,
+   "find": 2,
+   "determine": 1,
+   "give": 1
+  }
+ },
+ "2018": {
+  "n": 11,
+  "chars": 3048,
+  "avg": 277.1,
+  "sub_a": 3,
+  "sub_1": 6,
+  "verbs": {
+   "prove": 7,
+   "show": 5,
+   "calculate": 1,
+   "construct": 1,
+   "solve": 1,
+   "give": 1
+  }
+ },
+ "2019": {
+  "n": 10,
+  "chars": 2374,
+  "avg": 237.4,
+  "sub_a": 1,
+  "sub_1": 10,
+  "verbs": {
+   "prove": 6,
+   "show": 4,
+   "determine": 1,
+   "solve": 1,
+   "estimate": 1
+  }
+ },
+ "2020": {
+  "n": 6,
+  "chars": 2070,
+  "avg": 345.0,
+  "sub_a": 0,
+  "sub_1": 0,
+  "verbs": {
+   "prove": 5,
+   "compute": 1
+  }
+ },
+ "2021": {
+  "n": 6,
+  "chars": 1280,
+  "avg": 213.3,
+  "sub_a": 2,
+  "sub_1": 0,
+  "verbs": {
+   "prove": 5,
+   "show": 2
+  }
+ },
+ "2022": {
+  "n": 6,
+  "chars": 1356,
+  "avg": 226.0,
+  "sub_a": 0,
+  "sub_1": 1,
+  "verbs": {
+   "prove": 6,
+   "show": 1,
+   "find": 1
+  }
+ },
+ "2023": {
+  "n": 6,
+  "chars": 2065,
+  "avg": 344.2,
+  "sub_a": 0,
+  "sub_1": 6,
+  "verbs": {
+   "prove": 6,
+   "find": 1
+  }
+ },
+ "2024": {
+  "n": 5,
+  "chars": 2357,
+  "avg": 471.4,
+  "sub_a": 0,
+  "sub_1": 0,
+  "verbs": {
+   "prove": 3,
+   "compute": 1,
+   "find": 1
+  }
+ },
+ "2025": {
+  "n": 6,
+  "chars": 2503,
+  "avg": 417.2,
+  "sub_a": 0,
+  "sub_1": 11,
+  "verbs": {
+   "prove": 5,
+   "show": 1,
+   "compute": 1,
+   "find": 1
+  }
+ },
+ "2026": {
+  "n": 5,
+  "chars": 2602,
+  "avg": 520.4,
+  "sub_a": 6,
+  "sub_1": 4,
+  "verbs": {
+   "prove": 1,
+   "show": 4,
+   "find": 1,
+   "verify": 1,
+   "solve": 1,
+   "check": 1
+  }
+ }
+}

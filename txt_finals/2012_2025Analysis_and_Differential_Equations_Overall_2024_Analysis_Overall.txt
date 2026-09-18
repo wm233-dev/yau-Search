@@ -1,0 +1,11 @@
+
+=== page 1 ===
+Overall
+Problem 1. Let u ∈C∞(R2, R) be 1-periodic in each variable. Prove that for
+any 2 × 2 real matrix A,
+Z
+[0,1]n det(D2u + A) = det A,
+where D2u denotes the Hessian matrix.
+Problem 2. Let A and B be bounded invertible operators on a Hilbert space.
+a) Prove that σ(AB) = σ(BA) where σ(X) denotes the spectrum of X.
+b) What can you say if they are not invertible ?

@@ -1,0 +1,79 @@
+
+=== page 1 ===
+ANALYSIS 2017.
+1. Team
+Problem 1.1. Let µ and ν be two ﬁnite Borel measures on Rn such that ∀x ∈Rn and
+∀R > 1, we have
+µ(B(x, R)) = ν(B(x, R))
+where B(x, R) = {y ∈Rn : |x −y| < R}.
+(1) Prove that if µ and ν are absolutely continuous with respect to the Lebesgue
+measure, then µ = ν.
+(2) What if µ and ν are not absolutely continuous with respect to the Lebesgue mea-
+sure?
+Problem 1.2. Let Ωbe a bounded simply connected domain. If f : Ω→Ωis analytic
+and there exists a point z0 ∈Ωsuch that
+f(z0) = z0,
+and
+f′(z0) = 1
+then f(z) = z for all z ∈Ω.
+Problem 1.3. Find all the solutions of
+(
+∆u = 0,
+u > 0
+in
+{(x, y) : x > 0, y > 0},
+u(x, 0) = 0, u(0, y) = 0,
+for
+x > 0, y > 0.
+Here we assume all the conditions hold in the classical sense.
+Problem 1.4. For 0 ≤t ≤T(T > 0), Ωt is an open bounded region in R3 with smooth
+boundary ∂Ωt. Set
+DΓ = {(x, t) : x ∈Ωt, 0 ≤t ≤T},
+∂Dt = {(x, t) : x ∈∂Ωt, 0 ≤t ≤T}.
+Let η(x, t) = (η0, η1, η2, η3)(x, t) be the unit outward normal of ∂DΓ at (x, t). Suppose that
+v(x, t) = (v1, v2, v3)(x, t) is a smooth vector ﬁeld and P(x, t) is a smooth scalar function
+deﬁned on DΓ satisfying
+(∂vi
+∂t + P3
+j=1 vj ∂vi
+∂xj + ∂P
+∂xi = 0,
+i = 1, 2, 3
+in
+DΓ,
+P3
+j=1
+∂vj
+∂xj = 0,
+in
+DΓ,
+(
+η0 + P3
+j=1 vjηj = 0,
+on
+∂DΓ
+P = 0,
+on
+∂DΓ.
+(1) Prove that
+R
+Ωt |v|2(x, t)dx is a constant for 0 < t < T.
+(2) Suppose that
+∂vi
+∂xj
+−∂vj
+∂xi
+= 0
+for all 1 ≤i, j ≤3 in DΓ, and
+∂vi0(x, t0)
+∂xj0
+̸= 0
+1
+
+=== page 2 ===
+2
+ANALYSIS 2017.
+for x ∈Ωt0 and t0 ∈(0, T) and some i0, j0 ∈{1, 2, 3}. Prove that
+∂P
+∂n < 0
+on ∂Ωt0, where n = (n1.n2, n3) is the unit outer normal to ∂Ωt0.

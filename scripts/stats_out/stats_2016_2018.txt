@@ -1,0 +1,177 @@
+####################################################################################################
+# 附表 1  逐卷结构 (自动解析结果, 与报告正文表 1 对应)
+####################################################################################################
+年份    卷别         科目          题号                       大题     平均字符     最长题面
+2016  Individual Analysis    1,2,3,4,5,6               6      229      493
+2016  Individual Probability 1,2,3,4,5                 5      266      415
+2016  Individual Geometry    1,2,3,4,5,6               6      172      332
+2016  Individual Algebra     1,2,3,4,5                 5      694      804
+2016  Individual Applied     1,2,3,4,5                 5      881     1511
+2016  Team       Analysis    1,2,3,4,5,6               6      353      519
+2016  Team       Probability 1,2,3,4,5                 5      493     1185
+2016  Team       Geometry    1,2,3,4,5,6               6      149      260
+2016  Team       Algebra     1,2,3,4,5                 5      536     1018
+2016  Team       Applied     1,2,3,4,5                 5      783     1017
+2017  Individual Analysis    1,2,3,4,5,6               6      296      594
+2017  Individual Probability 1,2,3,4,5                 5      522      655
+2017  Individual Geometry    1,2,3,4,5,6               6      179      269
+2017  Individual Algebra     1,2,3,4,5                 5      493      616
+2017  Individual Applied     1,2,3,4,5                 5      800     1463
+2017  Team       Analysis    1,2,3,4,5,6               6      231      301
+2017  Team       Probability 1,2,3,4,5                 5      422      584
+2017  Team       Geometry    1,2,3,4,5,6               6      244      448
+2017  Team       Algebra     1,2,3,4,5                 5      393      569
+2017  Team       Applied     1,2,3,4,5                 5      910     1558
+2018  Individual Analysis    1,2,3,4,5,6               6      278      518
+2018  Individual Probability 1,2,3,4,5                 5      470      617
+2018  Individual Geometry    1,2,3,4,5,6               6      233      426
+2018  Individual Algebra     1,2,3,4,5                 5      591      975
+2018  Individual Applied     1,2,3,4,5                 5     1010     1752
+2018  Team       Analysis    1,2,3,4,5                 5      285      593
+2018  Team       Probability 1,2,3,4,5                 5      580      764
+2018  Team       Geometry    1,2,3,4,5,6               6      168      207
+2018  Team       Algebra     1,2,3,4,5                 5      596      805
+2018  Team       Applied     1,2,3,4,5                 5     1052     1812
+----------------------------------------------------------------------------------------------------
+三年合计大题数: 161
+
+题量矩阵:
+年份     卷别             AnalysisProbability   Geometry    Algebra    Applied      合计
+2016   Individual            6          5          6          5          5      27
+2016   Team                  6          5          6          5          5      27
+2017   Individual            6          5          6          5          5      27
+2017   Team                  6          5          6          5          5      27
+2018   Individual            6          5          6          5          5      27
+2018   Team                  5          5          6          5          5      26
+2016 年合计 = 54
+2017 年合计 = 54
+2018 年合计 = 53
+
+####################################################################################################
+# 附表 2  高频考点 (口径 = 命中的题目数; 161 题; 同题多次出现只计 1 次)
+####################################################################################################
+考点 / 定理 / 方法                              2016  2017  2018     合计      占比       主科目
+D. i.i.d. 样本                                 5     2     4     11    6.8%Probability
+E. 有限差分格式                                    3     4     3     10    6.2%   Applied
+D. 期望 / 方差计算                                 5     2     2      9    5.6%Probability
+E. 特征值 / 反迭代 / 奇异值                           5     0     3      8    5.0%   Applied
+A. 全纯 / 亚纯函数                                 3     2     1      6    3.7%  Analysis
+C. 大圆 / 超球面                                  2     2     2      6    3.7%  Geometry
+E. CFL 条件 / 稳定性                              2     2     2      6    3.7%   Applied
+A. Lebesgue 测度 / 几乎处处                        2     1     2      5    3.1%  Analysis
+B. 有限群结构 / 群阶                                3     0     2      5    3.1%   Algebra
+D. Poisson / Bernoulli / 几何分布                2     1     2      5    3.1%Probability
+D. 极限分布 / 渐近正态                               0     1     4      5    3.1%Probability
+D. 随机图 / 超立方体                                0     1     4      5    3.1%   Applied
+E. 精度阶数                                      2     1     2      5    3.1%   Applied
+A. Hilbert 空间 / 算子                           2     2     0      4    2.5%  Analysis
+A. 留数 / 围道积分 / 椭圆函数                          2     0     2      4    2.5%  Analysis
+B. Galois 群 / 扩张                             1     1     2      4    2.5%   Algebra
+B. 双线性型 / 正交与辛结构                             3     0     1      4    2.5%   Algebra
+B. 有限域 F_q 上线性代数                             0     2     2      4    2.5%   Algebra
+B. 表示论 / 特征标                                 1     1     2      4    2.5%   Algebra
+C. 同调群                                       1     2     1      4    2.5%  Geometry
+C. 截面曲率                                      1     1     2      4    2.5%  Geometry
+C. 测地线 / 测地挠率                                1     3     0      4    2.5%  Geometry
+D. 估计量 / 无偏 / MLE                            1     1     2      4    2.5%Probability
+D. 随机游走                                      2     1     1      4    2.5%Probability
+A. Fourier 变换 / 级数                           0     2     1      3    1.9%  Analysis
+A. 调和函数                                      0     1     2      3    1.9%  Analysis
+B. p-adic 数 / Zp / Qp / 赋值                   0     1     2      3    1.9%   Algebra
+B. 素理想分解 / 分歧 / 惯性次数                         1     1     1      3    1.9%   Algebra
+C. 基本群 / 覆盖空间                                0     1     2      3    1.9%  Geometry
+C. 平均曲率 / 第二基本形式                             2     0     1      3    1.9%  Geometry
+C. 极小子流形 / 极小超曲面                             2     1     0      3    1.9%  Geometry
+C. 球面定理 / 单连通性                               0     0     3      3    1.9%  Geometry
+C. 连通和 / 粘贴胞腔                                0     1     2      3    1.9%  Geometry
+E. Chebyshev / Hermite / Legendre            0     1     2      3    1.9%   Applied
+E. 凸优化 / 次梯度 / 梯度下降                          2     0     1      3    1.9%   Applied
+E. 辛格式 / Hamilton 系统                         1     0     2      3    1.9%   Applied
+A. Sobolev / H^1_0 / Poincaré                1     1     0      2    1.2%  Geometry
+A. 共形映射                                      0     1     1      2    1.2%  Analysis
+A. 弱收敛                                       0     1     1      2    1.2%  Analysis
+A. 绝对连续 / 牛顿-莱布尼茨                            1     1     0      2    1.2%  Analysis
+B. Chebyshev 素数界                             0     1     1      2    1.2%   Applied
+B. Fitting 引理 / 局部环                          1     0     1      2    1.2%   Algebra
+B. 不可分解模 / 有限长度                              1     0     1      2    1.2%   Algebra
+B. 二项式系数                                     1     0     1      2    1.2%   Algebra
+B. 分裂域                                       1     1     0      2    1.2%   Algebra
+C. Euler 示性数                                 1     1     0      2    1.2%  Geometry
+C. Lie 导数 / 向量场                              0     2     0      2    1.2%  Geometry
+C. Ricci 曲率                                  1     1     0      2    1.2%  Geometry
+C. 映射环面 / 约化双角锥                              1     1     0      2    1.2%  Geometry
+C. 闭形式 / 恰当形式                                1     0     1      2    1.2%  Geometry
+D. 二叉树 / 分支                                  1     1     0      2    1.2%Probability
+D. 几乎必然 / a.s.                               1     1     0      2    1.2%Probability
+D. 条件分布 / 条件独立                               0     0     2      2    1.2%   Applied
+D. 集中不等式 / 矩母函数                              2     0     0      2    1.2%Probability
+E. von Neumann 分析 / 特征多项式                    0     0     2      2    1.2%   Algebra
+E. 插值                                        0     2     0      2    1.2%   Applied
+E. 格 / 数论算法                                  2     0     0      2    1.2%   Applied
+E. 迭代法 / 谱半径 / 收敛性                           1     1     0      2    1.2%   Applied
+E. 量纲分析 / 奇异摄动                               1     1     0      2    1.2%   Applied
+A. Dirichlet 问题 / Green 函数                   0     0     1      1    0.6%  Analysis
+A. Laplace 方程 / Δ                            0     1     0      1    0.6%  Analysis
+A. Newton 位势 / 基本解                           0     0     1      1    0.6%  Analysis
+A. Riemann 可积 / 达布和                          1     0     0      1    0.6%  Analysis
+A. 一致收敛 / 紧集上收敛                              0     0     1      1    0.6%  Analysis
+A. 卷积 / 逼近恒等                                 1     0     0      1    0.6%  Analysis
+B. Chevalley–Warning 定理                      0     1     0      1    0.6%   Algebra
+B. Euclidean 平面 / 反射生成                       1     0     0      1    0.6%   Algebra
+B. Goldbach / Fermat 数                       0     0     1      1    0.6%   Algebra
+B. Lie 代数                                    0     1     0      1    0.6%   Algebra
+B. Sylow 定理                                  1     0     0      1    0.6%   Algebra
+B. Z^d 子群 / 指数                               1     0     0      1    0.6%   Algebra
+B. 共轭类 / 类方程                                 1     0     0      1    0.6%   Algebra
+B. 分圆多项式                                     0     0     1      1    0.6%   Algebra
+B. 可除群 / 挠群 / 自同态环                           0     1     0      1    0.6%   Algebra
+C. Crofton 公式 / Gauss 映射                     0     0     1      1    0.6%  Geometry
+C. Frobenius 定理                              1     0     0      1    0.6%  Geometry
+C. Gauss 曲率 / Gauss–Bonnet                   0     0     1      1    0.6%  Geometry
+C. de Rham 上同调                               1     0     0      1    0.6%  Geometry
+C. 向量丛分类                                     0     0     1      1    0.6%  Geometry
+C. 截断函数 / 单位分解                               1     0     0      1    0.6%  Geometry
+D. Bayes / 先验                                0     0     1      1    0.6%Probability
+D. Markov 过程 / 生灭过程                          0     1     0      1    0.6%Probability
+D. 直方图 / 密度估计                                0     0     1      1    0.6%Probability
+D. 随机矩阵 / 算子范数                               1     0     0      1    0.6%Probability
+E. Michaelis–Menten / 反应动力学                  1     0     0      1    0.6%   Applied
+E. Taylor 展开 / 待定系数法                         0     1     0      1    0.6%   Applied
+E. 匹配 / Hall 定理                              0     0     1      1    0.6%   Applied
+E. 固定点迭代 / Steffensen                        0     1     0      1    0.6%   Applied
+E. 核范数 / 低秩逼近                                0     0     1      1    0.6%   Applied
+E. 正交投影 / 子空间迭代                              0     0     1      1    0.6%   Applied
+E. 迎风格式 / 守恒律                                0     1     0      1    0.6%   Applied
+A. 最大模 / Schwarz 引理                          0     0     0      0    0.0%         -
+
+####################################################################################################
+# 附表 3  设问方式 (口径 = 命中的题目数)
+####################################################################################################
+设问方式                             2016   2017   2018     合计     占161题
+Show that                          20     21     21     62     38.5%
+Prove that                          9      6     15     30     18.6%
+Prove (无 that)                      5      4      8     17     10.6%
+Compute / Calculate                 8      3      4     15      9.3%
+Find / Determine                    8     10      3     21     13.0%
+设定型开头 Let                          12     12     10     34     21.1%
+设定型开头 Suppose                       1      2      1      4      2.5%
+设定型开头 Consider                      2      2      1      5      3.1%
+State and prove                     2      2      0      4      2.5%
+Prove or disprove                   1      0      0      1      0.6%
+要求给反例                               0      2      0      2      1.2%
+题面自带 Hint                           2      5      7     14      8.7%
+if and only if                      3      4      2      9      5.6%
+necessary and sufficient            0      1      0      1      0.6%
+带分值 (points)                       10     10     10     30     18.6%
+多小问 (a)(b)(c)                       9      9      8     26     16.1%
+(1)(2)(3) 编号小问                      8      3     11     22     13.7%
+
+####################################################################################################
+# 附表 4  科目画像
+####################################################################################################
+科目                题数      占比      平均字符     最长   带points   带Hint
+Analysis          35   21.7%       278    594         0       1
+Probability       30   18.6%       459   1185         0       5
+Geometry          36   22.4%       191    448         0       0
+Algebra           30   18.6%       551   1018        30       3
+Applied           30   18.6%       906   1812         0       5

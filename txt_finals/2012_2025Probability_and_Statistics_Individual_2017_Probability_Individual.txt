@@ -1,0 +1,25 @@
+
+=== page 1 ===
+2017 Oral Exam: Probability and Statistics
+Individual
+Problem 1. Let X be a random variable with ﬁnite variance. Denote by
+m, µ, σ the median, mean and standard deviation of X:
+m := inf{c : P[X ≤c] ≥1/2},
+µ = E[X],
+σ2 = E[(X −µ)2].
+Show that |m −µ| ≤σ.
+Problem 2. Let (Xn)n≥1 be a sequence of non-negative random variables.
+Let (Fn)n≥1 be a ﬁltration (i.e. a sequence of increasing σ-algebras). Assume
+that
+E[Xn | Fn] →0,
+in probability.
+Show that
+Xn →0,
+in probability.
+Is it true reversely? If yes, prove it; if not, give a counterexample.
+Problem 3. Let X1, ..., Xn be independent random variables following com-
+mon Poisson distribution with mean λ. Let η = e−λ. Does there exist a
+uniformly unbiased minimum variance estimator UMVUE of η? (Recall that
+an estimator is UMVUE if it is unbaised estimator and has smallest variance
+among all unbiased estimators.) If yes, ﬁnd it; if no, prove it.
+1

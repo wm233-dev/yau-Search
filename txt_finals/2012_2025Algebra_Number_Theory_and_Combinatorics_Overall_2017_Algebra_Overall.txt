@@ -1,0 +1,14 @@
+
+=== page 1 ===
+ALGEBRA (OVERALL)
+Problem 1.
+(1) Prove that any ﬁnite ﬁeld has order pn for some prime p and integer n.
+(2) State the law of quadratic reciprocity. For which odd prime p is ´1 a square
+modulo p? For which odd prime p is 2 a square modulo p?
+(3) Assuming that 691 is a prime, prove that 439 is not a square modulo 691.
+(4) For which odd prime p does the polynomial x2 ` 6x ` 1 have two roots in Z{pZ?
+Problem 2. Let G “ GL2pFpq
+(1) Prove that the subgroup of upper triangular matrices with 1’s on the diagonal is
+a Sylow p-subgroup of G.
+(2) Compute the number of Sylow p-subgroups of G.
+1

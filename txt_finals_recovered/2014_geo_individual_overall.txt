@@ -1,0 +1,14 @@
+# RECOVERED from legacy .doc (2014 Geometry (Individual&Overall).doc, ASCII run scan)
+Geometry and Topology
+Oral Exam (Individual)
+1. How many S^1 bundles on S^2 are there?
+2. How many S^2 bundles on S^2 are there?
+3. State and prove the maximal diameter theorem.
+4. There is no non-constant holomorphic map from a compact Riemann surface of genus g to a compact Riemann surface of genus h, where g < h.
+5. There is at least one point p in a closed surface, s.t., K(p) > 0.
+Geometry and Topology
+Oral Exam (Team)
+1. Brouwer fixed point theorem: B^n -> B^n has a fixed point.
+2. There is no geodesic rectangle on the sphere S^2.
+3. State Hopf-Poincare Theorem idea of proof. Interesting application.
+4. No closed minimal surface in R^3.

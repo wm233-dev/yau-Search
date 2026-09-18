@@ -1,0 +1,47 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Prove that f (x) ≡0 is the only solution in L2(Rn) such that
+△f = 0.
+Problem 2. Let X ⊂C ([0,1]) be a ﬁnite dimensional linear subspace of the space of real-valued continuous
+functions on [0,1]. Show that, for a sequence of functions { fk}k⩾1 ⊂X, if it converges pointwise, it converges
+uniformly.
+Problem 3.
+(a) For f ∈L1(Rn), g ∈L∞(Rn), show that their convolution f ∗g is a well-deﬁned continuous function.
+(b) Let E ⊂Rn be a Lebesgue measurable set with Lebesgue measure m(E) > 0. Prove that
+E −E :=
+
+x −y
+ x ∈E, y ∈E
+	
+contains an open neighborhood of 0 ∈Rn.
+Problem 4.
+Assume that P is a polynomial with complex coeﬃcients. Prove that there exists inﬁnitely
+many solutions of the following equations on C:
+ez = P(z).
+Problem 5.
+Let f be a bounded holomorphic function deﬁned on B =
+
+z
+ 0 < Re(z) < 1
+	
+that can be
+extended as a continuous function on B. Let
+A0 =
+sup
+Re(z)=0
+| f (z)| > 0, A0 =
+sup
+Re(z)=1
+| f (z)| > 0.
+Prove that for all z ∈B, we have
+| f (z)| ⩽(A0)1−Re(z)(A1)Re(z).
+Problem 6.
+Assume that Ω⊂Rn is a bounded domain with smooth boundary. Prove that there exists a
+positive constant ε0 so that for all real numbers ε < ε0, for all f ∈L2(Ω), there exist a unique u ∈H1
+0(Ω) so
+that
+−△u + ε sin(u) = f
+in the sense of distributions.

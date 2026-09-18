@@ -1,0 +1,75 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Applied and Computational Math
+Individual (4 problems)
+1) (20 points)
+Given a set X, m ∈N and a hypothesis space H, deﬁne
+ΠH(m) =
+max
+{x1,x2,...,xm}⊆X |{(h(x1), h(x2), . . . , h(xm))|h ∈H}|
+where |S| denotes the cardinality of the set S. The VC dimension of H is
+VC(H) = max{m : ΠH(m) = 2m}.
+(i) Let X = R. If a ⩽b, deﬁne h(x; a, b) = 1 if x ∈[a, b] and h(x) = −1 if x /∈[a, b]. Find the VC
+dimension of the hypothesis space H = {h(x; a, b)|a, b ∈R, a ⩽b}.
+(ii) Let X = Rd, H to be the set of linear classiﬁers, i.e. H = {f(x)|f(x) = sign(w⊤x + b), w ∈Rd, b ∈
+R} where sign(x) = 1 if x > 0, sign(x) = −1 if x < 0 and sign(x) = 0 if x = 0. Show that the VC
+dimension of H is d + 1.
+2) (25 points)
+Consider Richardson’s diﬀerence scheme for the heat equation ut = uxx :
+1
+2k (u(x, t + k) −u(x, t −k)) = 1
+h2 (u(x −h, t) −2u(x, t) + u(x + h, t)) .
+(i) Show that this scheme has second-order truncation error.
+(ii) Use either ODE principles or von Neumann analysis to show that this scheme is unconditionally
+unstable.
+(iii) Demonstrate a minor modiﬁcation of the left-side of Richardson’s scheme that yields a familiar
+unconditionally stable scheme and prove it.
+3) (25 points)
+Let ∅̸= K be a closed convex set in Rn, i.e., K is a closed set and for any x, y ∈K and λ ∈(0, 1),
+λx + (1 −λ)y ∈K. For any z ∈Rn, let ΠK(z) denote the metric projection of z onto K, which is the
+unique optimal solution of following problem:
+min 1
+2∥y −z∥2
+2,
+s.t.
+y ∈K.
+(1)
+Show that
+(i) the point y ∈K solves (1) if and only if
+(z −y)T (d −y) ⩽0,
+∀d ∈K;
+(ii) for any y, z ∈Rn,
+∥ΠK(y) −ΠK(z)∥2 ≤∥y −z∥2;
+(iii) Θ(·) is continuously diﬀerentiable with its gradient given by
+∇Θ(z) = z −ΠK(z),
+where for any z ∈Rn, Θ(z) := 1
+2∥z −ΠK(z)∥2
+2.
+1
+
+=== page 2 ===
+4) (25 points) The scientists FitzHugh (1961) and Nagumo, Arimoto, Yoshizawa (1962) derived a math-
+ematical model to characterize the behavior of a neuron under the externally injected current I:
+(
+dV
+dt
+= V −1
+3V 3 −W + I,
+dW
+dt
+= 1
+τ
+¡
+V + a −bW
+¢
+,
+where the variable V describes the membrane potential of the neuron, the variable W describes the
+current arising from opening and closing of ion channels on the neurons membrane. The variables τ,
+a and b are parameters with typical values: a = 0.7,b = 0.8 and τ = 13.
+(i) For a small positive constant current I, how the neuron behaves.
+(ii) For a large positive constant current I, how the neuron behaves.
+(iii) Suppose one injects a pulse current with diﬀerent magnitude at some time t0, i.e., I = I0δ(t −t0),
+where I0 describes the magnitude of the pulse, analyze the dynamical behavior of the neuron when I0
+is small or large.
+2

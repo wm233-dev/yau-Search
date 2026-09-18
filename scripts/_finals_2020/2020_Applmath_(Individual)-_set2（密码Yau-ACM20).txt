@@ -1,0 +1,83 @@
+
+=== page 1 ===
+Question I
+Let A ∈Rn×n be a symmetric matrix and let q1 ∈Rn satisfy ∥q1∥2 = 1. Consider
+the following iteration:
+r0 = q1,
+β0 = 1,
+q0 = 0,
+k := 0
+while βk ̸= 0
+qk+1 := rk/βk
+k := k + 1
+αk := qT
+k Aqk
+rk := (A −αkI)qk −βk−1qk−1
+βk := ∥rk∥2
+end
+Let Kk = span{q1, Aq1, · · · , Ak−1q1} and Qk = [q1 · · · qk] be a matrix whose columns
+are {qi}k
+i=1 obtained from the above iteration.
+1. Assume that the iteration does not terminate. Show that Qk has orthonormal
+columns, and that they span Kk.
+2. What is the purpose of this algorithm? Justify your answer.
+Question II
+Consider the oscillatory second order ordinary diﬀerential equation (ODE)
+y′′(t) + λ2 y(t) + g(y(t)) = 0,
+0 < t ≤T,
+with the initial data
+y(0) = α,
+y′(0) = β,
+where λ >> 1, α and β are given constants, and g(y) is a given Lipschitz continuous
+function.
+Choose a time step τ > 0 and denote tn = nτ for n ≥0. Let yn be the numerical
+approximation of y(tn) for n ≥0.
+1. Re-write the above ODE into its equivalent integral formulation near t = tn
+with t = tn + s for s ∈R via the variation-of-constant formula.
+2. Based on the integral formulation, design the following time integrator via
+proper numerical quadratures
+yn+1 = 2 cos(λτ)yn −yn−1 −sin(λτ)
+λ
+g(yn),
+n ≥1,
+with
+y0 = α,
+y1 = α cos(λτ) + β
+λ sin(λτ) −sin(λτ)
+2λ
+g(α).
+1
+
+=== page 2 ===
+Under proper stability assumption, prove the following error bound
+|y(tn) −yn| ≤Cτ 2,
+0 ≤n ≤T
+τ ,
+where C > 0 is a constant independent of τ.
+Question III
+Consider an energy functional for ρ ∈P(R) (probability distribution on the real
+line), given by
+F[ρ] =
+Z
+R×R
+ρ(x)K(x −y)ρ(y) dx dy +
+Z
+R
+ρ(x)(1 −ρ(x)) dx +
+Z
+R
+ρ(x) ln ρ(x) dx,
+where K : R →R+ is a given kernel.
+1. Write down explicitly the Euler-Lagrange equation corresponding to F.
+2. Consider the dynamics
+d
+dtρ(x, t) = ∇·
+
+ρ(x, t)∇δF
+δρ
+
+ρ(x, t)
+
+.
+Show that F[ρ(x, t)] is decreasing in t.
+2

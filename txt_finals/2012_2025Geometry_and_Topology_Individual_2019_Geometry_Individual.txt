@@ -1,0 +1,27 @@
+
+=== page 1 ===
+Geometry and Topology: Individual
+(1) Let M = {(x1, y1, · · · , xn, yn) | Pn
+i=1(xi)2 = 1, Pn
+i=1 xiyi = 0} ⊂
+R2n. Show that
+(a) M is a smooth manifold and a vector bundle over the (n −1)
+dimensional sphere. Compute the Euler class of this vector bundle.
+(b) M is a symplectic manifold, i.e. there exists a non-degenerate
+closed 2-form on M.
+(2) Let f be a smooth function on Rn that satisﬁes |∇f| < 1 and f
+vanishes at the origin, and let M be the graph of f in Rn+1 with
+standard coordinates x1, · · · , xn+1. Show that the function
+g = −(xn+1)2 +
+n
+X
+i=1
+(xi)2
+restricts to a proper function on M, i.e for any c > 0, the intersection
+of g−1((−∞, c]) with M is always compact.
+(3) Let X and Y be two compact Riemann surfaces with Euler charac-
+teristics χ(X) and χ(Y ), respectively. Suppose χ(X) > χ(Y ), prove
+that there exists no non-trivial holomorphic map from X to Y .
+(4) Show that a complete surface in R3 with ﬁnite area and negative
+curvature has at least four ends.
+1

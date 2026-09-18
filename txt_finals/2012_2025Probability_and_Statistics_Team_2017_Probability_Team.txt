@@ -1,0 +1,25 @@
+
+=== page 1 ===
+2017 Oral Exam: Probability and Statistics
+Team
+Problem 1. An ant randomly travels along edges on a unit cube. Each step,
+it travels from one vertex to an adjacent vertex. Starting from a vertex, what
+is the expected number of steps the ant is to travel to ﬁrst reach the diagonal
+vertex?
+Problem 2. An algorithm called MM to maximize a function g(x) is as
+follows. We ﬁnd another easy-to-compute function Q(x, z) such that
+g(z) ≥Q(x, z),
+g(x) = Q(x, x).
+Starting from an initial x0, let xk+1 = argmaxzQ(xk, z). Argue that g(xk) is
+a nondecreasing sequence.
+Let Y and X be two random vectors. Denote by fY (·; θ), fX | Y (·, ·; θ), fXY (·, ·; θ)
+the marginal, conditional and joint densities that depend on parameter θ. We
+wish to maximize l(θ) := log fY (y; θ). Deﬁne
+Q(θ, ˜θ) =
+Z
+log fXY (x, y; ˜θ)fX|Y (x, y; θ)dx
+Consider
+θk+1 = argmax˜θ Q(θk, ˜θ).
+Argue that this algorithm, called EM, can be viewed as a special case of MM.
+As a result l(θk+1) ≥l(θk).
+1

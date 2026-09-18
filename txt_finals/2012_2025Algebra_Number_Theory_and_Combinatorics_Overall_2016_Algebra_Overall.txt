@@ -1,0 +1,13 @@
+
+=== page 1 ===
+PROBLEMS FOR ALGEBRA SECTION
+1. Around test
+Problem 1. For p any prime and n ∈N, we let ζpn = exp(2πi/pn).
+(1) When p is an odd prime, show that there is a unique subﬁeld K ⊂Q(ζpn) that is quadratic over
+Q.
+(2) When p is an odd prime, determine which quadratic ﬁeld K is in Q(ζpn)? (Hint: you may consider
+the sum g = P
+a∈Z/pZ ζa2
+p .)
+(3) When p = 2 and n ≥3, how many quadratic subﬁelds does Q(ζpn) have? What are they?
+1

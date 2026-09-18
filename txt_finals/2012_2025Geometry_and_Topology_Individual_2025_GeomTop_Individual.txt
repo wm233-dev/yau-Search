@@ -1,0 +1,36 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Oral Exams in Geometry and Topology
+Individual (Solve 3 out of 4 problems)
+1. Let Sn be the unit n-sphere and T ∗Sn be its cotangent bundle.
+(1) Show that T ∗Sn is a complex submanifold of Cn+1.
+(2) Is T ∗Sn, with its standard symplectic structure, symplectomorphic to a sym-
+plectic submanifold of Cn+1? Show your answer explicitly.
+2. Consider the 2-form
+Ω= dz1 ∧dz2
+z1z2
+on (C×)2, where C× = C −{0} denotes the punctured complex plane. Ωis extended
+as a meromorphic 2-form on the complex projective plane CP2.
+(1) What is the pole divisor of Ωon CP2? Show your assertion.
+(2) Consider the disc map u : ∆→CP2, where ∆⊂C is the unit disc, and
+u(ζ) = (z1(ζ), z2(ζ)) =
+µ ζ −a
+1 −¯aζ , ζ −b
+1 −¯bζ
+¶
+where a, b are constants that satisfy |a|, |b| < 1, and (z1, z2) are the inhomoge-
+neous coordinates of CP2. Show that the image of the disc boundary ∂∆lies
+in the torus deﬁned by |z1| = |z2| = 1.
+(3) Could you make sense of the ‘pullback’ u∗Ω(rather than just being simply
+zero), and how many poles does u∗Ωhave?
+3. Let Σ ⊂Rn be a complete minimal surface in Rn.
+(1) Show that the coordinate function xi(i = 1, . . . , n) is harmonic on Σ.
+(2) Prove that Σ is not closed.
+4. The Einstein tensor on a Riemannian manifold with dimension≥2 is deﬁned as
+G = Ric −scal
+2 g.
+(1) Show that divG =0.
+(2) Show that G = 0 in dimension 2 and that G = 0 in dimensions> 2 if and only
+if the metric is Ricci-ﬂat.
+1

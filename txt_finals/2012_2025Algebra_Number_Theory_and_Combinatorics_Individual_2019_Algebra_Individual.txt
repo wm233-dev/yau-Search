@@ -1,0 +1,47 @@
+
+=== page 1 ===
+S.T. Yau College Student Mathematics Contests 2019
+Algebra and Number Theory Individual
+1.
+Consider the group GL(m, R). Given g ∈GL(m, R), prove there is a decomposition of
+g as
+g = k1 d k2
+where k1 and k2 are orthogonal matrices, and d is a diagonal matrix whose diagonal entries
+are positive.
+2. (a) Let P ∈Q[X] be a monic, irreducible polynomial of degree n.
+(i) Prove that its roots in C are simple.
+(ii) Prove there exists a matrix M ∈Mn×n(Q) whose characteristic polynomial is P.
+(b) Let P ∈Z[X] be a monic polynomial of degree n.
+Prove there exists a matrix
+M ∈Mn×n(Z) whose characteristic polynomial is P and which is diagonalizable over
+the ﬁeld C.
+3.
+Prove that a group G of order 48 cannot be a simple group.
+4.
+(a) Describe, in as simple terms as possible, the splitting ﬁeld of the characteristic
+polynomial of the matrix
+A =
+1
+1
+1
+0
+
+,
+regarded as a matrix with entries in Q. Is A semisimple?
+(b) Same problem as (a), but with A now regarded as a matrix with entries in the ﬁeld
+F2 =def Z/(2Z).
+How many elements does the splitting ﬁeld have?
+(c) Once more the same problem as (a), but over the ﬁeld F5 =def Z/(5Z).
+Is A
+semisimple now?
+(d) Recall the inductive deﬁnition of the sequence of the Fibonacci numbers {fn} : f0 = 1,
+f1 = 1, and fn+1 = fn + fn−1 for n ≥1.
+Argue that the sequence { n√fn} must have
+a limit as n →∞, and compute that limit.
+(e) What does (c) tell you about the behavior of the Fibonacci numbers modulo 5 , i.e.,
+as a sequence of values in F5?
+5.
+Let k an inﬁnite ﬁeld and take K to be an extension ﬁeld of k.
+Let A, B ∈Mn×n(k).
+Prove that if A and B are similar in Mn×n(K), then they are similar in Mn(k).
+1

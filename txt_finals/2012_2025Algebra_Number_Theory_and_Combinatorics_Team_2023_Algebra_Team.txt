@@ -1,0 +1,21 @@
+
+=== page 1 ===
+S.-T. Yau College Math Contest
+Final Contest
+2023
+Algebra, Number Theory and Combinatorics
+Problems for Group Contest
+Problem 1. Prove that, for any integer n ≥1, there exists a unique subgroup of (Q/Z, +)
+of order n.
+Problem 2. Let p be a prime, Fpk the finite field of pk elements, and ζp a primitive p-th
+root of unity in C. For a positive integer d, define the algebraic integer
+Sk(d) :=
+∑
+x∈Fpk
+ζTrk(xd)
+p
+∈Z[ζp],
+where Trk is the trace map from Fpk to Fp. Assume that d divides pk−1
+p−1 . Prove that
+Sk(d) ∈Z.
+1

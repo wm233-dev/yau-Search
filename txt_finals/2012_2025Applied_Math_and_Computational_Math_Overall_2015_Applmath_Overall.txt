@@ -1,0 +1,7 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest
+Applied Mathematics ( All Round ) 2015
+1. There are three roots of the cubic equation
+ǫx3 −x −2 = 0.
+Find the asymptotic expansion of these roots in terms of small ǫ.

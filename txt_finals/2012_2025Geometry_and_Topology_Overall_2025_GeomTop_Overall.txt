@@ -1,0 +1,17 @@
+
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2025
+Oral Exams in Geometry and Topology
+All-round (Solve 1 out of 2 problems)
+1. Let Sn be the unit n-sphere and TSn be its tangent bundle.
+(1) Show that TSn × R is a trivial bundle over Sn.
+(2) If n = 2m is even, show that TS2m is not a trivial bundle.
+2. Let ω be a volume form on S2. For each map f : S3 →S2, the form f ∗ω is a closed
+2-form, so we can write f ∗ω = dα for some 1-form α. The number
+H(f) =
+Z
+S3 α ∧dα
+is called the Hopf invariant of f.
+(1) Prove that H(f) does not depend on the choice of α.
+(2) Prove that homotopic maps have the same Hopf invariant.

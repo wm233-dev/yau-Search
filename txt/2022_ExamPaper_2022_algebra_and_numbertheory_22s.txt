@@ -1,0 +1,37 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+Solve every problem.
+Problem 1.
+(a) Let 𝑝(𝑥) = 𝑎𝑛𝑥𝑛+ ⋯+ 𝑎1𝑥+ 𝑎0 ∈𝑅[𝑥] be a polynomial over an integral domain 𝑅. Let 𝐾denote the
+fraction field of 𝑅. Suppose 𝑎/𝑏∈𝐾is a root of 𝑝(𝑥), where 𝑎, 𝑏∈𝑅and are relatively prime. Then, show
+that 𝑎|𝑎0 and 𝑏|𝑎𝑛.
+(b) Prove that 𝐐(√2, √3) = 𝐐(√2 + √3).
+Problem 2.
+Let 𝑅be an integral domain with the fraction field 𝐾. An 𝑅-module 𝑃is projective if there is an
+𝑅-module 𝑄such that 𝑃⊕𝑄≅𝐹for some free 𝑅-module 𝐹. A fractional ideal 𝐴is an 𝑅-submodule of 𝐾such that
+𝐴= 𝑑−1𝐼for some ideal 𝐼of 𝑅and a nonzero element 𝑑∈𝑅. A fractional ideal 𝐴is called invertible if 𝐴𝐵= 𝑅
+for some fractional ideal 𝐵.
+Show that an invertible fractional ideal 𝐴is a projective 𝑅-module.
+Problem 3. Give a direct proof that the Lie algebra 𝔰𝔩(4, 𝐂) is isomorphic to the Lie algebra 𝔰𝔬(6, 𝐂). (You should
+construct a Lie algebra homomorphism and prove that it is an ismorphism; you should not use Dynkin diagrams
+or the classification theory of simple Lie algebras.)
+Problem 4. Let 𝐴= 𝒪𝐾be the ring of integers of a number field 𝐾. Given a nonzero ideal 𝔞⊂𝐴and an arbitrary
+nonzero element 𝑎∈𝔞, show that there exists 𝑏∈𝔞such that 𝑎and 𝑏generate 𝔞(in particular, every ideal is
+2-generated).
+Problem 5. Let 𝑝be a prime number and 𝜁𝑝be a primitive 𝑝-th root of unity. Let 𝐾= 𝐐(𝜁𝑝).
+(a) Show that Φ𝑝= ∑𝑝−1
+𝑖=0 𝑋𝑖is the minimal polynomial of 𝜁𝑝over 𝐐.
+(b) Compute the trace Tr𝐾/𝐐(1 −𝜁𝑝) and the norm 𝒩𝐾/𝐐(1 −𝜁𝑝).
+(c) Show that (1 −𝜁𝑝)𝒪𝐾∩𝐙= 𝑝𝐙and deduce that for all 𝑦∈𝒪𝐾, we have
+Tr𝐾/𝐐(𝑦(1 −𝜁𝑝)) ∈𝑝𝐙.
+(d) Determine explicitly the ring of integers of 𝐾.
+Problem 6. Let 𝜃∈𝐐be a root of the polynomial 𝑓(𝑋) = 𝑋3 + 12𝑋2 + 8𝑋+ 1. Let 𝐾= 𝐐(𝜃).
+(a) Let 𝑔(𝑋) = 𝑋3 + 𝑝𝑋+ 𝑞∈𝐙[𝑋]. Compute the discriminant disc(𝑔) of 𝑔(𝑋) in terms of 𝑝, 𝑞.
+(b) Show that 𝑓(𝑋) is irreducible over 𝐐.
+(c) Compute the discriminant 𝑑𝐾(1, 𝜃, 𝜃2). Please provide necessary details.
+(d) For any arbitrary number field 𝐹of degree 𝑛, let 𝑎1, 𝑎2, … , 𝑎𝑛∈𝒪𝐹. Find and verify a sufficient condition
+in terms of the discriminant 𝑑𝐹(𝑎1, … , 𝑎𝑛) that the 𝑎1, … , 𝑎𝑛form an integral basis of 𝐹.
+(e) Write down an explicit integral basis of 𝐾in terms of 𝜃by using the above sufficient condition you have
+found. Please justify your arguments.

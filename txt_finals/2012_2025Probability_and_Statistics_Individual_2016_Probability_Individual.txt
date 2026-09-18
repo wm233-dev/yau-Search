@@ -1,0 +1,24 @@
+
+=== page 1 ===
+2016 Oral Exam, Probability and Statistics
+1. (Individual) Let Xλ be a Poisson random variable with parameter λ > 0:
+P[Xλ = k] = λ k
+k! e−λ,
+∀k ∈{0,1,2,3,...}.
+What is the limiting distribution of √Xλ −
+√
+λ as λ →∞?
+2. (Individual) Suppose that X1,...,Xn are independent identically distributed random variables in L1.
+Deﬁne, for 1 ≤k ≤n,
+Sk =
+k
+∑
+j=1
+Xj.
+What is the conditional expectation of Sn−1 given Sn?
+3. (Individual) Three players A, B, C play chess in turn. In each game, the winning rate is half-half.
+The one who wins twice in row (i.e, wins twice consecutively) will be the ﬁnal winner. The game
+starts with A v.s. B.
+What is the probability for A to be the ﬁnal winner?
+How about 5 players, i.e., there are players A, B, C, D, E.?
+1

@@ -1,0 +1,22 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Algebra, Number Theory and Combinatiorics
+Team
+Problem 1. Find all the diagonalisable invertible n×n complex matrices A with real eigenvalues
+such that
+AT −I = A + A−1.
+Problem 2. For any f ∈Q[x], we let rad(f) be the product of all prime polynomials dividing f.
+(This is unique up to nonzero scalar multiple.)
+Let P, Q, R ∈Z[x] be nonconstant relatively-prime polynomials that satisfy P +Q = R. Prove
+that
+deg R < deg rad(PQR).
+Problem 3.
+(1). Consider the proﬁnite group A = bZ = lim
+←−n Z/nZ. Show that a subgroup of A
+is open if and only if it is of ﬁnite index.
+(2). Let p be a prime number, N be the set of natural numbers, B = Q
+N Z/pZ, equipped with
+the product topology. Does the analogous equivalence in (1) above holds for B? Justify your
+assertion.
+1

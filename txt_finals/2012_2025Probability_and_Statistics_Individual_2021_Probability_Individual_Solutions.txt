@@ -1,0 +1,273 @@
+
+=== page 1 ===
+Yau College Math Competition 2021
+Final Probability and Statistics
+Individual Exam Problems (May 29, 2021)
+Problem 1. Let {Xn}n≥1 be a sequence of real valued, nonnegative random variables.
+Assume that there are constants C > 0 and λ > 0 such that EXn ≤Ce−λn, ∀n ≥1.
+Prove that
+P
+(
+lim sup
+n→∞
+1
+n ln Xn ≤−λ
+)
+= 1.
+Solution
+For any λ0 ∈(0, λ), deﬁne the events
+An = {ω ∈Ω: Xn(ω) > e−λ0n},
+n ≥1.
+By Chebyshev’s inequality,
+P(An) ≤eλ0nEXn ≤Ce(λ0−λ)n,
+∀n ≥1.
+Since λ0 < λ, we have
+∞
+∑
+n=1
+P(An) ≤
+∞
+∑
+n=1
+Ce(λ0−λ)n < +∞.
+Borel-Cantelli’s lemma implies that for P-a.s. ω ∈Ω, there exists n(ω) ∈N such that for
+all n ≥n(ω), we have ω ∈Ac
+n, that is Xn(ω) ≤e−λ0n. Therefore,
+1
+n ln Xn(ω) ≤−λ0,
+∀n ≥n(ω).
+This implies the desired result since λ0 is an arbitrary number less than λ.
+Problem 2. Assume that X1, . . . , Xn ∼U[0, 1] (uniform distribution) are i.i.d. Denote
+X(1) = min1≤k≤n Xk and X(n) = max1≤k≤n Xk. Let R = X(n) −X(1) be the sample range
+and V = (X(1) + X(n))/2 be the sample midvalue.
+(1). Find the joint density of (X(1), X(n)).
+(2). Find the joint density of (R, V ).
+(3). Find the density of R and the density of V .
+1
+
+=== page 2 ===
+Solution
+(1). Denote F(x1, xn) = P(X(1) ≤x1, X(n) ≤xn), then F(x1, xn) = 0 for x1 ̸∈[0, 1]
+or xn ̸∈[0, 1]. If x1 ≥xn, then {X(n) ≤xn} ⊂{X(1) ≤x1}, and therefore
+F(x1, xn) = P(X(n) ≤xn).
+If 0 ≤x1 ≤xn ≤1, then
+P(X(1) ≥x1, X(n) ≤xn) = P(∪n
+k=1{x1 ≤Xk ≤xn)
+=
+n
+∏
+k=1
+P(x1 ≤Xk ≤xn)
+= (xn −x1)n,
+which implies that
+F(x1, xn) = P(X(n) ≤xn) −P(X(1) ≥x1, X(n) ≤xn)
+= P(X(n) ≤xn) −(xn −x1)n.
+Thus,
+f(x1, xn) = ∂2F(x1, xn)
+∂x1∂xn
+=
+{n(n −1)(xn −x1)n−2,
+if 0 ≤x1 ≤xn ≤1,
+0,
+elsewhere.
+(2). Note that
+(X(1)
+X(n)
+)
+=
+(−1
+2 1
+1
+2
+1
+) (R
+V
+)
+≡A
+(R
+V
+)
+,
+thus the joint density of (R, V ) is
+fR,V (r, v) = f(x1, xn) × |detA|
+= f
+(
+v −r
+2, v + r
+2
+)
+= n(n −1)rn−2,
+where (r, v) ∈D ≡{(r, v) : 0 ≤v −r
+2 ≤v + r
+2 ≤1} and
+fR,V (r, v) = 0,
+if (r, v) ̸∈D.
+2
+
+=== page 3 ===
+(3) The density of R is
+fR(r) =
+∫+∞
+−∞
+fR,V (r, v)dv
+=
+∫1−r/2
+r/2
+fR,V (r, v)dv = n(n −1)rn−2(1 −r),
+0 ≤r ≤1.
+For the density of V , if v ∈[0, 1/2], then
+fV (v) =
+∫+∞
+−∞
+fR,V (r, v)dr =
+∫2v
+0
+n(n −1)rn−2dr = n(2v)n−1,
+if v ∈[1/2, 1], then
+fV (v) =
+∫+∞
+−∞
+fR,V (r, v)dr =
+∫2(1−v)
+0
+n(n −1)rn−2dr = n(2(1 −v))n−1.
+Problem 3. A binary tree is a tree in which each node has exactly two descendants. Sup-
+pose that each node of the tree is coloured black with probability p, and white otherwise,
+independently of all other nodes. For any path π containing n nodes beginning at the root
+of the tree, let B(π) be the number of black nodes in π, and let Xn(k) be the number of
+such paths π for which B(π) ≥k.
+(1) Show that there exists βc such that
+lim
+n→∞E(Xn(βn)) =
+{0,
+if β > βc,
+∞,
+if β < βc.
+How to determine the value of βc?
+(2) For β ̸= βc, ﬁnd the limit limn→∞P(Xn(βn) ≥1).
+Solution
+The number of paths π containing exactly n nodes is 2n−1, and each such π satisﬁes
+P(B(π) ≥k) = P (Sn ≥k) where Sn = Y1 + Y2 + · · · + Yn is the sum of n independent
+Bernoulli variables having parameter p. Therefore E(Xn(k)) = 2n−1P (Sn ≥k) . We set
+k = nβ, and need to estimate P (Sn ≥nβ). It is a consequence of the large deviation
+theorem that, if p ≤β < 1,
+P (Sn ≥nβ)1/n n→∞
+−→inf
+t>0
+{
+e−tβM(t)
+}
+where M(t) = E
+(
+etY1)
+= q + pet, q = 1 −p. With some calculus, we ﬁnd that
+P (Sn ≥nβ)1/n n→∞
+−→
+( p
+β
+)β ( 1 −p
+1 −β
+)1−β
+,
+p ≤β < 1
+3
+
+=== page 4 ===
+Hence
+E(Xn(βn)) n→∞
+−→
+{0,
+if γ(β) < 1
+∞,
+if γ(β) > 1
+where
+γ(β) = 2
+( p
+β
+)β ( 1 −p
+1 −β
+)1−β
+is a decreasing function of β. If p < 1
+2, there is a unique βc ∈[p, 1) such that γ (βc) = 1;
+if p ≥1
+2 then γ(β) > 1 for all β ∈[p, 1) so that we may take βc = 1.
+Turning to the ﬁnal part,
+P (Xn(βn) ≥1) ≤E(Xn(βn)) n→∞
+−→0,
+if β > βc.
+As for the other case, we will use the Payley-Zygmund inequality
+P(N ̸= 0) ≥E(N)2
+E (N2)
+for nonnegative random variable N.
+We have that E(Xn(βn)2) = ∑
+π,ρ E (IπIρ) , where the sum is over all such paths π, ρ,
+and Iπ is the indicator function of the event {B(π) ≥βn}. Hence
+E(Xn(βn)2) =
+∑
+π
+E (Iπ) +
+∑
+π̸=ρ
+E (IπIρ) = E(Xn(βn)) + 2n−1 ∑
+ρ̸=L
+E (ILIρ)
+where L is the path which always takes the left fork (there are 2n−1 choices for π, and by
+symmetry each provides the same contribution to the sum). We divide up the last sum
+according to the number of nodes in common to ρ and L, obtaining ∑n−1
+m=1 2n−m−1E (ILIM)
+where M is a path having exactly m nodes in common with L. Now
+E (ILIM) = E (IM | IL = 1) E (IL) ≤P (Tn−m ≥βn −m) E (IL) ,
+where Tn−m has the Binomial(n −m, p) distribution (the ’most value’ to IM of the event
+{IL = 1} is obtained when all m nodes in L ∩M are black). However
+E (IM) = P (Tn ≥βn) ≥pmP (Tn−m ≥βn −m) ,
+so that E (ILIM) ≤p−mE (IL) E (IM) . It follows that N = Xn(βn) satisﬁes
+E
+(
+N2)
+≤E(N) + 2n−1
+n−1
+∑
+m=1
+2n−m−1 · 1
+pm E (IL) E (IM) = E(N) + 1
+2(E(N))2
+n−1
+∑
+m=1
+( 1
+2p
+)m
+4
+
+=== page 5 ===
+whence, by the Payley-Zygmund inequality,
+P(N ̸= 0) ≥
+1
+E(N)−1 + 1
+2
+∑n−1
+m=1(2p)−m .
+If β < βc then E(N) →∞as n →∞. It is immediately evident that P(N ̸= 0) →1 if
+p ≤1
+2. Suppose ﬁnally that p > 1
+2 and β < βc. By the above inequality,
+P (Xn(βn) > 0) ≥c(β),
+∀n
+(0.1)
+where c(β) is some positive constant. Take ϵ > 0 such that β + ϵ < βc. Fix a positive
+integer m, and let Pm be a collection of 2m disjoint paths each of length n −m starting
+from depth m in the tree. Now
+P (Xn(βn) = 0) ≤P (B(v) < βn for all v ∈Pm) = P(B(v) < βn)2m,
+where v ∈Pm. However
+P(B(v) < βn) ≤P(B(ν) < (β + ϵ)(n −m))
+if βn < (β + ϵ)(n −m), which is to say that n ≥(β + ϵ)m/ϵ. Hence, for all large n,
+P (Xn(βn) = 0) ≤(1 −c(β + ϵ))2m
+by (0.1). We let n →∞and m →∞in that order, to obtain P (Xn(βn) = 0) →0 as
+n →∞. In summary,
+P(Xn(βn) ≥1) n→∞
+−→
+{0,
+if β > βc,
+1,
+if β < βc.
+5

@@ -1,0 +1,69 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest
+Applied and Computational Mathematics 2015 ( Individual )
+1. Suppose an n by n matrix A is given by
+A =
+
+
+
+
+
+
+
+
+
+1
+r
+1
+r
+1
+r
+...
+...
+...
+1
+r
+r
+1
+
+
+
+
+
+
+
+
+
+n×n
+Ax = b, prove that
+∥x∥≤C∥b∥,
+where the constant C is independent of the dimension n.
+2. For an interval [a, b], we divide it into N + 1 equally spaced subintervals by
+using the nodal points:
+a = x0 < x1 < · · · < xN+1 = b,
+with
+xi = a + i h,
+h = (b −a)/(N + 1).
+For any continuous function w on [0, π], we deﬁne Πhw to be the piecewise
+linear interpolation of w, namely Πhw is linear on each subinterval (xi, xi+1)
+for i = 0, 1, · · · , N, and it takes the same values as w at all nodal points xi,
+i = 0, 1, · · · , N + 1. For any function w, we deﬁne
+∥w∥=
+ Z π
+0
+w2(x)dx
+1/2
+.
+Prove the following estimates for any function u ∈C2[0, π]:
+∥u −Πhu∥≤1
+π2h2 ∥u′′∥,
+∥u′ −(Πhu)′∥≤1
+πh ∥u′′∥.
+3. Newton iteration for computing the kth root (k ≥2) of C > 0 is
+xn+1 = xn −xk
+n −C
+kxk−1
+n
+.
+Show that the iteration converges for any initial value x0 > 0.

@@ -1,0 +1,1033 @@
+[
+ {
+  "id": "ALG-M01",
+  "name": "幂迹刚性：幂和决定特征值，迹的代数整数性下降",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "count": 4,
+  "first": "2013",
+  "last": "2020",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M02",
+  "name": "有限群的阶数决定结构：Sylow 计数、正规子群与半直积分类",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "count": 6,
+  "first": "2010",
+  "last": "2018",
+  "active": false,
+  "trend": "换皮（中间一次升要求）"
+ },
+ {
+  "id": "ALG-M03",
+  "name": "元素阶约束下的亚循环群与其在有限域上的不可约表示",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "count": 2,
+  "first": "2015",
+  "last": "2025",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M04",
+  "name": "有限域上线性群：阶、Sylow 子群、生成元与可解性",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "count": 5,
+  "first": "2011",
+  "last": "2023",
+  "active": true,
+  "trend": "换皮（2011/2012 原样重复，2023 转向生成元与可解性）"
+ },
+ {
+  "id": "ALG-M05",
+  "name": "共轭类数与类方程：用类数控制群的大小与分类",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2010",
+  "last": "2016",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M06",
+  "name": "有限群表示论：不可约表示、特征标取值与忠实表示",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "count": 7,
+  "first": "2010",
+  "last": "2024",
+  "active": true,
+  "trend": "换皮 + 升要求"
+ },
+ {
+  "id": "ALG-M07",
+  "name": "张量平方的不变量空间与双中心化子",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2012",
+  "last": "2014",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M08",
+  "name": "不变量环与 Molien 公式：矩阵群作用下的多项式不变量",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "count": 3,
+  "first": "2015",
+  "last": "2019",
+  "active": false,
+  "trend": "换皮 + 升要求"
+ },
+ {
+  "id": "ALG-M09",
+  "name": "SL2 的对称幂表示与 Clebsch–Gordan 分解",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 2,
+  "first": "2010",
+  "last": "2013",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M10",
+  "name": "Fitting 引理与局部自同态环：不可分解对象的自同态",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 1
+   }
+  ],
+  "count": 3,
+  "first": "2016",
+  "last": "2018",
+  "active": false,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M11",
+  "name": "p 进单位群：Teichmüller 提升、对数同构与 p 次幂判别",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "count": 3,
+  "first": "2012",
+  "last": "2023",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M12",
+  "name": "非阿基米德域的完备性与球完备性",
+  "members": [
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "count": 3,
+  "first": "2020",
+  "last": "2024",
+  "active": true,
+  "trend": "换皮（含一次升要求）"
+ },
+ {
+  "id": "ALG-M13",
+  "name": "局部域扩张：不分叉扩张与半线性 Galois 下降",
+  "members": [
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2025",
+  "last": "2026",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M14",
+  "name": "可除群与 Z_p：自同态环与连续表示",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2017",
+  "last": "2023",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M15",
+  "name": "Chevalley–Warning 定理：低次方程组必有非零解",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 2,
+  "first": "2014",
+  "last": "2017",
+  "active": false,
+  "trend": "升要求（从用定理到证定理）"
+ },
+ {
+  "id": "ALG-M16",
+  "name": "有限域上不可约多项式的计数与参数化",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2013",
+  "last": "2013",
+  "active": false,
+  "trend": "原样重复（同年两卷各考一次）"
+ },
+ {
+  "id": "ALG-M17",
+  "name": "Artin–Schreier 扩张与 Hilbert 90",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "count": 3,
+  "first": "2017",
+  "last": "2021",
+  "active": true,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M18",
+  "name": "用代数数论（范形式、类数）求丢番图方程的整数解",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2014",
+  "last": "2021",
+  "active": true,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M19",
+  "name": "局部-整体原则的失效：处处局部可解而无整体解",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "count": 2,
+  "first": "2013",
+  "last": "2014",
+  "active": false,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M20",
+  "name": "数域整数环中理想与元素的生成与互素",
+  "members": [
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "count": 2,
+  "first": "2022",
+  "last": "2026",
+  "active": true,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M21",
+  "name": "曲线坐标环与函数域的整闭包（正规化）",
+  "members": [
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 3,
+  "first": "2020",
+  "last": "2024",
+  "active": true,
+  "trend": "换皮 + 升要求"
+ },
+ {
+  "id": "ALG-M22",
+  "name": "数域的判别式与整基",
+  "members": [
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 2,
+  "first": "2022",
+  "last": "2026",
+  "active": true,
+  "trend": "换皮（一般三次域 → 纯三次域，难度持平）"
+ },
+ {
+  "id": "ALG-M23",
+  "name": "分圆域、单位根与分圆多项式模 p",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "count": 6,
+  "first": "2015",
+  "last": "2024",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M24",
+  "name": "显式多项式的分裂域、Galois 群与子域格",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "count": 7,
+  "first": "2010",
+  "last": "2025",
+  "active": true,
+  "trend": "换皮 + 升要求"
+ },
+ {
+  "id": "ALG-M25",
+  "name": "素数分解律：惯性次数与剩余符号",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "count": 2,
+  "first": "2015",
+  "last": "2018",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M26",
+  "name": "二次扩张、平方类群与 (Z/2)^n-Galois 扩张",
+  "members": [
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "count": 3,
+  "first": "2021",
+  "last": "2025",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M27",
+  "name": "SL2(Z) 及其同余子群的生成元与陪集分解",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "count": 3,
+  "first": "2011",
+  "last": "2026",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M28",
+  "name": "正交变换的反射分解",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 3,
+  "first": "2012",
+  "last": "2016",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M29",
+  "name": "有限域上的乘法特征与点数计数（Legendre / Jacobi 和）",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "count": 2,
+  "first": "2019",
+  "last": "2026",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M30",
+  "name": "自由模的秩与 PID 上的子模",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "count": 2,
+  "first": "2011",
+  "last": "2023",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M31",
+  "name": "投射模、平坦模与有限表现",
+  "members": [
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 2,
+  "first": "2022",
+  "last": "2023",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M32",
+  "name": "二项式系数、整值多项式与 p 进估值",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "count": 3,
+  "first": "2011",
+  "last": "2018",
+  "active": false,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M33",
+  "name": "公共特征向量与不变子空间的存在性",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "count": 3,
+  "first": "2010",
+  "last": "2013",
+  "active": false,
+  "trend": "换皮 + 升要求"
+ },
+ {
+  "id": "ALG-M34",
+  "name": "交换性的定量后果：矩阵对的行列式/范数不等式",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2014",
+  "last": "2017",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M35",
+  "name": "矩阵共轭性的判定：特征多项式何时决定相似类",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "count": 2,
+  "first": "2010",
+  "last": "2014",
+  "active": false,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M36",
+  "name": "三角函数连乘积与分圆计算",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "count": 2,
+  "first": "2010",
+  "last": "2014",
+  "active": false,
+  "trend": "原样重复（2014 逐字重出）"
+ },
+ {
+  "id": "ALG-M37",
+  "name": "非负整数线性组合的表示与生成函数（数值半群）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "count": 2,
+  "first": "2010",
+  "last": "2017",
+  "active": false,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M38",
+  "name": "Cauchy 型矩阵与 Gram 矩阵的正定性",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "count": 2,
+  "first": "2012",
+  "last": "2014",
+  "active": false,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M39",
+  "name": "特征 p 的函数域与不可分扩张",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "count": 2,
+  "first": "2019",
+  "last": "2024",
+  "active": true,
+  "trend": "升要求"
+ },
+ {
+  "id": "ALG-M40",
+  "name": "线性群的拓扑：连通性与基本群",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "count": 2,
+  "first": "2012",
+  "last": "2019",
+  "active": false,
+  "trend": "换皮"
+ },
+ {
+  "id": "ALG-M41",
+  "name": "无限 Galois 理论与 profinite 群",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "count": 2,
+  "first": "2017",
+  "last": "2023",
+  "active": true,
+  "trend": "升要求"
+ }
+]

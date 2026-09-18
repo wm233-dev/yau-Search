@@ -1,0 +1,71 @@
+
+=== page 1 ===
+2
+ANALYSIS 2016.
+2. Team
+Problem 2.1. Let f(z) : C →C be a polynomial of degree n. For any r > 0, let
+(5)
+M(r) := max
+|z|≤r |f(z)|.
+Show that if R > r > 0, then
+(6)
+M(R)
+Rn
+≤M(r)
+rn
+.
+Moreover, “=” holds in (6) if and only if f(z) = czn for some constant c.
+Problem 2.2. If b1 = 1, b2 = 2 and
+bn+1 = bn + bn−1
+for n ≥2. Does the series
+∞
+X
+n=1
+1
+bn
+converge? Show all your work.
+Problem 2.3. Find all solutions of
+
+
+
+
+
+∆u = 0,
+in
+B1 \ {0} ⊂R2,
+u(x) = 0
+on
+∂B1,
+u ≥0,
+where B1 = {(x, y) ∈R2 | x2 + y2 < 1}
+Problem 2.4. Assume the function f : [0, 1] →R is of C1[0, 1]. Prove that the set of
+critical values of f has measure zero.
+Problem 2.5. Let w(r) and σ(r) be non-decreasing functions in an interval (0, R]. Sup-
+pose there holds for all r < R
+(7)
+w(τr) ≤γw(r) + σ(r)
+for some γ, τ ∈(0, 1). Then for any µ ∈(0, 1) and r < R we have
+(8)
+w(r) ≤C
+n³ r
+R
+´α
+w(R) + σ(rµR1−µ)
+o
+where C = C(γ, τ) and α = α(γ, τ, µ) are positive constants.
+Problem 2.6. Let Pk(x) denote the k-th Chebyshev polynomial, i.e. Pk(cos θ) = cos(kθ)
+for k ∈N. Suppose
+f(x) =
+n
+X
+k=0
+akxk
+is a real monic polynomial (i.e. an = 1) with all roots in (−1, 1). Prove that all the roots
+of
+(9)
+g(x) =
+n
+X
+k=0
+akPk(x)
+are all real numbers and in (−1, 1).

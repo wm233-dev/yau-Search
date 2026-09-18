@@ -1,0 +1,1718 @@
+[
+ {
+  "year": 2010,
+  "kind": "I",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+  "n": 1,
+  "chars": 97,
+  "subparts": 0,
+  "verbs": {
+   "find": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "I",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+  "n": 2,
+  "chars": 156,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "I",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+  "n": 3,
+  "chars": 136,
+  "subparts": 0,
+  "verbs": {}
+ },
+ {
+  "year": 2010,
+  "kind": "I",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+  "n": 4,
+  "chars": 514,
+  "subparts": 2,
+  "verbs": {
+   "derive": 1,
+   "find": 1,
+   "construct": 1,
+   "identify": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "I",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+  "n": 5,
+  "chars": 869,
+  "subparts": 3,
+  "verbs": {
+   "prove": 2,
+   "show": 1,
+   "derive": 2,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "I",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_individual.txt",
+  "n": 6,
+  "chars": 422,
+  "subparts": 2,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "T",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+  "n": 1,
+  "chars": 300,
+  "subparts": 0,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "T",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+  "n": 2,
+  "chars": 221,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "T",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+  "n": 3,
+  "chars": 282,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "T",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+  "n": 4,
+  "chars": 976,
+  "subparts": 4,
+  "verbs": {
+   "prove": 1,
+   "show": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "T",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+  "n": 5,
+  "chars": 1520,
+  "subparts": 10,
+  "verbs": {
+   "prove": 2,
+   "explain": 1
+  }
+ },
+ {
+  "year": 2010,
+  "kind": "T",
+  "file": "2010_Applied_Computational_Probability_and_Statistics_team.txt",
+  "n": 6,
+  "chars": 1026,
+  "subparts": 13,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "I",
+  "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+  "n": 1,
+  "chars": 1169,
+  "subparts": 24,
+  "verbs": {
+   "show": 3,
+   "find": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "I",
+  "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+  "n": 2,
+  "chars": 141,
+  "subparts": 8,
+  "verbs": {}
+ },
+ {
+  "year": 2011,
+  "kind": "I",
+  "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+  "n": 3,
+  "chars": 425,
+  "subparts": 0,
+  "verbs": {}
+ },
+ {
+  "year": 2011,
+  "kind": "I",
+  "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+  "n": 4,
+  "chars": 172,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "I",
+  "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+  "n": 5,
+  "chars": 630,
+  "subparts": 3,
+  "verbs": {
+   "compute": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "I",
+  "file": "2011_2_AppliedMathProb_Individual_2011.txt",
+  "n": 6,
+  "chars": 1481,
+  "subparts": 4,
+  "verbs": {
+   "show": 2,
+   "estimate": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "T",
+  "file": "2011_6_AppliedMathProb_Team_2011.txt",
+  "n": 1,
+  "chars": 491,
+  "subparts": 5,
+  "verbs": {
+   "show": 1,
+   "describe": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "T",
+  "file": "2011_6_AppliedMathProb_Team_2011.txt",
+  "n": 2,
+  "chars": 891,
+  "subparts": 3,
+  "verbs": {
+   "prove": 1,
+   "derive": 1,
+   "find": 1,
+   "verify": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "T",
+  "file": "2011_6_AppliedMathProb_Team_2011.txt",
+  "n": 3,
+  "chars": 572,
+  "subparts": 5,
+  "verbs": {
+   "show": 1,
+   "find": 3
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "T",
+  "file": "2011_6_AppliedMathProb_Team_2011.txt",
+  "n": 4,
+  "chars": 124,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "T",
+  "file": "2011_6_AppliedMathProb_Team_2011.txt",
+  "n": 5,
+  "chars": 456,
+  "subparts": 1,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2011,
+  "kind": "T",
+  "file": "2011_6_AppliedMathProb_Team_2011.txt",
+  "n": 6,
+  "chars": 556,
+  "subparts": 3,
+  "verbs": {
+   "prove": 2,
+   "show": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "I",
+  "file": "2012_Applied2012individual.txt",
+  "n": 1,
+  "chars": 324,
+  "subparts": 3,
+  "verbs": {
+   "find": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "I",
+  "file": "2012_Applied2012individual.txt",
+  "n": 2,
+  "chars": 995,
+  "subparts": 20,
+  "verbs": {
+   "prove": 3,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "I",
+  "file": "2012_Applied2012individual.txt",
+  "n": 3,
+  "chars": 391,
+  "subparts": 3,
+  "verbs": {
+   "describe": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "I",
+  "file": "2012_Applied2012individual.txt",
+  "n": 4,
+  "chars": 1281,
+  "subparts": 0,
+  "verbs": {
+   "prove": 2,
+   "find": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "I",
+  "file": "2012_Applied2012individual.txt",
+  "n": 5,
+  "chars": 336,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "T",
+  "file": "2012_Applied2012team.txt",
+  "n": 1,
+  "chars": 362,
+  "subparts": 7,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "T",
+  "file": "2012_Applied2012team.txt",
+  "n": 2,
+  "chars": 573,
+  "subparts": 7,
+  "verbs": {
+   "explain": 1,
+   "describe": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "T",
+  "file": "2012_Applied2012team.txt",
+  "n": 3,
+  "chars": 979,
+  "subparts": 5,
+  "verbs": {
+   "prove": 4
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "T",
+  "file": "2012_Applied2012team.txt",
+  "n": 4,
+  "chars": 1005,
+  "subparts": 0,
+  "verbs": {
+   "compute": 1
+  }
+ },
+ {
+  "year": 2012,
+  "kind": "T",
+  "file": "2012_Applied2012team.txt",
+  "n": 5,
+  "chars": 875,
+  "subparts": 3,
+  "verbs": {
+   "show": 1,
+   "determine": 2,
+   "describe": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "I",
+  "file": "2013_applied2013_individual.txt",
+  "n": 1,
+  "chars": 1024,
+  "subparts": 5,
+  "verbs": {
+   "show": 3,
+   "derive": 1,
+   "explain": 1,
+   "construct": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "I",
+  "file": "2013_applied2013_individual.txt",
+  "n": 2,
+  "chars": 664,
+  "subparts": 5,
+  "verbs": {
+   "estimate": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "I",
+  "file": "2013_applied2013_individual.txt",
+  "n": 3,
+  "chars": 826,
+  "subparts": 6,
+  "verbs": {
+   "compute": 1,
+   "describe": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "I",
+  "file": "2013_applied2013_individual.txt",
+  "n": 4,
+  "chars": 739,
+  "subparts": 11,
+  "verbs": {
+   "prove": 2,
+   "explain": 2,
+   "estimate": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "I",
+  "file": "2013_applied2013_individual.txt",
+  "n": 5,
+  "chars": 324,
+  "subparts": 2,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "I",
+  "file": "2013_applied2013_individual.txt",
+  "n": 6,
+  "chars": 536,
+  "subparts": 0,
+  "verbs": {
+   "compute": 1,
+   "estimate": 1,
+   "design": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "T",
+  "file": "2013_TeamProblems2013.txt",
+  "n": 1,
+  "chars": 1220,
+  "subparts": 18,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "T",
+  "file": "2013_TeamProblems2013.txt",
+  "n": 2,
+  "chars": 598,
+  "subparts": 7,
+  "verbs": {
+   "show": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "T",
+  "file": "2013_TeamProblems2013.txt",
+  "n": 3,
+  "chars": 496,
+  "subparts": 3,
+  "verbs": {
+   "describe": 1
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "T",
+  "file": "2013_TeamProblems2013.txt",
+  "n": 4,
+  "chars": 1185,
+  "subparts": 5,
+  "verbs": {
+   "prove": 3
+  }
+ },
+ {
+  "year": 2013,
+  "kind": "T",
+  "file": "2013_TeamProblems2013.txt",
+  "n": 5,
+  "chars": 559,
+  "subparts": 2,
+  "verbs": {}
+ },
+ {
+  "year": 2013,
+  "kind": "T",
+  "file": "2013_TeamProblems2013.txt",
+  "n": 6,
+  "chars": 538,
+  "subparts": 0,
+  "verbs": {
+   "compute": 1,
+   "estimate": 1,
+   "design": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "I",
+  "file": "2014_applied2014_individual.txt",
+  "n": 1,
+  "chars": 600,
+  "subparts": 0,
+  "verbs": {
+   "prove": 1,
+   "show": 2,
+   "derive": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "I",
+  "file": "2014_applied2014_individual.txt",
+  "n": 2,
+  "chars": 578,
+  "subparts": 2,
+  "verbs": {
+   "compute": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "I",
+  "file": "2014_applied2014_individual.txt",
+  "n": 3,
+  "chars": 635,
+  "subparts": 7,
+  "verbs": {
+   "prove": 2
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "I",
+  "file": "2014_applied2014_individual.txt",
+  "n": 4,
+  "chars": 760,
+  "subparts": 3,
+  "verbs": {
+   "prove": 4
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "I",
+  "file": "2014_applied2014_individual.txt",
+  "n": 5,
+  "chars": 738,
+  "subparts": 6,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "T",
+  "file": "2014_applied2014_team.txt",
+  "n": 1,
+  "chars": 309,
+  "subparts": 1,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "T",
+  "file": "2014_applied2014_team.txt",
+  "n": 2,
+  "chars": 705,
+  "subparts": 5,
+  "verbs": {
+   "prove": 1,
+   "describe": 1,
+   "construct": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "T",
+  "file": "2014_applied2014_team.txt",
+  "n": 3,
+  "chars": 742,
+  "subparts": 4,
+  "verbs": {
+   "prove": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "T",
+  "file": "2014_applied2014_team.txt",
+  "n": 4,
+  "chars": 752,
+  "subparts": 4,
+  "verbs": {
+   "prove": 1,
+   "show": 1,
+   "derive": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2014,
+  "kind": "T",
+  "file": "2014_applied2014_team.txt",
+  "n": 5,
+  "chars": 287,
+  "subparts": 2,
+  "verbs": {
+   "compute": 1,
+   "find": 1,
+   "verify": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "I",
+  "file": "2015_applied2015_individual.txt",
+  "n": 1,
+  "chars": 225,
+  "subparts": 0,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "I",
+  "file": "2015_applied2015_individual.txt",
+  "n": 2,
+  "chars": 1263,
+  "subparts": 2,
+  "verbs": {
+   "prove": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "I",
+  "file": "2015_applied2015_individual.txt",
+  "n": 3,
+  "chars": 804,
+  "subparts": 8,
+  "verbs": {
+   "show": 1,
+   "solve": 1,
+   "analyze": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "I",
+  "file": "2015_applied2015_individual.txt",
+  "n": 4,
+  "chars": 249,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "I",
+  "file": "2015_applied2015_individual.txt",
+  "n": 5,
+  "chars": 513,
+  "subparts": 2,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "T",
+  "file": "2015_team_applied2015.txt",
+  "n": 1,
+  "chars": 751,
+  "subparts": 5,
+  "verbs": {
+   "prove": 1,
+   "solve": 1,
+   "design": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "T",
+  "file": "2015_team_applied2015.txt",
+  "n": 2,
+  "chars": 612,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "T",
+  "file": "2015_team_applied2015.txt",
+  "n": 3,
+  "chars": 667,
+  "subparts": 2,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "T",
+  "file": "2015_team_applied2015.txt",
+  "n": 4,
+  "chars": 789,
+  "subparts": 8,
+  "verbs": {
+   "show": 3,
+   "derive": 1,
+   "explain": 1,
+   "describe": 1
+  }
+ },
+ {
+  "year": 2015,
+  "kind": "T",
+  "file": "2015_team_applied2015.txt",
+  "n": 5,
+  "chars": 464,
+  "subparts": 3,
+  "verbs": {
+   "show": 3
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "I",
+  "file": "2016_applied2016_individual.txt",
+  "n": 1,
+  "chars": 347,
+  "subparts": 2,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "I",
+  "file": "2016_applied2016_individual.txt",
+  "n": 2,
+  "chars": 1059,
+  "subparts": 6,
+  "verbs": {
+   "show": 1,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "I",
+  "file": "2016_applied2016_individual.txt",
+  "n": 3,
+  "chars": 1468,
+  "subparts": 1,
+  "verbs": {
+   "prove": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "I",
+  "file": "2016_applied2016_individual.txt",
+  "n": 4,
+  "chars": 941,
+  "subparts": 4,
+  "verbs": {
+   "show": 2,
+   "compute": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "I",
+  "file": "2016_applied2016_individual.txt",
+  "n": 5,
+  "chars": 362,
+  "subparts": 6,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "T",
+  "file": "2016_2016_team.txt",
+  "n": 1,
+  "chars": 981,
+  "subparts": 9,
+  "verbs": {
+   "prove": 1,
+   "find": 2
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "T",
+  "file": "2016_2016_team.txt",
+  "n": 2,
+  "chars": 806,
+  "subparts": 17,
+  "verbs": {
+   "show": 4
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "T",
+  "file": "2016_2016_team.txt",
+  "n": 3,
+  "chars": 509,
+  "subparts": 0,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "T",
+  "file": "2016_2016_team.txt",
+  "n": 4,
+  "chars": 918,
+  "subparts": 5,
+  "verbs": {
+   "prove": 2,
+   "show": 1,
+   "determine": 2
+  }
+ },
+ {
+  "year": 2016,
+  "kind": "T",
+  "file": "2016_2016_team.txt",
+  "n": 5,
+  "chars": 531,
+  "subparts": 4,
+  "verbs": {
+   "prove": 1,
+   "show": 1
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "I",
+  "file": "2017_applied2017_individual.txt",
+  "n": 1,
+  "chars": 166,
+  "subparts": 3,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "I",
+  "file": "2017_applied2017_individual.txt",
+  "n": 2,
+  "chars": 447,
+  "subparts": 6,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "I",
+  "file": "2017_applied2017_individual.txt",
+  "n": 3,
+  "chars": 585,
+  "subparts": 13,
+  "verbs": {
+   "prove": 2
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "I",
+  "file": "2017_applied2017_individual.txt",
+  "n": 4,
+  "chars": 1220,
+  "subparts": 5,
+  "verbs": {
+   "prove": 4,
+   "find": 2
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "I",
+  "file": "2017_applied2017_individual.txt",
+  "n": 5,
+  "chars": 1358,
+  "subparts": 10,
+  "verbs": {
+   "prove": 2
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "T",
+  "file": "2017_2017_team.txt",
+  "n": 1,
+  "chars": 924,
+  "subparts": 4,
+  "verbs": {}
+ },
+ {
+  "year": 2017,
+  "kind": "T",
+  "file": "2017_2017_team.txt",
+  "n": 2,
+  "chars": 822,
+  "subparts": 7,
+  "verbs": {
+   "prove": 1,
+   "find": 2
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "T",
+  "file": "2017_2017_team.txt",
+  "n": 3,
+  "chars": 996,
+  "subparts": 15,
+  "verbs": {
+   "determine": 1,
+   "solve": 1,
+   "identify": 2
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "T",
+  "file": "2017_2017_team.txt",
+  "n": 4,
+  "chars": 1469,
+  "subparts": 11,
+  "verbs": {
+   "show": 2,
+   "compute": 1,
+   "explain": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2017,
+  "kind": "T",
+  "file": "2017_2017_team.txt",
+  "n": 5,
+  "chars": 140,
+  "subparts": 0,
+  "verbs": {
+   "show": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "I",
+  "file": "2018_applied2018_individual.txt",
+  "n": 1,
+  "chars": 796,
+  "subparts": 6,
+  "verbs": {
+   "prove": 1,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "I",
+  "file": "2018_applied2018_individual.txt",
+  "n": 2,
+  "chars": 954,
+  "subparts": 2,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "I",
+  "file": "2018_applied2018_individual.txt",
+  "n": 3,
+  "chars": 1725,
+  "subparts": 9,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "I",
+  "file": "2018_applied2018_individual.txt",
+  "n": 4,
+  "chars": 697,
+  "subparts": 25,
+  "verbs": {
+   "prove": 4,
+   "show": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "I",
+  "file": "2018_applied2018_individual.txt",
+  "n": 5,
+  "chars": 674,
+  "subparts": 4,
+  "verbs": {
+   "show": 3,
+   "explain": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "T",
+  "file": "2018_2018_team.txt",
+  "n": 1,
+  "chars": 490,
+  "subparts": 2,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "T",
+  "file": "2018_2018_team.txt",
+  "n": 2,
+  "chars": 1565,
+  "subparts": 8,
+  "verbs": {
+   "prove": 4,
+   "compute": 1
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "T",
+  "file": "2018_2018_team.txt",
+  "n": 3,
+  "chars": 576,
+  "subparts": 7,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "T",
+  "file": "2018_2018_team.txt",
+  "n": 4,
+  "chars": 664,
+  "subparts": 7,
+  "verbs": {
+   "prove": 1,
+   "show": 3
+  }
+ },
+ {
+  "year": 2018,
+  "kind": "T",
+  "file": "2018_2018_team.txt",
+  "n": 5,
+  "chars": 1763,
+  "subparts": 12,
+  "verbs": {
+   "show": 2,
+   "derive": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "I",
+  "file": "2019_AppliedMath2019_individual.txt",
+  "n": 1,
+  "chars": 622,
+  "subparts": 8,
+  "verbs": {
+   "show": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "I",
+  "file": "2019_AppliedMath2019_individual.txt",
+  "n": 2,
+  "chars": 475,
+  "subparts": 3,
+  "verbs": {
+   "prove": 1,
+   "show": 2
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "I",
+  "file": "2019_AppliedMath2019_individual.txt",
+  "n": 3,
+  "chars": 551,
+  "subparts": 5,
+  "verbs": {
+   "show": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "I",
+  "file": "2019_AppliedMath2019_individual.txt",
+  "n": 4,
+  "chars": 883,
+  "subparts": 3,
+  "verbs": {
+   "derive": 1,
+   "describe": 3,
+   "analyze": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "T",
+  "file": "2019_AppliedMath2019_team.txt",
+  "n": 1,
+  "chars": 170,
+  "subparts": 1,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "T",
+  "file": "2019_AppliedMath2019_team.txt",
+  "n": 2,
+  "chars": 296,
+  "subparts": 0,
+  "verbs": {
+   "prove": 1,
+   "show": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "T",
+  "file": "2019_AppliedMath2019_team.txt",
+  "n": 3,
+  "chars": 460,
+  "subparts": 3,
+  "verbs": {
+   "show": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "T",
+  "file": "2019_AppliedMath2019_team.txt",
+  "n": 4,
+  "chars": 563,
+  "subparts": 12,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2019,
+  "kind": "T",
+  "file": "2019_AppliedMath2019_team.txt",
+  "n": 5,
+  "chars": 451,
+  "subparts": 5,
+  "verbs": {
+   "determine": 2,
+   "construct": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2020,
+  "kind": "Q",
+  "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+  "n": 1,
+  "chars": 379,
+  "subparts": 4,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2020,
+  "kind": "Q",
+  "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+  "n": 2,
+  "chars": 251,
+  "subparts": 1,
+  "verbs": {
+   "justify": 1
+  }
+ },
+ {
+  "year": 2020,
+  "kind": "Q",
+  "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+  "n": 3,
+  "chars": 407,
+  "subparts": 1,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2020,
+  "kind": "Q",
+  "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+  "n": 4,
+  "chars": 402,
+  "subparts": 4,
+  "verbs": {
+   "find": 1
+  }
+ },
+ {
+  "year": 2020,
+  "kind": "Q",
+  "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+  "n": 5,
+  "chars": 151,
+  "subparts": 0,
+  "verbs": {
+   "show": 1
+  }
+ },
+ {
+  "year": 2020,
+  "kind": "Q",
+  "file": "2020_Applied_Math_and_Computational_Math_computational_and_applied_20.txt",
+  "n": 6,
+  "chars": 230,
+  "subparts": 0,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2021,
+  "kind": "Q",
+  "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+  "n": 1,
+  "chars": 331,
+  "subparts": 6,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2021,
+  "kind": "Q",
+  "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+  "n": 2,
+  "chars": 161,
+  "subparts": 3,
+  "verbs": {
+   "prove": 1,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2021,
+  "kind": "Q",
+  "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+  "n": 3,
+  "chars": 498,
+  "subparts": 7,
+  "verbs": {
+   "prove": 2,
+   "determine": 2
+  }
+ },
+ {
+  "year": 2021,
+  "kind": "Q",
+  "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+  "n": 4,
+  "chars": 559,
+  "subparts": 2,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2021,
+  "kind": "Q",
+  "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+  "n": 5,
+  "chars": 372,
+  "subparts": 2,
+  "verbs": {
+   "show": 1,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2021,
+  "kind": "Q",
+  "file": "2021_ExamPaper_21S_computational_and_applied_21s.txt",
+  "n": 6,
+  "chars": 899,
+  "subparts": 17,
+  "verbs": {
+   "prove": 3,
+   "estimate": 2
+  }
+ },
+ {
+  "year": 2022,
+  "kind": "Q",
+  "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+  "n": 1,
+  "chars": 499,
+  "subparts": 0,
+  "verbs": {
+   "construct": 1
+  }
+ },
+ {
+  "year": 2022,
+  "kind": "Q",
+  "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+  "n": 2,
+  "chars": 506,
+  "subparts": 4,
+  "verbs": {
+   "prove": 1
+  }
+ },
+ {
+  "year": 2022,
+  "kind": "Q",
+  "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+  "n": 3,
+  "chars": 276,
+  "subparts": 4,
+  "verbs": {
+   "prove": 2,
+   "find": 2
+  }
+ },
+ {
+  "year": 2022,
+  "kind": "Q",
+  "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+  "n": 4,
+  "chars": 829,
+  "subparts": 8,
+  "verbs": {
+   "prove": 1,
+   "determine": 2
+  }
+ },
+ {
+  "year": 2022,
+  "kind": "Q",
+  "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+  "n": 5,
+  "chars": 538,
+  "subparts": 2,
+  "verbs": {
+   "construct": 2,
+   "verify": 1
+  }
+ },
+ {
+  "year": 2022,
+  "kind": "Q",
+  "file": "2022_ExamPaper_2022_computational_and_applied_22s.txt",
+  "n": 6,
+  "chars": 591,
+  "subparts": 3,
+  "verbs": {}
+ },
+ {
+  "year": 2023,
+  "kind": "Q",
+  "file": "2023_Computational_Applied.txt",
+  "n": 1,
+  "chars": 684,
+  "subparts": 7,
+  "verbs": {
+   "prove": 2,
+   "derive": 1
+  }
+ },
+ {
+  "year": 2023,
+  "kind": "Q",
+  "file": "2023_Computational_Applied.txt",
+  "n": 2,
+  "chars": 881,
+  "subparts": 16,
+  "verbs": {
+   "show": 1,
+   "derive": 2,
+   "compute": 1,
+   "find": 1
+  }
+ },
+ {
+  "year": 2023,
+  "kind": "Q",
+  "file": "2023_Computational_Applied.txt",
+  "n": 3,
+  "chars": 356,
+  "subparts": 2,
+  "verbs": {
+   "show": 2
+  }
+ },
+ {
+  "year": 2023,
+  "kind": "Q",
+  "file": "2023_Computational_Applied.txt",
+  "n": 4,
+  "chars": 706,
+  "subparts": 5,
+  "verbs": {
+   "prove": 1,
+   "show": 2
+  }
+ },
+ {
+  "year": 2023,
+  "kind": "Q",
+  "file": "2023_Computational_Applied.txt",
+  "n": 5,
+  "chars": 681,
+  "subparts": 14,
+  "verbs": {
+   "prove": 3
+  }
+ },
+ {
+  "year": 2023,
+  "kind": "Q",
+  "file": "2023_Computational_Applied.txt",
+  "n": 6,
+  "chars": 645,
+  "subparts": 4,
+  "verbs": {
+   "derive": 2,
+   "explain": 1
+  }
+ },
+ {
+  "year": 2024,
+  "kind": "Q",
+  "file": "2024_2024_Computational_Math.txt",
+  "n": 1,
+  "chars": 431,
+  "subparts": 3,
+  "verbs": {
+   "derive": 2,
+   "solve": 2,
+   "design": 1
+  }
+ },
+ {
+  "year": 2024,
+  "kind": "Q",
+  "file": "2024_2024_Computational_Math.txt",
+  "n": 2,
+  "chars": 903,
+  "subparts": 9,
+  "verbs": {}
+ },
+ {
+  "year": 2024,
+  "kind": "Q",
+  "file": "2024_2024_Computational_Math.txt",
+  "n": 3,
+  "chars": 493,
+  "subparts": 10,
+  "verbs": {
+   "show": 1,
+   "derive": 2
+  }
+ },
+ {
+  "year": 2024,
+  "kind": "Q",
+  "file": "2024_2024_Computational_Math.txt",
+  "n": 4,
+  "chars": 891,
+  "subparts": 9,
+  "verbs": {}
+ },
+ {
+  "year": 2024,
+  "kind": "Q",
+  "file": "2024_2024_Computational_Math.txt",
+  "n": 5,
+  "chars": 267,
+  "subparts": 2,
+  "verbs": {
+   "determine": 1,
+   "verify": 1
+  }
+ },
+ {
+  "year": 2024,
+  "kind": "Q",
+  "file": "2024_2024_Computational_Math.txt",
+  "n": 6,
+  "chars": 1149,
+  "subparts": 11,
+  "verbs": {
+   "show": 1,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2025,
+  "kind": "Q",
+  "file": "2025_computational_and_applied_math.txt",
+  "n": 1,
+  "chars": 317,
+  "subparts": 2,
+  "verbs": {
+   "determine": 1
+  }
+ },
+ {
+  "year": 2025,
+  "kind": "Q",
+  "file": "2025_computational_and_applied_math.txt",
+  "n": 2,
+  "chars": 214,
+  "subparts": 0,
+  "verbs": {
+   "compute": 1
+  }
+ },
+ {
+  "year": 2025,
+  "kind": "Q",
+  "file": "2025_computational_and_applied_math.txt",
+  "n": 3,
+  "chars": 880,
+  "subparts": 9,
+  "verbs": {
+   "prove": 2,
+   "derive": 1,
+   "explain": 1
+  }
+ },
+ {
+  "year": 2025,
+  "kind": "Q",
+  "file": "2025_computational_and_applied_math.txt",
+  "n": 4,
+  "chars": 253,
+  "subparts": 0,
+  "verbs": {}
+ },
+ {
+  "year": 2025,
+  "kind": "Q",
+  "file": "2025_computational_and_applied_math.txt",
+  "n": 5,
+  "chars": 1104,
+  "subparts": 3,
+  "verbs": {
+   "prove": 2,
+   "show": 1,
+   "determine": 2
+  }
+ },
+ {
+  "year": 2025,
+  "kind": "Q",
+  "file": "2025_computational_and_applied_math.txt",
+  "n": 6,
+  "chars": 554,
+  "subparts": 5,
+  "verbs": {
+   "prove": 2,
+   "find": 1,
+   "determine": 1,
+   "analyze": 1
+  }
+ },
+ {
+  "year": 2026,
+  "kind": "Q",
+  "file": "2026_2026_Computation.txt",
+  "n": 1,
+  "chars": 974,
+  "subparts": 6,
+  "verbs": {
+   "prove": 1,
+   "estimate": 1,
+   "solve": 1
+  }
+ },
+ {
+  "year": 2026,
+  "kind": "Q",
+  "file": "2026_2026_Computation.txt",
+  "n": 2,
+  "chars": 891,
+  "subparts": 7,
+  "verbs": {
+   "prove": 3,
+   "compute": 1
+  }
+ },
+ {
+  "year": 2026,
+  "kind": "Q",
+  "file": "2026_2026_Computation.txt",
+  "n": 3,
+  "chars": 535,
+  "subparts": 7,
+  "verbs": {
+   "find": 2,
+   "determine": 1
+  }
+ },
+ {
+  "year": 2026,
+  "kind": "Q",
+  "file": "2026_2026_Computation.txt",
+  "n": 4,
+  "chars": 613,
+  "subparts": 3,
+  "verbs": {
+   "prove": 2,
+   "find": 1
+  }
+ },
+ {
+  "year": 2026,
+  "kind": "Q",
+  "file": "2026_2026_Computation.txt",
+  "n": 5,
+  "chars": 445,
+  "subparts": 4,
+  "verbs": {
+   "show": 2,
+   "verify": 1
+  }
+ },
+ {
+  "year": 2026,
+  "kind": "Q",
+  "file": "2026_2026_Computation.txt",
+  "n": 6,
+  "chars": 747,
+  "subparts": 19,
+  "verbs": {
+   "show": 1,
+   "compute": 1
+  }
+ }
+]

@@ -1,0 +1,31 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Algebra and Number Theory
+Individual (5 problems)
+1) Let G be a ﬁnite group. Assume that for any representation V of G over a ﬁeld of characteristic zero,
+the character χV takes value in Q. Assume g is an element in G such that g2019 = 1.
+Prove that g and g19 are conjugate in G.
+2) Let p be a prime number, and let Fp be the ﬁnite ﬁeld with p elements. Let F = Fp(t) be the ﬁeld of
+rational functions over Fp. Consider all subﬁelds C of F such that F/C is a ﬁnite Galois extension.
+1. Show that among such subﬁelds, there is a smallest one C0, i.e., C0 is contained in any other C.
+2. What is the degree of F/C0 ?
+3) Let R ⊂R′ be an integral extension of commutative rings. Let p′ be a prime ideal of R′. Prove that
+p′ is a maximal ideal of R′ if and only if p′ ∩R is a maximal ideal of R.
+4)
+1. Prove that GLn(C) is path-connected.
+2. Let
+X = {A ∈GLn(C) | Am = Id},
+Describe the path-connected component of X and prove your answer.
+5) The Fibonacci sequence is deﬁned by
+F0 = 0,
+F1 = 1,
+Fn+2 = Fn+1 + Fn.
+Let p be a prime number.
+1. Show that if p ≡1, 4 (mod 5), then p divides Fp−1.
+2. Let Fp2 be the ﬁnite ﬁeld of p2 elements. Show that the norm map N : F×
+p2 →F×
+p is surjective,
+and deduce the cardinality of the kernel of N.
+3. Show that if p ≡2, 3 (mod 5), then p divides Fp+1.
+1

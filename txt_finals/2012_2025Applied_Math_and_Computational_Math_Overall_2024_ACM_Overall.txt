@@ -1,0 +1,72 @@
+
+=== page 1 ===
+S. -T. Yau College Student Mathematics Contest
+Applied and Computational Math (Individual Overall Contest)
+June 8, 2024
+1. Consider the following optimization problem
+min
+x∈Rn ∥x∥1 s.t. Ax = Ax0,
+(1)
+where ∥x∥1 = Pn
+i=1 |xi|, A ∈Rm×n with m ≤n, x0 ∈Rn, and b ∈Rm. Let s < n be an integer.
+Deﬁne the set
+Cs = {η ∈Rn | ∃S ⊂{1, 2, . . . , n}, s.t. |S| ≤s and ∥ηS∥1 ≥∥ηSc∥1, }.
+Here ηS ∈Rn is the vector whose components are the same as η on S and 0 on Sc := {1, . . . , n} \ S.
+(a) Prove that every s-sparse vector x0 is the unique solution of (1) if and only if
+Ker(A) ∩Cs = {0}.
+(2)
+(A vector is called s-sparse if it contains at most s nonzero entries.)
+(b) Prove that there exists a universal constant C > 0 such that
+Cs ∩{x | ∥x∥2 ≤1} ⊆{x | ∥x∥s ≤C},
+where ∥x∥(s) is deﬁned as
+∥x∥(s) := min
+n X
+i
+∥xi∥2
+ x =
+X
+i
+xi, where xi ∈Rn is s-sparse for all i.
+o
+(Since in the general case ∥x∥(s) ≤
+p
+n/s∥x∥2, the above result implies that Cs restricted to the
+2-norm ball is very small, indicating that even if A is a wide matrix, the large Ker(A) can still
+miss the small Cs. Consequently, sparse recovery through 1-norm minimization is possible even if
+m is very small.)
+2.
+(a) Consider the random walk of a particle along the real line. At each time step of size τ > 0, the
+particle jumps left or right with a distance h > 0 with equal probability 1/2. Let x and t denote
+the space and time variables, respectively. Derive an equation for the probability density of the
+particle at (x, t), as the time/space steps τ, h ↘0 in the limit h2/τ →d.
+(b) Consider a particle moving randomly in a 2-dimensional space, where it can move up/down/left/right
+with a distance h > 0 with equal probability p ≤1
+4. Let (x, y) and t denote the space and time
+variables, respectively. Derive an equation for the probability density of the particle at (x, y, t),
+as the time/space steps τ, h ↘0 in the limit h2/τ →d.
+1
+
+=== page 2 ===
+(c) Consider the problem in item (2) over a ﬁnite time interval (0, T) with T > 0 signifying the
+terminal time. Let u(z, t), z = (x, y), denote the probability density and let p and d be both
+positive constants. Assume the initial distribution of u is given by f(z). Derive the system to
+model the particle’s motion in terms of u. We further assumed that f is compactly supported,
+i.e. there is a bounded domain Ω⋐R2 such that supp(f) ⋐Ω. Let us consider the problem of
+ﬁnding the initial distribution f by monitoring the motion of the particle on the boundary ∂Ω.
+To that end, we introduce
+Mf = u(z, t)|(z,t)∈∂Ω×(0,T ).
+(c-i). Can we uniquely determine f by knowledge of Mf? That is, is the correspondence between
+f and Mf one-to-one?
+(c-ii). Suppose that f is a delta distribution of the form α0δ(z −z0), with z0 ∈Ωand α0 ∈R+.
+Here, δ is the Kronecker delta function.
+Can one determine the initial distribution f by
+knowledge of Mf? If so, can you describe a numerical scheme of locating z0, independent of
+α0?
+(c-iii). If f is a collection of sparsely distributed point distributions, namely,
+f(x) =
+N
+X
+j=1
+αjδ(z −zj), αj ∈R, zj ∈Ω,
+|zj −zj′| ≫1, 1 ≤j ̸= j′ ≤N, can you sketch an idea of extending your result in item (b)?
+2

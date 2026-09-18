@@ -1,0 +1,25 @@
+
+=== page 1 ===
+ANALYSIS 2016.
+3
+3. All-round
+Problem 3.1. Let A be an N ×N positive deﬁnite symmetric matrix with N ≥2. Assume
+that there exists ε ∈(0, 1) with
+tr A ≤N + ε,
+det A ≥1 −ε.
+Then there exists a constant CN depending only on N such that
+∥A −I∥≤CN
+√ε,
+where ∥· ∥is the Hilbert-Schmidt norm, and I is the N × N identity matrix.
+Problem 3.2. Let N = {1, 2, · · · } be the set of positive integers. Let {en} be the standard
+orthonormal basis of ℓ2(N). Deﬁne Tn : ℓ2(N) →ℓ2(N) by
+(10)
+Tn(em) = enm.
+Prove that
+(1) The elements in {Tn, T ∗
+n} can commute with the elements in {Tm, T ∗
+m} if and only
+if (n, m) = 1.
+(2) Let T be a bounded linear operator which can commute with all Tn, T ∗
+n, then
+T = c · I for some constant c.

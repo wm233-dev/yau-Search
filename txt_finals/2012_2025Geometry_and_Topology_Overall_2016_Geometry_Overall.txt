@@ -1,0 +1,21 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+All Around of Geometry and Topology
+1. Let P1 = (a1, b1), · · · , Pn = (an, bn) be n distinct points in R2. Deﬁne a 1-form ω
+on R2 −{P1, · · · , Pn} by
+ω =
+n
+X
+i=1
+(x −ai)dy −(y −bi)dx
+(x −ai)2 + (y −bi)2 .
+Let C be a simple closed curve containing P1, · · · , Pn inside and rotate in the positive
+direction. Compute the line integral
+Z
+C
+ω.
+2.
+(a) Deﬁne complex projective space CP n.
+(b) Compute the homology and cohomology of CP n.
+1

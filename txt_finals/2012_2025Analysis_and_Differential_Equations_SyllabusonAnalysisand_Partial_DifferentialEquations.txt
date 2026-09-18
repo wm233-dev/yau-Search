@@ -1,0 +1,56 @@
+
+=== page 1 ===
+Syllabus on Analysis and Differential Equations 
+Real Analysis:  
+ Convergence theorems for integrals, Borel measure, Riesz 
+representation theorem 
+ Lp space, Duality of Lp space, Jensen inequality 
+ Lebesgue differentiation theorem, Fubini theorem, Hilbert space 
+ Complex measures of bounded variation, Radon-Nikodym 
+theorem. 
+ Hahn-Banah Theorem, open mapping theorem, uniform 
+boundedness theorem, closed graph theorem. 
+ Basic properties of compact operators, Riesz-Fredholm Theory, 
+spectrum of compact operators. 
+ Fourier series, Fourier transform, convolution. 
+References: Rudin: Real and Complex Analysis; Stein and Shakarchi: 
+Real analysis; Stein and Shakarchi: Fourier Analysis.  
+Complex Analysis:  
+ Holomorphic and meromorphic functions 
+ Conformal maps, linear fractional transformations, Schwarz's 
+lemma 
+
+=== page 2 ===
+ Complex integrals: Cauchy's theorem, Cauchy integral formula, 
+residues 
+ Harmonic functions: the mean value property; the reflection 
+principle; Dirichlet's problem 
+ Series and product developments: Laurent series, partial fractions 
+expansions, and canonical products 
+ Special functions: the Gamma function, the zeta functions and 
+elliptic functions 
+ Basics of Riemann surfaces 
+ Riemann mapping theorem, Picard theorems. 
+References: Ahlfors: Complex Analysis (3rd edition) 
+ 
+Differential Equations: 
+ Existence and uniqueness theorems for solutions of ODE; explicit 
+solutions of simple equations; self-adjoint boundary value 
+problems on finite intervals; critical points, phase space, stability 
+analysis. 
+ First order partial differential equations, linear and quasi-linear 
+PDE. 
+ Phase plane analysis, Burgers equation, Hamilton-Jacobi equation. 
+
+=== page 3 ===
+ Potential equations: Green functions and existence of solutions of 
+Dirichlet problem, harmonic functions, maximal principle and 
+applications, existence of solutions of Neumann’s problem. 
+ Heat equation, Dirichlet problem, fundamental solutions 
+ Wave equations: initial condition and boundary condition, 
+well-posedness, Sturm-Liouville eigenvalue problem, energy 
+functional method, uniqueness and stability of solutions 
+ Distributions, Sobolev embedding theorem. 
+References:  V. I. Arnold: Mathematical Methods of Classical 
+Mechanics; Craig Evans: Partial Differential Equations. 
+ 

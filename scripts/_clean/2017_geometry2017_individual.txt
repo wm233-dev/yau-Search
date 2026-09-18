@@ -1,0 +1,30 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Geometry and Topology
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let M be a smooth, compact, oriented n-dimensional manifold. Suppose that the
+Euler characteristic of M is zero. Show that M admits a nowhere vanishing vector
+ﬁeld.
+2. Let S2
+q1
+←−S2 ∨S2
+q2
+−→S2 be the maps that crush out one of the two summands. Let
+f : S2 →S2 ∨S2 be a map such that qi ◦f : S2 →S2 is a map of degree di. Compute
+the integral homology groups of (S2 ∨S2) ∪f D3. Here D3 is the unit solid ball with
+boundary S2.
+3. Let X and Y be smooth vector ﬁelds on a smooth manifold. Prove that the Lie
+derivative satisﬁes the identity
+LXY = [X, Y ].
+4. State and prove the Liouville formula for the geodesic curvature κg along a regular
+curve on a smooth surface in R3.
+5. On a Riemannian manifold, let F be the set of smooth functions f on M with
+|gradf| ≤1. For any x, y in the manifold, show that
+d(x, y) = sup{|f(x) −f(y)| : f ∈F}.
+6. Let M be an n-dimensional oriented closed minimal submanifold in an (n + p)-
+dimensional unit sphere Sn+p. Denote by KM the sectional curvature of M. Prove
+that if KM > p −1
+2p −1 , then M is the great sphere Sn.
+1

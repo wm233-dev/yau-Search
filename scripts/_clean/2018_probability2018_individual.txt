@@ -1,0 +1,64 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Probability and Statistics
+Individual (5 problems)
+Problem 1. A submarine is lost in some ocean. There are two (and only two) possible
+regions: A and B. Experts estimate the probability of being lost in A is 70%. On the
+other hand, for each search, the probability of ﬁnding this submarine is 40% if it is lost
+in A. This number is 80% for region B. Now we have independently searched region A
+4 times and region B once, but still have not found the submarine yet. Now based on
+these informations, which region we should search next? And why?
+Problem 2. A teacher and 12 students sit around a circle. In the beginning the teach
+holds a gift, he will randomly pass it to the left person or right person next to him, so
+as the other students each time. (For the gift, It is like a random walk between these
+people) The rule is that the gift will be eventually given to some student (not teacher)
+if he/she
+is the last student who ever touches the gift.
+Which student(s) have the highest probability to get this gift (i.e., win) ?
+Problem 3. In a party, N people attend, each of them brings k gifts. When they
+leave, each of them randomly picks k gifts. Let X be the total number of gifts which
+are taken back by their owners. Let’s ﬁx k, please ﬁnd the limiting distribution of X
+when N →∞.
+Problem 4. Suppose that a random vector x = (x1, ..., xn)′ ∈Rn(n ≥2) is distributed
+as a multivariate normal distribution N(0, Σ) with the following joint probability den-
+sity function
+f(x) =
+1
+(2π)
+n
+2 det(Σ)
+1
+2 exp
+½
+−1
+2x′Σ−1x
+¾
+, x ∈Rn,
+where Σ is an n × n positive deﬁnite matrix. Let the (i, j) element of Ω= Σ−1 be ωij
+(1 ≤i, j ≤n). For 1 ≤i ̸= j ≤n, show that if ωij = 0, then xi and xj are conditionally
+independent when the other elements of x are given.
+Problem 5. Letx, y be two independent random vectors in Rn (n ≥3). Assume that
+P(y = 0) = 0 and x has a standard multivariate normal distribution, i.e., x ∼N(0, In).
+(a) For any nonzero constant vector a ∈Rn satisfying ||a|| = (a′a)1/2 = 1, prove that
+√
+n −1
+a′x
+p
+||x||2 −(a′x)2 ∼tn−1,
+here tn−1 stands for a t distribution with n −1 degrees of freedom.
+(b) The sample correlation coeﬃcient between x = (x1, ..., xn)′ and y = (y1, ..., yn)′ is
+deﬁned as
+r =
+Pn
+i=1(xi −¯x)(yi −¯y)
+pPn
+i=1(xi −¯x)2pPn
+i=1(yi −¯y)2.
+where ¯x = Pn
+i=1 xi/n, ¯y = Pn
+i=1 yi/n. Show that √n −2
+r
+√
+1−r2 ∼tn−2.
+1

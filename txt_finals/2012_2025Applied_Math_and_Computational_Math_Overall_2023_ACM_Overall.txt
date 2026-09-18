@@ -1,0 +1,38 @@
+
+=== page 1 ===
+Consider the nonlinear Klein-Gordon equation
+ε2∂ttu(x, t) −∂xxu(x, t) + 1
+ε2u(x, t) + f(u(x, t)) = 0,
+0 < x < 1, 0 < t < T,
+u(x, 0) = g0(x),
+∂tu(x, 0) = 1
+ε2g1(x),
+0 ≤x ≤1,
+u(0, t) = u(1, t) = 0,
+0 ≤t ≤T,
+where 0 < ε ≤1 is a given dimensionless constant, f(u) is a function of u and g0(x)
+and g1(x) are given functions, which are all independent of ε.
+1. Define the Hamiltonian (or energy) as
+E(t) :=
+Z 1
+0
+
+ε2 |∂tu|2 + |∂xu|2 + 1
+ε2u2 + F(u)
+
+dx,
+t ≥0,
+where
+F(u) = 2
+Z u
+0
+f(s) ds.
+Show that the Hamiltonian is conserved, i.e.
+E(t) ≡E(0),
+t ≥0.
+2. Construct an explicit second-order (in space and time) finite difference (EXFD)
+method for the problem and find its linear stability.
+3. Construct a second-order (in space and time) finite difference method for the
+problem such that the the Hamiltonian (or energy) is conserved in the dis-
+cretized level and prove it.
+1

@@ -1,0 +1,416 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Team
+Please solve the following 5 problems.
+1. Suppose {fn}∞
+n=1 ∈L2(R) is a sequence that converges to 0 in the L2 norm .
+Prove that there exists a subsequence {fnk} such that fnk →0 almost everywhere.
+2. Let ˆf(ξ) =
+R
+e−ixξf(x)dx be the Fourier transform on Schwartz function f ∈S(R).
+Suppose f ∈S(R) satisﬁes f(2πn) = 0 and ˆf(n) = 0 for all integers n. Prove that
+f = 0.
+3. If f is integrable on Rd, then
+lim
+m(B)→0,x∈B
+1
+m(B)
+Z
+B
+f(y)dy = f(x),
+for a.e. x, B is an open ball centered at x.
+4. Let C[0, 1] = {f : [0, 1] →R| f is continuous} be the space of continuous function
+on [0, 1]. Let ρ(f, g) =
+R 1
+0 |f(x) −g(x)|dx be a metric on [0, 1].
+Show that (C[0, 1], ρ) is not a complete metric vector space.
+Construct a complete metric vector space (W, eρ) such that i : (C[0, 1], ρ) ,→(W, eρ)
+is an isometric embedding such that eρ|C[0,1] = ρ, C[0, 1] = W.
+5. Let Ωbe a simply connected domain in C. Consider a point z0 ∈Ωand solve the
+Dirichlet problem in Ωwith the boundary values log |ζ−z0|. The solution is denoted by
+G(z, z0) and let g(z, z0) = G(z, z0) −log |z −z0|. Let w = f(z) : Ω→D1 = {z||z| < 1}
+be the one to one surjective conformal mapping with f(z0) = 0. Show that
+1) g(z, z0) = −log |f(z)|.
+2) g(z, z0) = g(z0, z). (Hint: Let g(z, z1) = g1, g(z, z2) = g2, calculate the integral
+g1 ∗dg2 −g2 ∗dg1 over the cycle ∂Ω−c1 −c2, where c1, c2 are small circles around
+z1, z2, du = uxdx + uydy, ∗du = −uydx + uxdy.)
+1
+
+=== page 2 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Probability and Statistics
+Team (5 problems)
+Problem 1. Let Xi, 1 ≤i ≤N be i.i.d. random variables. Here X1 is uniformly
+distributed on [0, 1]. We reorder them as
+e
+X1 ≤e
+X2 ≤· · · e
+XN
+a) Let N = 2m −1, and Y = e
+Xm, please ﬁnd the A and B such that
+Y −A
+N B
+has nontrivial distribution, and please ﬁnd this distribution.
+b) Let N = 2m, and Y = e
+Xm −e
+Xm−1, please ﬁnd the A and B such that
+Y −A
+N B
+has nontrivial distribution, and please ﬁnd this distribution.
+Problem 2. Let X = (Z2)N, i.e., X = (X1, X2 · · · , XN · · · ), Xi ∈(0, 1). It can be
+considered as countable lightbulbs. 0 means oﬀ, 1 means on. We start with X0 =
+0. Keep generating independent geometric random variables, whose distribution are
+geom(1/2). Denote them as K1, K2 · · · . Now let Xm (for m ≥1) be as follows
+(Xm −Xm−1)k = 1(k = Km),
+Z2
+i.e, in the m −th turn, we only change the status of the Km−th light bulb. Then what
+is the probability of all lights being oﬀagain, i.e.,
+P (∃m > 1,
+Xm = 0)
+Problem 3. Let x1, x2, . . . , xn be d-dimensional vectors of real numbers with n suﬃ-
+ciently large but the exact value is not of importance.
+A function of µ is deﬁned to be
+ℓ(µ) = sup{
+n
+X
+i=1
+log pi :
+n
+X
+i=1
+pixi = µ;
+n
+X
+i=1
+pi = 1, p1 > 0, . . . , pn > 0}
+on the space of the interior of the convex hull of x1, . . . , xn.
+(a) Show that this is a concave function of µ on the convex hull.
+(b) Let ¯x = n−1 Pn
+i=1 xi. Let a be a vector of length d. Prove that ℓ(¯x + ta) is a
+decreasing function of t when t > 0.
+1
+
+=== page 3 ===
+Problem 4. Consider the histogram estimator, deﬁned as follows. We observe iid
+random variables X1, . . . , Xn, taking values in [0, 1] according to the distribution with
+PDF f (assuming it is suﬃciently smooth). Deﬁne bins
+B1 =
+·
+0, 1
+m
+¶
+, B2 =
+· 1
+m, 2
+m
+¶
+, . . . , Bm =
+·m −1
+m
+, 1
+¸
+Let h = 1/m, vj be the number of observations in bin Bj, and deﬁne ˆpj = vj/n and
+pj =
+R
+Bj f(u)du. Then the histogram estimator of the density f is
+ˆfn(x) =
+m
+X
+j=1
+ˆpj
+h I{x ∈Bj}
+1. Find the (exact) mean and variance of ˆfn(x).
+2. Explain why increasing the number of bins decreases the bias of ˆfn(x).
+3. If our goal is to minimize the mean-squared error
+MSE = E
+·Z
+(f(x) −ˆfn(x))2dx
+¸
+,
+please give some advice on how to choose m.
+Problem 5. Let Xi ∼N(θi, 1) independently for i = 1, . . . , k. We are interested in
+estimating τ = θ2
+1 + · · · + θ2
+k given observations X1, . . . , Xk.
+1. A possible estimator of τ is ˜τ = Pk
+i=1 X2
+i −k. Show that it is unbiased and
+compute its sampling variance.
+2. Now assume the proper prior θi ∼N(0, A), independently for i = 1, . . . , k and
+a given A > 0. Since A is unknown, please provide an estimator ˆA of A and
+also derive the empirical Bayes estimator of τ, denoted as ˆτB. (Hint: ˆτB = E(τ |
+X1, . . . , Xk, ˆA)).
+3. How do you compare the two estimators, ˜τ and ˆτB?
+2
+
+=== page 4 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Geometry and Topology
+Team
+Please solve 5 out of the following 6 problems.
+1. Let X be (S2 × S2) ∪S2 D3, where we attach the 3-disk via the map
+S2 →S2 ∨S2
+which crushes a great circle connecting the north and south poles. Compute the ho-
+mology groups of X.
+2. (a) Let A be a single circle in R3. Compute the fundamental group π1(R3 −A).
+(b) Let A and B be disjoint circles in R3, supported in the upper and lower half
+space, respectively. Compute π1(R3 −(A ∪B)).
+3. Consider the diﬀerential 1-form ω = xdy −ydx+dz in R3 with coordinates (x, y, z).
+Prove that fω is not closed for any nowhere zero function f : R3 →R.
+4. Show that
+Qn := {(x1, · · · , xn+1) ∈Rn+1;
+n+1
+X
+i=1
+(xi)4 = 1}
+is a diﬀerentiable manifold.
+5. Let M be a closed surface in R3. Prove that
+Z
+M
+|K|dσ ≥4π(1 + g),
+where K, g and dσ is the Gaussian curvature, the genus and the area element of M,
+respectively.
+6. Let M be an n-dimensional compact and simply connnected Riemannian manifold.
+If the sectional curvature KM of M satisﬁes
+1
+4 < KM ≤1,
+then M is homeomorphic to Sn.
+1
+
+=== page 5 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Algebra and Number Theory
+Team
+This test has 5 problems and is worth 100 points. Carefully justify your answers.
+Problem 1 (20 points). Recall that a ring E is said to be local if for every u ∈E,
+at least one of the elements u and 1 −u is invertible. Let R be a ring and let M be
+an R-module.
+(a) (8 points) Show that if EndR(M) is a local ring, then M is indecomposable.
+(b) (12 points) Assume M indecomposable and of ﬁnite length. Prove the Fitting
+lemma: Every endomorphism u of M is either invertible or nilpotent. Deduce
+that EndR(M) is a local ring.
+Problem 2 (20 points).
+(a) (6 points) Let n ≥2 be an integer. Show that there exists an integer m with
+1 ≤m ≤n −1 such that the binomial coeﬃcient
+n
+m
+
+satisﬁes
+n
+m
+
+≥2n/n.
+(b) (6 points) Let 0 ≤m ≤n be integers with n ≥1. Show that for every prime
+number p,
+vp
+  n
+m
+!!
+≤logp(n)
+Here vp is the p-adic valuation: vp(pab) = a for integers b prime to p and a ≥0.
+(c) (8 points) Let n ≥2 be an integer and let π(n) denote the number of prime
+numbers p ≤n. Deduce the following inequality of Chebyshev:
+π(n) ≥
+n
+log2 n −1.
+Problem 3 (20 points). Let n ≥1 be an integer and let Φn(X) ∈Q[X] denote the
+n-th cyclotomic polynomial, i.e.
+Φn(X) :=
+Y
+ξ
+(X −ξ),
+where ξ runs through primitive n-th roots of unity in C. Recall that Xn −1 =
+Q
+d|n Φd(X) and Φn(X) belongs to Z[X]. Let p be a prime number such that p ∤n.
+Denote by Φn the residue class of Φn in Fp[X]. Prove the following statements:
+(a) (8 points) The roots of Φn = 0 in the algebraic closure Fp of Fp are exactly
+the primitive n-th roots of 1 in Fp.
+(b) (12 points) Φn is irreducible in Fp[X] if and only if (Z/nZ)× is a cyclic group
+generated by the class of p.
+Page 1 of 2
+
+=== page 6 ===
+Problem 4 (20 points). Let G be a ﬁnite group. Let V be a ﬁnite-dimensional
+complex representation of G and let χ: V →C be the associated character.
+(a) (8 points) Show that there exists a subﬁeld L ⊆C containing the image of χ
+such that L/Q is a ﬁnite Galois extension. Show moreover that
+B(χ) =
+Y
+σ∈Gal(L/Q)
+Y
+g∈G
+σ(χ(g))
+belongs to Z.
+(b) (12 points) Suppose that χ is irreducible and dim(V ) ≥2. Show that there
+exists g ∈G with χ(g) = 0. (Hint. One may apply the inequality of arithmetic
+and geometric means to |B(χ)|2.)
+Problem 5 (20 points). Let F be a ﬁeld, V an F-vector space of dimension d and
+W ⊆V a subspace. Let f : W →V be an F-linear map. Assume that the only
+subspace W ′ ⊆W such that f(W ′) ⊆W ′ is {0}.
+(a) (6 points) Let v ∈V be a non-zero vector. Show that there exists a unique
+integer k(v) ≥0 such that v, f(v), f 2(v), . . . , f k(v)−1(v) ∈W but f k(v)(v) /∈W.
+Show moreover that v, f(v), . . . , f k(v)(v) are linearly independent over F.
+(b) (14 points) Prove that given λ1, . . . , λd ∈F, there exists an F-linear extension
+of f to ˜f : V →V such that the characteristic polynomial of ˜f is
+Qd
+i=1(λ−λi).
+(Hint. You may ﬁrst treat the special case V =
+Lk(v)
+i=0 Ff i(v). For the general
+case, consider the subset Wn ⊆V of vectors v ∈V with k(v) ≥n or v = 0.)
+Page 2 of 2
+
+=== page 7 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Applied Math. and Computational Math.
+Team (5 problems)
+1. Let H be a bipartite graph with the bipartition V = V1 ∪V2, where |V1| = |V2| = n.
+We say that H satisﬁes the (p, q)-condition if (i) for all subsets I ⊆V1 of cardinality at
+most p, the inequality |I| ≤|N(I)| holds, and (ii) for all subsets J ⊆V2 of cardinality
+at most q, the inequality |J| ≤|N(J)| holds. Note that the (n, 0)-condition is Hall’s
+original condition in his marriage theorem.
+Prove that if H satisﬁes the (p, q)-condition with n ≤p + q, then H contains a
+matching of size n.
+2. Let Cn be the n dimensional hypercube, i.e., the graph whose vertex set V is {0, 1}n,
+and whose edges are deﬁned by: two vertices u = u1u2 . . . un and v = v1v2 . . . vn are
+adjacent iﬀui ̸= vi for exactly one i ∈[n]. Let R[V ] be the vector space of all the
+functions f : V →R. The space R[V ] has a natural inner product. For f, g ∈R[V ],
+< f, g >=
+X
+u∈{0,1}n
+f(u)g(u).
+The standard basis of R[V ] is the set {fu : u ∈{0, 1}n} where fu(v) = δu,v, the
+Kronecker delta, for u, v ∈{0, 1}n. Denote by B1 the standard basis.
+(1) For any two vertices u, v ∈{0, 1}n, u · v is deﬁned to be P
+i uivi. For each
+u ∈{0, 1}n, deﬁne a function χu ∈R[V ] by letting
+χu(v) = (−1)u·v.
+Prove that the set {χu : u ∈{0, 1}n} is orthogonal with respect to the inner
+product of R[V ], i.e.,
+< χu, χv >= δu,v2n,
+for all u, v ∈{0, 1}n.
+(2) Prove that the set {χu : u ∈{0, 1}n} forms a basis of the vector space R[V ].
+Denoted by B2 this basis.
+(3) For 1 ≤i ≤n, let ei = (0, . . . , 0, 1, 0, . . . , 0) ∈{0, 1}n where the only 1 occurs
+in position i. Let S = {e1, e2, . . . , en}.
+Deﬁne a linear transformation Φ : R[V ] →R[V ] as follows. For f ∈R[V ],
+Φf is the element in R[V ] which is given by
+(Φf)(v) =
+X
+ei∈S
+f(v + ei)
+where v + ei is the usual vector addition modulo 2.
+Prove that the matrix of Φ with respect to the standard basis B1 is just
+A(Cn), the adjacency matrix of the hypercube Cn.
+1
+
+=== page 8 ===
+2
+(4) Prove that Φχu = λuχu for each u ∈{0, 1}n, where
+λu =
+X
+e∈S
+(−1)u·e = n −2|u|,
+where |u| is the number of 1’s in u = u1u2 . . . un.
+(5) Compute the eigenvalues of the matrix A(Cn).
+3. Let A ∈Rn×n, and assume that there are unitary matrix Q and diagonal matrix
+D = diag(λ1, · · · , λn) such that A = QDQ∗. Let Ek be the space spanned by the ﬁrst
+k columns of Q. We let
+bP =
+µ
+Ik
+0
+¶
+,
+P = Q bPQ∗
+where Ik is the k × k identity matrix.
+(1) Show that P is an orthogonal projection onto Ek.
+(2) Assume that
+|λ1| ≥· · · ≥|λk| > |λk+1| ≥· · · ≥|λn|.
+Let X(0) ∈Rn×k and assume PX(0) is injective. We deﬁne the iterations
+X(m+1) = AX(m).
+Show that there is a matrix Λ ∈Rk×k such that
+∥(AX(m) −X(m)Λ)y∥
+∥PX(m)y∥
+≤
+³|λk+1|
+|λk|
+´m∥(AX(0) −X(0)Λ)y∥
+∥PX(0)y∥
+,
+∀y ∈Rk\{0}.
+4. For the one-way equation
+(1)
+ut + aux = f,
+consider the multistep scheme given by
+(2)
+3un+1
+m
+−4un
+m + un−1
+m
+2k
++ aun+1
+m+1 −un+1
+m−1
+2h
+= f n+1
+m
+.
+(1) Show that the scheme is second order accurate.
+(2) Show that the scheme is unconditionally stable.
+(Hint: (i) apply von Neumann analysis to the scheme with f ≡0 and ﬁnd
+the characteristic polynomial.
+(ii) show that for all k, h, the characteristic
+polynomial satisﬁes the root condition: all roots reside in the unit disk, and
+all roots on the unit circle are simple. (iii) for a root r of the characteristic
+polynomial, it would be more convenient to study the form 1
+r = X + iY and
+prove that X2 + Y 2 ≥1.)
+
+=== page 9 ===
+3
+5. For a convex function f : D →R, where D ⊆Rn is convex and open, deﬁne a
+subgradient of f at x0 ∈D to be any vector s ∈Rn such that
+f(x) −f(x0) ≥s · (x −x0)
+for all x ∈D. The subgradient is a plausible choice for generalizing the notion of a
+gradient at a point where f is not diﬀerentiable. The subdiﬀerential ∂f(x0) is the set
+of all subgradients of f at x0.
+(1) What is ∂f(0) for the function f(x) = |x|.
+(2) Suppose we wish to minimize a convex and continuous function f : Rn →
+R, which may not diﬀerentiable everywhere. Propose an optimality condition
+involving subdiﬀerential for a point x∗to be a minimizer of f. Show that your
+condition holds if and only if x∗is a globally minimizer f.
+(3) The subgradient method extends the gradient descent to a wider class of func-
+tions. Analogously to the gradient descent, the subgradient method performs
+the iteration
+xk+1 = xk −αgk,
+where α > 0 is small stepsize that is known as the learning rate, and gk is any
+subgradient of f at xk. This method might not decrease f in each iteration, so
+instead we keep track of the best iterate we have seen so far, xbest
+k
+.
+In the following parts, assume that f is Lipschitz continuous with constant
+L > 0, ∥x1 −x∗∥2 ≤B for some B > 0. Under these assumptions we will show
+that
+(3)
+lim
+k→∞f(xbest
+k
+) ≤f(x∗) + L2
+2 α,
+a bound characterizing convergence of the subgradient method.
+(a) Derive an upper bound for the error ∥xk+1 −x∗∥2
+2 of xk+1 in terms of
+∥xk −x∗∥2
+2, gk, α, f(xk) and f(x∗).
+(b) By recursively applying the result from Problem 3a, provide an upper
+bound for ∥xk+1 −x∗∥2
+2.
+(c) Incorporate f(xbest
+k
+) into your upper bound in Problem 3b, and take a limit
+as k →∞to obtain the desired convergence result (3).
+(d) Suggest a best choice of the learning rate α.

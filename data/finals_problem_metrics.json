@@ -1,0 +1,2026 @@
+{
+ "finals_rows": [
+  {
+   "file": "2012 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2012",
+   "kind": "Individual",
+   "curated": 7,
+   "auto": 7,
+   "probs": [
+    {
+     "words": 37,
+     "chars": 190,
+     "subparts": 2,
+     "symbols": 5,
+     "diff_len_only": 2.36
+    },
+    {
+     "words": 51,
+     "chars": 270,
+     "subparts": 4,
+     "symbols": 0,
+     "diff_len_only": 2.82
+    },
+    {
+     "words": 6,
+     "chars": 36,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.04
+    },
+    {
+     "words": 10,
+     "chars": 53,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.06
+    },
+    {
+     "words": 25,
+     "chars": 132,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.16
+    },
+    {
+     "words": 18,
+     "chars": 103,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.11
+    },
+    {
+     "words": 26,
+     "chars": 132,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.19
+    }
+   ]
+  },
+  {
+   "file": "2013 Geometry (Individual&Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2013",
+   "kind": "Individual",
+   "curated": 7,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 8,
+     "chars": 36,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.05
+    },
+    {
+     "words": 24,
+     "chars": 170,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.15
+    },
+    {
+     "words": 57,
+     "chars": 405,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.36
+    },
+    {
+     "words": 9,
+     "chars": 62,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.06
+    }
+   ]
+  },
+  {
+   "file": "2015 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2015",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 57,
+     "chars": 312,
+     "subparts": 0,
+     "symbols": 10,
+     "diff_len_only": 1.61
+    },
+    {
+     "words": 13,
+     "chars": 61,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.11
+    },
+    {
+     "words": 13,
+     "chars": 82,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.11
+    }
+   ]
+  },
+  {
+   "file": "2016 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2016",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 37,
+     "chars": 227,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.23
+    },
+    {
+     "words": 24,
+     "chars": 128,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.15
+    },
+    {
+     "words": 13,
+     "chars": 66,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.08
+    },
+    {
+     "words": 48,
+     "chars": 257,
+     "subparts": 3,
+     "symbols": 5,
+     "diff_len_only": 2.92
+    }
+   ]
+  },
+  {
+   "file": "2017 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2017",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 11,
+     "chars": 63,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.09
+    },
+    {
+     "words": 31,
+     "chars": 195,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.22
+    },
+    {
+     "words": 38,
+     "chars": 196,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.26
+    },
+    {
+     "words": 432,
+     "chars": 2408,
+     "subparts": 15,
+     "symbols": 7,
+     "diff_len_only": 4.67
+    }
+   ]
+  },
+  {
+   "file": "2018 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2018",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 36,
+     "chars": 190,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.23
+    },
+    {
+     "words": 83,
+     "chars": 414,
+     "subparts": 0,
+     "symbols": 3,
+     "diff_len_only": 1.59
+    },
+    {
+     "words": 20,
+     "chars": 118,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.12
+    },
+    {
+     "words": 41,
+     "chars": 243,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.31
+    }
+   ]
+  },
+  {
+   "file": "2019 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2019",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 1,
+   "probs": [
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2020 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2020",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 68,
+     "chars": 336,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.43
+    },
+    {
+     "words": 42,
+     "chars": 237,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.26
+    },
+    {
+     "words": 87,
+     "chars": 447,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.54
+    }
+   ]
+  },
+  {
+   "file": "2021 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2021",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 31,
+     "chars": 199,
+     "subparts": 0,
+     "symbols": 4,
+     "diff_len_only": 1.29
+    },
+    {
+     "words": 44,
+     "chars": 254,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.32
+    },
+    {
+     "words": 55,
+     "chars": 301,
+     "subparts": 3,
+     "symbols": 1,
+     "diff_len_only": 2.87
+    },
+    {
+     "words": 88,
+     "chars": 456,
+     "subparts": 0,
+     "symbols": 3,
+     "diff_len_only": 1.62
+    }
+   ]
+  },
+  {
+   "file": "2022 Geometry (Individual&Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2022",
+   "kind": "Individual",
+   "curated": 5,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 50,
+     "chars": 236,
+     "subparts": 2,
+     "symbols": 3,
+     "diff_len_only": 2.39
+    },
+    {
+     "words": 11,
+     "chars": 80,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.07
+    },
+    {
+     "words": 77,
+     "chars": 503,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.51
+    }
+   ]
+  },
+  {
+   "file": "2023 Geometry (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2023",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 14,
+     "chars": 67,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.11
+    },
+    {
+     "words": 35,
+     "chars": 225,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.27
+    },
+    {
+     "words": 34,
+     "chars": 217,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.24
+    },
+    {
+     "words": 174,
+     "chars": 905,
+     "subparts": 0,
+     "symbols": 6,
+     "diff_len_only": 2.24
+    }
+   ]
+  },
+  {
+   "file": "2024 GeomTop (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2024",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 29,
+     "chars": 144,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.21
+    },
+    {
+     "words": 103,
+     "chars": 588,
+     "subparts": 2,
+     "symbols": 2,
+     "diff_len_only": 2.69
+    },
+    {
+     "words": 85,
+     "chars": 406,
+     "subparts": 2,
+     "symbols": 4,
+     "diff_len_only": 2.63
+    },
+    {
+     "words": 68,
+     "chars": 378,
+     "subparts": 2,
+     "symbols": 4,
+     "diff_len_only": 2.52
+    }
+   ]
+  },
+  {
+   "file": "2025 GeomTop (Individual).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2025",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 44,
+     "chars": 255,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.27
+    },
+    {
+     "words": 116,
+     "chars": 675,
+     "subparts": 3,
+     "symbols": 13,
+     "diff_len_only": 3.55
+    },
+    {
+     "words": 25,
+     "chars": 155,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.18
+    },
+    {
+     "words": 38,
+     "chars": 227,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.26
+    }
+   ]
+  },
+  {
+   "file": "2015 Geometry(Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2015",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 34,
+     "chars": 172,
+     "subparts": 2,
+     "symbols": 4,
+     "diff_len_only": 2.31
+    },
+    {
+     "words": 58,
+     "chars": 306,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.39
+    }
+   ]
+  },
+  {
+   "file": "2016 Geometry(Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2016",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 57,
+     "chars": 303,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.36
+    },
+    {
+     "words": 16,
+     "chars": 92,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.1
+    }
+   ]
+  },
+  {
+   "file": "2017 Geometry (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2017",
+   "kind": "Overall",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 101,
+     "chars": 553,
+     "subparts": 4,
+     "symbols": 3,
+     "diff_len_only": 3.21
+    },
+    {
+     "words": 59,
+     "chars": 333,
+     "subparts": 3,
+     "symbols": 0,
+     "diff_len_only": 2.87
+    },
+    {
+     "words": 30,
+     "chars": 165,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.21
+    }
+   ]
+  },
+  {
+   "file": "2018 Geometry (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2018",
+   "kind": "Overall",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 61,
+     "chars": 323,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.38
+    },
+    {
+     "words": 12,
+     "chars": 73,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.07
+    },
+    {
+     "words": 33,
+     "chars": 207,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.21
+    }
+   ]
+  },
+  {
+   "file": "2019Geometry (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2019",
+   "kind": "Overall",
+   "curated": 3,
+   "auto": 1,
+   "probs": [
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2020 Geometry (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2020",
+   "kind": "Overall",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 106,
+     "chars": 560,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.66
+    },
+    {
+     "words": 48,
+     "chars": 288,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.3
+    },
+    {
+     "words": 114,
+     "chars": 624,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.71
+    }
+   ]
+  },
+  {
+   "file": "2021 Geometry (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2021",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 53,
+     "chars": 286,
+     "subparts": 0,
+     "symbols": 4,
+     "diff_len_only": 1.43
+    },
+    {
+     "words": 43,
+     "chars": 221,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.29
+    }
+   ]
+  },
+  {
+   "file": "2023 Geometry (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2023",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 24,
+     "chars": 158,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.15
+    },
+    {
+     "words": 83,
+     "chars": 400,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.52
+    }
+   ]
+  },
+  {
+   "file": "2024 GeomTop (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2024",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 129,
+     "chars": 709,
+     "subparts": 3,
+     "symbols": 0,
+     "diff_len_only": 3.31
+    },
+    {
+     "words": 15,
+     "chars": 108,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.09
+    }
+   ]
+  },
+  {
+   "file": "2025 GeomTop (Overall).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2025",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 37,
+     "chars": 172,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.26
+    },
+    {
+     "words": 63,
+     "chars": 313,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.42
+    }
+   ]
+  },
+  {
+   "file": "2015 Geometry (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2015",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 15,
+     "chars": 86,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.12
+    },
+    {
+     "words": 9,
+     "chars": 51,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.06
+    },
+    {
+     "words": 12,
+     "chars": 68,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.07
+    }
+   ]
+  },
+  {
+   "file": "2016 Geometry (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2016",
+   "kind": "Team",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 41,
+     "chars": 196,
+     "subparts": 2,
+     "symbols": 2,
+     "diff_len_only": 2.31
+    },
+    {
+     "words": 22,
+     "chars": 109,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.16
+    },
+    {
+     "words": 29,
+     "chars": 142,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.21
+    },
+    {
+     "words": 55,
+     "chars": 311,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.39
+    }
+   ]
+  },
+  {
+   "file": "2017 Geometry (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2017",
+   "kind": "Team",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 38,
+     "chars": 200,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.24
+    },
+    {
+     "words": 34,
+     "chars": 210,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.21
+    },
+    {
+     "words": 26,
+     "chars": 119,
+     "subparts": 1,
+     "symbols": 0,
+     "diff_len_only": 1.66
+    },
+    {
+     "words": 95,
+     "chars": 475,
+     "subparts": 3,
+     "symbols": 3,
+     "diff_len_only": 3.17
+    }
+   ]
+  },
+  {
+   "file": "2018 Geometry (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2018",
+   "kind": "Team",
+   "curated": 5,
+   "auto": 5,
+   "probs": [
+    {
+     "words": 13,
+     "chars": 91,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.08
+    },
+    {
+     "words": 107,
+     "chars": 547,
+     "subparts": 0,
+     "symbols": 3,
+     "diff_len_only": 1.74
+    },
+    {
+     "words": 19,
+     "chars": 114,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.12
+    },
+    {
+     "words": 18,
+     "chars": 101,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.11
+    },
+    {
+     "words": 47,
+     "chars": 274,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.32
+    }
+   ]
+  },
+  {
+   "file": "2019Geometry (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2019",
+   "kind": "Team",
+   "curated": 4,
+   "auto": 1,
+   "probs": [
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2023 Geometry2023-团体赛.pdf",
+   "subj": "Geometry & Topology",
+   "year": "2023",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 19,
+     "chars": 114,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.14
+    },
+    {
+     "words": 28,
+     "chars": 183,
+     "subparts": 0,
+     "symbols": 5,
+     "diff_len_only": 1.3
+    },
+    {
+     "words": 38,
+     "chars": 177,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.24
+    }
+   ]
+  },
+  {
+   "file": "2024 GeomTop (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2024",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 60,
+     "chars": 315,
+     "subparts": 3,
+     "symbols": 4,
+     "diff_len_only": 2.98
+    },
+    {
+     "words": 78,
+     "chars": 465,
+     "subparts": 0,
+     "symbols": 7,
+     "diff_len_only": 1.66
+    },
+    {
+     "words": 54,
+     "chars": 316,
+     "subparts": 2,
+     "symbols": 2,
+     "diff_len_only": 2.39
+    }
+   ]
+  },
+  {
+   "file": "2025 GeomTop (Team).pdf",
+   "subj": "Geometry & Topology",
+   "year": "2025",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 22,
+     "chars": 119,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.14
+    },
+    {
+     "words": 158,
+     "chars": 947,
+     "subparts": 3,
+     "symbols": 9,
+     "diff_len_only": 3.71
+    },
+    {
+     "words": 148,
+     "chars": 837,
+     "subparts": 4,
+     "symbols": 11,
+     "diff_len_only": 3.7
+    }
+   ]
+  },
+  {
+   "file": "2012 Probability (1).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2012",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 8,
+   "probs": [
+    {
+     "words": 54,
+     "chars": 393,
+     "subparts": 3,
+     "symbols": 3,
+     "diff_len_only": 2.91
+    },
+    {
+     "words": 123,
+     "chars": 743,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.77
+    },
+    {
+     "words": 79,
+     "chars": 539,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.49
+    },
+    {
+     "words": 208,
+     "chars": 1427,
+     "subparts": 4,
+     "symbols": 14,
+     "diff_len_only": 4.15
+    },
+    {
+     "words": 268,
+     "chars": 1572,
+     "subparts": 6,
+     "symbols": 24,
+     "diff_len_only": 4.77
+    },
+    {
+     "words": 277,
+     "chars": 1784,
+     "subparts": 4,
+     "symbols": 14,
+     "diff_len_only": 4.58
+    },
+    {
+     "words": 19,
+     "chars": 109,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.12
+    },
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2012 Probability (2).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2012",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 8,
+   "probs": [
+    {
+     "words": 254,
+     "chars": 1544,
+     "subparts": 4,
+     "symbols": 4,
+     "diff_len_only": 4.19
+    },
+    {
+     "words": 111,
+     "chars": 676,
+     "subparts": 3,
+     "symbols": 2,
+     "diff_len_only": 3.24
+    },
+    {
+     "words": 244,
+     "chars": 1551,
+     "subparts": 2,
+     "symbols": 3,
+     "diff_len_only": 3.6
+    },
+    {
+     "words": 64,
+     "chars": 400,
+     "subparts": 1,
+     "symbols": 0,
+     "diff_len_only": 1.9
+    },
+    {
+     "words": 136,
+     "chars": 860,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.88
+    },
+    {
+     "words": 171,
+     "chars": 1042,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 3.09
+    },
+    {
+     "words": 38,
+     "chars": 234,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.24
+    },
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2015 Probability (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2015",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 11,
+     "chars": 152,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.09
+    },
+    {
+     "words": 6,
+     "chars": 56,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.04
+    },
+    {
+     "words": 12,
+     "chars": 42,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.12
+    }
+   ]
+  },
+  {
+   "file": "2016 Probability (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2016",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 25,
+     "chars": 169,
+     "subparts": 0,
+     "symbols": 5,
+     "diff_len_only": 1.28
+    },
+    {
+     "words": 30,
+     "chars": 191,
+     "subparts": 0,
+     "symbols": 3,
+     "diff_len_only": 1.26
+    },
+    {
+     "words": 68,
+     "chars": 335,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.43
+    }
+   ]
+  },
+  {
+   "file": "2017 Probability (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2017",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 33,
+     "chars": 188,
+     "subparts": 0,
+     "symbols": 5,
+     "diff_len_only": 1.33
+    },
+    {
+     "words": 49,
+     "chars": 278,
+     "subparts": 0,
+     "symbols": 5,
+     "diff_len_only": 1.43
+    },
+    {
+     "words": 54,
+     "chars": 347,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.34
+    }
+   ]
+  },
+  {
+   "file": "2018 Probability and Statistics (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2018",
+   "kind": "Individual",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 80,
+     "chars": 533,
+     "subparts": 3,
+     "symbols": 4,
+     "diff_len_only": 3.1
+    },
+    {
+     "words": 77,
+     "chars": 441,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.48
+    }
+   ]
+  },
+  {
+   "file": "2019 prob-individual.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2019",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 25,
+     "chars": 115,
+     "subparts": 0,
+     "symbols": 6,
+     "diff_len_only": 1.31
+    },
+    {
+     "words": 90,
+     "chars": 427,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.56
+    },
+    {
+     "words": 113,
+     "chars": 484,
+     "subparts": 0,
+     "symbols": 17,
+     "diff_len_only": 2.13
+    }
+   ]
+  },
+  {
+   "file": "2019 stat-individual.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2019",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 57,
+     "chars": 317,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.36
+    },
+    {
+     "words": 255,
+     "chars": 1593,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 2.59
+    },
+    {
+     "words": 103,
+     "chars": 579,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.64
+    }
+   ]
+  },
+  {
+   "file": "2020 Probability and Statistics (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2020",
+   "kind": "Individual",
+   "curated": 6,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 178,
+     "chars": 1072,
+     "subparts": 6,
+     "symbols": 4,
+     "diff_len_only": 3.71
+    },
+    {
+     "words": 177,
+     "chars": 1041,
+     "subparts": 4,
+     "symbols": 13,
+     "diff_len_only": 3.93
+    }
+   ]
+  },
+  {
+   "file": "2021 Probability (Individual) (Solutions).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2021",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 5,
+   "probs": [
+    {
+     "words": 112,
+     "chars": 657,
+     "subparts": 0,
+     "symbols": 24,
+     "diff_len_only": 2.3
+    },
+    {
+     "words": 290,
+     "chars": 1422,
+     "subparts": 8,
+     "symbols": 50,
+     "diff_len_only": 5.31
+    },
+    {
+     "words": 484,
+     "chars": 2552,
+     "subparts": 2,
+     "symbols": 42,
+     "diff_len_only": 5.0
+    },
+    {
+     "words": 159,
+     "chars": 865,
+     "subparts": 0,
+     "symbols": 21,
+     "diff_len_only": 2.52
+    },
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2022 Probability (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2022",
+   "kind": "Individual",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 25,
+     "chars": 145,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.21
+    },
+    {
+     "words": 20,
+     "chars": 112,
+     "subparts": 0,
+     "symbols": 5,
+     "diff_len_only": 1.25
+    },
+    {
+     "words": 109,
+     "chars": 647,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.68
+    }
+   ]
+  },
+  {
+   "file": "2023 Prob Stat (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2023",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 51,
+     "chars": 307,
+     "subparts": 3,
+     "symbols": 3,
+     "diff_len_only": 2.89
+    },
+    {
+     "words": 40,
+     "chars": 242,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.3
+    },
+    {
+     "words": 82,
+     "chars": 486,
+     "subparts": 2,
+     "symbols": 5,
+     "diff_len_only": 2.64
+    },
+    {
+     "words": 43,
+     "chars": 299,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.27
+    }
+   ]
+  },
+  {
+   "file": "2024 Prob Stat (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2024",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 44,
+     "chars": 246,
+     "subparts": 2,
+     "symbols": 6,
+     "diff_len_only": 2.42
+    },
+    {
+     "words": 70,
+     "chars": 395,
+     "subparts": 2,
+     "symbols": 1,
+     "diff_len_only": 2.46
+    },
+    {
+     "words": 61,
+     "chars": 320,
+     "subparts": 3,
+     "symbols": 8,
+     "diff_len_only": 3.08
+    },
+    {
+     "words": 99,
+     "chars": 556,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.64
+    }
+   ]
+  },
+  {
+   "file": "2025 Prob Stat (Individual).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2025",
+   "kind": "Individual",
+   "curated": 4,
+   "auto": 4,
+   "probs": [
+    {
+     "words": 177,
+     "chars": 976,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 2.13
+    },
+    {
+     "words": 174,
+     "chars": 1027,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 2.09
+    },
+    {
+     "words": 112,
+     "chars": 608,
+     "subparts": 0,
+     "symbols": 4,
+     "diff_len_only": 1.8
+    },
+    {
+     "words": 78,
+     "chars": 513,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.49
+    }
+   ]
+  },
+  {
+   "file": "2015 Probability (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2015",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 12,
+     "chars": 114,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.12
+    },
+    {
+     "words": 11,
+     "chars": 86,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.09
+    }
+   ]
+  },
+  {
+   "file": "2016 Probability (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2016",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 0,
+   "probs": []
+  },
+  {
+   "file": "2017 Probability (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2017",
+   "kind": "Overall",
+   "curated": 1,
+   "auto": 1,
+   "probs": [
+    {
+     "words": 57,
+     "chars": 310,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.41
+    }
+   ]
+  },
+  {
+   "file": "2018 Probability and Statistics (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2018",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 54,
+     "chars": 304,
+     "subparts": 3,
+     "symbols": 1,
+     "diff_len_only": 2.86
+    },
+    {
+     "words": 86,
+     "chars": 532,
+     "subparts": 5,
+     "symbols": 3,
+     "diff_len_only": 3.11
+    }
+   ]
+  },
+  {
+   "file": "2019 Stat-personal-overall.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2019",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 69,
+     "chars": 443,
+     "subparts": 0,
+     "symbols": 5,
+     "diff_len_only": 1.56
+    },
+    {
+     "words": 38,
+     "chars": 198,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.24
+    },
+    {
+     "words": 92,
+     "chars": 577,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.62
+    }
+   ]
+  },
+  {
+   "file": "2019 prob-personal-overall.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2019",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 36,
+     "chars": 219,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.25
+    },
+    {
+     "words": 24,
+     "chars": 90,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.2
+    }
+   ]
+  },
+  {
+   "file": "2020 Probability and Statistics (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2020",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 0,
+   "probs": []
+  },
+  {
+   "file": "2021 Probability (Overall) (S).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2021",
+   "kind": "Overall",
+   "curated": 0,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 165,
+     "chars": 897,
+     "subparts": 7,
+     "symbols": 14,
+     "diff_len_only": 3.88
+    },
+    {
+     "words": 208,
+     "chars": 1279,
+     "subparts": 3,
+     "symbols": 24,
+     "diff_len_only": 4.4
+    },
+    {
+     "words": 0,
+     "chars": 0,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.0
+    }
+   ]
+  },
+  {
+   "file": "2022 Probability (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2022",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 47,
+     "chars": 293,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.29
+    },
+    {
+     "words": 103,
+     "chars": 529,
+     "subparts": 2,
+     "symbols": 11,
+     "diff_len_only": 2.92
+    }
+   ]
+  },
+  {
+   "file": "2023 Prob Stat (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2023",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 16,
+     "chars": 91,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.1
+    },
+    {
+     "words": 101,
+     "chars": 614,
+     "subparts": 5,
+     "symbols": 2,
+     "diff_len_only": 3.18
+    }
+   ]
+  },
+  {
+   "file": "2024 Prob Stat (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2024",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 61,
+     "chars": 382,
+     "subparts": 3,
+     "symbols": 0,
+     "diff_len_only": 2.88
+    },
+    {
+     "words": 50,
+     "chars": 345,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.31
+    }
+   ]
+  },
+  {
+   "file": "2025 Prob Stat (Overall).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2025",
+   "kind": "Overall",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 138,
+     "chars": 772,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.89
+    },
+    {
+     "words": 21,
+     "chars": 119,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.18
+    }
+   ]
+  },
+  {
+   "file": "2015 Probability (Team).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2015",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 14,
+     "chars": 117,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.11
+    },
+    {
+     "words": 9,
+     "chars": 52,
+     "subparts": 0,
+     "symbols": 4,
+     "diff_len_only": 1.16
+    },
+    {
+     "words": 8,
+     "chars": 134,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.05
+    }
+   ]
+  },
+  {
+   "file": "2016 Probability (Team).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2016",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 0,
+   "probs": []
+  },
+  {
+   "file": "2017 Probability (Team).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2017",
+   "kind": "Team",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 43,
+     "chars": 230,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.27
+    },
+    {
+     "words": 124,
+     "chars": 661,
+     "subparts": 0,
+     "symbols": 4,
+     "diff_len_only": 1.88
+    }
+   ]
+  },
+  {
+   "file": "2018 Probability and Statistics-team.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2018",
+   "kind": "Team",
+   "curated": 2,
+   "auto": 2,
+   "probs": [
+    {
+     "words": 26,
+     "chars": 168,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.16
+    },
+    {
+     "words": 181,
+     "chars": 1116,
+     "subparts": 5,
+     "symbols": 2,
+     "diff_len_only": 3.68
+    }
+   ]
+  },
+  {
+   "file": "2019 prob-team.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2019",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 153,
+     "chars": 849,
+     "subparts": 0,
+     "symbols": 12,
+     "diff_len_only": 2.26
+    },
+    {
+     "words": 56,
+     "chars": 329,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.38
+    },
+    {
+     "words": 52,
+     "chars": 284,
+     "subparts": 0,
+     "symbols": 3,
+     "diff_len_only": 1.4
+    }
+   ]
+  },
+  {
+   "file": "2019 stat-team.pdf",
+   "subj": "Probability & Statistics",
+   "year": "2019",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 113,
+     "chars": 650,
+     "subparts": 0,
+     "symbols": 2,
+     "diff_len_only": 1.76
+    },
+    {
+     "words": 76,
+     "chars": 476,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.5
+    },
+    {
+     "words": 106,
+     "chars": 711,
+     "subparts": 0,
+     "symbols": 4,
+     "diff_len_only": 1.76
+    }
+   ]
+  },
+  {
+   "file": "2023 Prob Stat (Team).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2023",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 46,
+     "chars": 275,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.29
+    },
+    {
+     "words": 56,
+     "chars": 363,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.35
+    },
+    {
+     "words": 22,
+     "chars": 174,
+     "subparts": 2,
+     "symbols": 0,
+     "diff_len_only": 2.14
+    }
+   ]
+  },
+  {
+   "file": "2024 Prob Stat (Team).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2024",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 30,
+     "chars": 191,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.21
+    },
+    {
+     "words": 71,
+     "chars": 444,
+     "subparts": 3,
+     "symbols": 1,
+     "diff_len_only": 2.97
+    },
+    {
+     "words": 75,
+     "chars": 350,
+     "subparts": 0,
+     "symbols": 7,
+     "diff_len_only": 1.64
+    }
+   ]
+  },
+  {
+   "file": "2025 Prob Stat (Team).pdf",
+   "subj": "Probability & Statistics",
+   "year": "2025",
+   "kind": "Team",
+   "curated": 3,
+   "auto": 3,
+   "probs": [
+    {
+     "words": 43,
+     "chars": 246,
+     "subparts": 0,
+     "symbols": 1,
+     "diff_len_only": 1.29
+    },
+    {
+     "words": 51,
+     "chars": 281,
+     "subparts": 0,
+     "symbols": 0,
+     "diff_len_only": 1.32
+    },
+    {
+     "words": 93,
+     "chars": 494,
+     "subparts": 0,
+     "symbols": 7,
+     "diff_len_only": 1.76
+    }
+   ]
+  }
+ ]
+}

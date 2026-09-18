@@ -1,0 +1,1426 @@
+[
+ {
+  "id": "AP-M01",
+  "name": "Schwarz–Pick 型定量刚性：D→D 全纯函数被双曲距离压缩，零点越多估计越强、等号即自同构",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2010",
+  "last": "2017",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M02",
+  "name": "全纯自映射/自同构的刚性：局部数据（取值点、导数、迭代关系）唯一决定映射",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2012",
+  "last": "2022",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M03",
+  "name": "圆盘到自身的边界对应与有限 Blaschke 乘积（分类 + 保弧长测度）",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2015",
+  "last": "2020",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M04",
+  "name": "Poisson 核与调和函数 Dirichlet 问题的显式解（半平面、半空间、右半平面）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2010",
+  "last": "2014",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M05",
+  "name": "基本解与 Green 函数：Newton 位势、−Δf=g 与 Green 函数的对称性",
+  "members": [
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2018",
+  "last": "2018",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M06",
+  "name": "调和/次调和函数的结构定理：平均值性质、极值原理、Harnack、旋转对称化",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2010",
+  "last": "2017",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M07",
+  "name": "正调和函数的 Liouville 型结构定理：增长/正性限制 ⇒ 常数或显式基本解",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2013",
+  "last": "2022",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M08",
+  "name": "椭圆方程 Δu=f 的先验估计：L² 能量估计、Schauder C^{2,α} 估计、小性 ⇒ 梯度界",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2015",
+  "last": "2020",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M09",
+  "name": "最优常数型 Sobolev 不等式：Poincaré、Hardy、Gagliardo–Nirenberg",
+  "members": [
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2017",
+  "last": "2025",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M10",
+  "name": "非线性椭圆方程的可解性：单调算子/小扰动/Lax–Milgram 给存在唯一性",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2019",
+  "last": "2024",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M11",
+  "name": "热核与热方程的显式解及逐点/整体估计",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2016",
+  "last": "2026",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M12",
+  "name": "发展方程解的支集传播与点态先验界（能量法 / 抛物极值原理）",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2019",
+  "last": "2023",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M13",
+  "name": "紧算子与紧嵌入的判定：积分算子、Sobolev 嵌入、限制算子",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 6
+   }
+  ],
+  "first": "2010",
+  "last": "2017",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M14",
+  "name": "Fredholm 二择一：紧扰动下核与余核有限维、像闭",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2015",
+  "last": "2015",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M15",
+  "name": "自伴算子的谱结构：谱为实轴上的闭有界集；紧自伴算子的谱定理",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2013",
+  "last": "2016",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M16",
+  "name": "无特征值的紧算子（Volterra 型、加权移位）：谱的计算",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 5
+   }
+  ],
+  "first": "2012",
+  "last": "2016",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M17",
+  "name": "弱收敛与范数收敛的关系：弱+范数 ⇒ 强；弱极限的计算",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2015",
+  "last": "2023",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M18",
+  "name": "L^p 收敛 ⇒ 依测度收敛 / 几乎处处收敛子列",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 1
+   }
+  ],
+  "first": "2016",
+  "last": "2018",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M19",
+  "name": "Hilbert 空间的正交基与 L² 中全纯子空间的完备性（Hardy/Bergman）",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2011",
+  "last": "2014",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M20",
+  "name": "整函数的增长限制 ⇒ 刚性：增长界逼出多项式或恒零",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2015",
+  "last": "2023",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M21",
+  "name": "用留数定理计算实积分（含 log 与分数幂的多值积分）",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2011",
+  "last": "2016",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M22",
+  "name": "留数与辐角原理的结构性推论：零点-极点计数、部分分式恒等式",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2013",
+  "last": "2016",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M23",
+  "name": "区域到单位圆盘的显式共形映射（初等函数的几何构造）",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2011",
+  "last": "2017",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M24",
+  "name": "单值化障碍与绕数：解析函数的周期、单值分支与原函数的存在性",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2014",
+  "last": "2025",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M25",
+  "name": "矩阵指数：指数映射的乘法公式、BCH 一阶/二阶项与交换性判别",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2011",
+  "last": "2026",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M26",
+  "name": "凸性与 Jensen 型不等式（含等号刻画）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2019",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2010",
+  "last": "2019",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M27",
+  "name": "一维导数插值不等式与 Sobolev 嵌入（Landau–Kolmogorov 型）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2010",
+  "last": "2015",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M28",
+  "name": "磨光与逼近恒等式的收敛性（f∗φ_ε → f）",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2014",
+  "last": "2021",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M29",
+  "name": "对偶空间的范数等式与正线性泛函的 Riesz 表示",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2011",
+  "last": "2012",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M30",
+  "name": "零化子判据：由积分恒等式或 Fourier 侧信息的缺失推出 f≡0",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "first": "2015",
+  "last": "2018",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M31",
+  "name": "分布的层饼公式与可积性判据（level set 方法）",
+  "members": [
+   {
+    "year": "2012",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2012",
+  "last": "2013",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M32",
+  "name": "正测度集合的加法结构：Steinhaus 定理与算术级数",
+  "members": [
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2021",
+  "last": "2022",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M33",
+  "name": "一致收敛极限的正则性：Weierstrass 定理及其调和函数版本",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2016",
+  "last": "2018",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M34",
+  "name": "连续点集的结构与 Riemann 可积性（不连续点集的测度）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2010",
+  "last": "2016",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M35",
+  "name": "Cantor 型构造：测度为零但不可数（或很大的）集合",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2011",
+  "last": "2012",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M36",
+  "name": "单调函数与绝对连续函数：牛顿–莱布尼茨公式、弱导数与间断点集",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 2
+   }
+  ],
+  "first": "2013",
+  "last": "2017",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M37",
+  "name": "平移连续性、Lebesgue 微分定理与极大函数型 L¹ 界",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2010",
+  "last": "2018",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M38",
+  "name": "Gauss 型与振荡型积分的计算（多元 Gauss、Fresnel、signature）",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2012",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2010",
+  "last": "2013",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M39",
+  "name": "Fourier 级数：系数衰减 ⇔ 光滑性，以及收敛性与唯一性",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 5
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "kind": "team",
+    "n": 1
+   },
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2010",
+  "last": "2020",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M40",
+  "name": "Fourier 变换下的双线性估计与卷积算子的 Fourier 化",
+  "members": [
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 3
+   },
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2024",
+  "last": "2024",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M41",
+  "name": "不确定性原理：函数与其 Fourier 变换不能同时局化",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 1
+   }
+  ],
+  "first": "2014",
+  "last": "2019",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M42",
+  "name": "常微分方程的不动点方法：稳定性、周期解与 shooting",
+  "members": [
+   {
+    "year": "2010",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2010",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 2
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 6
+   },
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2010",
+  "last": "2023",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M43",
+  "name": "初值/边值问题的显式求解（常系数、Euler 型、一阶拟线性 PDE 的特征线法）",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2011",
+  "last": "2025",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M44",
+  "name": "向量分析与散度定理的应用：Helmholtz 分解、立体角积分",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 1
+   }
+  ],
+  "first": "2013",
+  "last": "2016",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M45",
+  "name": "保测变换：Poincaré 回复性与不变集的严格化",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2014",
+  "last": "2019",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M46",
+  "name": "函数方程与近似可加性（Cauchy 方程及其稳定性）",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "individual",
+    "n": 1
+   },
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2011",
+  "last": "2014",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M47",
+  "name": "无理性与超越性的分析证明（构造性积分与递推）",
+  "members": [
+   {
+    "year": "2011",
+    "kind": "team",
+    "n": 6
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2011",
+  "last": "2026",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M48",
+  "name": "孤立奇点的可去性与 Laurent 结构（增长界 ⇒ 可去/极点）",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 3
+   },
+   {
+    "year": "2017",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2014",
+  "last": "2017",
+  "trend": "升要求"
+ },
+ {
+  "id": "AP-M49",
+  "name": "最大模原理的推论：极值位置、开映射与值域覆盖",
+  "members": [
+   {
+    "year": "2014",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 2
+   }
+  ],
+  "first": "2014",
+  "last": "2018",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M50",
+  "name": "Hadamard 三圆/三线定理：增长量的对数凸性",
+  "members": [
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 5
+   },
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2021",
+  "last": "2025",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M51",
+  "name": "整函数的零点与增长：Hadamard 因子分解与 Picard/Rouché 型存在性",
+  "members": [
+   {
+    "year": "2019",
+    "kind": "team",
+    "n": 4
+   },
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2019",
+  "last": "2021",
+  "trend": "换皮"
+ },
+ {
+  "id": "AP-M52",
+  "name": "C[0,1] 的闭子空间：有限维性、点态收敛 ⇒ 一致收敛",
+  "members": [
+   {
+    "year": "2021",
+    "kind": "individual",
+    "n": 2
+   },
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 4
+   },
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2021",
+  "last": "2026",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M53",
+  "name": "球测度的半连续性（µ(B_ρ(x)) 的上半连续与不连续例子）",
+  "members": [
+   {
+    "year": "2018",
+    "kind": "individual",
+    "n": 4
+   }
+  ],
+  "first": "2018",
+  "last": "2018",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M54",
+  "name": "Weyl 等分布：无理旋转的遍历平均与指数和估计",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2013",
+  "last": "2013",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M55",
+  "name": "Gauss–Lucas 定理：多项式临界点落在根的凸包内",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2013",
+  "last": "2013",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M56",
+  "name": "凸函数的正则性与 Legendre 共轭（连续、几乎处处可微、共轭凸函数）",
+  "members": [
+   {
+    "year": "2013",
+    "kind": "team",
+    "n": 6
+   }
+  ],
+  "first": "2013",
+  "last": "2013",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M57",
+  "name": "变分原理与 Euler–Lagrange 方程",
+  "members": [
+   {
+    "year": "2015",
+    "kind": "team",
+    "n": 3
+   }
+  ],
+  "first": "2015",
+  "last": "2015",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M58",
+  "name": "复环面的全纯自同构群 = SL(2,Z)",
+  "members": [
+   {
+    "year": "2016",
+    "kind": "team",
+    "n": 4
+   }
+  ],
+  "first": "2016",
+  "last": "2016",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M59",
+  "name": "度量空间的完备化：L¹ 度量下 C[0,1] 不完备",
+  "members": [
+   {
+    "year": "2018",
+    "kind": "team",
+    "n": 4
+   }
+  ],
+  "first": "2018",
+  "last": "2018",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M60",
+  "name": "守恒量 ⇒ 非线性振子的周期解（能量方法）",
+  "members": [
+   {
+    "year": "2020",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2020",
+  "last": "2020",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M61",
+  "name": "高维对称积分的极限与渐近（调和平均型被积函数）",
+  "members": [
+   {
+    "year": "2022",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2022",
+  "last": "2022",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M62",
+  "name": "正定函数与 Bochner 型正性（卷积运算下的正性）",
+  "members": [
+   {
+    "year": "2023",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2023",
+  "last": "2023",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M63",
+  "name": "Lyapunov–Schmidt 型正交性条件定参数（局部可解性）",
+  "members": [
+   {
+    "year": "2024",
+    "kind": "individual",
+    "n": 1
+   }
+  ],
+  "first": "2024",
+  "last": "2024",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M64",
+  "name": "度量空间的正规性与 Urysohn 引理",
+  "members": [
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 5
+   }
+  ],
+  "first": "2025",
+  "last": "2025",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M65",
+  "name": "BMO 空间的基本性质（半范数、L∞⊂BMO、John–Nirenberg 型等价定义）",
+  "members": [
+   {
+    "year": "2025",
+    "kind": "individual",
+    "n": 6
+   }
+  ],
+  "first": "2025",
+  "last": "2025",
+  "trend": "原样重复"
+ },
+ {
+  "id": "AP-M66",
+  "name": "非齐次 Cauchy–Riemann 方程 ∂̄g=f 的解（Cauchy–Pompeiu 公式）",
+  "members": [
+   {
+    "year": "2026",
+    "kind": "individual",
+    "n": 3
+   }
+  ],
+  "first": "2026",
+  "last": "2026",
+  "trend": "原样重复"
+ }
+]

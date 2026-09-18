@@ -1,0 +1,189 @@
+{
+ "families": [
+  [
+   {
+    "year": "2014",
+    "subject": "Computational & Applied",
+    "n": 3
+   },
+   {
+    "year": "2014",
+    "subject": "Computational & Applied",
+    "n": 3
+   },
+   {
+    "year": "2017",
+    "subject": "Computational & Applied",
+    "n": 5
+   }
+  ],
+  [
+   {
+    "year": "2011",
+    "subject": "Computational & Applied",
+    "n": 5
+   },
+   {
+    "year": "2012",
+    "subject": "Probability & Statistics",
+    "n": 6
+   }
+  ],
+  [
+   {
+    "year": "2011",
+    "subject": "Geometry & Topology",
+    "n": 2
+   },
+   {
+    "year": "2013",
+    "subject": "Geometry & Topology",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "year": "2011",
+    "subject": "Geometry & Topology",
+    "n": 4
+   },
+   {
+    "year": "2014",
+    "subject": "Geometry & Topology",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "year": "2011",
+    "subject": "Algebra & Number Theory",
+    "n": 5
+   },
+   {
+    "year": "2012",
+    "subject": "Algebra & Number Theory",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "year": "2012",
+    "subject": "Algebra & Number Theory",
+    "n": 3
+   },
+   {
+    "year": "2014",
+    "subject": "Algebra & Number Theory",
+    "n": 5
+   }
+  ],
+  [
+   {
+    "year": "2012",
+    "subject": "Probability & Statistics",
+    "n": 2
+   },
+   {
+    "year": "2015",
+    "subject": "Probability & Statistics",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "year": "2013",
+    "subject": "Computational & Applied",
+    "n": 6
+   },
+   {
+    "year": "2013",
+    "subject": "Computational & Applied",
+    "n": 6
+   }
+  ],
+  [
+   {
+    "year": "2015",
+    "subject": "Geometry & Topology",
+    "n": 2
+   },
+   {
+    "year": "2016",
+    "subject": "Geometry & Topology",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "year": "2016",
+    "subject": "Probability & Statistics",
+    "n": 4
+   },
+   {
+    "year": "2016",
+    "subject": "Probability & Statistics",
+    "n": 5
+   }
+  ],
+  [
+   {
+    "year": "2016",
+    "subject": "Computational & Applied",
+    "n": 1
+   },
+   {
+    "year": "2017",
+    "subject": "Computational & Applied",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "year": "2016",
+    "subject": "Computational & Applied",
+    "n": 3
+   },
+   {
+    "year": "2016",
+    "subject": "Computational & Applied",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "year": "2019",
+    "subject": "Probability & Statistics",
+    "n": 3
+   },
+   {
+    "year": "2019",
+    "subject": "Probability & Statistics",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "year": "2020",
+    "subject": "Algebra & Number Theory",
+    "n": 3
+   },
+   {
+    "year": "2021",
+    "subject": "Algebra & Number Theory",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "year": "2023",
+    "subject": "Mathematical Physics",
+    "n": 6
+   },
+   {
+    "year": "2026",
+    "subject": "Mathematical Physics",
+    "n": 5
+   }
+  ]
+ ]
+}

@@ -1,0 +1,627 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1. Consider {𝑝𝑖(𝑥)}∞
+𝑖=0, a family of orthogonal polynomials associated with the inner product
+⟨𝑓, 𝑔⟩= ∫
+1
+−1
+𝑓(𝑥)𝑔(𝑥)𝑤(𝑥) 𝑑𝑥,
+𝑤(𝑥) > 0
+for 𝑥∈(−1, 1),
+where 𝑝𝑖(𝑥) is a polynomial of degree 𝑖. Let 𝑥0, 𝑥1, … , 𝑥𝑛be the roots of 𝑝𝑛+1(𝑥). Construct an orthonormal
+basis in the subspace of the polynomials of degree no more than 𝑛such that, for any polynomial in this subspace,
+the coefficients of its expansion into the basis are equal to the scaled values of this polynomial at the nodes
+𝑥0, 𝑥1, … , 𝑥𝑛.
+Solution:
+Start by considering 𝑙𝑖(𝑥), 𝑖= 0, … , 𝑛, the Lagrange interpolating polynomials of degree 𝑛for the nodes
+𝑥0, 𝑥1, … , 𝑥𝑛. Let us compute the inner product of two such polynomials using the Gaussian quadrature, exact for the
+polynomials of degree less or equal to 2𝑛+ 1. We have
+⟨𝑙𝑖, 𝑙𝑗⟩= ∫
+1
+−1
+𝑙𝑖(𝑥)𝑙𝑗(𝑥)𝑤(𝑥) 𝑑𝑥=
+𝑛
+∑
+𝑘=0
+𝑙𝑖(𝑥𝑘)𝑙𝑗(𝑥𝑘)𝑤𝑘= 𝛿𝑖𝑗𝑤𝑖,
+where 𝑤0, 𝑤1, … , 𝑤𝑛are the positive weights of the quadrature.
+We now normalize the Lagrange interpolating polynomials,
+𝑅𝑖(𝑥) =
+1
+√𝑤𝑖
+𝑙𝑖(𝑥),
+and obtain
+∫
+1
+−1
+𝑅𝑖(𝑥)𝑅𝑗(𝑥)𝑤(𝑥) 𝑑𝑥=
+𝑛
+∑
+𝑘=0
+𝑤𝑘𝑅𝑖(𝑥𝑘)𝑅𝑗(𝑥𝑘) =
+𝑛
+∑
+𝑘=0
+𝑤𝑘
+1
+√𝑤𝑖
+𝛿𝑖𝑘
+1
+√𝑤𝑗
+𝛿𝑗𝑘= 𝛿𝑖𝑗,
+namely, these functions form an orthonormal basis. The coefficients of a function in this subspace are computed as projec-
+tions on the basis,
+𝑓𝑖= ⟨𝑓, 𝑅𝑖⟩= ∫
+1
+−1
+𝑓(𝑥)𝑅𝑖(𝑥)𝑤(𝑥) 𝑑𝑥=
+𝑛
+∑
+𝑘=0
+𝑤𝑘𝑓(𝑥𝑘)𝑅𝑖(𝑥𝑘) =
+𝑛
+∑
+𝑘=0
+𝑤𝑘𝑓(𝑥𝑘) 1
+√𝑤𝑖
+𝛿𝑖𝑘= √𝑤𝑖𝑓(𝑥𝑖).
+Problem 2. Consider a 2D fixed point iteration of the form
+𝑥𝑘+1 = 𝑓(𝑥𝑘, 𝑦𝑘), 𝑦𝑘+1 = 𝑔(𝑥𝑘, 𝑦𝑘).
+(1)
+Assume that the vector-valued function
+⃗𝐻(𝑥, 𝑦) = (𝑓(𝑥, 𝑦), 𝑔(𝑥, 𝑦))𝑇is continuously-differentiable, and the infin-
+ity norm of the Jacobian matrix is less than 1 at a unique fixed point (𝑥∞, 𝑦∞).
+Now consider a new iteration:
+𝑥𝑘+1 = 𝑓(𝑥𝑘, 𝑦𝑘),
+𝑦𝑘+1 = 𝑔(𝑥𝑘+1, 𝑦𝑘).
+(2)
+Prove that iteration (2) is convergent, to the same fixed point as iteration (1), for the initial conditions sufficiently
+close to the fixed point.
+
+=== page 2 ===
+Solution: First, we check that the new iteration has the same fixed point as the original iteration. For (1), 𝑥∞= 𝑓(𝑥∞, 𝑦∞),
+𝑦∞= 𝑔(𝑥∞, 𝑦∞). Thus, we have for the new iteration,
+𝑓(𝑥∞, 𝑦∞) =𝑥∞,
+𝑔(𝑓(𝑥∞, 𝑦∞), 𝑦∞) = 𝑔(𝑥∞, 𝑦∞) =𝑦∞.
+Next, the Jacobian of the new iteration reads as
+J2 = [ 𝜕1𝑓(𝑥, 𝑦)
+𝜕2𝑓(𝑥, 𝑦)
+𝜕1𝑔(𝑓(𝑥, 𝑦), 𝑦)𝜕1𝑓(𝑥, 𝑦)
+𝜕1𝑔(𝑓(𝑥, 𝑦), 𝑦)𝜕2𝑓(𝑥, 𝑦) + 𝜕2𝑔(𝑓(𝑥, 𝑦), 𝑦) ] .
+(3)
+The infinity norm of the Jacobian is the maximum absolute row sum. The first row has exactly the same absolute row sum
+as the Jacobian of the original iteration, thus we have
+||𝜕1𝑓(𝑥∞, 𝑦∞)|| + ||𝜕2𝑓(𝑥∞, 𝑦∞)|| < 1.
+The absolute row sum for the second row is
+||𝜕1𝑔(𝑓(𝑥, 𝑦), 𝑦)𝜕1𝑓(𝑥, 𝑦)|| + ||𝜕1𝑔(𝑓(𝑥, 𝑦), 𝑦)𝜕2𝑓(𝑥, 𝑦) + 𝜕2𝑔(𝑓(𝑥, 𝑦), 𝑦)||
+≤||𝜕1𝑔(𝑓(𝑥, 𝑦), 𝑦)|| (||𝜕1𝑓(𝑥, 𝑦)|| + ||𝜕2𝑓(𝑥, 𝑦)||) + ||𝜕2𝑔(𝑓(𝑥, 𝑦), 𝑦)||.
+Evaluating at (𝑥∞, 𝑦∞), we have
+||𝜕1𝑔(𝑓(𝑥∞, 𝑦∞), 𝑦∞)|| (||𝜕1𝑓(𝑥∞, 𝑦∞)|| + ||𝜕2𝑓(𝑥∞, 𝑦∞)||) + ||𝜕2𝑔(𝑓(𝑥∞, 𝑦∞), 𝑦∞)||
+≤||𝜕1𝑔(𝑓(𝑥∞, 𝑦∞), 𝑦∞)|| + ||𝜕2𝑔(𝑓(𝑥∞, 𝑦∞), 𝑦∞)||
+= ||𝜕1𝑔(𝑥∞, 𝑦∞)|| + ||𝜕2𝑔(𝑥∞, 𝑦∞)||
+< 1.
+Thus, the Jacobian of the new iteration has infinity norm less than 1 at the fixed point. Since the new iteration is continuously-
+differentiable, there must be a neighborhood of the fixed point such that iterations initialized in this neighborhood will
+converge.
+Problem 3. Let 𝐴∈𝐑𝐦×𝐦be a matrix with entries 𝑎𝑖𝑗which satisfy
+𝑎𝑖𝑖≥∑
+𝑗≠𝑖
+|𝑎𝑖𝑗| + 2,
+𝑎𝑖𝑖≤7.
+(a) Prove that 𝐴−1 exists.
+(b) Prove that ‖𝐴‖∞is the max row sum (of absolute values) of 𝐴.
+(c) Find both a lower and upper bound for ‖𝐴‖∞.
+(d) Now assume 𝐴= 𝐴𝑇. Find bounds for ‖𝐴‖2 and ‖𝐴−1‖2.
+Solution:
+(a) Suppose 𝐴is singular and 𝑣= [𝑣1 𝑣2 ⋯𝑣𝑚]𝑇be an eigenvector corresponding to eigenvalue 0 with max𝑗|𝑣𝑗| = |𝑣𝑘|.
+Consider the 𝑘-th row of the vector equation 𝐴𝑣= 0,
+𝑎𝑘𝑘𝑣𝑘= −∑
+𝑗≠𝑘
+𝑎𝑘𝑗𝑣𝑗.
+Therefore,
+|𝑎𝑘𝑘| ≤∑
+𝑗≠𝑘
+|𝑎𝑘𝑗| |||
+𝑣𝑗
+𝑣𝑘
+||| ≤∑
+𝑗≠𝑘
+|𝑎𝑘𝑗|,
+which is a contradiction.
+
+=== page 3 ===
+(b) Suppose the 𝑘-th row has the max absolute sum, i.e.,
+max
+𝑖
+{∑
+𝑗
+|𝑎𝑖𝑗|} = ∑
+𝑗
+|𝑎𝑘𝑗|.
+For the vector 𝑣with 𝑣𝑗= sgn(𝑎𝑘𝑗), we have
+‖𝐴𝑣‖∞≥∑
+𝑗
+|𝑎𝑘𝑗|,
+since the right hand side is the 𝑘-th element of 𝐴𝑣. Noting that ‖𝑣‖∞= 1, we have ‖𝐴‖∞≥∑𝑗|𝑎𝑘𝑗|. For the other
+inequality, we have that for any vector 𝑢,
+‖𝐴𝑢‖∞= max
+𝑖
+{∑
+𝑗
+|𝑎𝑖𝑗‖𝑢𝑗‖} ≤max
+𝑖
+{∑
+𝑗
+|𝑎𝑖𝑗|} ‖𝑢‖∞.
+(c) From given information,
+2 ≤∑
+𝑗
+|𝑎𝑖𝑗| = 𝑎𝑖𝑖+ ∑
+𝑗≠𝑖
+|𝑎𝑖𝑗| ≤𝑎𝑖𝑖+ (𝑎𝑖𝑖−2) ≤12.
+Therefore, 2 ≤‖𝐴‖∞≤12.
+(d) 𝐴= 𝐴𝑇means singular values are the absolute values of (real) eigenvalues. By the Gershgorin Theorem,
+|𝜆−𝑎𝑖𝑖| ≤∑
+𝑗≠𝑖
+|𝑎𝑖𝑗|.
+Therefore,
+𝑎𝑖𝑖−∑
+𝑗≠𝑖
+|𝑎𝑖𝑗| ≤𝜆≤𝑎𝑖𝑖+ ∑
+𝑗≠𝑖
+|𝑎𝑖𝑗|.
+By given info.
+2 ≤𝜆≤12.
+Now since 𝐴= 𝐴𝑇and 𝐴is invertible, the smallest and largest singular values of 𝐴−1 will be the reciprocal of the
+largest and smallest singular values of 𝐴respectively. Hence,
+1
+12 ≤‖𝐴−1‖2 ≤1
+2.
+Problem 4. Consider a system of ODE initial value problems of the form:
+𝑑
+𝑑𝑡𝑢= 𝑓(𝑢),
+𝑢(0) = 𝑢0.
+Assume that 𝑓(𝑢) has the property that the forward Euler (FE) method:
+𝑈𝑛+1 = 𝑈𝑛+ 𝑘𝑓(𝑈𝑛),
+satisfies
+‖𝑈𝑛+1‖ ≤‖𝑈𝑛‖
+for some norm ‖ ⋅‖ and for all time-steps 𝑘, 0 < 𝑘≤𝑘𝐹𝐸. Now consider the 2-stage Runge-Kutta method:
+𝑈(1) = 𝑈𝑛+ 𝑘𝛽10𝑓(𝑈𝑛),
+𝑈𝑛+1 = {𝛼20𝑈𝑛+ 𝑘𝛽20𝑓(𝑈𝑛)} + {𝛼21𝑈(1) + 𝑘𝛽21𝑓(𝑈(1))}
+where
+𝛽10 ≥0,
+𝛽20 ≥0,
+𝛽21 ≥0,
+𝛼20 ≥0,
+𝛼21 ≥0,
+𝛼20 + 𝛼21 = 1.
+
+=== page 4 ===
+(a) Prove that the above 2-stage Runge-Kutta method also satisfies the inequality:
+‖𝑈𝑛+1‖ ≤‖𝑈𝑛‖
+under some appropriate time-step restriction: 0 ≤𝑘≤𝑘∗, where you need to explicitly determine 𝑘∗in
+terms of 𝑘𝐹𝐸.
+(b) Explicitly determine the coefficients:
+𝛽10,
+𝛽20,
+𝛽21,
+𝛼20,
+𝛼21,
+so that
+(i) The method is second-order accurate; and
+(ii) The maximum allowed time-step, 𝑘∗, is as large as possible.
+Solution:
+(a) The first stage is simply the forward Euler method with a time step 𝑘𝛽10. Therefore, as long as
+𝑘⋅max {1, 𝛽10} ≤𝑘𝐹𝐸,
+we have that
+‖𝑈(1)‖ ≤‖𝑈𝑛‖.
+The second stage can be written as a linear combination of two forward Euler steps:
+𝑈𝑛+1 = 𝛼20 {𝑈𝑛+ 𝑘𝛽20
+𝛼20
+𝑓(𝑈𝑛)} + 𝛼21 {𝑈(1) + 𝑘𝛽21
+𝛼21
+𝑓(𝑈(1))} .
+Requiring that
+𝑘⋅max {1, 𝛽10, 𝛽20
+𝛼20
+, 𝛽21
+𝛼21
+} ≤𝑘𝐹𝐸,
+we get that
+‖𝑈𝑛+1‖ ≤𝛼20‖𝑈𝑛‖ + 𝛼21‖𝑈(1)‖ ≤(𝛼20 + 𝛼21)‖𝑈𝑛‖ = ‖𝑈𝑛‖.
+Therefore, the 2-stage RK method satisfies ‖𝑈(1)‖ ≤‖𝑈𝑛‖ under the following time-step constraint:
+𝑘≤𝑘∗= 𝑘𝐹𝐸⋅min {1, 1
+𝛽10
+, 𝛼20
+𝛽20
+, 𝛼21
+𝛽21
+} .
+(b) To see the local truncation error, apply the method to the function 𝑓(𝑢) = 𝜆𝑢(and let 𝑧= 𝑘𝜆):
+𝑈(1) = (1 + 𝑧𝛽10) 𝑈𝑛,
+𝑈𝑛+1 = 𝛼20 (1 + 𝑧𝛽20
+𝛼20
+) 𝑈𝑛+ 𝛼21 (1 + 𝑧𝛽21
+𝛼21
+) 𝑈(1).
+Combining these two results (and using the fact that 𝛼20 + 𝛼21 = 1):
+𝑈𝑛+1 = (1 + 𝑧(𝛽20 + 𝛽21 + 𝛼21𝛽10) + 𝑧2
+2 (2𝛽10𝛽21) )𝑈𝑛.
+Therefore, for accuracy considerations we require that
+𝛽20 + 𝛽21 + 𝛼21𝛽10 = 1
+and
+𝛽10𝛽21 = 1
+2.
+For optimal stability we require that
+0 ≤𝛽10 ≤1,
+0 ≤𝛽20 ≤𝛼20 ≤1,
+0 ≤𝛽21 ≤𝛼21 ≤1,
+𝛼20 + 𝛼21 = 1.
+
+=== page 5 ===
+The optimal solution requires that
+𝛽10 = 1
+⟹
+𝛽21 = 1
+2
+⟹
+𝛽20 + 𝛼21 = 1
+2
+⟹
+𝛼21 = 1
+2
+⟹
+𝛽20 = 0
+and
+𝛼20 = 1
+2.
+Putting these all together yields the following 2-stage RK method that is norm-preserving under the optimal time-
+step restriction 𝑘≤𝑘∗:
+𝑈(1) = 𝑈𝑛+ 𝑘𝑓(𝑈𝑛),
+𝑈𝑛+1 = 1
+2 {𝑈𝑛+ 𝑈(1) + 𝑘𝑓(𝑈(1))} .
+Problem 5. Construct a third-order accurate Lax-Wendroff-type method for 𝑢𝑡+ 𝑎𝑢𝑥= 0 (𝑎> 0 is a constant)
+in the following way:
+(a)
+• Expand 𝑢(𝑡+ 𝑘, 𝑥) in a Taylor series and keep the first four terms. Replace all time derivatives by
+spatial derivatives using the equation.
+• Construct a cubic polynomial passing through the points 𝑈𝑛
+𝑗−2, 𝑈𝑛
+𝑗−1, 𝑈𝑛
+𝑗, 𝑈𝑛
+𝑗+1.
+• Approximate the spatial derivatives in the Taylor series by the exact derivatives of the above con-
+structed cubic polynomial.
+(b) Verify that the truncation error is 𝑂(𝑘3) if ℎ= 𝑂(𝑘).
+Solution:
+(a) By Taylor’s expansion in time, and using the equation, we have
+𝑢(𝑡+ 𝑘, 𝑥) = 𝑢(𝑡, 𝑥) + 𝑘𝑢𝑡(𝑡, 𝑥) + 𝑘2
+2 𝑢𝑡𝑡(𝑡, 𝑥) + 𝑘3
+6 𝑢𝑡𝑡𝑡(𝑡, 𝑥) + 𝑂(𝑘4)
+= 𝑢(𝑡, 𝑥) −𝑎𝑘𝑢𝑥(𝑡, 𝑥) + (𝑎𝑘)2
+2
+𝑢𝑥𝑥(𝑡, 𝑥) −(𝑎𝑘)3
+6
+𝑢𝑥𝑥𝑥(𝑡, 𝑥) + 𝑂(𝑘4).
+Use Lagrange interpolation to construct a cubic polynomial passing through 𝑥0 −2ℎ, 𝑥0 −ℎ, 𝑥0, 𝑥0 + ℎ. Since the
+interpolation is in the spatial variable, we omit the time variable for this part. The polynomial 𝑝3(𝑥) satisfying 𝑢=
+𝑝3 + 𝑂(ℎ4) is,
+𝑝3(𝑥) = −(𝑥−𝑥0 + ℎ)(𝑥−𝑥0)(𝑥−𝑥0 −ℎ)
+6ℎ3
+𝑢(𝑥0 −2ℎ)
++ (𝑥−𝑥0 + 2ℎ)(𝑥−𝑥0)(𝑥−𝑥0 −ℎ)
+2ℎ3
+𝑢(𝑥0 −ℎ)
+−(𝑥−𝑥0 + 2ℎ)(𝑥−𝑥0 + ℎ)(𝑥−𝑥0 −ℎ)
+2ℎ3
+𝑢(𝑥0)
++ (𝑥−𝑥0 + 2ℎ)(𝑥−𝑥0 + ℎ)(𝑥−𝑥0)
+6ℎ3
+𝑢(𝑥0 + ℎ).
+Also, the error is
+𝑢′(𝑥0) = 𝑝′
+3(𝑥0) + 𝑂(ℎ3),
+𝑢″(𝑥0) = 𝑝″
+3(𝑥0) + 𝑂(ℎ2),
+𝑢‴(𝑥0) = 𝑝‴
+3 (𝑥0) + 𝑂(ℎ).
+Now we need to substitute the expressions of 𝑝′
+3(𝑥0), 𝑝″
+3(𝑥0), 𝑝‴
+3 (𝑥0) in place of 𝑢𝑥, 𝑢𝑥𝑥, 𝑢𝑥𝑥𝑥respectively. By simple
+calculation,
+𝑝′
+3(𝑥0) = 𝑢(𝑥0 −2ℎ)
+6ℎ
+−𝑢(𝑥0 −ℎ)
+ℎ
++ 𝑢(𝑥0)
+2ℎ
++ 𝑢(𝑥0 + ℎ)
+3ℎ
+,
+𝑝″
+3(𝑥0) = 𝑢(𝑥0 −ℎ)
+ℎ2
+−2𝑢(𝑥0)
+ℎ2
++ 𝑢(𝑥0 + ℎ)
+ℎ2
+,
+𝑝‴
+3 (𝑥0) = −𝑢(𝑥0 −2ℎ)
+ℎ3
++ 3𝑢(𝑥0 −ℎ)
+ℎ3
+−3𝑢(𝑥0)
+ℎ3
++ 𝑢(𝑥0 + ℎ)
+ℎ3
+.
+
+=== page 6 ===
+Plugging these expressions into the Taylor expression, we obtain
+𝑈𝑛+1
+𝑗
+= 𝑈𝑛
+𝑗−𝑎𝑘
+6ℎ(𝑈𝑛
+𝑗−2 −6𝑈𝑛
+𝑗−1 + 3𝑈𝑛
+𝑗+ 2𝑈𝑛
+𝑗+1)
++ (𝑎𝑘)2
+2ℎ2 (𝑈𝑛
+𝑗−1 −2𝑈𝑛
+𝑗+ 𝑈𝑛
+𝑗+1)
+−(𝑎𝑘)3
+6ℎ3 (−𝑈𝑛
+𝑗−2 + 3𝑈𝑛
+𝑗−1 −3𝑈𝑛
+𝑗+ 𝑈𝑛
+𝑗+1) .
+(b) From the Taylor expression and the approximation errors,
+𝑢(𝑡+ 𝑘, 𝑥) −𝑢(𝑡, 𝑥)
+𝑘
+= −𝑎𝑢𝑥+ 𝑎2𝑘
+2 𝑢𝑥𝑥−𝑎3𝑘2
+6ℎ𝑢𝑥𝑥𝑥+ 𝑂(𝑘3)
+= −𝑎
+6ℎ(𝑢(𝑡, 𝑥−2ℎ) −6𝑢(𝑡, 𝑥−ℎ) + 3𝑢(𝑡, 𝑥) + 2𝑢(𝑡, 𝑥+ ℎ)) + 𝑂(ℎ3)
++ 𝑎2𝑘
+2ℎ2 (𝑢(𝑡, 𝑥−ℎ) −2𝑢(𝑡, 𝑥) + 𝑢(𝑡, 𝑥+ ℎ)) + 𝑂(𝑘ℎ2)
+−𝑎3𝑘2
+6ℎ3 ( −𝑢(𝑡, 𝑥−2ℎ) + 3𝑢(𝑡, 𝑥−ℎ) −3𝑢(𝑡, 𝑥) + 𝑢(𝑡, 𝑥+ ℎ)) + 𝑂(𝑘2ℎ)
++ 𝑂(𝑘3).
+Hence, if ℎ= 𝑂(𝑘), then scheme is 𝑂(𝑘3).
+Problem 6. Suppose you have $60K to invest and there are 3 investment options available. You must invest in
+multiples of $10𝐾. If 𝑑𝑖dollars are invested in investment 𝑖then you receive a net value (as the profit) of 𝑟𝑖(𝑑𝑖)
+dollars. For 𝑑𝑖> 0 we have
+𝑟1(𝑑1) = (7𝑑1 + 2) × 10,
+𝑟2(𝑑2) = (3𝑑2 + 7) × 10,
+𝑟3(𝑑3) = (4𝑑3 + 5) × 10,
+and 𝑑1(0) = 𝑑2(0) = 𝑑3(0). All are measured in $10𝐾dollars. The objective is to maximize the net value of your
+investments. This can be formulated as a linear programming problem:
+max
+𝑑1,𝑑2,𝑑3
+𝑟1(𝑑1) + 𝑟2(𝑑2) + 𝑟3(𝑑3),
+such that
+𝑑1 + 𝑑2 + 𝑑3 ≤6,
+𝑑𝑖≥0
+𝑖= 1, 2, 3
+are integers.
+Solution: We solve this problem by dynamical programming. The key elements are
+1. The stage 𝑖is just investment 𝑖.
+2. The decisions at stage 𝑖are 𝑑𝑖which is how much to be invested in 𝑖. The immediate return is 𝑟𝑖(𝑑𝑖) and it is obvious
+that 𝑑𝑖∈{0, 1, … , 6}.
+3. The states at stage 𝑖is 𝑥𝑖= the total amount available to be invested to investment 𝑖.
+Define 𝑓𝑖(𝑥𝑖) = maximum net value for stages 𝑖given that we have 𝑥𝑖dollars available. Then the recursion equation is
+𝑓𝑖(𝑥𝑖) = max
+𝑑𝑖
+{𝑟𝑖(𝑑𝑖) + 𝑓𝑖+1(𝑥𝑖−𝑑𝑖)} .
+The boundary condition is 𝑓4(𝑥4) = 0. The answer is 𝑓1(6). This is a backward recursion and the computation goes as:
+
+=== page 7 ===
+Stage 3: Note that
+𝑓3(𝑥3) = max
+0≤𝑑3≤6 {𝑟3(𝑑3)} .
+We have the following table:
+Table 1: 𝑟3(𝑑3) = 4𝑑3 + 5
+𝑥3
+𝑑3 = 0
+𝑑3 = 1
+𝑑3 = 2
+𝑑3 = 3
+𝑑3 = 4
+𝑑3 = 5
+𝑑3 = 6
+𝑓3(𝑥3)
+𝑑∗
+3
+0
+0
+-
+-
+-
+-
+-
+-
+0
+0
+1
+0
+9
+-
+-
+-
+-
+-
+9
+1
+2
+0
+9
+13
+-
+-
+-
+-
+13
+2
+3
+0
+9
+13
+17
+-
+-
+-
+17
+3
+4
+0
+9
+13
+17
+21
+-
+-
+21
+4
+5
+0
+9
+13
+17
+21
+25
+-
+25
+5
+6
+0
+9
+13
+17
+21
+25
+29
+29
+6
+Stage 2: Note that
+𝑓2(𝑥2) = max
+0≤𝑑2≤6 {𝑟2(𝑑2) + 𝑓3(𝑥2 −𝑑2)} .
+We have the following table
+Table 2: 𝑟2(𝑑2) + 𝑓3(𝑥2 −𝑑2) = 3𝑑2 + 7 + 𝑓3(𝑥2 −𝑑2)
+𝑥2
+𝑑2 = 0
+𝑑2 = 1
+𝑑2 = 2
+𝑑2 = 3
+𝑑2 = 4
+𝑑2 = 5
+𝑑2 = 6
+𝑓2(𝑥2)
+𝑑∗
+2
+0
+0
+-
+-
+-
+-
+-
+-
+0
+0
+1
+9
+10
+-
+-
+-
+-
+-
+10
+1
+2
+13
+19
+13
+-
+-
+-
+-
+19
+1
+3
+17
+23
+22
+16
+-
+-
+-
+23
+1
+4
+21
+27
+26
+25
+19
+-
+-
+27
+1
+5
+25
+31
+30
+29
+28
+22
+-
+31
+1
+6
+29
+35
+34
+33
+32
+31
+25
+35
+1
+Stage 1: Note that
+𝑓1(𝑥1) = max
+0≤𝑑1≤6{𝑟1(𝑑1) + 𝑓2(6 −𝑑1)}.
+We have the following table
+Thus the optimal net present value is $49000 and the investment policy is 𝑑1 = 4, 𝑑2 = 1, 𝑑3 = 1.
+Table 3: 𝑟1(𝑑1) + 𝑓2(𝑥1 −𝑑1) = 7𝑑1 + 2 + 𝑓2(6 −𝑑1)
+𝑥1
+𝑑1 = 0
+𝑑1 = 1
+𝑑1 = 2
+𝑑1 = 3
+𝑑1 = 4
+𝑑1 = 5
+𝑑1 = 6
+𝑓1(𝑥1)
+𝑑∗
+1
+6
+35
+40
+43
+46
+49
+47
+44
+49
+4

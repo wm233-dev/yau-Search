@@ -1,0 +1,23 @@
+
+=== page 1 ===
+3
+Yau College Math Competition 2020 Final Probability and Statistics
+Overal Exam Problem Set (Saturday, October 24, 2020)
+PROBLEM 1. Let {Xn} be a sequence of independent, identically dis-
+tributed random variables taking values in N, the set of positive integers.
+Deﬁne
+Rn = Card{X1, · · · , Xn},
+i.e., Rn is the number of distinct integers in the set {X1, · · · , Xn}. Suppose
+that E[X1] < ∞. Prove that Rn/√n →0 in probability.
+PROBLEM 2. Consider the mixture experiment whose components are
+E1 and E2, taken with equal probabilities and each with the sample space
+Ω= {0, 1, 2, ...}. It is postulated that
+(1) the outcome of E1 follows the Binomial model Binomial(n, θ) with
+the total number of trials n > 0 and the unknown probability of
+success parameter θ ∈[0, 1], and
+(2) the outcome of E2 follows the Negative-Binomial model Binomial(r, θ)
+with the target for number of successful trials r > 0 and the un-
+known probability of success parameter θ ∈[0, 1].
+Let H be the observed index to the experiment that is actually conducted,
+and let X denote the observed outcome of the conducted experiment.
+Find a minimal sufﬁcient statistic for θ and prove your claim.

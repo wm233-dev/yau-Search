@@ -1,0 +1,13 @@
+
+=== page 1 ===
+ALGEBRA (TEAM)
+Problem 1. Let G “ GL2pCq.
+(1) Prove all ﬁnite dimensional representations of G over C are completely reducible.
+(2) Find all irreducible ﬁnite dimensional representations of G over C.
+Problem 2. Let K and L over Q be ﬁeld extensions of prime degrees. Show that if
+rKL : Qs ă rK : QsrL : Qs, then the Galois closure of K{Q equals to the Galois closure
+of L{Q.
+Problem 3. Let G be a ﬁnite group. Let N be a minimal nontrivial normal subgroup of
+G (i.e., N does not properly contain any other nontrivial normal subgroup of G). Show
+that N is isomorphic to a direct product L ˆ ... ˆ L of copies of a single simple group L.
+1

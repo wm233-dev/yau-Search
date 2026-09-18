@@ -1,0 +1,48 @@
+
+=== page 1 ===
+Mathematical Physics
+(Individual Overall Contest)
+Prob. 1 Consider a scalar in a D-dimensional spacetime background, the gravity and the scalar
+classical dynamics is described by the following total action
+S =
+1
+16πGD
+Z
+dDx√−gR −1
+2
+Z
+dDx√−ggαβ∂αφ∂βφ,
+(1)
+where GD is the D-dimensional Newton constant, g = det gαβ and gαβ is the inverse of gαβ, i.e.,
+gαγgγβ = δβ
+α.
+1) Derive the Einstein equation and the equation of motion for the scalar ﬁeld, respectively;
+2) In any dimension, the Riemann tensor obeys
+Rαβγδ = Rγδαβ = −Rβαγδ = −Rαβδγ.
+(2)
+Now in two dimensions, these relations imply a connection between the Riemann tensor and the
+Ricci scalar R. Find this precise relation;
+3) Using this relation, what is the implication of the Einstein equation obtained in 1) for D =
+2 ?
+Prob.
+2 Consider the four-dimensional U(1) gauge theory: L = −1
+4FµνF µν, where Fµν =
+∂µAν −∂νAµ. One can construct a class of gauge invariant local operators in the following form
+O2n(x) ∼(
+Y
+n-pairs
+ηµiµj)(∂µ1∂µ2 . . . ∂µm−2Fµm−1µm)(∂µm+1 . . . ∂µ2n−2Fµ2n−1µ2n)(x) ,
+(3)
+which contains 2 ﬁeld strength tensor Fµν and 2n −4 derivatives ∂µ. All 2n Lorentz indices are
+contracted in n pairs, thus every operator is a Lorentz scalar. By contracting Lorentz indices in
+diﬀerent ways, you may write down diﬀerent operators for a given n.
+Let Aµ be on-shell physical ﬁelds in the operator, and solve the following problems:
+(1) Derive all the equations that Fµν should satisfy.
+(2) In the n = 2 case, it should be easy to see that there is only one operator FµνF µν. Show
+that, for all possible ways of Lorentz contractions, there is only one independent operator for
+the n = 3 case.
+(3) Derive the set of independent operators for the n = 4 case.
+(4) Derive the set of independent operators for general n.
+You may ﬁnd it convenient to use a short notation for Lorentz indices such that FµνF µν =
+F12F12, and ∂ρF µν∂µFνρ = ∂1F23∂2F31.
+1

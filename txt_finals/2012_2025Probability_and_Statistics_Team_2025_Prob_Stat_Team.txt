@@ -1,0 +1,29 @@
+
+=== page 1 ===
+Group: Probability and statistics
+Problem 1. Let p ∈(0, 1). Suppose you have a coin with probability of “head” unknown. Can you design a
+game between two persons, which ends in a finite number of tosses of the coin with probability 1, such that
+one person’s winning probability is exactly p.
+Problem 2. Let (p1, p2, p3) be the probabilities of a discrete random variable, where 0 < pk < 1 and p1 + p2 +
+p3 = 1. Let r1, r2, r3 be independent random variables, each following a Unif(0, 1) distribution. Define the
+random variable X as
+X = k,
+if r1/pk
+k
+= max
+n
+r1/p1
+1
+, r1/p2
+2
+, r1/p3
+3
+o
+.
+You may ignore the case where the maximum is not unique, as it occurs with probability zero. Determine the
+distribution of X.
+Problem 3. Let (Xn)n≥0 be a discrete time simple symmetric random walk on Zd, whose increments (Xn+1 −
+Xn)n≥0 are independent and chosen uniformly from the 2d unit vectors (±ei)1≤i≤d in Zd with ∥ei∥= 1. A
+function f : Zd →R is called harmonic for the random walk if E[f(X1)|X0 = x] = f(x) for all x ∈Zd. Show
+that every bounded harmonic function f is a constant.
+1

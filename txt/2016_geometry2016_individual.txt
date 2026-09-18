@@ -1,0 +1,32 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Geometry and Topology
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let M be a compact odd-dimensional manifold with boundary ∂M. Show that the
+Euler characteristics of M and ∂M are related by:
+χ(M) = 1
+2χ(∂M).
+2. Compute the de Rham cohomology of a punctured two-dimensional torus T 2 −{p},
+where p ∈T 2. If T 2 = R2/Z2 with coordinates (x, y) ∈R2, then is the volume form
+ω = dx ∧dy exact?
+3. Let M n →Rn+1 be a closed oriented hypersurface. The r-th mean curvature of M n
+is deﬁned by
+Hr :=
+1
+¡n
+r
+¢
+X
+i1<i2···<ir
+λi1λi2 · · · λir,
+(1 ≤r ≤n)
+where λi (i = 1, · · · , n) are principal curvatures of M n. Prove that if all of λi are
+positive and Hr =constant for a certain r, then M n is a hypersphere in Rn+1.
+4. State and prove the cut-oﬀfunction lemma on a diﬀerentiable manifold.
+5. Let M be a compact Riemannian manifold without boundary. Show that if M has
+positive Ricci curvature, then H1(M, R) = 0.
+6. Let M be an orientable, closed and embedded minimal hypersurface in Sn+1. Denote
+by λ1 the ﬁrst eigenvalue for the Laplace-Beltrami operator on M. Prove that λ1 ≥n/2.
+1

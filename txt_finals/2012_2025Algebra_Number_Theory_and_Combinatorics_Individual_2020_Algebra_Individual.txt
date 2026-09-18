@@ -1,0 +1,47 @@
+
+=== page 1 ===
+Problem 1. Let R be the subring of C[x] consisting of all polyno-
+mials f(x) ∈C[x] such that f ′(0) = 0; i.e, the derivative of f at 0 is 0.
+Is R a ﬁnitely generated ring over C? If yes, ﬁnd an isomorphism from
+R to some quotient of a polynomial ring over C (with ﬁnitely many
+indeterminates). If no, justify your answer.
+Problem 2. In this problem K is either the ﬁeld of real numbers
+or the ﬁeld of complex numbers. Let N denote the set of nilpotents in
+Mn×n(K), the set of n × n matrices with entries in K, and U the set
+of unipotents – i.e., matrices A such that A −1n×n is nilpotent. Show
+that the exponential map
+exp : Mn×n(K) −→Mn×n(K) ,
+exp A = P∞
+n=0
+An
+n!
+maps N one-to-one onto U . Can you describe the inverse of this map?
+2b) What can you say about the exponential map from Mn×n(K) to
+itself? What is its image? Is it invertible in any sense?
+Problem 3. Let p be a prime, Fp the prime ﬁeld of p elements, and
+ζp a primitive p-th root of unity in C. For a positive integer d, deﬁne
+the algebraic integer
+Gd =
+X
+x∈Fp
+ζxd
+p .
+Prove that the degree over Q of the algebraic integer Gd is equal to
+(d, p −1).
+
+=== page 2 ===
+2
+Problem 1. Let d ∈N and ζ := e
+2π√−1
+d
+be a d-th primitive root
+of unity. Let A be the (d −1) × (d −1) matrix whose (i, j) entry is
+Aij = ζij −ζ(i−1)j. Show that det(A)2 ∈Z. For d ≡0, 3 (mod 4) show
+that det(A) ̸∈Z.
+Problem 2. Let k be any ﬁeld of characteristic not equal to 2. Let
+M be an n × n orthogonal matrix over k; that is, the coeﬃcients of M
+are in k, and MM t = In. Assume that n is odd. Prove that M has an
+eigenvalue equal to det(M).
+Problem 3. Let G ⊂GLn(Z) a ﬁnite subgroup. Prove that there
+is a constant cn depending only on n such that the order of G satisﬁes:
+|G| ≤cn.

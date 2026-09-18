@@ -1,0 +1,514 @@
+FILE: 2013\TeamProblems2013.pdf pages=12
+--- page 1 ---
+S.-T. Yau College Student Mathematics Contests 2013
+Analysis and Diﬀerential Equations
+Team
+Please solve 5 out of the following 6 problems.
+1. Suppose ∆= {z ∈C | |z| < 1} is the open unit disk in the complex
+plane. Show that for any holomorphic function f : ∆→∆,
+(1)
+|f ′(z)|
+1 −|f(z)|2 ≤
+1
+1 −|z|2
+for all z in ∆. If equality holds in (1) for some z0 ∈∆, show that
+f ∈Aut(∆), and that
+|f ′(z)|
+1 −|f(z)|2 =
+1
+1 −|z|2
+for all z ∈∆.
+2. Let f be a function of bounded variation on [a, b], f1 its generalized
+derivative as a measure, i.e. f(x)−f(a) =
+∫x
+a f1(y)dy for every x ∈[a, b]
+and f1(x) is an integrable function on [a, b]. Let f
+′ be its weak deriva-
+tive as a generalized function, i.e.
+∫b
+a f(x)g
+′(x)dx = −
+∫b
+a f
+′(x)g(x)dx,
+for any smooth function g(x) on [a, b], g(a) = g(b) = 0. Show that:
+a) If f is absolutely continuous, then f
+′ = f1.
+b) If the weak derivative f
+′ of f is an integrable function on [a, b],
+then f(x) is equal to an absolutely continuous function outside a set
+of measure zero.
+3. Show that the convex hull of the roots of any polynomial contains
+all its critical points as well as all the zeros of higher derivatives of the
+polynomial. Here the convex hull of a given bounded set in the plane
+is the smallest convex set containing the given set in the plane.
+4. Let D ⊂R3 be an open domain. Show that every smooth vector
+ﬁeld F = (P, Q, R) over D can be written as F = F1 + F2 such that
+rot(F1) = 0, div(F2) = 0, where rot(F) = (∂R
+∂y −∂Q
+∂z , ∂P
+∂z −∂R
+∂x , ∂Q
+∂x −
+∂P
+∂y ), div(F) = ∂P
+∂x + ∂Q
+∂y + ∂R
+∂z .
+5. Let H be a Hilbert space and A a compact self-adjoint linear op-
+erator over H. Show that there exists an orthor-normal basis of H
+consisting of eigenvectors φn of A with non-zero eigenvalues λn such
+that every vector ξ ∈H can be written as: ξ = Σkckφk + ξ
+′, where
+ξ
+′ ∈KerA, i.e., Aξ
+′ = 0. We also have Aξ = Σkλkckφk.
+If there are inﬁnitely many eigenvectors then limn→∞λn = 0.
+1
+
+--- page 2 ---
+2
+6. A function f: R →R is called convex if
+f(λx + (1 −λ)x′) ≤λf(x) + (1 −λ)f(x′)
+for 0 ≤λ ≤1 and each x, x′ ∈R, and is called strictly convex if
+f(λx + (1 −λ)x′) < λf(x) + (1 −λ)f(x′)
+for 0 < λ < 1. We assume that |f(x)| < ∞whenever |x| < ∞.
+(a) Show that a convex function f is continuous and the function
+g(y) = max
+x∈R (xy −f(x))
+is a well-deﬁned convex function over R.
+(b) Show that a convex function f is diﬀerentiable except at most
+countably many points.
+(c) f is diﬀerentiable everywhere if both f and g are strictly convex.
+
+--- page 3 ---
+S.-T. Yau College Student Mathematics Contests 2013
+Geometry and Topology
+Team
+Please solve 5 out of the following 6 problems.
+1. Let X be the space
+{(x, y, 0) | x2 + y2 = 1} ∪{(x, 0, z) | x2 + z2 = 1}
+Find the fundamental group π1(R3 \ X).
+2. Let M be a smooth connected manifold and f : M →M be an
+injective smooth map such that f ◦f = f. Show that the image set
+f(M) is a smooth submanifold in M.
+3. Let T 2 = {(z, w) ∈C2 | |z| = 1, |w| = 1} be the torus. Deﬁne a map
+f : T 2 →T 2 by f(z, w) = (zw3, w). Prove that f is a diﬀeomorphism.
+4. Prove: Any 3-dimensional Einstein manifold has constant curvature.
+5. State and prove the Myers theorem for complete Riemannian man-
+ifolds.
+6. Let C be a regular closed curve in R3. Its torsion is τ. The integral
+1
+2π
+∫
+C τds is called the total torsion of C, where s is the arc length
+parameter. Prove: Given a smooth surface M in R3, if for any regular
+closed curve C on M, the total torsion of C is always an integer, then
+M is a part of a sphere or a plane.
+1
+
+--- page 4 ---
+S.-T. Yau College Student Mathematics Contests 2013
+Algebra and Number Theory
+Team
+The exam contains 6 problems. Please choose 5 of them to
+work on.
+1. (20pt) Let A be an n × n skew symmetric real matrix.
+1.1 (10 pt) Prove that all eigenvalues of A are imaginary or zero and that
+eA is orthogonal.
+1.2 (10 pt) Find conditions on an orthogonal B such that B = eA is solvable
+for some skew symmetric and real matrix A.
+2. (20pt) Let E/F be a ﬁeld extension. Let A be an m × m matrix with
+entries in E such that tr(An) belongs to F for every n ≥2. Show that tr(A)
+belongs to F by following steps.
+2.1 (5pt) Show that there is a polynomial P(x) = P
+i aixi ∈¯E[x] with
+a0 = 1 such that
+X
+i
+aitr(Ai+k) = 0,
+∀k ≥1.
+2.2 (5pt) Show that we have a polynomial Q = P
+i bixi ∈F[x] with b0 = 1
+such that
+X
+i
+bitr(Ai+k) = 0,
+∀k ≥2.
+2.3 (5pt) Let t ∈¯E be an eigenvalue of A with multiplicity m invertible in
+F. Show that Q(t) = 0.
+2.4 (5pt) Show that tr(A) belongs to F.
+Hint: Let ti ∈¯E be all distinct non-zero eigen values of A with multiplicity
+mi invertible in F. Then
+tr(An) =
+X
+i
+mitn
+i .
+1
+
+--- page 5 ---
+3. (20pt) Let p be a prime and G = SL2(Fp).
+3.1 (10pt) Find the order of G.
+3.2 (10pt) Show that the order of every element of G divides either (p2 −1)
+or 2p.
+4. (20pt) Let S4 be the symmetric group of 4 letters.
+4.1 (10pt) Classify all complex irreducible representations of S4;
+4.2 (10pt) Find the character table of S4.
+5. (20pt) Let F2 be the ﬁnite ﬁeld of two elements.
+5.1 (10pt ) Find all irreducible polynomials of degree 2 and 3 over F2;
+5.2 (10pt) What is the number of irreducible polynomials of degree 6 over
+F2?
+6. (20pt) Let F be the splitting ﬁeld of x4 −2.
+6.1 (10pt) Describe the ﬁeld F and the Galois group G = Gal(F/Q).
+6.2 (10pt) Describe all subﬁelds K of F and corresponding Galois sub-
+groups GK = Gal(F/K).
+2
+
+--- page 6 ---
+S.-T. Yau College Student Mathematics Contests 2013
+Applied Math. and Computational Math.
+Team
+Please solve as many problems as you can!
+1. Scaling behavior is one of the most important phenomena in sci-
+entiﬁc modeling and mathematical analysis.
+The following problem
+shows the universality and rigidity of scaling limits.
+(a): (10 points) Suppose U > 0 is an increasing function on [0, ∞)
+and there is a function 0 < ψ(x) < ∞for x > 0 such that
+lim
+t→∞
+U(tx)
+U(t) = ψ(x),
+for all x > 0
+Then ψ(x) = xα for some α ≥0.
+(b): (10 points) The above problem can be generalized as:
+Suppose U > 0 is an increasing function on [0, ∞) and there
+is an extended function 0 ≤ψ(x) ≤∞and a set A dense in
+[0, ∞) such that
+lim
+t→∞
+U(tx)
+U(t) = ψ(x),
+for all x ∈A
+Then ψ(x) = xα for some α ∈[0, ∞].
+(c): (15 points) (Warming: this part is hard).
+A function L : (0, ∞) →(0, ∞) is called slowly varying at ∞
+if
+lim
+t→∞
+L(tx)
+L(t) = 1,
+for all x ∈A dense in (0, ∞)
+The function U in (a) and (b) can be recast as U(x) = c xαL(x)
+for some c ≥0. Now we can extend (b) to an even more general
+setting:
+Suppose U > 0 is increasing on (0, ∞), set A dense in [0, ∞)
+and
+lim
+n→∞anU(bnx) = ψ(x) ≤∞, for all x ∈A.
+where bn →∞and an+1
+an
+→1 for some interval. Then there is a
+real number α ∈[0, ∞], constant c ≥0, and a function L slowly
+varying at ∞such that ψ(x) = xα and U(x) = c xαL(x).
+2. The following three operators are important for many mathematics
+and physics problems. Let ϕ(x) be a smooth periodic function in Tn, ∆,
+∇, ∇· be the standard Laplacian, gradient and divergence operators.
+(i): Fokker-Planck operator: Fu = −∆u −∇· (u∇ϕ)
+1
+
+--- page 7 ---
+2
+(ii): Witten Laplacian operator: Wu = −∆u + ∇ϕ · ∇u
+(iii): Schr¨odinger operator: Su = −∆u +
+(1
+4|∇ϕ|2 −1
+2∆ϕ
+)
+u
+Show that
+(a): (5 points) The Fokker-Planck operator can be recast as Fu =
+−∇· (e−ϕ∇(eϕu).
+(b): (10 points) These three operators have same eigenvalues.
+(c): (5 points) Find all equilibrium solutions for these three op-
+erators.
+3. (15 points) Let f(x) deﬁned on [0, 1] be a smooth function with
+suﬃciently many derivatives. xi = ih, where h = 1
+N and i = 0, 1, · · · , N
+are uniformly distributed points in [0, 1]. What is the highest integer
+k such that the numerical integration formula
+IN = 1
+N
+(
+a0(f(x0) + f(xN)) + a1(f(x1) + f(xN−1)) +
+N−2
+∑
+i=2
+f(xi)
+)
+is k-th order accurate, namely
+IN −
+∫1
+0
+f(x)dx
+ ≤Chk
+for a constant C independent of h? Please describe the procedure to
+obtain the two constants a0 and a1 for this k.
+4. The wave guide problem is deﬁned as
+ut + ux = 0,
+vt −vx = 0
+with the boundary condition
+u(−1, t) = v(−1, t),
+v(1, t) = u(1, t)
+and the initial condition
+u(x, 0) = f(x),
+v(x, 0) = g(x).
+The upwind scheme for the guide problem is deﬁned as
+un+1
+j
+−un
+j
+∆t
++ un
+j −un
+j−1
+∆x
+= 0,
+j = −N + 1, · · · , N;
+vn+1
+j
+−vn
+j
+∆t
+−vn
+j+1 −vn
+j
+∆x
+= 0,
+j = −N, · · · , N −1;
+with the boundary condition
+un+1
+−N = vn+1
+−N ,
+vn+1
+N
+= un+1
+N
+where un
+j and vn
+j approximate u(xj, tn) and v(xj, tn) respectively at the
+grid point (xj, tn), with xj = j∆x, tn = n∆t, ∆x = 1
+N .
+
+--- page 8 ---
+3
+(1) (5 points) For the solution to the wave guide problem with the
+above boundary condition, prove the energy conservation
+d
+dt
+∫1
+−1
+(u2 + v2)dx = 0.
+(2) (5 points) For the numerical solution of the the upwind scheme,
+if we deﬁne the discrete energy as
+En =
+N
+∑
+j=−N+1
+(un
+j )2 +
+N−1
+∑
+j=−N
+(vn
+j )2,
+prove the discrete energy stability
+En+1 ≤En
+under a suitable time step restriction ∆t
+∆x ≤λ0. You should ﬁrst
+ﬁnd λ0.
+(3) (10 points) Under the same time step restriction, is the numer-
+ical solution stable in the maximum norm? That is, can you
+prove
+max
+−N≤j≤N max(|un+1
+j
+|, |vn+1
+j
+|) ≤
+max
+−N≤j≤N max(|un
+j |, |vn
+j |)?
+5. (15 points)
+Let G = (V, E) be a graph of order n. Let X1, X2,
+. . . , Xq with 2 ≤q ≤κ(X) be subsets of the vertex set V such that
+X = X1 ∪X2 ∪. . . ∪Xq. If for each i, i = 1, 2, . . . , q, and for any pair
+of nonadjacent vertices x, y ∈Xi, we have
+d(x) + d(y) ≥n,
+then X is cyclable in G (i.e., there is a cycle containing all vertices of
+X.).
+Where d(x) is the degree of x and κ(X) is the smallest number of
+vertices separating two vertices of X if X does not induce a complete
+subgraph of G, otherwise we put κ(X) = |X| −1 if |X| ≥2 and
+κ(X) = 1 if |X| = 1.
+6. (15 points)
+Let (Fn)n be the Fibonacci sequence. Namely, F0 =
+0, F1 = 1, . . . , Fn+2 = Fn+1 + Fn.
+Establish a relation between
+(
+0
+1
+1
+1
+)n
+and Fn and use it to design
+an eﬃcient algorithm that for a given n computes the n-th Fibonacci
+number Fn. In particular, it must be more eﬃcient than computing
+Fn in n consecutive steps.
+Give an estimate on the number of steps of your algorithm.
+Hint: Not that if m is even then
+(
+0
+1
+1
+1
+)m
+=
+((
+0
+1
+1
+1
+)m/2)2
+
+--- page 9 ---
+4
+and if m is odd then
+(
+0
+1
+1
+1
+)m
+=
+(
+0
+1
+1
+1
+)m−1
+·
+(
+0
+1
+1
+1
+)
+and m −1 is even.
+
+--- page 10 ---
+S.-T. Yau College Student Mathematics Contests 2013
+Probability and Statistics Problems
+Team
+Please solve 5 out of the following 6 problems.
+Problem 1. The characteristic function f of a probability distribution function F is
+deﬁned by
+f(t) =
+∫∞
+−∞
+eitx dF(x).
+Show that f1(t) = (cos t)2 is a characteristic function and f2(t) = | cos t| is not a charac-
+teristic function.
+Problem 2. Let I = [0, 1] be the unit interval and B the σ-algebra of Borel sets on I.
+Let P be the Lebesgue measure on I. Show that on the probability space (I, B, P) the
+set of points of x with the following property has probability 1: for all but ﬁnitely many
+rational numbers p/q ∈(0, 1),
+x −p
+q
+ ≥
+1
+(q log q)2.
+Problem 3. Let X be an integrable random variable, G a σ−algebra, and Y = E[X|G].
+Assume that X and Y have the same distribution.
+(1) Prove that if X is square-integrable, then X = Y , a.s. (i.e. X must be G measur-
+able) ;
+(2) Using a) to prove that for any pair of real numbers a, b with a < b, we have
+min{max{X, a}, b} = min{max{Y, a}, b}, and consequently, X = Y , a.s.
+Problem 4. Let X1, · · · , Xn be iid N(θ, σ2), σ2 known, and let θ have a double exponen-
+tial distribution, that is, π(θ) = e−|θ|/a/(2a), a known. A Bayesian test of the hypothesis
+H0 : θ ≤0 versus H1 : θ > 0 will decide in favor of H1 if its posterior probability is large.
+1
+
+--- page 11 ---
+(a) For a given constant K, calculate the posterior probability that θ > K, that is,
+P(θ > K | x1, · · · , xn, a).
+(b) Find an expression for lima→∞P(θ > K | x1, · · · , xn, a).
+(c) Compare your answer in part (b) to the p-value associated with the classical hypoth-
+esis test.
+Problem 5. Two sets of interesting ideas emerging in the 1990’s are the proposal of
+model selection with L1-penalty (e.g., lasso) and the proposal of soft thresholding in
+simultaneous inferences. Consider a linear model
+Y = Xβ + ε,
+where the set up is as usual (i.e., X is a non-random n by p matrix with 1 < p < n,
+ε ∼N(0, σ2 · In) with In being the identity matrix). The lasso procedure is to obtain an
+estimate of the parameter vector β through minimizing
+(L) :
+1
+2||Y −Xβ||2
+2 + λ · ||β||1,
+which we denote by β∗
+λ; here λ > 0 is a tuning parameter, ||·||2 denote the usual L2 vector
+norm, and || · ||1 denotes the usual L1 vector norm.
+Denote the ordinary least square estimate of β by ˆβ, we have
+1
+2||Y −Xβ||2
+2 + λ · ||β||1 = 1
+2||Y −X ˆβ||2
+2 + 1
+2||X(β −ˆβ)||2
+2 + λ · |β||1.
+(0.1)
+Furthermore, if X has orthonormal columns, e.g.,
+X′X = Ip,
+then it can be shown that
+β∗
+λ,i =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ˆβi −γ,
+ˆβi > γ,
+0,
+|ˆβi| ≤γ,
+ˆβi + γ,
+βi < −γ.
+(0.2)
+(0.2) is called the soft thresholding of ˆβi’s. This says that with orthonormal design, lasso
+solution is equivalent to applying soft thresholding to the ordinary least square solution.
+2
+
+--- page 12 ---
+(a) Prove equation (0.1) without assuming X is orthogonal.
+(b) Show that the lasso estimator is obtained by (0.2) under the assumption that X is
+orthogonal, and ﬁnd the relationship between λ and γ.
+Problem 6. Consider a usual linear model Y = Xβ + ε, where ε ∼N(0, σ2 · In) and
+X has n rows and p columns where 1 < p < n. Consider a p-dimensional column vector
+a ̸= 0.
+(a) Show that, if Xa = 0, then a′β is not estimable.
+(b) Prove or disprove that, if a′β is not estimable, then Xa = 0.
+(c) Show that X is full rank if and only if a′β are estimable for all a.
+3

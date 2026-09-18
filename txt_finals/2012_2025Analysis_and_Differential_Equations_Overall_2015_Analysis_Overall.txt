@@ -1,0 +1,13 @@
+
+=== page 1 ===
+Analysis questions 24/7 Evening
+1. Suppose that f : R →R is a function such that f(x + y) = f(x) + f(y) for all x, y ∈R.
+(a) Show that if f is continuous, then it is linear.
+(b) Show that if f is Borel measurable, then it is continuous and thus linear.
+2. Suppose that µ is a Borel measure of total mass 1, and let ˆµ(ξ) =
+R
+e−ixξµ(dx) be
+its Fourier transform. Show that if the ˆµ(ξ0) = 1 for some ξ0, then the support of µ is
+contained in a translation and dilation of Z, i.e., it is contained in {ak + b : k ∈Z} for
+some real a and b.
+1

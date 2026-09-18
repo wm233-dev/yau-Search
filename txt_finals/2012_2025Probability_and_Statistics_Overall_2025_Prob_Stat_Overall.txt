@@ -1,0 +1,24 @@
+
+=== page 1 ===
+All-around: Probability and statistics
+Problem 1. Suppose that a study has N subjects, divided into two groups. For subject i(i = 1, ..., N), let Zi
+be the group assignment, with Zi = 1 being the treatment group and Zi = 0 being the control group, and Xi
+be the covariates. The propensity score of subject i is the probability of that subject being in the treatment
+group: e(Xi) = P(Zi = 1 | Xi). A metric for the similarity of the covariates distribution between the groups
+is the Bhattacharyya coefficient:
+ϕ ≡
+Z 1
+0
+p
+f1(u)f0(u)du,
+where fz(u) is the density of the propensity score in group z (for z = 0, 1). Assume e(X) ∼Beta(a, b), derive
+the Bhattacharyya coefficient ϕ as a function of (a, b). (Note: The pdf of Beta distribution:
+Γ(a+b)
+Γ(a)Γ(b)xa−1 (1 −x)b−1,
+where Γ(z) =
+R ∞
+0 tz−1e−tdt is the Gamma function).
+Problem 2. Let Xt := eBt−t
+2 , where (Bt)t≥0 is a standard Brownian motion with B0 = 0. Find the distribution
+of M := supt≥0 Xt.
+1

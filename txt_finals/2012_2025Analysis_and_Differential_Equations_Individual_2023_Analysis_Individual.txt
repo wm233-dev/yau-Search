@@ -1,0 +1,42 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+Individual
+Please solve three out of the following four problems.
+1. Suppose ψ is a Schwartz function (i.e, sup(|x|k + 1)|ψ(l)(x)| < ∞, for all k, l ≥0 )
+with
+R ∞
+−∞|ψ(x)|2dx = 1. Then
+(
+Z ∞
+−∞
+x2|ψ(x)|2dx)(
+Z ∞
+−∞
+|ψ
+′(x)|2dx) ≥1
+4
+and equality holds if and only if ψ(x) = Ae−Bx2, B > 0 such that
+R ∞
+−∞|ψ(x)|2dx = 1.
+2. Suppose f is holomorphic in a neighbourhood Ωof the closed unit disc, except for
+a pole at z0 on the unit circle. Show that if
+∞
+X
+n=0
+anzn
+represents the power expansion of f in the open unit disc, then
+lim
+n→∞
+an
+an+1
+= z0.
+3. Consider the following planar system:
+(
+˙x = xy + x3,
+˙y = −y −2x2.
+Is the equilibrium (0, 0) stable or unstable? Justify your answer.
+4. Prove any bounded harmonic function u(x, y) deﬁned in the domain {y > x2} with
+Dirichlet boundary condition u(x, x2) = 0 must be 0.
+1

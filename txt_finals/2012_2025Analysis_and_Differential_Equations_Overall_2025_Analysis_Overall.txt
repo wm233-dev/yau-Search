@@ -1,0 +1,44 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Differential Equations
+Individual All-around
+Please solve one out of the following two problems.
+1. Let f : R →R be a measurable function supported on [0, 1]. Let Mf denotes its
+maximal function:
+∀x ∈R,
+Mf(x) = sup
+r>0
+1
+2r
+Z x+r
+x−r
+|f(x)| dx.
+Show that if
+R 1
+0 |f(x)| max {1, log|f(x)|} dx < +∞, then
+Z 1
+0
+Mf(x) dx < +∞.
+2. Let u(t, x) : R × R →C be periodic in x variable, i.e. ∀t, x, one has u(t, x + 2π) =
+u(t, x). Suppose u(t, x) is smooth and solves the linear Schr¨odinger equation,
+(0.1)
+
+
+
+i∂tu(t, x) + ∂xxu(t, x) = 0,
+u(0, x) = f(x).
+Prove the following estimate
+(0.2)
+Z 2π
+0
+Z 2π
+0
+|u(t, x)|4 dx dt ≤C(
+Z 2π
+0
+|f(x)|2 dx)2
+Here C is some universal constant.
+Hint: Try to use Fourier series and Plancherel theorem. Also recall ∥F∥2
+L4 = ∥F 2∥L2.
+1

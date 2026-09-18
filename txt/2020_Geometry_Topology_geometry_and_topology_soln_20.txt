@@ -1,0 +1,260 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Geometry and Topology
+Solve every problem.
+Problem 1.
+Let Sn be the unit sphere in Rn+1.
+(a) Find a 6-form α on R7 \ {0} such that
+dα = 0,
+and
+∫
+S6 α = 1.
+(b) For any smooth map f : S11 →S6, show that there exists a 5-form ϕ on S11 such that
+f ∗α = dϕ.
+(1)
+(c) Let
+H( f ) =
+∫
+S11 ϕ ∧dϕ.
+Show that H( f ) is independent of the choice of ϕ satisfying (1).
+(d) Show that H( f ) is an even integer, for any smooth map f : S11 →S6.
+Solution:
+Problem 1 is essentially taken from [BT82, p.
+227ﬀ] (originally due to Hopf and J. H. C.
+Whitehead) and [Hat02, §4.B] (originally due to Steenrod). It covers diﬀerential forms, exterior product, de
+Rham cohomology, behavior under pull-back, integration on manifolds in geometry; one approach to Part (d)
+uses singular cohomology and cohomology operations in topology.
+For Part (a), the 6-form can be given by
+α =
+Í7
+j=1(−1)j−1x jdx1 ∧· · · ∧d
+dx j ∧· · · ∧dx7
+Vol(S6) · [(x1)2 + · · · + (x7)2]7/2
+in R7 \ {0},
+Part (b) follows from the fact that H6(S11) = 0.
+Part (c) follows from Stokes’ theorem. Note that H( f ) is also independent of the choice of generator α of
+H6
+deR(S6).
+To see Part (d), one way is to consider the CW complex K = B ∪f S6 obtained by attaching a closed 12-cell B
+to S6 via f : S11 = ∂B →S6. Then, the cohomology Hq(K; Z) is equal to Z for q = 0,6,12 and 0 else. Let α
+and β be the generators of Hq(K; Z) for q = 6 and 12, respectively. We claim the cup-product α2 = H( f )β in
+H12(K; Z). Indeed, in our previous formulation H( f ) =
+∫
+∂B ϕ ∧f ∗(α) =
+∫
+K( f ∗α) ∧( f ∗α) which is the same
+as taking the cap product [K] ⌢α2 = H( f )[K] ⌢β. This shows H( f ) ∈Z. Suppose H( f ) is an odd number
+for some f : S11 →S6. Then Sq6(σ) = σ2 = τ in H12(K; Z2), where Sqi : Hq(K; Z2) →Hq+i(K; Z2) is
+the Steenrod square and σ and τ are generators of Hq(K; Z2) for q = 6,12. But Sq6 = Sq2Sq4 + Sq5Sq1
+by the Adem relation [Hat02, §4.L]. Note that Sqi(σ) = 0 for 1 ≤i ≤5 for dimension reasons. Hence,
+τ = Sq6(σ) = 0, a contradiction. An alternate way to see H( f ) ∈Z is to use the intersection-theoretic linking
+number as in [BT82] or [Whi57, §33].
+Problem 1 counts 30 points in total. Part (a)–(c) counts 5 points each, and Part (d) counts 15 points, for
+instance, H( f ) ∈Z (7pts), and H( f ) is even (8pts).
+
+=== page 2 ===
+Problem 2.
+For any h ∈C∞(R2) and h > 0 on R2, deﬁne the Ricci curvature Ric(h) associated
+with h by
+Ric(h) = 1
+h
+ ∂2
+∂x2 + ∂2
+∂y2
+
+log h,
+where (x, y) are the standard Cartesian coordinates in R2. Either construct a positive smooth function
+h1 such that Ric(h1) = 1, or show that there is no such function h1 exists.
+Solution:
+Problem 2 covers manifolds of nonpositive curvature, Riemannian metrics, curvatures. It can be
+viewed as a Schwarz type lemma, or a baby version of the generalized maximum principle of Yau [Yau75],
+and Cheng-Yau [CY75].
+The problem counts 20 points. The ﬁrst part has negative answer (10 points, which rewards those students
+with good intuition or right sense). The second part, proof of the assertion, counts 10 points.
+One way is to show f has an upper bound and apply the generalized maximum principle. Alternatively one
+can also apply integration method. Since we have equality here, there will be more interesting solutions.
+Problem 3.
+Let M be an n-dimensional Riemannian manifold, and p ∈M. Let {e1,. . .,en} be
+an orthonormal basis of the tangent space TpM, and let {x1,. . ., xn} be a coordinate system of M
+centered at p such that
+exp−1
+p (q) =
+n
+Õ
+j=1
+x j(q)ej,
+where expp denotes the exponential map. Let γ(t) = expp(te1), 0 ≤t ≤δ, where δ is a positive
+constant less than 1.
+(a) For 2 ≤α ≤n, which one of the following,
+t ∂
+∂xα
+
+γ(t)
+or
+∂
+∂xα
+
+γ(t)
+,
+is a Jacobi ﬁeld along γ(t)? Prove your assertion.
+(b) Denote
+gij =
+D ∂
+∂xi, ∂
+∂x j
+E
+,
+1 ≤i, j ≤n.
+Compute
+∂2g22
+∂x1∂x1
+at the point p.
+(c) Show that
+max
+0≤t ≤δ
+
+∂g22
+∂x1 (γ(t))
+ ≤CδA,
+where C > 0 is a constant depending only on n, and A is the C0-bound of the curvature tensor
+of M along γ(t), for 0 ≤t ≤δ.
+Solution: Problem 3 covers Jacobi ﬁelds, Riemannian metrics, curvature, the exponential map, and geodesic.
+
+=== page 3 ===
+For Part (a), only t∂/∂xα is a Jacobi ﬁeld along γ(t). For Part (b), one way is to let
+g22 = 1
+t2 ⟨J, J⟩,
+J ≡t ∂
+∂x2,
+and use the Jacobi equation to obtain |J|2 = 1 + t2R1212/3 + O(t3); hence,
+∂2g22
+∂x1∂x1 (0) = 2
+3 R1212.
+For Part (c), one way is to write
+∂g22
+∂x1 = 1
+t3 (t⟨J, J⟩′ −2⟨J, J⟩)
+and apply the calculus identity
+th′(t) −2h(t) = −2h(0) −h′(0)t + t2
+∫1
+0
+(2τ −1)h′′(τt)dτ
+to h(t) = |J|2(t). Note that h′′ = 2R(γ′, J,γ′, J) + 2⟨J′, J′⟩. One still needs to express ⟨J′, J′⟩in terms of
+integration of curvature; thus,
+∂g22
+∂x1 = 2
+t
+∫1
+0
+(2τ −1)R(γ′, J,γ′, J)(τt)dτ
++
+∫1
+0
+(2τ −1)τ
+∫1
+0
+[R(γ′, J,γ′, J) + R(γ′, J,γ′, J′)](τtρ)dρdτ.
+The estimate follows from the comparison theorem |R(γ′, J,γ′, J)| (τt) ≤CAt2τ2 and |R(γ′, J,γ′, J′)| (τρt) ≤
+CAτρt.
+Part (b) is taken from [LP87, p. 60] and [SY94, p. 210, Lemma 3.4].
+The point of Part (c) is that the constant A does not depend on the bounds of derivatives of curvature; a version
+of (c) is used in [WY20, (2.24)].
+This problem counts 30 points, with Part (a) 5 points, Part (b) 10 points, and Part (c) 15 points.
+Problem 4.
+Let SO(n) be the set of n × n orthogonal real matrices with determinant equal to 1.
+Endow SO(n) the relative topology as a subspace of Euclidean space Rn2.
+(a) Show that SO(n) is compact.
+(b) Is SO(3) homeomorphic to the real projective space RP3? Prove your assertion.
+(c) Compute the fundamental group of SO(2020).
+Solution: Problem 4 covers basics of matrix Lie group SO(n) in geometry, and fundamental groups, covering
+spaces, ﬁbrations and the long exact sequence of ﬁbration in topology.
+Part (a) follows from the closedness and boundedness of SO(n).
+For Part (b), note that SO(3) consists of all rotations in R3 about the origin. Each such rotation, except the
+identity, is ﬁxed by its axis and an angle −π ≤θ ≤π. Deﬁnes a map ψ from the closed unit ball B ⊂R3
+to SO(3), by sending x ∈B \ {0} to the rotation of angle |x|π around axis x/|x|, and sending x = 0 to the
+identity. Then, ψ is continuous. Note that a rotation of angle π is the same as a rotation of angle −π. Thus,
+ψ(x) = ψ(−x) for x ∈∂B = S2. This means ψ induces a map B/∼∂B→SO(3), where x1 ∼x2, x1, x2 ∈∂B if
+and only if x1 = −x2. Observe that B/∼∂B is homeomorphic to the quotient of the upper hemi-sphere S3
++/∼S2
+by identifying the antipodal points on its equator S2; the latter is precisely RP3. One can show the induced
+maps from RP3 to SO(3) is continuous and bijective, and hence, it is an homeomorphism.
+
+=== page 4 ===
+For Part (c), one way is to apply the exact sequence of homotopy groups to ﬁbration
+SO(n)
+SO(n + 1)
+Sn
+(2)
+to obtain π1(SO(n)) = π1(SO(n + 1)) for n ≥3. On the other hand, by Part (b) we obtain π1(SO(3)) = Z2,
+by the fact that S3 is a double cover of RP3. Combining these yields π1(SO(n)) = Z2 for all n ≥3; this in
+particular holds for n = 2020. Part (b) is taken from [Hat02, §3D], the ﬁbration 2 or the fact of homogeneous
+space SO(n + 1)/SO(n) can be found in [Hat02, 4D.3] and [War83, p. 126], respectively.
+This problem counts 30 points, with Part (a) 5 points, Part (b) 10 points, and Part (c) 15 points.
+Problem 5.
+Let X be a topological space and π : R2 →X a covering map. Let K be a compact
+subset of X and B the closed unit ball centered at the origin in R2.
+(a) Suppose π : R2 \ B →X \ K is a homeomorphism. Show that π : R2 →X is a homeomor-
+phism.
+(b) Suppose R2 \ B is homeomorphic to X \ K, where the homeomorphism may not be π. Is X
+necessarily homeomorphic to R2? Prove your assertion.
+Solution:
+Problem 5 is taken from a problem that I made for the PhD Preliminary Topology Exam at the
+University of Connecticut, August 2018. It covers the covering spaces, which was motivated by a conversation
+with L. H. Huang on general relativity.
+For Part (a), it suﬃces to show #π−1(y) = 1, y ∈X. Pick a sequence {xk} in R2 \ B that tends to inﬁnity;
+say xk has coordinates (2k,0) for k ≥1. Then, π(xk) has no limit in X, in view of the homeomorphism
+π : R2 \ B →X \ K. Suppose π−1(π(xk)) contains more than one point; say x′
+k , xk. Then, x′
+k has to lie in
+B. By compactness of B, a subsequence {x′
+kl } converges to a point x∗∈B. This implies π(xkl) converges to
+a point p(x∗) in X, a contradiction.
+The answer to (b) is “no.” For example, let X be the torus S1 × S1 and K = ({a} × S1) ∪(S1 × {b}) ∪D
+where D is a small disk away from the two circles. Then, X \ K is homeomorphic to R2 \ B, but R2 is not
+homeomorphic to X.
+This problem counts 20 points, with 10 points each part.
+Problem 6. Let Fn be the free group of rank n,
+(a) Give an example of a ﬁnite connected graph such that its fundamental group is F2.
+(b) Does F2 contain a proper subgroup isomorphic to F2?
+(c) Does F2 contain a proper ﬁnite index subgroup isomorphic to F2?
+Solution: Let π1(X) and χ(X) be the fundamental group and Euler characteristic of a ﬁnite connected graph
+X respectively. Recall several facts:
+(1) π1(X) is a free group of rank 1 −χ(X).
+(2) The correspondence between the subgroups of π(X) and the covering spaces of X, and coverings of
+graphs are still graphs.
+(3) χ( ˜X) = dχ(X) for a ﬁnite covering ˜X of degree d of X.
+Now we have the answer as below:
+
+=== page 5 ===
+Part (b), Yes: pick any graph X of χ(X) = −1, say the ﬁgure eight, let ˜X be the double covering of X. Then
+we have χ( ˜X) = −2 by (3), χ(X) = F2, χ( ˜X) = F3 by (1), so F2 has a subgroup F3 by (2). Clearly F3 has a
+proper subgroup isomorphic to F2. So F2 contains a proper subgroup isomorphic to F2.
+Part (c), No: Pick X as in Part (a). If F2 contains a subgroup G of index d isomorphic to F2, d > 1, then there
+is a degree d covering ˜X of X with π( ˜X) = G by (2), and χ( ˜X) = −d, so the rank of π1( ˜X) = 1 + d > 2 by (1),
+which contradicts that G = F2.
+References
+[BT82]
+Raoul Bott and Loring W. Tu. Diﬀerential forms in algebraic topology, volume 82 of
+Graduate Texts in Mathematics. Springer-Verlag, New York-Berlin, 1982.
+[CY75] Shiu-Yuen Cheng and Shing-Tung Yau. Diﬀerential equations on Riemannian manifolds
+and their geometric applications. Comm. Pure Appl. Math., 28(3):333–354, 1975.
+[Hat02] Allen Hatcher. Algebraic topology. Cambridge University Press, Cambridge, 2002.
+[LP87]
+John M. Lee and Thomas H. Parker. The Yamabe problem. Bull. Amer. Math. Soc. (N.S.),
+17(1):37–91, 1987.
+[SY94]
+R. Schoen and S. T. Yau. Lectures on diﬀerential geometry. Conference Proceedings and
+Lecture Notes in Geometry and Topology, I. International Press, Cambridge, MA, 1994.
+Lecture notes prepared by Wei Yue Ding, Kung Ching Chang [Gong Qing Zhang], Jia Qing
+Zhong and Yi Chao Xu, Translated from the Chinese by Ding and S. Y. Cheng, Preface
+translated from the Chinese by Kaising Tso.
+[War83] Frank W. Warner. Foundations of diﬀerentiable manifolds and Lie groups, volume 94
+of Graduate Texts in Mathematics. Springer-Verlag, New York-Berlin, 1983. Corrected
+reprint of the 1971 edition.
+[Whi57] Hassler Whitney. Geometric integration theory. Princeton University Press, Princeton, N.
+J., 1957.
+[WY20] Damin Wu and Shing-Tung Yau. Invariant metrics on negatively pinched complete Kähler
+manifolds. J. Amer. Math. Soc., 33(1):103–133, 2020.
+[Yau75] Shing Tung Yau. Harmonic functions on complete Riemannian manifolds. Comm. Pure
+Appl. Math., 28:201–228, 1975.

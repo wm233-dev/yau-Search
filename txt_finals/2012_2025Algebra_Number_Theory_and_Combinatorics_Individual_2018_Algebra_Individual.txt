@@ -1,0 +1,34 @@
+
+=== page 1 ===
+YAU COLLEGE MATH CONTESTS INDIVIDUAL ALGEBRA
+2018
+Problem 1
+Factorize the polynomial
+f(x) = 6x5 + 3x4 −9x3 + 15x2 −13x −2
+into a product of irreducible polynomials in the ring Q[x].
+Problem 2
+Prove that any group of order 588 is solvable, given that any group of order 12
+is solvable.
+Problem 3
+Decide which ﬁeld F has the following property: for each integer n > 0, and
+for every n × n matrix A with entries in F, we can conjugate A to an upper
+triangular matrix under GLn(F).
+Problem 4
+Let n be a positive integer.
+(1) Find the image of the map
+Mn×n(C) −→Mn×n(C), A →AtA.
+Here Mn×n(C) denotes the space of all (n × n) matrices with complex entries.
+(2) Find the image of the map
+Mn×n(R) −→Mn×n(R), A →AtA.
+Here Mn×n(R) denotes the space of all (n × n) matrices with real entries.
+Problem 5
+1
+
+=== page 2 ===
+2
+YAU COLLEGE MATH CONTESTS INDIVIDUAL ALGEBRA 2018
+Let k be a ﬁeld of characteristic p > 0, and let x, y be algebraically independent
+over k. Prove the following
+(a). k(x, y) has ﬁeld extension degree p2 over k(xp, yp).
+(b). There are inﬁnitely many intermediate ﬁeld extensions between k(x, y)
+and k(xp, yp).

@@ -1,0 +1,55 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Differential Equations
+Team
+Please solve at least two out of the following three problems.
+1. Problem 1 (This is the mathematical foundation of Artificial Intelligence)
+Let f be a continuous function [0, 1]2 →R such that ∥f∥= 1, i.e. its supremum
+norm is one. Let t be a positive irrational number and I = [0, 1]. Take any func-
+tion ψ1 ∈C[I] = {I →R continuous}. For any ϵ > 0, there exists a N such that
+the variants of f on squares of width less than 1/N is less than 1/7. One can con-
+struct ϕ1 ∈C[I] such that: ∥ψ1 −ϕ1∥< ϵ, ϕ1 is constant on each of the intervals
+[0/5N, 4/5N], [5/5N, 9/5N], . . . , [1 −5/5N, 1 −1/5N] and ϕ1 taking values of different
+rational numbers.
+This function ϕ1 creates a grid address system on [0, 1]2, divided into streets and
+blocks. The blocks are of form [0/5N, 4/5N]×[0/5N, 4/5N], [0/5N, 4/5N]×[5/5N, 9/5N], . . . .
+To each block one can associate an unique address ϕ1(x) + tϕ1(y). Enumerate R1,r as
+the r-th block with address a1,r = ϕ1(x) + tϕ1(y).
+1) Show that there exists an open and dense set Uf ⊂C[I]5, for each (ϕ1, ..., ϕ5) ∈Uf,
+associate grid address system for each ϕi with address ai,r, one can construct covers of
+[0, 1]2, such that each point in [0, 1]2 is covered by 3 to 5 blocks and 2 to 0 streets.
+2) Enumerate Ri,r the same way as R1,r for each ϕi. For each block Ri,r, if f > 0
+on all of Ri,r define g(ai,r) = 1/7; if f < 0 on all of Ri,r define g(ai,r) = −1/7.
+Linearly interpolate g between these defined values. Prove that ∥g∥< 1.01
+7 ∥f∥, and
+∥f(x, y) −P5
+i=1 g(ϕi(x) + tϕi(y))∥< 6.01
+7 ∥f∥.
+2. Let B be a Banach space, V a normed linear space and let L1, L0 be bounded
+linear operators from B to V . For each t ∈[0, 1], set
+Lt = (1 −t)L0 + tL1
+1
+
+=== page 2 ===
+2
+and suppose that there is a constant C such that
+||x||B ≤C||Ltx||V
+for t ∈[0, 1]. Then L1 maps B onto V if and only if L0 maps B onto V .
+3. Let Ωbe a bounded smooth domain and let Γ be an open, smooth portion of ∂Ω.
+Prove that if f, g ∈C1(¯Ω), then the equation
+
+
+
+
+
+
+
+∆u = f,
+in Ω,
+u = g,
+on Γ,
+∂u
+∂⃗n = 0,
+on Γ
+has at most one solution.

@@ -1,0 +1,39 @@
+
+=== page 1 ===
+YAU COLLEGE MATH CONTESTS TEAM ALGEBRA 2018
+Problem 1
+Let di (1 ≤i ≤n) be positive integers such that Pn
+i=1
+1
+di > 1. For a prime
+number p, let Fp be the ﬁnite ﬁeld of p elements. For
+f(x1, · · · , xn) = xd1
+1 + xd2
+2 + · · · + xdn
+n ,
+prove that the number
+N := #{(x1, · · · , xn) ∈Fn
+p|f(x1, · · · , xn) = 0}
+is divisible by p. Hint: consider the sum P
+(x1,··· ,xn)∈Fnp f(x1, · · · , xn)p−1.
+Problem 2
+Let G be a ﬁnite group acting on the polynomial ring R = k[x1, · · · , xn] with
+n variables x1, · · · , xn. Let S := {f ∈R | g · f = f, ∀g ∈G} be the subring of
+invariants. Prove that S is a ﬁnitely generated k-algebra.
+Problem 3
+Let k be any ﬁeld. Let R = k[[t]] be the ring of formal power series over k. Let
+M be a ﬁnitely generated free R-module. Let v1, · · · , vn ∈M, and denote their
+images in M/tM by ¯v1, · · · , ¯vn. Assume that {¯v1, · · · , ¯vn} is a basis of the vector
+space M/tM over k. Prove that {v1, · · · , vn} is an R-basis of the module M.
+Remark. This is a special case of Nakayama’s lemma.
+Problem 4
+Let µ(t) ∈k[t] be the minimal polynomial of A ∈Mn(k) and
+WA = { AX −XA | ∀X ∈Mn(k) } ⊂Mn(k).
+1
+
+=== page 2 ===
+2
+YAU COLLEGE MATH CONTESTS TEAM ALGEBRA 2018
+Prove that
+dim(WA) ≤n2 −deg(µ(t))
+and the equality holds if and only if deg(µ(t)) = n.

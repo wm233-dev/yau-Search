@@ -1,0 +1,155 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Applied Math. and Computational Math.
+Individual (5 problems)
+Problem 1. Consider the implicit leapfrog scheme
+un+1
+m
+−un−1
+m
+2k
++ a
+µ
+1 + h2
+6 δ2
+¶−1
+δ0un
+m = f n
+m
+for the one-way wave equation
+ut + aux = f.
+Here δ2 is the central second diﬀerence operator, and δ0 is the central ﬁrst diﬀerence
+operator.
+(1) show that the scheme is of order (2, 4).
+(2) show that the scheme is stable if and only if |ak
+h | <
+1
+√
+3.
+Problem 2. A simple version of an enzyme-mediate chemical reaction process is given
+by
+S + E
+k1
+←→
+k2 C
+k3
+−→P + E
+where S is the substrate reactant and P is the concentration of the desired product.
+An enzyme (or catalyst) E is a compound whose special property is that it allows for
+intermediate reaction steps that lead to a the overall reaction,
+S −→P.
+Assume the initial conditions
+S(0) = S0,
+E(0) = E0,
+C(0) = 0,
+P(0) = 0;
+k1, k2, k3 are reaction rate constants.
+(a) Convert the chemical reaction equation into a system of rate equations (ODEs) for
+S(T), E(T), C(T), and P(T) where T is the dimensional time. Nondimensionalize
+the equations using the scalings
+T = t/(k1E0),
+S(T) = S0s(t),
+P(T) = S0p(t),
+E(T) = E0s(t),
+C(T) = E0c(t),
+ϵ = E0
+S0
+≪1,
+λ =
+k2
+k1S0
+,
+µ = k2 + k3
+k1S0
+.
+(b) Use the expansions s(t) = s0(t)+ϵs1(t)+O(ϵ2), c(t) = c0(t)+ϵc1(t)+O(ϵ2), etc to
+determine the equations for the leading order slow solution. Show that s0(t) and
+p0(t) satisﬁes the following Michaelis-Menten equations
+˙s0(t) = −(µ −λ)
+s0
+µ + s0
+,
+˙p0(t) = (µ −λ)
+s0
+µ + s0
+.
+1
+
+=== page 2 ===
+2
+Problem 3. We say that a vector u = (u1, . . . , un) ∈Nn is multiplicatively dependent
+if there is a non-zero vector k = (k1, . . . , kn) ∈Zn for which
+(1)
+uk1
+1 · · · ukn
+n = 1.
+This notion plays a very important role in many number theoretic algorithms, such
+as factorisation and primality testing. It also (in a more general form) appears in
+some questions in algebraic dynamics. However the algorithm to decide whether u
+is multiplicatively dependent is not immediately obvious.
+The following statement
+informally means that if u is multiplicatively dependent the exponents k1, . . . , kn can
+be chosen to be reasonably small. Prove that if u = (u1, . . . , un) ∈Nn is multiplicatively
+dependent with ∥u∥∞≤H where ∥u∥∞= max1≤i≤n |ui|, then there is a non-zero vector
+k = (k1, . . . , kn) ∈Zn with
+∥k∥∞≤
+µ2n log H
+log 2
+¶n−1
+(and hence for a ﬁxed n it can be found in polynomial time of order (log H)n(n−1)).
+Comment: To solve this problem, you can use the following statement (without
+proof) which informally means that if a system of homogeneous equations with integer
+coeﬃcients has a nontrivial solution then it has an integer solutions with reasonably
+small components. It is required in many applications.
+Let A = (aij)m,n
+i,j=1 be an m × n matrix of rank r ≤n −1 with integer entries of size at
+most H, that is,
+|aij| ≤H,
+1 ≤i ≤m, 1 ≤j ≤n.
+Then there is an integer non-zero vector x = (x1, . . . , xn) ∈Zn such that Ax = 0 and
+∥x∥∞≤(2nH)n−1
+where ∥x∥∞= max1≤i≤n |xi|.
+Problem 4. Consider a symmetric matrix An×n, and let λi be a simple eigenvalue of
+A with
+|λj −λi| = O(1),
+j ̸= i.
+In inverse iteration of compute eigenvalue and eigenvector, one needs to solve the
+following linear system
+(A −µI)yk+1 = xk,
+where µ is an approximation of eigenvalue λi, ∥xk∥= 1and obtain
+xk+1 =
+yk+1
+∥yk+1∥.
+However, for µ close to λi, A −µI has a very small eigenvalue and the linear system
+will be ill-conditioned. So there may be large error in the numerical solution to the
+linear system, denoted by ˜yk+1. Even though we may get large error in ˜yk+1, the ˜xk+1
+we get from ˜xk+1 =
+˜yk+1
+∥˜yk+1∥is accurate.
+
+=== page 3 ===
+3
+(1) ˜yk+1 satisﬁes
+(A −µI + δA)˜yk+1 = xk,
+where ∥δA∥= O(ϵ) and ϵ is the machine precision. Show that
+(A −λi) ˜yk+1
+∥˜yk+1∥∥≤|µ −λi| + ∥δA∥+
+1
+∥˜yk+1∥.
+(2) Let αi = xt
+kqi, where qi is the normalized eigenvector corresponding to λi. Show
+that
+∥˜yk+1∥≥
+|αi|
+|µ −λi| + ∥δA∥.
+(3) Conclude that
+∥xk+1 −(±)qi∥= O(|λi −µ| + ϵ).
+Problem 5. A function f : Rn →R in C2 is called strongly convex if its Hessian
+matrix satisﬁes ∇2f ⪰mI for some m > 0. Show that the following statements are
+equivalent:
+(a) f is strongly convex, i.e. ∇2f(x) ⪰mI for all x ∈Rn;
+(b) For any t ∈[0, 1], any x, y ∈R,
+f(tx + (1 −t)y) ≤tf(x) + (1 −t)f(y) −m
+2 t(1 −t)∥x −y∥2;
+(c) ⟨∇f(x) −∇f(y), x −y⟩≥m∥x −y∥2 for any x, y ∈Rn.

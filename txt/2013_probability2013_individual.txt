@@ -1,0 +1,68 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2013
+Probability and Statistics Problems
+Individual
+Please solve 5 out of the following 6 problems.
+Problem 1. Let (Xn) be a sequence of random variables.
+(1) Assume that ∑∞
+n=0 P(|Xn| > n) < ∞. Prove that lim supn→∞
+|Xn|
+n
+≤1.
+(2) Prove that (Xn) converges in probability to 0 if and only if for certain r > 0,
+E
+[
+|Xn|r
+1+|Xn|r
+]
+→0.
+Problem 2. Let X and Y be independent N(0, 1) random variables.
+(1) Find E[X + Y |X ≥0, Y ≥0];
+(2) Find the distribution function of X + Y given that X ≥0 and Y ≥0.
+(Hint: For b) using the fact that U = (X + Y )/
+√
+2 and V = (X −Y )/
+√
+2 are
+independent and N(0, 1) distributed.)
+Problem 3. Let {Xn} be a sequence of independent and identically distributed con-
+tinuous real valued random variables, and regard n as time. Let An be the following
+event:
+An = {Xn = max{X1, X2, · · · , Xn}}.
+We say that a maximum record occurs at n in such an event.
+(1) Evaluate the probability P(An).
+(2) Denote by Yn the number of maximum records occurred until time n, i.e.,
+Yn = the number of {1 ≤k ≤n : Xk = max{X1, X2, · · · , Xk}}.
+Evaluate the expectation EYn and the variance DYn.
+Problem 4. Let X = (X1, · · · , Xn) be an iid sample from an exponential density with
+mean θ. Consider testing H0 : θ = θ0 vs. H1 : θ > θ0. Let P(X) = your p-value for an
+appropriate test.
+1
+
+=== page 2 ===
+(a) What is Eθ0(P(X))? Derive your answer explicitly.
+(b) Derive Eθ(P(X)) for θ ̸= θ0. Speciﬁcally, assuming only one sample, i.e. n = 1,
+calculate Eθ(P(X)) as explicitly as possible for θ ̸= θ0.
+(c) When there is only one sample, is Eθ(P(X)) a decreasing function of θ? In general,
+can you prove your result for an arbitrary MLR family?
+Problem 5. Let X1, X2 be iid uniform on θ −1
+2 to θ + 1
+2.
+(a) Show that for any given 0 < α < 1, you can ﬁnd c > 0 such that
+Pθ{ ¯X −c < θ < ¯X + c} = 1 −α,
+where ¯X is the sample mean.
+(b) Show that for ϵ positive and suﬃciently small
+Pθ{ ¯X −c < θ < ¯X + c
+ |X2 −X1| ≥1 −ϵ} = 1
+(c) The statement in (a) is used to assert that ¯X ±c is a 100(1−α)% conﬁdence interval
+for θ. Does the assertion in (b) contradict this? If your sample observations are
+X1 = 1, X2 = 2, would you use the conﬁdence interval in (a)?
+Problem 6. Suppose you want to estimate the total number of enemy tanks in a war on
+the basis of the captured tanks. Assume without loss of generality that the tank serial
+numbers are 1, 2, · · · , N, where N is the unknown total number of enemy tanks. Also
+assume the serial numbers of the n captured tanks are iid uniform on 1, 2, · · · , N. (This
+is a simpliﬁed assumption which provides a good approximation if n << N).
+(a) Find the complete suﬃcient statistic.
+(b) Suggest how you may ﬁnd the minimum variance unbiased estimate of N.
+2

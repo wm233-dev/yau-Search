@@ -1,0 +1,74 @@
+
+=== page 1 ===
+Oral Exam for Teams: Applied and Computational Mathematics 2017
+vi
+vj
+vk
+li
+lj
+lk
+θi
+θj
+θk
+Figure 1: reference triangle.
+1. Given a Euclidean triangle [vi, vj, vk] with edge lengths li, lj, lk and corner angles θi, θj, θk (see
+Figure 1), we treat the angles as the functions of edge lengths, namely, θi = θi(li, lj, lk).
+(a) Show that
+∂θi
+∂li
+= li
+2A,
+∂θi
+∂lj
+= −li
+2A cos θk,
+where A is the area of the triangle.
+(b) Suppose the initial edge lengths are (l0
+i , l0
+j, l0
+k), the conformal factor (ui, uj, uk) are three real
+numbers associated with the vertices, the vertex scaling operator changes each edge length
+by multiplying the exponential of conformal factors at its two end vertces, namely:
+li = eujl0
+i euk,
+lj = eukl0
+jeui,
+lk = euil0
+keuj,
+Show that
+∂θi
+∂uj
+= ∂θj
+∂ui
+= cot θk,
+∂θi
+∂ui
+= −cot θj −cot θk
+(c) If the initial triangle is an acute triangle, then in a neighborhood of (ui, uj, uk) = (0, 0, 0), the
+mapping ϕ : {(ui, uj, uk)|ui + uj + uk = 0} →{(θi, θj, θk)|θi + θj + θk = π} is diﬀeomorphic.
+1
+
+=== page 2 ===
+2. Let A ∈Rn×n be symmetric and let ∥q1∥2 = 1. Consider the following Lanczos iteration:
+r0 = q1,
+β0 = 1,
+q0 = 0,
+k := 0
+while βk ̸= 0
+qk+1 := rk/βk
+k := k + 1
+αk := qT
+k Aqk
+rk := (A −αkI)qk −βk−1qk−1
+βk := ∥rk∥2
+end
+Let Kn = span{q1, Aq1, · · · , An−1q1}.
+(a) Show that
+AQk = QkTk + rkeT
+k
+where ek is the k-th unit vector, Qk = [q1 · · · qk] and
+(b) Assume that the iteration does not terminate. Show that Qk has orthonormal columns, and
+that they span Kk.
+(c) Show that the Lanczos iteration will stop when k = m, where m = rank(Kn).
+(d) What is the purpose of this algorithm? Brieﬂy justify your answer.
+2

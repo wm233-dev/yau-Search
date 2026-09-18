@@ -1,0 +1,17 @@
+
+=== page 1 ===
+Oral Exam for All Round: Applied and Computational Mathematics 2017
+1. Consider a vector-valued ODE:
+mt = −a × m ,
+where a = (a1, a2, a3)T is a non-zero real constant vector, and m(t) = (m1(t), m2(t), m3(t))T is
+the unknown vector-valued function.
+Consider a uniform time sequence
+0 = t0 < t1 < · · · < tk < · · · ,
+with tk = k∆t, and the explicit time marching scheme:
+mn+1 −mn
+∆t
+= −a × mn ,
+(a) Analyse the stability of the scheme.
+(b) Propose a numerical strategy to improve the scheme so that the new scheme has better
+stability.
+1

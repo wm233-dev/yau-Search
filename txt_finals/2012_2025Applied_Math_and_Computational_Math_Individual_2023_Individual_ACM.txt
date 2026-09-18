@@ -1,0 +1,91 @@
+
+=== page 1 ===
+ST Yau College Students Mathematics Contest
+Applied and Computational Math (Individual
+Final)
+June 10, 2023
+1. Let U ∈Rn×n be an orthogonal matrix satisfying det(U) = 1.
+(a) Prove that U can be written into the product of ﬁnitely many Givens
+rotation matrices. Recall that an n × n Givens rotation matrix is an
+orthogonal matrix G(i, j, θ), for some given indices i > j and some
+angle θ ∈[0, 2π], whose entries are the same as the identity matrix
+except for
+(
+gii = gjj = cos θ,
+gij = −gji = sin θ.
+(b) Find an algorithm to compute the Givens decomposition in part (a).
+2. Let A ∈Cn×n be a self-adjoint matrix wth k dominant eigenvalues, which
+are denoted by λj, j = 1, 2, · · · , n. In particular, we have
+|λ1| ≥|λ2| ≥· · · ≥|λk| > |λk+1| ≥· · · ≥|λn|.
+We write
+A = QDQ∗
+where Q ∈Cn×n is unitary and D = diag(λj) ∈Cn×n is diagonal. Con-
+sider the following iteration
+X(m+1) = AX(m).
+Assume that X(0) ∈Cn×k is given. Deﬁne bP ∈Cn×n by
+bP =
+Ik
+0
+0
+0
+
+where Ik is the k×k identity matrix, and P = Q bPQ∗. Assume that PX(0)
+has independent columns.
+1
+
+=== page 2 ===
+(a) Show that PX(m) also has independent columns.
+(b) Hence, show that X(m) has independent columns.
+(c) Show that, there is a matrix Λ ∈Ck×k such that
+for all non-zero y ∈Ck.
+3. Consider a system of two ODEs of the form
+dx
+dt = f(x, y),
+dy
+dt = g(x, y).
+Suppose that it is more computationally expensive to evaluate g than to
+evaluate f.
+(a) Prove that the multi-rate explicit Euler method deﬁned by
+xj+1/2 = xj + k
+2f(xj, yj),
+xj+1 = xj+1/2 + k
+2f(xj+1/2, yj),
+yj+1 = yj + kg(xj, yj),
+is locally second order, where k is the time step.
+(b) Consider applying the method from (a) to the following linear prob-
+lem:
+dx
+dt = −x + y,
+dy
+dt = −y.
+Under what conditions on the time step k will the discrete solution
+remain stable, i.e., as j →∞, both xj →0 and yj →0 for any initial
+conditions?
+4. For the advection equation ut+aux = 0 with a > 0, consider the ﬁve-point
+stencil:
+un+1
+j
+= 1
+2(un
+j−1 + un
+j+1) + ak
+12h(un
+j+2 −8un
+j+1 + 8un
+j−1 −un
+j−2).
+(a) Recall that the CFL condition for a scheme is when the numerical
+domain of dependence contains the analytic domain of dependence.
+It is a necessary condition for stability but not suﬃcient. Write down
+the CFL condition for this scheme.
+(b) Write down its ampliﬁcation factor g(ω). Recall that the von Neu-
+mann stability Condition for a scheme is the condition on a, k, h such
+that |g(ω)| < 1 + Kk for all admissible ω, h, k. It is a necessary and
+2
+
+=== page 3 ===
+suﬃcient condition for stability. In this case, we see |g(ω)| depends
+on k through λ = k/h, so the criterion reduced to |g(ω)| ≤1 for
+all admissible ω, k, h. Find out the von Neumann condition for this
+scheme. How does that compare with the CFL condition?
+3

@@ -1,0 +1,46 @@
+
+=== page 1 ===
+Statistics problems: team contest
+May 2019
+1. Consider the simple linear regression
+Yi = α + βXi + ϵi,
+i = 1, . . . , 2n.
+(i) Suppose that only the ﬁrst half of Y ’s are observed, i.e. only Yi, i = 1, . . . , n are observed and
+Yi, i = n + 1, . . . , 2n are missing, while all X’s are observed. What would you suggest for the
+estimation of β? Are there assumptions you need to make for your estimator to be valid?
+(ii) Suppose for the second half of Y ’s, their absolute values are observed, i.e. we observe |Yi|,
+i = n + 1, . . . , 2n. What would you suggest for the estimation of β? Are there assumptions you
+need to make for your estimator to be valid? Any good properties for your estimator?
+2. Suppose that X = (X1, . . . , Xn)′ is an observation from the n-dimensional multivariate normal
+distribution Nn(θ, I) with unknown parameter θ ∈Rn, that is, Xi’s are independent of each other
+with Xi ∼N(θi, 1) for i = 1, . . . , n.
+(i).
+Derive the maximum likelihood estimator (MLE) of
+∥θ∥2 = Pn
+i=1 θ2
+i .
+(ii). Show that the MLE is a biased estimator.
+(iii). Find the distribution of the MLE and describe how to use this distribution to construct exact
+conﬁdence intervals.
+3. Suppose that X1, · · · , Xn is a sample of size n from the Student-t distribution tν(µ, 1) with
+known degrees of freedom ν ≥1, unit scale, and known center µ.
+The Student-t distribution
+tν(µ, 1) has density function of the form
+fX(x; µ, ν) =
+Γ(ν+1
+2 )
+√πνΓ(ν
+2)
+
+1 + (x −µ)2
+ν
+−ν+1
+2
+,
+(x ∈R1).
+(i). Write Xi = µ + Ui, where Ui are independently and identically distributed (iid) with tν(0, 1)
+for i = 1, · · · , n. Find the conditional distribution of U1 given Ui −U1 = Xi −X1 for i = 2, · · · , n.
+(ii). Describe a method to construct conﬁdence intervals by making use of the above result, and
+argue for its eﬃciency and coverage probability.
+(iii). Use the limiting case of ν →∞to verify your answers.
+1

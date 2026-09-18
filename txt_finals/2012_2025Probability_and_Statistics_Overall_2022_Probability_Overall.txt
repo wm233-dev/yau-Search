@@ -1,0 +1,24 @@
+
+=== page 1 ===
+Yau College Math Competition 2022
+Final Probability and Statistics
+Individual Overall Exam Problems (Aug. 20-21, 2022)
+Problem 1. Let X and Y be independent identically distributed random variables
+with mean 0 and variance 1. Let ϕ(t) be their common characteristic function, and
+suppose that X + Y and X −Y are independent.
+(1) Deduce a relation between ϕ(2t) and ϕ(±t).
+(2) Show that X and Y are N(0, 1) random variables.
+Problem 2.
+Let N = {1, 2, 3, 4, . . .} be the set of natural numbers and P =
+{2, 3, 5, 7, . . .} the set of all prime numbers. Write a|b if a divides b. Fix any real
+number s > 1, let ζ(s) = ∑∞
+n=1 n−s, and deﬁne a probability measure Ps on N by
+Ps(n) =
+1
+ζ(s)n−s, n ∈N. For each p ∈P, deﬁne a random variable Xp on N by the
+formula Xp(n) = 1{p|n}(n), n ∈N. Here {p|n} denotes the event {n : p|n} ⊂N.
+(1) Are the random variables {Xp : p ∈P} independent under Ps?
+(2) Give a probabilistic proof of Euler’s identity
+1
+ζ(s) = ∏
+p∈P(1 −p−s).

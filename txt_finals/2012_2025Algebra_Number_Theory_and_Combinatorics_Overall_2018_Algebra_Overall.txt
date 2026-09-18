@@ -1,0 +1,57 @@
+
+=== page 1 ===
+YAU COLLEGE MATH CONTESTS ALL AROUND ALGEBRA
+2018
+Problem 1
+Let ζn be a primitive n-th root of unity, where n > 1 is a positive integer. Show
+that the number
+N :=
+Y
+1≤i≤n,(i,n)=1
+(1 −ζi
+n)
+is p if n is a power of a prime p, and is 1 if n is not a power of a prime (i.e., n is
+divisible by at least two distinct primes).
+Problem 2
+Let F be a ﬁeld. Let G = GL2(F) and B be the subgroup of G consisting of all
+upper triangular matrices. Then B×B acts on G by left and right multiplication,
+i.e.
+B × B × G −→G, (b1, b2, a) = b1ab−1
+2 .
+Prove that there are exactly two orbits, and they can be represented by
+ 
+1
+0
+0
+1
+!
+,
+and
+ 
+0
+1
+1
+0
+!
+.
+Generalize this to GLn(F).
+Problem 3
+Let Mn(Q) be the ring of all n×n matrices with coeﬃcients in Q for a positive
+integer n. Describe all ﬁeld extensions K of Q such that there is an injective ring
+1
+
+=== page 2 ===
+2
+YAU COLLEGE MATH CONTESTS ALL AROUND ALGEBRA 2018
+homomorphism K →Mn(Q). (Note: we take the convention that a ring homo-
+morphism maps the additive identity and the multiplicative identity respectively
+to the additive identity and the multiplicative identity.)
+Remark. This is a special case of classiﬁcation of commutative sub-algebras
+in central simple algebras.
+Problem 4
+Fix positive integers n > m > k, and ﬁx a C-linear subspace E ⊂Cn of
+dimension k. Let
+X = {C-linear subspace V ⊂Cn|V ⊃E, dim V = m}.
+Does X naturally have the structure of a compact manifold?
+If so, what is
+dimR X? Does X naturally have the structure of the coset space of a group?

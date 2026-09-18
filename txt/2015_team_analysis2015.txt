@@ -1,0 +1,58 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Analysis and Diﬀerential Equations
+Team
+Please solve 5 out of the following 6 problems.
+1. Let ϕ ∈C([a, b], R). Suppose for every function h ∈C1([a, b], R), h(a) = h(b) = 0,
+we have
+∫b
+a
+ϕ(x)h(x)dx = 0.
+Prove that ϕ(x) = 0.
+2. Let f be a Lebesgue integrable function over [a, b + δ], δ > 0, prove that
+lim
+h→0+
+∫b
+a
+|f(x + h) −f(x)|dx →0.
+3. Let L(q, q
+′, t) be a function of (q, q
+′, t) ∈TU × R, U is an open domain in Rn. Let
+γ : [a, b] →U be a curve in U. Deﬁne a functional S(γ) =
+∫b
+a L(γ(t), γ
+′(t), t)dt. We say
+that γ is an extremal if for every smooth variation of γ, ϕ(t, s), s ∈(−δ, δ), ϕ(t, 0) =
+γ(t), ϕs = ϕ(t, s), we have dS(ϕs)
+ds
+|s=0 = 0. Prove that every extremal γ satisﬁes the
+Euler-Lagrange equation:
+d
+dt( ∂L
+∂q′ ) = ∂L
+∂q .
+4. Let f : U →U be a holomorphic function with U a bounded domain in the complex
+plane. Assuming 0 ∈U, f(0) = 0, f
+′(0) = 1, prove that f(z) = z.
+5. Let T : H1 →H2 be a bounded operator of Hilbert spaces H1, H2. Let S : H1 →H2
+be a compact operator, that is, for every bounded sequence {vn} ∈H1, Svn has a con-
+verging subsequence. Show that Coker(T + S) = H2/Im(T + S) is ﬁnite dimensional
+and Im(T + S) is closed in H2. (Hint: Consider equivalent statements in terms of
+adjoint operators.)
+6. Let u ∈C2(¯Ω), Ω⊂Rd is a bounded domain with a smooth boundary.
+1) Let u be a solution of the equation ∆u = f, u|∂Ω= 0, f ∈L2(Ω). Prove that there
+is a constant C depends only Ωsuch that
+∫
+Ω
+(Σn
+j=1( ∂u
+∂xj
+)2 + u2)dx ≤C
+∫
+Ω
+f 2(x)dx.
+2) Let {un} be a sequence of harmonic functions on Ω, such that ||un||L2(Ω) ≤M <
+∞, for a constant M independent of n. Prove that there is a converging subsequence
+{unk} in L2(Ω).
+1

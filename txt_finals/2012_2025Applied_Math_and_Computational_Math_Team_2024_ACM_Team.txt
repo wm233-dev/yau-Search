@@ -1,0 +1,206 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest
+Applied and Computational Math (Team Contest)
+June 9, 2024
+Question 1
+Let ϕ : (0, ∞) →(0, ∞) be continuous and increasing, and let M > 0. Given any T∗such that 0 < T∗<
+R ∞
+M dz/ϕ(z), show that there exists C∗> 0 independent of ∆t > 0 with the following property. Suppose
+that quantities zn, wn ≥0 satisfy
+zn +
+n−1
+X
+k=0
+wk∆t ≤yn := M +
+n−1
+X
+k=0
+ϕ (zk) ∆t,
+for n = 0, 1, . . . , n∗, with n∗∆t ≤T∗. Then yn∗≤C∗(independent of ∆t ).
+Question 2
+Let u be the solution to the transport equation
+ut + ux = 0,
+on the 0 ≤x ≤2π with periodic boundary conditions and the initial data u(x, 0) = exp(−(x−π)2). Consider
+the discrete approximation to the solution vj ≈u(xj, t) on the grid xj = jh, h =
+2π
+N + 1, j = 1, · · · , N + 1.
+We deﬁne three ﬁnite diﬀerence operators acting on a grid function vj:
+D−vj = vj −vj−1
+h
+,
+D+vj = vj+1 −vj
+h
+,
+D0vj = vj+1 −vj−1
+2h
+.
+(a) Consider the following three semi-discretizations
+(i) dvj
+dt + D−vj = 0,
+(ii) dvj
+dt + D+vj = 0,
+(iii) dvj
+dt + D0vj = 0 .
+It is known that two of the above (i) - (iii) are stable and produce the results in Figure 1 when evolved one
+period in time using the classic fourth-order Runge-Kutta method.
+(a-i). Which of the three semi-discretizations is not stable and why?
+(a-ii). For the two stable methods, what method goes with which plot in Figure 1 and why?
+(b) Let D denote one of the diﬀerence operators above. We take a forward Euler scheme in time to have
+vn+1
+j
+−vn
+j
+∆t
++ D
+vn+1
+j
++ vn
+j
+2
+
+= 0
+1
+
+=== page 2 ===
+(A)
+(B)
+Figure 1: Solid lines represent the numerical solutions, and dashed lines represent the exact solutions
+where the superscript n now denotes the time index. Show that with this time-stepping, the spatial dis-
+cretization corresponding to Figure 1 (A) satisﬁes
+∥vn+1∥2
+h = ∥vn∥2
+h ,
+while the discretization corresponding to Figure 1 (B) satisﬁes
+∥vn+1∥2
+h ≤∥vn∥2
+h .
+where the norm ∥v∥2
+h = (v, v)h with the inner product (v, w)h = PN+1
+j=1 hvjwj. Hint: For the derivation of
+the last inequality, it might be useful to ﬁrst ﬁnd α+ and/or α−such that D±vj = D0vj + α±D+D−vj.
+Question 3
+Let u be a velocity ﬁeld in R3 and let Γu(t) be a surface which evolves under velocity ﬁled u as time t
+increases, with a bounded closed initial surface Γu(0) = Γ0. Namely, the surface is the image of a ﬂow map
+Xu(., t) : Γ0 →R3 satisfying the following diﬀerential equation:
+∂
+∂tXu(p, t) = u(Xu(p, t))
+for p ∈Γ0
+Xu(p, 0) = p
+for p ∈Γ0.
+(1)
+If one solves this ordinary diﬀerential equation (ODE) for a set of points p on the initial surface Γ0, then
+one gets the location of these points at any time t. However, since the surface may have large deformation,
+the points obtained in this way may not form a good mesh for Γu(t), as shown in Figure 2 (b).
+David Gu and Shing-Tung Yau considered the following problem of ﬁnding a “good” map between two
+surfaces Γ0 and Γu(t) to produce good mesh on Γu(t):
+Find X(·, t) : Γ0 →Γu(t) to minimize
+Z
+Γ0 |∇Γ0X|2S.,
+(2)
+where ∇Γ0 denotes surface tangential gradient and S. denotes the surface area element. This map X(·, t) :
+Γ0 →Γu(t) minimizes the deformation energy
+R
+Γ0 |∇Γ0X|2S. and therefore could produce a better mesh (with
+less deformation). An eﬃcient method of computing a good ﬂow map X(·, t) : Γ0 →R3 satisfying (2) is to
+solve the following problem:
+v · n = u · n
+on Γ(t)
+−∆Γ0X = κ (n ◦X)
+on Γ0,
+(3)
+2
+
+=== page 3 ===
+(a) Mesh on initial surface Γ0
+(b) Surface at t = 4 by solv-
+ing ODE (1)
+(c) Surface at t = 23 by solv-
+ing PDE (3)
+Figure 2: Surface Γ(t) computed by diﬀerent numerical methods
+where n denotes the unit normal vector on surface Γ(t), where κ is an unknown scalar function to be solved.
+The method in (3) is based on the following ideas: The shape of an evolving surface is only determined by
+its normal velocity, rather than its tangential velocity. However, solving PDE (3) signiﬁcantly improves the
+mesh quality, as shown in Figure 2 (c).
+Problem (3) can be solved by a ﬁnite element method as follows. Let tm = mτ, m = 0, 1, 2, . . . , with
+time stepsize τ, and suppose that Γm
+h is a given triangulated surface which well approximates the bounded
+smooth closed surface Γ(tm). Let Xm
+h : Γ0
+h →Γm
+h be the piecewise linear map which maps each triangle of
+Γ0
+h to a triangle of Γm
+h (thus Xm
+h maps Γ0
+h onto Γm
+h ), and let N m
+h = nm
+h ◦Xm
+h with nm
+h being the unit normal
+vector on Γm
+h (piecewise constant vector deﬁned on each triangle). Let S1
+h(Γ0
+h)3 be the ﬁnite element space
+of 3-dimensional vector-valued piecewise linear functions on Γ0
+h, and let S0
+h(Γ0
+h) be the ﬁnite element space
+of scalar-valued piecewise constant functions on Γ0
+h. Find (Xm+1
+h
+, κm+1
+h
+) ∈S1
+h(Γ0
+h)3 × S0
+h(Γ0
+h) such that
+Z
+Γ0
+h
+Xm+1
+h
+−Xm
+h
+τ
+· N m
+h χhS. =
+Z
+Γ0
+h
+(u ◦Xm
+h ) · N m
+h χhS.
+∀χh ∈Sh(Γ0
+h)
+Z
+Γ0
+h
+∇Γ0
+hXm+1
+h
+· ∇Γ0
+hvhS. =
+Z
+Γ0
+h
+κm+1
+h
+N m
+h · vhS.
+∀vh ∈Sh(Γ0
+h)3.
+(4)
+(i) Show that the map X determined by (3) is a local minimizer of (2) with Γu(t) determined by (1).
+(ii) Show that the weak formulation in (4) has a unique solution (Xm+1
+h
+, κm+1
+h
+) ∈S1
+h(Γ0
+h)3 × S0
+h(Γ0
+h).
+3

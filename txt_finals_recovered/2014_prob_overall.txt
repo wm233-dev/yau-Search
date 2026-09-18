@@ -1,0 +1,4 @@
+# RECOVERED BY VISION (2014 Probability (Overall).JPG, photograph, not part of the PDF corpus)
+概率论试题
+1. 设 X 与 Y 是独立可积随机变量, 且 E[X] = 0. 证明: E|X + Y| >= E|Y|.
+2. 设 X1, X2, ... 为 (0, inf) 上一列相互独立随机变量, 每个服从参数为 1 的指数分布. 令 N(x) = inf{n : sum_{i=1}^{n} X_i > x}, 求 N(x) 的数学期望.

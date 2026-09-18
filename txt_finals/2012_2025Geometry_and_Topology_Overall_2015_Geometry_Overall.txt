@@ -1,0 +1,18 @@
+
+=== page 1 ===
+Oral-Example-Geometry-Topology
+All-round
+1.
+(a) Let f : CP2 →CP2 be a continuous map of degree d with |d| ≥2. Show that
+there are at least 3 ﬁxed points.
+(b) Show that CP2n does not cover any manifold except itself.
+2. Let D be a bounded and simply connected domain in R2, and Γ be the boundary of
+D. Set
+A := Area(D),
+L := Length(Γ).
+(a) Prove that
+4πA ≤L2,
+and the equality holds iﬀΓ is a circle.
+(b) Generalize the theorem above to the case where D is a compact and simply
+connected minimal surface with boundary in R3.
+1

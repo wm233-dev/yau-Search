@@ -1,0 +1,33 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Geometry and Topology
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let M and N be smooth, connected, orientable n-manifolds for n ≥3, and let
+M#N denote their connect sum.
+(a) Compute the fundamental group of M#N in terms of that of M and of N (you
+may assume that the basepoint is on the boundary sphere along which we glue M
+and N).
+(b) Compute the homology groups of M#N.
+(c) For part (a), what changes if n = 2? Use this to describe the fundamental groups
+of orientable surfaces.
+2. Determine all of the possible degrees of maps S2 →S1 × S1.
+3. Classify all vector bundles over the circle S1 up to isomorphism.
+4. Suppose C is a regular curve in the unit sphere S2. For any point W ∈S2, there
+exists the only oriented great circle SW (determined by the right hand rule) in S2 such
+that W is the pole of SW. Denote by n(W) the number of points at which the oriented
+great circle SW and C intersect. Prove the Crofton formula
+ZZ
+S2 n(W)dW = 4L,
+where dW and L is the area element of S2 and the length of C, respectively.
+5. Let M be an n-dimensional closed submanifold in the Euclidean space Rn+p. Prove
+the following inequality
+Z
+M
+HndV ≥vol(Sn),
+where H and dV is the mean curvature (i.e., norm of the mean curvature vector) and
+the volume element of M, and Sn is the standard unit sphere of dimension n.
+6. Let M be an even dimensional compact and oriented Riemannian manifold with
+positive sectional curvature. Show that M is simply connected.
+1

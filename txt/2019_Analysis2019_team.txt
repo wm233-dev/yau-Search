@@ -1,0 +1,36 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Analysis and Diﬀerential Equations
+Team (5 problems)
+1) Show that there is no non-zero f ∈C∞
+0 (R2) (compactly supported smooth function) so that its Fourier
+transform bf(ξ) is also compactly supported.
+2) Prove the following classical interior Schauder estimates:
+There exists a universal constant C, for all smooth compactly supported functions u, f ∈C∞
+0 (R3) with
+△u = f, we have
+∥u∥C2,α ⩽C∥f∥C0,α,
+where 0 < α < 1 and ∥· ∥Ck,α are H¨older norms.
+3) Let (X, A, µ) be a probability space and let T : X →X be a measurable and measure preserving map,
+i.e., for all A ∈A, we have µ
+¡
+T −1(A)
+¢
+= µ(A). For A, B ∈A, if µ(A −B) = µ(B −A) = 0, we say
+that A = B a.e.
+Assume A ∈A such that T −1(A) = A a.e..Prove that there exists a set B ∈A so that T −1B = B and
+A = B a.e.
+4) Is there an entire function f with inﬁnitely many zeroes, so that for every r ∈(0, 1), there exist
+constants Ar, Br < ∞such that
+|f(z)| ⩽AreBr|z|r
+for every z ∈C?
+5) Let u(t, x, y) be a smooth real function deﬁned on R × R2 where t ∈R and (x, y) ∈R2. We assume
+that it solves the following semilinear wave equation:
+−∂2
+∂t2 u + △u = u3.
+If the supports of the initial data u(0, x) and ∂u
+∂t (0, x) are compact, prove that, for all t0 ∈R, the
+supports of u(t0, x) and ∂u
+∂t (t0, x) are compact.
+1

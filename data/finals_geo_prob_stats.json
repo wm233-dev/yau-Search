@@ -1,0 +1,1503 @@
+{
+ "n_index_records_geoprob": 74,
+ "n_papers_geoprob": 72,
+ "quality": {
+  "OK": 67,
+  "MOJIBAKE": 4,
+  "EMPTY": 1
+ },
+ "quality_by_subject": {
+  "Geometry and Topology": {
+   "OK": 32
+  },
+  "Probability and Statistics": {
+   "OK": 35,
+   "MOJIBAKE": 4,
+   "EMPTY": 1
+  }
+ },
+ "syllabus": [
+  "SyllabusonGeometryandTopology.pdf",
+  "SyllabusonProbbilityandStatistics.pdf"
+ ],
+ "problems_total": 241,
+ "problems_geo": 127,
+ "problems_prob": 114,
+ "problems_by_year_kind": {
+  "2012": {
+   "Individual": 15
+  },
+  "2013": {
+   "Individual": 6,
+   "Team": 7,
+   "Overall": 6
+  },
+  "2014": {
+   "Individual": 8,
+   "Team": 14,
+   "Overall": 2
+  },
+  "2015": {
+   "Individual": 6,
+   "Overall": 4,
+   "Team": 6
+  },
+  "2016": {
+   "Individual": 7,
+   "Overall": 4,
+   "Team": 7
+  },
+  "2017": {
+   "Individual": 7,
+   "Overall": 4,
+   "Team": 6
+  },
+  "2018": {
+   "Individual": 6,
+   "Overall": 5,
+   "Team": 7
+  },
+  "2019": {
+   "Individual": 10,
+   "Overall": 7,
+   "Team": 10
+  },
+  "2020": {
+   "Individual": 9,
+   "Overall": 5
+  },
+  "2021": {
+   "Individual": 7,
+   "Overall": 2
+  },
+  "2022": {
+   "Individual": 6,
+   "Overall": 4
+  },
+  "2023": {
+   "Individual": 8,
+   "Overall": 4,
+   "Team": 6
+  },
+  "2024": {
+   "Individual": 8,
+   "Overall": 4,
+   "Team": 6
+  },
+  "2025": {
+   "Individual": 8,
+   "Overall": 4,
+   "Team": 6
+  }
+ },
+ "problems_by_kind_subject": {
+  "Individual": {
+   "Geometry & Topology": 56,
+   "Probability & Statistics": 55
+  },
+  "Team": {
+   "Geometry & Topology": 43,
+   "Probability & Statistics": 32
+  },
+  "Overall": {
+   "Geometry & Topology": 28,
+   "Probability & Statistics": 27
+  }
+ },
+ "topic_freq": {
+  "上同调/示性类": {
+   "2013": 2,
+   "2014": 2,
+   "2015": 2,
+   "2016": 3,
+   "2017": 1,
+   "2018": 1,
+   "2021": 2,
+   "2023": 1
+  },
+  "极小曲面/子流形": {
+   "2014": 2,
+   "2013": 1,
+   "2019": 3,
+   "2020": 3,
+   "2023": 1,
+   "2024": 1,
+   "2025": 1
+  },
+  "比较定理": {
+   "2012": 2,
+   "2013": 1,
+   "2014": 1,
+   "2015": 1,
+   "2017": 2,
+   "2018": 1,
+   "2019": 1,
+   "2022": 1,
+   "2024": 1
+  },
+  "曲面整体性质": {
+   "2012": 1,
+   "2014": 1,
+   "2016": 2,
+   "2018": 2,
+   "2019": 2,
+   "2021": 1,
+   "2023": 1,
+   "2024": 1
+  },
+  "同伦论/映射度": {
+   "2012": 1,
+   "2014": 1,
+   "2015": 1,
+   "2016": 1,
+   "2017": 1,
+   "2018": 1,
+   "2022": 1,
+   "2024": 1,
+   "2025": 1
+  },
+  "微分拓扑": {
+   "2014": 3,
+   "2015": 1,
+   "2016": 1,
+   "2019": 1,
+   "2021": 1,
+   "2025": 1
+  },
+  "向量丛/示性类": {
+   "2013": 1,
+   "2014": 2,
+   "2015": 1,
+   "2019": 1,
+   "2022": 1,
+   "2025": 1
+  },
+  "黎曼曲率与比较定理": {
+   "2013": 1,
+   "2021": 1,
+   "2022": 1,
+   "2023": 1,
+   "2024": 1,
+   "2025": 1
+  },
+  "复几何/代数几何": {
+   "2014": 1,
+   "2017": 1,
+   "2018": 1,
+   "2019": 1,
+   "2024": 1,
+   "2025": 1
+  },
+  "Laplace 特征值/谱几何": {
+   "2020": 1,
+   "2021": 1,
+   "2022": 1,
+   "2023": 3
+  },
+  "测地线与变分": {
+   "2012": 1,
+   "2014": 1,
+   "2015": 1,
+   "2016": 1,
+   "2019": 1
+  },
+  "微分形式/Stokes": {
+   "2014": 1,
+   "2016": 2,
+   "2017": 1,
+   "2025": 1
+  },
+  "低维拓扑/纽结": {
+   "2018": 1,
+   "2020": 2,
+   "2023": 1,
+   "2024": 1
+  },
+  "李群与齐性空间": {
+   "2013": 2,
+   "2017": 1,
+   "2023": 1
+  },
+  "等距群/变换群": {
+   "2017": 2,
+   "2018": 2
+  },
+  "辛几何": {
+   "2018": 1,
+   "2019": 1,
+   "2024": 1,
+   "2025": 1
+  },
+  "线性回归": {
+   "2012": 1,
+   "2013": 1,
+   "2019": 1,
+   "2024": 1
+  },
+  "概率不等式": {
+   "2014": 1,
+   "2015": 1,
+   "2017": 1,
+   "2019": 1
+  },
+  "条件期望": {
+   "2014": 1,
+   "2015": 1,
+   "2016": 1
+  },
+  "分布变换": {
+   "2013": 1,
+   "2015": 1,
+   "2016": 1
+  },
+  "假设检验": {
+   "2013": 1,
+   "2015": 1,
+   "2018": 1
+  },
+  "Markov链/期望": {
+   "2024": 2,
+   "2017": 1
+  },
+  "基本群/覆叠空间": {
+   "2012": 1,
+   "2018": 1
+  },
+  "积分几何/等周": {
+   "2012": 1,
+   "2017": 1
+  },
+  "几何测度/等周": {
+   "2015": 1,
+   "2017": 1
+  },
+  "次序统计量/极值": {
+   "2012": 1,
+   "2021": 1
+  },
+  "随机和/特征函数": {
+   "2012": 1,
+   "2013": 1
+  },
+  "点估计/CR界": {
+   "2012": 2
+  },
+  "特征函数/旋转不变性": {
+   "2013": 1,
+   "2019": 1
+  },
+  "独立性与分布": {
+   "2014": 1,
+   "2015": 1
+  },
+  "随机和/Wald": {
+   "2013": 1,
+   "2015": 1
+  },
+  "更新过程/停时": {
+   "2014": 1,
+   "2015": 1
+  },
+  "极限定理/变换": {
+   "2016": 1,
+   "2023": 1
+  },
+  "组合概率/期望": {
+   "2016": 1,
+   "2022": 1
+  },
+  "随机矩阵/高维": {
+   "2018": 1,
+   "2024": 1
+  },
+  "统计思想/悖论": {
+   "2019": 2
+  },
+  "充分统计量/独立性": {
+   "2020": 2
+  },
+  "点估计/渐近统计": {
+   "2023": 2
+  },
+  "随机级数/分布": {
+   "2023": 1,
+   "2018": 1
+  },
+  "数论概率": {
+   "2022": 1,
+   "2023": 1
+  },
+  "组合概率/随机模拟": {
+   "2024": 1,
+   "2025": 1
+  },
+  "多面体/组合拓扑": {
+   "2013": 1
+  },
+  "周期性/拓扑": {
+   "2018": 1
+  },
+  "Morse理论": {
+   "2024": 1
+  },
+  "联络与曲率形式": {
+   "2025": 1
+  },
+  "几何概率/次序统计量": {
+   "2012": 1
+  },
+  "贝叶斯/条件概率": {
+   "2012": 1
+  },
+  "点估计/风险": {
+   "2012": 1
+  },
+  "经典概率/期望分配": {
+   "2013": 1
+  },
+  "组合概率/竞赛模型": {
+   "2014": 1
+  },
+  "条件期望/混合分布": {
+   "2014": 1
+  },
+  "极限定理/集中不等式": {
+   "2014": 1
+  },
+  "耦合/边缘问题": {
+   "2014": 1
+  },
+  "几乎处处收敛/独立和": {
+   "2014": 1
+  },
+  "独立和/卷积": {
+   "2013": 1
+  },
+  "矩不等式": {
+   "2013": 1
+  },
+  "分布变换/组合概率": {
+   "2013": 1
+  },
+  "几乎处处收敛": {
+   "2015": 1
+  },
+  "Markov链/递推概率": {
+   "2016": 1
+  },
+  "独立性/特征函数": {
+   "2016": 1
+  },
+  "几乎处处收敛/级数": {
+   "2016": 1
+  },
+  "随机游走/环": {
+   "2016": 1
+  },
+  "收敛模式/鞅": {
+   "2017": 1
+  },
+  "点估计/UMVUE": {
+   "2017": 1
+  },
+  "统计估计/混合模型": {
+   "2018": 1
+  },
+  "概率不等式/凸性": {
+   "2019": 1
+  },
+  "动态规划/停时": {
+   "2019": 1
+  },
+  "条件期望/鞅": {
+   "2019": 1
+  },
+  "线性回归/统计思想": {
+   "2019": 1
+  },
+  "随机游走/停时": {
+   "2019": 1
+  },
+  "线性回归/极限": {
+   "2019": 1
+  },
+  "大偏差/指数不等式": {
+   "2019": 1
+  },
+  "鞅/反向鞅": {
+   "2019": 1
+  },
+  "线性回归/缺失数据": {
+   "2019": 1
+  },
+  "点估计/置信区间": {
+   "2019": 1
+  },
+  "统计推断/条件分布": {
+   "2019": 1
+  },
+  "Bernstein 多项式/极限定理": {
+   "2020": 1
+  },
+  "组合概率/极限": {
+   "2020": 1
+  },
+  "停时/Wald": {
+   "2020": 1
+  },
+  "Borel-Cantelli/极值": {
+   "2020": 1
+  },
+  "Markov链/计数": {
+   "2020": 1
+  },
+  "充分统计量/混合模型": {
+   "2020": 1
+  },
+  "Borel-Cantelli/大偏差": {
+   "2021": 1
+  },
+  "大偏差/分支过程": {
+   "2021": 1
+  },
+  "独立性与耦合": {
+   "2022": 1
+  },
+  "矩估计/概率不等式": {
+   "2022": 1
+  },
+  "数论概率/分布刻画": {
+   "2023": 1
+  },
+  "数论概率/极限": {
+   "2023": 1
+  },
+  "次序统计量/记录值": {
+   "2024": 1
+  },
+  "鞅/一致可积性": {
+   "2024": 1
+  },
+  "组合概率/最优决策": {
+   "2025": 1
+  },
+  "应用概率/生物统计": {
+   "2025": 1
+  },
+  "随机游走/随机环境": {
+   "2025": 1
+  },
+  "线性回归/高维": {
+   "2025": 1
+  },
+  "随机矩阵/有限域": {
+   "2023": 1
+  },
+  "特征函数/独立和": {
+   "2022": 1
+  },
+  "线性回归/渐近统计": {
+   "2024": 1
+  },
+  "统计推断/因果推断": {
+   "2025": 1
+  },
+  "Brownian运动/极值": {
+   "2025": 1
+  },
+  "随机逼近/收敛性": {
+   "2017": 1
+  },
+  "分布刻画/差分方程": {
+   "2018": 1
+  },
+  "统计计算/EM算法": {
+   "2017": 1
+  },
+  "统计预测/回归": {
+   "2018": 1
+  },
+  "极限定理/收敛模式": {
+   "2023": 1
+  },
+  "渐近统计/信息": {
+   "2024": 1
+  },
+  "分布构造/采样": {
+   "2025": 1
+  },
+  "随机游走/调和函数": {
+   "2025": 1
+  }
+ },
+ "topic_freq_subject": {
+  "同伦论/映射度": {
+   "Geometry & Topology": 9
+  },
+  "基本群/覆叠空间": {
+   "Geometry & Topology": 2
+  },
+  "积分几何/等周": {
+   "Geometry & Topology": 2
+  },
+  "比较定理": {
+   "Geometry & Topology": 11
+  },
+  "测地线与变分": {
+   "Geometry & Topology": 5
+  },
+  "曲面整体性质": {
+   "Geometry & Topology": 11
+  },
+  "向量丛/示性类": {
+   "Geometry & Topology": 7
+  },
+  "黎曼曲率与比较定理": {
+   "Geometry & Topology": 6
+  },
+  "李群与齐性空间": {
+   "Geometry & Topology": 4
+  },
+  "上同调/示性类": {
+   "Geometry & Topology": 14
+  },
+  "多面体/组合拓扑": {
+   "Geometry & Topology": 1
+  },
+  "复几何/代数几何": {
+   "Geometry & Topology": 6
+  },
+  "微分拓扑": {
+   "Geometry & Topology": 8
+  },
+  "极小曲面/子流形": {
+   "Geometry & Topology": 12
+  },
+  "微分形式/Stokes": {
+   "Geometry & Topology": 5
+  },
+  "几何测度/等周": {
+   "Geometry & Topology": 2
+  },
+  "等距群/变换群": {
+   "Geometry & Topology": 4
+  },
+  "低维拓扑/纽结": {
+   "Geometry & Topology": 5
+  },
+  "辛几何": {
+   "Geometry & Topology": 4
+  },
+  "周期性/拓扑": {
+   "Geometry & Topology": 1
+  },
+  "Laplace 特征值/谱几何": {
+   "Geometry & Topology": 6
+  },
+  "Morse理论": {
+   "Geometry & Topology": 1
+  },
+  "联络与曲率形式": {
+   "Geometry & Topology": 1
+  },
+  "几何概率/次序统计量": {
+   "Probability & Statistics": 1
+  },
+  "次序统计量/极值": {
+   "Probability & Statistics": 2
+  },
+  "贝叶斯/条件概率": {
+   "Probability & Statistics": 1
+  },
+  "随机和/特征函数": {
+   "Probability & Statistics": 2
+  },
+  "点估计/CR界": {
+   "Probability & Statistics": 2
+  },
+  "线性回归": {
+   "Probability & Statistics": 4
+  },
+  "点估计/风险": {
+   "Probability & Statistics": 1
+  },
+  "经典概率/期望分配": {
+   "Probability & Statistics": 1
+  },
+  "特征函数/旋转不变性": {
+   "Probability & Statistics": 2
+  },
+  "独立性与分布": {
+   "Probability & Statistics": 2
+  },
+  "条件期望": {
+   "Probability & Statistics": 3
+  },
+  "组合概率/竞赛模型": {
+   "Probability & Statistics": 1
+  },
+  "条件期望/混合分布": {
+   "Probability & Statistics": 1
+  },
+  "极限定理/集中不等式": {
+   "Probability & Statistics": 1
+  },
+  "耦合/边缘问题": {
+   "Probability & Statistics": 1
+  },
+  "几乎处处收敛/独立和": {
+   "Probability & Statistics": 1
+  },
+  "独立和/卷积": {
+   "Probability & Statistics": 1
+  },
+  "矩不等式": {
+   "Probability & Statistics": 1
+  },
+  "分布变换": {
+   "Probability & Statistics": 3
+  },
+  "随机和/Wald": {
+   "Probability & Statistics": 2
+  },
+  "分布变换/组合概率": {
+   "Probability & Statistics": 1
+  },
+  "假设检验": {
+   "Probability & Statistics": 3
+  },
+  "概率不等式": {
+   "Probability & Statistics": 4
+  },
+  "更新过程/停时": {
+   "Probability & Statistics": 2
+  },
+  "几乎处处收敛": {
+   "Probability & Statistics": 1
+  },
+  "极限定理/变换": {
+   "Probability & Statistics": 2
+  },
+  "Markov链/递推概率": {
+   "Probability & Statistics": 1
+  },
+  "组合概率/期望": {
+   "Probability & Statistics": 2
+  },
+  "独立性/特征函数": {
+   "Probability & Statistics": 1
+  },
+  "几乎处处收敛/级数": {
+   "Probability & Statistics": 1
+  },
+  "随机游走/环": {
+   "Probability & Statistics": 1
+  },
+  "收敛模式/鞅": {
+   "Probability & Statistics": 1
+  },
+  "点估计/UMVUE": {
+   "Probability & Statistics": 1
+  },
+  "随机矩阵/高维": {
+   "Probability & Statistics": 2
+  },
+  "统计估计/混合模型": {
+   "Probability & Statistics": 1
+  },
+  "概率不等式/凸性": {
+   "Probability & Statistics": 1
+  },
+  "动态规划/停时": {
+   "Probability & Statistics": 1
+  },
+  "条件期望/鞅": {
+   "Probability & Statistics": 1
+  },
+  "线性回归/统计思想": {
+   "Probability & Statistics": 1
+  },
+  "统计思想/悖论": {
+   "Probability & Statistics": 2
+  },
+  "随机游走/停时": {
+   "Probability & Statistics": 1
+  },
+  "线性回归/极限": {
+   "Probability & Statistics": 1
+  },
+  "大偏差/指数不等式": {
+   "Probability & Statistics": 1
+  },
+  "鞅/反向鞅": {
+   "Probability & Statistics": 1
+  },
+  "线性回归/缺失数据": {
+   "Probability & Statistics": 1
+  },
+  "点估计/置信区间": {
+   "Probability & Statistics": 1
+  },
+  "统计推断/条件分布": {
+   "Probability & Statistics": 1
+  },
+  "Bernstein 多项式/极限定理": {
+   "Probability & Statistics": 1
+  },
+  "组合概率/极限": {
+   "Probability & Statistics": 1
+  },
+  "充分统计量/独立性": {
+   "Probability & Statistics": 2
+  },
+  "停时/Wald": {
+   "Probability & Statistics": 1
+  },
+  "Borel-Cantelli/极值": {
+   "Probability & Statistics": 1
+  },
+  "Markov链/计数": {
+   "Probability & Statistics": 1
+  },
+  "充分统计量/混合模型": {
+   "Probability & Statistics": 1
+  },
+  "Borel-Cantelli/大偏差": {
+   "Probability & Statistics": 1
+  },
+  "大偏差/分支过程": {
+   "Probability & Statistics": 1
+  },
+  "独立性与耦合": {
+   "Probability & Statistics": 1
+  },
+  "矩估计/概率不等式": {
+   "Probability & Statistics": 1
+  },
+  "数论概率/分布刻画": {
+   "Probability & Statistics": 1
+  },
+  "数论概率/极限": {
+   "Probability & Statistics": 1
+  },
+  "点估计/渐近统计": {
+   "Probability & Statistics": 2
+  },
+  "次序统计量/记录值": {
+   "Probability & Statistics": 1
+  },
+  "Markov链/期望": {
+   "Probability & Statistics": 3
+  },
+  "鞅/一致可积性": {
+   "Probability & Statistics": 1
+  },
+  "组合概率/最优决策": {
+   "Probability & Statistics": 1
+  },
+  "应用概率/生物统计": {
+   "Probability & Statistics": 1
+  },
+  "随机游走/随机环境": {
+   "Probability & Statistics": 1
+  },
+  "线性回归/高维": {
+   "Probability & Statistics": 1
+  },
+  "随机级数/分布": {
+   "Probability & Statistics": 2
+  },
+  "随机矩阵/有限域": {
+   "Probability & Statistics": 1
+  },
+  "特征函数/独立和": {
+   "Probability & Statistics": 1
+  },
+  "数论概率": {
+   "Probability & Statistics": 2
+  },
+  "组合概率/随机模拟": {
+   "Probability & Statistics": 2
+  },
+  "线性回归/渐近统计": {
+   "Probability & Statistics": 1
+  },
+  "统计推断/因果推断": {
+   "Probability & Statistics": 1
+  },
+  "Brownian运动/极值": {
+   "Probability & Statistics": 1
+  },
+  "随机逼近/收敛性": {
+   "Probability & Statistics": 1
+  },
+  "分布刻画/差分方程": {
+   "Probability & Statistics": 1
+  },
+  "统计计算/EM算法": {
+   "Probability & Statistics": 1
+  },
+  "统计预测/回归": {
+   "Probability & Statistics": 1
+  },
+  "极限定理/收敛模式": {
+   "Probability & Statistics": 1
+  },
+  "渐近统计/信息": {
+   "Probability & Statistics": 1
+  },
+  "分布构造/采样": {
+   "Probability & Statistics": 1
+  },
+  "随机游走/调和函数": {
+   "Probability & Statistics": 1
+  }
+ },
+ "kind_stats": {
+  "Individual": {
+   "n": 111,
+   "mean_diff": 3.79,
+   "median_diff": 4
+  },
+  "Team": {
+   "n": 75,
+   "mean_diff": 3.88,
+   "median_diff": 4
+  },
+  "Overall": {
+   "n": 55,
+   "mean_diff": 3.87,
+   "median_diff": 4
+  }
+ },
+ "subject_stats": {
+  "Geometry & Topology": {
+   "n": 127,
+   "mean_diff": 3.97,
+   "median_diff": 4
+  },
+  "Probability & Statistics": {
+   "n": 114,
+   "mean_diff": 3.69,
+   "median_diff": 4.0
+  }
+ },
+ "year_stats": {
+  "2012": {
+   "n": 15,
+   "mean_diff": 3.33,
+   "median_diff": 3
+  },
+  "2013": {
+   "n": 19,
+   "mean_diff": 3.16,
+   "median_diff": 3
+  },
+  "2014": {
+   "n": 24,
+   "mean_diff": 3.38,
+   "median_diff": 3.0
+  },
+  "2015": {
+   "n": 16,
+   "mean_diff": 3.19,
+   "median_diff": 3.0
+  },
+  "2016": {
+   "n": 18,
+   "mean_diff": 3.61,
+   "median_diff": 4.0
+  },
+  "2017": {
+   "n": 17,
+   "mean_diff": 4.12,
+   "median_diff": 4
+  },
+  "2018": {
+   "n": 18,
+   "mean_diff": 4.28,
+   "median_diff": 4.5
+  },
+  "2019": {
+   "n": 27,
+   "mean_diff": 4,
+   "median_diff": 4
+  },
+  "2020": {
+   "n": 14,
+   "mean_diff": 4.36,
+   "median_diff": 4.0
+  },
+  "2021": {
+   "n": 9,
+   "mean_diff": 3.78,
+   "median_diff": 4
+  },
+  "2022": {
+   "n": 10,
+   "mean_diff": 4,
+   "median_diff": 4.0
+  },
+  "2023": {
+   "n": 18,
+   "mean_diff": 4.33,
+   "median_diff": 4.0
+  },
+  "2024": {
+   "n": 18,
+   "mean_diff": 4.17,
+   "median_diff": 4.0
+  },
+  "2025": {
+   "n": 18,
+   "mean_diff": 4.17,
+   "median_diff": 4.0
+  }
+ },
+ "subj_kind_stats": {
+  "Geometry & Topology|Individual": {
+   "n": 56,
+   "mean_diff": 3.95,
+   "median_diff": 4.0
+  },
+  "Geometry & Topology|Team": {
+   "n": 43,
+   "mean_diff": 3.93,
+   "median_diff": 4
+  },
+  "Geometry & Topology|Overall": {
+   "n": 28,
+   "mean_diff": 4.07,
+   "median_diff": 4.0
+  },
+  "Probability & Statistics|Individual": {
+   "n": 55,
+   "mean_diff": 3.64,
+   "median_diff": 4
+  },
+  "Probability & Statistics|Team": {
+   "n": 32,
+   "mean_diff": 3.81,
+   "median_diff": 4.0
+  },
+  "Probability & Statistics|Overall": {
+   "n": 27,
+   "mean_diff": 3.67,
+   "median_diff": 4
+  }
+ },
+ "per_paper_words_per_problem": [
+  {
+   "year": "2012",
+   "kind": "Individual",
+   "files": 3,
+   "words": 2327,
+   "chars": 14593,
+   "subparts": 40,
+   "symbols": 72,
+   "problems": 15,
+   "words_per_problem": 155.1
+  },
+  {
+   "year": "2013",
+   "kind": "Individual",
+   "files": 2,
+   "words": 158,
+   "chars": 1422,
+   "subparts": 0,
+   "symbols": 0,
+   "problems": 6,
+   "words_per_problem": 26.3
+  },
+  {
+   "year": "2013",
+   "kind": "Overall",
+   "files": 2,
+   "words": 157,
+   "chars": 1003,
+   "subparts": 4,
+   "symbols": 0,
+   "problems": 6,
+   "words_per_problem": 26.2
+  },
+  {
+   "year": "2013",
+   "kind": "Team",
+   "files": 1,
+   "words": 42,
+   "chars": 484,
+   "subparts": 0,
+   "symbols": 0,
+   "problems": 7,
+   "words_per_problem": 6.0
+  },
+  {
+   "year": "2014",
+   "kind": "Individual",
+   "files": 1,
+   "words": 37,
+   "chars": 402,
+   "subparts": 0,
+   "symbols": 1,
+   "problems": 8,
+   "words_per_problem": 4.6
+  },
+  {
+   "year": "2014",
+   "kind": "Individual+Team",
+   "files": 1,
+   "words": 123,
+   "chars": 736,
+   "subparts": 0,
+   "symbols": 0,
+   "problems": 0,
+   "words_per_problem": null
+  },
+  {
+   "year": "2014",
+   "kind": "Overall",
+   "files": 1,
+   "words": 37,
+   "chars": 270,
+   "subparts": 0,
+   "symbols": 4,
+   "problems": 2,
+   "words_per_problem": 18.5
+  },
+  {
+   "year": "2014",
+   "kind": "Team",
+   "files": 2,
+   "words": 255,
+   "chars": 1557,
+   "subparts": 2,
+   "symbols": 5,
+   "problems": 14,
+   "words_per_problem": 18.2
+  },
+  {
+   "year": "2015",
+   "kind": "Individual",
+   "files": 2,
+   "words": 118,
+   "chars": 790,
+   "subparts": 0,
+   "symbols": 15,
+   "problems": 6,
+   "words_per_problem": 19.7
+  },
+  {
+   "year": "2015",
+   "kind": "Overall",
+   "files": 2,
+   "words": 123,
+   "chars": 766,
+   "subparts": 4,
+   "symbols": 8,
+   "problems": 4,
+   "words_per_problem": 30.8
+  },
+  {
+   "year": "2015",
+   "kind": "Team",
+   "files": 2,
+   "words": 73,
+   "chars": 593,
+   "subparts": 0,
+   "symbols": 6,
+   "problems": 6,
+   "words_per_problem": 12.2
+  },
+  {
+   "year": "2016",
+   "kind": "Individual",
+   "files": 2,
+   "words": 266,
+   "chars": 1574,
+   "subparts": 3,
+   "symbols": 13,
+   "problems": 7,
+   "words_per_problem": 38.0
+  },
+  {
+   "year": "2016",
+   "kind": "Overall",
+   "files": 2,
+   "words": 168,
+   "chars": 961,
+   "subparts": 2,
+   "symbols": 0,
+   "problems": 4,
+   "words_per_problem": 42.0
+  },
+  {
+   "year": "2016",
+   "kind": "Team",
+   "files": 2,
+   "words": 299,
+   "chars": 1686,
+   "subparts": 5,
+   "symbols": 12,
+   "problems": 7,
+   "words_per_problem": 42.7
+  },
+  {
+   "year": "2017",
+   "kind": "Individual",
+   "files": 2,
+   "words": 674,
+   "chars": 3918,
+   "subparts": 14,
+   "symbols": 20,
+   "problems": 7,
+   "words_per_problem": 96.3
+  },
+  {
+   "year": "2017",
+   "kind": "Overall",
+   "files": 2,
+   "words": 271,
+   "chars": 1572,
+   "subparts": 7,
+   "symbols": 6,
+   "problems": 4,
+   "words_per_problem": 67.8
+  },
+  {
+   "year": "2017",
+   "kind": "Team",
+   "files": 2,
+   "words": 385,
+   "chars": 2114,
+   "subparts": 6,
+   "symbols": 7,
+   "problems": 6,
+   "words_per_problem": 64.2
+  },
+  {
+   "year": "2018",
+   "kind": "Individual",
+   "files": 2,
+   "words": 355,
+   "chars": 2113,
+   "subparts": 5,
+   "symbols": 9,
+   "problems": 6,
+   "words_per_problem": 59.2
+  },
+  {
+   "year": "2018",
+   "kind": "Overall",
+   "files": 2,
+   "words": 260,
+   "chars": 1601,
+   "subparts": 8,
+   "symbols": 4,
+   "problems": 5,
+   "words_per_problem": 52.0
+  },
+  {
+   "year": "2018",
+   "kind": "Team",
+   "files": 2,
+   "words": 423,
+   "chars": 2565,
+   "subparts": 5,
+   "symbols": 6,
+   "problems": 7,
+   "words_per_problem": 60.4
+  },
+  {
+   "year": "2019",
+   "kind": "Individual",
+   "files": 3,
+   "words": 831,
+   "chars": 4669,
+   "subparts": 6,
+   "symbols": 28,
+   "problems": 10,
+   "words_per_problem": 83.1
+  },
+  {
+   "year": "2019",
+   "kind": "Overall",
+   "files": 3,
+   "words": 356,
+   "chars": 2178,
+   "subparts": 3,
+   "symbols": 11,
+   "problems": 7,
+   "words_per_problem": 50.9
+  },
+  {
+   "year": "2019",
+   "kind": "Team",
+   "files": 3,
+   "words": 716,
+   "chars": 4265,
+   "subparts": 4,
+   "symbols": 25,
+   "problems": 10,
+   "words_per_problem": 71.6
+  },
+  {
+   "year": "2020",
+   "kind": "Individual",
+   "files": 2,
+   "words": 626,
+   "chars": 3684,
+   "subparts": 12,
+   "symbols": 20,
+   "problems": 9,
+   "words_per_problem": 69.6
+  },
+  {
+   "year": "2020",
+   "kind": "Overall",
+   "files": 2,
+   "words": 458,
+   "chars": 2757,
+   "subparts": 8,
+   "symbols": 4,
+   "problems": 5,
+   "words_per_problem": 91.6
+  },
+  {
+   "year": "2021",
+   "kind": "Individual",
+   "files": 2,
+   "words": 1295,
+   "chars": 7015,
+   "subparts": 13,
+   "symbols": 147,
+   "problems": 7,
+   "words_per_problem": 185.0
+  },
+  {
+   "year": "2021",
+   "kind": "Overall",
+   "files": 2,
+   "words": 501,
+   "chars": 2968,
+   "subparts": 10,
+   "symbols": 43,
+   "problems": 2,
+   "words_per_problem": 250.5
+  },
+  {
+   "year": "2022",
+   "kind": "Individual",
+   "files": 2,
+   "words": 324,
+   "chars": 2026,
+   "subparts": 4,
+   "symbols": 11,
+   "problems": 6,
+   "words_per_problem": 54.0
+  },
+  {
+   "year": "2022",
+   "kind": "Overall",
+   "files": 2,
+   "words": 320,
+   "chars": 1940,
+   "subparts": 6,
+   "symbols": 15,
+   "problems": 4,
+   "words_per_problem": 80.0
+  },
+  {
+   "year": "2023",
+   "kind": "Individual",
+   "files": 2,
+   "words": 514,
+   "chars": 3120,
+   "subparts": 7,
+   "symbols": 20,
+   "problems": 8,
+   "words_per_problem": 64.2
+  },
+  {
+   "year": "2023",
+   "kind": "Overall",
+   "files": 2,
+   "words": 264,
+   "chars": 1603,
+   "subparts": 5,
+   "symbols": 2,
+   "problems": 4,
+   "words_per_problem": 66.0
+  },
+  {
+   "year": "2023",
+   "kind": "Team",
+   "files": 2,
+   "words": 248,
+   "chars": 1627,
+   "subparts": 6,
+   "symbols": 6,
+   "problems": 6,
+   "words_per_problem": 41.3
+  },
+  {
+   "year": "2024",
+   "kind": "Individual",
+   "files": 2,
+   "words": 602,
+   "chars": 3414,
+   "subparts": 13,
+   "symbols": 27,
+   "problems": 8,
+   "words_per_problem": 75.2
+  },
+  {
+   "year": "2024",
+   "kind": "Overall",
+   "files": 2,
+   "words": 298,
+   "chars": 1899,
+   "subparts": 8,
+   "symbols": 0,
+   "problems": 4,
+   "words_per_problem": 74.5
+  },
+  {
+   "year": "2024",
+   "kind": "Team",
+   "files": 2,
+   "words": 409,
+   "chars": 2429,
+   "subparts": 8,
+   "symbols": 22,
+   "problems": 6,
+   "words_per_problem": 68.2
+  },
+  {
+   "year": "2025",
+   "kind": "Individual",
+   "files": 2,
+   "words": 792,
+   "chars": 4698,
+   "subparts": 9,
+   "symbols": 20,
+   "problems": 8,
+   "words_per_problem": 99.0
+  },
+  {
+   "year": "2025",
+   "kind": "Overall",
+   "files": 2,
+   "words": 287,
+   "chars": 1607,
+   "subparts": 4,
+   "symbols": 5,
+   "problems": 4,
+   "words_per_problem": 71.8
+  },
+  {
+   "year": "2025",
+   "kind": "Team",
+   "files": 2,
+   "words": 541,
+   "chars": 3152,
+   "subparts": 7,
+   "symbols": 28,
+   "problems": 6,
+   "words_per_problem": 90.2
+  }
+ ],
+ "verbs": {
+  "papers_with": {
+   "prove": 33,
+   "show that": 43,
+   "show": 45,
+   "compute": 13,
+   "find": 25,
+   "describe": 5,
+   "determine": 5,
+   "explain": 6,
+   "evaluate": 7,
+   "calculate": 4,
+   "construct": 3,
+   "solve": 9,
+   "estimate": 2,
+   "derive": 5,
+   "verify": 1
+  },
+  "occurrences": {
+   "prove": 50,
+   "show that": 118,
+   "show": 131,
+   "compute": 16,
+   "find": 45,
+   "describe": 6,
+   "determine": 5,
+   "explain": 7,
+   "evaluate": 13,
+   "calculate": 8,
+   "construct": 8,
+   "solve": 9,
+   "estimate": 2,
+   "derive": 5,
+   "verify": 1
+  }
+ },
+ "proof_vs_calc": {
+  "proof_verbs": 182,
+  "calc_verbs": 94,
+  "ratio_proof_over_calc": 1.94
+ },
+ "proof_vs_calc_by_kind": {
+  "Individual": {
+   "proof": 96,
+   "calc": 54,
+   "ratio": 1.78
+  },
+  "Team": {
+   "proof": 47,
+   "calc": 20,
+   "ratio": 2.35
+  },
+  "Overall": {
+   "proof": 39,
+   "calc": 20,
+   "ratio": 1.95
+  }
+ },
+ "paper_tag_hits": {
+  "概率论": 28,
+  "微分几何": 26,
+  "微分流形/形式": 26,
+  "群论": 15,
+  "线性代数/矩阵": 14,
+  "数理统计": 14,
+  "范畴/同调代数": 10,
+  "代数拓扑": 10,
+  "复分析": 6,
+  "纤维丛/示性类": 5,
+  "环与模": 5,
+  "表示论": 5,
+  "辛几何/力学": 4,
+  "代数几何": 3,
+  "流体/连续介质": 3,
+  "数论": 3,
+  "调和/位势": 2,
+  "经典场论/相对论": 1,
+  "实分析/测度": 1,
+  "Fourier/变换": 1,
+  "科学计算/大规模": 1
+ },
+ "finals_duplicates": [
+  [
+   0.406,
+   "2017 Geometry (Individual).pdf",
+   "2017 Geometry (Team).pdf"
+  ],
+  [
+   0.396,
+   "2017 Geometry (Individual).pdf",
+   "2017 Geometry (Overall).pdf"
+  ]
+ ],
+ "finals_vs_prelim_duplicates": []
+}

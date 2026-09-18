@@ -1,0 +1,32 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Analysis and Diﬀerential Equations
+Individual Overall
+Please solve the following problems.
+1. Let f be an analytic function in a neighborhood of ¯U where U = {|z| < 1}. Show
+that if f is real on ∂U, then f must be constant.
+2. Find the Green’s function for
+−u
+′′ = f
+u(0) = u(1), u
+′(0) = u
+′(1)
+∫1
+0
+u = 0,
+∫1
+0
+f = 0
+3. Let BR(0) = {x ∈Rn : |x| < R} for n > 2 and R > 0. Prove that there exists a
+constant C independent of R such that
+∫
+BR(0)
+|v(x)|2
+|x|2 dx ≤C
+∫
+BR(0)
+(|vr|2 + R−2v2)dx
+for any function v ∈C∞(BR(0)), where vr(x) = x·∇v
+|x| .
+1

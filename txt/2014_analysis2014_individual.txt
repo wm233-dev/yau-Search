@@ -1,0 +1,74 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2014
+Analysis and Diﬀerential Equations
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let f : R →R be a continuous function which satisﬁes
+sup
+x,y∈R
+|f(x + y) −f(x) −f(y)| < ∞.
+If we have
+lim
+n→∞,n∈N
+f(n)
+n
+= 2014, prove sup
+x∈R
+|f(x) −2014 x| < ∞.
+2. Let f1, ..., fn are analytic functions on D = {z||z| < 1} and contin-
+uous on ¯D, prove that ϕ(z) = |f1(z)| + |f2(z)| + ... + |fn(z)| achieves
+maximum values at the boundary ∂D.
+3. Prove that if there is a conformal mapping between the annulus
+{z|r1 < |z| < r2} and the annulus {z|ρ1 < |z| < ρ2}, then r2
+r1 = ρ2
+ρ1.
+4. Let U(ξ) be a bounded function on R with ﬁnitely many points of
+discontinuity, prove that
+PU(x) = 1
+π
+∫
+R
+y
+(x −ξ)2 + y2U(ξ)dξ
+is a harmonic function on the upper half plane {z ∈C|Imz > 0} and
+it converges to U(ξ) as z →ξ at a point ξ where U(ξ) is continuous.
+5. Let f ∈L2(R) and let ˆf be its Fourier transform. Prove that
+∫∞
+−∞
+x2|f(x)|2dx
+∫∞
+−∞
+ξ2| ˆf(ξ)|2dξ ≥
+(
+∫∞
+−∞|f(x)|2dx)2
+16π2
+,
+under the condition that the two integrals on the left are bounded.
+(Hint: Operators f(x) →xf(x) and ˆf(ξ) →ξ ˆf(ξ) after Fourier
+transform are non-commuting operators. The inequality is a version of
+the uncertainty principle.)
+6. Let Ωbe an open domain in the complex plane C. Let H be the
+subspace of L2(Ω) consisting of holomorphic functions on Ω.
+a) Show that H is a closed subspace of L2(Ω), and hence is a Hilbert
+space with inner product
+(f, g) =
+∫
+Ω
+f(z)¯g(z)dxdy, where z = x + iy.
+b) If {ϕn}∞
+n=0 is an orthonormal basis of H, then
+1
+
+=== page 2 ===
+2
+Σ∞
+n=0|ϕn(z)|2 ≤
+c2
+d(z, Ωc), for z ∈Ω.
+c) The sum
+B(z, w) = Σ∞
+n=0ϕn(z)¯ϕn(w)
+converges absolutely for (z, w) ∈Ω× Ω, and is independent of the
+choice of the orthonormal basis.

@@ -1,0 +1,168 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Applied Math. and Computational Math.
+Individual (5 problems)
+1. The Chebyshev polynomial of the ﬁrst kind is deﬁned on [−1, 1] by
+Tn(x) = cos(n arccos x).
+Prove: The envelope for the extremals of Tn+1(x) −Tn−1(x) forms an ellipse.
+2. Consider a ﬁxed point iteration
+xn = g(xn−1),
+where g : R →R is a smooth function. Suppose this ﬁxed point method does converge
+to a ﬁxed point x∗. The Steﬀensen algorithm is an acceleration method to ﬁnd x∗
+which reads
+ˆxn = xn−2 −
+(xn−1 −xn−2)2
+xn −2xn−1 + xn−2
+.
+or
+xn+1 = G(xn)
+where
+G(x) = x −
+(g(x) −x)2
+g(g(x)) −2g(x) + x.
+(a) Show that the Steﬀensen algorithm {xk} converges quadratically.
+(b) Can you extend this method to two dimensions?
+3. We consider a piecewise smooth function
+f(x) =
+½
+f1(x),
+x ≤0,
+f2(x),
+x > 0
+where f1(x) is a C∞function on (−∞, 0] and f2(x) is a C∞function on [0, ∞), but
+f1(0) ̸= f2(0). Suppose p(x) is a k-th degree polynomial (k ≥1) interpolating f(x) at
+k + 1 equally-spaced grid points xj, j = 0, 1, 2, · · · , k with xi < 0 < xi+1 for some i
+between 0 and k −1. Prove that, when the grid size h = xj+1 −xj is small enough,
+p′(x) ̸= 0 for xi ≤0 ≤xi+1, that is, p(x) is monotone in the interval [xi, xi+1]. (Hint:
+ﬁrst prove the case when f1(x) = c1, f2(x) = c2 and c1 ̸= c2 are two constants.)
+1
+
+=== page 2 ===
+2
+4. Let b ∈Rn. Suppose A ∈Mn×n(R) and B ∈Mn×n(R) are two n × n matrices. Let
+A to be non-singular.
+(a) Consider the iterative scheme: Axk+1 = b −Bxk.
+State and prove the necessary and suﬃcient condition for the iterative scheme to
+converge.
+(b) Suppose the spectral radius of A−1B satisﬁes ρ(A−1B) = 0. Prove that the iterative
+scheme converges in n iterations.
+(c) Consider the following iterative scheme:
+x(k+1) = ω1x(k) + ω2(c1 −Mx(k)) + ω3(c2 −Mx(k)) + ... + ωk(ck−1 −Mx(k))
+where M is symmetric and positive deﬁnite, ω1 > 1, ω2, ..., ωk > 0 and c1, ..., ck−1 ∈
+Rn. Deduce from (a) that the iterative scheme converges if and only if all eigen-
+values of M (denote it as λ(M)) satisﬁes:
+(ω1 −1)/(
+k
+X
+i=2
+ωi) < λ(M) < (ω1 + 1)/(
+k
+X
+i=2
+ωi).
+(d) Let A be non-singular. Now, consider the following system of iterative scheme (*):
+Ax(k+1)
+1
+= b1 −Bx(k)
+2 ,
+Ax(k+1)
+2
+= b2 −Bx(k)
+1
+Find and prove the necessary and suﬃcient condition for the iterative scheme (*)
+to converge.
+For the iterative scheme (**):
+Ax(k+1)
+1
+= b1 −Bx(k)
+2 ,
+Ax(k+1)
+2
+= b2 −Bx(k+1)
+1
+Find and prove the necessary and suﬃcient condition for the iterative scheme (**)
+to converge. Compare the rate of convergence of the iterative schemes (*) and (**).
+5. Consider the diﬀerential equation
+−u′′ + αu = f, x ∈(0, 1).
+Here, prime denotes for d/dx and α is a constant. We consider a mixed boundary
+condition
+u(0) = 0, u′(1) −bu(0) = 0.
+This equation is approximated by a standard ﬁnite diﬀerence method:
+−Uj−1 + 2Uj −Uj+1
+h2
++ αUj = fj, j = 1, ..., N −1.
+Here, N is the number of grid points, h = 1/N is the mesh size, Uj is the approximate
+solution at xj := jh, and fj = f(xj). The noundary condition is approximated by
+U0 = 0, UN −UN−1
+h
+−bUN = 0.
+
+=== page 3 ===
+3
+The resulting linear system is AU = F with
+
+
+β
+−1
+0
+· · ·
+−1
+β
+−1
+· · ·
+...
+−1
+β
+−1
+0
+−1
+1 −bh
+
+
+
+
+U1
+U2...
+UN−1
+UN
+
+
+=
+
+
+h2f1
+h2f2
+...
+h2fN−1
+0
+
+
+where β = 2 + αh2.
+ut + aux = 0, a > 0.
+We discretize this PDE by For solving the following partial diﬀerential equation
+(1)
+ut + f(u)x = 0,
+0 ≤x ≤1
+where f ′(u) ≥0, with periodic boundary condition, we can use the following semi-
+discrete upwind scheme
+(2)
+d
+dtuj + f(uj) −f(uj−1)
+∆x
+= 0,
+j = 1, 2, · · · , N,
+with periodic boundary condition
+(3)
+u0 = uN,
+where uj = uj(t) approximates u(xj, t) at the grid point x = xj = j∆x, with ∆x = 1
+N .
+(a) Prove the following L2 stability of the scheme
+(4)
+d
+dtE(t) ≤0
+where E(t) = PN
+j=1 |uj|2∆x.
+(b) Do you believe (4) is true for E(t) = PN
+j=1 |uj|2p∆x for arbitrary integer p ≥1?
+If yes, prove the result. If not, give a counterexample.

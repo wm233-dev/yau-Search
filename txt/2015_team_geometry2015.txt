@@ -1,0 +1,43 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Geometry and Topology
+Team
+Please solve 5 out of the following 6 problems.
+1. Let SO(3) be the set of all 3 × 3 real matrices A with determinant 1 and satisfying
+tAA = I, where I is the identity matrix and tA is the transpose of A. Show that SO(3)
+is a smooth manifold, and ﬁnd its fundamental group. You need to prove your claims.
+2. Let X be a topological space. The suspension S(X) of X is the space obtained from
+X ×[0, 1] by contracting X ×{0} to a point and contracting X ×{1} to another point.
+Describe the relation between the homology groups of X and S(X).
+3. Let F : M →N be a smooth map between two manifolds. Let X1, X2 be smooth
+vector ﬁelds on M and let Y1, Y2 be smooth vector ﬁelds on N. Prove that if Y1 = F∗X1
+and Y2 = F∗X2, then F∗[X1, X2] = [Y1, Y2], where [ , ] is the Lie bracket.
+4. Let M1 and M2 be two compact convex closed surfaces in R3, and f : M1 →M2 a
+diﬀeomerphism such that M1 and M2 have the same inner normal vectors and Gauss
+curvatures at the corresponding points. Prove that f is a translation.
+5. Prove the second Bianchi identity:
+Rijkl,h + Rijlh,k + Rijhk,l = 0
+6. Let M1, M2 be two complete n-dimensional Riemannian manifolds and γi : [0, a] →
+Mi are two arc length parametrized geodesics. Let ρi be the distance function to γi(0)
+on Mi. Assume that γi(a) is within the cut locus of γi(0) and for any 0 ≤t ≤a we
+have the inequality of sectional curvatures
+K1(X1, ∂
+∂γ1
+) ≥K2(X2, ∂
+∂γ2
+),
+where Xi ∈Tγi(t)Mi is any unit vector orthogonal to the tangent
+∂
+∂γi.
+Then
+Hess(ρ1)( e
+X1, e
+X1) ≤Hess(ρ2)( e
+X2, e
+X2),
+where e
+Xi ∈Tγi(a)Mi is any unit vector orthogonal to the tangent
+∂
+∂γi(a).
+1

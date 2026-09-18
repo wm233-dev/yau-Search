@@ -1,0 +1,4556 @@
+[
+ {
+  "key": "2010|Algebra|heory_individual|Q1",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2010|Algebra|heory_individual|Q2",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2010|Algebra|heory_individual|Q3",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2010|Algebra|heory_individual|Q4",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2010|Algebra|heory_individual|Q5",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2010|Algebra|heory_individual|Q6",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2010|Algebra|umberTheory_team|Q1",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2010|Algebra|umberTheory_team|Q2",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2010|Algebra|umberTheory_team|Q3",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2010|Algebra|umberTheory_team|Q4",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2010|Algebra|umberTheory_team|Q5",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2010|Algebra|umberTheory_team|Q6",
+  "year": "2010",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2010|Analysis|tions_individual|Q1",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2010|Analysis|tions_individual|Q2",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2010|Analysis|tions_individual|Q3",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2010|Analysis|tions_individual|Q4",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2010|Analysis|tions_individual|Q5",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2010|Analysis|tions_individual|Q6",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2010|Analysis|l_equations_team|Q1",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2010|Analysis|l_equations_team|Q2",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2010|Analysis|l_equations_team|Q3",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2010|Analysis|l_equations_team|Q4",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2010|Analysis|l_equations_team|Q5",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2010|Analysis|l_equations_team|Q6",
+  "year": "2010",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2010|Probability|stics_individual|Q1",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2010|Probability|stics_individual|Q2",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2010|Probability|stics_individual|Q3",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2010|Probability|stics_individual|Q4",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2010|Probability|stics_individual|Q5",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2010|Probability|stics_individual|Q6",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2010|Probability|_Statistics_team|Q1",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2010|Probability|_Statistics_team|Q2",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2010|Probability|_Statistics_team|Q3",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2010|Probability|_Statistics_team|Q4",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2010|Probability|_Statistics_team|Q5",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2010|Probability|_Statistics_team|Q6",
+  "year": "2010",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2010|Geometry|tryTopology_indi|Q1",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2010|Geometry|tryTopology_indi|Q2",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2010|Geometry|tryTopology_indi|Q3",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2010|Geometry|tryTopology_indi|Q4",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2010|Geometry|tryTopology_indi|Q5",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2010|Geometry|tryTopology_indi|Q6",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2010|Geometry|tryTopology_team|Q1",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2010|Geometry|tryTopology_team|Q2",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2010|Geometry|tryTopology_team|Q3",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2010|Geometry|tryTopology_team|Q4",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2010|Geometry|tryTopology_team|Q5",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2010|Geometry|tryTopology_team|Q6",
+  "year": "2010",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2011|Analysis|_Individual_2011|Q1",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2011|Analysis|_Individual_2011|Q2",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2011|Analysis|_Individual_2011|Q3",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2011|Analysis|_Individual_2011|Q4",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2011|Analysis|_Individual_2011|Q5",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2011|Analysis|_Individual_2011|Q6",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2011|Computational|_Individual_2011|Q1",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2011|Computational|_Individual_2011|Q2",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2011|Computational|_Individual_2011|Q3",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2011|Computational|_Individual_2011|Q4",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2011|Computational|_Individual_2011|Q5",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2011|Computational|_Individual_2011|Q6",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2011|Geometry|_Individual_2011|Q1",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2011|Geometry|_Individual_2011|Q2",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2011|Geometry|_Individual_2011|Q3",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2011|Geometry|_Individual_2011|Q4",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2011|Geometry|_Individual_2011|Q5",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2011|Geometry|_Individual_2011|Q6",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2011|Algebra|_Individual_2011|Q1",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2011|Algebra|_Individual_2011|Q2",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2011|Algebra|_Individual_2011|Q3",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2011|Algebra|_Individual_2011|Q4",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2011|Algebra|_Individual_2011|Q5",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2011|Algebra|_Individual_2011|Q6",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2011|Analysis|uation_Team_2011|Q1",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2011|Analysis|uation_Team_2011|Q2",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2011|Analysis|uation_Team_2011|Q3",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2011|Analysis|uation_Team_2011|Q4",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2011|Analysis|uation_Team_2011|Q5",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2011|Analysis|uation_Team_2011|Q6",
+  "year": "2011",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2011|Computational|thProb_Team_2011|Q1",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2011|Computational|thProb_Team_2011|Q2",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2011|Computational|thProb_Team_2011|Q3",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2011|Computational|thProb_Team_2011|Q4",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2011|Computational|thProb_Team_2011|Q5",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2011|Computational|thProb_Team_2011|Q6",
+  "year": "2011",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2011|Geometry|eomTop_Team_2011|Q1",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2011|Geometry|eomTop_Team_2011|Q2",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2011|Geometry|eomTop_Team_2011|Q3",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2011|Geometry|eomTop_Team_2011|Q4",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2011|Geometry|eomTop_Team_2011|Q5",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2011|Geometry|eomTop_Team_2011|Q6",
+  "year": "2011",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2011|Algebra|lgebra_Team_2011|Q1",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2011|Algebra|lgebra_Team_2011|Q2",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2011|Algebra|lgebra_Team_2011|Q3",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2011|Algebra|lgebra_Team_2011|Q4",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2011|Algebra|lgebra_Team_2011|Q5",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2011|Algebra|lgebra_Team_2011|Q6",
+  "year": "2011",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2012|Algebra|ra2012Individual|Q1",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2012|Algebra|ra2012Individual|Q2",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2012|Algebra|ra2012Individual|Q3",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2012|Algebra|ra2012Individual|Q4",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2012|Algebra|ra2012Individual|Q5",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2012|Algebra|ra2012Individual|Q6",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2012|Algebra|_Algebra2012team|Q1",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2012|Algebra|_Algebra2012team|Q2",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2012|Algebra|_Algebra2012team|Q3",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2012|Algebra|_Algebra2012team|Q4",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2012|Algebra|_Algebra2012team|Q5",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2012|Algebra|_Algebra2012team|Q6",
+  "year": "2012",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2012|Analysis|lysis_individual|Q1",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2012|Analysis|lysis_individual|Q2",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2012|Analysis|lysis_individual|Q3",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2012|Analysis|lysis_individual|Q4",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2012|Analysis|lysis_individual|Q5",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2012|Analysis|lysis_individual|Q6",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2012|Analysis|12_Analysis_team|Q1",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2012|Analysis|12_Analysis_team|Q2",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2012|Analysis|12_Analysis_team|Q3",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2012|Analysis|12_Analysis_team|Q4",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2012|Analysis|12_Analysis_team|Q5",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2012|Analysis|12_Analysis_team|Q6",
+  "year": "2012",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2012|Computational|ed2012individual|Q1",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2012|Computational|ed2012individual|Q2",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2012|Computational|ed2012individual|Q3",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2012|Computational|ed2012individual|Q4",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2012|Computational|ed2012individual|Q5",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2012|Computational|_Applied2012team|Q1",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2012|Computational|_Applied2012team|Q2",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2012|Computational|_Applied2012team|Q3",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2012|Computational|_Applied2012team|Q4",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2012|Computational|_Applied2012team|Q5",
+  "year": "2012",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2012|Geometry|ry2012individual|Q1",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2012|Geometry|ry2012individual|Q2",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2012|Geometry|ry2012individual|Q3",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2012|Geometry|ry2012individual|Q4",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2012|Geometry|ry2012individual|Q5",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2012|Geometry|ry2012individual|Q6",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2012|Geometry|Geometry2012team|Q1",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2012|Geometry|Geometry2012team|Q2",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2012|Geometry|Geometry2012team|Q3",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2012|Geometry|Geometry2012team|Q4",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2012|Geometry|Geometry2012team|Q5",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2012|Geometry|Geometry2012team|Q6",
+  "year": "2012",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2012|Probability|y2012_individual|Q1",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2012|Probability|y2012_individual|Q2",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2012|Probability|y2012_individual|Q3",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2012|Probability|y2012_individual|Q4",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2012|Probability|y2012_individual|Q5",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2012|Probability|y2012_individual|Q6",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2012|Probability|ability2012_team|Q1",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2012|Probability|ability2012_team|Q2",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2012|Probability|ability2012_team|Q3",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2012|Probability|ability2012_team|Q4",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2012|Probability|ability2012_team|Q5",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2012|Probability|ability2012_team|Q6",
+  "year": "2012",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2013|Analysis|TeamProblems2013|Q1",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2013|Analysis|TeamProblems2013|Q2",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2013|Analysis|TeamProblems2013|Q3",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2013|Analysis|TeamProblems2013|Q4",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2013|Analysis|TeamProblems2013|Q5",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2013|Analysis|TeamProblems2013|Q6",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2013|Geometry|TeamProblems2013|Q1",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2013|Geometry|TeamProblems2013|Q2",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2013|Geometry|TeamProblems2013|Q3",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2013|Geometry|TeamProblems2013|Q4",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2013|Geometry|TeamProblems2013|Q5",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2013|Geometry|TeamProblems2013|Q6",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2013|Algebra|TeamProblems2013|Q1",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2013|Algebra|TeamProblems2013|Q2",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2013|Algebra|TeamProblems2013|Q3",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2013|Algebra|TeamProblems2013|Q4",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2013|Algebra|TeamProblems2013|Q5",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2013|Algebra|TeamProblems2013|Q6",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2013|Computational|TeamProblems2013|Q1",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2013|Computational|TeamProblems2013|Q2",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2013|Computational|TeamProblems2013|Q3",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2013|Computational|TeamProblems2013|Q4",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2013|Computational|TeamProblems2013|Q5",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2013|Computational|TeamProblems2013|Q6",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2013|Algebra|a2013_individual|Q1",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2013|Algebra|a2013_individual|Q2",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2013|Algebra|a2013_individual|Q3",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2013|Algebra|a2013_individual|Q4",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2013|Algebra|a2013_individual|Q5",
+  "year": "2013",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2013|Analysis|s2013_individual|Q1",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2013|Analysis|s2013_individual|Q2",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2013|Analysis|s2013_individual|Q3",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2013|Analysis|s2013_individual|Q4",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2013|Analysis|s2013_individual|Q5",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2013|Analysis|s2013_individual|Q6",
+  "year": "2013",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2013|Computational|d2013_individual|Q1",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2013|Computational|d2013_individual|Q2",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2013|Computational|d2013_individual|Q3",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2013|Computational|d2013_individual|Q4",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2013|Computational|d2013_individual|Q5",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2013|Computational|d2013_individual|Q6",
+  "year": "2013",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2013|Geometry|y2013_individual|Q1",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2013|Geometry|y2013_individual|Q2",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2013|Geometry|y2013_individual|Q3",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2013|Geometry|y2013_individual|Q4",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2013|Geometry|y2013_individual|Q5",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2013|Geometry|y2013_individual|Q6",
+  "year": "2013",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2013|Probability|y2013_individual|Q1",
+  "year": "2013",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2013|Probability|y2013_individual|Q2",
+  "year": "2013",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2013|Probability|y2013_individual|Q3",
+  "year": "2013",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2013|Probability|y2013_individual|Q4",
+  "year": "2013",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2013|Probability|y2013_individual|Q5",
+  "year": "2013",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2013|Probability|y2013_individual|Q6",
+  "year": "2013",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2014|Algebra|a2014_individual|Q1",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2014|Algebra|a2014_individual|Q2",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2014|Algebra|a2014_individual|Q3",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2014|Algebra|a2014_individual|Q4",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2014|Algebra|a2014_individual|Q5",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2014|Algebra|a2014_individual|Q6",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2014|Algebra|algebra2014_team|Q1",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2014|Algebra|algebra2014_team|Q2",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2014|Algebra|algebra2014_team|Q3",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2014|Algebra|algebra2014_team|Q4",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2014|Algebra|algebra2014_team|Q5",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2014|Algebra|algebra2014_team|Q6",
+  "year": "2014",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2014|Analysis|s2014_individual|Q1",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2014|Analysis|s2014_individual|Q2",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2014|Analysis|s2014_individual|Q3",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2014|Analysis|s2014_individual|Q4",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2014|Analysis|s2014_individual|Q5",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2014|Analysis|s2014_individual|Q6",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2014|Analysis|nalysis2014_team|Q1",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2014|Analysis|nalysis2014_team|Q2",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2014|Analysis|nalysis2014_team|Q3",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2014|Analysis|nalysis2014_team|Q4",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2014|Analysis|nalysis2014_team|Q5",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2014|Analysis|nalysis2014_team|Q6",
+  "year": "2014",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2014|Computational|d2014_individual|Q1",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2014|Computational|d2014_individual|Q2",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2014|Computational|d2014_individual|Q3",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2014|Computational|d2014_individual|Q4",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2014|Computational|d2014_individual|Q5",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2014|Computational|applied2014_team|Q1",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2014|Computational|applied2014_team|Q2",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2014|Computational|applied2014_team|Q3",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2014|Computational|applied2014_team|Q4",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2014|Computational|applied2014_team|Q5",
+  "year": "2014",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2014|Geometry|y2014_individual|Q1",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2014|Geometry|y2014_individual|Q2",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2014|Geometry|y2014_individual|Q3",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2014|Geometry|y2014_individual|Q4",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2014|Geometry|y2014_individual|Q5",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2014|Geometry|y2014_individual|Q6",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2014|Geometry|eometry2014_team|Q1",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2014|Geometry|eometry2014_team|Q2",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2014|Geometry|eometry2014_team|Q3",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2014|Geometry|eometry2014_team|Q4",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2014|Geometry|eometry2014_team|Q5",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2014|Geometry|eometry2014_team|Q6",
+  "year": "2014",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2014|Probability|y2014_individual|Q1",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2014|Probability|y2014_individual|Q2",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2014|Probability|y2014_individual|Q3",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2014|Probability|y2014_individual|Q4",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2014|Probability|y2014_individual|Q5",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2014|Probability|ability2014_team|Q1",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2014|Probability|ability2014_team|Q2",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2014|Probability|ability2014_team|Q3",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2014|Probability|ability2014_team|Q4",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2014|Probability|ability2014_team|Q5",
+  "year": "2014",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2015|Algebra|a2015_individual|Q1",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2015|Algebra|a2015_individual|Q2",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2015|Algebra|a2015_individual|Q3",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2015|Algebra|a2015_individual|Q4",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2015|Algebra|a2015_individual|Q5",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2015|Analysis|s2015_individual|Q1",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2015|Analysis|s2015_individual|Q2",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2015|Analysis|s2015_individual|Q3",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2015|Analysis|s2015_individual|Q4",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2015|Analysis|s2015_individual|Q5",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2015|Analysis|s2015_individual|Q6",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2015|Computational|d2015_individual|Q1",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2015|Computational|d2015_individual|Q2",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2015|Computational|d2015_individual|Q3",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2015|Computational|d2015_individual|Q4",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2015|Computational|d2015_individual|Q5",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2015|Geometry|y2015_individual|Q1",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2015|Geometry|y2015_individual|Q2",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2015|Geometry|y2015_individual|Q3",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2015|Geometry|y2015_individual|Q4",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2015|Geometry|y2015_individual|Q5",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2015|Geometry|y2015_individual|Q6",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2015|Probability|y2015_individual|Q1",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2015|Probability|y2015_individual|Q2",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2015|Probability|y2015_individual|Q3",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2015|Probability|y2015_individual|Q4",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2015|Probability|y2015_individual|Q5",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2015|Algebra|team_algebra2015|Q1",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2015|Algebra|team_algebra2015|Q2",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2015|Algebra|team_algebra2015|Q3",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2015|Algebra|team_algebra2015|Q4",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2015|Algebra|team_algebra2015|Q5",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2015|Algebra|team_algebra2015|Q6",
+  "year": "2015",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2015|Analysis|eam_analysis2015|Q1",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2015|Analysis|eam_analysis2015|Q2",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2015|Analysis|eam_analysis2015|Q3",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2015|Analysis|eam_analysis2015|Q4",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2015|Analysis|eam_analysis2015|Q5",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2015|Analysis|eam_analysis2015|Q6",
+  "year": "2015",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2015|Computational|team_applied2015|Q1",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2015|Computational|team_applied2015|Q2",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2015|Computational|team_applied2015|Q3",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2015|Computational|team_applied2015|Q4",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2015|Computational|team_applied2015|Q5",
+  "year": "2015",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2015|Geometry|eam_geometry2015|Q1",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2015|Geometry|eam_geometry2015|Q2",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2015|Geometry|eam_geometry2015|Q3",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2015|Geometry|eam_geometry2015|Q4",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2015|Geometry|eam_geometry2015|Q5",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2015|Geometry|eam_geometry2015|Q6",
+  "year": "2015",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2015|Probability|_probability2015|Q1",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2015|Probability|_probability2015|Q2",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2015|Probability|_probability2015|Q3",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2015|Probability|_probability2015|Q4",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2015|Probability|_probability2015|Q5",
+  "year": "2015",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2016|Analysis|2016_2016_team|Q1",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2016|Analysis|2016_2016_team|Q2",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2016|Analysis|2016_2016_team|Q3",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2016|Analysis|2016_2016_team|Q4",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2016|Analysis|2016_2016_team|Q5",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2016|Analysis|2016_2016_team|Q6",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2016|Probability|2016_2016_team|Q1",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2016|Probability|2016_2016_team|Q2",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2016|Probability|2016_2016_team|Q3",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2016|Probability|2016_2016_team|Q4",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2016|Probability|2016_2016_team|Q5",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2016|Geometry|2016_2016_team|Q1",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2016|Geometry|2016_2016_team|Q2",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2016|Geometry|2016_2016_team|Q3",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2016|Geometry|2016_2016_team|Q4",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2016|Geometry|2016_2016_team|Q5",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2016|Geometry|2016_2016_team|Q6",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2016|Algebra|2016_2016_team|Q1",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2016|Algebra|2016_2016_team|Q2",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2016|Algebra|2016_2016_team|Q3",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2016|Algebra|2016_2016_team|Q4",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2016|Algebra|2016_2016_team|Q5",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2016|Computational|2016_2016_team|Q1",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2016|Computational|2016_2016_team|Q2",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2016|Computational|2016_2016_team|Q3",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2016|Computational|2016_2016_team|Q4",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2016|Computational|2016_2016_team|Q5",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2016|Algebra|a2016_individual|Q1",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2016|Algebra|a2016_individual|Q2",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2016|Algebra|a2016_individual|Q3",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2016|Algebra|a2016_individual|Q4",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2016|Algebra|a2016_individual|Q5",
+  "year": "2016",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2016|Analysis|s2016_individual|Q1",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2016|Analysis|s2016_individual|Q2",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2016|Analysis|s2016_individual|Q3",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2016|Analysis|s2016_individual|Q4",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2016|Analysis|s2016_individual|Q5",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2016|Analysis|s2016_individual|Q6",
+  "year": "2016",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2016|Computational|d2016_individual|Q1",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2016|Computational|d2016_individual|Q2",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2016|Computational|d2016_individual|Q3",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2016|Computational|d2016_individual|Q4",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2016|Computational|d2016_individual|Q5",
+  "year": "2016",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2016|Geometry|y2016_individual|Q1",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2016|Geometry|y2016_individual|Q2",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2016|Geometry|y2016_individual|Q3",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2016|Geometry|y2016_individual|Q4",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2016|Geometry|y2016_individual|Q5",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2016|Geometry|y2016_individual|Q6",
+  "year": "2016",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2016|Probability|y2016_individual|Q1",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2016|Probability|y2016_individual|Q2",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2016|Probability|y2016_individual|Q3",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2016|Probability|y2016_individual|Q4",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2016|Probability|y2016_individual|Q5",
+  "year": "2016",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2017|Analysis|2017_2017_team|Q1",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2017|Analysis|2017_2017_team|Q2",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2017|Analysis|2017_2017_team|Q3",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2017|Analysis|2017_2017_team|Q4",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2017|Analysis|2017_2017_team|Q5",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2017|Analysis|2017_2017_team|Q6",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2017|Probability|2017_2017_team|Q1",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2017|Probability|2017_2017_team|Q2",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2017|Probability|2017_2017_team|Q3",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2017|Probability|2017_2017_team|Q4",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2017|Probability|2017_2017_team|Q5",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2017|Geometry|2017_2017_team|Q1",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2017|Geometry|2017_2017_team|Q2",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2017|Geometry|2017_2017_team|Q3",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2017|Geometry|2017_2017_team|Q4",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2017|Geometry|2017_2017_team|Q5",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2017|Geometry|2017_2017_team|Q6",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2017|Algebra|2017_2017_team|Q1",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2017|Algebra|2017_2017_team|Q2",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2017|Algebra|2017_2017_team|Q3",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2017|Algebra|2017_2017_team|Q4",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2017|Algebra|2017_2017_team|Q5",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2017|Computational|2017_2017_team|Q1",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2017|Computational|2017_2017_team|Q2",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2017|Computational|2017_2017_team|Q3",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2017|Computational|2017_2017_team|Q4",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2017|Computational|2017_2017_team|Q5",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2017|Algebra|a2017_individual|Q1",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2017|Algebra|a2017_individual|Q2",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2017|Algebra|a2017_individual|Q3",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2017|Algebra|a2017_individual|Q4",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2017|Algebra|a2017_individual|Q5",
+  "year": "2017",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2017|Analysis|s2017_individual|Q1",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2017|Analysis|s2017_individual|Q2",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2017|Analysis|s2017_individual|Q3",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2017|Analysis|s2017_individual|Q4",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2017|Analysis|s2017_individual|Q5",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2017|Analysis|s2017_individual|Q6",
+  "year": "2017",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2017|Computational|d2017_individual|Q1",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2017|Computational|d2017_individual|Q2",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2017|Computational|d2017_individual|Q3",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2017|Computational|d2017_individual|Q4",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2017|Computational|d2017_individual|Q5",
+  "year": "2017",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2017|Geometry|y2017_individual|Q1",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2017|Geometry|y2017_individual|Q2",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2017|Geometry|y2017_individual|Q3",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2017|Geometry|y2017_individual|Q4",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2017|Geometry|y2017_individual|Q5",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2017|Geometry|y2017_individual|Q6",
+  "year": "2017",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2017|Probability|y2017_individual|Q1",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2017|Probability|y2017_individual|Q2",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2017|Probability|y2017_individual|Q3",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2017|Probability|y2017_individual|Q4",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2017|Probability|y2017_individual|Q5",
+  "year": "2017",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2018|Analysis|2018_2018_team|Q1",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2018|Analysis|2018_2018_team|Q2",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2018|Analysis|2018_2018_team|Q3",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2018|Analysis|2018_2018_team|Q4",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2018|Analysis|2018_2018_team|Q5",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2018|Probability|2018_2018_team|Q1",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2018|Probability|2018_2018_team|Q2",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2018|Probability|2018_2018_team|Q3",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2018|Probability|2018_2018_team|Q4",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2018|Probability|2018_2018_team|Q5",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2018|Geometry|2018_2018_team|Q1",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2018|Geometry|2018_2018_team|Q2",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2018|Geometry|2018_2018_team|Q3",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2018|Geometry|2018_2018_team|Q4",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2018|Geometry|2018_2018_team|Q5",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2018|Geometry|2018_2018_team|Q6",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2018|Algebra|2018_2018_team|Q1",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2018|Algebra|2018_2018_team|Q2",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2018|Algebra|2018_2018_team|Q3",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2018|Algebra|2018_2018_team|Q4",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2018|Algebra|2018_2018_team|Q5",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2018|Computational|2018_2018_team|Q1",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2018|Computational|2018_2018_team|Q2",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2018|Computational|2018_2018_team|Q3",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2018|Computational|2018_2018_team|Q4",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2018|Computational|2018_2018_team|Q5",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2018|Algebra|a2018_individual|Q1",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2018|Algebra|a2018_individual|Q2",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2018|Algebra|a2018_individual|Q3",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2018|Algebra|a2018_individual|Q4",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2018|Algebra|a2018_individual|Q5",
+  "year": "2018",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2018|Analysis|s2018_individual|Q1",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2018|Analysis|s2018_individual|Q2",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2018|Analysis|s2018_individual|Q3",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2018|Analysis|s2018_individual|Q4",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2018|Analysis|s2018_individual|Q5",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2018|Analysis|s2018_individual|Q6",
+  "year": "2018",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2018|Computational|d2018_individual|Q1",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2018|Computational|d2018_individual|Q2",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2018|Computational|d2018_individual|Q3",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2018|Computational|d2018_individual|Q4",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2018|Computational|d2018_individual|Q5",
+  "year": "2018",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2018|Geometry|y2018_individual|Q1",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2018|Geometry|y2018_individual|Q2",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2018|Geometry|y2018_individual|Q3",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2018|Geometry|y2018_individual|Q4",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2018|Geometry|y2018_individual|Q5",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2018|Geometry|y2018_individual|Q6",
+  "year": "2018",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2018|Probability|y2018_individual|Q1",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2018|Probability|y2018_individual|Q2",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2018|Probability|y2018_individual|Q3",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2018|Probability|y2018_individual|Q4",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2018|Probability|y2018_individual|Q5",
+  "year": "2018",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2019|Algebra|a2019_individual|Q1",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2019|Algebra|a2019_individual|Q2",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2019|Algebra|a2019_individual|Q3",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2019|Algebra|a2019_individual|Q4",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2019|Algebra|a2019_individual|Q5",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2019|Algebra|Algebra2019_team|Q1",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2019|Algebra|Algebra2019_team|Q2",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2019|Algebra|Algebra2019_team|Q3",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2019|Algebra|Algebra2019_team|Q4",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2019|Algebra|Algebra2019_team|Q5",
+  "year": "2019",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2019|Analysis|s2019_individual|Q1",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2019|Analysis|s2019_individual|Q2",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2019|Analysis|s2019_individual|Q3",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2019|Analysis|s2019_individual|Q4",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2019|Analysis|s2019_individual|Q5",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2019|Analysis|nalysis2019_team|Q1",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2019|Analysis|nalysis2019_team|Q2",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2019|Analysis|nalysis2019_team|Q3",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2019|Analysis|nalysis2019_team|Q4",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2019|Analysis|nalysis2019_team|Q5",
+  "year": "2019",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2019|Computational|h2019_individual|Q1",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2019|Computational|h2019_individual|Q2",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2019|Computational|h2019_individual|Q3",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2019|Computational|h2019_individual|Q4",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2019|Computational|iedMath2019_team|Q1",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2019|Computational|iedMath2019_team|Q2",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2019|Computational|iedMath2019_team|Q3",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2019|Computational|iedMath2019_team|Q4",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2019|Computational|iedMath2019_team|Q5",
+  "year": "2019",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2019|Geometry|y2019_individual|Q1",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2019|Geometry|y2019_individual|Q2",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2019|Geometry|y2019_individual|Q3",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2019|Geometry|y2019_individual|Q4",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2019|Geometry|y2019_individual|Q5",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2019|Geometry|eometry2019_team|Q1",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2019|Geometry|eometry2019_team|Q2",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2019|Geometry|eometry2019_team|Q3",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2019|Geometry|eometry2019_team|Q4",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2019|Geometry|eometry2019_team|Q5",
+  "year": "2019",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2019|Probability|t2019_individual|Q1",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2019|Probability|t2019_individual|Q2",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2019|Probability|t2019_individual|Q3",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2019|Probability|t2019_individual|Q4",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2019|Probability|obaStat2019_team|Q1",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2019|Probability|obaStat2019_team|Q2",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2019|Probability|obaStat2019_team|Q3",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2019|Probability|obaStat2019_team|Q4",
+  "year": "2019",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2020|Algebra|_numbertheory_20|Q1",
+  "year": "2020",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2020|Algebra|_numbertheory_20|Q2",
+  "year": "2020",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2020|Algebra|_numbertheory_20|Q3",
+  "year": "2020",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2020|Algebra|_numbertheory_20|Q4",
+  "year": "2020",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2020|Algebra|_numbertheory_20|Q5",
+  "year": "2020",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2020|Algebra|_numbertheory_20|Q6",
+  "year": "2020",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2020|Analysis|_differential_20|Q1",
+  "year": "2020",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2020|Analysis|_differential_20|Q2",
+  "year": "2020",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2020|Analysis|_differential_20|Q3",
+  "year": "2020",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2020|Analysis|_differential_20|Q4",
+  "year": "2020",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2020|Analysis|_differential_20|Q5",
+  "year": "2020",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2020|Analysis|_differential_20|Q6",
+  "year": "2020",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2020|Computational|l_and_applied_20|Q1",
+  "year": "2020",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2020|Computational|l_and_applied_20|Q2",
+  "year": "2020",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2020|Computational|l_and_applied_20|Q3",
+  "year": "2020",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2020|Computational|l_and_applied_20|Q4",
+  "year": "2020",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2020|Computational|l_and_applied_20|Q5",
+  "year": "2020",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2020|Computational|l_and_applied_20|Q6",
+  "year": "2020",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2020|Geometry|_and_topology_20|Q1",
+  "year": "2020",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2020|Geometry|_and_topology_20|Q2",
+  "year": "2020",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2020|Geometry|_and_topology_20|Q3",
+  "year": "2020",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2020|Geometry|_and_topology_20|Q4",
+  "year": "2020",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2020|Geometry|_and_topology_20|Q5",
+  "year": "2020",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2020|Geometry|_and_topology_20|Q6",
+  "year": "2020",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2020|Probability|nd_statistics_20|Q1",
+  "year": "2020",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2020|Probability|nd_statistics_20|Q2",
+  "year": "2020",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2020|Probability|nd_statistics_20|Q3",
+  "year": "2020",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2020|Probability|nd_statistics_20|Q4",
+  "year": "2020",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2020|Probability|nd_statistics_20|Q5",
+  "year": "2020",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2020|Probability|nd_statistics_20|Q6",
+  "year": "2020",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2021|Algebra|numbertheory_21s|Q1",
+  "year": "2021",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2021|Algebra|numbertheory_21s|Q2",
+  "year": "2021",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2021|Algebra|numbertheory_21s|Q3",
+  "year": "2021",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2021|Algebra|numbertheory_21s|Q4",
+  "year": "2021",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2021|Algebra|numbertheory_21s|Q5",
+  "year": "2021",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2021|Algebra|numbertheory_21s|Q6",
+  "year": "2021",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2021|Analysis|differential_21s|Q1",
+  "year": "2021",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2021|Analysis|differential_21s|Q2",
+  "year": "2021",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2021|Analysis|differential_21s|Q3",
+  "year": "2021",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2021|Analysis|differential_21s|Q4",
+  "year": "2021",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2021|Analysis|differential_21s|Q5",
+  "year": "2021",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2021|Analysis|differential_21s|Q6",
+  "year": "2021",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2021|Computational|_and_applied_21s|Q1",
+  "year": "2021",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2021|Computational|_and_applied_21s|Q2",
+  "year": "2021",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2021|Computational|_and_applied_21s|Q3",
+  "year": "2021",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2021|Computational|_and_applied_21s|Q4",
+  "year": "2021",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2021|Computational|_and_applied_21s|Q5",
+  "year": "2021",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2021|Computational|_and_applied_21s|Q6",
+  "year": "2021",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2021|Geometry|and_topology_21s|Q1",
+  "year": "2021",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2021|Geometry|and_topology_21s|Q2",
+  "year": "2021",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2021|Geometry|and_topology_21s|Q3",
+  "year": "2021",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2021|Geometry|and_topology_21s|Q4",
+  "year": "2021",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2021|Geometry|and_topology_21s|Q5",
+  "year": "2021",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2021|Geometry|and_topology_21s|Q6",
+  "year": "2021",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2021|Probability|d_statistics_21s|Q1",
+  "year": "2021",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2021|Probability|d_statistics_21s|Q2",
+  "year": "2021",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2021|Probability|d_statistics_21s|Q3",
+  "year": "2021",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2021|Probability|d_statistics_21s|Q4",
+  "year": "2021",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2021|Probability|d_statistics_21s|Q5",
+  "year": "2021",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2021|Probability|d_statistics_21s|Q6",
+  "year": "2021",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2022|Mathematical|ical_Physics_22s|Q1",
+  "year": "2022",
+  "subject": "Mathematical Physics",
+  "n": 1
+ },
+ {
+  "key": "2022|Mathematical|ical_Physics_22s|Q2",
+  "year": "2022",
+  "subject": "Mathematical Physics",
+  "n": 2
+ },
+ {
+  "key": "2022|Mathematical|ical_Physics_22s|Q3",
+  "year": "2022",
+  "subject": "Mathematical Physics",
+  "n": 3
+ },
+ {
+  "key": "2022|Mathematical|ical_Physics_22s|Q4",
+  "year": "2022",
+  "subject": "Mathematical Physics",
+  "n": 4
+ },
+ {
+  "key": "2022|Mathematical|ical_Physics_22s|Q5",
+  "year": "2022",
+  "subject": "Mathematical Physics",
+  "n": 5
+ },
+ {
+  "key": "2022|Mathematical|ical_Physics_22s|Q6",
+  "year": "2022",
+  "subject": "Mathematical Physics",
+  "n": 6
+ },
+ {
+  "key": "2022|Algebra|numbertheory_22s|Q1",
+  "year": "2022",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2022|Algebra|numbertheory_22s|Q2",
+  "year": "2022",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2022|Algebra|numbertheory_22s|Q3",
+  "year": "2022",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2022|Algebra|numbertheory_22s|Q4",
+  "year": "2022",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2022|Algebra|numbertheory_22s|Q5",
+  "year": "2022",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2022|Algebra|numbertheory_22s|Q6",
+  "year": "2022",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2022|Analysis|differential_22s|Q1",
+  "year": "2022",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2022|Analysis|differential_22s|Q2",
+  "year": "2022",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2022|Analysis|differential_22s|Q3",
+  "year": "2022",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2022|Analysis|differential_22s|Q4",
+  "year": "2022",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2022|Analysis|differential_22s|Q5",
+  "year": "2022",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2022|Analysis|differential_22s|Q6",
+  "year": "2022",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2022|Computational|_and_applied_22s|Q1",
+  "year": "2022",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2022|Computational|_and_applied_22s|Q2",
+  "year": "2022",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2022|Computational|_and_applied_22s|Q3",
+  "year": "2022",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2022|Computational|_and_applied_22s|Q4",
+  "year": "2022",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2022|Computational|_and_applied_22s|Q5",
+  "year": "2022",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2022|Computational|_and_applied_22s|Q6",
+  "year": "2022",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2022|Geometry|and_topology_22s|Q1",
+  "year": "2022",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2022|Geometry|and_topology_22s|Q2",
+  "year": "2022",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2022|Geometry|and_topology_22s|Q3",
+  "year": "2022",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2022|Geometry|and_topology_22s|Q4",
+  "year": "2022",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2022|Geometry|and_topology_22s|Q5",
+  "year": "2022",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2022|Geometry|and_topology_22s|Q6",
+  "year": "2022",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2022|Probability|d_statistics_22s|Q1",
+  "year": "2022",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2022|Probability|d_statistics_22s|Q2",
+  "year": "2022",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2022|Probability|d_statistics_22s|Q3",
+  "year": "2022",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2022|Probability|d_statistics_22s|Q4",
+  "year": "2022",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2022|Probability|d_statistics_22s|Q5",
+  "year": "2022",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2022|Probability|d_statistics_22s|Q6",
+  "year": "2022",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2023|Algebra|ra_Number_theory|Q1",
+  "year": "2023",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2023|Algebra|ra_Number_theory|Q2",
+  "year": "2023",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2023|Algebra|ra_Number_theory|Q3",
+  "year": "2023",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2023|Algebra|ra_Number_theory|Q4",
+  "year": "2023",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2023|Algebra|ra_Number_theory|Q5",
+  "year": "2023",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2023|Algebra|ra_Number_theory|Q6",
+  "year": "2023",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2023|Analysis|rential_equation|Q1",
+  "year": "2023",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2023|Analysis|rential_equation|Q2",
+  "year": "2023",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2023|Analysis|rential_equation|Q3",
+  "year": "2023",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2023|Analysis|rential_equation|Q4",
+  "year": "2023",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2023|Analysis|rential_equation|Q5",
+  "year": "2023",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2023|Analysis|rential_equation|Q6",
+  "year": "2023",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2023|Computational|tational_Applied|Q1",
+  "year": "2023",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2023|Computational|tational_Applied|Q2",
+  "year": "2023",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2023|Computational|tational_Applied|Q3",
+  "year": "2023",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2023|Computational|tational_Applied|Q4",
+  "year": "2023",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2023|Computational|tational_Applied|Q5",
+  "year": "2023",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2023|Computational|tational_Applied|Q6",
+  "year": "2023",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2023|Geometry|try_and_Topology|Q1",
+  "year": "2023",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2023|Geometry|try_and_Topology|Q2",
+  "year": "2023",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2023|Geometry|try_and_Topology|Q3",
+  "year": "2023",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2023|Geometry|try_and_Topology|Q4",
+  "year": "2023",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2023|Geometry|try_and_Topology|Q5",
+  "year": "2023",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2023|Geometry|try_and_Topology|Q6",
+  "year": "2023",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2023|Mathematical|ematical_Physics|Q1",
+  "year": "2023",
+  "subject": "Mathematical Physics",
+  "n": 1
+ },
+ {
+  "key": "2023|Mathematical|ematical_Physics|Q2",
+  "year": "2023",
+  "subject": "Mathematical Physics",
+  "n": 2
+ },
+ {
+  "key": "2023|Mathematical|ematical_Physics|Q3",
+  "year": "2023",
+  "subject": "Mathematical Physics",
+  "n": 3
+ },
+ {
+  "key": "2023|Mathematical|ematical_Physics|Q4",
+  "year": "2023",
+  "subject": "Mathematical Physics",
+  "n": 4
+ },
+ {
+  "key": "2023|Mathematical|ematical_Physics|Q5",
+  "year": "2023",
+  "subject": "Mathematical Physics",
+  "n": 5
+ },
+ {
+  "key": "2023|Mathematical|ematical_Physics|Q6",
+  "year": "2023",
+  "subject": "Mathematical Physics",
+  "n": 6
+ },
+ {
+  "key": "2023|Probability|ility_statistics|Q1",
+  "year": "2023",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2023|Probability|ility_statistics|Q2",
+  "year": "2023",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2023|Probability|ility_statistics|Q3",
+  "year": "2023",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2023|Probability|ility_statistics|Q4",
+  "year": "2023",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2023|Probability|ility_statistics|Q5",
+  "year": "2023",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2023|Probability|ility_statistics|Q6",
+  "year": "2023",
+  "subject": "Probability & Statistics",
+  "n": 6
+ },
+ {
+  "key": "2024|Algebra|024_2024_Algebra|Q1",
+  "year": "2024",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2024|Algebra|024_2024_Algebra|Q2",
+  "year": "2024",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2024|Algebra|024_2024_Algebra|Q3",
+  "year": "2024",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2024|Algebra|024_2024_Algebra|Q4",
+  "year": "2024",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2024|Algebra|024_2024_Algebra|Q5",
+  "year": "2024",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2024|Algebra|024_2024_Algebra|Q6",
+  "year": "2024",
+  "subject": "Algebra & Number Theory",
+  "n": 6
+ },
+ {
+  "key": "2024|Analysis|ysis_and_diff_v2|Q1",
+  "year": "2024",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2024|Analysis|ysis_and_diff_v2|Q2",
+  "year": "2024",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2024|Analysis|ysis_and_diff_v2|Q3",
+  "year": "2024",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2024|Analysis|ysis_and_diff_v2|Q4",
+  "year": "2024",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2024|Analysis|ysis_and_diff_v2|Q5",
+  "year": "2024",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2024|Computational|mputational_Math|Q1",
+  "year": "2024",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2024|Computational|mputational_Math|Q2",
+  "year": "2024",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2024|Computational|mputational_Math|Q3",
+  "year": "2024",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2024|Computational|mputational_Math|Q4",
+  "year": "2024",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2024|Computational|mputational_Math|Q5",
+  "year": "2024",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2024|Computational|mputational_Math|Q6",
+  "year": "2024",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2024|Geometry|GeometryTopology|Q1",
+  "year": "2024",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2024|Geometry|GeometryTopology|Q2",
+  "year": "2024",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2024|Geometry|GeometryTopology|Q3",
+  "year": "2024",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2024|Geometry|GeometryTopology|Q4",
+  "year": "2024",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2024|Geometry|GeometryTopology|Q5",
+  "year": "2024",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2024|Geometry|GeometryTopology|Q6",
+  "year": "2024",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2024|Mathematical|024_Math_physics|Q1",
+  "year": "2024",
+  "subject": "Mathematical Physics",
+  "n": 1
+ },
+ {
+  "key": "2024|Mathematical|024_Math_physics|Q2",
+  "year": "2024",
+  "subject": "Mathematical Physics",
+  "n": 2
+ },
+ {
+  "key": "2024|Mathematical|024_Math_physics|Q3",
+  "year": "2024",
+  "subject": "Mathematical Physics",
+  "n": 3
+ },
+ {
+  "key": "2024|Mathematical|024_Math_physics|Q4",
+  "year": "2024",
+  "subject": "Mathematical Physics",
+  "n": 4
+ },
+ {
+  "key": "2024|Mathematical|024_Math_physics|Q5",
+  "year": "2024",
+  "subject": "Mathematical Physics",
+  "n": 5
+ },
+ {
+  "key": "2024|Mathematical|024_Math_physics|Q6",
+  "year": "2024",
+  "subject": "Mathematical Physics",
+  "n": 6
+ },
+ {
+  "key": "2024|Probability|_2024_statistics|Q1",
+  "year": "2024",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2024|Probability|_2024_statistics|Q2",
+  "year": "2024",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2024|Probability|_2024_statistics|Q3",
+  "year": "2024",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2024|Probability|_2024_statistics|Q4",
+  "year": "2024",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2024|Probability|_2024_statistics|Q5",
+  "year": "2024",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2025|Geometry|try_and_Topology|Q1",
+  "year": "2025",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2025|Geometry|try_and_Topology|Q2",
+  "year": "2025",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2025|Geometry|try_and_Topology|Q3",
+  "year": "2025",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2025|Geometry|try_and_Topology|Q4",
+  "year": "2025",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2025|Geometry|try_and_Topology|Q5",
+  "year": "2025",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2025|Geometry|try_and_Topology|Q6",
+  "year": "2025",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2025|Algebra|2025_algebra|Q1",
+  "year": "2025",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2025|Algebra|2025_algebra|Q2",
+  "year": "2025",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2025|Algebra|2025_algebra|Q3",
+  "year": "2025",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2025|Algebra|2025_algebra|Q4",
+  "year": "2025",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2025|Algebra|2025_algebra|Q5",
+  "year": "2025",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2025|Analysis|2025_analysis|Q1",
+  "year": "2025",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2025|Analysis|2025_analysis|Q2",
+  "year": "2025",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2025|Analysis|2025_analysis|Q3",
+  "year": "2025",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2025|Analysis|2025_analysis|Q4",
+  "year": "2025",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2025|Analysis|2025_analysis|Q5",
+  "year": "2025",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2025|Analysis|2025_analysis|Q6",
+  "year": "2025",
+  "subject": "Analysis & PDE",
+  "n": 6
+ },
+ {
+  "key": "2025|Computational|and_applied_math|Q1",
+  "year": "2025",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2025|Computational|and_applied_math|Q2",
+  "year": "2025",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2025|Computational|and_applied_math|Q3",
+  "year": "2025",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2025|Computational|and_applied_math|Q4",
+  "year": "2025",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2025|Computational|and_applied_math|Q5",
+  "year": "2025",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2025|Computational|and_applied_math|Q6",
+  "year": "2025",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2025|Mathematical|2025_physics|Q1",
+  "year": "2025",
+  "subject": "Mathematical Physics",
+  "n": 1
+ },
+ {
+  "key": "2025|Mathematical|2025_physics|Q2",
+  "year": "2025",
+  "subject": "Mathematical Physics",
+  "n": 2
+ },
+ {
+  "key": "2025|Mathematical|2025_physics|Q3",
+  "year": "2025",
+  "subject": "Mathematical Physics",
+  "n": 3
+ },
+ {
+  "key": "2025|Mathematical|2025_physics|Q4",
+  "year": "2025",
+  "subject": "Mathematical Physics",
+  "n": 4
+ },
+ {
+  "key": "2025|Mathematical|2025_physics|Q5",
+  "year": "2025",
+  "subject": "Mathematical Physics",
+  "n": 5
+ },
+ {
+  "key": "2025|Mathematical|2025_physics|Q6",
+  "year": "2025",
+  "subject": "Mathematical Physics",
+  "n": 6
+ },
+ {
+  "key": "2025|Probability|2025_statistics|Q1",
+  "year": "2025",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2025|Probability|2025_statistics|Q2",
+  "year": "2025",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2025|Probability|2025_statistics|Q3",
+  "year": "2025",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2025|Probability|2025_statistics|Q4",
+  "year": "2025",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2026|Algebra|nd_Number_Theory|Q1",
+  "year": "2026",
+  "subject": "Algebra & Number Theory",
+  "n": 1
+ },
+ {
+  "key": "2026|Algebra|nd_Number_Theory|Q2",
+  "year": "2026",
+  "subject": "Algebra & Number Theory",
+  "n": 2
+ },
+ {
+  "key": "2026|Algebra|nd_Number_Theory|Q3",
+  "year": "2026",
+  "subject": "Algebra & Number Theory",
+  "n": 3
+ },
+ {
+  "key": "2026|Algebra|nd_Number_Theory|Q4",
+  "year": "2026",
+  "subject": "Algebra & Number Theory",
+  "n": 4
+ },
+ {
+  "key": "2026|Algebra|nd_Number_Theory|Q5",
+  "year": "2026",
+  "subject": "Algebra & Number Theory",
+  "n": 5
+ },
+ {
+  "key": "2026|Computational|2026_Computation|Q1",
+  "year": "2026",
+  "subject": "Computational & Applied",
+  "n": 1
+ },
+ {
+  "key": "2026|Computational|2026_Computation|Q2",
+  "year": "2026",
+  "subject": "Computational & Applied",
+  "n": 2
+ },
+ {
+  "key": "2026|Computational|2026_Computation|Q3",
+  "year": "2026",
+  "subject": "Computational & Applied",
+  "n": 3
+ },
+ {
+  "key": "2026|Computational|2026_Computation|Q4",
+  "year": "2026",
+  "subject": "Computational & Applied",
+  "n": 4
+ },
+ {
+  "key": "2026|Computational|2026_Computation|Q5",
+  "year": "2026",
+  "subject": "Computational & Applied",
+  "n": 5
+ },
+ {
+  "key": "2026|Computational|2026_Computation|Q6",
+  "year": "2026",
+  "subject": "Computational & Applied",
+  "n": 6
+ },
+ {
+  "key": "2026|Geometry|026_Geo_Topology|Q1",
+  "year": "2026",
+  "subject": "Geometry & Topology",
+  "n": 1
+ },
+ {
+  "key": "2026|Geometry|026_Geo_Topology|Q2",
+  "year": "2026",
+  "subject": "Geometry & Topology",
+  "n": 2
+ },
+ {
+  "key": "2026|Geometry|026_Geo_Topology|Q3",
+  "year": "2026",
+  "subject": "Geometry & Topology",
+  "n": 3
+ },
+ {
+  "key": "2026|Geometry|026_Geo_Topology|Q4",
+  "year": "2026",
+  "subject": "Geometry & Topology",
+  "n": 4
+ },
+ {
+  "key": "2026|Geometry|026_Geo_Topology|Q5",
+  "year": "2026",
+  "subject": "Geometry & Topology",
+  "n": 5
+ },
+ {
+  "key": "2026|Geometry|026_Geo_Topology|Q6",
+  "year": "2026",
+  "subject": "Geometry & Topology",
+  "n": 6
+ },
+ {
+  "key": "2026|Analysis|26_2026_analysis|Q1",
+  "year": "2026",
+  "subject": "Analysis & PDE",
+  "n": 1
+ },
+ {
+  "key": "2026|Analysis|26_2026_analysis|Q2",
+  "year": "2026",
+  "subject": "Analysis & PDE",
+  "n": 2
+ },
+ {
+  "key": "2026|Analysis|26_2026_analysis|Q3",
+  "year": "2026",
+  "subject": "Analysis & PDE",
+  "n": 3
+ },
+ {
+  "key": "2026|Analysis|26_2026_analysis|Q4",
+  "year": "2026",
+  "subject": "Analysis & PDE",
+  "n": 4
+ },
+ {
+  "key": "2026|Analysis|26_2026_analysis|Q5",
+  "year": "2026",
+  "subject": "Analysis & PDE",
+  "n": 5
+ },
+ {
+  "key": "2026|Mathematical|026_2026_physics|Q1",
+  "year": "2026",
+  "subject": "Mathematical Physics",
+  "n": 1
+ },
+ {
+  "key": "2026|Mathematical|026_2026_physics|Q2",
+  "year": "2026",
+  "subject": "Mathematical Physics",
+  "n": 2
+ },
+ {
+  "key": "2026|Mathematical|026_2026_physics|Q3",
+  "year": "2026",
+  "subject": "Mathematical Physics",
+  "n": 3
+ },
+ {
+  "key": "2026|Mathematical|026_2026_physics|Q4",
+  "year": "2026",
+  "subject": "Mathematical Physics",
+  "n": 4
+ },
+ {
+  "key": "2026|Mathematical|026_2026_physics|Q5",
+  "year": "2026",
+  "subject": "Mathematical Physics",
+  "n": 5
+ },
+ {
+  "key": "2026|Mathematical|026_2026_physics|Q6",
+  "year": "2026",
+  "subject": "Mathematical Physics",
+  "n": 6
+ },
+ {
+  "key": "2026|Probability|_2026_statistics|Q1",
+  "year": "2026",
+  "subject": "Probability & Statistics",
+  "n": 1
+ },
+ {
+  "key": "2026|Probability|_2026_statistics|Q2",
+  "year": "2026",
+  "subject": "Probability & Statistics",
+  "n": 2
+ },
+ {
+  "key": "2026|Probability|_2026_statistics|Q3",
+  "year": "2026",
+  "subject": "Probability & Statistics",
+  "n": 3
+ },
+ {
+  "key": "2026|Probability|_2026_statistics|Q4",
+  "year": "2026",
+  "subject": "Probability & Statistics",
+  "n": 4
+ },
+ {
+  "key": "2026|Probability|_2026_statistics|Q5",
+  "year": "2026",
+  "subject": "Probability & Statistics",
+  "n": 5
+ },
+ {
+  "key": "2026|Probability|_2026_statistics|Q6",
+  "year": "2026",
+  "subject": "Probability & Statistics",
+  "n": 6
+ }
+]

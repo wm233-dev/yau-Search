@@ -1,0 +1,27 @@
+
+=== page 1 ===
+Question 1. If the restriction of f(x, y), where (x, y) ∈R2, to each line in the plane is continuous,
+is f necessarily continuous?
+Question 2.
+Prove:
+π2
+sin2 πz = Σ∞
+n=−∞
+1
+(z−n)2 .
+Question 3.
+Let D = {(x, y) : x2 + y2 < 1}. Solve the equation
+
+
+
+∆u
+=
+cos(xy)
+p
+x2 + y2 in D
+u
+=
+0 on ∂D,
+Explain in what sense the equation holds and indicate where the equation holds in the classical
+sense.
+1

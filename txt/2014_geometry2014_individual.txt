@@ -1,0 +1,59 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2014
+Geometry and Topology
+Individual
+Please solve 5 out of the following 6 problems.
+1. Let X be the quotient space of S2 under the identiﬁcations x ∼−x
+for x in the equator S1. Compute the homology groups Hn(X). Do the
+same for S3 with antipodal points of the equator S2 ⊂S3 identiﬁed.
+2. Let M →R3 be a graph deﬁned by z = f(u, v) where {u, v, z} is
+a Descartes coordinate system in R3. Suppose that M is a minimal
+surface. Prove that:
+(a) The Gauss curvature K of M can be expressed as
+K = ∆log
+(
+1 + 1
+W
+)
+,
+W :=
+√
+1 +
+(∂f
+∂u
+)2
++
+(∂f
+∂v
+)2
+,
+where ∆denotes the Laplacian with respect to the induce metric on
+M (i.e., the ﬁrst fundamental form of M).
+(b) If f is deﬁned on the whole uv-plane, then f is a linear function
+(Bernstein theorem).
+3. Let M = R2/Z2 be the two dimensional torus, L the line 3x = 7y
+in R2, and S = π(L) ⊂M where π : R2 →M is the projection map.
+Find a diﬀerential form on M which represents the Poincar´e dual of S.
+4. Let p : ( ˜
+M, ˜g) →(M, g) be a Riemannian submersion. This is a
+submersion p : ˜
+M →M such that for each x ∈˜
+M, Dp : ker⊥(Dp) →
+Tp(x)(M) is a linear isometry.
+(a) Show that p shortens distances.
+(b) If ( ˜
+M, ˜g) is complete, so is (M, g).
+(c) Show by example that if (M, g) is complete, ( ˜
+M, ˜g) may not be
+complete.
+5. Let Ψ : M →R3 be an isometric immersion of a compact surface
+M into R3. Prove that
+∫
+M H2dσ ≥4π, where H is the mean curvature
+of M and dσ is the area element of M.
+6. The unit tangent bundle of S2 is the subset
+T 1(S2) = {(p, v) ∈R3 | ∥p∥= 1, (p, v) = 0 and ∥v∥= 1}.
+Show that it is a smooth submanifold of the tangent bundle T(S2) of
+S2 and T 1(S2) is diﬀeomorphic to RP 3.
+1

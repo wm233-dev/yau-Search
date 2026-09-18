@@ -1,0 +1,35 @@
+
+=== page 1 ===
+S.T. Yau College Student Mathematics Contests 2019 Ma
+Algebra and Number Theory Overall
+1.
+This problem is meant to show for any prime number p, that there exists an irreducible
+polynomial of degree p with (p −2) real roots and 2 (nonreal) complex conjugate roots. Let
+P0(X) =
+p−2
+Y
+k=1
+(X + k) (X2 + 1)
+(a) Prove that for any integer k, that Pk(X) = kp2P0(X) + Xp −p is an irreducible
+polynomial in Z[X]
+(b) Deduce from Pk a sequence of polynomials in Q[X] converging uniformly to P0 on any
+compact subset of C.
+(c) Prove that for k large enough, Pk has two complex conjugates roots and (p −2) real
+roots.
+2.
+Let k be a ﬁeld and take L = k(x, y), where x is transcendental over k and x2 + y2 = 1.
+Find the Galois group of L over k.
+3.
+Let G be a ﬁnite group and ρ : G −→GL(V ) a representation on a complex ﬁnite
+dimensional vector space V . Let ρ∗: G −→GL(V ∗) be the dual representation.
+Consider the symmetric algebra S(V ), viewed as polynomial functions on V ∗For l ∈V ∗and
+p ∈S(V ), denote by pl the fonction on G given by: pl(g) = p(g(l)); this deﬁnes a function
+S(V )
+φl
+−→C[G]
+p −→pl
+(a) Prove ∃u ∈V ∗whose stabilizer is the neutral element of G.
+(b) Prove that φu is surjective.
+(c) Prove that for any faithful irreducible representation ρ of G, there exists an integer n
+such that ρ is equivalent to a subrepresentation de Sn(V ).
+1

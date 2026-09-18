@@ -1,0 +1,15 @@
+S.-T Yau College Student Mathematics Contests
+Algebra and Number Theory, Team, 2014
+ Let  be linear transformations of  defined byα,βCx,y
+αxmyn=-xmx+ynβxmyn=x+ym-yn
+Please find all polynomials in  which are invariant under  and .Cx,yαβ
+2.  (1) Show that the following mapφ:u→1+u+u22!+⋯+unn!
+defines a bijection between the setsΛ=n×n complex matrices A whose eigenvalues are all 0
+and  Σ=n×n complex matrices B whose eigenvalues are all 1
+(2) Assume . If n=2mA∈Λ  
+  Satisfies    A0ImIm0+0ImIm0At=0
+Show that    φA0ImIm0φAt=I2m
+3.  Solve the equation  x2-2y2=7x,y∈Z
+  For which integer , the equation   is solvablenx2-2y2=nx,y∈Z
+4.  Let G be a finite group such that  is a   .If V is an irreducible G-module over an algebraically closed field  of  .G,G⊂G p-groupi.e.  G,G=pmRCharR=p>0
+Prove that dimV=1

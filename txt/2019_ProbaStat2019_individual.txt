@@ -1,0 +1,67 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Probability and Statistics
+Individual (4 problems)
+1) Suppose (Xn)n≥1 is a sequence of positive random variables. There exists a constant C > 0 such that,
+E[Xn] ≤C,
+E[max{0, −log Xn}] ≤C,
+∀n.
+Show that
+lim sup
+n→∞X1/n
+n
+= 1.
+2) Suppose γ is a probability measure on {0, 1, 2} such that γ(0) > γ(2) > 0. Let (ξn)n≥1 be a sequence
+of i.i.d. random variables with common law γ. Deﬁne the sequence
+Y0 = 0,
+Yn+1 = max{0, Yn + ξn+1 −1},
+∀n ≥0.
+Show that (Yn)n≥0 is an irreducible Markov chain on the state space N = {0, 1, 2, . . .} and it is positive
+recurrent.
+3) Suppose (ϵn)n≥1 is a sequence of i.i.d. random variables and the common law is Bernoulli:
+P[ϵ1 = 1] = P[ϵ1 = −1] = 1/2.
+Consider the random series f(x) = P∞
+n=1 ϵnxn. Show that the random series attains zero inﬁnitely
+many times on x ∈[0, 1) almost surely.
+4) Consider a randomized experiment with 2N units, half to be randomly assigned an active treatment,
+and the other half to be assigned the control treatment; the objective is to measure the eﬀect of the
+active versus control treatments on an outcome, called Y . For example, the units could be people with
+high blood pressure, where Y is blood pressure one week after receiving the active drug or an inactive
+drug, a placebo, where the patient is blinded to which drug is being given.
+The estimand, the goal of the experiment, is the average value of Y if all 2N units received active
+minus the average value of Y if all 2N units received control. Assume that these 2 × 2N numbers
+are ﬁxed quantities (in the statistical literature this assumption is known as SUTVA the stable-unit-
+treatment-value assumption), which means that the outcome Y for the i-th unit receiving a particular
+treatment is a proper function of that unit and the treatment that unit i received.
+Derive the following results in this simple situation.
+a) Find the expectation of the estimator, the diﬀerence in the observed sample means (between those
+assigned treatment and those assigned control), in terms of the estimand (deﬁned above), where
+expectation in this context refers to averaging over all possible random allocations.
+b) The variance of the estimator described in part a) (again, with variance deﬁned as averaging over
+all possible random allocations).
+c) Find an unbiased estimator of the variance in part b), assuming additive treatment eﬀects, that is,
+the treatment minus control values of Y are constant across the 2N units, so that the treatment
+versus control condition adds a constant value for all 2N units.
+d) Find the bias of the estimator in part c) when the treatment eﬀects are non-additive.
+e) Generalize the results in parts a),b), c) and d) to the situation where 2N is replaced by Nt + Nc,
+with Nt units getting active treatment and Nc units getting control, where these sample sizes are
+unequal.
+f) Argue that the estimator in part c), when the sample sizes are large, will look gaussian, and
+conduct a small simulation to indicate that this often happens with relatively small sample sizes.
+1
+
+=== page 2 ===
+g) Modify the ﬁrst four parts to consider a diﬀerent randomized experiment, but still with 2N units,
+half to be allocated to active and half to be allocated to control, but now we have a covariate, X, a
+background variable that is suspected to be related to Y . For example, X could be blood pressure
+today, pre-treatment. In this experiment, many randomized allocations are considered, but all
+allocations are rejected if the sample X means of the treated and controls are too diﬀerent for
+example more than a standard deviation apart. Be careful here to note which results generalize
+and which do not.
+h) Finally, consider the randomized experiment in part g) when Nt units are treated and Nc are
+control, where Nt and Nc are not equal: Which results in parts a),b),c) and d) generalize without
+modiﬁcation? In particular, describe how the conclusion in part f) changes. Note that this is an
+interesting situation where the asymptotic distributions of sample means are not gaussian. What
+are these distributions?
+2

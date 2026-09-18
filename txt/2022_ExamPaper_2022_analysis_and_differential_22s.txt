@@ -1,0 +1,43 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Analysis and Differential Equations
+Solve every problem.
+Problem 1. For 𝑛≥1, we consider the integral
+𝐼𝑛= ∫
+[0,1]𝑛
+𝑛
+1
+𝑥1 + 1
+𝑥2 + ⋯+
+1
+𝑥𝑛
+𝑑𝑥1 ⋯𝑑𝑥𝑛.
+Prove that lim
+𝑛→∞𝐼𝑛exists.
+Problem 2. Let 𝑈⊂𝐂be a non-empty open set and 𝑓∶𝑈→𝑈be a non-constant holomorphic function. Prove
+that, if 𝑓∘𝑓= 𝑓, then 𝑓(𝑧) ≡𝑧for all 𝑧∈𝑈.
+Problem 3.
+Let 𝑋⊂𝐑be a set with positive (Lebesgue) measure. Show that we can find an arithmetic pro-
+gression of 2022 terms in 𝑋, i.e., there exists 𝑥1, … , 𝑥2022 ∈𝑋so that the 𝑥𝑖+1 −𝑥𝑖’s are all equal and positive,
+𝑖= 1, … , 2021.
+Problem 4.
+Let 𝐶([0, 1]) be the space of all continuous 𝐂-valued functions equipped with 𝐿∞-norm. Let 𝐏⊂
+𝐶([0, 1]) be a closed linear subspace. Assume that the elements of 𝐏are polynomials. Prove that dim 𝐏< ∞.
+Problem 5.
+Let Ω ⊂𝐑3 be a bounded domain with smooth boundary. Assume that 𝑢∈𝐶(𝐑3 −Ω) is a
+harmonic function on 𝐑3 −Ω so that 𝑢||Ω = 1 and lim
+|𝑥|→∞|𝑢(𝑥)| = 0.
+Prove that for such 𝑢, lim
+|𝑥|→∞|𝑥|𝑢(𝑥) exists.
+Problem 6. Let 𝑓(𝑥, 𝑦) ∈𝐶1(𝐑2). We assume that there exists 𝐶> 0 so that for all (𝑥, 𝑦) ∈𝐑2, ||
+𝜕𝑓
+𝜕𝑦(𝑥, 𝑦)|| ≤𝐶.
+Prove that the following ODE has a globally defined solution for all 𝑦(0) = 𝑦0 ∈𝐑:
+{
+𝑑
+𝑑𝑥𝑦(𝑥) = 𝑓(𝑥, 𝑦(𝑥)),
+𝑦(0) = 𝑦0.
+(1)
+In addition, we assume that 𝑓is 1-periodic in 𝑥, i.e., for all (𝑥, 𝑦) ∈𝐑2, we have 𝑓(𝑥+ 1, 𝑦) = 𝑓(𝑥, 𝑦). Prove that
+if (1) admits a globally defined bounded solution, then (1) admits a periodic solution.

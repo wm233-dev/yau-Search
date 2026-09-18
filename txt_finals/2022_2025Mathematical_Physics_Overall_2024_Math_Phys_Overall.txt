@@ -1,0 +1,32 @@
+
+=== page 1 ===
+Mathematical Physics
+Individual Overall Contest
+To complete this assessment, answer at least 1 of the following 2 problems
+Problem 1
+Statistical Mechanics: Feynman gas
+We have a one-dimensional classical gas consisting of N impenetrable particles (i.e. the par-
+ticles cannot cross each other) which move in the segment [0, L] ⊂R.
+The particles screen
+each other, so that each particle interacts only with the particles next to it along the line. The
+Hamiltonian is
+HN =
+N
+X
+i=1
+p2
+i
+2m −λ
+N−1
+X
+i=1
+log |xi+1 −xi|
+Compute the Gibbs free energy in the thermodynamic limit (N →∞with L/N fixed).
+Problem 2
+Relativistic Mechanics A particle with mass m and electric charge e is launched horizontally
+with velocity v from a height h above the ground. It then falls under the influence of constant
+vertical electric field ⃗E and lands a distance R away.
+Find the relativistic Hamiltonian, the
+Hamiltonian equations of motion, and express R in terms of h, m, and v. (Set c = 1 for simplicity
+and neglect air resistance and gravity.)
+1

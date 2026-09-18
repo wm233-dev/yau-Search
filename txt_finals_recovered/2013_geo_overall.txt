@@ -1,0 +1,5 @@
+# RECOVERED from DOCX (2013 Geometry (Overall).docx, math in OMML, extracted with zipfile+xml)
+All-around Geometry
+1. Prove S^{2n}, n >= 1 is not Lie group.
+2. Torus T^2 immersed into R^3, phi: T^2 -> R^3 with nontrivial self-intersection, then
+   integral over phi(T^2) of H^2 dv >= 8 pi     [extraction doubtful: constant might be 8 pi^2]

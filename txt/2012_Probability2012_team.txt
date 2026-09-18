@@ -1,0 +1,50 @@
+
+=== page 1 ===
+GROUP TEST
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Probability and Statistics
+Please solve 5 out of the following 6 problems.
+1. Let (Xn) be a sequence of i.i.d. random variables.
+1) Assume that each Xn satisﬁes the exponential distribution with
+parameter 1 (i.e. P(Xn ≥x) = e−x, x ≥0). Prove that
+(a) P(Xn > α log n, i.o.) = 0, if α > 1; P(Xn > α log n, i.o.) = 1, if
+α ≤1.
+Here “i.o” stands for “inﬁnitely often”, and An, i.o. stands lim supn→∞An.
+(b) Let L = lim supn→∞(Xn/ log n), then P(L = 1) = 1.
+2) Assume that each Xn satisﬁes the Poisson distribution with pa-
+rameter λ (i.e. P(Xn = k) = λk
+k! e−λ, k = 0, 1, 2, · · · .) Put
+L = lim sup
+n→∞(Xn log log n/ log n).
+Prove that P(L = 1) = 1.
+2. Let Xi be i.i.d exponential r.v with rate one, i ≥1. Let N be a
+geometric random variable with success probability p, 0 < p < 1, i.e.
+P(N = k) = (1−p)k−1p, k = 1, 2, · · · , and independent of all Xi, i ≥1.
+Find the distribution of PN
+i=1 Xi.
+3. Let X and Y be i.i.d real valued r.v’s. Prove that P(|X +Y | < 1) ≤
+3P(|X −Y | < 1).
+4. Suppose S = X1 + X2 + · · · + Xn, a sum of independent random
+variables with Xi distributed Binomial(1, pi). Show that P(S even) =
+1/2 if and only if at least one pi equals 1/2.
+5. Let Bθ denote the closed unit ball in R2 with center θ. Suppose
+X1, X2, · · · , Xn are independently and uniformly distributed on Bθ,
+for an unknown θ in R2. Denote that maximum likelihood estimator
+by ˆθ. Show that |ˆθ −θ| = Op(1/n).
+6. Suppose that X1, · · · , Xn are a random sample from the Bernoulli
+distribution with probability of success p1 and Y1, · · · , Yn be an inde-
+pendent random sample from the Bernoulli distribution with probabil-
+ity of success p2.
+1
+
+=== page 2 ===
+2
+(a) Derive the maximum likelihood ratio test statistic for
+H0 : p1 = p2 ←→H1 : p1 ̸= p2.
+(Note: No simpliﬁcation of the resulting test statistic is re-
+quired. However, you need to give the asymptotic null.)
+(b) Compute the asymptotic power of the test with critical region
+|√n(ˆp1 −ˆp2)/
+p
+2ˆpˆq| ⩾z1−α
+when p1 = p and p2 = p + n−1/2∆, where ˆp = 0.5.ˆp1 + 0.5ˆp2.

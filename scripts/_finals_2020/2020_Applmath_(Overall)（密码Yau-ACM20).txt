@@ -1,0 +1,87 @@
+
+=== page 1 ===
+Question I
+Consider the following gradient ﬂow with discrete normalization (GFDN)
+∂tu(x, t) =
+
+∂xx −V (x) −β|u|2
+u,
+0 < x < 1, tn ≤t < tn+1, n ≥0,
+u(x, tn+1) = u(x, t+
+n+1) :=
+u(x, t−
+n+1)
+∥u(·, t−
+n+1)∥L2 ,
+0 ≤x ≤1,
+n ≥0,
+u(x, 0) = g0(x),
+0 ≤x ≤1,
+u(0, t) = u(1, t) = 0,
+t ≥0,
+where u = u(x, t) is a real-valued function, V (x) ≥0 for 0 ≤x ≤1 is a given
+function, β ≥0 is a given constant, tn = nτ for n = 0, 1, 2, . . . with τ > 0 being
+the time step, u(x, t±
+n ) := limt→t±
+n u(x, t), ∥u∥2
+L2 =
+R 1
+0 |u(x)|2 dx and g0(x) is a given
+function satisfying ∥g0∥L2 = 1. Deﬁne the mass and energy as
+M(t) := M(u(·, t)) =
+Z 1
+0
+|u(x, t)|2 dx,
+t ≥0,
+E(t) := E(u(·, t)) =
+Z 1
+0
+
+|∂xu(x, t)|2 + V (x)|u(x, t)|2 + β
+2 |u(x, t)|4
+
+dx.
+1. Show that the mass and energy are diminishing in each time interval [tn, tn+1),
+i.e.
+M(t2) ≤M(t1),
+E(t2) ≤E(t1),
+tn ≤t1 ≤t2 < tn+1,
+n ≥0.
+2. When β = 0, show that
+E(g0) = E(u(x, t0)) ≥E(u(x, t1)) ≥· · · ≥E(u(x, tn)) ≥· · · ,
+n ≥0,
+for any given time step τ > 0 and initial data g0(x).
+3. Let τ →0+ in the problem GFDN, what partial diﬀerential equations can
+you get?
+Show that the limiting equation is mass conservative and energy
+diminishing.
+Question II
+Deﬁne a dynamical system
+dyt
+dt = −AT (Axt −b),
+(1a)
+yt ∈∂ψ(xt),
+(1b)
+where A ∈Rn×k satisﬁes that ATA has smallest eigenvalue γ > 0, b = Ax∗, and
+ψ(x) = ∥x∥1 + ∥x∥2
+2
+2α has its subgradient set ∂ψ(x) at x ∈Rk, where α > 0 is a given
+constant. For a convex function ψ : Rk →R, deﬁne the Bregman divergence function
+associated with ψ, Dψ : Rk × Rk →R, by
+Dψ(x′, x) := ψ(x′) −ψ(x) −⟨∂ψ(x), x′ −x⟩.
+(2)
+1
+
+=== page 2 ===
+1. Show that (1) leads to the following ODE
+dDψ(x∗, xt)
+dt
+= −∥A(xt −x∗)∥2
+2.
+(3)
+2. For xt in (1), deﬁne
+τ := inf{t > 0 : sign(xt) = sign(x∗)}.
+(4)
+Denote by x∗the smallest nonzero magnitude of |xi| (i = 1, . . . , k). Find an
+upper bound of τ, as tight as possible.
+2

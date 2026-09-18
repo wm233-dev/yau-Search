@@ -1,0 +1,266 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Probability and Statistics
+Solve every problem.
+Problem 1.
+Let {𝑋𝑛} be a sequence of Gaussian random variables. Suppose that 𝑋is a random variable such
+that 𝑋𝑛converges to 𝑋in distribution as 𝑛→∞. Show that 𝑋is also a (possibly degenerate, i.e., variance zero)
+Gaussian random variable.
+Solution: Let 𝑓𝑛(𝑡) = 𝔼𝑒𝑖𝑡𝑋𝑛be the characteristic function of 𝑋𝑛and 𝑓(𝑡) = 𝔼𝑒𝑖𝑡𝑋be that of 𝑋. There are real numbers
+𝜇𝑛and 𝜎𝑛such that 𝑓𝑛(𝑡) = 𝑒𝑖𝜇𝑛𝑡−𝜍2𝑛𝑡2/2. We have |𝑓𝑛(𝑡)|2 →|𝑓(𝑡)|2, hence 𝑒−𝜍2𝑛𝑡2 →|𝑓(𝑡)|2 for all 𝑡∈𝐑. Since 𝑓(𝑡) ≠0 if 𝑡
+is close to 0, we must have 𝜎2𝑛→𝜎2 for some 𝜎∈[0, ∞). Now we have 𝑒𝑖𝜇𝑛𝑡→𝑓(𝑡)𝑒𝜍2𝑡2 for all 𝑡∈𝐑and by the dominated
+convergence theorem,
+lim
+𝑛→∞∫
+𝑡
+0
+𝑒𝑖𝜇𝑛𝑠𝑑𝑠= ∫
+𝑡
+0
+𝑓(𝑠)𝑒𝜍2𝑠2/2 𝑑𝑠.
+The integral on the right side does not vanish if 𝑡is close, but not equal to, 0 because the integrand is countinuous and equal
+to 1 at 𝑠= 0. On the other hand,
+𝑖𝜇𝑛∫
+𝑡
+0
+𝑒𝑖𝜇𝑛𝑠𝑑𝑠= 𝑒𝑖𝜇𝑛𝑡−1.
+This gives
+𝜇𝑛= −𝑖(𝑓𝑛(𝑡)𝑒𝜍2𝑛𝑡2/2 −1) (∫
+𝑡
+0
+𝑒𝑖𝜇𝑛𝑠𝑑𝑠)
+−1
+,
+from which we see that that 𝜇𝑛must converges to a finite number 𝜇. Finally,
+𝑓𝑛(𝑡) →𝑒𝑖𝜇𝑡−𝜍2𝑡2/2 = 𝑓(𝑡)
+and 𝑋must be a (possibly denegerate) Gaussian random variable.
+Problem 2.
+For two probability measures 𝜇and 𝜈on the real line 𝐑, the total variation distance ‖𝜇−𝜈‖𝑇𝑉is
+defined as
+‖𝜇−𝜈‖𝑇𝑉= sup {𝜇(𝐶) −𝜈(𝐶) ∶𝐶∈ℬ(𝐑)} ,
+where ℬ(𝐑) is the 𝜎-algebra of Borel sets on 𝐑. Let 𝒞(𝜇, 𝜈) be the space of couplings of the probability measures
+𝜇and 𝜈, i.e., the space of 𝐑2 valued random variables (𝑋, 𝑌) defined on some (not necessarily same) probability
+space (Ω, ℱ, ℙ) such that the marginal distributions of 𝑋and 𝑌are 𝜇and 𝜈, respectively. Show that
+‖𝜇−𝜈‖𝑇𝑉= inf {ℙ(𝑋≠𝑌) ∶(𝑋, 𝑌) ∈𝒞(𝜇, 𝜈)} .
+For simplicity you may assume that 𝜇and 𝜈are absolutely continuous with respect to the Lebesgue measure on
+𝐑.
+Solution: (1) Let 𝐶∈ℬ(𝐑) and (𝑋, 𝑌) ∈𝒞(𝜇, 𝜈). Then
+𝜇(𝐶) −𝜈(𝐶) = ℙ{𝑋∈𝐶} −ℙ{𝑌∈𝐶} ≤ℙ{𝑋∈𝐶, 𝑌∉𝐶} ≤ℙ{𝑋≠𝑌} .
+Taking the supremum over 𝐶∈ℬ(𝐑) and then the infimum over (𝑋, 𝑌) ∈𝒞(𝜇, 𝜈) we obtain
+‖𝜇−𝜈‖𝑇𝑉≤inf {ℙ{(𝑋≠𝑌} ∶(𝑋, 𝑌) ∈𝒞(𝜇, 𝜈)} .
+(2) It is sufficient to a probability measure ℙ∈𝒞(𝜇, 𝜈) and a set 𝐶∈ℬ(𝐑) such that for (𝑋, 𝑌) ∈𝐑2 under this probability,
+𝜇(𝐶) −𝜈(𝐶) = ℙ{𝑋≠𝑌} .
+
+=== page 2 ===
+The idea is to construct ℙsuch that the probability ℙ{𝑋= 𝑌} is the largest possible under the condition that (𝑋, 𝑌) ∈𝒞(𝜇, 𝜈).
+Let 𝑚= 𝜇+ 𝜈, or just take 𝑚to be the Lebesgue measure if 𝜇and 𝜈are absolutely continuous with respect to 𝑚. We have
+𝜇= 𝑓1 ⋅𝑚and 𝜈= 𝑓2 ⋅𝑚by the Radon-Nikodym theorem. Let 𝑓= min {𝑓1, 𝑓2} = 𝑓1 ∧𝑓2. Define a probability measure ℙ
+on 𝐑2 by
+ℙ{(𝑋, 𝑌) ∈𝐴× 𝐵} =
+1
+1 −𝑎∫
+𝐴×𝐵
+(𝑓1(𝑥) −𝑓(𝑥))(𝑓2(𝑦) −𝑓(𝑦))𝑚(𝑑𝑥)𝑚(𝑑𝑦) + ∫
+𝐴∩𝐵
+𝑓(𝑧)𝑚(𝑑𝑧).
+Here 𝑎= ∫𝐑𝑓(𝑧)𝑚(𝑑𝑧) and we assume that 𝑎< 1; otherwise 𝑎= 1 and 𝑓1 = 𝑓2, and the case is trivial. Note that the first
+part is the product measure of (𝑓1 −𝑓)⋅𝑚and (𝑓2 −𝑓)⋅𝑚) (up to a constant) and the second part is the probability measure
+𝑓⋅𝑚on the diagonal (identified with 𝐑) of 𝐑2. We have
+ℙ{𝑋∈𝐴} = ∫
+𝐴
+(𝑓1(𝑥) −𝑓(𝑥))𝑚(𝑑𝑥) + ∫
+𝐴
+𝑓(𝑧)𝑚(𝑑𝑧) = ∫
+𝐴
+𝑓1(𝑥)𝑚(𝑑𝑥) = 𝜇(𝐴).
+Similarly ℙ{𝑌∈𝐵} = 𝜈(𝐵), hence (𝑋, 𝑌) ∈𝒞(𝜇, 𝜈). On the other hand,
+ℙ{𝑋≠𝑌} = ∫
+𝐑
+(𝑓1(𝑥) −𝑓(𝑥))𝑚(𝑑𝑥) = 1 −𝑎.
+If we choose 𝐶= {𝑓1 > 𝑓2}, then
+𝜇(𝐶) −𝜈(𝐶) = ∫
+𝐶
+(𝑓1(𝑥) −𝑓2(𝑥))𝑚(𝑑𝑥) = ∫
+𝐑
+(𝑓1(𝑥) −𝑓(𝑥))𝑚(𝑑𝑥) = 1 −𝑎.
+This shows that 𝜇(𝐶) −𝜈(𝐶) = ℙ{𝑋≠𝑌}.
+Problem 3.
+We throw a fair die repeatedly and independently. Let 𝜏11 be the first time the pattern 11 (two
+consecutive 1’s) appears and 𝜏12 the first time the pattern 12 (1 followed by 2) appears.
+(a) Calculate the expected value 𝔼𝜏11.
+(b) Which is larger, 𝔼𝜏11 or 𝔼𝜏12? It is sufficient to give an intuitive argument to justify your answer. You can
+also calculate 𝔼𝜏12 if you wish.
+Solution:
+(a) Let 𝜏1 be the first time the digit 1 appears. At this time, if the next result is 1, then 𝜏11 = 𝜏1 + 1; if the next result is
+not 1, then the time is 𝜏1 + 1 and we have to start all over again. This means
+𝔼𝜏11 = 1
+6 ⋅{𝔼𝜏1 + 1} + 5
+6 ⋅{𝔼𝜏1 + 1 + 𝔼𝜏11} .
+Solving for 𝔼𝜏11 we have 𝔼𝜏11 = 6(𝔼𝜏1 + 1). We need to calculate 𝔼𝜏1. The set {𝜏1 ≥𝑛} is the event that that none of
+the first 𝑛−1 results is 1, hence ∓{𝜏1 ≥𝑛} = (5/6)𝑛−1 and
+𝔼𝜏1 =
+∞
+∑
+𝑛=1
+∓{𝜏1 ≥𝑛} =
+∞
+∑
+𝑛=1
+(5
+6)
+𝑛−1
+= 6.
+It follows that 𝔼𝜏11 = 6(6 + 1) = 42.
+(b) For either 11 or 12 to occur, we have to wait until the first 1 occurs. After that, if we want 11, the next digit needs
+to be 1; otherwise we have to start all over again (i.e., waiting for the next 1). But if we want 12, the next digit needs
+to be 2; otherwise, we have to start all over again only if the next digit is 3 to 6 because if the next digit is 1, we have
+already have a start on the pattern 12. It follows that the pattern 12 has a slight advantage to occur earlier than 11.
+Thus we have 𝔼𝜏12 ≤𝔼𝜏11.
+We can also calculate 𝔼𝜏12 directly. Let 𝜏1 be as before and let 𝜎be the first time a digit not equal to 1 appears. After
+𝜏1 we wait until the first time a digit not equal to 1 appears. With probability 1/5 this digit is 2; with probability 4/5
+this probability is not 2, then we have to start over again. This means that
+𝔼𝜏12 = 1
+5 ⋅{𝔼(𝜏1 + 𝜎)} + 4
+5 ⋅{𝔼(𝜏1 + 𝜎) + 𝔼𝜏12} .
+
+=== page 3 ===
+Hence 𝔼𝜏12 = 5𝔼(𝜏1 + 𝜎). We have seen 𝔼𝜏1 = 6. On the other hand, {𝜎≥𝑛} is the event that the first 𝑛−1 digits
+are 1, hence ∓{𝜎≥𝑛} = (1/6)𝑛−1 and 𝔼𝜎= 6/5. It follows that
+𝔼𝜏12 = 5 (6 + 6
+5) = 36.
+Problem 4.
+Let {𝑋𝑛} be a Markov chain on a discrete state space 𝑆with transition function 𝑝(𝑥, 𝑦), 𝑥, 𝑦∈𝑆.
+Suppose that there is a state 𝑦0 ∈𝑆and a positive number 𝜃such that 𝑝(𝑥, 𝑦0) ≥𝜃for all 𝑥∈𝑆.
+(a) Show that is a positive constant 𝜆< 1 such that for any two initial distribution 𝜇and 𝜈,
+∑
+𝑦∈𝑆
+||ℙ𝜇{𝑋1 = 𝑦} −ℙ𝜈{𝑋1 = 𝑦}|| ≤𝜆∑
+𝑦∈𝑆
+|𝜇(𝑦) −𝜈(𝑦)| .
+(b) Show that the Markov chain has a unique stationary distribution 𝜋and
+∑
+𝑦∈𝑆
+||ℙ𝜇{𝑋𝑛= 𝑦} −𝜋(𝑦)|| ≤2𝜆𝑛.
+Solution:
+(a) Let 𝜃= min {𝑝(𝑥, 𝑦0) ∶𝑥∈𝑆}. Then 0 < 𝜃≤1. For any two probability meausres 𝜇and 𝜈on the state space 𝑆, we
+have
+∑
+𝑦∈𝑆
+|ℙ𝜇{𝑋1 = 𝑦} −ℙ𝜈{𝑋1 = 𝑦} | = ∑
+𝑦∈𝑆
+||| ∑
+𝑥∈𝑆
+{𝜇(𝑥) −𝜈(𝑥)} 𝑝(𝑥, 𝑦)||| .
+For the term 𝑦= 𝑦0 we can replace 𝑝(𝑥, 𝑦0) by 𝑝(𝑥, 𝑦0) −𝜃because ∑𝑥∈𝑆{𝜇(𝑥) −𝜈(𝑥)} = 1 −1 = 0. After this
+replacement, we take the absolute value of every term and exchange the order of summation. Using the fact that
+𝑝(𝑥, 𝑦0) −𝜃≥0 we have
+∑
+𝑦∈𝑆
+|ℙ𝜇{𝑋1 = 𝑦} −ℙ𝜈{𝑋1 = 𝑦} | ≤[ ∑
+𝑦∈𝑆
+𝑝(𝑥, 𝑦) −𝜃] ⋅∑
+𝑥∈𝑆
+|𝜇(𝑥) −𝜈(𝑥)|.
+The first sum on the right side is 1 −𝜃= 𝜆< 1. It follows that
+∑
+𝑦∈𝑆
+|ℙ𝜇{𝑋1 = 𝑦} −ℙ𝜈{𝑋1 = 𝑦} | ≤𝜆∑
+𝑥∈𝑆
+|𝜇(𝑥) −𝜈(𝑥)|.
+(b) Let 𝜇𝑛(𝑥) = ℙ𝜇{𝑋𝑛= 𝑥}. Then 𝜇𝑛+1 = ℙ𝜇𝑛{𝑋1 = 𝑥} and 𝜇𝑛= ℙ𝜇𝑛−1 {𝑋1 = 𝑥}. By (a),
+∑
+𝑥∈𝑆
+|𝜇𝑛+1(𝑥) −𝜇𝑛(𝑥)| ≤𝜆∑
+𝑥∈𝑆
+|𝜇𝑛(𝑥) −𝜇𝑛−1(𝑥)|.
+It follows that
+∑
+𝑥∈𝑆
+|𝜇𝑛+1(𝑥) −𝜇𝑛(𝑥)| ≤𝜆𝑛∑
+𝑥∈𝑆
+|𝜇1(𝑥) −𝜇(𝑥)| ≤2𝜆𝑛.
+Since 0 ≤𝜆< 1, the distributions 𝜇𝑛converges to a distribution 𝜋, which is obviously stationary. We have by the
+same argument,
+∑
+𝑦∈𝑆
+|ℙ𝜇{𝑋𝑛= 𝑦} −𝜋(𝑦)| = ∑
+𝑦∈𝑆
+|ℙ𝜇{𝑋𝑛= 𝑦} −ℙ𝜋{𝑋𝑛= 𝑦} | ≤2𝜆𝑛.
+If 𝜎is another stationary distribution, then
+∑
+𝑦∈𝑆
+|𝜎(𝑦) −𝜋(𝑦)| = ∑
+𝑦∈𝑆
+|ℙ𝜍{𝑋𝑛= 𝑦} −ℙ𝜋{𝑋𝑛= 𝑦} | ≤2𝜆𝑛⟶0.
+Hence a stationary distribtuion of the Markov chain must be unique.
+
+=== page 4 ===
+Problem 5. Consider a linear regression model with 𝑝predictors and 𝑛observations:
+𝐘= 𝑋𝛽+ 𝐞,
+where 𝑋𝑛×𝑝is the design matrix, 𝛽is the unknown coefficient vector, and the random error vector 𝐞has a mul-
+tivariate normal distribution with mean zero and Var(𝐞) = 𝜎2𝐼𝑛(𝜎2 > 0 unknown and 𝐼𝑛is the identity matrix).
+Here rank(𝑋) = 𝑘≤𝑝, 𝑝may or may not be greater than 𝑛, but we assume 𝑛−𝑘> 1. Let 𝐱1 = (𝑥1,1, … , 𝑥1,𝑝) be
+the first row of 𝑋and define
+𝛾= 𝐱1𝛽
+𝜎.
+Find the uniformly minimum variance unbiased estimator (UMVUE) of 𝛾or prove it does not exist.
+Solution: The key points in the solution are the following.
+(i) Any least squares estimator, say
+̂𝛽, of 𝛽is independent of
+̂𝜎2 = ‖𝐘−𝑋̂𝛽‖2/(𝑛−𝑘).
+(ii) 𝐱1𝛽is clearly estimable.
+(iii) Based on (i) and (ii), we can constructor an unbiased estimator, say ̂𝛾, of 𝛾in terms of
+̂𝛽and ̂𝜎2, and consequently we
+know the estimator is a function of 𝑋𝑇𝐘and ‖𝐘−𝑋̂𝛽‖2.
+(iv) In fact, (𝑋𝑇𝐘, ‖𝐘−𝑋̂𝛽‖2) is a complete and sufficient statistic and we conclude
+̂𝛾is the UMVUE of 𝛾. More details
+are given below.
+Let
+̂𝛽= (𝑋𝑇𝑋)−𝑋𝑇𝑌be a least squares estimator of 𝛽, where (𝑋𝑇𝑋)−denotes any generalized inverse of 𝑋𝑇𝑋. Let 𝜃= 𝐱1𝛽,
+which is clearly estimable. By Gauss-Markov Theorem, we know
+̂𝜃=∶𝐱1 ̂𝛽is the best linear unbiased estimator of 𝜃. For
+the unbiased estimator
+̂𝜎2 = ‖𝐘−
+̂𝐘‖2/(𝑛−𝑘), we know (𝑛−𝑘) ̂𝜎2/𝜎2 has 𝜒2
+𝑛−𝑘distribution, which belongs to the Gamma
+family. Thus, it is readily seen that 𝐸(1/ ̂𝜎) = 𝐶/𝜎, where 𝐶is a known constant (𝐶= √𝑛−𝑘Γ( 𝑛−𝑘−1
+2
+)/(√2Γ( 𝑛−𝑘
+2 ))).
+Let ̂𝛾=
+̂𝜃/(𝐶̂𝜎). Let 𝐻= 𝑋(𝑋𝑇𝑋)−𝑋𝑇denote the projection matrix. Clearly, (𝐼𝑛−𝐻)𝑋= 0, which implies Cov((𝑋𝑇𝑋)−𝑋𝑇𝐘, (𝐼𝑛−
+𝐻)𝐘) = 0. Together with the Gaussian error assumption, we know (𝑋𝑇𝑋)−𝑋𝑇𝐘and (𝐼𝑛−𝐻)𝐘are independent. It follows
+that
+̂𝛽(any choice) and ̂𝜎2 are independent. This leads to the unbiasedness of
+̂𝛾.
+With elementary simplifications, based on basic exponential family properties, we see that 𝑇= (𝑋𝑇𝑌, ‖𝐘−̂𝐘‖2) is a complete
+and sufficient statistic. We conclude that ̂𝛾is indeed unbiased and a function of a complete and sufficient statistic, and hence
+it must be the UMVUE of 𝛾.
+Problem 6. Let 𝑋1, … , 𝑋2022 be independent random variables with 𝑋𝑖∼ 𝑁( 𝜃𝑖, 𝑖2), 1 ≤𝑖≤2022. For estimating
+the unknown mean vector 𝜽∈𝑅2022, consider the loss function 𝐿(𝜽, 𝐝) = ∑
+2022
+𝑖=1 (𝑑𝑖−𝜃𝑖)2/𝑖2. Prove that 𝐗=
+(𝑋1, … , 𝑋2022) is a minimax estimator of 𝜽.
+Recall: If 𝑌|𝜇  ∼𝑁(𝜇, 𝜎2) and 𝜇∼ 𝑁(𝜇0, 𝜎2
+0) then 𝜇|𝑌= 𝑦∼𝑁(
+𝜇0/𝜍2
+0+𝑦/𝜍2
+1/𝜍2
+0+1/𝜍2 ,
+1
+1/𝜍2
+0+1/𝜍2).
+Solution: We show 𝐗, as an equalizer (constant risk), achieves the limit of Bayes risks under certain priors. First, consider
+independent priors  𝜃𝑖∼ 𝑁(0,  𝜏2), 1 ≤𝑖≤2022. Then, the Bayes estimator 𝛿𝜏has the 𝑖-th component (estimator of 𝜃𝑖)
+being the posterior mean 𝐸𝜏(𝜃𝑖|𝐗) =
+𝑋𝑖/𝑖2
+1/𝜏2+1/𝑖2 . The associated Bayes risk is 𝑅𝜏(𝛿𝜏) = ∑
+2022
+𝑖=1 𝑖−2
+1
+1/𝜏2+1/𝑖2 . Clearly, as 𝜏→∞,
+𝑅𝜏(𝛿𝜏) →∑
+2022
+𝑖=1 1 = 2022, which is identical to the Bayes risk of 𝐗. This implies that 𝑁(0,  𝜏2) with 𝜏→∞gives a least
+favorable sequence of priors and 𝐗is minimax.

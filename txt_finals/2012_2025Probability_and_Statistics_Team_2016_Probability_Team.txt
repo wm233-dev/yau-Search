@@ -1,0 +1,16 @@
+
+=== page 1 ===
+3
+6. (Team) Let X,Y be two real valued random variables such that X −Y and X are independent, and
+that X −Y are Y are independent. Show that X −Y is almost surely constant.
+7. (Team) For each n, let Xn be an exponential random variable with parameter qn > 0:
+P[0 ≤Xn ≤t] = 1−exp(−tqn).
+Suppose that X1,X2,... are independent.
+(a) What is E[exp(−Xn)]?
+(b) Suppose ∑1/qn < ∞. Show that ∑Xn < ∞almost surely.
+(c) Suppose ∑1/qn = ∞. Show that ∑Xn = ∞almost surely.
+8. (Team) Consider the numbers 1, 2, . . . 12 written around a ring as they usually are on a clock. A
+random walker starts at 12 and at each step moves at random to one of its two nearest neighbors
+(with probability half-half)
+What is the probability that she will visit all the other numbers before her ﬁrst returning back to
+12.

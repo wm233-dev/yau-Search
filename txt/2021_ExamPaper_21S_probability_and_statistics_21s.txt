@@ -1,0 +1,80 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Probability and Statistics
+Solve every problem.
+Part I: Probability
+Problem 1.
+Suppose that a sequence {Xn} of real-valued random variables converges to X in distribution
+and there are positive constants r and C such that E|Xn|r ≤C for all n. Show that
+lim
+n→∞E|Xn|s = E|X|s
+for all 0 < s < r.
+Problem 2.
+Let p(x, y) be the (one-step) transition function of a Markov chain on a discrete state space S
+and pn(x, y) be the n-step transition function. Show that for any positive integers L and N and any two states
+x and y we have
+N+L
+Õ
+n=L
+pn(x, y) ≤
+N
+Õ
+n=0
+pn(y, y).
+Problem 3.
+Let {Xn} be an independent, identically distributed sequence of random variables with the
+symmetric Bernoulli distribution
+P {X = 1} = P {X = −1} = 1
+2.
+Let Sn =
+N
+Õ
+i=1
+Xi be the partial sum. Show that for all α > 1
+2,
+P
+
+lim
+n→∞
+Sn
+nα = 0
+
+= 1.
+Problem 4.
+Let Xn =
+
+Xij
+	
+be an n × n random matrix whose entries are independent and identically
+distributed random variables with the symmetric Bernoulli distribution
+P {X = 0} = P {X = 1} = 1
+2.
+Let pn = P {det XN is odd}. Show that lim
+n→∞pn > 0.
+Part II: Statistics
+Problem 5. You have been asked to help design a randomized trial of a new drug, call it drug A, to be used
+in place of the current drug, call it drug B, for a particular medical condition. The budget is ﬁxed to have
+1000 patients treated with A and 1000 treated with drug B. The issue is how to do the allocation of patients,
+because we have many pre-randomization measurements on each patient, roughly 200, such as blood pressure
+
+=== page 2 ===
+recordings, age, sex, and a large collection of genetics measurements. Obviously it is desirable to have the
+A group similar to the B group with respect to all pre-treatment covariates and non-linear functions of them
+that are expected to inﬂuence the eﬀectiveness of the drugs with respect to the outcome variables.
+Complete (or simple) randomization does this in expectation, but with many covariates, some covariates will
+not be balanced between the A and B groups in any one single randomized allocation. Standard blocking
+used in traditional experimental design can force balance on a few covariates, but the designer of drug A
+wants to have an experimental design that creates balance on many covariates, and feels that you, as a modern
+applied mathematician/statistician, should be able to do this.
+Describe a class of methods that achieves this goal where each patient has a positive probability of receiving
+drug A and a positive probability of receiving drug B. Provide enough detail that you are describing an
+explicit algorithm.
+Problem 6. You are given the results of a randomized experiment of two drugs, A and B. The experiment
+was not conducted in the usual way, however, but rather by allocating patients by a machine-learning
+algorithm under which each patient has a positive probability of receiving A and of receiving B; moreover
+the algorithm is completely speciﬁed and is built to create better than random balance on the covariates.
+(a) Can unbiased estimates of the causal eﬀect of drug A versus B be found, and if so, show why.
+(b) Can exact small sample, non-parametric inferences for the causal eﬀect in part (a) be derived, based
+solely on the randomization distribution of some statistic? For example, can we ﬁnd exact signiﬁcance
+levels under a sharp null hypothesis? If so, outline how to accomplish this goal.

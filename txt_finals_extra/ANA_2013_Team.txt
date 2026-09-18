@@ -1,0 +1,29 @@
+Team Analysis
+
+Problem 1
+Let  withf∈C([0,2π])
+fθ~a02+n=1∞(ancosnθ+bnsinθ)
+ converges to a harmonic function  on every compact subset of , where .un=a02+k=1nrk(aRcosθ+bRsinθ)u(x,y)D=z∈C│z<1z=reiθ=x+iy
+.D ux2+uy2dxdy=πn=1∞n(an2+bn2)
+Let  which satisfies for some f∈C0,2πα∈12,1
+fcα=supx,h∈[0,2π]fx-1h-f(x)hα<+∞
+Then we have 
+a02+n=1∞an2+bn2≤Cfcα
+
+Problem 2
+
+Problem 3
+Consider the following initial-boundary value problem
+(*)∂u∂t-∆u=u2          on B10≡B1                      ∂u∂n│∂B1=0         n is the outnormal of ∂B1 u│t=0=u0(x)                                                          
+Let  and  be two smooth solutions to  on .u1(t,x)u2(t,x)(*)B1×[0,T]
+If , , thenu1│t=0(x)≥u2│t=0(x)∀ x∈B1
+u1t,x≥u2t,x      on B1×[0,T]
+Let  be a positive constant. Solve  with  for all .a*u0(x)≡ax∈B1
+Assume that  on  and  be the solution to . Then  such thatu0x>0B1u(x,t)*∃ T>0
+limt→T-supx∈B1ux1,t=+∞
+  
+Problem 4
+Let , monotone decreasef≥0, f∈L1(0,1)
+Suppose  such that ,∀ a,x∈(0,1)x-a, x+a∈(0,1)
+x-axftdt<54xx+aftdt
+Prove f∈Lp0,1, ∀ 1≤P≤log2log3-log2

@@ -1,0 +1,37 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2010
+Algebra, Number Theory and
+Combinatorics
+Team
+(Please select 5 problems to solve)
+1. For a real number r, let [r] denote the maximal integer less or equal
+than r.
+Let a and b be two positive irrational numbers such that
+1
+a + 1
+b = 1.
+Show that the two sequences of integers [ax], [bx] for
+x = 1, 2, 3, · · · contain all natural numbers without repetition.
+2. Let n ≥2 be an integer and consider the Fermat equation
+Xn + Y n = Zn,
+X, Y, Z ∈C[t].
+Find all nontrivial solution (X, Y, Z) of the above equation in the sense
+that X, Y, Z have no common zero and are not all constant.
+3. Let p ≥7 be an odd prime number.
+(a) Evaluate the rational number cos(π/7) · cos(2π/7) · cos(3π/7).
+(b) Show that Q(p−1)/2
+n=1
+cos(nπ/p) is a rational number and deter-
+mine its value.
+4. For a positive integer a, consider the polynomial
+fa = x6 + 3ax4 + 3x3 + 3ax2 + 1.
+Show that it is irreducible. Let F be the splitting ﬁeld of fa. Show
+that its Galois group is solvable.
+5. Prove that a group of order 150 is not simple.
+6. Let V ∼= C2 be the standard representation of SL2(C).
+(a) Show that the n-th symmetric power Vn = Symn V is irre-
+ducible.
+(b) Which Vn appear in the decomposition of the tensor product
+V2 ⊗V3 into irreducible representations?
+1

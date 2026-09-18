@@ -1,0 +1,21 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Analysis and Diﬀerential Equations
+All-around
+Please solve one of the following two problems.
+1. Let φ : R3 →R be a C∞
+c
+function. We assume φ ≥0 and
+R
+R3 φ(x) = 1. Consider
+convolution operator Tf := f ∗φ, i.e.
+(0.1)
+(Tf)(x) :=
+Z
+R3 f(x −y)φ(y)dy.
+Is T a bounded operator from L3(R3) to L2(R3)? Prove your conclusion.
+2. Given discrete points {ai}i⩾1 on D = {|z| < 1}, construct a holomorphic function f
+on D such that the zero set of f is exactly {ai}i⩾1.
+Hint: there are no accumulation points in the interior.
+1

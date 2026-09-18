@@ -1,0 +1,40 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2014
+Analysis and Diﬀerential Equations
+Team
+Please solve 5 out of the following 6 problems.
+1. Calculate the integral:
+∫∞
+0
+log x
+1 + x2dx.
+2. Construct an increasing function on R whose set of discontinuities
+is precisely Q.
+3. Prove that any bounded analytic function F over {z|r < |z| < R}
+can be written as F(z) = zαf(z), where f is an analytic function over
+the disk {z||z| < R} and α is a constant.
+4. Let D ⊂Rn be a bounded open set, f : ¯D →¯D is a smooth map
+such that its Jacobian
+
+∂f
+∂x
+ ≡1, where ¯D denotes the closure of D.
+Prove
+(a) for each small ball Bϵ(x), there exists a positive integer k such
+that f k(Bϵ(x)) ∩Bϵ(x) ̸= ∅, where Bϵ(x) denotes the ball cen-
+tered at x with radius ϵ;
+(b) there exists x ∈¯D and a sequence k1, k2, · · · kj, · · · such that
+f kj(x) →x as kj →∞.
+5. Let u be a subharmonic function over a domain Ω⊂C, i.e., it is
+twice diﬀerentiable and ∆u = ∂2u
+∂x2 + ∂2u
+∂y2 ≥0. Prove that u achieves its
+maximum in the interior of Ωonly when u is a constant.
+6. Suppose that ϕ ∈C∞
+0 (Rn),
+∫
+Rn ϕdx = 1. Let ϕϵ(x) = ϵ−nϕ(x/ϵ), x ∈
+Rn, ϵ > 0. Prove that if f ∈Lp(Rn), 1 ≤p < ∞, then f ∗ϕϵ →f in
+Lp(Rn), as ϵ →0. It is not true for p = ∞.
+1

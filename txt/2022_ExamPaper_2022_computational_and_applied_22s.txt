@@ -1,0 +1,102 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1. Consider {𝑝𝑖(𝑥)}∞
+𝑖=0, a family of orthogonal polynomials associated with the inner product
+⟨𝑓, 𝑔⟩= ∫
+1
+−1
+𝑓(𝑥)𝑔(𝑥)𝑤(𝑥) 𝑑𝑥,
+𝑤(𝑥) > 0
+for 𝑥∈(−1, 1),
+where 𝑝𝑖(𝑥) is a polynomial of degree 𝑖. Let 𝑥0, 𝑥1, … , 𝑥𝑛be the roots of 𝑝𝑛+1(𝑥). Construct an orthonormal
+basis in the subspace of the polynomials of degree no more than 𝑛such that, for any polynomial in this subspace,
+the coefficients of its expansion into the basis are equal to the scaled values of this polynomial at the nodes
+𝑥0, 𝑥1, … , 𝑥𝑛.
+Problem 2. Consider a 2D fixed point iteration of the form
+𝑥𝑘+1 = 𝑓(𝑥𝑘, 𝑦𝑘), 𝑦𝑘+1 = 𝑔(𝑥𝑘, 𝑦𝑘).
+(1)
+Assume that the vector-valued function
+⃗𝐻(𝑥, 𝑦) = (𝑓(𝑥, 𝑦), 𝑔(𝑥, 𝑦))𝑇is continuously-differentiable, and the infin-
+ity norm of the Jacobian matrix is less than 1 at a unique fixed point (𝑥∞, 𝑦∞).
+Now consider a new iteration:
+𝑥𝑘+1 = 𝑓(𝑥𝑘, 𝑦𝑘),
+𝑦𝑘+1 = 𝑔(𝑥𝑘+1, 𝑦𝑘).
+(2)
+Prove that iteration (2) is convergent, to the same fixed point as iteration (1), for the initial conditions sufficiently
+close to the fixed point.
+Problem 3. Let 𝐴∈𝐑𝐦×𝐦be a matrix with entries 𝑎𝑖𝑗which satisfy
+𝑎𝑖𝑖≥∑
+𝑗≠𝑖
+|𝑎𝑖𝑗| + 2,
+𝑎𝑖𝑖≤7.
+(a) Prove that 𝐴−1 exists.
+(b) Prove that ‖𝐴‖∞is the max row sum (of absolute values) of 𝐴.
+(c) Find both a lower and upper bound for ‖𝐴‖∞.
+(d) Now assume 𝐴= 𝐴𝑇. Find bounds for ‖𝐴‖2 and ‖𝐴−1‖2.
+Problem 4. Consider a system of ODE initial value problems of the form:
+𝑑
+𝑑𝑡𝑢= 𝑓(𝑢),
+𝑢(0) = 𝑢0.
+Assume that 𝑓(𝑢) has the property that the forward Euler (FE) method:
+𝑈𝑛+1 = 𝑈𝑛+ 𝑘𝑓(𝑈𝑛),
+satisfies
+‖𝑈𝑛+1‖ ≤‖𝑈𝑛‖
+
+=== page 2 ===
+for some norm ‖ ⋅‖ and for all time-steps 𝑘, 0 < 𝑘≤𝑘𝐹𝐸. Now consider the 2-stage Runge-Kutta method:
+𝑈(1) = 𝑈𝑛+ 𝑘𝛽10𝑓(𝑈𝑛),
+𝑈𝑛+1 = {𝛼20𝑈𝑛+ 𝑘𝛽20𝑓(𝑈𝑛)} + {𝛼21𝑈(1) + 𝑘𝛽21𝑓(𝑈(1))}
+where
+𝛽10 ≥0,
+𝛽20 ≥0,
+𝛽21 ≥0,
+𝛼20 ≥0,
+𝛼21 ≥0,
+𝛼20 + 𝛼21 = 1.
+(a) Prove that the above 2-stage Runge-Kutta method also satisfies the inequality:
+‖𝑈𝑛+1‖ ≤‖𝑈𝑛‖
+under some appropriate time-step restriction: 0 ≤𝑘≤𝑘∗, where you need to explicitly determine 𝑘∗in
+terms of 𝑘𝐹𝐸.
+(b) Explicitly determine the coefficients:
+𝛽10,
+𝛽20,
+𝛽21,
+𝛼20,
+𝛼21,
+so that
+(i) The method is second-order accurate; and
+(ii) The maximum allowed time-step, 𝑘∗, is as large as possible.
+Problem 5. Construct a third-order accurate Lax-Wendroff-type method for 𝑢𝑡+ 𝑎𝑢𝑥= 0 (𝑎> 0 is a constant)
+in the following way:
+(a)
+• Expand 𝑢(𝑡+ 𝑘, 𝑥) in a Taylor series and keep the first four terms. Replace all time derivatives by
+spatial derivatives using the equation.
+• Construct a cubic polynomial passing through the points 𝑈𝑛
+𝑗−2, 𝑈𝑛
+𝑗−1, 𝑈𝑛
+𝑗, 𝑈𝑛
+𝑗+1.
+• Approximate the spatial derivatives in the Taylor series by the exact derivatives of the above con-
+structed cubic polynomial.
+(b) Verify that the truncation error is 𝑂(𝑘3) if ℎ= 𝑂(𝑘).
+Problem 6. Suppose you have $60K to invest and there are 3 investment options available. You must invest in
+multiples of $10𝐾. If 𝑑𝑖dollars are invested in investment 𝑖then you receive a net value (as the profit) of 𝑟𝑖(𝑑𝑖)
+dollars. For 𝑑𝑖> 0 we have
+𝑟1(𝑑1) = (7𝑑1 + 2) × 10,
+𝑟2(𝑑2) = (3𝑑2 + 7) × 10,
+𝑟3(𝑑3) = (4𝑑3 + 5) × 10,
+and 𝑑1(0) = 𝑑2(0) = 𝑑3(0). All are measured in $10𝐾dollars. The objective is to maximize the net value of your
+
+=== page 3 ===
+investments. This can be formulated as a linear programming problem:
+max
+𝑑1,𝑑2,𝑑3
+𝑟1(𝑑1) + 𝑟2(𝑑2) + 𝑟3(𝑑3),
+such that
+𝑑1 + 𝑑2 + 𝑑3 ≤6,
+𝑑𝑖≥0
+𝑖= 1, 2, 3
+are integers.

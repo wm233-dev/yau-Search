@@ -1,0 +1,107 @@
+
+=== page 1 ===
+Mathematical Physics
+Individual Overall Contest
+June 10, 2023
+You can choose one of the following two questions.
+Question 1.
+Consider a d-dimensional Ising model on a square lattice, which
+is periodic in all directions. The Hamiltonian is given by
+H = −
+X
+a,b
+Jabσaσb −
+X
+a
+Baσa
+where Ba is an external magnetic ﬁeld, σa = ±1, and the spin-spin coupling
+Jab ≡J(|⃗a −⃗b|) fall oﬀwith distance.
+(1) Compute the classical partition function when Jab = 0 ﬁrst, then show
+that for non-vanishing J, this can be written as
+Z = N
+Z
+Dψ e−S[ψ],
+S[ψ] =
+X
+a,b
+ψaKabψb−
+X
+a
+βψaBa−ln cosh(2
+X
+b
+Kabψb)
+where K = (βJ)−1
+(2) Show that at low temperature
+S =
+X
+k
+[φk(c0+c1k·k)ψ−k+c2ψkB−k]+c3
+X
+k1,k2,k3,k4
+ψk1ψk2ψk3ψk4δk1+k2+k3+k4+· · ·
+where
+ψa =
+1
+√
+N
+X
+k
+e−ik·aψk
+Kab = 1
+N
+X
+k
+e−ik·(a−b)Kk
+then ﬁnd coeﬃcents ci and explain when you can neglect the ellipsis in
+above expression.
+(3) For vanishing external magnetic ﬁeld, upon Fourier transforming and
+rescaling, the action become a φ4 theory
+Z = Z0
+Z
+Dφ e−S[φ]
+S[φ] =
+Z
+ddx
+1
+2(∂φ)2 + m
+2 φ2 + λφ4
+
+1
+
+=== page 2 ===
+(4) At what temperature does the Ising model have a transition? (Hint: the
+Ising model has a transition when m changes sign)
+Question 2.
+Consider a free massless Dirac fermion in two-dimensions with
+Lagrangian
+L = i ¯ψ/∂ψ
+The vector current Jµ ≡¯ψγµψ is conserved ∂µJµ = 0. By the Poincar´e lemma
+this means that we can introduce a scalar operator (ﬁeld) φ(x) such that
+Jµ(x) = ϵµν∂νφ(x).
+(1) Answer to either one of the following two questions (they are equivalent,
+just stated in two diﬀerent languages so that you can use the one which
+you feel more convenient):
+(a) using the symmetries of the theory, write down the dynamical equa-
+tions of the 2d Dirac theory as a ﬁeld equation for the scalar ﬁeld
+φ(x);
+(b) compute the two-point function of φ(x) from the identity
+⟨Jµ1(x1) Jµ2(x2)⟩= ϵµ1ν1ϵµ2,ν2∂xν1
+1 ∂xν2
+2 ⟨φ(x1) φ(x2)⟩
+[Hint: working in momentum space is more convenient]
+(2) can you write a local action for the ﬁeld φ(x) whose variation yields the
+ﬁeld equations obtained in (1)?
+(3) discuss brieﬂy what your answer to (1) teaches us regarding the relation
+of bosons to fermions in two-dimensions
+(4) is your result (and discussion) consistent with the Spin & Statistics theo-
+rem of QFT?
+(5) Now couple your massless 2d Dirac fermion to an Abelian gauge ﬁeld Aµ
+L = −1
+4e2 FµνF µν + i ¯ψγµ(∂µ −iAµ)ψ.
+What is the particle spectrum of the resulting theory (≡massless 2d
+QED)? To avoid all computation, the numerical value of the
+masses of the various particles is NOT required.
+Just say for
+each particle whether its mass is zero or non-zero.
+2

@@ -1,0 +1,36 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Team Problems
+1. (a) Describe the loop space ΩS2 and path space PS2 of the sphere S2 in the following
+ﬁbration:
+ΩS2
+/ PS2
+²
+S2.
+(b) Compute the cohomology of the loop space ΩS2. What is the ring structure of
+H∗(ΩS2)?
+2 (Synge theorem). Let M be an even-dimensional compact Riemannian manifold with
+positive sectional curvature.
+(a) When M is orientable, show that M is simply connected.
+(b) When M is unorientable, what is π1(M)?
+3. (a) Let C be a smooth curve on the sphere. The Crofton formula expresses the arc
+length L(C) of the curve C as
+L(C) = 1
+4
+Z
+S2 n(C ∩W ⊥)dW.
+Here W ⊥is the plane with normal W going through the origin and n(C ∩W ⊥) is the
+number of points in the intersection of C and W ⊥.
+(b) Sketch a proof of Crofton formula.
+4. Let Ω= xdy ∧dz + ydz ∧dx + zdx ∧dy and α > 0. Suppose D is the surface in R3
+deﬁned by {(x, y, z) | x2 + y2 + z2 = 1, z ≥α
+p
+x2 + y2}.
+(a) Show that Ω|D is an orientation form and makes D an oriented manifold with
+boundary.
+(b) Evaluate
+R
+D Ω. Your answer should be in terms of α.
+1

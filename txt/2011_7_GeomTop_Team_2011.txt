@@ -1,0 +1,56 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2011
+Geometry and Topology
+Team
+9:00–12:00 am, July 9, 2011
+(Please select 5 problems to solve)
+1. Suppose K is a ﬁnite connected simplicial complex. True or false:
+a) If π1(K) is ﬁnite, then the universal cover of K is compact.
+b) If the universal cover of K is compact then π1(K) is ﬁnite.
+2. Compute all homology groups of the the m-skeleton of an n-simplex,
+0 ≤m ≤n.
+3. Let M be an n-dimensional compact oriented Riemannian manifold
+with boundary and X a smooth vector ﬁeld on M. If n is the inward
+unit normal vector of the boundary, show that
+Z
+M
+div(X) dVM =
+Z
+∂M
+X · n dV∂M.
+4. Let Fk(M) be the space of all C∞k-forms on a diﬀerentiable man-
+ifold M. Suppose U and V are open subsets of M.
+a) Explain carefully how the usual exact sequence
+0 −→F(U ∪V ) −→F(U) ⊕FV ) −→F(U ∩V ) −→0
+arises.
+b) Write down the “long exact sequence” in de Rham cohomology as-
+sociated to the short exact sequence in part (a) and describe explicitly
+how the map
+Hk
+deR(U ∩V ) −→Hk+1
+deR (U ∪V )
+arises.
+5. Let M be a Riemannian n-manifold. Show that the scalar curvature
+R(p) at p ∈M is given by
+R(p) =
+1
+vol(Sn−1)
+Z
+Sn−1 Ricp(x)dSn−1,
+where Ricp(x) is the Ricci curvature in direction x ∈Sn−1 ⊂TpM,
+vol(Sn−1) is the volume of Sn−1 and dSn−1 is the volume element of
+Sn−1.
+1
+附件/试卷 7
+Appendix/Contest Paper 7
+
+=== page 2 ===
+Geometry and Topology, 2011-Team
+2
+6. Prove the Schur’s Lemma: If on a Riemannian manifold of dimension
+at least three, the Ricci curvature depends only on the base point but
+not on the tangent direction, then the Ricci curvature must be constant
+everywhere, i.e., the manifold is Einstein.
+附件/试卷 7
+Appendix/Contest Paper 7

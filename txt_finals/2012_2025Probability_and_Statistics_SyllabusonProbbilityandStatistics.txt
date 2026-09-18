@@ -1,0 +1,62 @@
+
+=== page 1 ===
+Syllabus on Probability and Statistics 
+ 
+Probability: 
+Random variable, Expectation, Independence 
+Variance and covariance, correlation, moment 
+Various distribution functions 
+Multivariate distribution  
+Characteristic function, Generating function 
+Various modes of convergence of random variables 
+Bayes formula, Conditional probability 
+Conditional expectation given a sigma-field 
+Laws of large numbers 
+Central limit theorems 
+Martingales 
+Markov chains 
+Basic properties of Poisson processes 
+Basic properties of Brownian motion 
+ 
+References: 
+Rick Durrett: Probability: Theory and Examples, Cambridge University 
+Press, 2010 
+Kai-Lai Chung: A Course in Probability Theory, New York, 1968. 
+
+=== page 2 ===
+ 
+Statistics: 
+Distribution Theory and Basic Statistics 
+Families of continuous distributions: normal, chi-sq, t, F, gamma, beta; 
+Families of discrete distributions: multinomial, Poisson, negative 
+binomial; Basic statistics: sample mean, variance, median and quantiles.  
+Testing 
+Neyman-Pearson paradigm, null and alternative hypotheses, simple and 
+composite hypotheses, type I and type II errors, power, most powerful 
+test, likelihood ratio test, Neyman-Pearson Theorem, generalized 
+likelihood ratio test. 
+Estimation 
+Parameter estimation, method of moments, maximum likelihood 
+estimation, criteria for evaluation of estimators, Fisher information and its 
+use, confidence interval. 
+Bayesian Statistics 
+Prior, posterior, conjugate priors, Bayesian estimator. 
+Large sample properties 
+Consistency, asymptotic normality, chi-sq approximation to likelihood 
+ratio statistic. 
+References: 
+Casella, G. and Berger, R.L. (2002).  Statistical Inference (2nd Ed.) 
+
+=== page 3 ===
+Duxbury Press. 
+茆诗松，程依明，濮晓龙，概率论与数理统计教程（第二版），高等
+教育出版社，2008. 
+陈家鼎，孙山泽，李东风，刘力平，数理统计学讲义，高等教育出版
+社，2006. 
+郑明，陈子毅，汪嘉冈，数理统计讲义，复旦大学出版社，2006. 
+陈希孺，倪国熙，数理统计学教程，中国科学技术大学出版社，2009. 
+ 
+ 
+ 
+ 
+ 

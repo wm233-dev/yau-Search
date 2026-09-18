@@ -1,0 +1,8 @@
+# RECOVERED BY VISION (2014 Probability (Team).pdf, mojibake text layer)
+2014 S.-T Yau College Math Contests 概率口试题 (团体)
+1. 设 X 和 Y 为两个相互独立的随机变量, 其中 Y 服从 (0,1) 上的均匀分布, X 服从二项分布, 且 P(X = 0) = P(X = 1/2) = 1/2. 令 W = Y/2 + X.
+   (1) 证明 W 也服从 (0,1) 上的均匀分布; (2) 求 E[Y | W].
+2. 设 X_n 是 n 维标准高斯随机向量. 证明下述概率当 n 趋于无穷大时趋于 1:
+   P( sqrt(n)(1 - eps) <= ||X_n|| <= sqrt(n)(1 + eps) ).
+3. 设 (X, Y) 和 (Y', Z) 为两个离散值随机向量, 且 Y 和 Y' 有相同分布. 证明存在随机向量 (X_hat, Y_hat, Z_hat), 使得 (X_hat, Y_hat) 和 (Y_hat, Z_hat) 分别与 (X, Y) 和 (Y', Z) 有相同分布.
+4. 设 (xi_n) 为一列相互独立随机变量, 满足 P(xi_n = 1) = p_n, P(xi_n = 0) = 1 - p_n. 假定 sum_{k=1}^{inf} p_k p_{k+1} < inf, 证明级数 sum_{k=1}^{inf} xi_k xi_{k+1} 几乎处处收敛.

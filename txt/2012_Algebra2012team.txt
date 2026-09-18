@@ -1,0 +1,81 @@
+
+=== page 1 ===
+GROUP TEST
+Algebra and Number Theory
+1. Let a1, · · · , an and b1, · · · , bn be complex numbers such that ai+bj ̸=
+0 for all i, j = 1, · · · , n. Deﬁne cij :=
+1
+ai + bj
+for all i, j = 1, · · · , n, and
+let C be the n × n determinant with entries cij. Prove that
+det(C) =
+Q
+1≤i<j≤n(ai −aj)(bi −bj)
+Q
+1≤i,j≤n(ai + bj)
+.
+2. Recall that F7 is the ﬁnite ﬁeld with 7 elements, and GL3(F7) is the
+group of all invertible 3 × 3 matrices with entries in F7.
+(1) Find a 7-Sylow subgroup P7 of GL3(F7).
+(2) Determine the normalizer subgroup N of the 7-Sylow subgroup
+you found in (a).
+(3) Find a 2-Sylow subgroup of GL3(F7).
+3. Let V be a ﬁnite dimensional vector space with a positive deﬁnite
+quadratic form (−, −). Let O(V ) denote the orthogonal group:
+O(V ) = {g ∈GL(V ) :
+(gx, gy) = (x, y),
+∀x, y ∈V } .
+For any non-zero v ∈V , let sv denote the reﬂection on V :
+sv(w) = w −2(v, w)
+(v, v) v.
+(1) Show that sv ∈O(V );
+(2) Show that if v and w are vectors in V with ∥v∥= ∥w∥,then
+there is either a reﬂection or product of two reﬂections that
+takes v into w;
+(3) Deduce that every element of the orthogonal group of V can be
+written as the product of at most 2 dim V reﬂections.
+4. Consider the real Lie group SL2(R) of 2 by 2 matrices of determinant
+one. Compute the fundamental group of SL2(R) and describe the Lie
+group structure on the universal covering
+f
+SL2(R) →SL2(R).
+5. Let f ∈C[x, y, z] be an irreducible homogenous polynomial of degree
+d > 0. For each integer n ≥d, deﬁne
+P(n) = dimC C[x, y, z]n/f · C[x, y, z]n−d
+1
+S.-T YAU COLLEGE MATH CONTESTS 2012 
+Please solve 5 out of the following 6 problems.
+
+=== page 2 ===
+2
+GROUP TEST
+where C[x, y, z]d is the subspace of homogenous polynomials of degree
+n. Show there are constants c such that for n suﬃciently large,
+P(n) = dn + c.
+6. Let p be an odd prime and Zp the p-adic integer which can be
+deﬁned as the projective limit of Z/pnZ and let Qp be its fractional
+ﬁeld. Let Z×
+p denote the group of invertible elements in Zp which is
+also the projective limit of (Z/pnZ)×.
+(1) For any integer a is not divisible by p, show that the sequence
+(apn)n convergent to an element ω(a) ∈Zp satisfying
+ω(a)p−1 = 1,
+ω(a) ≡a
+(mod p).
+Moreover, ω(a) depends only on a mod p.
+(2) Deﬁne a logarithmic function log on 1 + pZp by usual formula:
+log(1 + px) =
+∞
+X
+n=1
+(−1)n−1pn
+n xn.
+Show that the logarithmic function is convergent and deﬁne an
+isomorphism
+1 + pZp →pZp.
+Moreover, on the dense subgroup log(1 + p)Z, the inverse is
+given by
+log(1 + p) · x 7→(1 + p)x,
+∀x ∈Z.
+(3) Deduce from above that Z×
+p ≃Zp × Z/(p −1)Z.

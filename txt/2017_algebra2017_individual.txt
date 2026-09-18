@@ -1,0 +1,66 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Algebra and Number Theory
+Individual
+This test has 5 problems and is worth 100 points. Carefully justify your answers.
+Problem 1 (20 points). Let Qp denote the ﬁeld of p-adic numbers and let Zp denote
+the ring of p-adic integers (p is a prime number).
+(a) (5 points) Show that for every integer k ≥0, (p−kZp)/Zp ∼= Z/pkZ as abelian
+groups.
+(b) (5 points) Determine the endomorphism ring of the abelian group (p−kZp)/Zp
+(k ≥0).
+(c) (5 points) Determine the endomorphism ring of the abelian group Qp/Zp.
+(d) (5 points) Determine the endomorphism ring of the abelian group Q/Z.
+Problem 2 (20 points). Let A be a ﬁnite abelian group and let φ : A →A be an
+endomorphism. Put
+Anil := {x ∈A | φk(x) = 0 for some k ≥1}.
+(a) (15 points) Show that there is a subgroup A0 of A such that φ restricts to an
+automorphism of A0 and A = A0 ⊕Anil.
+(b) (5 points) Show that such a subgroup is unique.
+Problem 3 (20 points). Let L/F be a Galois ﬁeld extension, not necessarily ﬁnite.
+Let x ∈L.
+(a) (6 points) Show that the set P of subextensions of L/F not containing x has
+a maximal element E. Let K/E be a nontrivial ﬁnite extension contained in
+L. Show that x ∈K.
+(b) (6 points) Let K′ be the Galois closure of K/E in L. Show that there exists
+g ∈G = Gal(K′/E) such that gx ̸= x.
+(c) (8 points) Deduce that K/E is a cyclic Galois extension.
+Page 1 of 2
+
+=== page 2 ===
+Problem 4 (20 points). The goal of this problem is to prove the Chevalley–Warning
+theorem. Let p be a prime number and q a power of p.
+(a) (8 points) Let 0 ≤a < q −1 be an integer. Show that S(Xa) := P
+x∈Fq xa
+equals 0. Here we adopt the convention x0 = 1 in Fq even for x = 0.
+(b) (12 points) Let f1, . . . , fm ∈Fq[X1, . . . , Xn] be polynomials in n variables
+satisfying
+m
+X
+i=1
+deg(fi) < n.
+Show that P = Qm
+i=1(1 −f q−1
+i
+) satisﬁes
+S(P) :=
+X
+(x1,...,xn)∈Fnq
+P(x1, . . . , xn) = 0.
+Deduce that p divides the cardinality of the set
+V = {(x1, . . . , xn) ∈Fn
+q | fi(x1, . . . , xn) = 0
+∀i}.
+Problem 5 (20 points). In this problem, all matrices are n×n with complex entries.
+Let U and V be matrices such that UV ̸= V U. Assume that U is diagonalizable
+and commutes with V UV −1.
+(a) (10 points) For λ, µ ∈C, let
+Eλ,µ = {x ∈Cn | Ux = λx,
+V UV −1x = µx}.
+Show that there exist couples (λ1, µ1) ̸= (λ2, µ2), satisfying λi ̸= µi and
+Eλi,µi ̸= 0 for i = 1, 2.
+(b) (10 points) For a matrix A, we deﬁne N(A) := tr(A∗A), where A∗= ¯AT is
+the conjugate transpose of A. Assume that U and V are unitary (namely,
+U ∗U = V ∗V is the identity matrix). Deduce that N(1 + V ) ≥4.
+Page 2 of 2

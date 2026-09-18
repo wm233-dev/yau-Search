@@ -1,0 +1,25 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Oral Exams in Geometry and Topology
+Individual (4 problems)
+1. Is the surface of genus 3 a covering space of the surface of genus 2. Is the surface
+of genus 2 a covering space of the surface of genus 3. If so, then exhibit an example of
+such a covering.
+2. Consider a smooth map f : S2n−1 →Sn with n ≥2. Let ν be a volume form on Sn
+with volume 1.
+a). Show that f ∗ν is exact.
+b). Write f ∗ν = dα. Show that the integral
+Z
+S2n−1 α ∧f ∗ν
+is independent of the choice of α.
+c). Show that the integral above is actually an invariant of the homotopy class of f.
+d). Show that the integral is 0 if n is odd.
+e). Calculate this integral if f is the Hopf map (z0, z1) →[z0, z1].
+3. (D. Hilbert) There does not exist a complete regular surface in R3 whose Gaussian
+curvature is a negative constant K0.
+4. Let CP 2 denote the complex projective plane with the opposite orientation.
+a). Show that S2×S2 and CP 2#CP 2 have the same cohomology group but diﬀerent
+cohomology ring.
+b). Show that (S2 × S2)#CP 2 and CP 2#2CP 2 have the same cohomology.
+1

@@ -1,0 +1,371 @@
+#### DIR 2022\ExamPaper_2022
+    Mathematical_Physics_22s.pdf
+    algebra_and_numbertheory_22s.pdf
+    analysis_and_differential_22s.pdf
+    computational_and_applied_22s.pdf
+    geometry_and_topology_22s.pdf
+    probability_and_statistics_22s.pdf
+#### DIR 2022\Solution_2022
+    Mathematical_Physics_solution.pdf
+    algebra_and_numbertheory_22s_soln.pdf
+    analysis_and_differential_22s_soln.pdf
+    computational_and_applied_22s_soln.pdf
+    geometry_and_topology_22s_soln.pdf
+    probability_and_statistics_22s_soln.pdf
+#### DIR 2011
+    1.AnalysisDiffEquation-Individual-2011.pdf
+    2.AppliedMathProb-Individual-2011.pdf
+    3.GeomTop-Individual-2011.pdf
+    4.Algebra-Individual-2011.pdf
+    5.AnalysisDiffEquation-Team-2011.pdf
+    6.AppliedMathProb-Team-2011.pdf
+    7.GeomTop-Team-2011.pdf
+    8.Algebra-Team-2011.pdf
+#### DIR 2010
+    AlgebraNumberTheory-individual.pdf
+    AlgebraNumberTheory-team.pdf
+    Analysis and differential  equations team.pdf
+    Analysis and differential equations individual.pdf
+    Applied, Computational, Probability and Statistics-team.pdf
+    Applied,Computational,Probability and Statistics-individual.pdf
+    GeometryTopology-indi.pdf
+    GeometryTopology-team.pdf
+
+==============================================================================
+FILE: 2022\ExamPaper_2022\algebra_and_numbertheory_22s.pdf
+--- page 1 ---
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+Solve every problem.
+Problem 1.
+(a) Let 𝑝(𝑥) = 𝑎𝑛𝑥𝑛+ ⋯+ 𝑎1𝑥+ 𝑎0 ∈𝑅[𝑥] be a polynomial over an integral domain 𝑅. Let 𝐾denote the
+fraction field of 𝑅. Suppose 𝑎/𝑏∈𝐾is a root of 𝑝(𝑥), where 𝑎, 𝑏∈𝑅and are relatively prime. Then, show
+that 𝑎|𝑎0 and 𝑏|𝑎𝑛.
+(b) Prove that 𝐐(√2, √3) = 𝐐(√2 + √3).
+Problem 2.
+Let 𝑅be an integral domain with the fraction field 𝐾. An 𝑅-module 𝑃is projective if there is an
+𝑅-module 𝑄such that 𝑃⊕𝑄≅𝐹for some free 𝑅-module 𝐹. A fractional ideal 𝐴is an 𝑅-submodule of 𝐾such that
+𝐴= 𝑑−1𝐼for some ideal 𝐼of 𝑅and a nonzero element 𝑑∈𝑅. A fractional ideal 𝐴is called invertible if 𝐴𝐵= 𝑅
+for some fractional ideal 𝐵.
+Show that an invertible fractional ideal 𝐴is a projective 𝑅-module.
+Problem 3. Give a direct proof that the Lie algebra 𝔰𝔩(4, 𝐂) is isomorphic to the Lie algebra 𝔰𝔬(6, 𝐂). (You should
+construct a Lie algebra homomorphism and prove that it is an ismorphism; you should not use Dynkin diagrams
+or the classification theory of simple Lie algebras.)
+Problem 4. Let 𝐴= 𝒪𝐾be the ring of integers of a number field 𝐾. Given a nonzero ideal 𝔞⊂𝐴and an arbitrary
+nonzero element 𝑎∈𝔞, show that there exists 𝑏∈𝔞such that 𝑎and 𝑏generate 𝔞(in particular, every ideal is
+2-generated).
+Problem 5. Let 𝑝be a prime number and 𝜁𝑝be a primitive 𝑝-th root of unity. Let 𝐾= 𝐐(𝜁𝑝).
+(a) Show that Φ𝑝= ∑𝑝−1
+𝑖=0 𝑋𝑖is the minimal polynomial of 𝜁𝑝over 𝐐.
+(b) Compute the trace Tr𝐾/𝐐(1 −𝜁𝑝) and the norm 𝒩𝐾/𝐐(1 −𝜁𝑝).
+(c) Show that (1 −𝜁𝑝)𝒪𝐾∩𝐙= 𝑝𝐙and deduce that for all 𝑦∈𝒪𝐾, we have
+Tr𝐾/𝐐(𝑦(1 −𝜁𝑝)) ∈𝑝𝐙.
+(d) Determine explicitly the ring of integers of 𝐾.
+Problem 6. Let 𝜃∈𝐐be a root of the polynomial 𝑓(𝑋) = 𝑋3 + 12𝑋2 + 8𝑋+ 1. Let 𝐾= 𝐐(𝜃).
+(a) Let 𝑔(𝑋) = 𝑋3 + 𝑝𝑋+ 𝑞∈𝐙[𝑋]. Compute the discriminant disc(𝑔) of 𝑔(𝑋) in terms of 𝑝, 𝑞.
+(b) Show that 𝑓(𝑋) is irreducible over 𝐐.
+(c) Compute the discriminant 𝑑𝐾(1, 𝜃, 𝜃2). Please provide necessary details.
+(d) For any arbitrary number field 𝐹of degree 𝑛, let 𝑎1, 𝑎2, … , 𝑎𝑛∈𝒪𝐹. Find and verify a sufficient condition
+in terms of the discriminant 𝑑𝐹(𝑎1, … , 𝑎𝑛) that the 𝑎1, … , 𝑎𝑛form an integral basis of 𝐹.
+(e) Write down an explicit integral basis of 𝐾in terms of 𝜃by using the above sufficient condition you have
+found. Please justify your arguments.
+==============================================================================
+FILE: 2022\Solution_2022\algebra_and_numbertheory_22s_soln.pdf
+--- page 1 ---
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+Solve every problem.
+Problem 1.
+(a) Let 𝑝(𝑥) = 𝑎𝑛𝑥𝑛+ ⋯+ 𝑎1𝑥+ 𝑎0 ∈𝑅[𝑥] be a polynomial over an integral domain 𝑅. Let 𝐾denote the
+fraction field of 𝑅. Suppose 𝑎/𝑏∈𝐾is a root of 𝑝(𝑥), where 𝑎, 𝑏∈𝑅and are relatively prime. Then, show
+that 𝑎|𝑎0 and 𝑏|𝑎𝑛.
+(b) Prove that 𝐐(√2, √3) = 𝐐(√2 + √3).
+Solution:
+(a) Easy.
+(b) It suffices to show 𝐐(√2, √3) ⊂𝐐(√2 + √3).
+Let 𝛼= √2 + √3. It is a root of
+𝑝(𝑥) = 𝑥4 −10𝑥2 + 1.
+By (a), 𝑝(𝑥) has no rational roots. We claim that 𝑝(𝑥) is irreducible over 𝐙. Otherwise, 𝑝(𝑥) = (𝑎+ 𝑏𝑥+ 𝑐𝑥2)(𝑑+
+𝑒𝑥+ 𝑓𝑥2). A direct computation will yield such a decomposition is impossible. Hence, 𝑝(𝑥) is a minimal polynomial
+𝛼over 𝐐. As 𝐐(𝛼) is a vector subspace of 𝐐(√2, √3), we obtain
+4 = dim 𝐐(𝛼) ≤dim 𝐐(√2, √3) ≤4.
+This implies the statement.
+Problem 2.
+Let 𝑅be an integral domain with the fraction field 𝐾. An 𝑅-module 𝑃is projective if there is an
+𝑅-module 𝑄such that 𝑃⊕𝑄≅𝐹for some free 𝑅-module 𝐹. A fractional ideal 𝐴is an 𝑅-submodule of 𝐾such that
+𝐴= 𝑑−1𝐼for some ideal 𝐼of 𝑅and a nonzero element 𝑑∈𝑅. A fractional ideal 𝐴is called invertible if 𝐴𝐵= 𝑅
+for some fractional ideal 𝐵.
+Show that an invertible fractional ideal 𝐴is a projective 𝑅-module.
+Solution: Assume that 𝐴is an invertible fractional ideal. Let 𝐴−1 its inverse. Then
+𝑎1𝑎′
+1 + ⋯+ 𝑎𝑛𝑎′
+𝑛= 1
+for some 𝑎1, … , 𝑎𝑛∈𝐴and 𝑎′
+1, … , 𝑎′
+𝑛∈𝐴′ since 𝐴𝐴−1 = 𝑅. Let 𝑆be a free 𝑅-module of rank 𝑛, say, generated by 𝑦1, … , 𝑦𝑛.
+Define 𝜑∶𝑆→𝐴by 𝜑(𝑦𝑖) = 𝑎𝑖and 𝜓∶𝐴→𝑆by 𝜑(𝑐) = 𝑐(𝑎′
+1𝑦1 + ⋯𝑎′
+𝑛𝑦𝑛). This makes sense because 𝑐𝑎′
+𝑖∈𝑅. Obviously,
+𝜑𝜓= 𝑖𝑑𝐴, hence 𝐴is a direct summand of 𝑆. In other words, 𝐴is a projective module.
+Problem 3. Give a direct proof that the Lie algebra 𝔰𝔩(4, 𝐂) is isomorphic to the Lie algebra 𝔰𝔬(6, 𝐂). (You should
+construct a Lie algebra homomorphism and prove that it is an ismorphism; you should not use Dynkin diagrams
+or the classification theory of simple Lie algebras.)
+Solution: We have the representation 𝔰𝔩(4, 𝐂) →𝔤𝔩(𝑊) where 𝑊= ∧2𝐂4. Let 𝑒1, 𝑒2, 𝑒3, 𝑒4 be the standard basis of 𝐂4.
+Then 𝑒1 ∧𝑒2 ∧𝑒3 ∧𝑒4 gives an identification ∧4𝐂4 ≅𝐂. We define a complex symmetric bilinear form 𝑆∶𝑊× 𝑊→𝐂by
+𝑆(𝜃, 𝜏) = 𝜃∧𝜏∈∧4𝐂4 ≅𝐂
+for 𝜃, 𝜏∈𝑊. By writing out an explicit orthogonal basis, you can show that 𝑆is non-degenerate. Then, one checks that for
+any 𝐴∈𝔰𝔩(4, 𝐂), we have
+𝑆(𝐴𝜃, 𝜏) + 𝑆(𝜃, 𝐴𝜏) = 𝐴𝜃∧𝜏+ 𝜃∧𝐴𝜏= 𝐴(𝜃∧𝜏) = 0.
+--- page 2 ---
+Note here that 𝔰𝔩(4, 𝐂) acts trivially on ∧4𝐂4.
+Hence, we obtain a Lie algebra homomorphism 𝔰𝔩(4, 𝐂) →𝔰𝔬(6, 𝐂).This must be an isomorphism since both Lie algebras
+have the same dimension and 𝔰𝔩(4, 𝐂) is simple.
+Problem 4. Let 𝐴= 𝒪𝐾be the ring of integers of a number field 𝐾. Given a nonzero ideal 𝔞⊂𝐴and an arbitrary
+nonzero element 𝑎∈𝔞, show that there exists 𝑏∈𝔞such that 𝑎and 𝑏generate 𝔞(in particular, every ideal is
+2-generated).
+Solution:
+Since 𝒪𝐾is a Dedekind domain, every nonzero ideal of it has a unique factorization as a product of nonzero
+prime ideals. Write 𝑎𝐴= 𝔭𝑛1
+1 ⋯𝔭𝑛𝑟
+𝑟(𝔭𝑖’s are distinct nonzero prime ideals of 𝐴, 𝑛𝑖∈𝐍). Since 𝑎∈𝔞, we have 𝔞divides 𝑎𝐴,
+so that 𝔞= 𝔭𝑚1
+1
+⋯𝔭𝑚𝑟
+𝑟
+with 0 ≤𝑚𝑖≤𝑛𝑖. For each 𝑖, pick 𝑥𝑖∈𝔭𝑚𝑖
+𝑖
+⧵𝔭𝑚𝑖+1
+𝑖
+. Since 𝔭𝑚𝑖+1
+𝑖
+and 𝔭
+𝑚𝑗+1
+𝑗
+are coprime when 𝑖≠𝑗,
+by the Chinese Remainder Theorem, the system of congruences 𝑏≡𝑥𝑖(mod 𝔭𝑚𝑖+1
+𝑖
+), 1 ≤𝑖≤𝑟has a solution 𝑏∈𝐴.
+By the congruence relation above, we see that 𝑏∈𝔭𝑚𝑖
+𝑖
+⧵𝔭𝑚𝑖+1
+𝑖
+as well. So for each 1 ≤𝑖≤𝑟, the order of 𝔭𝑖in the prime
+ideal factorization of 𝑏𝐴is exactly 𝑚𝑖. In other words
+𝑏𝐴= 𝔭𝑚1
+1
+⋯𝔭𝑚𝑟
+𝑟𝔮𝑘1
+𝑙⋯𝔮𝑘𝑙
+𝑙,
+𝑚𝑖, 𝑘𝑗> 0,
+where 𝔮𝑗’s are nonzero prime ideals different from those 𝔭𝑖’s (if they exist). Therefore
+𝑎𝐴+ 𝑏𝐴= 𝔭min{𝑚1,𝑛1}
+1
+⋯𝔭min{𝑚𝑟,𝑛𝑟}
+𝑟
+𝔮min{0,𝑘1}
+𝑙
+⋯𝔮min{0,𝑘𝑙}
+𝑙
+= 𝔭𝑚1
+1
+⋯𝔭𝑚𝑟
+𝑟
+= 𝔞,
+as desired.
+Problem 5. Let 𝑝be a prime number and 𝜁𝑝be a primitive 𝑝-th root of unity. Let 𝐾= 𝐐(𝜁𝑝).
+(a) Show that Φ𝑝= ∑𝑝−1
+𝑖=0 𝑋𝑖is the minimal polynomial of 𝜁𝑝over 𝐐.
+(b) Compute the trace Tr𝐾/𝐐(1 −𝜁𝑝) and the norm 𝒩𝐾/𝐐(1 −𝜁𝑝).
+(c) Show that (1 −𝜁𝑝)𝒪𝐾∩𝐙= 𝑝𝐙and deduce that for all 𝑦∈𝒪𝐾, we have
+Tr𝐾/𝐐(𝑦(1 −𝜁𝑝)) ∈𝑝𝐙.
+(d) Determine explicitly the ring of integers of 𝐾.
+Solution:
+(a) Consider 𝑔(𝑋) = Φ𝑝(𝑋+ 1) = (𝑋+ 1)𝑝−1 + ⋯+ 𝑋+ 1. Then 𝑔(𝑋) = 1
+𝑋[(𝑋+ 1)𝑝−1] = ∑𝑝−1
+𝑖=0 ( 𝑝
+𝑖+1)𝑋𝑖. Notice that
+for all 0 ≤𝑖≤𝑝−2, we have 𝑝∣( 𝑝
+𝑖+1), but 𝑝2 ∤(𝑝
+1) = 𝑝. By the Eisenstein’s criterion, 𝑔(𝑋) is irreducible over 𝐐, so
+is Φ𝑝(𝑋) = 𝑔(𝑋−1). Since 𝜁𝑝is a root of 𝑋𝑝−1 = (𝑋−1)Φ𝑝(𝑋) but not of (𝑋−1), we have Φ𝑝(𝜁𝑝) = 0. Therefore,
+Φ𝑝(𝑋), being monic, is the minimal polynomial of 𝜁𝑝over 𝐐.
+(b) For each 1 ≤𝑖≤𝑝−1, we have 𝜁𝑖
+𝑝∈𝐾is also a root of 𝑋𝑝−1 = (𝑋−1)Φ𝑝(𝑋) but not of (𝑋−1), we have Φ𝑝(𝜁𝑖
+𝑝) = 0.
+Thus 𝐾/𝐐is a Galois extension whose Galois group is Gal(𝐾/𝐐) = {𝜎𝑖; 𝜎𝑖(𝜁𝑝) = 𝜁𝑖
+𝑝, 1 ≤𝑖≤𝑝−1}. So
+Tr𝐾/𝐐=
+𝑝−1
+∑
+𝑖=1
+(1 −𝜁𝑖
+𝑝) = (𝑝−1) −
+𝑝−1
+∑
+𝑖=1
+𝜁𝑖
+𝑝= (𝑝−1) −(Φ𝑝(𝜁𝑝) −1) = (𝑝−1) −(−1) = 𝑝,
+and
+𝒩𝐾/𝐐=
+𝑝−1
+∏
+𝑖=1
+(1 −𝜁𝑖
+𝑝) = Φ𝑝(1) =
+𝑝−1
+∑
+𝑖=0
+1𝑖= 𝑝.
+(c) Notice that 𝜁𝑝is a root of a monic Φ𝑝∈𝐙[𝑋], so 𝜁𝑝is integral over 𝐙. For each 𝑚∈𝐙, let 𝑧= 𝑚∏𝑝−1
+𝑖=2 (1−𝜁𝑖
+𝑝) ∈𝒪𝐾.
+Then 𝑧(1 −𝜁𝑝) = 𝑚∏𝑝−1
+𝑖=1 (1 −𝜁𝑖
+𝑝) = 𝑚𝑝. Thus 𝑝𝐙⊂(1 −𝜁𝑝)𝒪𝐾∩𝐙. On the other hand, suppose 𝑧∈𝒪𝐾satisfies
+--- page 3 ---
+𝑚= 𝑧(1 −𝜁𝑝) ∈𝐙. Taking norms on both sides, we get 𝑚𝑝= 𝒩𝐾/𝐐(𝑧)𝑝. Since 𝑧is integral, 𝒩𝐾/𝐐(𝑧) ∈𝐙, we have
+𝑝∣𝑚𝑝, so 𝑝∣𝑚. Thus (1 −𝜁𝑝)𝒪𝐾∩𝐙⊂𝑝𝐙. As a consequence, (1 −𝜁𝑝)𝒪𝐾∩𝐙= 𝑝𝐙.
+Now take any 𝑦∈𝒪𝐾. Observe that for each 1 ≤𝑖≤𝑝−1, we have
+𝜎𝑖(𝑦(1 −𝜁𝑝)) = 𝜎𝑖(𝑦)(1 −𝜁𝑖
+𝑝) = (1 −𝜁𝑝)(1 + 𝜁𝑝+ ⋯+ 𝜁𝑖−1
+𝑝
+)𝜎𝑖(𝑦) ∈(1 −𝜁𝑝)𝒪𝐾,
+so Tr𝐾/𝐐(𝑦(1 −𝜁𝑝)) = ∑𝑝−1
+𝑖=1 𝜎𝑖(𝑦(1 −𝜁𝑝)) ∈(1 −𝜁𝑝)𝒪𝐾as well. On the other hand, 𝑦(1 −𝜁𝑝) ∈𝒪𝐾, so its trace is
+in 𝐙. Therefore Tr𝐾/𝐐(𝑦(1 −𝜁𝑝)) ∈(1 −𝜁𝑝)𝒪𝐾∩𝐙= 𝑝𝐙.
+(d) Let 𝑦= 𝑏0 + 𝑏1𝜁𝑝+ ⋯+ 𝑏𝑝−1𝜁𝑝−1
+𝑝
+∈𝒪𝐾where 𝑏𝑖∈𝐐. Notice that for any 1 ≤𝑖≤𝑝−1, 𝜁𝑖
+𝑝is a conjugate of 𝜁𝑝
+over 𝐐, so
+Tr𝐾/𝐐(𝜁𝑖
+𝑝) = Tr𝐾/𝐐(𝜁𝑝) = 𝜁𝑝+ 𝜁2
+𝑝+ ⋯+ 𝜁𝑝−1
+𝑝
+= −1.
+Set 𝑏𝑝= 𝑏0, then for any 1 ≤𝑙≤𝑝−1, we have
+𝑝𝐙∋Tr𝐾/𝐐((𝜁𝑙𝑦)(1 −𝜁𝑝)) =
+𝑝−1
+∑
+𝑖=0
+𝑏𝑖Tr𝐾/𝐐(𝜁𝑖+𝑙
+𝑝
+−𝜁𝑖+𝑙+1
+𝑝
+)
+= 𝑏𝑝−𝑙Tr𝐾/𝐐(1 −𝜁𝑝) + 𝑏𝑝−𝑙−1 Tr𝐾/𝐐(𝜁𝑝−1
+𝑝
+−1)
+= 𝑝(𝑏𝑝−𝑙−𝑏𝑝−𝑙−1),
+which implies that 𝑏𝑝−𝑙−𝑏𝑝−𝑙−1 ∈𝐙. Thus 𝑏𝑖−𝑏0 ∈𝐙for all 1 ≤𝑖≤𝑝−1. Notice that
+𝑦−
+𝑝−1
+∑
+𝑖=1
+(𝑏𝑖−𝑏0)𝜁𝑖
+𝑝= 𝑏0(1 + 𝜁𝑝+ ⋯+ 𝜁𝑝−1
+𝑝
+) = 0,
+so 𝑦= ∑𝑝−1
+𝑖=1 (𝑏𝑖−𝑏0)𝜁𝑖
+𝑝∈𝐙[𝜁𝑝]. Therefore 𝒪𝐾= 𝐙[𝜁𝑝].
+Problem 6. Let 𝜃∈𝐐be a root of the polynomial 𝑓(𝑋) = 𝑋3 + 12𝑋2 + 8𝑋+ 1. Let 𝐾= 𝐐(𝜃).
+(a) Let 𝑔(𝑋) = 𝑋3 + 𝑝𝑋+ 𝑞∈𝐙[𝑋]. Compute the discriminant disc(𝑔) of 𝑔(𝑋) in terms of 𝑝, 𝑞.
+(b) Show that 𝑓(𝑋) is irreducible over 𝐐.
+(c) Compute the discriminant 𝑑𝐾(1, 𝜃, 𝜃2). Please provide necessary details.
+(d) For any arbitrary number field 𝐹of degree 𝑛, let 𝑎1, 𝑎2, … , 𝑎𝑛∈𝒪𝐹. Find and verify a sufficient condition
+in terms of the discriminant 𝑑𝐹(𝑎1, … , 𝑎𝑛) that the 𝑎1, … , 𝑎𝑛form an integral basis of 𝐹.
+(e) Write down an explicit integral basis of 𝐾in terms of 𝜃by using the above sufficient condition you have
+found. Please justify your arguments.
+Solution:
+(a) Let 𝛼1, 𝛼2, 𝛼3 ∈𝐐be three roots of 𝑔, then by Viète’s theorem
+𝛼1𝛼2 + 𝛼2𝛼3 + 𝛼3𝛼1 = 𝑝,
+𝛼1𝛼2𝛼3 = −𝑞.
+According to the theory of symmetric polynomials, disc(𝑔) = [(𝛼1 −𝛼2)(𝛼2 −𝛼3)(𝛼3 −𝛼1)]2 can be expressed as a
+polynomial 𝐻of 𝑝, 𝑞. For any 𝜆∈𝐐, consider
+𝑔𝜆(𝑋) = (𝑋−𝜆𝛼1)(𝑋−𝜆𝛼2)(𝑋−𝜆𝛼3) = 𝑋3 + 𝜆2𝑝𝑋+ 𝜆3𝑞𝑋,
+we obtain that 𝐻(𝜆2𝑝, 𝜆3𝑞) = 𝜆6𝐻(𝑝, 𝑞). Thus 𝐻(𝑝, 𝑞) has an expression such that each of its monomials has shape
+𝑟𝑖,𝑗𝑝𝑖𝑞𝑗with 𝑟𝑖,𝑗∈𝐐and 2𝑖+ 3𝑗= 6. Thus (𝑖, 𝑗) = (3, 0) or (0, 2), which means disc(𝑔) = 𝑎𝑝3 + 𝑏𝑞2 for some fixed
+𝑎, 𝑏∈𝐐.
+Let 𝑔(𝑋) = 𝑋3 −𝑋= 𝑋(𝑋−1)(𝑋+ 1), we have
+𝑎⋅(−1)3 + 𝑏⋅02 = [(0 −1)(0 −(−1))(1 −(−1))]2 = 4 ⇒𝑎= −4.
+--- page 4 ---
+Let 𝑔(𝑋) = 𝑋3 −1 = 𝑋(𝑋−𝜔)(𝑋−𝜔−1), where 𝜔= 𝑒2𝜋𝑖/3, then we have
+𝑎⋅03 + 𝑏⋅(−1)2 = [(1 −𝜔)(1 −𝜔−1)(𝜔−𝜔−1)]
+2 = (1 −𝜔)6 = (√−3𝑒2𝜋𝑖/6)
+6
+= −27 ⇒𝑏= −27.
+Therefore disc(𝑔) = −(4𝑝3 + 27𝑞2).
+(b) Suppose 𝑓is reducible over 𝐐, then it has a factor 𝑋−𝜏where 𝜏∈𝐐. Since 𝜏is a root of 𝑓(𝑋), a monic integer
+polynomial, we have 𝜏∈𝒪𝐾. Thus 𝜏∈𝐐∩𝒪𝐾= 𝐙. Notice that 𝜏(𝜏2 + 12𝜏+ 8) = −1, we obtain that 𝜏∣1. Thus
+𝜏= ±1. But a direct computation shows that neither of ±1 is a root of 𝑓(𝑋), a contradiction.
+(c) By (b) we see that 𝑓(𝑋) is the minimal polynomial of 𝜃over 𝐐. Let 𝜃1 = 𝜃, 𝜃2, 𝜃3 be the three roots of 𝑓(𝑋). Then
+𝑑𝐾(1, 𝜃, 𝜃2) = det (
+1
+𝜃1
+𝜃2
+1
+1
+𝜃2
+𝜃2
+2
+1
+𝜃3
+𝜃2
+3
+)
+2
+= [(𝜃1 −𝜃2)(𝜃2 −𝜃3)(𝜃3 −𝜃1)]2
+= [((𝜃1 + 4) −(𝜃2 + 4))((𝜃2 + 4) −(𝜃3 + 4))((𝜃3 + 4) −(𝜃1 + 4))]2
+= disc(𝑓(𝑋−4))
+= disc(𝑋3 −40𝑋+ 97)
+= −[4 ⋅(−40)3 + 3 ⋅972]
+= 1957.
+(d) We claim that if 𝑑𝐹(𝑎1, … , 𝑎𝑛) is a square free integer, then 𝑎1, … , 𝑎𝑛is an integral basis of 𝐹. To see this, fix an
+integral basis 𝜔1, … , 𝜔𝑛of 𝐹. Then for any 1 ≤𝑖≤𝑛, there exist 𝑡𝑖𝑗∈𝐙such that 𝑎𝑖= ∑𝑛
+𝑖=1 𝑡𝑖𝑗𝜔𝑗. Let 𝑇=
+(𝑡𝑖𝑗)1≤𝑖,𝑗≤𝑛∈𝑀𝑛(𝐙). Then linear algebra gives the following relation of integers
+𝑑𝐹(𝑎1, … , 𝑎𝑛) = (det 𝑇)2𝑑𝐹(𝜔1, … , 𝜔𝑛).
+Since the left hand side is square free, we have det 𝑇= ±1. This implies that 𝑇−1 has integer entries as well, thus
+𝜔1, … , 𝜔𝑛can be written as 𝐙-linear combinations of 𝑎1, … , 𝑎𝑛. Therefore, 𝑎1, … , 𝑎𝑛is an integral basis of 𝐹.
+(e) Since 𝑑𝐾(1, 𝜃, 𝜃2) = 1957 = 19 ⋅103 is square free, 1, 𝜃, 𝜃2 is an integral basis of 𝐾by (d).
+==============================================================================
+FILE: 2010\AlgebraNumberTheory-team.pdf
+--- page 1 ---
+S.-T. Yau College Student Mathematics Contests 2010
+Algebra, Number Theory and
+Combinatorics
+Team
+(Please select 5 problems to solve)
+1. For a real number r, let [r] denote the maximal integer less or equal
+than r.
+Let a and b be two positive irrational numbers such that
+1
+a + 1
+b = 1.
+Show that the two sequences of integers [ax], [bx] for
+x = 1, 2, 3, · · · contain all natural numbers without repetition.
+2. Let n ≥2 be an integer and consider the Fermat equation
+Xn + Y n = Zn,
+X, Y, Z ∈C[t].
+Find all nontrivial solution (X, Y, Z) of the above equation in the sense
+that X, Y, Z have no common zero and are not all constant.
+3. Let p ≥7 be an odd prime number.
+(a) Evaluate the rational number cos(π/7) · cos(2π/7) · cos(3π/7).
+(b) Show that Q(p−1)/2
+n=1
+cos(nπ/p) is a rational number and deter-
+mine its value.
+4. For a positive integer a, consider the polynomial
+fa = x6 + 3ax4 + 3x3 + 3ax2 + 1.
+Show that it is irreducible. Let F be the splitting ﬁeld of fa. Show
+that its Galois group is solvable.
+5. Prove that a group of order 150 is not simple.
+6. Let V ∼= C2 be the standard representation of SL2(C).
+(a) Show that the n-th symmetric power Vn = Symn V is irre-
+ducible.
+(b) Which Vn appear in the decomposition of the tensor product
+V2 ⊗V3 into irreducible representations?
+1

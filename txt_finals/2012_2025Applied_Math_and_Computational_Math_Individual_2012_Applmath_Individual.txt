@@ -1,0 +1,46 @@
+
+=== page 1 ===
+INDIVIDUAL TEST / ORAL EXAM
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Applied and Computational Mathematics
+1. Let f(x) deﬁned on [0, 1] be a smooth function with suﬃciently
+many derivatives.
+xi = ih, where h =
+1
+N and i = 0, 1, · · · , N are
+uniformly distributed points in [0, 1]. What is the highest integer k
+such that the numerical integration formula
+(1)
+IN = 1
+N
+ 
+a0(f(x0) + f(xN)) + a1(f(x1) + f(xN−1)) +
+N−2
+X
+i=2
+f(xi)
+!
+is k-th order accurate, namely
+(2)
+IN −
+Z 1
+0
+f(x)dx
+ ≤Chk
+for a constant C independent of h? Please describe the procedure to
+obtain the two constants a0 and a1 for this k.
+2. The classical Euclidean Algorithm to ﬁnd the greatest common di-
+visor gcd(m, n) of two positive integers m < n requires only O(log n)
+arithmetic operation. However, it uses division with a reminder, which
+is a rather slow operation.
+Your task is to design and analyze a
+division-free algorithm.
+More precisely, using that for non-zero integers k and l we have
+gcd(2k, 2l) = 2 gcd(k, l),
+gcd(2k + 1, 2l) = gcd(2k + 1, l),
+gcd(2k + 1, l) = gcd(2k + 1 −l, l)
+• design an eﬃcient algorithm to compute gcd(m, n) that uses
+only subtraction and division by 2 (the latter is very fast as it
+is equivalent to a shift of the bit representation of the operand);
+• give a motivated estimate on the complexity of your algorithm.
+1

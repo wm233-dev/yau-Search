@@ -1,0 +1,35 @@
+
+=== page 1 ===
+Probability problems: individual contest
+May 2019
+1. Let p ≥1 and f, g ∈Lp[0, 1] such that
+R 1
+0 g(y)dy = 0. Show that
+Z 1
+0
+Z 1
+0
+|f(x) + g(y)|pdxdy ⩾
+Z 1
+0
+|f(x)|pdx.
+2. Consider an urn with p plus balls and m minus balls in it, where m and p are given nonnegative
+numbers. You are allowed to pick a random ball from the urn or quit the game. If you decide to
+pick and get a plus ball you gain a dollar; if you get a minus ball you lose a dollar. You can continue
+the game but picked balls are not replaced. Denote by V (m, p) the expected value of playing the
+game. Find a recurrence for V (m, p)
+3.
+3-1 Let Xn be increasing, integrable random variables and converges a.s. to X ∈L1, show that,
+for any sigma algebra G, E(Xn|G) ↑E(X|G).
+3-2 Let Xn ≥0, Show that
+lim inf
+n
+E(Xn|G) ≥E(lim inf
+n
+Xn|G).
+3-3 Let Xn be random variables in L1 and Xn →X a.s. with |Xn| ≤Z in L1. Show that
+E(X|G) = lim E(Xn|G) a.s. and in L1.
+3-4 Show that, if f convex and X, f(X) integrable, then
+f(E(X|G)) ≤E(f(X|G)).
+3-5 Show that G1 and G2 are independent i.f.f. for all X G2-mesurable, E(X|G1) = E(X).
+1

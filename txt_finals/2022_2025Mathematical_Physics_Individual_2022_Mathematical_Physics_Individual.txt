@@ -1,0 +1,64 @@
+
+=== page 1 ===
+Mathematical Physics
+(Individual Contest)
+Prob. 1 The Hellmann-Feynman theorem: Given a Hamiltonian H which has discrete energy
+levels and smoothly depends on a coupling parameter γ, deﬁne A = ∂H
+∂γ .
+• For every eigenstate |Ψj⟩of H with its energy eigenvalue Ej, prove that ⟨Ψj|A|Ψj⟩= ∂Ej
+∂γ .
+• Taking as an example the one-dimensional quantum oscillator described by the Hamilto-
+nian H = −∂2
+∂x2 + ω2x2
+4 ,
+ω ∈R
+and ω > 0, show that
+⟨Ψj|x2|Ψj⟩= (2j + 1)
+ω
+.
+Prob. 2 You are given the weak-ﬁeld Newtonian limit of space-time as
+ds2 = −(1 + 2φ)dt2 + dx2 + dy2 + dz2,
+(1)
+and the Newtonian gravitational potential φ satisfying ⃗∇2φ = 4πGρ (i.e., ⃗∇2g00 = −8πGρ) with
+⃗∇2 = ∂2
+x + ∂2
+y + ∂2
+z, G the Newton constant and ρ the matter density. Based on this information
+and the principle of general covariance, derive the complete Einstein ﬁeld equation. You are
+given
+Rρ µσν
+=
+∂σΓρ
+µν −∂νΓρ
+σµ + ΓΓ −terms
+Γρ
+µν
+=
+1
+2gρσ (∂µgσν + ∂νgµσ −∂σgµν) .
+(2)
+Prob.3 Consider a 2-form ﬁeld in 6-dimensional spacetime
+B(2) = 1
+2 Bµνdxµ ∧dxν,
+µ, ν = 0, 1, · · · , 5.
+(3)
+The free theory action is
+S = −
+Z
+d6x
+ 1
+12HµνρHµνρ + 1
+4m2BµνBµν
+
+,
+(4)
+where H is the corresponding 3-form ﬁeld strength associated with the 2-form B(2)
+H(3) = 1
+6 Hµνρdxµ ∧dxν ∧dxρ = 1
+2∂[µBνρ]dxµ ∧dxν ∧dxρ = dB(2) .
+(5)
+(a)In the massive case, count the on-shell propagating degrees of freedom and describe the
+corresponding representation of Poincar´e group.
+(b)In the massless case, count the physical on-shell propagating degrees of freedom by eliminating
+the gauge redundancies, and describe the corresponding representation of Poincar´e group.
+1

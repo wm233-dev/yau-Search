@@ -1,0 +1,180 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2014
+Applied Math. and Computational Math.
+Individual
+Please solve as many problems as you can!
+1. (20 pts) Ming Antu (1692-1763) is one of the greatest Chinese/Mongolian
+mathematicians. In the 1730s, he ﬁrst established and used what was
+later to be known as Catalan numbers (Euler (1707-1763) rediscov-
+ered them around 1756; Belgian mathematician Eugene Catalan (1814-
+1894) “rediscovered” them again in 1838),
+cn =
+1
+n + 1
+(2n
+n
+)
+,
+n = 0, 1, 2, · · ·
+and Ming Antu derived the following half-angle formula in 1730:
+sin2 θ
+2 =
+∞
+∑
+n=1
+cn−1
+(sin θ
+2
+)2n
+Prove this formula.
+Hint: you may use generating function
+F(z) =
+∞
+∑
+n=0
+cnzn
+and show that ∑
+m+k=n cmck = cn+1 and then show zF(z)2 = F(z)−1.
+2. Many algorithms, including polynomial factorisation in ﬁnite ﬁelds,
+require to compute gcd(f(X), XN −1) for a polynomial f of reasonably
+small degree n and a binomial XN −1 of very large degree N. Since
+N is very large the direct application of the Euclid algorithm is very
+ineﬃcient.
+Questions:
+(i) (10 pts) Suggest a more eﬃcient approach the direct computa-
+tion of gcd(f(X), XN −1) via the Euclid algorithm.
+(ii) (10 pts) Generalise it to gcd(f(X), A1XN1 + . . . + AmXNm +
+Am+1).
+Hint: If for three polynomials f, g and h we have g ≡h (mod f)
+then
+gcd(f, g) = gcd(f, h).
+1
+
+=== page 2 ===
+2
+3. For solving the following partial diﬀerential equation
+ut + f(u)x = 0,
+0 ≤x ≤1
+(1)
+where f ′(u) ≥0, with periodic boundary condition, we can use the
+following semi-discrete upwind scheme
+d
+dtuj + f(uj) −f(uj−1)
+∆x
+= 0,
+j = 1, 2, · · · , N,
+(2)
+with periodic boundary condition
+u0 = uN,
+(3)
+where uj = uj(t) approximates u(xj, t) at the grid point x = xj = j∆x,
+with ∆x = 1
+N .
+(i) (15 pts) Prove the following L2 stability of the scheme
+d
+dtE(t) ≤0
+(4)
+where E(t) = ∑N
+j=1 |uj|2∆x.
+(ii) (15 pts) Do you believe (4) is true for E(t) = ∑N
+j=1 |uj|2p∆x for
+arbitrary integer p ≥1? If yes, prove the result. If not, give a
+counter example.
+4. Let A be an n × n matrix with real and positive eigenvalues and b
+be a given vector. Consider the solution of Ax = b by the following
+Richardson’s iteration
+x(k+1) = (I −ωA)x(k) + ωb
+where ω is a damping coeﬃcient. Let λ1 and λn be the smallest and
+the largest eigenvalues of A. Let Gω = I −ωA.
+(i) (4 points) Prove that the Richardson’s iteration converges if
+and only if
+0 < ω < 2
+λn
+.
+(ii) (8 points) Prove that the optimal choice of ω is given by
+ωopt =
+2
+λ1 + λn
+.
+Prove also that
+ρ(Gω) =
+
+
+
+
+
+1 −ωλ1
+ω ≤ωopt
+(λn −λ1)/(λn + λ1)
+ω = ωopt
+ωλn −1
+ω ≥ωopt
+where ρ(Gω) is the spectral radius of Gω.
+
+=== page 3 ===
+3
+(iii) (8 points) Prove that, if A is symmetric and positive deﬁnite,
+then
+ρ(Gωopt) = κ2(A) −1
+κ2(A) + 1
+where κ2(A) is the spectral condition number of A.
+5. (10 pts) For solving the following heat equation on interval
+ut = uxx,
+0 ≤x ≤1
+(5)
+with boundary condition
+u(0) = u0,
+u(1) = u1,
+(6)
+we ﬁrst discretize the interval [0, 1] into N subintervals uniformly, that
+is, the mesh size h = 1/N. We choose a temporal step size k and ap-
+proximate the solution u(jh, nk) by U n
+j , j = 1, ..., N −1, n = 0, 1, 2, ....
+Using the backward Euler method in time and central ﬁnite diﬀerence
+in space, the discrete function U n
+j satisﬁes:
+U n+1
+j
+−U n
+j = λ(U n+1
+j−1 −2U n+1
+j
++ U n+1
+j+1 ),
+j = 1, ..., N −1,
+(7)
+where λ = k/h2, and
+U n+1
+0
+= u0, U n+1
+N
+= u1.
+Show that
+1
+2
+N−1
+∑
+j=1
+(
+(U n+1
+j
+)2 −(U n
+j )2)
+≤−λ
+N−2
+∑
+j=1
+(U n+1
+j+1 −U n+1
+j
+)2
+−λ
+2((U n+1
+1
+)2 + (U n+1
+N−1)2) + λ
+2(u2
+0 + u2
+1)
+(8)

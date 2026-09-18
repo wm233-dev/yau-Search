@@ -1,0 +1,33 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contest, 2018
+Applied Mathematics, Individual
+1. Consider the deﬁnite integral
+I =
+Z b
+a
+f(x) dx.
+a. Construct an approximation to I by using the composite trapezoidal rule
+with a uniform partition of the interval [a, b].
+b. Suppose f ∈C2[a, b], show that the above approximation is second-order
+accurate.
+c. Suppose f is periodic and smooth on the interval [a, b], show that the above
+approximation is spectral order accurate.
+2. Let (u, p) be the solution of the Stokes equation on a domain Ω
+
+
+
+−∇p + ∆u = 0
+∇· u = 0
+u|∂Ω= g
+(1)
+where u(x, y) = (u(x, y), v(x, y)), ∇· u = ∂u
+∂x + ∂v
+∂y and g is the given boundary
+value. Show that u is a minimizer of the dissipation functional
+E(v) =
+Z
+Ω
+|∇v|2dxdy
+among all v such that ∇· v = 0 and v|∂Ω= g.
+1

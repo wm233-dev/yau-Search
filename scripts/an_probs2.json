@@ -1,0 +1,684 @@
+{
+ "2010I": [
+  [
+   1,
+   "1.\na) Let xk, k = 1, . . . , n be real numbers from the interval (0, π)\nand define x =\nn\nX\ni=1\nxi\nn\n. Show that\nn\nY\nk=1\nsin xk\nxk\n≤\nµsin x\nx\n¶n\n.\nb) From\nZ ∞\ne−x2dx =\n√π"
+  ],
+  [
+   2,
+   "2 ,\ncalculate the integral\nR ∞\n0 sin(x2)dx.\n2. Let f : R →R be any function. Prove that the set of points x in\nR where f is continuous is a countable intersection of open sets."
+  ],
+  [
+   3,
+   "3. Let f(z) be holomorphic in D: |z| < 1 and |f(z)| ≤1 (z ∈D). If\nz0 is a point in D such that both z0 and −z0 are zeros of order m of\nf(z) and 0 < |z0| ≤m −1\nm\n, then |f(0)| < e−2."
+  ],
+  [
+   4,
+   "4. Find a harmonic function f on the right half-plane such that when\napproaching any point in the positive half of the y-axis, the function\nhas limit 1, while when approaching any point in the negative half of\nthe y-axis, the function has limit −1."
+  ],
+  [
+   5,
+   "5. Let K(x, y) ∈L1([0, 1] × [0, 1]). For all f ∈C0[0, 1], the space of\ncontinuous functions on [0, 1], define a function\nTf(x) =\nZ 1\nK(x, y)f(y)dy\nProve that Tf ∈C0([0, 1]). Moreover Ω= {Tf| ||f||sup ≤1} is pre-\ncompact in C0([0, 1]), i.e. every sequence in Ωhas a converging subse-\nquence, here ||f||sup = sup{|f(x)||x ∈[0, 1]}. (Hint: Every Lebesgue\nintegrable function over the square can be approximated by polynomial\nfunctions in the L1 norm.)"
+  ],
+  [
+   6,
+   "6. Consider the equation ˙x = −x + f(t, x), where |f(t, x)| ≤φ(t)|x|\nfor all (t, x) ∈R × R,\nR ∞φ(t)dt < ∞.\nProve that every solution\napproaches zero as t →∞."
+  ]
+ ],
+ "2010T": [
+  [
+   1,
+   "1.\na) Let f(z) be holomorphic in D: |z| < 1 and |f(z)| ≤1 (z ∈\nD). Prove that\n|f(0)| −|z|\n1 + |f(0)||z| ≤|f(z)| ≤|f(0)| + |z|\n1 −|f(0)||z|.\n(z ∈D)\nb) For any finite complex value a, prove that\n2π\nZ 2π\nlog |a −eiθ|dθ = max{log |a|, 0}."
+  ],
+  [
+   2,
+   "2. Let f ∈C1(R), f(x + 1) = f(x), for all x, then we have\n||f||∞≤\nZ 1\n|f(t)|dt +\nZ 1\n|f\n′(t)|dt."
+  ],
+  [
+   3,
+   "3. Consider the equation\n¨x + (1 + f(t))x = 0.\nWe assume that\nR ∞|f(t)|dt < ∞. Study the Lyapunov stability of the\nsolution (x, ˙x) = (0, 0)."
+  ],
+  [
+   4,
+   "4. Suppose f : [a, b] →R be a L1-integrable function. Extend f to be\n0 outside the interval [a, b]. Let\nφ(x) = 1\n2h\nZ x+h\nx−h\nf\nShow that\nZ b\na\n|φ| ≤\nZ b\na\n|f|."
+  ],
+  [
+   5,
+   "5. Suppose f ∈L1[0, 2π], ˆf(n) =\n2π\nR 2π\nf(x)e−inxdx, prove that\n1)\n∞\nX\n|n|=0\n| ˆf(n)|2 < ∞implies f ∈L2[0, 2π],\n2)\nX\nn\n|n ˆf(n)| < ∞implies that f = f0, a.e., f0 ∈C1[0, 2π],\nwhere C1[0, 2π] is the space of functions f over [0, 1] such\nthat both f and its derivative f\n′ are continuous functions."
+  ],
+  [
+   6,
+   "6. Let Ωbe a bounded domain of Rn and let f be a smooth function\ndefined in [0, +∞) such that f(t)/t is strictly decreasing. Assume that\nu1 and u2 are positive solutions of\n∆u + f(u) = 0 in Ω, u = 0 on ∂Ω\nShow that u1 = u2. (Hint: Calculate ∆log u2\nu1 and consider the maxi-\nmum principle.)"
+  ]
+ ],
+ "2011I": [
+  [
+   1,
+   "1. a) Compute the integral:\nR ∞\n−∞\nx cos xdx\n(x2+1)(x2+2),\nb) Show that there is a continuous function f : [0, +∞) →(−∞, +∞)\nsuch that f ̸≡0 and f(4x) = f(2x) + f(x)."
+  ],
+  [
+   2,
+   "2. Solve the following problem:\n½ d2u\ndx2 −u(x) = 4e−x,\nx ∈(0, 1),\nu(0) = 0,\ndu\ndx(0) = 0."
+  ],
+  [
+   3,
+   "3. Find an explicit conformal transformation of an open set U = {|z| >\n1} \\ (−∞, −1] to the unit disc."
+  ],
+  [
+   4,
+   "4. Assume f ∈C2[a, b] satisfying |f(x)| ≤A, |f\n′′(x)| ≤B for each\nx ∈[a, b] and there exists x0 ∈[a, b] such that |f\n′(x0)| ≤D, then\n|f\n′(x)| ≤2\n√\nAB + D, ∀x ∈[a, b]."
+  ],
+  [
+   5,
+   "5. Let C([0, 1]) denote the Banach space of real valued continuous\nfunctions on [0, 1] with the sup norm, and suppose that X ⊂C([0, 1])\nis a dense linear subspace. Suppose l : X →R is a linear map (not\nassumed to be continuous in any sense) such that l(f) ≥0 if f ∈X\nand f ≥0. Show that there is a unique Borel measure µ on [0, 1] such\nthat l(f) =\nR\nfdµ for all f ∈X."
+  ],
+  [
+   6,
+   "6. For s ≥0, let Hs(T) be the space of L2 functions f on the circle\nT = R/(2πZ) whose Fourier coefficients ˆfn =\nR 2π\ne−inxf(x)dx satisfy\nΣ(1 + n2)s|| ˆfn|2 < ∞, with norm ||f||2\ns = (2π)−1Σ(1 + n2)s| ˆfn|2.\na. Show that for r > s ≥0, the inclusion map i : Hr(T) →Hs(T) is\ncompact.\nb.\nShow that if s > 1/2, then Hs(T) includes continuously into\nC(T), the space of continuous functions on T, and the inclusion map\nis compact.\n附件/试卷 1\nAppendix/Contest Paper 1"
+  ]
+ ],
+ "2011T": [
+  [
+   1,
+   "1. Let H2(∆) be the space of holomorphic functions in the unit disk\n∆= {|z| < 1} such that\nR\n∆|f|2|dz|2 < ∞. Prove that H2(∆) is a\nHilbert space and that for any r < 1, the map T : H2(∆) →H2(∆)\ngiven by Tf(z) := f(rz) is a compact operator."
+  ],
+  [
+   2,
+   "2. For any continuous function f(z) of period 1, show that the equation\ndϕ\ndt = 2πϕ + f(t)\nhas a unique solution of period 1."
+  ],
+  [
+   3,
+   "3. Let h(x) be a C∞function on the real line R. Find a C∞function\nu(x, y) on an open subset of R2 containing the x-axis such that ux +\n2uy = u2 and u(x, 0) = h(x)."
+  ],
+  [
+   4,
+   "4. Let S = {x ∈R | |x−p\nq| ≤c/q3, for infinitely many relatively prime p, q ∈\nZ, q > 0, for a fixed c > 1}, show that S is uncountable and its measure\nis zero."
+  ],
+  [
+   5,
+   "5. Let sl(n) denote the set of all n × n real matrices with trace equal\nto zero and let SL(n) be the set of all n × n real matrices with deter-\nminant equal to one. Let ϕ(z) be a real analytic function defined in a\nneighborhood of z = 0 of the complex plane C satisfying the conditions\nϕ(0) = 1 and ϕ\n′(0) = 1.\n(a) If ϕ maps any near zero matrix in sl(n) into SL(n) for some n ≥3,\nshow that ϕ(z) = exp(z).\n(b)Is the conclusion of (a) still true in the case n = 2? If it is true,\nprove it. If not, give a counterexample."
+  ],
+  [
+   6,
+   "6. Use mathematical analysis to show that:\n(a) e and π are irrational numbers;\n(b) e and π are also transcendental numbers.\n附件/试卷 5\nAppendix/Contest Paper 5"
+  ]
+ ],
+ "2012I": [
+  [
+   1,
+   "1. Compute the integral\nZ ∞\nxp\n1 + x2dx, −1 < p < 1."
+  ],
+  [
+   2,
+   "2. Construct a one to one conformal mapping from the region\nU = {z ∈C||z −i\n2| < 1\n2}/{z||z −i\n4| < 1\n4}\nonto the unit disk."
+  ],
+  [
+   3,
+   "3. Let f(x) be a nonlinear C2 function on R. Show that\nsup |f ′(x)|2 ≤4 sup |f(x)| sup |f ′′(x)|."
+  ],
+  [
+   4,
+   "4. Let f(x) be a real measurable function defined on [a, b]. Let n(y)\nbe the number of solutions of the equation f(x) = y. Prove that n(y)\nis a measurable function on R."
+  ],
+  [
+   5,
+   "5. For 1 < p, q < ∞, 1\np + 1\nq = 1, let g in Lq. Consider the linear\nfunctional F on Lp given by: F(f) is equal to the integral of fg. Show\nthat ||F|| = ||g||q."
+  ],
+  [
+   6,
+   "6. Let Rn\n+ = {x = (x1, x2, ..., xn) ∈Rn|xn > 0}. Show that the formula\nu(x) = 2xn\nnαn\nZ\n∂Rn\n+\ng(y)\n|x −y|ndy, x ∈Rn\n+\nis a solution of the problem\n∆u = 0, in Rn\n+, u = g on ∂Rn\n+,\nwhere αn is the volume of the unit n dimensional sphere."
+  ]
+ ],
+ "2012T": [
+  [
+   1,
+   "1. Let A = [aij] be a real symmetric n × n matrix. Define f : Rn →R\nby f(x1, · · · , xn) = exp(−1\nPn\ni,j=1 aijxixj). Prove that f is in L1(Rn)\nif and only if the matrix A is positive definite.\nCompute\nR\nRn exp(−1\nPn\ni,j=1 aijxixj +Σn\ni=1bixi)dx when A is positive\ndefinite."
+  ],
+  [
+   2,
+   "2. Let V be a simply connected region in the complex plane and V ̸= C.\nLet a, b be two distinct points in V .\nLet φ1, φ2 be two one-to-one\nholomorphic maps of V onto itself. If φ1(a) = φ2(a) and φ1(b) = φ2(b),\nshow that φ1(z) = φ2(z) for all z ∈V ."
+  ],
+  [
+   3,
+   "3. In the unit interval [0, 1] consider a subset\nE = {x| in the decimal expansion of x there is no 4},\nshow that E is measurable and calculate its measure."
+  ],
+  [
+   4,
+   "4. Let 1 < p < ∞, Lp([0, 1], dm) be the completion of C[0, 1] with the\nnorm: ||f||p = (\nR 1\n0 |f(x)|pdm)\np, where dm is the Lebesgue measure.\nShow that limλ→∞λpm(x||f(x)| > λ) = 0."
+  ],
+  [
+   5,
+   "5. Let F = {eν}, ν = 1, 2, ..., n or ν = 1, 2, ... is an orthonormal basis in\nan inner product space H. Let E be the closed linear subspace spanned\nby F. For any x ∈H show that the following are equivalent: 1) x ∈E;\n2) ||x||2 = Σν|(x, eν)|2; 3) x = Σν(x, eν)eν.\nLet H = L2[0, 2π] with the inner product < f, g >= 1\nπ\nR 2π\nf(x)g(x)dx,\nF = { 1\n√\n2, cos x, sin x, ..., cos nx, sin nx, ...}\nbe an orthonormal basis. Show that the closed linear sub-space E\nspanned by F is H."
+  ],
+  [
+   6,
+   "6. Let H = L2[0, 1] relative to the Lebesgue measure and define (Kf)(s) =\nR s\n0 f(t)dt for each f in H. Show that K is a compact operator without\neigenvalues."
+  ]
+ ],
+ "2013I": [
+  [
+   1,
+   "1. Suppose that f is an integrable function on Rd. For each α > 0, let\nEα = {x||f(x)| > α}. Prove that:\n∫\nRd |f(x)|dx =\n∫∞\nm(Eα)dα."
+  ],
+  [
+   2,
+   "2. Let p(z) be a polynomial of degree d ≥2, with distinct roots\na1, a2, · · · , ad. Show that\nd\n∑\ni=1\np′(ai) = 0."
+  ],
+  [
+   3,
+   "3. Let α be a number such that α/π is not a rational number. Show\nthat:\n1) limN→∞ΣN\nn=1eik(x+nα) =\n2π\n∫π\n−π eiktdt.\n2) For every continuous periodic function f : R →C of period 2π,\nwe have\nlim\nN→∞\nN ΣN\nn=1f(x + nα) = 1\n2π\n∫π\n−π\nf(t)dt."
+  ],
+  [
+   4,
+   "4. Let u be a positive harmonic function over the punctured complex\nplane C/{0}. Show that u must be a constant function."
+  ],
+  [
+   5,
+   "5. Suppose H = L2(B), B is the unit ball in Rd. Let K(x, y) be a\nmeasurable function on B × B that satisfies\n|K(x, y)| ≤A|x −y|−d+α\nfor some α > 0, whenever x, y ∈B. Define\nTf(x) =\n∫\nB\nK(x, y)f(y)dy\n(a) Prove that T is a bounded operator on H.\n(b) Prove that T is compact."
+  ],
+  [
+   6,
+   "6. Let A be a n×n real non-degenerate symmetric matrix. For λ ∈R+,\nwe define:\n∫\nR exp(iλx2)dx = limϵ→0+ ∫∞\n−∞exp(iλx2 −1\n2ϵx2)dx. Show\nthat:\n\n \n∫\nRn exp(iλ\n2 < Ax, x > −i < x, ξ >)dx\n= (2π\nλ )n/2| det(A)|−1/2 exp(−i\n2λ < A−1ξ, ξ >) exp(iπ\n4 sgnA).\nHere λ ∈R+, ξ ∈Rn, sgn(A) = ν+(A) −ν−(A), ν+(A)(ν−(A)) is the\nnumber of positive (negative) eigenvalues of A."
+  ]
+ ],
+ "2013T": [
+  [
+   1,
+   "1. Suppose ∆= {z ∈C | |z| < 1} is the open unit disk in the complex\nplane. Show that for any holomorphic function f : ∆→∆,\n(1)\n|f ′(z)|\n1 −|f(z)|2 ≤\n1 −|z|2\nfor all z in ∆. If equality holds in (1) for some z0 ∈∆, show that\nf ∈Aut(∆), and that\n|f ′(z)|\n1 −|f(z)|2 =\n1 −|z|2\nfor all z ∈∆."
+  ],
+  [
+   2,
+   "2. Let f be a function of bounded variation on [a, b], f1 its generalized\nderivative as a measure, i.e. f(x)−f(a) =\n∫x\na f1(y)dy for every x ∈[a, b]\nand f1(x) is an integrable function on [a, b]. Let f\n′ be its weak deriva-\ntive as a generalized function, i.e.\n∫b\na f(x)g\n′(x)dx = −\n∫b\na f\n′(x)g(x)dx,\nfor any smooth function g(x) on [a, b], g(a) = g(b) = 0. Show that:\na) If f is absolutely continuous, then f\n′ = f1.\nb) If the weak derivative f\n′ of f is an integrable function on [a, b],\nthen f(x) is equal to an absolutely continuous function outside a set\nof measure zero."
+  ],
+  [
+   3,
+   "3. Show that the convex hull of the roots of any polynomial contains\nall its critical points as well as all the zeros of higher derivatives of the\npolynomial. Here the convex hull of a given bounded set in the plane\nis the smallest convex set containing the given set in the plane."
+  ],
+  [
+   4,
+   "4. Let D ⊂R3 be an open domain. Show that every smooth vector\nfield F = (P, Q, R) over D can be written as F = F1 + F2 such that\nrot(F1) = 0, div(F2) = 0, where rot(F) = (∂R\n∂y −∂Q\n∂z , ∂P\n∂z −∂R\n∂x , ∂Q\n∂x −\n∂P\n∂y ), div(F) = ∂P\n∂x + ∂Q\n∂y + ∂R\n∂z ."
+  ],
+  [
+   5,
+   "5. Let H be a Hilbert space and A a compact self-adjoint linear op-\nerator over H. Show that there exists an orthor-normal basis of H\nconsisting of eigenvectors φn of A with non-zero eigenvalues λn such\nthat every vector ξ ∈H can be written as: ξ = Σkckφk + ξ\n′, where\nξ\n′ ∈KerA, i.e., Aξ\n′ = 0. We also have Aξ = Σkλkckφk.\nIf there are infinitely many eigenvectors then limn→∞λn = 0."
+  ],
+  [
+   6,
+   "6. A function f: R →R is called convex if\nf(λx + (1 −λ)x′) ≤λf(x) + (1 −λ)f(x′)\nfor 0 ≤λ ≤1 and each x, x′ ∈R, and is called strictly convex if\nf(λx + (1 −λ)x′) < λf(x) + (1 −λ)f(x′)\nfor 0 < λ < 1. We assume that |f(x)| < ∞whenever |x| < ∞.\n(a) Show that a convex function f is continuous and the function\ng(y) = max\nx∈R (xy −f(x))\nis a well-defined convex function over R.\n(b) Show that a convex function f is differentiable except at most\ncountably many points.\n(c) f is differentiable everywhere if both f and g are strictly convex."
+  ]
+ ],
+ "2014I": [
+  [
+   1,
+   "1. Let f : R →R be a continuous function which satisfies\nsup\nx,y∈R\n|f(x + y) −f(x) −f(y)| < ∞.\nIf we have\nlim\nn→∞,n∈N\nf(n)\nn\n= 2014, prove sup\nx∈R\n|f(x) −2014 x| < ∞."
+  ],
+  [
+   2,
+   "2. Let f1, ..., fn are analytic functions on D = {z||z| < 1} and contin-\nuous on ¯D, prove that ϕ(z) = |f1(z)| + |f2(z)| + ... + |fn(z)| achieves\nmaximum values at the boundary ∂D."
+  ],
+  [
+   3,
+   "3. Prove that if there is a conformal mapping between the annulus\n{z|r1 < |z| < r2} and the annulus {z|ρ1 < |z| < ρ2}, then r2\nr1 = ρ2\nρ1."
+  ],
+  [
+   4,
+   "4. Let U(ξ) be a bounded function on R with finitely many points of\ndiscontinuity, prove that\nPU(x) = 1\nπ\n∫\nR\ny\n(x −ξ)2 + y2U(ξ)dξ\nis a harmonic function on the upper half plane {z ∈C|Imz > 0} and\nit converges to U(ξ) as z →ξ at a point ξ where U(ξ) is continuous."
+  ],
+  [
+   5,
+   "5. Let f ∈L2(R) and let ˆf be its Fourier transform. Prove that\n∫∞\n−∞\nx2|f(x)|2dx\n∫∞\n−∞\nξ2| ˆf(ξ)|2dξ ≥\n(\n∫∞\n−∞|f(x)|2dx)2\n16π2\n,\nunder the condition that the two integrals on the left are bounded.\n(Hint: Operators f(x) →xf(x) and ˆf(ξ) →ξ ˆf(ξ) after Fourier\ntransform are non-commuting operators. The inequality is a version of\nthe uncertainty principle.)"
+  ],
+  [
+   6,
+   "6. Let Ωbe an open domain in the complex plane C. Let H be the\nsubspace of L2(Ω) consisting of holomorphic functions on Ω.\na) Show that H is a closed subspace of L2(Ω), and hence is a Hilbert\nspace with inner product\n(f, g) =\n∫\nΩ\nf(z)¯g(z)dxdy, where z = x + iy.\nb) If {ϕn}∞\nn=0 is an orthonormal basis of H, then\n\n \nΣ∞\nn=0|ϕn(z)|2 ≤\nc2\nd(z, Ωc), for z ∈Ω.\nc) The sum\nB(z, w) = Σ∞\nn=0ϕn(z)¯ϕn(w)\nconverges absolutely for (z, w) ∈Ω× Ω, and is independent of the\nchoice of the orthonormal basis."
+  ]
+ ],
+ "2014T": [
+  [
+   1,
+   "1. Calculate the integral:\n∫∞\nlog x\n1 + x2dx."
+  ],
+  [
+   2,
+   "2. Construct an increasing function on R whose set of discontinuities\nis precisely Q."
+  ],
+  [
+   3,
+   "3. Prove that any bounded analytic function F over {z|r < |z| < R}\ncan be written as F(z) = zαf(z), where f is an analytic function over\nthe disk {z||z| < R} and α is a constant."
+  ],
+  [
+   4,
+   "4. Let D ⊂Rn be a bounded open set, f : ¯D →¯D is a smooth map\nsuch that its Jacobian\n\f\f\f\f\n∂f\n∂x\n\f\f\f\f ≡1, where ¯D denotes the closure of D.\nProve\n(a) for each small ball Bϵ(x), there exists a positive integer k such\nthat f k(Bϵ(x)) ∩Bϵ(x) ̸= ∅, where Bϵ(x) denotes the ball cen-\ntered at x with radius ϵ;\n(b) there exists x ∈¯D and a sequence k1, k2, · · · kj, · · · such that\nf kj(x) →x as kj →∞."
+  ],
+  [
+   5,
+   "5. Let u be a subharmonic function over a domain Ω⊂C, i.e., it is\ntwice differentiable and ∆u = ∂2u\n∂x2 + ∂2u\n∂y2 ≥0. Prove that u achieves its\nmaximum in the interior of Ωonly when u is a constant."
+  ],
+  [
+   6,
+   "6. Suppose that ϕ ∈C∞\n0 (Rn),\n∫\nRn ϕdx = 1. Let ϕϵ(x) = ϵ−nϕ(x/ϵ), x ∈\nRn, ϵ > 0. Prove that if f ∈Lp(Rn), 1 ≤p < ∞, then f ∗ϕϵ →f in\nLp(Rn), as ϵ →0. It is not true for p = ∞."
+  ]
+ ],
+ "2015I": [
+  [
+   1,
+   "1. Let fn ∈L2(R) be a sequence of measurable functions over the line, fn →f almost\neverywhere. Let ||fn||L2 →||f||L2, prove that ||fn −f||L2 →0."
+  ],
+  [
+   2,
+   "2. Let f be a continuous function on [a, b], define Mn =\n∫b\na f(x)xndx. Suppose that\nMn = 0 for all integers n ≥0, show that f(x) = 0 for all x."
+  ],
+  [
+   3,
+   "3. Determine all entire functions f that satisfying the inequality\n|f(z)| ≤|z|2|Im(z)|2\nfor z sufficiently large."
+  ],
+  [
+   4,
+   "4. Describe all functions that are holomorphic over the unit disk D = {z||z| < 1},\ncontinuous on ¯D and map the boundary of the disk into the boundary of the disk."
+  ],
+  [
+   5,
+   "5. Let T : H1 →H2, Q : H2 →H1 be bounded linear operators of Hilbert spaces\nH1, H2. Let QT = Id −S1, TQ = Id −S2 where S1 and S2 are compact operators.\nProve KerT = {v ∈H1, Tv = 0}, CokerT = H2/Im(T) are finite dimensional and\nIm(T) = {Tv ∈H2, v ∈H1} is closed in H2.\nNote: S is compact means for every bounded sequence xn ∈H1, Sxn has a converging\nsubsequence."
+  ],
+  [
+   6,
+   "6. Let H1 be the Sobolev space on the unit interval [0, 1], i.e.\nthe Hilbert space\nconsisting of functions f ∈L2([0, 1]) such that\n||f||2\n1 = Σ∞\nn=−∞(1 + n2)| ˆf(n)|2 < ∞;\nwhere\nˆf(n) = 1\n2π\n∫1\nf(x)e−2πinxdx\nare Fourier coefficients of f. Show that there exists constant C > 0 such that\n||f||L∞≤C||f||1\nfor all f ∈H1, where ||.||L∞stands for the usual supremum norm. (Hint: Use Fourier\nseries.)"
+  ]
+ ],
+ "2015T": [
+  [
+   1,
+   "1. Let ϕ ∈C([a, b], R). Suppose for every function h ∈C1([a, b], R), h(a) = h(b) = 0,\nwe have\n∫b\na\nϕ(x)h(x)dx = 0.\nProve that ϕ(x) = 0."
+  ],
+  [
+   2,
+   "2. Let f be a Lebesgue integrable function over [a, b + δ], δ > 0, prove that\nlim\nh→0+\n∫b\na\n|f(x + h) −f(x)|dx →0."
+  ],
+  [
+   3,
+   "3. Let L(q, q\n′, t) be a function of (q, q\n′, t) ∈TU × R, U is an open domain in Rn. Let\nγ : [a, b] →U be a curve in U. Define a functional S(γ) =\n∫b\na L(γ(t), γ\n′(t), t)dt. We say\nthat γ is an extremal if for every smooth variation of γ, ϕ(t, s), s ∈(−δ, δ), ϕ(t, 0) =\nγ(t), ϕs = ϕ(t, s), we have dS(ϕs)\nds\n|s=0 = 0. Prove that every extremal γ satisfies the\nEuler-Lagrange equation:\nd\ndt( ∂L\n∂q′ ) = ∂L\n∂q ."
+  ],
+  [
+   4,
+   "4. Let f : U →U be a holomorphic function with U a bounded domain in the complex\nplane. Assuming 0 ∈U, f(0) = 0, f\n′(0) = 1, prove that f(z) = z."
+  ],
+  [
+   5,
+   "5. Let T : H1 →H2 be a bounded operator of Hilbert spaces H1, H2. Let S : H1 →H2\nbe a compact operator, that is, for every bounded sequence {vn} ∈H1, Svn has a con-\nverging subsequence. Show that Coker(T + S) = H2/Im(T + S) is finite dimensional\nand Im(T + S) is closed in H2. (Hint: Consider equivalent statements in terms of\nadjoint operators.)"
+  ],
+  [
+   6,
+   "6. Let u ∈C2(¯Ω), Ω⊂Rd is a bounded domain with a smooth boundary.\n1) Let u be a solution of the equation ∆u = f, u|∂Ω= 0, f ∈L2(Ω). Prove that there\nis a constant C depends only Ωsuch that\n∫\nΩ\n(Σn\nj=1( ∂u\n∂xj\n)2 + u2)dx ≤C\n∫\nΩ\nf 2(x)dx.\n2) Let {un} be a sequence of harmonic functions on Ω, such that ||un||L2(Ω) ≤M <\n∞, for a constant M independent of n. Prove that there is a converging subsequence\n{unk} in L2(Ω)."
+  ]
+ ],
+ "2016I": [
+  [
+   1,
+   "1. Suppose that F is continuous on [a, b], F\n′(x) exists for every x ∈(a, b), F\n′(x) is\nintegrable. Prove that F is absolutely continuous and\nF(b) −F(a) =\n∫b\na\nF\n′(x)dx."
+  ],
+  [
+   2,
+   "2. Suppose that f is integrable on Rn, let Kδ(x) = δ−n\n2 e\n−π|x|2\nδ\nfor each δ > 0. Prove\nthat the convolution\n(f ∗Kδ)(x) =\n∫\nRn f(x −y)Kδ(y)dy\nis integrable and ||(f ∗Kδ) −f||L1(Rn) →0, as δ →0."
+  ],
+  [
+   3,
+   "3. Prove that a bounded function on interval I = [a, b] is Riemann integrable if and\nonly if its set of discontinuities has measure zero. You may prove this by the following\nsteps.\nDefine I(c, r) = (c −r, c + r), osc(f, c, r) = supx,y∈J∩I(c,r) |f(x) −f(y)|, osc(f, c) =\nlimr→0 osc(f, r, c).\n1) f is continuous at c ∈J if and only if osc(f, c) = 0.\n2) For arbitrary ϵ > 0, {c ∈J|osc(f, c) ≥ϵ} is compact.\n3) If the set of discontinuities of f has measure 0, then f is Riemann integrable."
+  ],
+  [
+   4,
+   "4. 1) Let f be the Rukowski map: w = 1\n2(z + 1\nz). Show that it maps {z ∈¯C||z| > 1}\nto ¯C/[−1, 1], ¯C = C ∪{∞}.\n2) Compute the integral:\n∫∞\nlog x\nx2 −1dx."
+  ],
+  [
+   5,
+   "5. Let f be a doubly periodic meromorphic function over the complex plane, i.e. f(z +\n1) = f(z), f(z + i) = f(z), z ∈C, prove that the number of zeros and the number of\npoles are equal."
+  ],
+  [
+   6,
+   "6. Let A be a bounded self-adjoint operator over a complex Hilbert space. Prove that\nthe spectrum of A is a bounded closed subset of the real line R."
+  ]
+ ],
+ "2016T": [
+  [
+   1,
+   "1. Let D ⊂Rd, d ≥2 be a compact convex set with smooth boundary ∂D so that the\n\norigin belongs to the interior of D. For every x ∈∂D let α(x) ∈(0, ∞) be the angle\n\nbetween the position vector x of the outer normal vector n(x). Let ωd be the surface\n\narea of the unit sphere in Rd. Compute:\n\n\nωd\n\n∫\n\n∂D\n\ncos(α(x))\n\n|x|d−1\n\ndσ(x)\n\nwhere dσ denotes the surface measure on ∂D."
+  ],
+  [
+   2,
+   "2. Let p > 0 and suppose fn, f ∈Lp[0, 1] and ||fn −f||p = (\n\n∫1\n\n0 |fn(x)−f(x)|pdx)\n\n\np →0\n\nas n →∞.\n\na) Show that for every ϵ > 0,\n\nlim\n\nn→∞m({x ∈[0, 1]||fn(x) −f(x)| > ϵ}) = 0.\n\nHere m is the Lebesgue measure.\n\nb) Show that there exists a subsequence fnj such that fnj(x) →f(x) for almost\n\nevery x ∈[0, 1]."
+  ],
+  [
+   3,
+   "3. 1) Let f be a holomorphic function on the unit disk D = {z ∈C||z| < 1} except 0.\n\nAssume f ∈L2(D), i.e.\n\n∫\n\nD |f(z)|2dzd¯z < ∞, then 0 is a removable singularity.\n\n2) Let fn be a sequence of holomorphic functions over a domain Ω⊂C converging\n\nto f uniformly on any compact subset of Ω, does the sequence of its derivatives f\n\n′\n\nn also\n\nhave this property?"
+  ],
+  [
+   4,
+   "4. Consider the torus T 2 = C/Λ, Λ = {m+in|m, n ∈Z}, i.e. z1, z2 ∈C are equivalent\n\nif and only if there are integers m, n such that z2 = z1 + m + in and T 2 are the space\n\nof equivalent classes. Show that the group of holomorphic automorphisms of T 2 is\n\nSL(2, Z) of 2 x 2 integer matrices of determinant 1."
+  ],
+  [
+   5,
+   "5. Let {en} be an orth-normal basis of l2 of square integrable functions over a circle.\n\nLet A : l2 →l2, Ae1 = 0, Aen = en−1\n\nn−1 , n > 1 be a linear operator. Show that A is an\n\ncompact operator and A has no eigenvectors. What are the spectrum of A?"
+  ],
+  [
+   6,
+   "6. If M = [0, 1] is the unit interval, the heat kernel on M can be written\n\np(x, y, t) = Σkϕk(x)ϕk(y)eλkt,\n\nwhere {λk} is an enumeration of the eigenvalues of the ∆=\n\nd2\n\ndx2 on M and {ϕk} are\n\nthe corresponding eigenfunctions which vanish on ∂M.\n\n\n\n\n \n\n\ni) Calculate {λk} and the corresponding eigenfunctions.\n\nii) Prove that |p(x, y, t)| ≤Ct−1/2, for all x, y, and 0 < t < 1.\n\niii) What is the exponential rate of decay of p(x, y, t) as t →∞, i.e. compute:\n\nlim\n\nt→∞log(p(x, y, t))."
+  ]
+ ],
+ "2017I": [
+  [
+   1,
+   "1. Suppose f is integrable on [−π, π], prove that Σ∞\nn=−∞anr|n|einx tends to f(x) for a.e.\nx, as r →1, r < 1. Here an =\n2π\nR π\n−π f(x)e−inxdx."
+  ],
+  [
+   2,
+   "2. Let H be a Hilbert space equipped with an inner product (.,.) and a norm ||.|| =\n(., .)\n2. A sequence {fk} is converge to f ∈H if ||fk −f|| →0. A sequence {fk} ⊂H\nis said converge weakly to f ∈H if (fk, g) →(f, g) for any g ∈H. Prove the following\nstatements:\na) {fk} converges to f if and only if ||fk|| →||f|| and {fk} converges weakly to f.\nb) If H is a finite dimensional Hilbert space, then the weak convergence implies con-\nvergence. Give a counter example to show that weak convergence does not necessarily\nimply convergence in an infinite dimensional Hilbert space."
+  ],
+  [
+   3,
+   "3. Let f : C/{0} →C be a holomorphic function and\n|f(z)| ≤|z|2 +\n|z|1/2,\nfor z near 0. Determine all such functions."
+  ],
+  [
+   4,
+   "4. Find a conformal mapping which maps the region {z||z −i| <\n√\n2, |z + i| <\n√\n2}\nonto the unit disk."
+  ],
+  [
+   5,
+   "5. If E is a compact set in a region Ω, prove that there exists a constant M > 0,\ndepending only on E and Ω, such that every positive harmonic function u(z) in Ω\nsatisfies u(z2) ≤Mu(z1) for any two points z1, z2 ∈E."
+  ],
+  [
+   6,
+   "6. 1) For any bounded domain Ω⊂Rn, there exists a smallest constant C(Ω), such\nthat\nZ\nΩ\n|u|2dx ≤C(Ω)\nZ\nΩ\nΣn\ni=1| ∂u\n∂xi\n|2dx\nfor every function u ∈H1\n0(Ω) = C∞\n0 (Ω) ⊂H1(Ω), where C∞\n0 (Ω) is the space of\nsmooth functions over Ωand vanishing on boundary of Ωand H1(Ω) is the Banach\nspace of functions u ∈L2(Ω), ∇u ∈L2(Ω)⊗n with the norm:\n||u||2\nH1(Ω) = ||u||2\nL2(Ω) + ||∇u||2\nL2(Ω)⊗n\n=\nZ\nΩ\n(|u|2 + Σn\ni=1| ∂u\n∂xi\n|2)dx.\nH1\n0(Ω) is the completion of C∞(Ω) in H1(Ω) with the above norm.\n2) Let Π = {(x, y)|0 < x < a, 0 < y < b}, show that C(Π) ≥\na2b2\nπ2(a2+b2)."
+  ]
+ ],
+ "2017T": [
+  [
+   1,
+   "1. Suppose that f is an integrable function on the circle with ˆf(n) =\n\n\n2π\n\nR 2π\n\n\nf(x)e−inxdx =\n\n0, for all n ∈Z. Then f(θ) = 0 whenever f is continuous at the point θ."
+  ],
+  [
+   2,
+   "2. Let F be continuous on [a, b]. Show that:\n\n1) Suppose (D+F)(x) = lim suph→0,h>0\n\nF(x+h)−F(x)\n\nh\n\n> 0 for every x ∈[a, b). Then F\n\nis increasing on [a, b].\n\n2) If F\n\n′(x) exists for every x ∈(a, b) and |F\n\n′(x)| ≤M, then |F(x)−F(y)| ≤M|x−y|\n\nand F is absolutely continuous."
+  ],
+  [
+   3,
+   "3. Let f(z) be holomorphic for |z| < 1 and assume |f(z)| < 1, if |z| < 1. If α and β\n\nare such that |α| < 1, |β| < 1, α ̸= β, and f(α) = f(β) = 0, then\n\n|f(z)| ≤| z −α\n\n1 −¯αz\n\nz −β\n\n1 −¯βz|, |z| < 1."
+  ],
+  [
+   4,
+   "4. Show that a single-valued analytic branch of\n\n√\n\n1 −z2 can be defined in any region\n\nsuch that the points ±1 are in the same component of the complement. What are the\n\npossible values of\n\nR\n\ndz\n\n√\n\n1−z2 over a closed curve in the region?"
+  ],
+  [
+   5,
+   "5. In Rn, consider the Laplace equation\n\nu11 + u22 + ... + unn = 0.\n\nShow that the equation is invariant under orthogonal transformation. Find all rota-\n\ntionally symmetric solutions to this equation."
+  ],
+  [
+   6,
+   "6. Let A be an operator over the function space C[a, b] defined as:\n\n(Af)(x) =\n\nZ b\n\na\n\nK(x, y)f(y)dy,\n\nwhere K(x, y) is continuous over [a, b] × [a, b] except at several curves defined by y =\n\nφk(x), x ∈[a, b], k = 1, ..., n with φk continuous. Show that A is a compact operator."
+  ]
+ ],
+ "2018I": [
+  [
+   1,
+   "1. Let the sequence of functions {fn}∞\nn=1 in L2(Rd) satisfy that ∥fn∥L2 = 1.\n(1)Show that there exists a subsequence of function {fnj}∞\nj=1 such that fnj converges\nweakly to some function f in L2(Rd), i.e.\n(fnj, g) →(f, g)\nfor all g ∈L2(Rd).\n(2)If fn →f weakly in L2(Rd), and ∥fn∥L2 →∥f∥L2 as n →∞.\nShow that\n∥fn −f∥L2 →0 as n →∞."
+  ],
+  [
+   2,
+   "2. Let f : U →C be a non-constant holomorphic function where U ⊂C is the open\nset containing the closure D of the unit disk D = {z ∈C||z| < 1}.\nIf |f(z)| = 1, for all z ∈∂D, Prove that D ⊂f(D)."
+  ],
+  [
+   3,
+   "3. Prove that if a sequence of harmonic function on the open disk converges uniformly\non compact subset of the disk, then the limit is harmonic."
+  ],
+  [
+   4,
+   "4. Let µ be a Borel measure on Rn. Let ρ > 0, a fixed positive number, and Bρ(x) =\n{y ∈Rn|d(x, y) < ρ}. For x ∈Rn, define a function:\nθ(x) : x →µ(Bρ(x))\n1) Show that θ is upper semi-continuous, i.e. for every x ∈Rn, θ(x) ≥lim supy→x θ(y).\n2) Give an example of a Borel measure µ, such that the function θ is not continuous."
+  ],
+  [
+   5,
+   "5. Let g denote a smooth function on Rn with compact support. Let f denote the\nfunction given by the formula\nf(x) =\nn(n −1)α(n)\nZ\nRn\n|x −y|n−2g(y)dy.\nHere α(n) is volume of the unit ball in Rn.\n(a) Prove that the integral that defines f converges for each x ∈Rn.\n(b) Prove that f is differentiable and that the gradient of f if given by the formula\n∇f|x =\nn(n −1)α(n)\nZ\nRn\n|x −y|n−2(∇g)|ydy.\n(c) Prove the f obeys −∆f = g with ∆denoting\n∂2\n∂x12 + · · · +\n∂2\n∂xn2."
+  ],
+  [
+   6,
+   "6. If u is a positive harmonic function on Rn \\ {0} (n ≥2), then exist constants\na ≥0, b ≥0 such that\nu(x) = a + b|x|2−n\nfor all x ∈Rn \\ {0}."
+  ]
+ ],
+ "2018T": [
+  [
+   1,
+   "1. Suppose {fn}∞\n\nn=1 ∈L2(R) is a sequence that converges to 0 in the L2 norm .\n\nProve that there exists a subsequence {fnk} such that fnk →0 almost everywhere."
+  ],
+  [
+   2,
+   "2. Let ˆf(ξ) =\n\nR\n\ne−ixξf(x)dx be the Fourier transform on Schwartz function f ∈S(R).\n\nSuppose f ∈S(R) satisfies f(2πn) = 0 and ˆf(n) = 0 for all integers n. Prove that\n\nf = 0."
+  ],
+  [
+   3,
+   "3. If f is integrable on Rd, then\n\nlim\n\nm(B)→0,x∈B\n\n\nm(B)\n\nZ\n\nB\n\nf(y)dy = f(x),\n\nfor a.e. x, B is an open ball centered at x."
+  ],
+  [
+   4,
+   "4. Let C[0, 1] = {f : [0, 1] →R| f is continuous} be the space of continuous function\n\non [0, 1]. Let ρ(f, g) =\n\nR 1\n\n0 |f(x) −g(x)|dx be a metric on [0, 1].\n\nShow that (C[0, 1], ρ) is not a complete metric vector space.\n\nConstruct a complete metric vector space (W, eρ) such that i : (C[0, 1], ρ) ,→(W, eρ)\n\nis an isometric embedding such that eρ|C[0,1] = ρ, C[0, 1] = W."
+  ],
+  [
+   5,
+   "5. Let Ωbe a simply connected domain in C. Consider a point z0 ∈Ωand solve the\n\nDirichlet problem in Ωwith the boundary values log |ζ−z0|. The solution is denoted by\n\nG(z, z0) and let g(z, z0) = G(z, z0) −log |z −z0|. Let w = f(z) : Ω→D1 = {z||z| < 1}\n\nbe the one to one surjective conformal mapping with f(z0) = 0. Show that\n\n1) g(z, z0) = −log |f(z)|.\n\n2) g(z, z0) = g(z0, z). (Hint: Let g(z, z1) = g1, g(z, z2) = g2, calculate the integral\n\ng1 ∗dg2 −g2 ∗dg1 over the cycle ∂Ω−c1 −c2, where c1, c2 are small circles around\n\nz1, z2, du = uxdx + uydy, ∗du = −uydx + uxdy.)"
+  ]
+ ],
+ "2019I": [
+  [
+   1,
+   "1) Let F : R →R be a strictly convex function. Let u: [0, 1] →R be a continuous function, with\nZ 1\nu(x) dx = 0.\nShow that\nZ 1\nF(u(x)) dx ⩽F(∥u∥∞) + F(−∥u∥∞)\nwhere ∥u∥∞:= sup\nx∈[0,1]\n|u(x)|. Also determine when equality occurs."
+  ],
+  [
+   2,
+   "2) Prove that there exists a universal constant K, for all C1 function f : R2 →R, if f ∈L1 ¡\nR2¢\n∩L2 ¡\nR2¢\nand |∇f| ∈L2(R2), we have the following inequality:\n∥f∥2\nL2(R2) ⩽K ∥f∥L1(R2) ∥∇f∥L2(R2) .\nCan you provide constant K so that K < 10? In the problem, all the Lp-spaces are defined with\nrespect to the Lebesgue measure."
+  ],
+  [
+   3,
+   "3) Let f : R2 →R be a harmonic function. Suppose\nlim\n|x|→∞\n|f(x)|\nln |x| = 0.\nProve or disprove that f is a constant."
+  ],
+  [
+   4,
+   "4) (a) Show that there does not exist a holomorphic function f on C \\ {1, −1} so that\nf ′(z) =\n(z2 −1)2019\nfor all z ∈C \\ {1, −1}.\n(b) Show that there exist a set L ⊂C and a holomorphic function F on C \\ L so that L has Hausdorff\ndimension 1, and\nF ′(z) =\n(z2 −1)2019\nfor all z ∈C \\ L."
+  ],
+  [
+   5,
+   "5) Let Ω⊂R2 be a bounded domain with smooth boundary. Prove that, for all p > 1 and 1 ⩽q < ∞,\nfor all f ∈Lp(Ω), there exists a unique u ∈H1\n0(Ω), such that\n△u = |u|q−1u + f in Ω."
+  ]
+ ],
+ "2019T": [
+  [
+   1,
+   "1) Show that there is no non-zero f ∈C∞\n0 (R2) (compactly supported smooth function) so that its Fourier\ntransform bf(ξ) is also compactly supported."
+  ],
+  [
+   2,
+   "2) Prove the following classical interior Schauder estimates:\nThere exists a universal constant C, for all smooth compactly supported functions u, f ∈C∞\n0 (R3) with\n△u = f, we have\n∥u∥C2,α ⩽C∥f∥C0,α,\nwhere 0 < α < 1 and ∥· ∥Ck,α are H¨older norms."
+  ],
+  [
+   3,
+   "3) Let (X, A, µ) be a probability space and let T : X →X be a measurable and measure preserving map,\ni.e., for all A ∈A, we have µ\n¡\nT −1(A)\n¢\n= µ(A). For A, B ∈A, if µ(A −B) = µ(B −A) = 0, we say\nthat A = B a.e.\nAssume A ∈A such that T −1(A) = A a.e..Prove that there exists a set B ∈A so that T −1B = B and\nA = B a.e."
+  ],
+  [
+   4,
+   "4) Is there an entire function f with infinitely many zeroes, so that for every r ∈(0, 1), there exist\nconstants Ar, Br < ∞such that\n|f(z)| ⩽AreBr|z|r\nfor every z ∈C?"
+  ],
+  [
+   5,
+   "5) Let u(t, x, y) be a smooth real function defined on R × R2 where t ∈R and (x, y) ∈R2. We assume\nthat it solves the following semilinear wave equation:\n−∂2\n∂t2 u + △u = u3.\nIf the supports of the initial data u(0, x) and ∂u\n∂t (0, x) are compact, prove that, for all t0 ∈R, the\nsupports of u(t0, x) and ∂u\n∂t (t0, x) are compact."
+  ]
+ ],
+ "2020I": [
+  [
+   1,
+   "Problem 1. Let χ be a real valued smooth function with compact support on R. We assume that\n∫\nR1 χ(x)dx = 1.\nFor all ε > 0, we define\nχε(x) = 1\nε χ\n\u0010 x\nε\n\u0011\n.\nProve that for any given f ∈L1(R), for almost every x ∈R, we have\nlim\nε→0(χε ∗f )(x) = f (x)."
+  ],
+  [
+   2,
+   "Problem 2. In last year’s Yau College Student Mathematics Contests, four students Tintin, Haddock,\nDupont and Dupond made it to the last round of the oral exam in analysis. Professor Yau asked them\nto compute the Fourier coefficients of the 2π-periodic function F (defined on R):\nF : (0,2π) →R,\nx 7→F(x) = arctan\n\u0010 x\n2π esin(x) + x2019(x −2π) + 2019 sin(x)\n\u0011\n.\nHere were their solutions: for k , 0,\nTintin : bF(k) = cos(kπ)\n|k|\n+ a\n|k| +\nb\n|k|3,\nHaddock : bF(k) = c\nk2 + d\nk4 + e\nk6,\nDupont : bF(k) = 1\nk + 1\nk2 + f\nk3 + g\nk5,\nDupond : bF(k) = 2019\n√\n−1\nk\n+ hk\nk ,\nwhere a, b,c, d,e, f,g, hk(k ∈Z) were constants and\nÕ\nk∈Z\n|hk|2 < ∞.\nWhose solutions were correct?"
+  ],
+  [
+   3,
+   "Problem 3.\nLet B1 be the unit ball centered at the origin in R4 and u ∈W1,2(B1) ∩C∞(R4) be a\nnonnegative real valued function so that\n−△u ≤u2,\n\n \nwhere △=\nÕ\ni=1\n∂2\n∂x2\ni\n. Prove that, there exists a constant ε > 0, so that if ∥u∥L2(B1) ≤ε, we have\n∥∇u∥L2(B 1\n) ≤10000∥u∥L2(B1),\nwhere B 1\n2 is the ball of radius 1\n2 centered at the origin."
+  ],
+  [
+   4,
+   "Problem 4.\nLet f and g be two holomorphic functions defined on the entire complex plane C so\nthat for all z ∈C, we have\nf (z)2020 + g(z)2020 = 1.\nProve that f and g are constants."
+  ],
+  [
+   5,
+   "Problem 5. We consider the following ordinary differential equation:\n(\nx′′(t) + x(t) + x(t)3 = 0,\n(x(0), x′(0)) = (x0,0),\nwhere x(t) takes values in R. Prove that for all x0 ∈R, the solution of the above system is periodic."
+  ],
+  [
+   6,
+   "Problem 6. Let α ∈R and ak ∈C with |ak| < 1, where k = 1,2,. . .,n. We consider the following\nholomorphic map\nf :C −\n\b\n(a1)−1,. . .,(an)−1\t\n→C,\nz 7→f (z) = e2\n√\n−1παz · z −a1\n1 −a1z · · · z −an\n1 −anz .\nLet S1 be the unit circle in C, i.e.,\nS1 =\n\b\nz ∈C\n\f\f |z| = 1\n\t\n.\nProve that f maps S1 to itself and f preserves the surface measure (i.e., dθ in terms of standard\npolar coordiantes of R2) of S1."
+  ]
+ ],
+ "2021I": [
+  [
+   1,
+   "Problem 1. Prove that f (x) ≡0 is the only solution in L2(Rn) such that\n△f = 0."
+  ],
+  [
+   2,
+   "Problem 2. Let X ⊂C ([0,1]) be a finite dimensional linear subspace of the space of real-valued continuous\nfunctions on [0,1]. Show that, for a sequence of functions { fk}k⩾1 ⊂X, if it converges pointwise, it converges\nuniformly."
+  ],
+  [
+   3,
+   "Problem 3.\n(a) For f ∈L1(Rn), g ∈L∞(Rn), show that their convolution f ∗g is a well-defined continuous function.\n(b) Let E ⊂Rn be a Lebesgue measurable set with Lebesgue measure m(E) > 0. Prove that\nE −E :=\n\b\nx −y\n\f\f x ∈E, y ∈E\n\t\ncontains an open neighborhood of 0 ∈Rn."
+  ],
+  [
+   4,
+   "Problem 4.\nAssume that P is a polynomial with complex coefficients. Prove that there exists infinitely\nmany solutions of the following equations on C:\nez = P(z)."
+  ],
+  [
+   5,
+   "Problem 5.\nLet f be a bounded holomorphic function defined on B =\n\b\nz\n\f\f 0 < Re(z) < 1\n\t\nthat can be\nextended as a continuous function on B. Let\nA0 =\nsup\nRe(z)=0\n| f (z)| > 0, A0 =\nsup\nRe(z)=1\n| f (z)| > 0.\nProve that for all z ∈B, we have\n| f (z)| ⩽(A0)1−Re(z)(A1)Re(z)."
+  ],
+  [
+   6,
+   "Problem 6.\nAssume that Ω⊂Rn is a bounded domain with smooth boundary. Prove that there exists a\npositive constant ε0 so that for all real numbers ε < ε0, for all f ∈L2(Ω), there exist a unique u ∈H1\n0(Ω) so\nthat\n−△u + ε sin(u) = f\nin the sense of distributions."
+  ]
+ ],
+ "2022I": [
+  [
+   1,
+   "Problem 1. For 𝑛≥1, we consider the integral\n𝐼𝑛= ∫\n[0,1]𝑛\n𝑛\n𝑥1 + 1\n𝑥2 + ⋯+\n𝑥𝑛\n𝑑𝑥1 ⋯𝑑𝑥𝑛.\nProve that lim\n𝑛→∞𝐼𝑛exists."
+  ],
+  [
+   2,
+   "Problem 2. Let 𝑈⊂𝐂be a non-empty open set and 𝑓∶𝑈→𝑈be a non-constant holomorphic function. Prove\nthat, if 𝑓∘𝑓= 𝑓, then 𝑓(𝑧) ≡𝑧for all 𝑧∈𝑈."
+  ],
+  [
+   3,
+   "Problem 3.\nLet 𝑋⊂𝐑be a set with positive (Lebesgue) measure. Show that we can find an arithmetic pro-\ngression of 2022 terms in 𝑋, i.e., there exists 𝑥1, … , 𝑥2022 ∈𝑋so that the 𝑥𝑖+1 −𝑥𝑖’s are all equal and positive,\n𝑖= 1, … , 2021."
+  ],
+  [
+   4,
+   "Problem 4.\nLet 𝐶([0, 1]) be the space of all continuous 𝐂-valued functions equipped with 𝐿∞-norm. Let 𝐏⊂\n𝐶([0, 1]) be a closed linear subspace. Assume that the elements of 𝐏are polynomials. Prove that dim 𝐏< ∞."
+  ],
+  [
+   5,
+   "Problem 5.\nLet Ω ⊂𝐑3 be a bounded domain with smooth boundary. Assume that 𝑢∈𝐶(𝐑3 −Ω) is a\nharmonic function on 𝐑3 −Ω so that 𝑢||Ω = 1 and lim\n|𝑥|→∞|𝑢(𝑥)| = 0.\nProve that for such 𝑢, lim\n|𝑥|→∞|𝑥|𝑢(𝑥) exists."
+  ],
+  [
+   6,
+   "Problem 6. Let 𝑓(𝑥, 𝑦) ∈𝐶1(𝐑2). We assume that there exists 𝐶> 0 so that for all (𝑥, 𝑦) ∈𝐑2, ||\n𝜕𝑓\n𝜕𝑦(𝑥, 𝑦)|| ≤𝐶.\nProve that the following ODE has a globally defined solution for all 𝑦(0) = 𝑦0 ∈𝐑:\n{\n𝑑\n𝑑𝑥𝑦(𝑥) = 𝑓(𝑥, 𝑦(𝑥)),\n𝑦(0) = 𝑦0.\n(1)\nIn addition, we assume that 𝑓is 1-periodic in 𝑥, i.e., for all (𝑥, 𝑦) ∈𝐑2, we have 𝑓(𝑥+ 1, 𝑦) = 𝑓(𝑥, 𝑦). Prove that\nif (1) admits a globally defined bounded solution, then (1) admits a periodic solution."
+  ]
+ ],
+ "2023I": [
+  [
+   1,
+   "1. Let (Mn, ∥· ∥) be the Banach space formed by n × n real matrices, equipped with\nHilbert-Schmidt norm. Prove:\n(1). If γ : R →Mn is a C1-function with γ(0) = I (the identity matrix) and ˙γ(0) =\nA ∈Mn, then for ∀t ∈R, the sequence {γn(t/n)}∞\nn=1 converges to exp(tA); In\nparticular, for ∀A, B ∈Mn, et(A+B) = limn→∞(e\nt\nnAe\nt\nnB)n;\n(2). For ∀A, B ∈Mn, if et(A+B) = etAetB, ∀t ∈R, then [A, B] := AB −BA = 0."
+  ],
+  [
+   2,
+   "2. Let f(t, x, y) be a C1 function on [0, 1] × R2. Let ϕ be a solution of the second-order\nordinary differential equation (∗)d2x\ndt2 = f(t, x, d\ndtx), t ∈[0, 1] such that ϕ(0) = a, ϕ(1) =\nb where a, b are given real numbers. Suppose ∂f\n∂x(t, x, y) > 0 for all (t, x, y) ∈[0, 1]×R2.\nProve: if |β −b|, β ∈R, is sufficiently small, then there exists a solution ψ of (∗) such\nthat ψ(0) = a, ψ(1) = β."
+  ],
+  [
+   3,
+   "3. A function ϕ : Rn →C is called positive definite if for all k ∈N, yj ∈Rn, cj ∈C,\nj = 1, . . . , k, one have Pk\ni,j=1 ci¯cjϕ(yi −yj) ⩾0. If ϕ is a measurable positive definite\nfunction on Rn. Prove:\n(1) ϕ(−y) = ϕ(y) and |ϕ(y)| ⩽ϕ(0).\n(2) For every Lebesgue integrable nonnegative function f on Rn, one have\nZ\nRn ϕ(x −y)f(x)f(y)dxdy ⩾0.\n(3) If the function f is also even, then\nZ\nRn ϕ(x)f ∗f(x)dx ⩾0,\nwhere ∗stands for convolution.\n(4) For all α > 0, we have\nZ\nRn ϕ(x) exp(−α|x|2)dx ⩾0."
+  ],
+  [
+   4,
+   "4. For a 2π-periodic function x ∈L2([0, 2π]), let xn(t) = x(nt), n = 1, 2, . . . .\nProve that {xn} converges weakly in L2([0, 2π]) and find the limit."
+  ],
+  [
+   5,
+   "5. Let f be an entire function on C and there exists a constant C > 0 such that f(z)| ⩽\nC\np\n|z|| cos(z)| for all z ∈C. Prove that f is identically zero."
+  ],
+  [
+   6,
+   "6. Let u(t, x) satisfy the following equation,\nut +\nn\nX\ni=1\nψi(t, x, u)uxi = µ∆u; u(0, x) = u0,\nwhere u0 ∈C2(Rn), ψi, i = 1, . . . , n are of bounded C2-norm, ∆= Pn\ni=1 ∂2\nxi is the\nLaplacian in Rn and µ > 0. Assume |u0| ⩽eΦ/µ where Φ is bounded above and has\nLipschitz constant 1. Assume that (Pn\ni=1 |Ψi(t, x, u)|2)1/2 ⩽A, where A is a postive\nconstant.\nProve that there exists a constant C depending only on n that\n|u(t, x)| ⩽eCte((A+1)t+Φ(x)+2)/µ,\n∀t ⩾0."
+  ]
+ ],
+ "2024I": [
+  [
+   1,
+   "Problem 1. Let Q : R Ñ R be a C8\nc\nfunction, i.e. it is smooth and has compact support. We\nassume Q is even, i.e. Qpxq “ Qp´xq. We assume Q is non-trivial, (i.e. Q does not equal to zero\neverywhere).\nLet T1pxq :“ xQpxq, and let T2pxq “ x2Qpxq. Let T3 :“ e´x2p1 ` x2024q\nWe also introduce the following notation. For any f : R Ñ R, λ ą 0, α P R, we define\nfλ,αpxq :“\nλ1{2 fpx ´ α\nλ\nq\n(0.1)\nWe claim: There exists δ ą 0, ϵ ą 0, so that for any c P R with |c| ă δ, one can find unique λ, α\nsuch that the followings hold\n1. |λ ´ 1| ` |α| ă ϵ."
+  ],
+  [
+   2,
+   "2. ă Qλ,α ´ Q ´ cT3,\nT1 ą“ 0"
+  ],
+  [
+   3,
+   "3. ă Qλ,α ´ Q ´ cT3,\nT2 ą“ 0\n(Here, for any two functions f1, f2, we defineă f1, f2 ą:“\nş\nf1pxqf2pxqdx).\nIs the above claim correct? Prove your conclusion.\nProblem 2 Recall for every f P L2pR3q, one has that gpxq :“ p´∆` 1q´1f is a well-defined\nL2pR3q function. And one may compute g by solving\np´∆` 1qg “ f\n(0.2)\n(Recall ∆in R3 is defined as ∆:“ ř3\ni“1 B2\ni , also recall one may also define p´∆` 1q´1 by Fourier\ntheory.)\nNow, let V pxq :“ e´|x|2, x P R3. Prove that the operator T :“ I ` p´∆` 1q´1V is invertible in\nL2.\n(Here, Tf :“ f ` p´∆` 1q´1pV fq.)\nProblem 3\nLet ψpξq P C8\nc pRq be smooth and has compact support. Let ψpξq “ 0, @|ξ| ě 1.\nLet f1pξq, f2pξq P C8\nc pRq , i.e. f1, f2 are smooth and have compact support. Let ui : R ˆ R Ñ C,\ni “ 1, 2, be defined as\nu1px1, x2q :“\nż\nR\nψpξqf1pξqeiξx1eiξ2x2dξ,\nu2px1, x2q :“\nż\nR\nψpη ´ 10qf2pηqeiηx1eiη2x2dη\n(0.3)\nProve there exists a constant C, which may depend on ψ, but does not depend on f1, f2, so that\n}u1u2}L2pR2q ď C}f1}L2pRq}f2}L2pRq.\n(0.4)\n(Hint: One may try to use Plancherel Theorem. It may be useful to observe that if one let\nHpξ, ηq “ f1pξqf2pηq, then }H}L2pR2q are also bounded by }f1}L2pRq}f2}L2pRq)"
+  ],
+  [
+   4,
+   "Problem 4 Consider the heat equation in R2. Let u “ upt, xq is a solution to\n$\n&\n%\nBu\nBt ´ ∆u “ 0;\nu|t“0 “ u0 P L2.\nThen there exists a universal constant C such that\nż 8\n}uptq}2\nL8dt ď C}u0}2\nL2."
+  ],
+  [
+   5,
+   "Problem 5 . Consider the Fourier transform. Let\nQpg, fqpxq :“\nż\nRN\nż\nSN´1 Bp|x ´ y|, x ´ y\n|x ´ y| ¨ σqgpy1qfpx1qdσdy,\nwhere B is a given two variable function, SN´1 stands for the unit sphere in RN and\nx1 :“ x ` y\n` |x ´ y|σ\n;\ny1 :“ x ` y\n´ |x ´ y|σ\n.\n(0.5)\nThen\n{\nQpg, fqpξq “ p2πq´N{2\nż\nRNˆSN´1\nˆBp|η|, ξ\n|ξ| ¨ σqˆgpξ´ ` ηq ˆfpξ` ´ ηqdσdη,\nwhere ˆBp|η|, tq :“\nş\nRN Bp|q|, tqe´iq¨ηdq, ξ˘ :“ ξ˘|ξ|σ\n."
+  ]
+ ],
+ "2025I": [
+  [
+   1,
+   "Problem 1.\nFind the solution R(r) (r ≥1) of the differential equation\nr3R′′′(r) + 2r2R′′(r) −rR′(r) + R(r) = 2025,\nr > 1,\nsatisfying the conditions\nR(1) = 2025,\nR′(1) = 0\nand\nR′′(1) = 1."
+  ],
+  [
+   2,
+   "Problem 2.\n(1). Prove that for n ≥3, there exists a constant C > 0 such that\nZ\nRn\nu2\n|x|2 dx ≤C\nZ\nRn |∇u|2 dx,\n∀u ∈H1(Rn);\n(2). Prove that the optimal constant C in (1) is\n(n−2)2 ."
+  ],
+  [
+   3,
+   "Problem 3.\n(1). Let u(x, y) be a subharmonic function on a domain D containing the annulus {r1 < |x| < r2}.\nDefine\nM(r) =\nmax\nx2+y2=r u(x, y)\nfor r1 < r < r2. Prove that:\nM(r) ≤M(r1)(log r2 −log r) + M(r2)(log r −log r1)\nlog r2 −log r1\n;\n(2). If u is subharmonic on R2 \\ {0} and bounded above, prove that u is constant."
+  ],
+  [
+   4,
+   "Problem 4.\nWrite S1 = {e2π√−1s : s ∈R} ∼= {s : s ∈[0, 1]} = [0, 1]. For a smooth closed curve\nγ : S1 −→R2,\ns 7−→γ(s) = (x(s), y(s))\nwe mean that x, y : S1 →R are continuously differentiable functions of s, γ(0) = γ(1), and\nγ′(s) = dγ(s)\nds\n̸= 0 for all s ∈[0, 1].\nThe degree of a smooth closed curve γ : S1 →R2 is given by\nd(γ) := 1\n2π\nI\nγ\nxdy −ydx\nx2 + y2 .\n\n \n(1) Show that\nd(γ) =\n2π√−1\nI\nγ\ndz\nz .\nHence d(γ) is an integer.\n(2) For the curve γ(s) = re2π√−1ns ∈C with z0 ∈C, s ∈[0, 1] and n ∈Z, compute d(γ).\n(3) Two smooth closed curves γ0 and γ1 are regularly homotopic if there exists a family of smooth\nclosed curves γt with a continuous dependence on t ∈[0, 1], where the curves γ0 and γ1\ncorrespond to t = 0 and t = 1 respectively. Here, by a continuous dependence on t we mean\nthat the map\n[0, 1] × [0, 1] −→R2,\n(s, t) 7−→γ(s, t) = γt(s)\nis continuous.\nProve that two smooth closed curves γ0 and γ1 are regularly homotopic if and only if there\nhave equal degrees."
+  ],
+  [
+   5,
+   "Problem 5.\nIf A and B are disjoint closed subsets of a metric space (X, d) and [a, b] is a given closed interval,\nthen there exists a continuous map f : X →[a, b] such that f(A) = {a} and f(B) = {b}."
+  ],
+  [
+   6,
+   "Problem 6.\nFor f a complex-valued locally integrable function on Rn, set\n||f||BMO := sup\nQ\n\u0012 1\n|Q|\nZ\nQ\n\f\ff(x) −AvgQf\n\f\f dx\n\u0013\n,\nwhere the supremum is taken over all cubes Q in Rn and\nAvgQf :=\n|Q|\nZ\nQ\nf(x) dx.\nLet BMO(Rn) be the set of all complex-valued locally integrable functions on Rn with ||f||BMO <\n∞.\n(1) || · ||BMO is not a norm, and is only a seminorm.\n(2) L∞(Rn) ⊂BMO(Rn) and ||f||BMO ≤2||f||L∞.\n(3) Suppose that there exists an A > 0 such that for all cubes Q in Rn there exists a constant cQ\nsuch that\nsup\nQ\n\u0012 1\n|Q|\nZ\nQ\n|f(x) −cQ| dx\n\u0013\n≤A.\nthen f ∈BMO(Rn) and ||f||BMO ≤2A.\n(4) L∞(Rn) is a proper subspace of BMO(Rn)."
+  ]
+ ],
+ "2026I": [
+  [
+   1,
+   "Problem 1. For any n ∈N, define\nIn := 1\nn!\nZ π/2\n−π/2\n\u0012π2\n4 −t2\n\u0013n\ncos t dt.\n(a) Prove\nIn+1 = 2(2n + 1)In −π2In−1.\n(b) Show that π2 /∈Q, that is, π2 is irrational."
+  ],
+  [
+   2,
+   "Problem 2. For any n × n complex matrix X, define\neX =\nX\nm≥0\nXm\nm! .\n(a) If X, Y are n × n complex matrices satisfying [X, Y ] = 0, then\neXeY = eX+Y = eY eX.\n(b) If X, Y are n × n complex matrices satisfying\n[X, [X, Y ]] = [Y, [X, Y ]] = 0,\nthen\neXeY = eX+Y + 1\n2 [X,Y ]."
+  ],
+  [
+   3,
+   "Problem 3. Let f(z) be a smooth function on |z| < R, and fix a real number ρ such that 0 < ρ < R.\nPut\ng(z) =\n2π√−1\nZZ\n|ζ|≤ρ\nf(ζ)\nζ −z dζ ∧dζ.\nThen\n∂\n∂z g(z) = f(z),\n|z| < ρ."
+  ],
+  [
+   4,
+   "Problem 4. Let C([0, 1]) be the space of continuous functions over [0, 1]. Consider the ∞-norm on\nC([0, 1])\n||f||L∞:= max\nx∈[0,1] |f(x)|.\nThen (C([0, 1]), || · ||L∞) is a Banach space.\nConsider the closed linear subspace P of C([0, 1])\nconsisting of polynomials over [0, 1]. Show that dim P < ∞."
+  ],
+  [
+   5,
+   "Problem 5. Consider the heat equation with periodic boundary conditions on the unit interval\n[0, 1]\n\n\n\n\n\n∂tu(t, x) −∂xxu(t, x) = 0, ∀t > 0, ∀x ∈(0, 1);\nu(t, 0) = u(t, 1), ∀t > 0;\n∂xu(t, 0) = ∂xu(t, 1), ∀t > 0.\n(1)\n(1). Write an orthonormal basis for L2([0, 1]), you do not need to verify this. Show that the double\nderivative operator f 7→f ′′ with domain F := {f ∈H2([0, 1]) : f(0) = f(1), f ′(0) = f ′(1)} ⊂\nL2([0, 1]) is a self-adjoint operator.\n(2). Recall that the fundamental solution of the heat equation (1) refers to a function h(t, x, y) on\n(0, ∞) × [0, 1] × [0, 1] which satisfies that\n(a) for any y ∈[0, 1], (t, x) 7→h(t, x, y) is a solution of (1);\n(b) for any x ∈[0, 1], h(t, x, y) →δx weakly as t →0. That is, for any continuous function ϕ\non [0, 1] with ϕ(0) = ϕ(1),\nR 1\n0 h(t, x, y)ϕ(y) dy →ϕ(x) as t →0.\nFind the fundamental solution h(t, x, y) of the heat equation (1) and check that it satisfies the\nconditions (a) and (b).\n(3). For each fixed t > 0, where does the fundamental solution h(t, x, y) attain its maximum\n(that is, for what x, y ∈[0, 1] is h maximum)?\nWhat can you say about h(t, x, y) when\nt →∞? Finally, show that h(t, x, y) ∼t−1/2 exp (−d(x, y)2/t) for small t > 0, where d(x, y) :=\nmin {|x −y|, 1 −|x −y|}.\nThat is, there exist constants A, B, C, D > 0, such that for all\nt ∈(0, 1), x, y ∈[0, 1],\nA\n√\nt e−Bd(x,y)2\nt\n≤h(t, x, y) ≤C\n√\nt e−Dd(x,y)2\nt\n.\n(Hint: There are multiple ways to solve this problem. You might use the fact that the Gaus-\nsian function p(t, x, y) = (4πt)−1/2 exp (−|x −y|2/4t) is the fundamental solution of the heat\nequation on the real line. The Poisson summation formula can also be useful, depending on\nthe approach.)"
+  ]
+ ]
+}

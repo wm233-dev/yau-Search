@@ -1,0 +1,1781 @@
+
+################################################################################
+## 线性代数/矩阵
+-- BOOKS (113):
+  [BK2046] 线性代数与解析几何陈治中北京交通大学出版社 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=166 tl=True pg=319
+        fn=线性代数与解析几何-陈治中-北京交通大学出版社.pdf
+  [BK2050] 线性代数辅导胡金德 | UNKNOWN | UNKNOWN | 清华大学出版社 UNKNOWN | toc=100 tl=True pg=541
+        fn=线性代数辅导（第三版）-胡金德-清华大学出版社.pdf
+  [BK2045] 线性代数俞正光 | UNKNOWN | UNKNOWN | 清华大学出版社 UNKNOWN | toc=52 tl=True pg=281
+        fn=线性代数-俞正光-清华大学出版社.pdf
+  [BK0386] 北京大学高等代数讲义2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=30 tl=True pg=94
+        fn=北京大学高等代数讲义2.pdf
+  [BK0437] 《线性代数的几何意义》之五） | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=18 tl=True pg=38
+        fn=《线性代数的几何意义》之五（矩阵的几何意义(上)）.pdf
+  [BK0758] 应用数值线性代数JW戴梅尔出版 | J·W·戴梅尔 | 图灵数学·统计学丛书（人民邮电） | SIAM 1997 | toc=15 tl=True pg=427
+        fn=图灵数学·统计学丛书10-应用数值线性代数【英文版暂代】-[美]J·W·戴梅尔-SIAM出版-1997.pdf
+  [BK0438] 线代的几何意义之一 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=13 tl=True pg=28
+        fn=线代的几何意义之一(什么是线性代数).pdf
+  [BK0096] 数值线性代数 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=8 tl=True pg=79
+        fn=数值线性代数（徐树方）.pdf
+  [BK0436] 线性代数必备知识点公式免费下载 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=5 tl=True pg=6
+        fn=线性代数必备知识点公式_免费下载.pdf
+-- TOC BOOKS (59):
+  [BK0864] 数学物理方法IR•柯朗＆D•希尔伯特 (toc=348, hits=11)
+      - 第1章  线性代数和二次型??
+      - 1.1  线性方程和线性变换??
+      - 1.1.3  线性变换、矩阵??
+      - 1.1.4  双线型、二次型和埃尔米特型??
+      - 1.2  含线性参数的线性变换??
+      - 1.3  二次型和埃尔米特型的主轴变换??
+      - 1.3.4  二次型的惰性定理??
+      - 1.3.5  二次型的预解式的表示??
+      - 1.3.6  与二次型相联属的线性方程组的解??
+      - 1.5.4  无穷多个变数的变线型和二次型??
+      - 1.5.5  无穷小线性变换??
+  [BK2129] 高等代数新方法 (toc=53, hits=10)
+      - 5  方阵的特征值、特征多项式与最小多项式??
+      - 第五章  二次型和实对称矩阵??
+      - 1  二次型的简化和方阵的合同??
+      - 2  惯性定律和二次型的分类??
+      - 3  正定二次型与正定矩阵??
+      - 4  半正定二次型和Hermite型??
+      - 第六章  线性空间和线性变换??
+      - 4  线性变换与线性空间的同构??
+      - 5  线性变换与矩阵??
+      - 6  线性变换的象空间，核空间，不变子空间及特征值，特征向量??
+  [BK0445] 高等代数习题解2 (toc=35, hits=9)
+      - 第七章 二次型??
+      - 7.1 二次型及其矩阵、合同矩阵??
+      - 7.2 二次型的标准形、实与复二次型??
+      - 7.3 正定二次型与正定矩阵??
+      - 第十章 线性变换??
+      - 10.1 线性变换的运算及其矩阵??
+      - 10.2 线性变换的特征值与特征向量??
+      - 10.3 矩阵的特征根(特征值)与特征向量??
+      - 11.4 若当(Jordan)标准形和有理标准形??
+  [BK1736] 线性代数习题集 (toc=44, hits=8)
+      - 第三章 矩阵和二次型??
+      - 14. 相似矩阵，特征多项式和最小多项式，矩阵的Jordan形和对角形，矩阵函数??
+      - 15. 二次型??
+      - 第四章 向量空间及其线性变换??
+      - 18. 任意向量空间的线性变换??
+      - 19. 欧几里得向量空间和酉向量空间的线性变换??
+      - 23. 线性空间和线性变换(对第10，16--19节的补充)??
+      - 24. 线性函数和线性型，双线性函数和双线性型，二次函数和二次型(对第15节的补充)??
+  [BK1049] 近世代数概论G伯克霍夫 (toc=79, hits=6)
+      - 9.7 二次型??
+      - 9.8 全线性群之下的二次型??
+      - 9.9 全线性群之下的实二次型??
+      - 9.10 正交群之下的二次型??
+      - 9.11 仿射群和欧几里得群之下的二次型??
+      - 10.10 有理标准型与若当标准型??
+  [BK1211] 代数特征值问题JH威尔金森石钟慈＆邓健新 (toc=518, hits=6)
+      - 《代数特征值问题》
+      - 转置矩阵的特征值与特征向量??
+      - 不相同的特征值??
+      - 重特征值与一般矩阵的标准型??
+      - Jordan (经典的)标准型??
+      - Jordan 标准型与 Frobenius 标准型的关系??
+
+################################################################################
+## 微分流形/形式
+-- BOOKS (25):
+  [BK0907] 流形导论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=269 tl=True pg=430
+        fn=流形导论（英文第二版－Loring W. Tu）.pdf
+  [BK0905] 流形与几何初步 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=54 tl=True pg=208
+        fn=流形与几何初步.pdf
+  [BK0635] 布尔巴基数学基础李群和李代数N布尔巴基施普林格出版公司 | N.布尔巴基 | UNKNOWN | Springer 2009 | toc=2 tl=True pg=440
+        fn=布尔巴基数学基础(第9卷)-李群和李代数(第7-9章.英文版)-[法]N.布尔巴基-施普林格出版公司(Springer)-2009.pdf
+  [BK0884] 从三角形到流形 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=7
+        fn=从三角形到流形(陈省身).pdf
+  [BK0911] 黎曼流形上的几何力学 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=284
+        fn=黎曼流形上的几何力学.pdf
+  [BK0903] 流形上的微积分 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=352 tl=False pg=365
+        fn=流形上的微积分.pdf
+  [BK1033] 流形上的微积分高等微积分中的一些经典定理的现代化处理M斯皮瓦克齐民友＆路见可 | M·斯皮瓦克 | 图灵数学·统计学丛书（人民邮电） | 人民邮电出版社 2006 | toc=352 tl=False pg=365
+        fn=图灵数学·统计学丛书03-流形上的微积分：高等微积分中的一些经典定理的现代化处理(双语版)-[美]M·斯皮瓦克-齐民友＆路见可(译)-人民邮电出版社-2006.pdf
+  [BK0639] 李群及其李代数+严志达和许以超编写 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=333 tl=False pg=335
+        fn=李群及其李代数+严志达和许以超编写.pdf
+  [BK0726] 流形的拓扑学 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=149 tl=False pg=721
+        fn=流形的拓扑学(苏况存).pdf
+-- TOC BOOKS (24):
+  [BK0899] 微分流形初步 (toc=58, hits=9)
+      - 第二章  微分流形??
+      - §1微分流形的定义??
+      - §3切向量和切空间??
+      - §6可定向微分流形和带边流形??
+      - 第四章  外微分式??
+      - §1外微分式??
+      - §2外微分??
+      - §4外微分法在几何中的应用??
+      - §5外微分式的积分和Stokes定理??
+  [BK1818] 微分几何导引 (toc=99, hits=8)
+      - 第二章微分流形??
+      -   §2.1微分流形的定义??
+      -   §2.3切空间??
+      - 第三章外微分??
+      -   §3.1切丛和外微分形式??
+      -   §3.2外微分??
+      -   §3.4微分流形的定向??
+      -   §3.5微分流形上的积分??
+  [BK0898] 微分流形与黎曼几何梅向明贺龙光 (toc=46, hits=7)
+      - 第一部分 微分流形??
+      - 第二章 微分流形??
+      - 2.1 微分流形的基本概念??
+      - 2.2 切空间与切映射??
+      - 2.3 上切空间与拉回映射??
+      - 3.2 微分形式与外微分??
+      - 3.3 形式的积分和Stokes定理??
+  [BK2144] 微分流形与黎曼几何 (toc=46, hits=7)
+      - 第一部分 微分流形??
+      - 第二章 微分流形??
+      - 2.1 微分流形的基本概念??
+      - 2.2 切空间与切映射??
+      - 2.3 上切空间与拉回映射??
+      - 3.2 微分形式与外微分??
+      - 3.3 形式的积分和Stokes定理??
+  [BK2147] 黎曼几何初步 (toc=108, hits=7)
+      - 第二章 微分流形??
+      - 1 微分流形的基本概念??
+      - 1.1 微分流形的定义??
+      - 2.1 切空间 切映射??
+      - 3.2 外微分??
+      - 4 流形上的积分 Stokes定理??
+      - 4.3 流形上的积分 Stokes定理??
+  [BK1824] 流形 (toc=33, hits=5)
+      - 第一章  微分流形??
+      - 1  微分流形??
+      - 第三章  外微分形式和 Stokes 定理??
+      - 2  外微分形式和外微分??
+      - 3  C∞流形的定向和 Stokes 定理??
+
+################################################################################
+## 群论
+-- BOOKS (59):
+  [BK0709] 拓扑与抽象代数两条数学理解之路2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=42 tl=True pg=7
+        fn=拓扑与抽象代数——两条数学理解之路2（外尔）.PDF
+  [BK0420] 抽象代数参考打印版 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=3 tl=True pg=38
+        fn=抽象代数参考-打印版.pdf
+  [BK2060] 应用群论导引 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=465 tl=False pg=476
+        fn=应用群论导引(张端明).pdf
+  [BK2065] 群论及其在物理中的应用 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=439 tl=False pg=443
+        fn=群论及其在物理中的应用(马中骐).pdf
+  [BK1841] 抽象代数学2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=257 tl=False pg=263
+        fn=抽象代数学2(N.贾柯勃逊).pdf
+  [BK0046] 线性代数柯斯特利金 | 柯斯特利金 | 俄罗斯数学教材选译 | 高等教育出版社 2006 | toc=236 tl=False pg=341
+        fn=俄罗斯数学教材选译-代数学引论(第2卷)：线性代数(第3版)-[俄]柯斯特利金-高等教育出版社-2006.pdf
+  [BK0048] 线性代数 | 柯斯特利金 | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=236 tl=False pg=341
+        fn=俄罗斯数学教材选译-代数学引论（第2卷）线性代数【柯斯特利金】.pdf
+  [BK0369] 《线性代数》AN柯斯特利金牛凤文高等教育年1月 | A.N.柯斯特利金 | 代数学引论（柯斯特利金） | UNKNOWN 2008 | toc=236 tl=False pg=341
+        fn=《代数学引论(第2卷)线性代数(第3版)》(作者)[俄]A.N.柯斯特利金(译者)牛凤文  高等教育2008年1月第1版.pdf
+  [BK0370] 《基本结构》AN柯斯特利金郭文彬高等教育年1月 | A.N.柯斯特利金 | 代数学引论（柯斯特利金） | UNKNOWN 2008 | toc=170 tl=False pg=257
+        fn=《代数学引论(第3卷)基本结构(第2版)》(作者) [俄]A.N.柯斯特利金(译者) 郭文彬  高等教育 2008年1月第1版.pdf
+-- TOC BOOKS (33):
+  [BK2106] 有限群构造1 (toc=81, hits=7)
+      - 5. 置换群简介??
+      - 第二章 有限幂零与可解群??
+      - 1. 西洛(Sylow)定理??
+      - 6. 可解群??
+      - 7. 有限可解群的分解??
+      - 7. paqb阶群的可解性??
+      - 9. 正规子群及群阶与表现的关系??
+  [BK2107] 有限群构造2 (toc=81, hits=7)
+      - 5. 置换群简介??
+      - 第二章 有限幂零与可解群??
+      - 1. 西洛(Sylow)定理??
+      - 6. 可解群??
+      - 7. 有限可解群的分解??
+      - 7. paqb阶群的可解性??
+      - 9. 正规子群及群阶与表现的关系??
+  [BK2062] 群论 (toc=136, hits=6)
+      - 第二章  正规子群和同态??
+      - 2.1.正规子群??
+      - 第四章  西罗定理??
+      - 4.2.三个西罗定理??
+      - 第五章  置换群??
+      - 5.9.织积.对称群的西罗子群??
+  [BK2064] 群论2 (toc=53, hits=6)
+      - 第四篇 可解群与幂零群??
+      - 第十三章 有限条件，Sylow子群和相近的问题??
+      - 54. Sylow子群. p-群的中心??
+      - 第十四章 可解群??
+      - 57. 可解群和广义可解群??
+      - 58. 局部定理. 局部可解群??
+  [BK0640] 现代数学基础丛书008有限群构造张远达 (toc=57, hits=5)
+      - §5. 置换群简介
+      - 第二章 有限幂零与可解群
+      - §1. 西洛(Sylow)定理
+      - §6. 可解群
+      - §7. 有限可解群的分解
+  [BK0641] 现代数学基础丛书009有限群构造张远达 (toc=37, hits=5)
+      - 第六章 有关幂零性可解性的几个问题
+      - 第十章 超可解群
+      - §1. 超可解群的基本性质
+      - §2. 有限超可解群的西洛塔
+      - §3. 群阶与超可解性的关系
+
+################################################################################
+## 概率论
+-- BOOKS (30):
+  [BK0675] 概率论揭秘自学向导AllanBluman麦格劳希尔公司 | Allan.Bluman | 揭秘系列（McGraw-Hill Demystified） | McGraw-Hill 2005 | toc=270 tl=True pg=268
+        fn=揭秘系列-概率论揭秘：自学向导(英文版)-[美]Allan.Bluman-麦格劳·希尔公司(McGraw-Hill)-2005.pdf
+  [BK0114] 概率论与数理统计教程茆诗松程依明习题与解答课后答案高等教育出版 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=12 tl=True pg=535
+        fn=概率论与数理统计教程第二版 茆诗松 程依明习题与解答课后答案  高等教育出版.pdf
+  [BK0082] 图灵数学统计学丛书概率论及其应用WilliamFeller | William.Feller | UNKNOWN | 人民邮电出版社 UNKNOWN | toc=5 tl=True pg=603
+        fn=图灵数学·统计学丛书-概率论及其应用(第2卷·第2版)-[美]William.Feller-人民邮电出版社.pdf
+  [BK1986] 概率论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=499 tl=False pg=504
+        fn=概率论(苏联).pdf
+  [BK1992] 概率论与数理统计内容方法与技巧 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=495 tl=False pg=503
+        fn=概率论与数理统计内容方法与技巧.pdf
+  [BK1988] 概率论与数理统计 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=446 tl=False pg=722
+        fn=概率论与数理统计(周概容).pdf
+  [BK2000] 概率论思想方法的历史研究 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=229 tl=False pg=234
+        fn=概率论思想方法的历史研究.pdf
+  [BK1995] 概率论及其应用1 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=179 tl=False pg=273
+        fn=概率论及其应用1.pdf
+  [BK1996] 概率论及其应用2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=179 tl=False pg=247
+        fn=概率论及其应用2.pdf
+-- TOC BOOKS (22):
+  [BK2081] 随机过程统计 (toc=108, hits=18)
+      - 第二章  鞅和半鞅  离散时间??
+      - 1  有限时间区间上的半鞅??
+      - 2  无限时间区间上的半鞅  收敛性定理??
+      - 3  正则鞅  列维(L?vy)定理??
+      - 4  马尔科夫时间上鞅特性的守恒  里斯(pиcc)和杜勃(Doob)分解式??
+      - 第三章  鞅和半鞅  连续时间??
+      - 1  右连续的半鞅??
+      - 2  基本不等式  收敛性定理  马尔科夫时间上鞅特性的守恒??
+      - 3  上鞅的杜勃-迈耶(Doob-Meyer)分解式??
+      - 1  作为平方可积鞅的维纳过程??
+      - 第五章  平方可积鞅  维纳过程的泛函结构??
+      - 1  平方可积鞅的杜勃-迈耶分解式??
+  [BK1036] 金融数学教程A埃瑟里奇张寄洲 (toc=68, hits=5)
+      - 第2章　二项式树和离散参数鞅??
+      -     2.3　离散参数鞅和马尔可夫过程??
+      -     2.4　某些重要的鞅定理??
+      -     3.4　连续时间鞅??
+      -   4.6　布朗鞅表示定理??
+  [BK1994] 概率论习题集 (toc=43, hits=5)
+      - 4.大数定律??
+      - 7.强大数定律??
+      - 8.鞅??
+      - 1.特征函数??
+      - 2.中心极限定理??
+  [BK2002] 概率论教程 (toc=61, hits=5)
+      - 第五章  大数定律  随机级数??
+      - 5.2  弱大数定律??
+      - 5.4  强大数定律??
+      - 第六章  特征函数??
+      - 第七章  中心极限定理及其分歧??
+  [BK1991] 概率论与数理统计习题集 (toc=68, hits=4)
+      - 3.5 特征函数??
+      - 第四章 大数定律与中心极限定理??
+      - 4.2 大数定律??
+      - 4.3 中心极限定理??
+  [BK0140] 概率论与数理统计浙大 (toc=80, hits=3)
+      - 第五章大数定律及中心极限定理
+      - 5.1大数定律
+      - 5.2中心极限定理
+
+################################################################################
+## 微分几何
+-- BOOKS (46):
+  [BK0886] 广义相对论和微分几何 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=5
+        fn=广义相对论和微分几何(陈省身).pdf
+  [BK0887] 微分几何丘成桐 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=490
+        fn=微分几何 - 丘成桐.pdf
+  [BK0892] 微分几何入门及广义相对论答案 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=169
+        fn=微分几何入门及广义相对论答案.pdf
+  [BK1282] 整体微分几何初步习题答案 | UNKNOWN | 现代数学基础（高教版） | UNKNOWN UNKNOWN | toc=0 tl=True pg=21
+        fn=现代数学基础11-整体微分几何初步(第3版)习题答案.pdf
+  [BK1821] 微分几何讲义 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=377 tl=False pg=383
+        fn=微分几何讲义(陈省身).pdf
+  [BK1815] 微分几何原理习题解答 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=258 tl=False pg=261
+        fn=微分几何原理习题解答.pdf
+  [BK1819] 微分几何的理论与问题 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=250 tl=False pg=254
+        fn=微分几何的理论与问题.pdf
+  [BK0693] 11微分几何与拓扑学简明 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=【俄罗斯数学教材选译】11.微分几何与拓扑学简明.pdf
+  [BK0019] 17微分几何与拓扑学简明教程 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=【俄罗斯数学教材选译】17.微分几何与拓扑学简明教程【米先柯,福明柯】.pdf
+-- TOC BOOKS (33):
+  [BK0898] 微分流形与黎曼几何梅向明贺龙光 (toc=46, hits=10)
+      - 第五章 线性联络??
+      - 5.1 线性联络??
+      - 5.3 线性联络的测地线??
+      - 第六章 黎曼度量与黎曼联络??
+      - 6.2 黎曼联络??
+      - 第七章 黎曼曲率??
+      - 7.1 黎曼曲率??
+      - 7.2 截面曲率??
+      - 第八章 测地线和法坐标??
+      - 8.1 测地线??
+  [BK2144] 微分流形与黎曼几何 (toc=46, hits=10)
+      - 第五章 线性联络??
+      - 5.1 线性联络??
+      - 5.3 线性联络的测地线??
+      - 第六章 黎曼度量与黎曼联络??
+      - 6.2 黎曼联络??
+      - 第七章 黎曼曲率??
+      - 7.1 黎曼曲率??
+      - 7.2 截面曲率??
+      - 第八章 测地线和法坐标??
+      - 8.1 测地线??
+  [BK0981] 微分几何及其应用JohnOprea (toc=103, hits=9)
+      - 1.5 曲率和挠率的一些结论
+      - 2.4 法曲率
+      - 第3 章 曲率
+      - 3.2 曲率的计算
+      - 3.4 高斯曲率公式
+      - 3.5 曲率的一些结果
+      - 3.8 用 Maple 计算曲率
+      - 第4 章 常平均曲率的曲面
+      - 4.4 常平均曲率
+  [BK1811] 微分几何 (toc=33, hits=8)
+      - 第1章 Levi-Civita联络和Riemann截曲率??
+      - 1．1 向量丛上的线性联络??
+      - 1．2 切丛上的线性联络、向量场的平移和测地线??
+      - 1．3 Levi-Civita联络和Riemann流形基本定理??
+      - 1．4 Riemann截曲率、Ricci曲率、数量曲率和常截曲率流形??
+      - 1．6 C~∞浸入子流形的Riemann联络??
+      - 3．1 测地线、指数映射和流形的完备性??
+      - 第5章 曲率和拓扑??
+  [BK1298] 现代数学基础丛书020实用微分几何引论苏步青 (toc=66, hits=5)
+      - § 3. 曲率与挠率
+      - § 2. 第一基本形式
+      - § 4. 曲面上曲线的法曲率
+      - § 5. 主曲率、Gauss 曲率、平均曲率
+      - § 9. 测地线
+  [BK2068] 莫尔斯理论 (toc=29, hits=5)
+      - 9. 曲率张量??
+      - 10. 测地线与完备性??
+      - 第三章 对变分学的应用：测地线??
+      - 19. 拓扑结构与曲率的某些关系??
+      - 22. 极小测地线组成的全流形??
+
+################################################################################
+## 表示论
+-- BOOKS (9):
+  [BK0635] 布尔巴基数学基础李群和李代数N布尔巴基施普林格出版公司 | N.布尔巴基 | UNKNOWN | Springer 2009 | toc=2 tl=True pg=440
+        fn=布尔巴基数学基础(第9卷)-李群和李代数(第7-9章.英文版)-[法]N.布尔巴基-施普林格出版公司(Springer)-2009.pdf
+  [BK0639] 李群及其李代数+严志达和许以超编写 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=333 tl=False pg=335
+        fn=李群及其李代数+严志达和许以超编写.pdf
+  [BK0652] 有限群的线性表示JP塞尔郝鈵新 | J·P·塞尔 | 现代数学译丛（科学出版社） | 科学出版社 1984 | toc=135 tl=False pg=191
+        fn=现代数学译丛-有限群的线性表示-[法]J·P·塞尔-郝鈵新(译)-科学出版社-1984.pdf
+  [BK2108] 有限群的线性表示 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=127 tl=False pg=193
+        fn=有限群的线性表示.pdf
+  [BK0642] 现代数学基础丛书022线性代数群表示导论曹锡华 | UNKNOWN | UNKNOWN | 科学出版社 1987 | toc=76 tl=False pg=394
+        fn=现代数学基础丛书022-线性代数群表示导论(上册)-曹锡华-科学出版社-1987.pdf
+  [BK0634] 群表示论曹锡华＆叶家琛 | UNKNOWN | 天元研究生数学丛书（北大版） | 北京大学出版社 1998 | toc=5 tl=False pg=222
+        fn=天元研究生数学丛书5-群表示论-曹锡华＆叶家琛-北京大学出版社-1998.pdf
+  [BK1292] 李代数万哲先 | 老版暂代 | 现代数学基础（高教版） | 科学出版社 1964 | toc=2 tl=False pg=305
+        fn=现代数学基础38【老版暂代】-李代数-万哲先-科学出版社-1964.pdf
+  [BK0431] 线性代数群表示导论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=388
+        fn=线性代数群表示导论（上册）.pdf
+  [BK1077] 复半单李代数孟道骥 | UNKNOWN | 天元研究生数学丛书（北大版） | 北京大学出版社 1998 | toc=0 tl=False pg=329
+        fn=天元研究生数学丛书4-复半单李代数-孟道骥-北京大学出版社-1998.pdf
+-- TOC BOOKS (12):
+  [BK0652] 有限群的线性表示JP塞尔郝鈵新 (toc=135, hits=9)
+      - 第一部分 表示和特征标??
+      - 1.4 不可约表示??
+      - 第二章 特征标理论??
+      - 2.1 表示的特征标??
+      - 2.2 Schur 引理.基本应用??
+      - 2.3 特征标的正交关系??
+      - 2.5 不可约表示的个数??
+      - 第三章 子群.群的积.诱导表示??
+      - 3.3 诱导表示??
+  [BK2108] 有限群的线性表示 (toc=127, hits=9)
+      - 第一部分 表示和特征标??
+      - 1.4 不可约表示??
+      - 第二章 特征标理论??
+      - 2.1 表示的特征标??
+      - 2.2 Schur引理。基本应用??
+      - 2.3 特征标的正交关系??
+      - 2.5 不可约表示的个数??
+      - 第三章 子群。群的积。诱导表示??
+      - 3.3 诱导表示??
+  [BK0642] 现代数学基础丛书022线性代数群表示导论曹锡华 (toc=76, hits=3)
+      - 1.2 特征标与形式特征标??
+      - 1.4 连通线性代数群的不可约表示--归结为半单的情况??
+      - 2. 半单线性代数群不可约表示初探??
+  [BK0640] 现代数学基础丛书008有限群构造张远达 (toc=57, hits=1)
+      - §4. 群特征标
+  [BK0643] 现代数学基础丛书025有限群导引徐明曜 (toc=64, hits=1)
+      - 4.Schur-Zassenhaus定理??
+  [BK0651] 有限置换群H维兰特王萼芳 (toc=47, hits=1)
+      - 第四章 Schur方法??
+
+################################################################################
+## 数论
+-- BOOKS (97):
+  [BK0264] Hardy | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=313 tl=True pg=642
+        fn=[哈代数论].(英)Hardy.扫描版.pdf
+  [BK0309] 数论中的三角和法维诺格拉朵夫－俄语版 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=15 tl=True pg=108
+        fn=数论中的三角和法_维诺格拉朵夫－俄语版.pdf
+  [BK0227] 9183数论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=27
+        fn=9183数论（第二版）.pdf
+  [BK0231] 《初等数论》习题集参考答案 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=30
+        fn=《初等数论》习题集参考答案.pdf
+  [BK0243] 初等数论+闵嗣鹤+严士健+课后答案 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=11
+        fn=初等数论(第三版)+闵嗣鹤+严士健+课后答案.pdf
+  [BK1290] 数论基础潘承洞 | UNKNOWN | 现代数学基础（高教版） | 高等教育出版社 2012 | toc=0 tl=True pg=195
+        fn=现代数学基础34-数论基础-潘承洞-高等教育出版社-2012.pdf
+  [BK0028] 22实变函数论 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=534 tl=False pg=543
+        fn=【俄罗斯数学教材选译】22.实变函数论【那汤松】.pdf
+  [BK0090] 实变函数论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=534 tl=False pg=543
+        fn=实变函数论（那汤松）.pdf
+  [BK0251] 代数数论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=439 tl=False pg=448
+        fn=代数数论(潘承洞).pdf
+-- TOC BOOKS (75):
+  [BK0310] 数论中的问题与结果曹珍富 (toc=170, hits=18)
+      - A素数??
+      -     A1  二次函数的素数值??
+      -     A2  与阶乘有关的素数??
+      -     A3 Mersenne素数与Fermat数??
+      -     A4  同余类中的素数??
+      -     A5素数算术级数??
+      -     A6算术级数中的连续素数??
+      -     A8相邻素数之差??
+      -     A9类型中素数个数??
+      -     A11  相邻素数差的增加和减小??
+      -     A12几种伪素数??
+      -     A14好素数??
+  [BK2078] 谈谈素数 (toc=28, hits=15)
+      - 1.素数与复合数??
+      - 3.素数有无穷多??
+      - 4.素数表??
+      - 7.特殊数列中的素数??
+      - 10.表素数为两个自然数的平方和??
+      - 11.二次剩余??
+      - 12.素数的出现概率为零??
+      - 13.素数定理??
+      - 14.素数定理的误差项??
+      - 15.素数定理误差项的不规则性??
+      - 16.相邻两素数之差??
+      - 17.素数在算术级数中的分布??
+  [BK1213] 博大精深的素数P里本伯姆孙淑玲＆冯克勤 (toc=108, hits=13)
+      - 《博大精深的素数》
+      - 第一章 素数有多少?
+      - 第二章 如何识别一个自然数是否为素数
+      - 2.2 关于同余的一些基本定理
+      - 2.2A.费马小定理和模 p 原根
+      - 2.2D 素致根除 a! 的最大方幂
+      - 2.2H 二次剩余
+      - 2.3 基于同余式的经典素性判定方法
+      - 2.5 基于 Lucas 数列的素性检测
+      - 2.8 拟素数
+      - 2.8A 以2 为基的拟素数(psp)
+      - 2.8B 以 α 为基的拟素数(psp(α))
+  [BK0312] 数论基础 (toc=63, hits=12)
+      - 5素数??
+      - 6素因子分解式的唯一性??
+      - 第三章  同余式??
+      - 2同余式与等式相似的性质??
+      - 3同余式进一步的性质??
+      - 5与模互素的剩余组??
+      - 第四章  一个未知数的同余式??
+      - 2一次同余式??
+      - 3一次同余式组??
+      - 4素数模的任意次同余式??
+      - 5复合数模的任意次同余式??
+      - 第五章  二次同余式??
+  [BK0841] 西尔弗曼数论概论“AFriendlyIntroductiontoNumberTheory”Thirdedition (toc=58, hits=12)
+      -   第8章  同余式??
+      -   第9章  同余式、幂与费马小定理??
+      - 第10章  同余式、幂与欧拉公式??
+      - 第12章  素数??
+      - 第13章  素数计数??
+      - 第14章  梅森素数??
+      - 第15章  梅森素数与完全数??
+      - 第19章  素性测试与卡米歇尔数??
+      - 第21章  幂模p与原根??
+      - 第22章  原根与指标??
+      - 第25章  二次互反律??
+      - 第26章  哪些素数可表成两个平方数之和??
+  [BK0967] 数论概论 (toc=58, hits=12)
+      -   第8章  同余式??
+      -   第9章  同余式、幂与费马小定理??
+      - 第10章  同余式、幂与欧拉公式??
+      - 第12章  素数??
+      - 第13章  素数计数??
+      - 第14章  梅森素数??
+      - 第15章  梅森素数与完全数??
+      - 第19章  素性测试与卡米歇尔数??
+      - 第21章  幂模p与原根??
+      - 第22章  原根与指标??
+      - 第25章  二次互反律??
+      - 第26章  哪些素数可表成两个平方数之和??
+
+################################################################################
+## 复分析
+-- BOOKS (33):
+  [BK1061] 复分析可视化方法T尼达姆齐民友 | T·尼达姆 | 图灵数学·统计学丛书（人民邮电） | 人民邮电出版社 2009 | toc=494 tl=False pg=529
+        fn=图灵数学·统计学丛书36-复分析：可视化方法-[美]T·尼达姆-齐民友(译)-人民邮电出版社-2009.pdf
+  [BK0085] 复变函数 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=360 tl=False pg=365
+        fn=复变函数(史济怀).pdf
+  [BK1774] 复变函数论学习指导 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=272 tl=False pg=277
+        fn=复变函数论学习指导.pdf
+  [BK0020] 19复分析导论多复变函数 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=246 tl=False pg=253
+        fn=【俄罗斯数学教材选译】19.复分析导论（第1卷）多复变函数【沙巴特】.pdf
+  [BK0051] 复分析导论单复变函数 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=246 tl=False pg=253
+        fn=俄罗斯数学教材选译-复分析导论(第1卷)单复变函数.pdf
+  [BK0052] 复分析导论单复变函数沙巴特 | 沙巴特 | 俄罗斯数学教材选译 | 高等教育出版社 2011 | toc=246 tl=False pg=253
+        fn=俄罗斯数学教材选译-复分析导论(第1卷)：单复变函数(第4版)-[俄]沙巴特-高等教育出版社-2011.pdf
+  [BK0959] 复分析 | UNKNOWN | 华章数学译丛（机械工业） | UNKNOWN UNKNOWN | toc=170 tl=False pg=341
+        fn=华章数学译丛 10 复分析.pdf
+  [BK1772] 复变函数论例题选讲 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=162 tl=False pg=509
+        fn=复变函数论例题选讲.pdf
+  [BK1764] 复变函数内容方法与技巧 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=131 tl=False pg=418
+        fn=复变函数  内容、方法与技巧.pdf
+-- TOC BOOKS (23):
+  [BK1266] 《解析函数论初步》H嘉当余家荣高等教育年6月 (toc=58, hits=12)
+      - 《解析函数论初步》
+      - 4 单实变或单复变解析函数
+      - 第二章　全纯函数，柯西积分
+      - 2 全纯函数，基本定理
+      - 第三章　泰勒展式及洛朗展式，奇点及留数
+      - 2 平均性质与最大模原理
+      - 5 无穷远点的引入，留数定理
+      - 6 用留数法计算积分
+      - 第四章　多变量解析函数，调和函数
+      - 2 解析函数
+      - 5 多复变量全纯函数
+      - 第五章　全纯或亚纯函数序列的收敛性，级数、无穷乘积，正规族
+  [BK1767] 复变函数学习指导书 (toc=76, hits=8)
+      - 第二章 解析函数??
+      - 1.解析函数的概念与柯西-黎曼(C.-R.)条件(例2.1.1-2.1.19)??
+      - 2.初等解析函数(例2.2.1-2.2.8)??
+      - 4.解析函数与调和函数的关系(例3.4.1-3.4.9)??
+      - 第四章 解析函数的幂级数表示法??
+      - 3.解析函数的泰勒(Taylor)展式(例4.3.1-4.3.21)??
+      - 4.解析函数零点的孤立性及唯一性定理(例4.4.1-4.4.13)??
+      - 第五章 解析函数的洛朗展式与孤立奇点??
+  [BK0053] 复分析导论多复变函数 (toc=109, hits=7)
+      - 第I章 多变量全纯函数
+      - §2. 全纯函数
+      - 3. 全纯的概念
+      - 5. 全纯函数的最简单的性质
+      - §4. 全纯映射
+      - 9. 全纯映射的性质
+      - 10. 双全纯映射
+  [BK0086] 复变函数简明教程谭小江伍胜健 (toc=57, hits=6)
+      - 第二章　解析函数??
+      - §2.1　解析函数??
+      - §3.4　利用幂级数研究解析函数??
+      - §3.6　平方可积解析函数??
+      - 第五章　留数??
+      - §5.1　留数的概念与计算??
+  [BK1766] 复变函数习题解答 (toc=31, hits=6)
+      - 第五章解析函数项级数、解析函数的幂级数展开式??
+      -     1．一致收敛的解析函数项级数??
+      -     3．最简单的解析函数族??
+      - 第七章  留数理论??
+      -     1．留数的一般理论??
+      -     2．留数理论的应用……………………………（？）第八章无穷乘积与它？析函数的应用??
+  [BK0027] 21复变函数论方法 (toc=41, hits=5)
+      - 5 用级数表示解析函数
+      - 第二章 共形映射
+      - 2 一些最简单的共形映射
+      - 第四章 共形映射的变分原理
+      - 2 留数理论的应用
+
+################################################################################
+## 环与模
+-- BOOKS (36):
+  [BK0709] 拓扑与抽象代数两条数学理解之路2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=42 tl=True pg=7
+        fn=拓扑与抽象代数——两条数学理解之路2（外尔）.PDF
+  [BK0420] 抽象代数参考打印版 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=3 tl=True pg=38
+        fn=抽象代数参考-打印版.pdf
+  [BK1841] 抽象代数学2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=257 tl=False pg=263
+        fn=抽象代数学2(N.贾柯勃逊).pdf
+  [BK0982] 高等近世代数JosephJRotman | Joseph.J.Rotman | 华章数学译丛（机械工业） | 机械工业出版社 2007 | toc=101 tl=False pg=757
+        fn=华章数学译丛27-高等近世代数(中文版)-[美]Joseph.J.Rotman-机械工业出版社-2007.pdf
+  [BK1840] 抽象代数学1 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=100 tl=False pg=209
+        fn=抽象代数学1(N.贾柯勃逊).pdf
+  [BK1048] 近世代数概论G伯克霍夫 | G·伯克霍夫 | 图灵数学·统计学丛书（人民邮电） | UNKNOWN UNKNOWN | toc=91 tl=False pg=328
+        fn=图灵数学·统计学丛书24-近世代数概论(上册·第4版)【老版暂代】-[美]G·伯克霍夫.pdf
+  [BK2114] 近世代数概论1 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=91 tl=False pg=328
+        fn=近世代数概论1.pdf
+  [BK1230] 环与模范畴FW安德森王尧＆任艳丽 | F.W.安德森 | 数学名著译丛（科学出版社） | 科学出版社 2008 | toc=84 tl=False pg=366
+        fn=数学名著译丛-环与模范畴-[美]F.W.安德森-王尧＆任艳丽(译)-科学出版社-2008.pdf
+  [BK1842] 抽象代数学3 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=79 tl=False pg=323
+        fn=抽象代数学3(N.贾柯勃逊).pdf
+-- TOC BOOKS (38):
+  [BK2101] 交换代数导引 (toc=77, hits=7)
+      - 1.1 环的理想和根??
+      - 1.1.1 理想的运算??
+      - 1.1.2 素理想和极大理想??
+      - 1.1.4 理想的根??
+      - 2.4.1 模的张量积??
+      - 2.5 分式环、分式模和局部化??
+      - 2.5.3 局部化、局部整体性质??
+  [BK0648] 现代数学基础丛书069序半群引论谢祥云 (toc=64, hits=6)
+      - 3 理想??
+      - 1 素理想与弱素理想??
+      - 2 m系与拟素左理想??
+      - 4 C左理想??
+      - 6 理想格??
+      - 7 理想的扩张??
+  [BK0977] 数学建模FRGiordano (toc=48, hits=6)
+      - 第1章，对变化进行建模
+      - 1.1，用差分方程进行建模
+      - 2.2，利用比例性进行建模
+      - 第4章，实验建模
+      - 第5章，模拟方法建模
+      - 第7章，离散优化建模
+  [BK1230] 环与模范畴FW安德森王尧＆任艳丽 (toc=84, hits=6)
+      - § 2 模和子模
+      - § 3 模的同态
+      - § 6 模的直和与直积
+      - 第三章 模的有限性条件
+      - § 11 有合成列的模
+      - § 12 模的不可分分解
+  [BK0244] 初等数论3陈景润 (toc=51, hits=5)
+      - 2.以素数为模的平方剩余??
+      - 1.素数模的情形??
+      - 2.以2x为模的情形(x≥1)??
+      - 3.以任意正整数为模的情形??
+      - 1.原根(素数模的情形)??
+  [BK0357] 近世代数熊全淹 (toc=72, hits=5)
+      - §3.6  理想
+      - §3.7  理想的运算
+      - §3.8  极大理想、质理想
+      - §3.9  主理想环中元素的因子分解
+      - §4.1  模
+
+################################################################################
+## Galois/域扩张
+-- BOOKS (41):
+  [BK0709] 拓扑与抽象代数两条数学理解之路2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=42 tl=True pg=7
+        fn=拓扑与抽象代数——两条数学理解之路2（外尔）.PDF
+  [BK0420] 抽象代数参考打印版 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=3 tl=True pg=38
+        fn=抽象代数参考-打印版.pdf
+  [BK1450] NathanJacobsonLecturesinAbstractAlgebraIIITheoryofFieldsandGaloisTheory | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=333
+        fn=GTM 032 - ISBN978-1-4612-9872-4 - Nathan Jacobson - Lectures in Abstract Algebra - III. Theory of Fields and Galois Theory..pdf
+  [BK1585] PatrickMorandiFieldandGaloisTheory | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=294
+        fn=GTM 167 - ISBN978-1-4612-4040-2 - Patrick Morandi - Field and Galois Theory..pdf
+  [BK1622] JeanPierreEscofierGaloisTheory | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=287
+        fn=GTM 204 - ISBN978-1-4613-0191-2 - Jean-Pierre Escofier - Galois Theory..pdf
+  [BK1841] 抽象代数学2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=257 tl=False pg=263
+        fn=抽象代数学2(N.贾柯勃逊).pdf
+  [BK1762] 局部类域论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=171 tl=False pg=174
+        fn=局部类域论.pdf
+  [BK0982] 高等近世代数JosephJRotman | Joseph.J.Rotman | 华章数学译丛（机械工业） | 机械工业出版社 2007 | toc=101 tl=False pg=757
+        fn=华章数学译丛27-高等近世代数(中文版)-[美]Joseph.J.Rotman-机械工业出版社-2007.pdf
+  [BK1840] 抽象代数学1 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=100 tl=False pg=209
+        fn=抽象代数学1(N.贾柯勃逊).pdf
+-- TOC BOOKS (22):
+  [BK1760] 域论 (toc=79, hits=11)
+      - §1.7　Galois扩张??
+      - §1.8　有限Galois扩张的基本定理??
+      - §1.15　有限域??
+      - 第二章  方程的Galois理论??
+      - §2.1　多项式的Galois群??
+      - §2.2　根式扩张Galois定理??
+      - §2.5　Galois群为？n的多项式??
+      - 第三章　无限Galois理论??
+      -   §3.1　无限Galois扩张??
+      -   §3.2　Galois群的Krull拓扑??
+      -   §4.1　Galois上同调??
+  [BK1842] 抽象代数学3 (toc=79, hits=9)
+      - 5. 多项式的分裂域??
+      - 7. 伽罗瓦理论的基本定理??
+      - 13. 有限域??
+      - 15. 伽罗瓦上同调??
+      - 第二章 方程的伽罗瓦理论??
+      - 1. 方程的伽罗瓦群??
+      - 3. 可用根式解的伽罗瓦判别法??
+      - 5. 以对称群作为伽罗瓦群的有理系数方程??
+      - 2. 无限伽罗瓦理论??
+  [BK0439] 近世代数基础刘绍学高教出版社A (toc=45, hits=6)
+      - 第四章  多项式的分裂域
+      - §2  分裂域
+      - §3  有限域（分裂域的一个应用）
+      - §4  正规扩域（分裂域续）
+      - §5  Galois基本定理
+      - §9  有限域的一个应用—编码
+  [BK1434] DavidJWinterTheStructureofFields (toc=86, hits=5)
+      - 2.3 Normal and Galois extensions
+      - 3. Classical Galois theory
+      - 3.2 Galois descent
+      - 3.3 The Galois correspondence theorem
+      - 3.7 Galois cohomology
+  [BK1738] 近世代数引论冯克勤等 (toc=34, hits=5)
+      - 2.7  有限域
+      - 第三章  域的伽罗瓦理论
+      - 3.1  域的扩张（复习），分裂域
+      - 3.3  伽罗瓦扩张，基本定理
+      - 3.4  方程的伽罗瓦群
+  [BK1761] 域论基础 (toc=49, hits=4)
+      - 2.3 正规扩域 多项式的分裂域??
+      - 2.4 有限域??
+      - 第三章 Galois理论??
+      - 3.1 Galois扩域??
+
+################################################################################
+## 数值分析
+-- BOOKS (3):
+  [BK0337] 计算方法丛书非线性方程组的数值解法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=268
+        fn=计算方法丛书_非线性方程组的数值解法（李庆扬_莫孜中_祁力群）.pdf
+  [BK0948] 数值分析 | 全美经典 | 全美经典（Schaum） | UNKNOWN UNKNOWN | toc=0 tl=False pg=398
+        fn=【全美经典】数值分析（第二版 F. 施依德）.pdf
+  [BK1151] UNKNOWN | UNKNOWN | 数学丛书 | UNKNOWN UNKNOWN | toc=0 tl=False pg=225
+        fn=数学丛书.-.[控制论].[最优控制计算方法].pdf
+-- TOC BOOKS (8):
+  [BK1743] 菲利克斯克莱因吴大任等高观点下的初等数学精确数学与近似数学 (toc=90, hits=4)
+      - §24.3 拉格朗日插值公式
+      - §24.7 用有尽三角级数插值法
+      - §25.2 通过最小二乘法所得的三角级数插值
+      - §25.5 切比雪夫关于插值法的工作
+  [BK1685] BrianCHallQuantumTheoryforMathematicians (toc=263, hits=2)
+      - 2.6 The Kepler Problem and the Runge–Lenz Vector
+      - 2.6.2 Conservation of the Runge–Lenz Vector
+  [BK0361] 高等代数2 (toc=85, hits=1)
+      - 9 插值法??
+  [BK1201] Polya (toc=62, hits=1)
+      - 4.1  插值法??
+  [BK1333] 数学模型选谈华罗庚＆王元 (toc=116, hits=1)
+      - §0.6 黄金数与数值积分
+  [BK1718] Matlab经典超强教程 (toc=22, hits=1)
+      - 第十章-10函数、插值和曲线拟合分析
+
+################################################################################
+## 数理统计
+-- BOOKS (62):
+  [BK0670] 概率统计莫里斯H德格鲁特AddisonWesley出版 | 莫里斯·H·德格鲁特 | 图灵数学·统计学丛书（人民邮电） | UNKNOWN 2012 | toc=556 tl=True pg=911
+        fn=图灵数学·统计学丛书09-概率统计（第4版）【英文版暂代】-[美]莫里斯·H·德格鲁特-Addison·Wesley出版-2012.pdf
+  [BK1072] 普林斯顿微积分读本A班纳普林斯顿大学出版 | A·班纳 | 图灵数学·统计学丛书（人民邮电） | UNKNOWN 2007 | toc=432 tl=True pg=753
+        fn=图灵数学·统计学丛书49-普林斯顿微积分读本【配套英文版】-[美]A·班纳-普林斯顿大学出版-2007.pdf
+  [BK1094] 商务统计揭秘自学向导StevenMKemp麦格劳希尔公司 | Steven.M.Kemp | 揭秘系列（McGraw-Hill Demystified） | McGraw-Hill 2004 | toc=405 tl=True pg=399
+        fn=揭秘系列-商务统计揭秘：自学向导(英文版)-[美]Steven.M.Kemp-麦格劳·希尔公司(McGraw-Hill)-2004.pdf
+  [BK0673] 应用随机过程概率模型导论SM罗斯学术出版 | S·M·罗斯 | 图灵数学·统计学丛书（人民邮电） | Elsevier 2010 | toc=221 tl=True pg=801
+        fn=图灵数学·统计学丛书54-应用随机过程：概率模型导论(第10版)【英文版暂代】-[英]S·M·罗斯-Elsevier学术出版-2010.pdf
+  [BK1070] 实用微积分D休斯哈利特出版 | D·休斯·哈利特 | 图灵数学·统计学丛书（人民邮电） | Wiley 2010 | toc=141 tl=True pg=562
+        fn=图灵数学·统计学丛书48-实用微积分（第4版）【英文版暂代】-[美]D·休斯·哈利特-Wiley出版-2010.pdf
+  [BK1043] 微分方程动力系统与混沌导论莫里斯W赫希学术出版 | 莫里斯·W·赫希 | 图灵数学·统计学丛书（人民邮电） | Elsevier 2004 | toc=121 tl=True pg=432
+        fn=图灵数学·统计学丛书19-微分方程，动力系统与混沌导论(第2版)【英文版暂代】-[美]莫里斯·W·赫希-Elsevier学术出版-2004.pdf
+  [BK0758] 应用数值线性代数JW戴梅尔出版 | J·W·戴梅尔 | 图灵数学·统计学丛书（人民邮电） | SIAM 1997 | toc=15 tl=True pg=427
+        fn=图灵数学·统计学丛书10-应用数值线性代数【英文版暂代】-[美]J·W·戴梅尔-SIAM出版-1997.pdf
+  [BK0114] 概率论与数理统计教程茆诗松程依明习题与解答课后答案高等教育出版 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=12 tl=True pg=535
+        fn=概率论与数理统计教程第二版 茆诗松 程依明习题与解答课后答案  高等教育出版.pdf
+  [BK0082] 图灵数学统计学丛书概率论及其应用WilliamFeller | William.Feller | UNKNOWN | 人民邮电出版社 UNKNOWN | toc=5 tl=True pg=603
+        fn=图灵数学·统计学丛书-概率论及其应用(第2卷·第2版)-[美]William.Feller-人民邮电出版社.pdf
+-- TOC BOOKS (8):
+  [BK1990] 概率论与数理统计习题与解答 (toc=47, hits=4)
+      - 5.3 极大似然估计??
+      - 第六章 假设检验??
+      - 6.1 假设检验的概念与步骤??
+      - 6.2 正态总体参数的假设检验??
+  [BK0111] 概率统计讲义陈家鼎 (toc=75, hits=2)
+      - §3 最大似然估计法??
+      - 第六章 假设检验??
+  [BK0139] 概率论与数理统计浙大四版习题全解 (toc=24, hits=2)
+      - 八、假设检验
+      - 九、方差分析及回归分析
+  [BK1035] 实用非参数统计WJ康诺华崔恒建 (toc=63, hits=2)
+      -   2.3  假设检验??
+      -   2.4  假设检验的性质??
+  [BK1328] 滤波及其应用谢衷洁 (toc=105, hits=2)
+      - §4 统计的假设检验
+      - 4.2 假设检验的基本思想??
+  [BK0196] 高等数学引论4 (toc=121, hits=1)
+      - 6. 线性回归分析??
+
+################################################################################
+## 代数拓扑
+-- BOOKS (41):
+  [BK0699] 代数拓扑的现代方法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=15
+        fn=代数拓扑的现代方法（小嘉当）.PDF
+  [BK0562] 数学物理学百科全书代数拓扑辛几何与拓扑常微分和偏微分方程费朗克斯 | 费朗克斯 | UNKNOWN | 科学出版社 2008 | toc=411 tl=False pg=450
+        fn=数学物理学百科全书(卷11)：代数拓扑；辛几何与拓扑；常微分和偏微分方程(英文导读版)-[法]费朗克斯-科学出版社-2008.pdf
+  [BK0693] 11微分几何与拓扑学简明 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=【俄罗斯数学教材选译】11.微分几何与拓扑学简明.pdf
+  [BK0019] 17微分几何与拓扑学简明教程 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=【俄罗斯数学教材选译】17.微分几何与拓扑学简明教程【米先柯,福明柯】.pdf
+  [BK0058] 微分几何与拓扑学简明教程 | 米先柯,福明柯 | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=俄罗斯数学教材选译-微分几何与拓扑学简明教程【米先柯,福明柯】.pdf
+  [BK0706] 微分几何与拓扑学简明教程米先珂福明珂 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=微分几何与拓扑学简明教程.米先珂, 福明珂..pdf
+  [BK0707] 微分几何与拓扑学简明教程米先珂福明珂高教 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=245 tl=False pg=245
+        fn=微分几何与拓扑学简明教程.米先珂, 福明珂.高教.pdf
+  [BK0726] 流形的拓扑学 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=149 tl=False pg=721
+        fn=流形的拓扑学(苏况存).pdf
+  [BK0116] 拓扑学教程拓扑空间和距离空间数值函数拓扑向量空间G肖盖史树中＆王耀东 | G·肖盖 | 法兰西数学精品译丛 | 高等教育出版社 2009 | toc=142 tl=False pg=306
+        fn=法兰西数学精品译丛-拓扑学教程：拓扑空间和距离空间、数值函数、拓扑向量空间(中文版.第2版)-[法]G·肖盖-史树中＆王耀东(译)-高等教育出版社-2009.pdf
+-- TOC BOOKS (26):
+  [BK0418] 78《同调论代数拓扑学之一》沉信耀科学年7月 (toc=59, hits=14)
+      - §1.单形、复形、同调群??
+      - §3.零维同调群??
+      - §4.上同调群??
+      - §5.同调群的计算,同调群和上同调群间的关系??
+      - 第二章 同调群的不变性??
+      - §8.单纯逼近、同调群的拓扑不变性??
+      - §9.同调群的同伦不变性??
+      - 第三章 相对同调群及其不变性??
+      - §10.相对同调群、正合同调序列??
+      - §11.相对同调群的不变性??
+      - §16.连续链复形、连续同调群??
+      - §17.连续同调群的同伦不变性??
+  [BK0730] 现代数学基础丛书078同调论一一代数拓扑之一沈信耀 (toc=59, hits=14)
+      - §1.单形、复形、同调群??
+      - §3.零维同调群??
+      - §4.上同调群??
+      - §5.同调群的计算,同调群和上同调群间的关系??
+      - 第二章 同调群的不变性??
+      - §8.单纯逼近、同调群的拓扑不变性??
+      - §9.同调群的同伦不变性??
+      - 第三章 相对同调群及其不变性??
+      - §10.相对同调群、正合同调序列??
+      - §11.相对同调群的不变性??
+      - §16.连续链复形、连续同调群??
+      - §17.连续同调群的同伦不变性??
+  [BK0710] 拓扑学 (toc=51, hits=13)
+      - 第四章 同伦与基本群??
+      - 1 映射的同伦??
+      - 2 基本群的定义??
+      - 3 Sn的基本群??
+      - 4 基本群的同伦不变性??
+      - 5 基本群的计算与应用??
+      - 第六章 单纯同调群(上)??
+      - 2 单纯复合形的同调群??
+      - 3 同调群的性质和意义??
+      - 4 计算同调群的实例??
+      - 第七章 单纯同调群(下)??
+      - 3 连续映射诱导的同调群同态??
+  [BK0721] 代数拓扑基础JR曼克勒斯谢孔彬 (toc=95, hits=8)
+      - 第一章 单纯复形的同调群
+      - §5 同调群
+      - §6 曲面的同调群
+      - *§11 同调群的可计算性
+      - 第二章 同调群的拓扑不变性
+      - §18 同调群的拓扑不变性
+      - §19 由同伦映射诱导的同态
+      - 第三章 相对同调群和 Eilenberg-Steenrod 公理
+  [BK1846] 基础拓扑学 (toc=69, hits=4)
+      - 5. 基本群??
+      - 5.1 同伦的映射??
+      - 5.2 构造基本群??
+      - 5.4 同伦型??
+  [BK0735] 曲面拓扑学A格拉曼张耀成 (toc=50, hits=3)
+      - 第一章 基本群??
+      - 3.闭径,基本群??
+      - 1.球面的基本群??
+
+################################################################################
+## 范畴/同调代数
+-- BOOKS (5):
+  [BK0417] 29《同调代数》周伯壎科学年2月 | 周伯壎 科学1988年2月第1版 | UNKNOWN | UNKNOWN 1988 | toc=93 tl=False pg=380
+        fn=29《同调代数》(作者)周伯壎 科学1988年2月第1版.pdf
+  [BK1230] 环与模范畴FW安德森王尧＆任艳丽 | F.W.安德森 | 数学名著译丛（科学出版社） | 科学出版社 2008 | toc=84 tl=False pg=366
+        fn=数学名著译丛-环与模范畴-[美]F.W.安德森-王尧＆任艳丽(译)-科学出版社-2008.pdf
+  [BK2103] 同调代数 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=82 tl=False pg=379
+        fn=同调代数(周伯埙).pdf
+  [BK2099] 交换代数与同调代数 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=49 tl=False pg=203
+        fn=交换代数与同调代数(李克正).pdf
+  [BK1204] Anderson | Anderson. | UNKNOWN | UNKNOWN UNKNOWN | toc=5 tl=False pg=362
+        fn=[环与模范畴].(德国)Anderson.扫描版.pdf
+-- TOC BOOKS (79):
+  [BK1683] KonradSchmüdgenUnboundedSelfadjointOperatorsonHilbertSpace (toc=153, hits=22)
+      - Unbounded Self-adjoint Operators on Hilbert Space
+      - Part I: Basics of Closed Operators
+      - Chapter 1: Closed and Adjoint Operators
+      - 1.1 Closed and Closable Operators and Their Graphs
+      - 1.1.1 General Notions on Linear Operators
+      - 1.1.2 Closed and Closable Operators
+      - 1.2 Adjoint Operators
+      - 1.3 Examples: Differential Operators
+      - 1.3.1 Differentiation Operators on Intervals I
+      - 1.3.2 Linear Partial Differential Operators
+      - Chapter 2: The Spectrum of a Closed Operator
+      - 2.1 Regular Points and Defect Numbers of Operators
+  [BK2103] 同调代数 (toc=82, hits=16)
+      - 第一章 范畴??
+      - 1 范畴的概念??
+      - 2 逆范畴与对偶原则??
+      - 6 加法范畴??
+      - 7 Abel范畴??
+      - 8 函子??
+      - 3 模同态与模范畴??
+      - 14 自然变换与等价范畴??
+      - 2 同调正合列定理??
+      - 4 导出函子??
+      - 5 函子的变换??
+      - 6 函子Hom与Ext??
+  [BK1702] SpectralTheoryBasicConceptsandApplicationsDavidBorthwick (toc=151, hits=12)
+      - 2.1 Normed Vector Spaces
+      - 2.3.1 Operator Topologies
+      - 3 Operators
+      - 3.1 Unbounded Operators
+      - 3.2.1 Adjoints of Unbounded Operators
+      - 3.3 Closed Operators
+      - 3.3.1 Closable Operators
+      - 3.4.1 Self-adjoint Operators
+      - 3.4.3 Friedrichs Extension
+      - 3.5 Compact Operators
+      - 3.5.1 Hilbert–Schmidt Operators
+      - 4.1.2 Spectrum of a Multiplication Operator
+  [BK0417] 29《同调代数》周伯壎科学年2月 (toc=93, hits=10)
+      - 第一章 范畴??
+      - §1 范畴的概念??
+      - §2 逆范畴的对偶原则??
+      - §6 加法范畴??
+      - §7 Abel范畴??
+      - §8 函子??
+      - §3 模同态与模范畴??
+      - §14 自然变换与等价范畴??
+      - §2 同调正合列定理??
+      - §4 导出函子??
+  [BK0907] 流形导论 (toc=269, hits=9)
+      - §2 Tangent Vectors in \mathbb{R}^n as Derivations
+      - 2.4 Vector Fields
+      - 2.5 Vector Fields as Derivations
+      - §3 The Exterior Algebra of Multicovectors
+      - 3.5 The Symmetrizing and Alternating Operators
+      - 3.10 A Basis for k-Covectors
+      - 4.3 Differential Forms as Multilinear Functions on Vector Fields
+      - 4.4 The Exterior Derivative
+      - 4.6 Applications to Vector Calculus
+  [BK1434] DavidJWinterTheStructureofFields (toc=86, hits=9)
+      - 1.2 Algebraic extensions
+      - 1.6 Transcendency basis of a field extension
+      - 2. The structure of algebraic extensions
+      - 2.2 Separable and radical extensions
+      - 2.3 Normal and Galois extensions
+      - 3.8 Cyclotomic extensions
+      - 3.9 Cyclic extensions
+      - 3.10 Abelian extensions
+      - 3.11 Solvable extensions
+
+################################################################################
+## 代数几何
+-- BOOKS (14):
+  [BK0466] 代数几何与算术曲线LiuQing | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=183 tl=True pg=594
+        fn=代数几何与算术曲线[Algebraic.Geometry.And.Arithmetic.Curves].Liu.Qing.pdf
+  [BK0473] 对话李克正教授为什么学习代数几何 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=5
+        fn=对话李克正教授：为什么学习代数几何.pdf
+  [BK1208] 代数几何引论BL范德瓦尔登李培廉＆李乔 | B.L.范德瓦尔登 | 数学名著译丛（科学出版社） | 科学出版社 2008 | toc=109 tl=False pg=268
+        fn=数学名著译丛-代数几何引论(第2版)-[荷]B.L.范德瓦尔登-李培廉＆李乔(译)-科学出版社-2008.pdf
+  [BK0474] 代数几何R哈茨霍恩冯克勤＆刘木兰＆胥鸣伟 | R·哈茨霍恩 | 数学名著译丛（科学出版社） | 科学出版社 1994 | toc=76 tl=False pg=595
+        fn=数学名著译丛-代数几何-[美]R·哈茨霍恩-冯克勤＆刘木兰＆胥鸣伟(译)-科学出版社-1994.pdf
+  [BK1206] 代数几何R哈茨霍恩 | R.哈茨霍恩 | 数学名著译丛（科学出版社） | 科学出版社 UNKNOWN | toc=76 tl=False pg=595
+        fn=数学名著译丛-代数几何-[美]R.哈茨霍恩-科学出版社.pdf
+  [BK0467] 代数几何引论vanderWaerdensq | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=21 tl=False pg=268
+        fn=代数几何引论.van.der.Waerden s_q.pdf
+  [BK0375] 代数几何Hartshorne | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=590
+        fn=代数几何Hartshorne.pdf
+  [BK0379] 代数曲线Griffiths | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=234
+        fn=代数曲线-Griffiths.pdf
+  [BK0380] 代数曲线 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=234
+        fn=代数曲线.pdf
+-- TOC BOOKS (35):
+  [BK0474] 代数几何R哈茨霍恩冯克勤＆刘木兰＆胥鸣伟 (toc=76, hits=12)
+      - 第一章 代数簇??
+      - 1.仿射代数簇??
+      - 2.射影代数簇??
+      - 5.非异簇??
+      - 7.射影空间中的交??
+      - 1.层??
+      - 5.模层??
+      - 7.射影态射??
+      - 2.层的上同调??
+      - 5.射影空间的上同调??
+      - 6.Ext 群与层??
+      - 8.层的高次正像??
+  [BK1206] 代数几何R哈茨霍恩 (toc=76, hits=12)
+      - 第一章 代数簇??
+      - 1.仿射代数簇??
+      - 2.射影代数簇??
+      - 5.非异簇??
+      - 7.射影空间中的交??
+      - 1.层??
+      - 5.模层??
+      - 7.射影态射??
+      - 2.层的上同调??
+      - 5.射影空间的上同调??
+      - 6.Ext 群与层??
+      - 8.层的高次正像??
+  [BK1208] 代数几何引论BL范德瓦尔登李培廉＆李乔 (toc=109, hits=6)
+      - 第1章 n 维空间的射影几何
+      - §1.1 射影空间 Sn 及其线性子空间
+      - §1.2 射影结合定理
+      - §1.4 多重射影空间·仿射空间
+      - §1.5 射影变换
+      - §1.6 退化的射影变换·射影变换的分类
+  [BK0055] 奇异摄动方程解的渐近展开瓦西里耶娃 (toc=37, hits=5)
+      - §3. 奇异摄动方程组解的渐近表示特点和边界层
+      - §5. 关于边界层函数法对其他问题的应用
+      - §13. 单边界层的边值问题
+      - §14. 条件稳定的情况(有双边界层的边值问题)
+      - §15. 含有内部边界层的边值问题
+  [BK0876] KennethFalconer (toc=110, hits=4)
+      - 第6章　分形的射影??
+      -   6.1　任意集的射影??
+      -   6.2　整数维s集的射影??
+      -   6.3　整数维任意集的射影??
+  [BK0877] 分形几何数学基础及其应用肯尼斯福克纳曾文曲 (toc=110, hits=4)
+      - 第6章　分形的射影??
+      -   6.1　任意集的射影??
+      -   6.2　整数维s集的射影??
+      -   6.3　整数维任意集的射影??
+
+################################################################################
+## 偏微分方程
+-- BOOKS (116):
+  [BK1043] 微分方程动力系统与混沌导论莫里斯W赫希学术出版 | 莫里斯·W·赫希 | 图灵数学·统计学丛书（人民邮电） | Elsevier 2004 | toc=121 tl=True pg=432
+        fn=图灵数学·统计学丛书19-微分方程，动力系统与混沌导论(第2版)【英文版暂代】-[美]莫里斯·W·赫希-Elsevier学术出版-2004.pdf
+  [BK0551] 常微分方程初边值问题数值解 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=114 tl=True pg=286
+        fn=常微分方程初边值问题数值解(Griffiths & Higham).pdf
+  [BK0566] 非线性常微分方程泛函方法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=45 tl=True pg=422
+        fn=非线性常微分方程泛函方法.pdf
+  [BK0340] 直接微扰方法和非线性薛定谔方程族的近似解 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=35 tl=True pg=75
+        fn=直接微扰方法和非线性薛定谔方程族的近似解.pdf
+  [BK0618] 基于偏微分方程的图像修复 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=28 tl=True pg=56
+        fn=基于偏微分方程的图像修复.pdf
+  [BK0334] 带位势项的半线性Schrodinger方程的整体解 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=17 tl=True pg=47
+        fn=带位势项的半线性Schrodinger方程的整体解.pdf
+  [BK0553] 常微分方程教程丁同仁习题解答 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=16 tl=True pg=81
+        fn=常微分方程教程_丁同仁(第二版)_习题解答.pdf
+  [BK1099] 微分方程揭秘自学向导StevenGKrantz麦格劳希尔公司 | Steven.G.Krantz | 揭秘系列（McGraw-Hill Demystified） | McGraw-Hill 2005 | toc=16 tl=True pg=335
+        fn=揭秘系列-微分方程揭秘：自学向导(英文版)-[美]Steven.G.Krantz-麦格劳·希尔公司(McGraw-Hill)-2005.pdf
+  [BK0338] 一类非线性Schrodinger方程的差分Legendre谱元法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=12 tl=True pg=32
+        fn=一类非线性Schrodinger方程的差分_Legendre谱元法.pdf
+-- TOC BOOKS (46):
+  [BK0778] 现代数学基础丛书060非线性偏微分复方程闻国椿 (toc=48, hits=12)
+      - 第一章 带弱条件的非线性椭圆型方程与方程组??
+      - §1.带非光滑边界的椭圆型复方程的边值问题??
+      - §2.一阶非线性椭圆型复方程的复合边值问题??
+      - §3.多连通区域上椭圆型复方程的非线性Riemann-Hilbert问题??
+      - §4.二阶非线性椭圆型方程的Poincaré边值问题??
+      - §5.二阶椭圆型方程组的一些边值问题??
+      - 第二章 高阶椭圆型方程组??
+      - §1.三阶椭圆型方程组的复形式??
+      - §2.三阶椭圆型复方程的存在定理与Riemann-Hilbert问题??
+      - §3.三阶椭圆型复方程的斜微商边值问题??
+      - §4.四阶非线性椭圆型复方程的存在定理与一些边值问题??
+      - §5.n阶非线性椭圆型复方程??
+  [BK0649] 现代数学基础丛书087椭圆与抛物型方程引论伍卓群＆尹景学 (toc=181, hits=7)
+      - 《椭圆与抛物型方程引论》
+      - §1.2 Sobolev空间和H#lder空间??
+      - 1.2.2 Sobolev空间Wˉ(k,p)(Ω)和W_0ˉ(k,p)(Ω)??
+      - 1.2.4 Sobolev空间的内插不等式??
+      - 1.2.7 Sobolev嵌入定理??
+      - §1.3 t向异性sobolev空间和H#lder空间??
+      - 1.3.1 t向异性Sobolev空间??
+  [BK0594] 《二阶抛物型偏微分方程》陈亚浙北京大学 (toc=82, hits=6)
+      - 第二章 Sobolev空间(关于x与t异性)??
+      - 第三章 弱解的存在惟一性??
+      - §1 弱解的定义??
+      - §2 能量不等式与弱解的惟一性??
+      - §3 弱解的存在性??
+      - §4 弱解的Wˉ(2,1)_2正则性??
+  [BK0600] 《线性二阶偏微分方程》董光昌浙江大学年3月 (toc=35, hits=6)
+      - 第一章椭圆型方程??
+      - 第一节椭圆型方程解的极值原理??
+      - 第九节弱解及其唯一性??
+      - 第十节弱解的存在性与光滑性??
+      - 第十一节弱解的局部性质??
+      - 第六节弱解的存在、唯一与光滑性??
+  [BK0597] 《偏微分方程的现代方法》M谢克特叶其孝科学年7月 (toc=112, hits=4)
+      - 1-6 弱解??
+      - 2-4 椭圆算子??
+      - 2-6 次椭圆算子??
+      - 3-1 形式次椭圆算子??
+  [BK0771] 现代数学基础丛书019线性偏微分算子引论齐民友 (toc=58, hits=4)
+      - 第三章 Sobolev空间??
+      - §1. 椭圆型问题的变分提法??
+      - §2. Sobolev空间Hˉ(m,p)(Ω)??
+      - §4. 椭圆和亚椭泊PsDO??
+
+################################################################################
+## 实分析/测度
+-- BOOKS (37):
+  [BK1786] 实分析中的反例 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=553 tl=False pg=569
+        fn=实分析中的反例.pdf
+  [BK0028] 22实变函数论 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=534 tl=False pg=543
+        fn=【俄罗斯数学教材选译】22.实变函数论【那汤松】.pdf
+  [BK0090] 实变函数论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=534 tl=False pg=543
+        fn=实变函数论（那汤松）.pdf
+  [BK0211] 实分析徐森林 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=509 tl=False pg=512
+        fn=实分析，徐森林.pdf
+  [BK1793] 实变函数例题习题集 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=487 tl=False pg=490
+        fn=实变函数例题习题集.pdf
+  [BK1792] 实变函数中的反例 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=309 tl=False pg=256
+        fn=实变函数中的反例.pdf
+  [BK1807] 实变函数论的定理与习题集 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=275 tl=False pg=277
+        fn=实变函数论的定理与习题集.pdf
+  [BK2008] 实变函数与泛函分析概要1 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=265 tl=False pg=272
+        fn=实变函数与泛函分析概要1.pdf
+  [BK2005] 实变函数与泛函分析1 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=261 tl=False pg=263
+        fn=实变函数与泛函分析1(郭大钧).pdf
+-- TOC BOOKS (60):
+  [BK1799] 实变函数论1 (toc=56, hits=16)
+      - 第三章 可测集??
+      - 1 有界开集的测度??
+      - 2 有界闭集的测度??
+      - 3 有界集的内测度与外测度??
+      - 4 可测集??
+      - 5 可测性及测度对于运动的不变性??
+      - 6 可测集类??
+      - 第四章 可测函数??
+      - 1 可测函数的定义及其最简单的性质??
+      - 2 可测函数的其他性质??
+      - 3 可测函数列、度量收敛??
+      - 4 可测函数的构造??
+  [BK1791] 实变函数 (toc=53, hits=15)
+      - 引言(谈谈 Riemann 积分;Lebesgue 积分思想简介)??
+      - 第二章  Lebesgue 测度??
+      - 2.1  点集的 Lebesgue 外测度??
+      - 2.2  可测集.测度??
+      - 2.3  可测集与 Borel 集??
+      - 2.4  不可测集??
+      - 2.5  连续变换与可测集??
+      - 第三章  可测函数??
+      - 3.1  可测函数的定义及其性质??
+      - 3.2  可测函数列的收敛??
+      - 3.3  可测函数与连续函数??
+      - 第四章  Lebesgue 积分??
+  [BK1787] 实分析习题集 (toc=50, hits=12)
+      - 第3章　测度论??
+      -   13．半环上的测度??
+      -   14．外测度和可测集??
+      -   15．由一个测度生成的外测度??
+      -   16．可测函数??
+      -   18．Lebesgue测度??
+      -   19．依测度收敛??
+      -   20．抽象可测性??
+      - 第4章  Lebesgue积分??
+      -  23．作为Lebesgue积分的Riemann积分??
+      -  24．Lebesgue积分的应用??
+      -  26．乘积测度和累次积分??
+  [BK0089] 实变函数论周民强 (toc=98, hits=11)
+      - (二) Lebesgue 积分思想简介
+      - 第二章  Lebesgue 测度
+      - §2.1  点集的  Lebesgue 外测度
+      - §2.2  可测集与测度
+      - §2.3  可测集与Borel 集的关系
+      - §2.4  正测度集与矩体的关系
+      - §2.5  不可测集
+      - §2.6  连续变换与可测集
+      - 第三章  可测函数
+      - §3.1  可测函数的定义及其性质
+      - §3.2  可测函数列的收敛
+  [BK1801] 实变函数论与泛函分析 (toc=69, hits=11)
+      - 第三章勒贝格可测集??
+      -   §1．  勒贝格外测度??
+      -   §2．  勒贝格可测集及勒贝格测度??
+      -   §3．  勒贝格可测集类??
+      - 第四章勒贝格可测函数??
+      -   §1．  勒贝格可测函数及其基本性质??
+      -   §2．  勒贝格可测函数列的收敛??
+      -   §3．  勒贝格可测函数的结构??
+      -   第五章勒贝格积分??
+      -     §1．  勒贝格积分的定义及性质??
+      -     §3．  积集的测度和富比尼定理??
+  [BK1805] 实变函数论习题集 (toc=24, hits=11)
+      - 第三章 可测集合??
+      - 1 环上的测度??
+      - 2 测度的勒贝格扩张??
+      - 3 勒贝格测度??
+      - 第四章 可测函数??
+      - 第五章 勒贝格积分??
+      - 1 勒贝格积分的定义??
+      - 2 勒贝格积分的基本性质??
+      - 4 测度的乘积 富比尼定理??
+      - 5 黎曼积分与勒贝格积分的比较??
+      - 第六章 勒贝格不定积分 微分理论??
+
+################################################################################
+## 辛几何/力学
+-- BOOKS (13):
+  [BK0341] 非线性Schrdinger方程的辛算法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=6
+        fn=非线性Schr(o)dinger方程的辛算法.pdf
+  [BK0911] 黎曼流形上的几何力学 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=284
+        fn=黎曼流形上的几何力学.pdf
+  [BK0562] 数学物理学百科全书代数拓扑辛几何与拓扑常微分和偏微分方程费朗克斯 | 费朗克斯 | UNKNOWN | 科学出版社 2008 | toc=411 tl=False pg=450
+        fn=数学物理学百科全书(卷11)：代数拓扑；辛几何与拓扑；常微分和偏微分方程(英文导读版)-[法]费朗克斯-科学出版社-2008.pdf
+  [BK0035] 28理论力学 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=338 tl=False pg=421
+        fn=【俄罗斯数学教材选译】28.理论力学【A.II.马尔契夫】.pdf
+  [BK0875] 力学和物理学中的变分不等方程G迪沃＆JL利翁斯王耀东 | G·迪沃＆J·L·利翁斯 | 现代数学译丛（科学出版社） | 科学出版社 1987 | toc=232 tl=False pg=423
+        fn=现代数学译丛-力学和物理学中的变分不等方程-[法]G·迪沃＆J·L·利翁斯-王耀东(译)-科学出版社-1987.pdf
+  [BK0034] 27经典力学的数学方法 | UNKNOWN | 俄罗斯数学教材选译 | UNKNOWN UNKNOWN | toc=90 tl=False pg=435
+        fn=【俄罗斯数学教材选译】27.经典力学的数学方法【阿诺尔德】.pdf
+  [BK0319] 数论的三颗明珠 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=53 tl=False pg=54
+        fn=数论的三颗明珠(辛钦).pdf
+  [BK0616] 分数阶微积分理论在粘弹性流体力学及量子力学中的某些应用 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=42 tl=False pg=104
+        fn=分数阶微积分理论在粘弹性流体力学及量子力学中的某些应用.pdf
+  [BK0342] 非线性连续介质力学 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=375
+        fn=非线性连续介质力学(匡震邦).pdf
+-- TOC BOOKS (64):
+  [BK0774] 现代数学基础丛书041线性偏微分算子引论齐民友 (toc=27, hits=6)
+      - 第八章 辛几何??
+      - §1. Hamilton 力学??
+      - §2. 辛代数??
+      - §3. 辛流形??
+      - §4. 辛流形的子流形??
+      - §3. Lagrange-Grassmann 流形??
+  [BK0034] 27经典力学的数学方法 (toc=90, hits=5)
+      - 第二部分  拉格朗日力学??
+      -   §13．拉格朗日方程组??
+      -   §15．哈密顿方程组??
+      - 第四章  流形上的拉格朗日力学??
+      -   §19．拉格朗日动力系统??
+  [BK1065] 随机过程伊藤清刘璋温 (toc=76, hits=3)
+      -   14可分Poisson过程??
+      -   19  Poisson过程的各种构成方法??
+      -   20复合Poisson过程??
+  [BK0029] 23随机过程论 (toc=21, hits=2)
+      - 第二章  独立增量过程．泊松过程和高斯过程??
+      - 附录4  博赫纳-辛钦定理的证明??
+  [BK0645] 现代数学基础丛书053有限典型群子空间轨道生成的格万哲先＆霍元极 (toc=85, hits=2)
+      - 第三章 辛群作用下子空间轨道生成的格
+      - §3.1 辛群Sp2ν(Fq)作用下子空间轨道生成的格
+  [BK0850] 图论导引加里查坦德 (toc=82, hits=2)
+      -     6.2　Hamilton图??
+      -     6.3  专题探索：Hamilton链与Hamilton数??
+
+################################################################################
+## 调和/位势
+-- BOOKS (3):
+  [BK0334] 带位势项的半线性Schrodinger方程的整体解 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=17 tl=True pg=47
+        fn=带位势项的半线性Schrodinger方程的整体解.pdf
+  [BK0681] 概率与位势 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=3 tl=True pg=1095
+        fn=概率与位势（英文版－Claude Dellacherie).pdf
+  [BK0632] 调和分析及其在偏微分方程中的应用 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=713
+        fn=调和分析及其在偏微分方程中的应用.pdf
+-- TOC BOOKS (23):
+  [BK0195] 高等数学引论3 (toc=210, hits=3)
+      - 第三章 解析函数、调和函数的定义及例子??
+      - 第四章 调和函数??
+      - 3. 奇异积分??
+  [BK0071] 偏微分方程讲义ОА奥列尼克郭思旭 (toc=84, hits=2)
+      - 3.1 调和函数.泊松方程.格林公式
+      - 3.10 调和函数的孤立奇点.在无穷远点邻域中的性态.无界区域的狄利克雷问题
+  [BK0086] 复变函数简明教程谭小江伍胜健 (toc=57, hits=2)
+      - 第六章　调和函数??
+      - §6.1　调和函数的基本性质??
+  [BK0598] 《偏微分方程讲义》ОА奥列尼克郭思旭高等教育年1月 (toc=84, hits=2)
+      - 3.1 调和函数.泊松方程.格林公式
+      - 3.10 调和函数的孤立奇点.在无穷远点邻域中的性态.无界区域的狄利克雷问题
+  [BK0604] 偏微分方程讲义奥列尼克 (toc=84, hits=2)
+      - 3.1 调和函数.泊松方程.格林公式
+      - 3.10 调和函数的孤立奇点.在无穷远点邻域中的性态.无界区域的狄利克雷问题
+  [BK1266] 《解析函数论初步》H嘉当余家荣高等教育年6月 (toc=58, hits=2)
+      - 第四章　多变量解析函数，调和函数
+      - 3 两个实变量的调和函数
+
+################################################################################
+## 微分方程(常微)
+-- BOOKS (90):
+  [BK1043] 微分方程动力系统与混沌导论莫里斯W赫希学术出版 | 莫里斯·W·赫希 | 图灵数学·统计学丛书（人民邮电） | Elsevier 2004 | toc=121 tl=True pg=432
+        fn=图灵数学·统计学丛书19-微分方程，动力系统与混沌导论(第2版)【英文版暂代】-[美]莫里斯·W·赫希-Elsevier学术出版-2004.pdf
+  [BK0551] 常微分方程初边值问题数值解 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=114 tl=True pg=286
+        fn=常微分方程初边值问题数值解(Griffiths & Higham).pdf
+  [BK0566] 非线性常微分方程泛函方法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=45 tl=True pg=422
+        fn=非线性常微分方程泛函方法.pdf
+  [BK0618] 基于偏微分方程的图像修复 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=28 tl=True pg=56
+        fn=基于偏微分方程的图像修复.pdf
+  [BK0553] 常微分方程教程丁同仁习题解答 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=16 tl=True pg=81
+        fn=常微分方程教程_丁同仁(第二版)_习题解答.pdf
+  [BK1099] 微分方程揭秘自学向导StevenGKrantz麦格劳希尔公司 | Steven.G.Krantz | 揭秘系列（McGraw-Hill Demystified） | McGraw-Hill 2005 | toc=16 tl=True pg=335
+        fn=揭秘系列-微分方程揭秘：自学向导(英文版)-[美]Steven.G.Krantz-麦格劳·希尔公司(McGraw-Hill)-2005.pdf
+  [BK0547] 常微分方程与动力系统 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=9 tl=True pg=246
+        fn=常微分方程与动力系统.pdf
+  [BK0962] 微分方程与边界值问题 | UNKNOWN | 华章数学译丛（机械工业） | UNKNOWN UNKNOWN | toc=6 tl=True pg=36
+        fn=华章数学译丛 13 微分方程与边界值问题.pdf
+  [BK0538] 年考研高等数学备考指导之常微分方程 | UNKNOWN | UNKNOWN | UNKNOWN 2016 | toc=0 tl=True pg=34
+        fn=2016年考研高等数学备考指导之常微分方程.pdf
+-- TOC BOOKS (50):
+  [BK0778] 现代数学基础丛书060非线性偏微分复方程闻国椿 (toc=48, hits=17)
+      - §1.带非光滑边界的椭圆型复方程的边值问题??
+      - §2.一阶非线性椭圆型复方程的复合边值问题??
+      - §4.二阶非线性椭圆型方程的Poincaré边值问题??
+      - §5.二阶椭圆型方程组的一些边值问题??
+      - §3.三阶椭圆型复方程的斜微商边值问题??
+      - §4.四阶非线性椭圆型复方程的存在定理与一些边值问题??
+      - §1.初-边值问题的提出与抛物型方程解的一些性质??
+      - §2.初-边值问题解的内部估计??
+      - §4.初-斜微商边值问题解的先验估计与可解性??
+      - §5.抛物型复方程的初-混合边值问题??
+      - §1.二阶非线性抛物型方程组初-一般边值问题的提出??
+      - §2.二阶非线性抛物型方程组的第一边值问题??
+  [BK1832] 常微分方程定性理论引论 (toc=41, hits=9)
+      - 第三章  极限环??
+      - §1基本概念和极限环的存在性??
+      - §2极限环的稳定性与重次??
+      - §3极限环的唯一性??
+      - §4旋转向量场中的极限环??
+      - §4二次系统的极限环研究简介??
+      - 第五章  平面系统的结构稳定性??
+      - §1结构稳定性概念??
+      - §2结构稳定性的主要定理??
+  [BK1836] 微分方程定性理论 (toc=65, hits=9)
+      - 1. 解的存在性、唯一性及对初值(或参数)的依赖性??
+      - 第四章 极限环??
+      - 1. 极限环的存在性??
+      - 2. 后继函数和极限环的重次及稳定性??
+      - 4. 极限环的唯一性??
+      - 5. 极限环的唯二性??
+      - 6. 二次系统极限环的个数??
+      - 7. 极限环的唯n性??
+      - 3. 用无穷远奇点研究极限环的存在性??
+  [BK0566] 非线性常微分方程泛函方法 (toc=45, hits=8)
+      - 1 .4 一阶与二阶常微分方程周期边值问题
+      - 1 .5 二阶常微分方程两点边值问题
+      - 2 .4 二阶周期问题解的存在性
+      - 2 .5 二阶Picard 问题解的存在性
+      - 2 .6 二阶Picard 问题非零解的存在性
+      - 第三章边值问题多个解
+的存在性
+      - 3 .1 常微分方程边值问题与积分方程的关系
+      - 4 .4 两点边值问题特征值理论解的全局结构
+  [BK0600] 《线性二阶偏微分方程》董光昌浙江大学年3月 (toc=35, hits=7)
+      - 第二节边值问题解的唯一性与连续依赖性??
+      - 附 Laplace方程边值问题的下调和函数解法??
+      - 第六节边值问题解的存在性与光滑性??
+      - 第十节弱解的存在性与光滑性??
+      - 第三节 第一边值问题解的Schauder内估计与近边估计??
+      - 第四节第一边值问题解的存在性与可微性??
+      - 第六节弱解的存在、唯一与光滑性??
+  [BK0055] 奇异摄动方程解的渐近展开瓦西里耶娃 (toc=37, hits=5)
+      - 第四章 边值问题
+      - §13. 单边界层的边值问题
+      - §14. 条件稳定的情况(有双边界层的边值问题)
+      - §15. 含有内部边界层的边值问题
+      - §16. 产生无穷大解值的边值问题
+
+################################################################################
+## 泛函分析
+-- BOOKS (30):
+  [BK2014] 泛函分析中的反例 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=517 tl=False pg=514
+        fn=泛函分析中的反例.pdf
+  [BK2020] 泛函分析导论及应用 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=484 tl=False pg=491
+        fn=泛函分析导论及应用(加拿大).pdf
+  [BK1280] 泛函分析第二教程夏道行 | 老版暂代 | 现代数学基础（高教版） | 高等教育出版社 1987 | toc=450 tl=False pg=456
+        fn=现代数学基础08【老版暂代】-泛函分析第二教程-夏道行-高等教育出版社-1987.pdf
+  [BK2022] 泛函分析第二教程 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=450 tl=False pg=456
+        fn=泛函分析第二教程(夏道行).pdf
+  [BK1068] 泛函分析彼得D拉克斯 | 彼得·D·拉克斯 | 图灵数学·统计学丛书（人民邮电） | 人民邮电出版社 2010 | toc=442 tl=False pg=490
+        fn=图灵数学·统计学丛书47-泛函分析-[美]彼得·D·拉克斯-人民邮电出版社-2010.pdf
+  [BK1294] 泛函分析中的反例汪林 | 老版暂代 | 现代数学基础（高教版） | 高等教育出版社 1994 | toc=329 tl=False pg=501
+        fn=现代数学基础40【老版暂代】-泛函分析中的反例-汪林-高等教育出版社-1994.pdf
+  [BK2024] 泛函分析讲义2 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=325 tl=False pg=329
+        fn=泛函分析讲义2(张恭庆).pdf
+  [BK0072] 函数论与泛函分析初步AH柯尔莫戈洛夫等 | A.H.柯尔莫戈洛夫等 | UNKNOWN | UNKNOWN UNKNOWN | toc=320 tl=False pg=471
+        fn=函数论与泛函分析初步(第7版)(作者)[俄]A.H.柯尔莫戈洛夫等.pdf
+  [BK0940] 函数论与泛函分析初步柯尔莫戈洛夫＆佛明 | 柯尔莫戈洛夫＆佛明 | 俄罗斯数学教材选译 | 高等教育出版社 2006 | toc=320 tl=False pg=471
+        fn=俄罗斯数学教材选译-函数论与泛函分析初步(中文版.第7版)-[俄]柯尔莫戈洛夫＆佛明-高等教育出版社-2006.pdf
+-- TOC BOOKS (33):
+  [BK0780] 现代数学基础丛书081算子代数上线性映射引论候晋川＆崔建莲 (toc=88, hits=8)
+      - §1.1 Banach空间及算子??
+      - §1.2 Banach代数??
+      - 第三章 标准算子代数上谱函数压缩映射??
+      - §3.1 谱函数压缩的线性映射??
+      - §3.2 谱函数保持的可加映射??
+      - 第四章 Banach代数与Cˉ*-代数上的线性映射??
+      - §4.1 Banach代数上谱函数压缩的线性映射??
+      - §4.6 Banach代数上谱有界的线性映射??
+  [BK2009] 实变函数与泛函分析概要2 (toc=44, hits=7)
+      - 2  具有基的 Banach 空间??
+      - 2  Banach 开映射定理·闭图象定理??
+      - 6  有界线性算子的正则集与谱??
+      - 7  紧算子??
+      - 4  谱系与自共轭算子的谱分解定理??
+      - 5  酉算子及其谱分解定理??
+      - 6  正常算子及其谱分解定理??
+  [BK2025] 泛函分析 (toc=44, hits=7)
+      - 2.4  Hahn-Banach定理
+      - 2.9紧算子
+      - 第4章  有界线性算子的谱
+      - 4.1有界线性算子的正则集与谱
+      - 4.2紧算子的谱
+      - 4.3自伴算子的谱
+      - 4.4自伴算子的谱分解
+  [BK0115] 微分学H嘉当余家荣 (toc=222, hits=6)
+      - 第一章 巴拿赫空间中的微分学
+      - 1．关于巴拿赫空间及连续线性映射概念的回颐
+      - 1．2． 巴拿赫空间的例子
+      - 1．3． 巴拿赫空间中的正规收敛级数
+      - 2．5．在几个巴拿赫空间的积中取值的映射
+      - 2．6．U是几个巴拿赫空间的积中开集情形
+  [BK1274] 《微分学》H嘉当余家荣高等教育年4月 (toc=222, hits=6)
+      - 第一章 巴拿赫空间中的微分学
+      - 1．关于巴拿赫空间及连续线性映射概念的回颐
+      - 1．2． 巴拿赫空间的例子
+      - 1．3． 巴拿赫空间中的正规收敛级数
+      - 2．5．在几个巴拿赫空间的积中取值的映射
+      - 2．6．U是几个巴拿赫空间的积中开集情形
+  [BK1299] 现代数学基础丛书051组合矩阵论柳柏濂 (toc=72, hits=5)
+      - 第一章 矩阵和图的谱??
+      - 1.3 谱的图论意义??
+      - 1.5 线图和全图的谱??
+      - 1.6 同谱图??
+      - 1.7 (0,1)矩阵的谱半径??
+
+################################################################################
+## 优化/线性规划
+-- BOOKS (5):
+  [BK1046] 运筹学导论初级篇HA塔哈 | H·A·塔哈 | 图灵数学·统计学丛书（人民邮电） | 人民邮电出版社 2008 | toc=521 tl=False pg=528
+        fn=图灵数学·统计学丛书22-运筹学导论：初级篇(第8版)-[美]H·A·塔哈-人民邮电出版社-2008.pdf
+  [BK0785] 14非线性最优化基础MasaoFukushima林贵华 | Masao.Fukushima | 现代数学译丛（科学出版社） | 科学出版社 2011 | toc=47 tl=False pg=196
+        fn=现代数学译丛14-非线性最优化基础-[日]Masao.Fukushima-林贵华(译)-科学出版社-2011.pdf
+  [BK1004] 24十八世纪的变分法 | UNKNOWN | 古今数学思想 | UNKNOWN UNKNOWN | toc=0 tl=False pg=22
+        fn=古今数学思想_24_十八世纪的变分法.pdf
+  [BK1053] 运筹学导论高级篇HA塔哈 | H·A·塔哈 | 图灵数学·统计学丛书（人民邮电） | 人民邮电出版社 2008 | toc=0 tl=False pg=390
+        fn=图灵数学·统计学丛书28-运筹学导论：高级篇(第8版)-[美]H·A·塔哈-人民邮电出版社-2008.pdf
+  [BK1146] UNKNOWN | UNKNOWN | 数学丛书 | UNKNOWN UNKNOWN | toc=0 tl=False pg=185
+        fn=数学丛书.-.[控制论].[最优停止理论].pdf
+-- TOC BOOKS (53):
+  [BK1336] －凸性史树中 (toc=34, hits=15)
+      - 《凸性》
+      - 第一章 凸集
+      - 1.1 凸=高于周围
+      - §1.2 凸=四周鼓出
+      - §1.4 线段 射线和直线,凸集和锥
+      - §1.5 凸集承托定理
+      - §1.7 凸集承托定理的解析证明
+      - 第二章 凸函数
+      - §2.1 凸函数的定义
+      - §2.2 凸性不等式
+      - §2.3 凸函数的导数性质
+      - §2.4 凸函数的次微分和共轭函数
+  [BK2069] 解析不等式 (toc=74, hits=8)
+      - 1.4 凸函数??
+      - 1.4.1 Jensen 凸函数的定义??
+      - 1.4.2 Jensen 凸函数的连续性??
+      - 1.4.3 凸函数??
+      - 1.4.4 凸函数的连续性和可微性??
+      - 1.4.5 对数性凸函数??
+      - 1.4.6 凸函数概念的一些推广??
+      - 1.4.7 凸性的谱系??
+  [BK0776] 现代数学基础丛书048线性整数规划的数学基础马仲蕃 (toc=64, hits=6)
+      - 第一章 线性规划??
+      - §2 单纯形方法??
+      - §3 改进单纯形方法??
+      - §6 变量带上界限制的线性规划问题??
+      - §8 字典序单纯形方法??
+      - 第四章 组合线性规划??
+  [BK0875] 力学和物理学中的变分不等方程G迪沃＆JL利翁斯王耀东 (toc=232, hits=5)
+      - 《力学和物理学中的变分不等方程》
+      - 3. 温度控制和半渗透壁问题的变分提法
+      - 3.2 变分不等方程
+      - 4.2 应用:凸集K
+      - 5. 第3 节中发展变分不等方程的求解
+  [BK1962] 数学分析方法选讲 (toc=114, hits=5)
+      -     第三章微分中值定理·凸函数??
+      - §3  凸函数??
+      -   一  凸函数概念??
+      -   二  凸函数的性质??
+      -   三  凸函数的判定??
+  [BK0599] 《偏微分方程选讲》姜礼尚高等教育年7月 (toc=43, hits=4)
+      - 第二章 变分方法??
+      - 2.变分原理??
+      - 3.变分问题的几种近似解法??
+      - 4.发展方程的变分方法??
+
+################################################################################
+## Fourier/变换
+-- BOOKS (6):
+  [BK1667] LoukasGrafakosClassicalFourierAnalysis | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=260 tl=True pg=647
+        fn=GTM 249 - ISBN978-1-4939-1194-3 - Loukas Grafakos - Classical Fourier Analysis..pdf
+  [BK1668] LoukasGrafakosModernFourierAnalysis | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=206 tl=True pg=636
+        fn=GTM 250 - ISBN978-1-4939-1230-8 - Loukas Grafakos - Modern Fourier Analysis..pdf
+  [BK1482] REEdwardsFourierSeriesAModernIntroductionVolume1 | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=230
+        fn=GTM 064 - ISBN978-1-4612-6208-4 - R. E. Edwards - Fourier Series - A Modern Introduction, Volume 1..pdf
+  [BK1503] REEdwardsFourierSeriesAModernIntroductionVolume2 | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=381
+        fn=GTM 085 - ISBN978-1-4613-8156-3 - R. E. Edwards - Fourier Series - A Modern Introduction, Volume 2..pdf
+  [BK1604] DinakarRamakrishnanRobertJValenzaFourierAnalysisonNumberFields | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=372
+        fn=GTM 186 - ISBN978-1-4757-3085-2 - Dinakar Ramakrishnan, Robert J. Valenza - Fourier Analysis on Number Fields..pdf
+  [BK1641] AndersVretbladFourierAnalysisandItsApplications | UNKNOWN | Graduate Texts in Mathematics | UNKNOWN UNKNOWN | toc=0 tl=True pg=275
+        fn=GTM 223 - ISBN978-0-387-00836-3 - Anders Vretblad - Fourier Analysis and Its Applications..pdf
+-- TOC BOOKS (149):
+  [BK1742] 菲利克斯克莱因舒湘芹陈义章等高观点下的初等数学几何 (toc=34, hits=10)
+      - 第十三章 直角坐标变换下空间基本图形的分类
+      - 第五部分 几何变换
+      - 第十五章 仿射变换
+      - 第十六章 投影变换
+      - 第十七章 高阶点变换
+      - §17.1 反演变换
+      - §17.3 最一般的可逆单值连续点变换
+      - 第十八章 空间元素改变而造成的变换
+      - §18.1 对偶变换
+      - §18.2 相切变换
+  [BK0864] 数学物理方法IR•柯朗＆D•希尔伯特 (toc=348, hits=9)
+      - 1.1  线性方程和线性变换??
+      - 1.1.3  线性变换、矩阵??
+      - 1.1.5  正交变换和复正交变换??
+      - 1.2  含线性参数的线性变换??
+      - 1.3  二次型和埃尔米特型的主轴变换??
+      - 1.3.1  根据极大值原理作主轴变换??
+      - 1.5.3  正则变换的广义处理??
+      - 1.5.5  无穷小线性变换??
+      - 2.1.4  无穷多个变数的正交变换和复正交变换??
+  [BK1312] 《矩阵》JR布伦菲尔德刘远图 (toc=49, hits=7)
+      - 1.保持距离和角度不变的变换??
+      - 2.变换的矩阵表示??
+      - 3.变换的组合??
+      - 1.使直线之间的夹角保持不变的变换??
+      - 2.拉伸变换??
+      - 3.保持面积不变的变换??
+      - 4.不变的变换??
+  [BK2129] 高等代数新方法 (toc=53, hits=7)
+      - 2  逆矩阵、初等变换和初等矩阵??
+      - 3  分块矩阵及它的广义初等变换??
+      - 第六章  线性空间和线性变换??
+      - 2  基、维数和坐标变换??
+      - 4  线性变换与线性空间的同构??
+      - 5  线性变换与矩阵??
+      - 6  线性变换的象空间，核空间，不变子空间及特征值，特征向量??
+  [BK0445] 高等代数习题解2 (toc=35, hits=6)
+      - 第十章 线性变换??
+      - 10.1 线性变换的运算及其矩阵??
+      - 10.2 线性变换的特征值与特征向量??
+      - 12.2 正交变换和正交矩阵??
+      - 12.3 对称变换和实对称矩阵??
+      - 12.4 反对称变换、共轭变换和非负对称变换??
+  [BK0593] 偏微分方程Levine (toc=44, hits=6)
+      - 第十三章  边值问题的Fourier方法来源详述??
+      - 第十七章　Fourier分析的进一步例子??
+      - 第三十二章　Fourier展开：概述??
+      - 第三十三章　Fourier展开式：各种例子??
+      - 第三十四章　Fourier积分和Fourier变换??
+      - 第三十五章　Fourier变换的应用??
+
+################################################################################
+## 数学物理/量子
+-- BOOKS (18):
+  [BK0867] 数学物理原理 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=38 tl=True pg=12
+        fn=数学物理原理（庞加莱）.PDF
+  [BK0874] 数学物理方程习题集 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=427 tl=False pg=434
+        fn=数学物理方程习题集(苏联).pdf
+  [BK0865] 数学物理方法IIR•柯朗＆D•希尔伯特 | R•柯朗＆D•希尔伯特 | 数学名著译丛（科学出版社） | 科学出版社 1977 | toc=422 tl=False pg=715
+        fn=数学名著译丛-数学物理方法II-[德]R•柯朗＆D•希尔伯特-科学出版社-1977.pdf
+  [BK0562] 数学物理学百科全书代数拓扑辛几何与拓扑常微分和偏微分方程费朗克斯 | 费朗克斯 | UNKNOWN | 科学出版社 2008 | toc=411 tl=False pg=450
+        fn=数学物理学百科全书(卷11)：代数拓扑；辛几何与拓扑；常微分和偏微分方程(英文导读版)-[法]费朗克斯-科学出版社-2008.pdf
+  [BK0627] 数学物理偏微分方程薛兴恒 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=395 tl=False pg=400
+        fn=数学物理偏微分方程薛兴恒.pdf
+  [BK0869] 数学物理学百科全书12 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=381 tl=False pg=420
+        fn=数学物理学百科全书-12.pdf
+  [BK0864] 数学物理方法IR•柯朗＆D•希尔伯特 | R•柯朗＆D•希尔伯特 | 数学名著译丛（科学出版社） | 科学出版社 2011 | toc=348 tl=False pg=479
+        fn=数学名著译丛-数学物理方法I-[德]R•柯朗＆D•希尔伯特-科学出版社-2011.pdf
+  [BK0868] 数学物理学百科全书数学物理学导言精装费朗克斯 | 费朗克斯 | UNKNOWN | 科学出版社 2008 | toc=345 tl=False pg=382
+        fn=数学物理学百科全书(卷1)：数学物理学导言精装(中英双语版)-[法]费朗克斯-科学出版社-2008.pdf
+  [BK0872] 数学物理方程 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=43 tl=False pg=206
+        fn=数学物理方程.pdf
+-- TOC BOOKS (26):
+  [BK0340] 直接微扰方法和非线性薛定谔方程族的近似解 (toc=35, hits=5)
+      - ﻿（一）非线性薛定谔方程
+      - ﻿三非线性薛定谔方程族的近似解
+      - ﻿（一）耦合非线性薛定谔方程组
+      - ﻿（二）多分量耦合非线性薛定谔方程
+      - ﻿（三）（2+1）维非线性薛定谔方程
+  [BK0780] 现代数学基础丛书081算子代数上线性映射引论候晋川＆崔建莲 (toc=88, hits=5)
+      - 第三章 标准算子代数上谱函数压缩映射??
+      - §3.1 谱函数压缩的线性映射??
+      - §3.2 谱函数保持的可加映射??
+      - §4.1 Banach代数上谱函数压缩的线性映射??
+      - §4.6 Banach代数上谱有界的线性映射??
+  [BK1299] 现代数学基础丛书051组合矩阵论柳柏濂 (toc=72, hits=5)
+      - 第一章 矩阵和图的谱??
+      - 1.3 谱的图论意义??
+      - 1.5 线图和全图的谱??
+      - 1.6 同谱图??
+      - 1.7 (0,1)矩阵的谱半径??
+  [BK2025] 泛函分析 (toc=44, hits=5)
+      - 第4章  有界线性算子的谱
+      - 4.1有界线性算子的正则集与谱
+      - 4.2紧算子的谱
+      - 4.3自伴算子的谱
+      - 4.4自伴算子的谱分解
+  [BK0591] 37《偏微分方程的应用》犬井铁郎等扬永芳上海科学技术年3月 (toc=85, hits=4)
+      - § 12 量子力学上的谐和振子， Weber-Hermite 函数
+      - § 13 量子力学上的 Kepler 问题的本征值问题之一 幅角部分
+      - § 14 量子力学上的 Kepler 问题的本征值问题之二 矢径部分
+      - § 15 量子力学上的 Kepler 问题的本征值问题之三 回旋抛物面坐标的分离变变数法，连续谱
+  [BK0616] 分数阶微积分理论在粘弹性流体力学及量子力学中的某些应用 (toc=42, hits=4)
+      - ﻿第四章广义时空分数阶Schr(o)dinger方程
+      - ﻿§4.2广义分数阶Schr(o)dinger方程
+      - ﻿§4.6广义Schr(o)dinger方程对自由粒子的Green函数
+      - ﻿第五章一种求解时间分数阶扩散方程和Schr(o)dinger方程的新方法
+
+################################################################################
+## 经典场论/相对论
+-- BOOKS (5):
+  [BK1108] 相对论揭秘自学向导D麦克马洪麦格劳希尔公司 | D·麦克马洪 | 揭秘系列（McGraw-Hill Demystified） | McGraw-Hill 2006 | toc=181 tl=True pg=358
+        fn=揭秘系列-相对论揭秘：自学向导(英文版)-[美]D·麦克马洪-麦格劳·希尔公司(McGraw-Hill)-2006.pdf
+  [BK0886] 广义相对论和微分几何 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=5
+        fn=广义相对论和微分几何(陈省身).pdf
+  [BK0892] 微分几何入门及广义相对论答案 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=True pg=169
+        fn=微分几何入门及广义相对论答案.pdf
+  [BK0902] 梁灿彬微分几何入门与广义相对论2ed | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=42 tl=False pg=1221
+        fn=梁灿彬-微分几何入门与广义相对论-2ed（上中下）.pdf
+  [BK0890] 微分几何入门与广义相对论 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=456
+        fn=微分几何入门与广义相对论(上).pdf
+-- TOC BOOKS (28):
+  [BK0902] 梁灿彬微分几何入门与广义相对论2ed (toc=42, hits=6)
+      - 微分几何入门与广义相对论
+      - 2 流形和张量场
+      - 3 黎曼(内禀)曲率张量
+      - 6 狭义相对论
+      - 7 广义相对论基础
+      - 15 广义相对论的拉氏和哈氏形式
+  [BK2145] 黎曼几何习题集 (toc=49, hits=5)
+      - 第一章  向量与张量??
+      - 3  张量??
+      - 7  张量场??
+      - 13  曲率张量??
+      - 23  子空间的张量场与共变导数??
+  [BK2147] 黎曼几何初步 (toc=108, hits=4)
+      - 2.2 张量积 张量代数??
+      - 2.3 对称和反(对)称张量??
+      - 3 张量场??
+      - 3.1 张量场??
+  [BK0637] 微分流形与李群基础弗兰克W瓦内尔 (toc=67, hits=3)
+      - 第 2 章 张量和微分形式
+      - 1 张量和外代数
+      - 2 张量场和微分形式
+  [BK2101] 交换代数导引 (toc=77, hits=3)
+      - 2.4 张量积和平坦模??
+      - 2.4.1 模的张量积??
+      - 2.4.2 张量积函子??
+  [BK0642] 现代数学基础丛书022线性代数群表示导论曹锡华 (toc=76, hits=2)
+      - 6. Steinberg张量积定理??
+      - 6.2 Steinberg张量积定理??
+
+################################################################################
+## 科学计算/大规模
+-- BOOKS (2):
+  [BK0499] 矩阵计算的理论与方法 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=375
+        fn=【北京大学数学丛书12】 矩阵计算的理论与方法（徐树方）.pdf
+  [BK1721] 《精通MATLAB科学计算》 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=460
+        fn=《精通MATLAB科学计算》.pdf
+-- TOC BOOKS (54):
+  [BK1043] 微分方程动力系统与混沌导论莫里斯W赫希学术出版 (toc=121, hits=10)
+      - 1.4 Periodic Harvesting and Periodic Solutions 
+      - 2.5 Eigenvalues and Eigenvectors
+      - 3.1 Real Distinct Eigenvalues
+      - 3.2 Complex Eigenvalues
+      - 3.3 Repeated Eigenvalues
+      - 5.2 Eigenvalues and Eigenvectors
+      - 5.3 Complex Eigenvalues
+      - 5.5 Repeated Eigenvalues
+      - 6.1 Distinct Eigenvalues
+      - 6.3 Repeated Eigenvalues
+  [BK1704] LecturesonConvexGeometryDanielHugWolfgangWeilt (toc=100, hits=4)
+      - 3.2 Volume and Surface Area
+      - 3.3 Mixed Volumes
+      - Mixed Volumes of Strongly Isomorphic Polytopes
+      - 4 From Area Measures to Valuations
+  [BK1706] QuaternionAlgebrasJohnVoight (toc=368, hits=4)
+      - 1.5 Conclusion
+      - 3 Involutions
+      - 3.2 Involutions
+      - 4.4 Nondegenerate standard involutions
+  [BK0709] 拓扑与抽象代数两条数学理解之路2 (toc=42, hits=3)
+      - The Evolution of...
+      - Problems and Solutions
+      - Solutions
+  [BK1099] 微分方程揭秘自学向导StevenGKrantz麦格劳希尔公司 (toc=16, hits=3)
+      - 3 Power Series Solutions and Special Functions
+      - 5 Partial Differential Equations and Boundary Value Problems
+      - Solutions to Exercises
+  [BK1664] EberhardKaniuthACourseinCommutativeBanachAlgebras (toc=61, hits=3)
+      - Functional Calculus, Shilov Boundary, and Applications
+      - The holomorphic functional calculus
+      - Some applications of the functional calculus
+
+################################################################################
+## 流体/连续介质
+-- BOOKS (3):
+  [BK0615] 分数阶微积分及其在黏弹性材料与核磁共振中的某些应用 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=41 tl=True pg=76
+        fn=分数阶微积分及其在黏弹性材料与核磁共振中的某些应用.pdf
+  [BK0616] 分数阶微积分理论在粘弹性流体力学及量子力学中的某些应用 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=42 tl=False pg=104
+        fn=分数阶微积分理论在粘弹性流体力学及量子力学中的某些应用.pdf
+  [BK0342] 非线性连续介质力学 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=375
+        fn=非线性连续介质力学(匡震邦).pdf
+-- TOC BOOKS (12):
+  [BK0055] 奇异摄动方程解的渐近展开瓦西里耶娃 (toc=37, hits=5)
+      - §3. 奇异摄动方程组解的渐近表示特点和边界层
+      - §5. 关于边界层函数法对其他问题的应用
+      - §13. 单边界层的边值问题
+      - §14. 条件稳定的情况(有双边界层的边值问题)
+      - §15. 含有内部边界层的边值问题
+  [BK1824] 流形 (toc=33, hits=2)
+      - 第三章  外微分形式和 Stokes 定理??
+      - 3  C∞流形的定向和 Stokes 定理??
+  [BK2147] 黎曼几何初步 (toc=108, hits=2)
+      - 4 流形上的积分 Stokes定理??
+      - 4.3 流形上的积分 Stokes定理??
+  [BK0053] 复分析导论多复变函数 (toc=109, hits=1)
+      - 14. 斯托克斯(Stokes)公式
+  [BK0599] 《偏微分方程选讲》姜礼尚高等教育年7月 (toc=43, hits=1)
+      - 4.守恒律??
+  [BK0781] 现代数学基础丛书106非线性演化方程的稳定性与分歧马天＆汪宁宏 (toc=201, hits=1)
+      -     1.5.3　流体的边界层分离与内部分离??
+
+################################################################################
+## 统计物理
+-- BOOKS (0):
+-- TOC BOOKS (4):
+  [BK1337] 信息的度量及其应用沈世镒 (toc=45, hits=7)
+      - §1.2 仙农熵的引进与信息度量的研究状况
+      - 第二章 仙农熵与无噪声信源编码问题??
+      - §2.3 熵功率与信号体积
+      - §3.1 条件熵与交互信息
+      - §4.1 连续分布的仙农熵与互熵
+      - §4.2 最大熵与最小互熵原理
+      - §4.3 广义熵的定义与性质
+  [BK2003] 概率论解题指南 (toc=77, hits=2)
+      - 第五章  熵和信息??
+      - 27  随机事件和随机变量的熵??
+  [BK1326] 计算密码学卢开澄 (toc=48, hits=1)
+      -     §5  不确定性的度量——熵的概念??
+  [BK1997] 概率论基础 (toc=51, hits=1)
+      - 3.熵与信息??
+
+################################################################################
+## 纤维丛/示性类
+-- BOOKS (2):
+  [BK0728] 现代数学基础丛书032代数拓扑与示性类I马德森吴英青＆段海鲍 | UNKNOWN | UNKNOWN | 科学出版社 1989 | toc=21 tl=False pg=134
+        fn=现代数学基础丛书032-代数拓扑与示性类-[丹麦]I·马德森-吴英青＆段海鲍(译)-科学出版社-1989.pdf
+  [BK0376] 代数拓扑与示性类马德森 | UNKNOWN | UNKNOWN | UNKNOWN UNKNOWN | toc=0 tl=False pg=130
+        fn=代数拓扑与示性类马德森.pdf
+-- TOC BOOKS (15):
+  [BK1824] 流形 (toc=33, hits=7)
+      - 第二章  向量丛和切丛??
+      - 2  纤维丛和向量丛??
+      - 第五章  向量丛上的 Riemann 度量和线性联络??
+      - 1  向量丛上的 Riemann 度量??
+      - 2  向量丛上的线性联络??
+      - 3  Levi-Civita 联络??
+      - 4  Riemann 正则子流形的 Riemann 联络??
+  [BK0728] 现代数学基础丛书032代数拓扑与示性类I马德森吴英青＆段海鲍 (toc=21, hits=5)
+      - 《代数拓扑与示性类》
+      - 5. 向量丛与主丛
+      - 6. 向量丛的分类
+      - 11. 曲率和示性类
+      - 12. 整陈类和Thom 同构
+  [BK0898] 微分流形与黎曼几何梅向明贺龙光 (toc=46, hits=5)
+      - 第五章 线性联络??
+      - 5.1 线性联络??
+      - 5.3 线性联络的测地线??
+      - 第六章 黎曼度量与黎曼联络??
+      - 6.2 黎曼联络??
+  [BK1811] 微分几何 (toc=33, hits=5)
+      - 第1章 Levi-Civita联络和Riemann截曲率??
+      - 1．1 向量丛上的线性联络??
+      - 1．2 切丛上的线性联络、向量场的平移和测地线??
+      - 1．3 Levi-Civita联络和Riemann流形基本定理??
+      - 1．6 C~∞浸入子流形的Riemann联络??
+  [BK2144] 微分流形与黎曼几何 (toc=46, hits=5)
+      - 第五章 线性联络??
+      - 5.1 线性联络??
+      - 5.3 线性联络的测地线??
+      - 第六章 黎曼度量与黎曼联络??
+      - 6.2 黎曼联络??
+  [BK0905] 流形与几何初步 (toc=54, hits=4)
+      - 2.3 向量丛和纤维丛
+      - 3.2 联络
+      - 3.4 联络和曲率的计算
+      - 3.8 Chern-Weil 理论

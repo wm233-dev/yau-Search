@@ -1,0 +1,47 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Analysis and differential equations overall
+Problem 1. Let f : C →C be a non-constant holomorphic function.
+1) Prove that the image of f is dense in C.
+2) Prove that the image of f can miss only one point in C. (Hint: The universal
+cover of C −{0, 1} is the unit disk.)
+Problem 2. Let K be a measurable function on Rn × Rn. Define
+Tf(x) =
+Z
+Rn K(x, y)f(y)dy.
+(1) Suppose that K ∈L∞
+x L1
+y ∩L∞
+y L1
+x. Show that T is a bounded operator on L2(Rn).
+Remark: K ∈L∞
+x L1
+y means ess supx∈Rn
+R
+Rn |K(x, y)|dy < +∞.
+(2) Suppose that K ∈L2(Rn × Rn). Show that T is a compact operator on L2(Rn).
+(3) Suppose that K is compactly supported, and satisfies |K(x, y)| ≤A|x −y|−n+α for
+some α > 0, whenever x, y ∈Rn. Show that K is not necessarily ∈L2(Rn × Rn), but
+T is still a compact operator on L2(Rn).
+Problem 3. Consider the Cauchy problem for the linear homogeneous wave equation
+in R3 × R:
+□ϕ = 0,
+ϕ(x, 0) = φ(x),
+∂tϕ(x, 0) = ψ(x).
+Suppose that the smooth functions φ(x), ψ(x) have compact support and they only
+depend on the radial variable r, i.e. φ(x) = φ(r), ψ(x) = ψ(r).
+ The solution ϕ to the above Cauchy problem only depends on the radial variable
+r and the time variable t, i.e. ϕ(x, t) = ϕ(r, t).
+ Prove that for sufficiently large T0 > 0, we have
+∂r (rϕ) (0, t) ≡0,
+for all
+t ≥T0.
+ Let u := t−r, ¯u := t+r. Therefore ϕ can be viewed as a function of (¯u, u). Prove
+that if there is a r0 > 0 such that
+−ψ(r0) + ∂rφ(r0) + 1
+r0
+φ(r0)/=0,
+then there is a u0 ∈R such that
+lim
+¯u→∞∂u (rϕ) (¯u, u0)/=0.

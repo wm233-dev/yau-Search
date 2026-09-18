@@ -1,0 +1,31 @@
+
+=== page 1 ===
+Geometry and Topology 
+Oral Exam (Individual) 
+ 
+1. How many S2 bundles on S2 are there?  
+ 
+2. Describe normal coordinate what is derivative? 
+When is the derivative nonsingular? 
+State Catan Hademand Theorem. 
+And find Taylor expansion of gij in normal coordinate.   
+ 
+3. Define Hopf Algebra. 
+Which space has Hopf Algebra structure. 
+Why dose Lie group structure  =>  Hopf Algebra structure. 
+Showπi (closed loop space) = πi+1 .    
+
+=== page 2 ===
+Geometry and Topology 
+Oral Exam (Team) 
+ 
+1. State and prove Synge Theorem. 
+ 
+2. Why does Euler number of odd dimensional manifold equal to zero? 
+ 
+3. State Hopf-Poincare Theorem. 
+Idea of the proof. 
+Any interesting application. 
+ 
+4. State clear Euler Formula. 
+Prove there are 5 regular Spheres. 

@@ -1,0 +1,9 @@
+
+=== page 1 ===
+Oral-Example-Geometry-Topology
+1
+Group
+1. Show that S2 × S2 and the connected sum CP2♯CP2 are not homotopic equivalent.
+2. Show that any closed surface has a closed geodesic.
+3. Compute the Euler number of a smooth degree d hypersurface in CP3.
+1

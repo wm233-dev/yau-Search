@@ -1,0 +1,114 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Diﬀerential Equations
+(6 problems)
+Problem 1.
+Find the solution R(r) (r ≥1) of the diﬀerential equation
+r3R′′′(r) + 2r2R′′(r) −rR′(r) + R(r) = 2025,
+r > 1,
+satisfying the conditions
+R(1) = 2025,
+R′(1) = 0
+and
+R′′(1) = 1.
+Problem 2.
+(1). Prove that for n ≥3, there exists a constant C > 0 such that
+Z
+Rn
+u2
+|x|2 dx ≤C
+Z
+Rn |∇u|2 dx,
+∀u ∈H1(Rn);
+(2). Prove that the optimal constant C in (1) is
+4
+(n−2)2 .
+Problem 3.
+(1). Let u(x, y) be a subharmonic function on a domain D containing the annulus {r1 < |x| < r2}.
+Deﬁne
+M(r) =
+max
+x2+y2=r u(x, y)
+for r1 < r < r2. Prove that:
+M(r) ≤M(r1)(log r2 −log r) + M(r2)(log r −log r1)
+log r2 −log r1
+;
+(2). If u is subharmonic on R2 \ {0} and bounded above, prove that u is constant.
+Problem 4.
+Write S1 = {e2π√−1s : s ∈R} ∼= {s : s ∈[0, 1]} = [0, 1]. For a smooth closed curve
+γ : S1 −→R2,
+s 7−→γ(s) = (x(s), y(s))
+we mean that x, y : S1 →R are continuously diﬀerentiable functions of s, γ(0) = γ(1), and
+γ′(s) = dγ(s)
+ds
+̸= 0 for all s ∈[0, 1].
+The degree of a smooth closed curve γ : S1 →R2 is given by
+d(γ) := 1
+2π
+I
+γ
+xdy −ydx
+x2 + y2 .
+1
+
+=== page 2 ===
+(1) Show that
+d(γ) =
+1
+2π√−1
+I
+γ
+dz
+z .
+Hence d(γ) is an integer.
+(2) For the curve γ(s) = re2π√−1ns ∈C with z0 ∈C, s ∈[0, 1] and n ∈Z, compute d(γ).
+(3) Two smooth closed curves γ0 and γ1 are regularly homotopic if there exists a family of smooth
+closed curves γt with a continuous dependence on t ∈[0, 1], where the curves γ0 and γ1
+correspond to t = 0 and t = 1 respectively. Here, by a continuous dependence on t we mean
+that the map
+[0, 1] × [0, 1] −→R2,
+(s, t) 7−→γ(s, t) = γt(s)
+is continuous.
+Prove that two smooth closed curves γ0 and γ1 are regularly homotopic if and only if there
+have equal degrees.
+Problem 5.
+If A and B are disjoint closed subsets of a metric space (X, d) and [a, b] is a given closed interval,
+then there exists a continuous map f : X →[a, b] such that f(A) = {a} and f(B) = {b}.
+Problem 6.
+For f a complex-valued locally integrable function on Rn, set
+||f||BMO := sup
+Q
+ 1
+|Q|
+Z
+Q
+f(x) −AvgQf
+ dx
+
+,
+where the supremum is taken over all cubes Q in Rn and
+AvgQf :=
+1
+|Q|
+Z
+Q
+f(x) dx.
+Let BMO(Rn) be the set of all complex-valued locally integrable functions on Rn with ||f||BMO <
+∞.
+(1) || · ||BMO is not a norm, and is only a seminorm.
+(2) L∞(Rn) ⊂BMO(Rn) and ||f||BMO ≤2||f||L∞.
+(3) Suppose that there exists an A > 0 such that for all cubes Q in Rn there exists a constant cQ
+such that
+sup
+Q
+ 1
+|Q|
+Z
+Q
+|f(x) −cQ| dx
+
+≤A.
+then f ∈BMO(Rn) and ||f||BMO ≤2A.
+(4) L∞(Rn) is a proper subspace of BMO(Rn).
+2

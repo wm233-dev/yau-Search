@@ -1,0 +1,63 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Probability and Statistics
+Solve every problem.
+Problem 1.
+Let {𝑋𝑛} be a sequence of Gaussian random variables. Suppose that 𝑋is a random variable such
+that 𝑋𝑛converges to 𝑋in distribution as 𝑛→∞. Show that 𝑋is also a (possibly degenerate, i.e., variance zero)
+Gaussian random variable.
+Problem 2.
+For two probability measures 𝜇and 𝜈on the real line 𝐑, the total variation distance ‖𝜇−𝜈‖𝑇𝑉is
+defined as
+‖𝜇−𝜈‖𝑇𝑉= sup {𝜇(𝐶) −𝜈(𝐶) ∶𝐶∈ℬ(𝐑)} ,
+where ℬ(𝐑) is the 𝜎-algebra of Borel sets on 𝐑. Let 𝒞(𝜇, 𝜈) be the space of couplings of the probability measures
+𝜇and 𝜈, i.e., the space of 𝐑2 valued random variables (𝑋, 𝑌) defined on some (not necessarily same) probability
+space (Ω, ℱ, ℙ) such that the marginal distributions of 𝑋and 𝑌are 𝜇and 𝜈, respectively. Show that
+‖𝜇−𝜈‖𝑇𝑉= inf {ℙ(𝑋≠𝑌) ∶(𝑋, 𝑌) ∈𝒞(𝜇, 𝜈)} .
+For simplicity you may assume that 𝜇and 𝜈are absolutely continuous with respect to the Lebesgue measure on
+𝐑.
+Problem 3.
+We throw a fair die repeatedly and independently. Let 𝜏11 be the first time the pattern 11 (two
+consecutive 1’s) appears and 𝜏12 the first time the pattern 12 (1 followed by 2) appears.
+(a) Calculate the expected value 𝔼𝜏11.
+(b) Which is larger, 𝔼𝜏11 or 𝔼𝜏12? It is sufficient to give an intuitive argument to justify your answer. You can
+also calculate 𝔼𝜏12 if you wish.
+Problem 4.
+Let {𝑋𝑛} be a Markov chain on a discrete state space 𝑆with transition function 𝑝(𝑥, 𝑦), 𝑥, 𝑦∈𝑆.
+Suppose that there is a state 𝑦0 ∈𝑆and a positive number 𝜃such that 𝑝(𝑥, 𝑦0) ≥𝜃for all 𝑥∈𝑆.
+(a) Show that is a positive constant 𝜆< 1 such that for any two initial distribution 𝜇and 𝜈,
+∑
+𝑦∈𝑆
+||ℙ𝜇{𝑋1 = 𝑦} −ℙ𝜈{𝑋1 = 𝑦}|| ≤𝜆∑
+𝑦∈𝑆
+|𝜇(𝑦) −𝜈(𝑦)| .
+(b) Show that the Markov chain has a unique stationary distribution 𝜋and
+∑
+𝑦∈𝑆
+||ℙ𝜇{𝑋𝑛= 𝑦} −𝜋(𝑦)|| ≤2𝜆𝑛.
+Problem 5. Consider a linear regression model with 𝑝predictors and 𝑛observations:
+𝐘= 𝑋𝛽+ 𝐞,
+where 𝑋𝑛×𝑝is the design matrix, 𝛽is the unknown coefficient vector, and the random error vector 𝐞has a mul-
+tivariate normal distribution with mean zero and Var(𝐞) = 𝜎2𝐼𝑛(𝜎2 > 0 unknown and 𝐼𝑛is the identity matrix).
+
+=== page 2 ===
+Here rank(𝑋) = 𝑘≤𝑝, 𝑝may or may not be greater than 𝑛, but we assume 𝑛−𝑘> 1. Let 𝐱1 = (𝑥1,1, … , 𝑥1,𝑝) be
+the first row of 𝑋and define
+𝛾= 𝐱1𝛽
+𝜎.
+Find the uniformly minimum variance unbiased estimator (UMVUE) of 𝛾or prove it does not exist.
+Problem 6. Let 𝑋1, … , 𝑋2022 be independent random variables with 𝑋𝑖∼ 𝑁( 𝜃𝑖, 𝑖2), 1 ≤𝑖≤2022. For estimating
+the unknown mean vector 𝜽∈𝑅2022, consider the loss function 𝐿(𝜽, 𝐝) = ∑
+2022
+𝑖=1 (𝑑𝑖−𝜃𝑖)2/𝑖2. Prove that 𝐗=
+(𝑋1, … , 𝑋2022) is a minimax estimator of 𝜽.
+Recall: If 𝑌|𝜇  ∼𝑁(𝜇, 𝜎2) and 𝜇∼ 𝑁(𝜇0, 𝜎2
+0) then 𝜇|𝑌= 𝑦∼𝑁(
+𝜇0/𝜍2
+0+𝑦/𝜍2
+1/𝜍2
+0+1/𝜍2 ,
+1
+1/𝜍2
+0+1/𝜍2).

@@ -1,0 +1,35 @@
+
+=== page 1 ===
+GROUP TEST / ORAL EXAM
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Applied and Computational Mathematics
+1. We would like to solve the following PDE
+(1)
+ut + ux = u
+by a ﬁnite diﬀerence scheme
+(2)
+un+1
+j
+=
+q
+X
+k=−p
+akun
+j+k
+where ak are constants depending on the mesh sizes ∆x and ∆t, and
+un
+j are approximations to the exact solution u(xj, tn) with xj = j∆x
+and tn = n∆t. A student deﬁnes stability of the scheme by
+(3)
+∥un+1∥≤∥un∥
+where ∥·∥is the usual discrete L2-norm. Do you believe this deﬁnition
+is reasonable, namely do you believe there are consistent and accurate
+schemes (2) approximating the PDE (1) which will be stable under the
+deﬁnition (3)? If yes, give your reasons. If not, modify the deﬁnition
+(3).
+2. Let T be a rooted tree with the root r.
+Show that there is an
+injection f from the set of vertices of degree at least 3 to the set of
+leaves (not the root) such that for each vertex v of degree at least 3, v
+lies in the path from r to f(v).
+1

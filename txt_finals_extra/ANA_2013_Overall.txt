@@ -1,0 +1,16 @@
+All-around Analysis
+Let  be a harmonic function on a smooth open domain  in . Prove the following:u(x,y)ΩR2
+Mean Value property: For any , such that ，it holds thatP0=(x0,y0)∈ΩBR(P0)⊂Ω
+ux0,y0=12πR∂BR(P0) uds
+Harnack inequality: Assume that . For any compact subset  of ,  positive constant  , such thatu≥0KΩ∃ aC=C(Ω, K)
+1Cuy≤ux≤Cuy,  ∀x,y∈K
+where  is independent of Ku.
+State and prove the maximal principle for u.
+
+Assume  is an analytic function in the neighborhood of , andφ(z)z=0
+with  and φz=λz+az2+…λ∈C\0a≠0.
+If . Construct an analytic functionλ>1
+fz=z+oz2, z~0
+such that .φ(fz)=f(λz+o(z3))
+If , is there an analytic function  of near identity such thatλ>1f
+φ(fz)=fλz, z∼0

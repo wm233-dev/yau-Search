@@ -1,0 +1,86 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Individual Problems
+1. Show that S2 × S2 and CP2 ∨S2 are not homotopically equivalent.
+2 (Bonnet-Myers theorem). Prove that a complete Riemannian manifold M whose
+sectional curvature is everywhere bounded below by a constant k has diameter at most
+π/
+√
+k. In particular, M is compact.
+3 (Isoperimetric inequality). For the length L of a closed curve and the area A of the
+planar region that it encloses, show that 4πA ≤L2 and that equality holds if and only
+if the curve is a circle.
+4. (a) Compute the cohomology of the unitary group U(n).
+(b) Compute π1(U(n)) and π2(U(n)).
+1
+
+=== page 2 ===
+2
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Team Problems
+1. (a) Describe the loop space ΩS2 and path space PS2 of the sphere S2 in the following
+ﬁbration:
+ΩS2
+/ PS2
+²
+S2.
+(b) Compute the cohomology of the loop space ΩS2. What is the ring structure of
+H∗(ΩS2)?
+2 (Synge theorem). Let M be an even-dimensional compact Riemannian manifold with
+positive sectional curvature.
+(a) When M is orientable, show that M is simply connected.
+(b) When M is unorientable, what is π1(M)?
+3. (a) Let C be a smooth curve on the sphere. The Crofton formula expresses the arc
+length L(C) of the curve C as
+L(C) = 1
+4
+Z
+S2 n(C ∩W ⊥)dW.
+Here W ⊥is the plane with normal W going through the origin and n(C ∩W ⊥) is the
+number of points in the intersection of C and W ⊥.
+(b) Sketch a proof of Crofton formula.
+4. Let Ω= xdy ∧dz + ydz ∧dx + zdx ∧dy and α > 0. Suppose D is the surface in R3
+deﬁned by {(x, y, z) | x2 + y2 + z2 = 1, z ≥α
+p
+x2 + y2}.
+(a) Show that Ω|D is an orientation form and makes D an oriented manifold with
+boundary.
+(b) Evaluate
+R
+D Ω. Your answer should be in terms of α.
+
+=== page 3 ===
+3
+S.-T. Yau College Student Mathematics Contests 2017
+Oral Exam of Geometry and Topology
+Overall Problems
+1. Let Σg be a compact Riemann surface of genus g > 1, Aut(Σg) be the automorphism
+group of biholomorphic maps of Σg. Let V = H0(Σg, K) be the space of holomorphic
+1-forms on Σg.
+(a) Show that the natural group homomorphism
+ρ : Aut(Σg) →GL(V )
+is injective.
+(b) V carries a natural hermitian structure
+< ω1, ω2 >= i
+Z
+Σg
+ω1 ∧ω2,
+ωi ∈V.
+Show that ρ(Aut(Σg)) lies inside the unitary subgroup.
+(c) V carries a natural integral structure from the lattice
+H1(Σ, Z)(≃Z2g) ⊂V.
+Show that ρ(Aut(Σg)) lies inside GL(Z2g).
+(d) Conclude that Aut(Σg) is a ﬁnite group.
+2. (a) What is a Killing ﬁeld on a Riemannian manifold?
+(b) Explain why a Killing ﬁeld on a connected Riemannian manifold is determined by
+its value and the value of its ﬁrst derivative at a given point.
+(c) Show that the maximal dimension of the space of Killing ﬁelds on a three dimen-
+sional connected Riemannian manifold is six.
+3. (a) Let X be an n-dimensional compact Riemannian manifold. Show that
+dim(Isom(X)) ≤n(n + 1)
+2
+.
+(b) List all possible M when the equality in the above is achieved.

@@ -1,0 +1,203 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2024
+Mathematical Physics
+1. (Classical Mechanics)
+Consider the motion of a particle of mass m in an attractive central po-
+tential of the form
+V (r) = αrk,
+(1)
+where k and α are real constants of the same sign (both positive or both
+negative).
+(a) Write down the Lagrangian using polar coordinates (r, φ).
+(b) Using conservation of the angular momentum, reduce the problem of
+determining the radial motion to an eﬀective one-dimensional prob-
+lem (write down the eﬀective Lagrangian).
+(c) Determine the radius and period of the circular orbits.
+(d) For which values of k is the circular orbit stable?
+(e) Assuming that the circular orbit is stable, consider a small pertur-
+bation around it. Find the period of the small oscillations. In the
+approximation of small oscillations, for which values of k will the
+orbit close?
+(f) Go back to the full 2d problem for r and φ (the polar coordinates in
+the plane of the orbit). Eliminate the time dependence and write a
+diﬀferential equation for the orbit.
+2. (Quantum mechanics)
+Consider a 1-dim quantum-mechanical harmonic oscillator with mass m
+and resonance frequency ω. The oscillator initially (at t →−∞) is in its
+ground state. It is then subjected to a transient perturbation ∆H = F(t)x
+with F(t →±∞) →0.
+(a) Write down the Hamiltonian ˆH of the perturbed oscillator described
+above in terms of the usual ladder operators ˆa and ˆa†, and solve
+their equations of motion in the Heisenberg picture. Show that the
+Hamiltonian at t →±∞takes the form
+ˆH = ℏω(ˆa†
+±∞ˆa±∞+ 1/2),
+(2)
+and determine the relation between a+∞and a−∞.
+(b) At t →±∞, the ladder operators act on the state |n±∞⟩= (1/
+√
+n!)(ˆa†
+±∞)n|0±∞⟩.
+Here |0±∞⟩denote the vacuum with respect to ˆa±∞and ˆa†
+±∞.
+Determine the probabilities |cn|2 that the oscillator has undergone a
+transition from the initial ground state to the n-th excited state at
+the end of the time evolution.
+1
+
+=== page 2 ===
+(c) What is the expectation value of the energy at the end of the time
+evolution?
+(d) Now assume that F(t) = F0e−t2/(2σ2
+t ), with F0 = ηℏω/l where η
+is a dimensionless parameter, and l =
+p
+ℏ/(mω) is the harmonic-
+oscillator length.
+For short pulses with σtω ≪1, determine the maximum pulse strength
+η for which less that 1% of the population gets lost from the ground
+state. Show explicitly that in the limit σtω ≫1, losses can be sup-
+pressed for any given value of η.
+3. (Electromagnetism)
+Consider an ohmic metal with high (but not inﬁnite) conductivity σ and
+magnetic permeability µ = 1 in Heaviside-Lorentz units (µ = µ0 in SI
+units).
+(a) Show that for harmonic time dependence, and high conductivity σ ≫
+ω ( σ
+ϵ0 ≫ω in SI units), that damped wave-like solutions propagating
+in z-direction in the metal take the approximate form
+H(t, z) = Hce−iωt+ikcz
+(3)
+where
+kc = 1 + i
+√
+2
+√σω
+c
+(4)
+in Heaviside-Lorentz units, or
+kc = 1 + i
+√
+2
+p
+σω/ϵ0
+c
+(5)
+in SI units.
+(b) The electric ﬁeld obeys a similar equation, E(t, z) = Ece−iωt+ikcz.
+Use the Maxwell equations to express the amplitude of the electric
+ﬁeld Ec in terms of the magnetic ﬁeld Hc.
+(c) Now consider a linearly polarized plane wave in vacuum of frequency
+ω, which is normally incident upon a semi-inﬁnite metal block with
+inﬁnite conductivity as shown below.
+When the metal has inﬁnite conductivity, the amplitude of the re-
+ﬂected wave equals the amplitude of the incident wave, but the po-
+larization of the reﬂected wave is inverted. Explain this fact using
+the appropriate boundary conditions.
+(d) Now consider the same reﬂection problem as in part 3c, but this
+time the metal has a large (but ﬁnite) conductivity σ. Determine the
+electric and magnetic ﬁelds in the metal to leading order in ω/σ. Let
+the amplitude of the incident wave be EI.
+2
+
+=== page 3 ===
+z = 0
+z
+incident light
+vacuum
+semi-inﬁnite metal block
+4. (Statistical Mechanics)
+Consider the Ising model on N spins σi = ±1 in an external magnetic ﬁeld
+h. Within the mean ﬁeld approximation, its Hamiltonian can be written
+as
+HMF = 1
+2NJm2 −(Jm + h)
+X
+i
+σi,
+(6)
+where the coordination number of the lattice has been absorbed into the
+coupling constant J and m is the magnetization.
+The magnetization, speciﬁc heat and magnetic susceptibility are deﬁned,
+respectively, as
+m = ∂f
+∂h,
+C = ∂U
+∂T ,
+χ = ∂m
+∂h ,
+(7)
+where T is the temperature, U the internal energy, and f the free energy
+per site.
+(a) Derive the (mean ﬁeld) partition function following from HMF and
+hence calculate the free energy of the system.
+(b) Derive the constraint on magnetization m, and graphically solve it
+for h = 0. Discuss the physical nature of the various solutions as a
+function of the temperature T. Identify a critical temperature Tc in
+terms of the system parameters, and discuss its physical meaning.
+(c) Assuming β(Jm+h) ≪1, derive the expression for the dependence of
+the magnetization, the speciﬁc heat and the magnetic susceptibility
+on the quantity
+t = T −Tc
+Tc
+,
+(8)
+where Tc is the critical temperature, and thereby determine the mean-
+ﬁeld critical exponents αc, βc, and γc which are deﬁned through the
+relations
+m ∼|T −Tc|βc,
+C ∼|T −Tc|−αc,
+χ = ∂m
+∂h |h=0 ∼|T −Tc|−γc. (9)
+For the calculation of the speciﬁc heat, note that, within the mean
+ﬁeld approximation near the critical point, the internal energy is
+U ∝Jm2.
+3
+
+=== page 4 ===
+5. (General Relativity)
+Let ds2 = −(dx0)2 + Pn
+i=1(dxi)2 be the Minkowski metric of R1,n. The
+de Sitter space dSn is the submanifold of R1,n deﬁned by the following
+equation
+−(x0)2 +
+n
+X
+i=1
+(xi)2 = α2,
+(10)
+where α is a nonzero real constant. Deﬁne the static coordinates (t, r, z2, · · · , zn)
+as
+x0 =
+p
+α2 −r2 sinh (t/α) ,
+x1 =
+p
+α2 −r2 cosh (t/α) ,
+xi =rzi
+2 ≤i ≤n,
+(11)
+where zi’s are coordinates of an (n −2)-sphere with radius 1 in Rn−1
+(Pn
+i=2(zi)2 = 1).
+(a) Show that (t, r, z2, · · · , zn) is a set of local coordinates of dSn.
+(b) Compute the metric on dSn induced from the Minkowski metric of
+R1,n (Hint: you may use the above coordinates).
+(c) Let n = 3, compute the Ricci tensor Rµν and scalar curvature R of
+dS3. Is dS3 an Einstein metric?
+(d) Are ∂t and ∂φ killing vector ﬁelds in static coordinates when n = 3?
+Prove your answer.
+6. (Quantum Field Theory)
+Consider the Lagrangian of the Yukawa theory between a real scalar ﬁeld
+φ and a Dirac spinor ﬁeld ψ
+L = 1
+2∂µφ∂µφ −1
+2m2φ2 + ¯ψ(i/∂µ −M)ψ −ig ¯ψγ5ψφ,
+(12)
+(a) Find all divergences in 1-loop self-energy graphs of the scalars φ.
+What are the correct counter-terms to cancel this divergences?
+(b) Find all divergences in 1-loop self-energy graphs of the scalars ψ.
+What are the correct counter-terms to cancel this divergences?
+(c) Are there divergences which can not be renormalized in this theory?
+4

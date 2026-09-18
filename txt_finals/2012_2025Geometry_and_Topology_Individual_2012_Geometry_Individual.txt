@@ -1,0 +1,24 @@
+
+=== page 1 ===
+S-T Yau College Math Contests 2012 Oral Exam
+Geometry and Topology
+1. (a) Show that for any k ∈Z, there exists a continuous map f :
+S1 × S1 →S2 of degree k.
+(b) Let Σ2 be the closed surface of genus 2. Show that any continuous
+map f : S1 × S1 →Σ2 has degree 0.
+2. Let Σ2 be the closed orientable surface of genus 2.
+(a) What is G = π1(Σ2)?
+(b) Why is G non-abelian?
+(c) Why does G contain a subgroup of index 7?
+(d) Show that Σ2 is not a non-trivial cover of any orientable surface.
+(e) Show that Σ2 is a non-trivial cover of a space.
+3. State and prove the Crofton formula.
+4. State and sketch the proof of Bonnet-Meyer’s theorem.
+5. What is a Jacobi ﬁeld? Compute it in the space form M n
+k . What is
+the relationship between Jacobi ﬁelds and the exponential map.
+6. What is the Cartan-Hadamard theorem for non-positively curved
+spaces? Why is the space a K(π, 1) space?
+7. Let S be a compact surface in R3 with smooth boundary and S has
+negative curvature. Show that S is contained in convex hull of ∂S.
+1

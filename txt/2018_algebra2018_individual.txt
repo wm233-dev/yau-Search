@@ -1,0 +1,184 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2018
+Algebra and Number Theory
+Individual
+This test has 5 problems and is worth 100 points. Carefully justify your answers.
+Problem 1 (20 points).
+(a) (6 points) Show that if 2k −1 is a prime for some integer k ≥1, then k is a
+prime.
+(b) (6 points) Show that if 2k + 1 is a prime for some integer k ≥1, then k is a
+power of 2.
+(c) (8 points) Prove the following theorem of Goldbach: for integers i, j ≥0 with
+i ̸= j, the integers 22i + 1 and 22j + 1 are coprime.
+Problem 2 (20 points). Let K = Q(
+3√
+5) and let L be the Galois closure of K.
+(a) (6 points) Prove that L has a unique subﬁeld M satisfying [M : Q] = 2. Prove
+that every prime number p ≡1 (mod 3) splits in M.
+(b) (6 points) Determine all prime numbers which are ramiﬁed in L.
+(c) (8 points) Let p ≥7 be a prime number. Let fp be the inertia degree of a prime
+ideal of the ring of integers OL of L above p. Recall that 5 is called a cubic
+residue mod p if x3 ≡5 (mod p) has a solution in Fp. Prove the following
+decomposition law in L.
+(i) If p ≡1 (mod 3) and 5 is a cubic residue mod p, then p splits completely
+in L.
+(ii) If p ≡1 (mod 3) and 5 is not a cubic residue mod p, then fp = 3.
+(iii) If p ≡2 (mod 3), then 5 is a cubic residue and fp = 2.
+Problem 3 (20 points). Prove that every group of order 99 is abelian.
+Page 1 of 2
+
+=== page 2 ===
+Problem 4 (20 points). Let K be a ﬁeld and let V be a ﬁnite-dimensional K-vector
+space.
+(a) (6 points) Assume that K is inﬁnite. Show that V is not the union of ﬁnitely
+many proper linear K-subspaces.
+(b) (6 points) Assume that K is ﬁnite and V is non-zero. Let S be the set of
+aﬃne hyperplanes of V . Let g: V →R be a function. The Radon transform
+Rg: S →R is deﬁned by (Rg)(ξ) = P
+x∈ξ g(x) for ξ ∈S. Show that Rg = 0
+implies g = 0.
+(c) (8 points) Let v1, . . . , vn, w1, . . . , wn ∈V .
+Assume that for every K-linear
+map f : V →K, (f(v1), . . . , f(vn)) and (f(w1), . . . , f(wn)) coincide up to
+permutation of the indices. Deduce that (v1, . . . , vn) and (w1, . . . , wn) coincide
+up to permutation of the indices. Here we make no assumptions on K.
+Problem 5 (20 points). Let p be a prime number and let vp(·) denote the p-adic
+valuation on Qp. Let A = (aij)1≤i,j≤n ∈Mn(Qp) be an n × n matrix with entries in
+Qp. Assume that we know the following:
+(1) A2 = pn+1 · In×n;
+(2) vp(aij) ≥i for all i, j.
+Prove that vp(aij) ≥max{i, n + 1 −j} and ai,n+1−i ∈piZ×
+p , i.e.
+A ∈
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pnZp
+pn−1Zp
+pn−2Zp
+· · ·
+p3Zp
+p2Zp
+pZ×
+p
+pnZp
+pn−1Zp
+pn−2Zp
+· · ·
+p3Zp
+p2Z×
+p
+p2Zp
+pnZp
+pn−1Zp
+pn−2Zp
+· · ·
+p3Z×
+p
+p3Zp
+p3Zp
+...
+...
+...
+...
+...
+...
+...
+pnZp
+pn−1Zp
+pn−2Z×
+p
+· · ·
+pn−2Zp
+pn−2Zp
+pn−2Zp
+pnZp
+pn−1Z×
+p
+pn−1Zp
+· · ·
+pn−1Zp
+pn−1Zp
+pn−1Zp
+pnZ×
+p
+pnZp
+pnZp
+· · ·
+pnZp
+pnZp
+pnZp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+Hint. Consider the antidiagonal matrix
+J =
+
+
+
+
+
+
+
+
+
+0
+0
+· · ·
+0
+p
+0
+0
+· · ·
+p2
+0
+...
+...
+...
+...
+...
+0
+pn−1
+· · ·
+0
+0
+pn
+0
+· · ·
+0
+0
+
+
+
+
+
+
+
+
+
+.
+Page 2 of 2

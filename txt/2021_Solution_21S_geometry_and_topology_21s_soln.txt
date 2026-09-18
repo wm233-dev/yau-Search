@@ -1,0 +1,190 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2021
+Geometry and Topology
+Solve every problem.
+Problem 1.
+(a) Show that P2n can not be the boundary of a compact manifold.
+(b) Show that P3 is the boundary of some compact manifold.
+Solution:
+(a) Suppose M is a compact manifold and ∂M is its boundary. We can glue together two copies of M, say M1, M2,
+to get a closed manifold e
+M. From the Mayer-Vietoris long exact sequence for the triad ( e
+M; M1, M2), we have
+the identity
+χ( e
+M) = 2χ(M) −χ(∂M),
+where χ is the Euler characteristic. If the dimension of ∂M is even, then the dimension of M is odd, and so is
+the dimension of e
+M. By Poincate duality, χ( e
+M) = 0. So χ(∂M) has to be an even number. However, RP2n has
+odd Euler characteristic. Thus RP2n can not be the boundary of a compact manifold.
+(b) Since RP3 is diﬀeomorphic to SO(3), it is actually the circle bundle on S2 in the tangent bundle of S2. Thus
+RP3 is the boundary of the disk bundle of S2 in the tangent bundle of S2.
+Problem 2. Suppose M is a noncompact, complete n-dimensional manifold, and suppose there is an open
+subset U ⊂M and an open set V ⊂Rn such that M\U is isomorphic to Rn\V. If RicM ≥0, show that M is
+isometric to Rn.
+Solution: Without loss of generality, we may assume V = BR(0) for some R > 0. Let p ∈M be a point. If RicM ≥0,
+by the Bishop-Gromov inequality, we know Vol(Br(p))
+Vol(Bnr )
+is non-increasing. Here, Bn
+r is the standard Euclidean ball in
+Rn with radius r. On one hand, as r →0, because M is a smooth manifold, we have lim
+r→0
+Vol(Br(p))
+Vol(Bnr )
+= 1; one the other
+hand, when r →∞, because M\U is isomorphic to Rn\BR(0), we also have lim
+r→∞
+Vol(Br(p))
+Vol(Bnr )
+= 1. As a consequence,
+Vol(Br(p))
+Vol(Bnr )
+is a constant 1 for all r > 0. Then by the rigidity case of Bishop-Gromov theorem, M is isometric to Rn.
+Remark: Some students may want to use the Cheeger-Gromoll splitting theorem to show M  N × R, then conclude
+that M  Rn. To my knowledge, it is actually hard to show that one can ﬁnd a straight line in M. In fact, for a straight
+line in Rn\V, its corresponding line in M may not be straight, because there could be a shorter path going through U
+which connects two points on the line.
+Problem 3. Compute all the homotopy groups of the n-torus T n = S1 × S1 × · · · × S1, n ≥2.
+Solution: In the following homotopy groups we always assume that we have ﬁxed a base point.
+Because T n is connected, π0(T n) is a trivial group.
+π1(T n) is the fundamental group of T n. Because the fundamental group of a product space is just the product of each
+fundamental group, and the fundamental group of S1 is Z, so π1(T n) = Zn.
+The universal cover of T n is Rn, which is contractible. So for all k ≥2, πk(T n)  πk(Rn) = 0, which is the trivial
+group.
+
+=== page 2 ===
+Problem 4.
+Consider the upper half space H3 = {(x, y, z) | z > 0} equipped with hyperbolic metric
+g = dx2 + dy2 + dz2
+z2
+. Let P be the surface deﬁned by {z = x tan α, z > 0} for some α ∈(0, π
+2 ). Compute
+the mean curvature of P.
+Solution:
+We use ∂x, ∂y and ∂z to denote the vector ﬁelds on H3 induced from R3. Then we can compute the
+Christoﬀel symbols
+
+
+Γi
+zi = −z−1
+Γz
+j j = z−1,
+j , z
+Γk
+ij = 0,
+other cases.
+So the covariant derivatives are
+
+
+∇∂x ∂x = z−1∂z
+∇∂y ∂y = z−1∂z
+∇∂z ∂z = −z−1∂z
+∇∂z ∂x = ∇∂x ∂z = −z−1∂x
+∇∂z ∂y = ∇∂y ∂z = −z−1∂y
+∇∂x ∂y = ∇∂y ∂x = 0
+Now consider the surface P parametrized by F : (u,v) →(u,v,u tan α). Then at any ﬁxed point the tangent space is
+spanned by
+Fu = ∂x + tan α∂z, Fv = ∂y,
+with the metric
+guv = z−2
+
+1 + tan2 α
+0
+0
+1
+
+.
+We can also ﬁnd a unit normal vector
+n =
+z
+√
+1 + tan2 α
+(tan α∂x −∂z).
+Next, we can compute that
+∇Fu Fu = (1 −tan2 α)z−1∂z −2 tan αz−1∂x,
+∇Fv Fu = −tan αz−1∂y,
+∇Fv Fv = z−1∂z.
+Moreover,
+⟨∇Fu Fu,n⟩= −
+1
+z2√
+1+tan2 α(1 + tan2 α),
+⟨∇Fv Fu,n⟩= 0,
+⟨∇Fv Fv,n⟩= −
+1
+z2√
+1+tan2 α.
+So the mean curvature is
+H = −gij⟨∇Fi Fj,n⟩=
+2
+√
+1 + tan2 α
+= 2 cos α.
+Remark: There are diﬀerent conventions for the deﬁnition of mean curvature, so the ﬁnal answer could be cos α,
+−2 cos α, or −cos α, depending on the choice of deﬁnitions.
+Problem 5. Suppose M is a compact 2-dimensional Riemannian manifold without boundary, with positive
+sectional curvature. Show that any two compact closed geodesics on M must intersect with each other.
+Solution: We prove by contradiction. Suppose there exist two compact closed geodesics γ1 and γ2 that do not intersect
+with each other. Then we can ﬁnd p ∈γ1 and q ∈γ2 such that the distance between p,q is the shortest distance among
+all pairs of points on γ1 and γ2. Let ˜γ : [a, b] →M be a length parametrized geodesic connecting ˜γ(a) = p and
+˜γ(b) = q, whose length realizes this shortest distance. Let ℓbe the length functional of curves. By the ﬁrst variational
+formula,
+δℓ( ˜γ) = 0.
+
+=== page 3 ===
+Namely, if V is a normal variational vector ﬁeld along ˜γ, suppose ˜γs is a family of curves generating this variational
+vector ﬁeld, then
+0 = dℓ( ˜γs)
+ds
+
+s=0
+= −
+
+V(a), Û˜γ(a)
+
++
+
+V(b), Û˜γ(b)
+
+.
+As a consequence, we know that Û˜γ(a) is perpendicular to γ1 at p and Û˜γ(b) is perpendicular to γ2 at q.
+Next we consider the second variational formula. Suppose X is a vector ﬁeld along ˜γ, where |X(a)| = 1 and X(a) is
+perpendicular to ˜γ(a), and X(t) is deﬁned by parallel transport along ˜γ for a < t ≤b. Suppose ˜γs is a family of curves
+that generate X, then
+0 ≤d2ℓ( ˜γs)
+ds2
+
+s=0
+=
+∫b
+a
+−R( Û˜γ, X, X, Û˜γ)dt + ⟨∇X(a)X(a), Û˜γ(a)⟩−⟨∇X(b)X(b), Û˜γ(b)⟩.
+Notice that γ1 and γ2 are geodesics and X(a), X(b) are both unit vectors in the direction of γ1, γ2 at p,q respectively,
+so ∇X(a)X(a) = 0 and ∇X(b)X(b) = 0, and as a consequence
+0 ≤d2ℓ( ˜γs)
+ds2
+
+s=0
+=
+∫b
+a
+−R( Û˜γ, X, X, Û˜γ)dt =
+∫b
+a
+−sec( Û˜γ, X)dt < 0.
+This is a contradiction.
+Problem 6.
+Suppose Σ is a smooth compact embedded hypersurface (i.e. a codimension 1 submanifold)
+without boundary in Rn for n ≥3. Show that Σ is orientable.
+Solution: We ﬁrst claim that it suﬃces to show Σ has a trivial normal bundle in Rn. In fact, the trivial bundle has the
+splitting Rn × Σ = TΣ ⊕NΣ, so the ﬁrst Stiefel-Whitney class of the bundles satisﬁes
+0 = w1(TΣ) + w1(NΣ).
+If the line bundle of Σ is trivial, we must have w1(NΣ) = 0, therefore w1(TΣ) = 0. This is equivalent to Σ being
+orientable.
+Thus it remains to show that Σ has a trivial normal bundle. We prove by contradiction. We can view the tubular
+neighbourhood T of Σ as a part of NΣ. If Σ has a non-trivial normal bundle, then there exists a closed curve γ in T
+that only intersects Σ at a single point transversely. Consider a smoothly embedded disk D bounded by γ that intersects
+Σ transversely. Then the intersection of D and Σ consists of ﬁnitely many smooth curves whose endpoints lie on the
+boundary ∂D = γ. This implies that γ intersects Σ at an even number of points, which is a contradiction.

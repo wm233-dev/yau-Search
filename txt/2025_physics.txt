@@ -1,0 +1,195 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Mathematical Physics
+(6 problems)
+Problem 1.
+A bead of mass m is constrained to move (without friction) on a hoop of radius R. The hoop
+rotates with constant angular velocity ω around the vertical axis. The bead is subjected to the force
+of gravity at the surface of the Earth.
+1. Write down the Lagrangian for the system and the Lagrangian equations of motion.
+2. Find any constants of motion that may exist. Construct the Hamiltonian. Is it equal to the
+energy in the ﬁxed (i.e. non-rotating) frame? Is the ﬁxed-frame energy conserved?
+3. Find the critical angular velocity Ωbelow which the bottom of the hoop is a position of stable
+equilibrium. Find the stable equilibrium positions for both ω < Ωand ω > Ω.
+4. Calculate the frequencies of small oscillations around the positions of stable equilibrium.
+Problem 2.
+Consider a wave packet with a transverse proﬁle Eo(x, y) propagating in the z direction (see eq
+(3) for a complete speciﬁcation of E and B). Although the precise form of Eo(x, y) is not needed
+below, for deﬁniteness you may assume that the wave packet has a Gaussian proﬁle for
+Eo(x, y) = Ae−x2+y2
+4σ2 ,
+(1)
+and is inﬁnitely broad in the z direction. The following integrals may be useful:
+Z ∞
+−∞
+due−αu2 =
+rπ
+α,
+Z ∞
+−∞
+due−αu2eiku = √πe−k2
+4α .
+(2)
+1. When all derivatives of Eo(x, y) are neglected, show that in Gaussian (Heaviside-Lorentz) units
+E(0)(t, r) = Eo(x, y)ei(kz−ωt) ˆx + iˆy
+√
+2
+,
+B(0)(t, r) = ˆz × E(0),
+(3)
+is a solution to the Maxwell equations for ω = ck. Here x, y and z are unit vectors in x, y, z
+directions.
+2. Calculate the time averaged energy per length in the wave packet, ⟨U⟩.
+3. When the derivatives of Eo(x, y) are not neglected, eq (3) is not a solution to the Maxwell
+equations. Determine the corrections to E(0) and B(0) to ﬁrst order in gradients for kσ ≫1.
+Hint: try a solution for E (and analogously for B) of the form
+E(t, r) = E(0) + E(1)(x, y)ei(kx−ωt)ˆz,
+(4)
+and determine the correction E(1)(x, y) in terms of Eo(x, y) and its derivatives.
+1
+
+=== page 2 ===
+4. Write the solution to the last question as a linear superposition of the plane wave solutions
+to the Maxwell equations. First use the superposition to qualitatively explain why there is
+the correction to the electric ﬁeld parallel to ˆz, and then use the superposition to precisely
+reproduce this correction.
+5. Calculate the z-component of the time averaged angular momentum per length in the wave
+packet, ⟨Lz⟩, to the lowest non-trivial order in kσ.
+6. Determine the ratio ⟨Lz⟩/⟨U⟩. Interpret the result using photons.
+Problem 3.
+A particle of mass m and electric charge q moves in 1-dimension under the eﬀects of a harmonic
+potential and a homogeneous electrostatic ﬁeld E. The Hamiltonian for the system is
+H = p2
+2m + 1
+2mω2x2 −qEx = H0 −qEx.
+(5)
+1. Show that H can be written as H = e−AH0eA + B with A being an operator and B being a
+constant (c-number). Explicitly determine A and B. Use this to show that the spectrum of
+H follows from that of H0 by a shift operator. Use this observation to solve the eigenvalue
+problem for H.
+2. Express A in terms of the annihilation operator a and creation operator a† of H0. Use this to
+evaluate the probability to ﬁnd the system in the ground state of H at time t if at time t = 0
+it is in the ground state of H0.
+3. What is the probability for the system to start at t = 0 in the ground state of H0 and remain
+in this state at time t? For what time this probability is 1?
+4. What is the probability for the system to start at t = 0 in the ground state of H0 and be found
+in the ﬁrst excited state of H0 at time t?
+5. Express the dipole moment d = qx in terms of a, a†. Use this to calculate the mean value oﬀ
+the dipole moment at time t, assuming that at t = 0 the system is again in the ground state
+of H0.
+Problem 4.
+The Ising model on a triangle is described by the energy:
+E = −J(σ1σ2 + σ2σ3 + σ3σ1) −h(σ1 + σ2 + σ3).
+(6)
+Here J and h are known parameters: exchange energy and external magnetic ﬁeld, respectively. The
+Ising spins σ1,2,3 are the only degrees of freedom in the problem and they are taking values ±1.
+Assume that the temperature of the system is T.
+1. Compute the partition function of the model.
+2. Compute the free energy and the entropy of the model.
+3. Compute the speciﬁc heat at temperature T and h = 0. What does the speciﬁc heat look like
+when T ≪J and T ≫J.
+4. Compute the magnetization M = ⟨σ⟩≡⟨σ1 + σ2 + σ3⟩at given h and T ≪J. What is the
+behavior of the magnetic susceptibility χ = ∂M
+∂h |h=0 at low temperature (T ≪J)?
+2
+
+=== page 3 ===
+Figure 1: Two black holes in circular motion
+5. Find the ﬂuctuation of magnetization ⟨(σ −M)2⟩at T ≪J.
+You may work in the units such that kB = 1.
+Problem 5.
+In this problem, we study the gravitational waves emitted from a binary system of two black
+holes. As a simplifying assumption, we treat black holes as point masses. For all parts except (5),
+please give your answers in analytical expressions in terms of quantities provided in the problem and
+fundamental constants such as the speed of light c and Newton’s constant G.
+1. For a point mass m moving near the origin in the (x, y) plane along a trajectory x = x(t), y =
+y(t), general relativity predicts that the gravitational waves emitted by m have the following
+amplitudes h at distance L from the origin with inclination angle θ:
+h+ = 1
+L
+G
+c4
+1 + cos2 θ
+2
+m
+ d2
+dt2 (x2 −y2)
+
+,
+h× = 1
+L
+G
+c4 (cos θ)m
+ d2
+dt2 (2xy)
+
+,
+(7)
+where h+ and h× represent the two independent polarization modes. For two black holes with
+masses m1 and m2 separated by r, forming a circular orbit under Newtonian gravity with their
+center-of-mass at the origin (ﬁgure 1), please derive h+ and h×. What is the gravitational wave
+frequency f?
+2. Gravitational waves carry energy. The power per solid angle radiated outward at distance L
+is given by:
+p = c3L2
+16πG
+ ∂h+
+∂t
+2
++
+ ∂h×
+∂t
+2
+.
+(8)
+Please ﬁnd the average power P radiated by the above black hole binary over all directions
+and averaged over one orbital period.
+3. The binary orbit changes slowly due to the gravitational wave radiation. Let the gravitational
+wave frequency be f0 at the initial time t = t0. Please determine f(t).
+4. Eventually, the black holes merge as the orbital radius shrinks. Let the initial separation be
+r0. Please ﬁnd the coalescence time TC.
+5. For m1 = m2 = 10M⊙(where M⊙is solar mass), please estimate the maximum initial separa-
+tion r0 (in astronomical unit (au), namely the mean distance between the sun and the earth)
+allowing coalescence within the age of the universe (T ≃1010 years). Order-of-magnitude
+estimation suﬃces.
+3
+
+=== page 4 ===
+Problem 6.
+In this problem, we explore some physical properties of a conformal scalar ﬁeld. We use natural
+units c = ℏ= 1.
+1. Consider a massless scalar ﬁeld φ in Minkowski spacetime with the action S = −1
+2
+R
+d4x (∂µφ)2.
+Show that the action is invariant under a rigid rescaling of the metric, namely ηµν →˜ηµν =
+Ω2ηµν with Ωconstant, if one rescales simultaneously φ according to φ →˜φ = Ω∆φ. Determine
+∆.
+2. Consider a local rescaling of an arbitrary metric gµν(x) →˜gµν(x) = Ω2(x)gµν(x), and also
+φ(x) →Ω∆(x)φ(x). Determine of transformation of the action S = −1
+2
+R
+d4x√−ggµν(∂µφ)(∂νφ)
+under the local rescaling. Can S be made invariant by appropriately choosing the value of ∆?
+3. Suppose the Ricci scalar transforms as R →˜R under the local rescaling gµν(x) →Ω2(x)gµν(x).
+Please determine ˜R.
+4. Show that the invariance of the scalar action under the local rescaling can be restored if we
+add a new term to the action:
+S =
+Z
+d4x √−g
+h 1
+2 (∂µφ)2 −1
+2 ξRφ2i
+,
+(9)
+where ξ is a coupling constant. Determine the value of ξ such that the action is invariant under
+the local rescaling. A scalar ﬁeld φ with the above action is called a conformal scalar.
+5. Consider a spacetime with the following metric:
+ds2 = −dτ 2 + dx2
+(Hτ)2
+(10)
+where x ∈R3, τ ∈(−∞, 0), and H is a constant. Please show that a conformal scalar φ in this
+spacetime has an action identical to a scalar ﬁeld with nonzero mass m. Please determine m.
+4

@@ -1,0 +1,31 @@
+
+=== page 1 ===
+ANALYSIS 2017.
+1. All-around
+Problem 1.1. Let f : D →D be a holomorphic function, where D is the unit disk. If
+f(0) = 0, then
+|z| |f′(0)| −|z|
+1 −|f′(0)||z| ≤|f(z)| ≤|z| |f′(0)| + |z|
+1 + |f′(0)||z|
+Problem 1.2. Suppose f(x) is a convex function deﬁned on the whole real axis with the
+condition that
+|f(x)| ≤C(1 + |x|)
+for some constant C. Prove
+(1) limx→+∞
+f(x)
+x
+= α exists for some real number α.
+(2) There is a β such that f(x) ≤αx + β for x large.
+(3) Is there a constant γ such that
+f(x) ≥αx + γ
+for all x?
+Problem 1.3. Can you solve the equation
+(
+∆u =
+x
+x2+y2 ,
+in {(x, y) : x2 + y2 < 1},
+u = 0,
+on {(x, y) : x2 + y2 = 1}
+in the weak sense? What is the optimal continuity property of u?
+1

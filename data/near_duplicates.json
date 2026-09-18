@@ -1,0 +1,74 @@
+[
+ {
+  "a": "2011|Geometry|_Individual_2011|Q2",
+  "b": "2013|Geometry|y2013_individual|Q2",
+  "jaccard": 1.0,
+  "shared": 8
+ },
+ {
+  "a": "2011|Geometry|_Individual_2011|Q4",
+  "b": "2014|Geometry|y2014_individual|Q3",
+  "jaccard": 1.0,
+  "shared": 15
+ },
+ {
+  "a": "2011|Algebra|lgebra_Team_2011|Q5",
+  "b": "2012|Algebra|_Algebra2012team|Q2",
+  "jaccard": 1.0,
+  "shared": 25
+ },
+ {
+  "a": "2014|Computational|d2014_individual|Q3",
+  "b": "2017|Computational|d2017_individual|Q5",
+  "jaccard": 0.333,
+  "shared": 37
+ },
+ {
+  "a": "2016|Computational|2016_2016_team|Q1",
+  "b": "2017|Computational|2017_2017_team|Q2",
+  "jaccard": 0.295,
+  "shared": 44
+ },
+ {
+  "a": "2011|Computational|_Individual_2011|Q5",
+  "b": "2012|Probability|ability2012_team|Q6",
+  "jaccard": 0.287,
+  "shared": 25
+ },
+ {
+  "a": "2023|Mathematical|ematical_Physics|Q6",
+  "b": "2026|Mathematical|026_2026_physics|Q5",
+  "jaccard": 0.272,
+  "shared": 34
+ },
+ {
+  "a": "2015|Geometry|eam_geometry2015|Q2",
+  "b": "2016|Geometry|2016_2016_team|Q2",
+  "jaccard": 0.214,
+  "shared": 6
+ },
+ {
+  "a": "2014|Computational|d2014_individual|Q3",
+  "b": "2014|Computational|applied2014_team|Q3",
+  "jaccard": 0.2,
+  "shared": 16
+ },
+ {
+  "a": "2016|Computational|2016_2016_team|Q3",
+  "b": "2016|Computational|d2016_individual|Q3",
+  "jaccard": 0.196,
+  "shared": 30
+ },
+ {
+  "a": "2016|Probability|2016_2016_team|Q4",
+  "b": "2016|Probability|y2016_individual|Q5",
+  "jaccard": 0.174,
+  "shared": 4
+ },
+ {
+  "a": "2012|Probability|y2012_individual|Q2",
+  "b": "2015|Probability|y2015_individual|Q1",
+  "jaccard": 0.153,
+  "shared": 11
+ }
+]

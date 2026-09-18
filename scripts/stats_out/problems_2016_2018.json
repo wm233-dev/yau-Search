@@ -1,0 +1,1290 @@
+[
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 1,
+  "body": "1. Let D ⊂Rd, d ≥2 be a compact convex set with smooth boundary ∂D so that the\n\norigin belongs to the interior of D. For every x ∈∂D let α(x) ∈(0, ∞) be the angle\n\nbetween the position vector x of the outer normal vector n(x). Let ωd be the surface\n\narea of the unit sphere in Rd. Compute:\n\n1\n\nωd\n\n∫\n\n∂D\n\ncos(α(x))\n\n|x|d−1\n\ndσ(x)\n\nwhere dσ denotes the surface measure on ∂D."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 2,
+  "body": "2. Let p > 0 and suppose fn, f ∈Lp[0, 1] and ||fn −f||p = (\n\n∫1\n\n0 |fn(x)−f(x)|pdx)\n\n1\n\np →0\n\nas n →∞.\n\na) Show that for every ϵ > 0,\n\nlim\n\nn→∞m({x ∈[0, 1]||fn(x) −f(x)| > ϵ}) = 0.\n\nHere m is the Lebesgue measure.\n\nb) Show that there exists a subsequence fnj such that fnj(x) →f(x) for almost\n\nevery x ∈[0, 1]."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 3,
+  "body": "3. 1) Let f be a holomorphic function on the unit disk D = {z ∈C||z| < 1} except 0.\n\nAssume f ∈L2(D), i.e.\n\n∫\n\nD |f(z)|2dzd¯z < ∞, then 0 is a removable singularity.\n\n2) Let fn be a sequence of holomorphic functions over a domain Ω⊂C converging\n\nto f uniformly on any compact subset of Ω, does the sequence of its derivatives f\n\n′\n\nn also\n\nhave this property?"
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 4,
+  "body": "4. Consider the torus T 2 = C/Λ, Λ = {m+in|m, n ∈Z}, i.e. z1, z2 ∈C are equivalent\n\nif and only if there are integers m, n such that z2 = z1 + m + in and T 2 are the space\n\nof equivalent classes. Show that the group of holomorphic automorphisms of T 2 is\n\nSL(2, Z) of 2 x 2 integer matrices of determinant 1."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 5,
+  "body": "5. Let {en} be an orth-normal basis of l2 of square integrable functions over a circle.\n\nLet A : l2 →l2, Ae1 = 0, Aen = en−1\n\nn−1 , n > 1 be a linear operator. Show that A is an\n\ncompact operator and A has no eigenvectors. What are the spectrum of A?"
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 6,
+  "body": "6. If M = [0, 1] is the unit interval, the heat kernel on M can be written\n\np(x, y, t) = Σkϕk(x)ϕk(y)eλkt,\n\nwhere {λk} is an enumeration of the eigenvalues of the ∆=\n\nd2\n\ndx2 on M and {ϕk} are\n\nthe corresponding eigenfunctions which vanish on ∂M.\n\n1\n\n\n\n=== page 2 ===\n\n2\n\ni) Calculate {λk} and the corresponding eigenfunctions.\n\nii) Prove that |p(x, y, t)| ≤Ct−1/2, for all x, y, and 0 < t < 1.\n\niii) What is the exponential rate of decay of p(x, y, t) as t →∞, i.e. compute:\n\nlim\n\nt→∞log(p(x, y, t)).\n\n\n\n=== page 3 ==="
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 1,
+  "body": "Problem 1. For a random walk process on the complete infinite binary tree (see Fig\n\n1.) starting from root (i.e. level 0), we assume that the object moves to the neighbor\n\nnodes with equal probability. Let Xn denote the level number at time = n. Please\n\nprove that\n\nEXn ≤1/3n + 4/3\n\nFig 1."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 2,
+  "body": "Problem 2. The goal is to show the concentration inequality for the median of mean\n\nestimator. We divide the problem into three simple steps.\n\n1. Let X be a random variable with EX = µ < ∞and Var(X) = σ2 < ∞. Suppose\n\nwe have m i.i.d. random samples {Xi}m\n\ni=1. Let ˆµm =\n\n1\n\nm\n\nPm\n\ni=1 Xi from X. Show\n\nthat\n\nP\n\n|bµm −µ| ≥2σ\n\nr\n\n1\n\nm\n\n\u0001\n\n≤1\n\n4.\n\n2. Given k i.i.d. Bernoulli random variables {Bj}k\n\nj=1 with EBj = p < 1\n\n2. Use the\n\nmoment generating function of Bj, i.e., E(exp(tBj)), to show that\n\nP\n\n1\n\nk\n\nk\n\nX\n\nj=1\n\nBj ≥1\n\n2\n\n\u0001\n\n≤(4p(1 −p))\n\nk\n\n2 ."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 3,
+  "body": "3. Suppose we have n i.i.d. random samples {Xi}n\n\ni=1 from a population with mean\n\nµ and variance σ2. For any positive integer k, we randomly and uniformly divide\n\nall the samples into k subsamples, each having size m = n/k (for simplicity,\n\nwe assume n is always divisible by k). Let bµj be the sample average of the jth\n\n\n\n=== page 4 ===\n\nsubsample and em be the median of {bµj}k\n\nj=1. Apply the previous two results to\n\nshow that\n\nP\n\n\u0010\n\n| em −µ| ≥2σ\n\nr\n\nk\n\nn\n\n\u0011\n\n≤\n\n√\n\n3\n\n2\n\n\u0001k.\n\nHint: Consider the Bernoulli random variable Bj = 1{|bµj −µ| ≥2σ\n\nq\n\nk\n\nn} for\n\nj = 1, ..., k.\n\nProblem 3. (a) Let N ≥2 be an integer, and let X be a random variable taking\n\nvalues in {0, 1, 2, . . .} such that P{X ≡k (mod N)} =\n\n1\n\nN for all k ∈{0, 1, . . . , N −1}.\n\nCompute E(ei(2πm)X/N) (with i = √−1) for all integers m ≥1.\n\n(b) A game for N players (numbered as 0, 1, 2, . . ., N −1) is as follows: Each player\n\nindependently shows a random number of fingers (uniformly chosen from {0, 1, 2, 3, 4, 5});\n\nif S denotes the total number of fingers shown, then the player number S mod N is de-\n\nclared to be the winner of the game.\n\nFind all N such that the players have equal chance to win the game."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 4,
+  "body": "Problem 4. Let X1, X2, . . . be independent and identically distributed real-valued\n\nrandom variables.\n\nProve or disprove:\n\nIf lim supn→∞\n\n|Xn|\n\nn\n\n≤1 almost surely, then\n\nP∞\n\nn=1 P(|Xn| ≥n) < ∞."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 5,
+  "body": "Problem 5. Choose, at random, 2016 points on the circle x2 + y2 = 1. Interpret them\n\nas cuts that divide the circle into 2016 arcs. Compute the expected length of the arc\n\nthat contains the point (1, 0). How about the variance.\n\n\n\n=== page 5 ==="
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 1,
+  "body": "1. Show that CP2n does not cover any manifold except itself."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 2,
+  "body": "2. Let X be a topological space and p ∈X. The reduced suspension ΣX of X is the\n\nspace obtained from X × [0, 1] by contracting (X × {0, 1}) ∪({p} × [0, 1]) to a point.\n\nDescribe the relation between the homology groups of X and ΣX."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 3,
+  "body": "3. State and prove the Frobenius Theorem on a differentiable manifold."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 4,
+  "body": "4. Show that all geodesics on the sphere Sn are precisely the great circles."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 5,
+  "body": "5. Let M be an n-dimensional Riemannian manifold. Denote by R and KM the cur-\n\nvature tensor and sectional curvature of M. If a ≤KM ≤b at a point x ∈M, then, at\n\nthis point,\n\nR(e1, e2, e3, e4) ≤2\n\n3(b −a)\n\nfor all orthonormal four-frames {e1, e2, e3, e4} ⊂TxM."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 6,
+  "body": "6. Let M be a closed minimal hypersurface with constant scalar curvature in Sn+1.\n\nDenote by S the squared length of the second fundamental form of M. Show that\n\nS = 0, or S ≥n.\n\n1\n\n\n\n=== page 6 ==="
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 1,
+  "body": "Problem 1 (20 points). Find all real orthogonal 2×2 matrices k with the following\n\nproperty: There is an upper triangular 2 × 2 real matrix b with all diagonal entries\n\nbeing positive numbers such that kb is a positive definite symmetric matrix."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 2,
+  "body": "Problem 2 (20 points). For x ∈Z and k ≥0, define the binomial coefficients\n\n x\n\nk\n\n!\n\n= x(x −1) · · · (x −k + 1)\n\nk!\n\n,\n\n x\n\n0\n\n!\n\n= 1.\n\n(a) (6 points) Show that x ∈Z =⇒\n\n\u0010x\n\nk\n\n\u0011\n\n∈Z.\n\n(b) (6 points) Show that every function f : Z≥0 →Z can be expressed as f(x) =\n\nP∞\n\nk=0 ak\n\n\u0010x\n\nk\n\n\u0011\n\n, where ak ∈Z are uniquely determined by f.\n\n(c) (8 points) Define\n\nφk(x) =\n\n x + ⌊k/2⌋\n\nk\n\n!\n\n.\n\nShow that every function f : Z →Z can be expressed as f(x) = P∞\n\nk=0 akφk(x),\n\nwhere ak ∈Z are uniquely determined by f."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 3,
+  "body": "Problem 3 (20 points). Let K be the splitting field of the polynomial\n\nx4 −x2 −1.\n\n(a) (10 points) Show that the Galois group of K over Q is isomorphic to the\n\ndihedral group D4. Here we adopt the convention that D4 is the group of\n\nsymmetries of a square and has order 8.\n\n(b) (10 points) Determine the lattice of subfields of K: Find all subfields of K\n\nand describe the partial order induced by inclusion."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 4,
+  "body": "Problem 4 (20 points). Let G be a (not necessarily finite) group and let F be a\n\nfield of characteristic ̸= 2. Let V ̸= 0 be an indecomposable finite-dimensional\n\nlinear representation of G over F. Let R = EndF(V )G be the ring of G-equivariant\n\nendomorphisms of V .\n\n(a) (5 points) Prove the following form of Fitting's lemma: Every element of R is\n\neither invertible or nilpotent.\n\n(b) (5 points) Deduce that the set I ⊆R of non-invertible elements is a two-sided\n\nideal and the quotient R/I is a division algebra over F.\n\n(c) (5 points) We say that V is orthogonal if there exists a G-invariant nonde-\n\ngenerate symmetric bilinear form on V . We say that V is symplectic if there\n\nexists a G-invariant nondegenerate alternating bilinear form on V . Deduce\n\nthat if there exists a G-invariant nondegenerate bilinear form on V , then V is\n\northogonal or symplectic.\n\nPage 1 of 2\n\n\n\n=== page 7 ===\n\n(d) (5 points) Assume that F is algebraically closed. Deduce from (b) that V\n\ncannot be both orthogonal and symplectic."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 5,
+  "body": "Problem 5 (20 points).\n\n(a) (5 points) Let G be a finite group. Let x1, . . . , xh be representatives of the con-\n\njugacy classes of G. Let ni = #CentG(xi) be the cardinality of the centralizer\n\nof xi. Prove the identity\n\n1 =\n\nh\n\nX\n\ni=1\n\n1\n\nni\n\n.\n\n(b) (10 points) Deduce that for any integer h ≥1, there exist only finitely many\n\nisomorphism classes of finite groups with exactly h conjugacy classes.\n\n(c) (5 points) Find all the finite groups with exactly 3 conjugacy classes.\n\nPage 2 of 2\n\n\n\n=== page 8 ==="
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 1,
+  "body": "Problem 1. For solving the following partial differential equation\n\n(1)\n\nut + ux = 0,\n\n−∞≤x ≤∞\n\nwith compactly supported initial condition, we consider the following one-step, three-\n\npoint scheme on a uniform mesh xj = j∆x with spatial mesh size ∆x:\n\n(2)\n\nun+1\n\nj\n\n= aun\n\nj + bun\n\nj−1 + cun\n\nj−2,\n\nj = · · · , −1, 0, 1, · · ·\n\nwhere a, b, c are constants which may depend on the mesh ratio λ = ∆t\n\n∆x. Here ∆t is\n\nthe time step, and un\n\nj approximates the exact solution at u(xj, tn) with tn = n∆t.\n\n(1) Find the constants a, b, c such that the scheme (2) is second order accurate.\n\n(2) Find the CFL number λ0 such that the scheme (2), with the constants deter-\n\nmined by the step above, is stable in L2 under the time step restriction λ ≤λ0.\n\n(3) If the PDE (1) is defined on (0, ∞) with an initial condition compactly sup-\n\nported in (0, ∞) and a boundary condition u(0, t) = g(t), how would you modify\n\nthe scheme (2) so that it can be applied? Can you prove the stability and ac-\n\ncuracy of your modified scheme?"
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 2,
+  "body": "Problem 2. Inverse problem. Answer the famous Mark Kac's equation: \"can you\n\nhear the shape of drum?\" for the special case.\n\nConsider the one-dimensional oscillator ¨x = −u′(x) with symmetric potential u(−x) =\n\nu(x), u(0) = u′(0) = 0, u′(x) > 0 for x > 0, limx→∞u(x) = ∞. Denote the inverse\n\nfunction of y = u(x), x ≥0 as x = u−1(y) = φ(y).\n\n(a) For any solution x(t), show there is a conservation of energy\n\n˙x2(t)\n\n2\n\n+ u(x(t)) ≡e\n\nwhere e is a constant.\n\n(b) For any energy e > 0, find a periodic solution with total energy e. Show that the\n\nperiod is given by\n\nP(e) = 2\n\n√\n\n2\n\nZ xmax\n\n0\n\ndx\n\np\n\ne −u(x)\n\n,\n\nxmax = φ(e) > 0 .\n\n(c) Show that\n\nφ(z) =\n\n1\n\n2π\n\n√\n\n2\n\nZ z\n\n0\n\nP(e) de\n\n√z −e .\n\n(d) In the case of iso-chronous P(e) ≡2π, show that φ(z) =\n\n√\n\n2z. Then you have\n\nu(x) = 1\n\n2x2, x(t) = a cos(t) + b sin(t), the famous harmonic oscillator.\n\n1\n\n\n\n=== page 9 ===\n\n2"
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 3,
+  "body": "Problem 3. The following statement informally means that if a system of homoge-\n\nneous equations with integer coefficients has a nontrivial solution then it has an integer\n\nsolutions with reasonably small components. It is required in many applications.\n\nLet A = (aij)m,n\n\ni,j=1 be an m × n matrix of rank r ≤n −1 with integer entries of size at\n\nmost H, that is,\n\n|aij| ≤H,\n\n1 ≤i ≤m, 1 ≤j ≤n.\n\nProve that there is an integer non-zero vector x = (x1, . . . , xn) ∈Zn such that Ax = 0\n\nand\n\n∥x∥∞≤(2nH)n−1\n\nwhere ∥x∥∞= max1≤i≤n |xi|."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 4,
+  "body": "Problem 4. This problem considers an iterative scheme\n\nxk+1 = xk + βkpk\n\nfor the linear system Ax = b, where A ∈Rn×n is a given n×n non-singular matrix and\n\nb ∈Rn is a given vector. In the above scheme, xk denotes the approximate solution at\n\nthe k-th iteration, βk is a scalar and pk ∈Rn is a search direction. If xk is given, the\n\nabove scheme will determine xk+1 so that the residual rk+1 := b−Axk+1 is the smallest\n\npossible with respect to the 2-norm.\n\n(1) Determine βk.\n\n(2) Prove that the residual rk+1 is orthogonal to Apk with respect to the usual\n\ninner-product.\n\n(3) Prove that the residuals satisfy\n\n∥rk+1∥≤∥rk∥sin(α)\n\nwhere α is the angle between rk and Apk, and ∥· ∥denotes the 2-norm.\n\n(4) Assume that the inner product of rk and Apk is non-zero. Will the above scheme\n\nalways converge?\n\n(5) Assume that A is positive definite. We take the search direction pk = rk. Show\n\nthat the above scheme converges for any initial guess x0."
+ },
+ {
+  "file": "2016_2016_team",
+  "year": "2016",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 5,
+  "body": "Problem 5. Let f : Rn →R be convex and in C1. Suppose f has a local minimum\n\nx∗.\n\n(1) Must this local minimum x∗be a global minimum?\n\n(2) Consider the following backward gradient method: starting from any x0 ∈Rn,\n\ndefine\n\nxk = xk−1 −t∇f(xk),\n\nk ≥1,\n\nwhere t > 0 is a fixed step size. Do you need any condition on t to guarantee\n\n{f(xk)} converge? Prove your convergence argument, if {f(xk)} converges.\n\n(3) Suppose f is strongly convex, that is, ∃m > 0 such that ⟨∇f(x)−∇f(y), x−y⟩≥\n\nm∥x −y∥2. Under this additional condition, show that {xk} converges."
+ },
+ {
+  "file": "2016_algebra2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 1,
+  "body": "Problem 1 (20 points). Let E be a linear space over R, of finite dimension n ≥2,\n\nequipped with a positive definite symmetric bilinear form ⟨· , · ⟩. Let u1, u2, . . . , un\n\nbe a basis of E. Let v1, v2, . . . , vn be the dual basis, that is,\n\n⟨ui, vj⟩=\n\n\n\n\n\n\n\n1\n\nif i = j,\n\n0\n\nif i ̸= j,\n\nfor all i, j = 1, 2, . . . , n.\n\n(a) (8 points) Assume that ⟨ui, uj⟩≤0 for all 1 ≤i < j ≤n. Show that there\n\nis an orthogonal basis u′\n\n1, u′\n\n2, . . . , u′\n\nn of E such that u′\n\ni is a non-negative linear\n\ncombination of u1, u2, . . . , ui, for all i = 1, 2, . . . , n.\n\n(b) (6 points) With the same assumption as in Part (a), show that ⟨vi, vj⟩≥0 for\n\nall 1 ≤i < j ≤n.\n\n(c) (6 points) Assume that n ≥3. Show that the condition ⟨ui, uj⟩≥0 for all\n\n1 ≤i < j ≤n does not imply that ⟨vi, vj⟩≤0 for all 1 ≤i < j ≤n."
+ },
+ {
+  "file": "2016_algebra2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 2,
+  "body": "Problem 2 (20 points). Let d ≥1 and n ≥1 be integers.\n\n(a) (5 points) Show that there are only finitely many subgroups G ⊆Zd of index n.\n\nLet fd(n) denote the number of such subgroups.\n\n(b) (5 points) Let gd(n) denote the number of subgroups H ⊆Zd of index n\n\nsuch that the quotient group is cyclic. Show that fd(mn) = fd(m)fd(n) and\n\ngd(mn) = gd(m)gd(n) for coprime positive integers m and n.\n\n(c) (5 points) Compute gd(pr) for every prime power pr, r ≥1.\n\n(d) (5 points) Compute f2(20)."
+ },
+ {
+  "file": "2016_algebra2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 3,
+  "body": "Problem 3 (20 points). Let A be a complex m × m matrix. Assume that there\n\nexists an integer N ≥0 such that tn = tr(An) is an algebraic integer for all n ≥N.\n\nThe goal of this problem is to show that the eigenvalues a1, . . . , am of A are algebraic\n\nintegers.\n\n(a) (10 points) Show that there exist algebraic numbers bij ∈C, 1 ≤i, j ≤m such\n\nthat\n\nan\n\ni =\n\nm\n\nX\n\nj=1\n\nbijtn+j−1\n\nfor all n ≥0 and all 1 ≤i ≤m.\n\nIn particular, a1, . . . , am are algebraic\n\nnumbers.\n\n(b) (8 points) Let R be the ring of all algebraic integers in C and let K be the\n\nfield of all algebraic numbers in C. Show that for a ∈K, if R[a] is contained\n\nin a finitely-generated R-submodule of K, then a ∈R.\n\n(c) (2 points) Conclude that a1, . . . , am are algebraic integers.\n\nPage 1 of 2\n\n\n\n=== page 2 ==="
+ },
+ {
+  "file": "2016_algebra2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 4,
+  "body": "Problem 4 (20 points). Let E be a Euclidean plane. For each line l in E, write\n\nsl ∈Iso(E) for the reflection with respect to l, where Iso(E) denotes the group of\n\ndistance-preserving bijections from E to itself.\n\n(a) (6 points) Let l1 and l2 be two distinct lines in E. Find the necessary and\n\nsufficient condition that sl1 and sl2 generate a finite group.\n\n(b) (7 points) Let l1, l2 and l3 be three pairwise distinct lines in E. Assume that\n\nsl1, sl2 and sl3 generate a finite group. Show that l1, l2, l3 intersect at a point.\n\n(c) (7 points) Let G be a finite subgroup of Iso(E) generated by reflections. Show\n\nthat G is generated by at most two reflections."
+ },
+ {
+  "file": "2016_algebra2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 5,
+  "body": "Problem 5 (20 points). Let G be a finite group of order 2nm where n ≥1 and\n\nm is an odd integer. Assume that G has an element of order 2n. The goal of this\n\nproblem is to show that G has a normal subgroup of order m.\n\n(a) (5 points) Show that if M is a normal subgroup of G of order m, then M is\n\nthe only subgroup of G of order m.\n\n(b) (5 points) Let N be a normal subgroup of G and let P be a 2-Sylow subgroup\n\nof G. Show that P ∩N is a 2-Sylow subgroup of N.\n\n(c) (5 points) Show that the homomorphism G →{±1} carrying g to sgn(lg) is\n\nsurjective. Here sgn(lg) denotes the sign of the permutation lg : G →G given\n\nby left multiplication by g.\n\n(d) (5 points) Deduce by induction on n that G has a normal subgroup of order m.\n\nPage 2 of 2"
+ },
+ {
+  "file": "2016_analysis2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 1,
+  "body": "1. Suppose that F is continuous on [a, b], F\n\n′(x) exists for every x ∈(a, b), F\n\n′(x) is\n\nintegrable. Prove that F is absolutely continuous and\n\nF(b) −F(a) =\n\n∫b\n\na\n\nF\n\n′(x)dx."
+ },
+ {
+  "file": "2016_analysis2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 2,
+  "body": "2. Suppose that f is integrable on Rn, let Kδ(x) = δ−n\n\n2 e\n\n−π|x|2\n\nδ\n\nfor each δ > 0. Prove\n\nthat the convolution\n\n(f ∗Kδ)(x) =\n\n∫\n\nRn f(x −y)Kδ(y)dy\n\nis integrable and ||(f ∗Kδ) −f||L1(Rn) →0, as δ →0."
+ },
+ {
+  "file": "2016_analysis2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 3,
+  "body": "3. Prove that a bounded function on interval I = [a, b] is Riemann integrable if and\n\nonly if its set of discontinuities has measure zero. You may prove this by the following\n\nsteps.\n\nDefine I(c, r) = (c −r, c + r), osc(f, c, r) = supx,y∈J∩I(c,r) |f(x) −f(y)|, osc(f, c) =\n\nlimr→0 osc(f, r, c).\n\n1) f is continuous at c ∈J if and only if osc(f, c) = 0.\n\n2) For arbitrary ϵ > 0, {c ∈J|osc(f, c) ≥ϵ} is compact.\n\n3) If the set of discontinuities of f has measure 0, then f is Riemann integrable."
+ },
+ {
+  "file": "2016_analysis2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 4,
+  "body": "4. 1) Let f be the Rukowski map: w = 1\n\n2(z + 1\n\nz). Show that it maps {z ∈¯C||z| > 1}\n\nto ¯C/[−1, 1], ¯C = C ∪{∞}.\n\n2) Compute the integral:\n\n∫∞\n\n0\n\nlog x\n\nx2 −1dx."
+ },
+ {
+  "file": "2016_analysis2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 5,
+  "body": "5. Let f be a doubly periodic meromorphic function over the complex plane, i.e. f(z +\n\n1) = f(z), f(z + i) = f(z), z ∈C, prove that the number of zeros and the number of\n\npoles are equal."
+ },
+ {
+  "file": "2016_analysis2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 6,
+  "body": "6. Let A be a bounded self-adjoint operator over a complex Hilbert space. Prove that\n\nthe spectrum of A is a bounded closed subset of the real line R.\n\n1"
+ },
+ {
+  "file": "2016_applied2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 1,
+  "body": "Problem 1. Consider the implicit leapfrog scheme\n\nun+1\n\nm\n\n−un−1\n\nm\n\n2k\n\n+ a\n\nµ\n\n1 + h2\n\n6 δ2\n\n¶−1\n\nδ0un\n\nm = f n\n\nm\n\nfor the one-way wave equation\n\nut + aux = f.\n\nHere δ2 is the central second difference operator, and δ0 is the central first difference\n\noperator.\n\n(1) show that the scheme is of order (2, 4).\n\n(2) show that the scheme is stable if and only if |ak\n\nh | <\n\n1\n\n√\n\n3."
+ },
+ {
+  "file": "2016_applied2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 2,
+  "body": "Problem 2. A simple version of an enzyme-mediate chemical reaction process is given\n\nby\n\nS + E\n\nk1\n\n←→\n\nk2 C\n\nk3\n\n−→P + E\n\nwhere S is the substrate reactant and P is the concentration of the desired product.\n\nAn enzyme (or catalyst) E is a compound whose special property is that it allows for\n\nintermediate reaction steps that lead to a the overall reaction,\n\nS −→P.\n\nAssume the initial conditions\n\nS(0) = S0,\n\nE(0) = E0,\n\nC(0) = 0,\n\nP(0) = 0;\n\nk1, k2, k3 are reaction rate constants.\n\n(a) Convert the chemical reaction equation into a system of rate equations (ODEs) for\n\nS(T), E(T), C(T), and P(T) where T is the dimensional time. Nondimensionalize\n\nthe equations using the scalings\n\nT = t/(k1E0),\n\nS(T) = S0s(t),\n\nP(T) = S0p(t),\n\nE(T) = E0s(t),\n\nC(T) = E0c(t),\n\nϵ = E0\n\nS0\n\n≪1,\n\nλ =\n\nk2\n\nk1S0\n\n,\n\nµ = k2 + k3\n\nk1S0\n\n.\n\n(b) Use the expansions s(t) = s0(t)+ϵs1(t)+O(ϵ2), c(t) = c0(t)+ϵc1(t)+O(ϵ2), etc to\n\ndetermine the equations for the leading order slow solution. Show that s0(t) and\n\np0(t) satisfies the following Michaelis-Menten equations\n\n˙s0(t) = −(µ −λ)\n\ns0\n\nµ + s0\n\n,\n\n˙p0(t) = (µ −λ)\n\ns0\n\nµ + s0\n\n.\n\n1\n\n\n\n=== page 2 ===\n\n2"
+ },
+ {
+  "file": "2016_applied2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 3,
+  "body": "Problem 3. We say that a vector u = (u1, . . . , un) ∈Nn is multiplicatively dependent\n\nif there is a non-zero vector k = (k1, . . . , kn) ∈Zn for which\n\n(1)\n\nuk1\n\n1 · · · ukn\n\nn = 1.\n\nThis notion plays a very important role in many number theoretic algorithms, such\n\nas factorisation and primality testing. It also (in a more general form) appears in\n\nsome questions in algebraic dynamics. However the algorithm to decide whether u\n\nis multiplicatively dependent is not immediately obvious.\n\nThe following statement\n\ninformally means that if u is multiplicatively dependent the exponents k1, . . . , kn can\n\nbe chosen to be reasonably small. Prove that if u = (u1, . . . , un) ∈Nn is multiplicatively\n\ndependent with ∥u∥∞≤H where ∥u∥∞= max1≤i≤n |ui|, then there is a non-zero vector\n\nk = (k1, . . . , kn) ∈Zn with\n\n∥k∥∞≤\n\nµ2n log H\n\nlog 2\n\n¶n−1\n\n(and hence for a fixed n it can be found in polynomial time of order (log H)n(n−1)).\n\nComment: To solve this problem, you can use the following statement (without\n\nproof) which informally means that if a system of homogeneous equations with integer\n\ncoefficients has a nontrivial solution then it has an integer solutions with reasonably\n\nsmall components. It is required in many applications.\n\nLet A = (aij)m,n\n\ni,j=1 be an m × n matrix of rank r ≤n −1 with integer entries of size at\n\nmost H, that is,\n\n|aij| ≤H,\n\n1 ≤i ≤m, 1 ≤j ≤n.\n\nThen there is an integer non-zero vector x = (x1, . . . , xn) ∈Zn such that Ax = 0 and\n\n∥x∥∞≤(2nH)n−1\n\nwhere ∥x∥∞= max1≤i≤n |xi|."
+ },
+ {
+  "file": "2016_applied2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 4,
+  "body": "Problem 4. Consider a symmetric matrix An×n, and let λi be a simple eigenvalue of\n\nA with\n\n|λj −λi| = O(1),\n\nj ̸= i.\n\nIn inverse iteration of compute eigenvalue and eigenvector, one needs to solve the\n\nfollowing linear system\n\n(A −µI)yk+1 = xk,\n\nwhere µ is an approximation of eigenvalue λi, ∥xk∥= 1and obtain\n\nxk+1 =\n\nyk+1\n\n∥yk+1∥.\n\nHowever, for µ close to λi, A −µI has a very small eigenvalue and the linear system\n\nwill be ill-conditioned. So there may be large error in the numerical solution to the\n\nlinear system, denoted by ˜yk+1. Even though we may get large error in ˜yk+1, the ˜xk+1\n\nwe get from ˜xk+1 =\n\n˜yk+1\n\n∥˜yk+1∥is accurate.\n\n\n\n=== page 3 ===\n\n3\n\n(1) ˜yk+1 satisfies\n\n(A −µI + δA)˜yk+1 = xk,\n\nwhere ∥δA∥= O(ϵ) and ϵ is the machine precision. Show that\n\n(A −λi) ˜yk+1\n\n∥˜yk+1∥∥≤|µ −λi| + ∥δA∥+\n\n1\n\n∥˜yk+1∥.\n\n(2) Let αi = xt\n\nkqi, where qi is the normalized eigenvector corresponding to λi. Show\n\nthat\n\n∥˜yk+1∥≥\n\n|αi|\n\n|µ −λi| + ∥δA∥.\n\n(3) Conclude that\n\n∥xk+1 −(±)qi∥= O(|λi −µ| + ϵ)."
+ },
+ {
+  "file": "2016_applied2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 5,
+  "body": "Problem 5. A function f : Rn →R in C2 is called strongly convex if its Hessian\n\nmatrix satisfies ∇2f ⪰mI for some m > 0. Show that the following statements are\n\nequivalent:\n\n(a) f is strongly convex, i.e. ∇2f(x) ⪰mI for all x ∈Rn;\n\n(b) For any t ∈[0, 1], any x, y ∈R,\n\nf(tx + (1 −t)y) ≤tf(x) + (1 −t)f(y) −m\n\n2 t(1 −t)∥x −y∥2;\n\n(c) ⟨∇f(x) −∇f(y), x −y⟩≥m∥x −y∥2 for any x, y ∈Rn."
+ },
+ {
+  "file": "2016_geometry2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 1,
+  "body": "1. Let M be a compact odd-dimensional manifold with boundary ∂M. Show that the\n\nEuler characteristics of M and ∂M are related by:\n\nχ(M) = 1\n\n2χ(∂M)."
+ },
+ {
+  "file": "2016_geometry2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 2,
+  "body": "2. Compute the de Rham cohomology of a punctured two-dimensional torus T 2 −{p},\n\nwhere p ∈T 2. If T 2 = R2/Z2 with coordinates (x, y) ∈R2, then is the volume form\n\nω = dx ∧dy exact?"
+ },
+ {
+  "file": "2016_geometry2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 3,
+  "body": "3. Let M n →Rn+1 be a closed oriented hypersurface. The r-th mean curvature of M n\n\nis defined by\n\nHr :=\n\n1\n\n¡n\n\nr\n\n¢\n\nX\n\ni1<i2···<ir\n\nλi1λi2 · · · λir,\n\n(1 ≤r ≤n)\n\nwhere λi (i = 1, · · · , n) are principal curvatures of M n. Prove that if all of λi are\n\npositive and Hr =constant for a certain r, then M n is a hypersphere in Rn+1."
+ },
+ {
+  "file": "2016_geometry2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 4,
+  "body": "4. State and prove the cut-offfunction lemma on a differentiable manifold."
+ },
+ {
+  "file": "2016_geometry2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 5,
+  "body": "5. Let M be a compact Riemannian manifold without boundary. Show that if M has\n\npositive Ricci curvature, then H1(M, R) = 0."
+ },
+ {
+  "file": "2016_geometry2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 6,
+  "body": "6. Let M be an orientable, closed and embedded minimal hypersurface in Sn+1. Denote\n\nby λ1 the first eigenvalue for the Laplace-Beltrami operator on M. Prove that λ1 ≥n/2.\n\n1"
+ },
+ {
+  "file": "2016_probability2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 1,
+  "body": "Problem 1. A random walker moves on the lattice Z2 according to the following rule:\n\nin the first step it moves to one of its neighbors with probability 1/4, and then in step\n\nn > 1 it moves to one of the neighbors that it didn't visit in the step n −1 with equal\n\nprobability. Let T be the time when the random walker steps on a site that it already\n\nvisited. Please show that the expectation of T is less than 35."
+ },
+ {
+  "file": "2016_probability2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 2,
+  "body": "Problem 2. Let X be a N × N random matrix with i.i.d. random entries, and\n\nP(X11 = 1) = P(X11 = −1) = 1/2\n\nDefine\n\n∥X∥op =\n\nsup\n\nv∈CN:∥v∥2=1\n\n∥Xv∥2\n\nPlease show that for any fixed δ > 0,\n\nlim\n\nN→∞P(∥X∥op ≥N 1/2+δ) = 0\n\nHint: ∥X∥2\n\nop ≤tr|X|2"
+ },
+ {
+  "file": "2016_probability2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 3,
+  "body": "Problem 3. Suppose that 2016 balls are put into 2016 boxes with each ball indepen-\n\ndently being put into box i with probability\n\n1\n\n3×1008 for i ≤1008 and\n\n2\n\n3×1008 for i > 1008.\n\nLet T be the number of boxes containing exactly 2 balls. Please find the variance of T."
+ },
+ {
+  "file": "2016_probability2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 4,
+  "body": "Problem 4. Let b > a > 0 be real numbers. Let X be a random variable taking values\n\nin [a, b], and let Y = 1\n\nX . Determine the set of all possible values of E(X) × E(Y )."
+ },
+ {
+  "file": "2016_probability2016_individual",
+  "year": "2016",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 5,
+  "body": "Problem 5. Let X1, X2, . . . be independent and identically distributed real-valued\n\nrandom variables such that E(X1) = −1. Let Sn = X1 + · · · + Xn for all n ≥1, and let\n\nT be the total number of n ≥1 satisfying Sn ≥0. Compute P(T = ∞)."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 1,
+  "body": "1. Suppose that f is an integrable function on the circle with ˆf(n) =\n\n1\n\n2π\n\nR 2π\n\n0\n\nf(x)e−inxdx =\n\n0, for all n ∈Z. Then f(θ) = 0 whenever f is continuous at the point θ."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 2,
+  "body": "2. Let F be continuous on [a, b]. Show that:\n\n1) Suppose (D+F)(x) = lim suph→0,h>0\n\nF(x+h)−F(x)\n\nh\n\n> 0 for every x ∈[a, b). Then F\n\nis increasing on [a, b].\n\n2) If F\n\n′(x) exists for every x ∈(a, b) and |F\n\n′(x)| ≤M, then |F(x)−F(y)| ≤M|x−y|\n\nand F is absolutely continuous."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 3,
+  "body": "3. Let f(z) be holomorphic for |z| < 1 and assume |f(z)| < 1, if |z| < 1. If α and β\n\nare such that |α| < 1, |β| < 1, α ̸= β, and f(α) = f(β) = 0, then\n\n|f(z)| ≤| z −α\n\n1 −¯αz\n\nz −β\n\n1 −¯βz|, |z| < 1."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 4,
+  "body": "4. Show that a single-valued analytic branch of\n\n√\n\n1 −z2 can be defined in any region\n\nsuch that the points ±1 are in the same component of the complement. What are the\n\npossible values of\n\nR\n\ndz\n\n√\n\n1−z2 over a closed curve in the region?"
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 5,
+  "body": "5. In Rn, consider the Laplace equation\n\nu11 + u22 + ... + unn = 0.\n\nShow that the equation is invariant under orthogonal transformation. Find all rota-\n\ntionally symmetric solutions to this equation."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 6,
+  "body": "6. Let A be an operator over the function space C[a, b] defined as:\n\n(Af)(x) =\n\nZ b\n\na\n\nK(x, y)f(y)dy,\n\nwhere K(x, y) is continuous over [a, b] × [a, b] except at several curves defined by y =\n\nφk(x), x ∈[a, b], k = 1, ..., n with φk continuous. Show that A is a compact operator.\n\n1\n\n\n\n=== page 2 ==="
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 1,
+  "body": "Problem 1. Let µn be the uniform probability measure on the n-dimensional cube\n\n[−1, 1]n.\n\nLet H ∈Rn be the hyperplane orthogonal to the principal diagonal, i.e.,\n\nH = (1, · · · , 1)⊥. For any r > 0, we further define\n\nAH, r := {x ∈[−1, 1]n, dist(x, H) ≤r},\n\nwhere dist(x, H) represents the distance from the point x to the hyperplane H. Show\n\nthat for any constant ε > 0, the following two estimates hold for all sufficiently large n\n\n1 :\n\nµn¡\n\nAH, nε¢\n\n≥1 −n−2ε,\n\n2 :\n\nµn¡\n\nAH, nε¢\n\n≥1 −e−nε/2"
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 2,
+  "body": "Problem 2.\n\nLet X1, X2, . . . be positive random variables.\n\nWe assume that Xn\n\nconverges to 0 in probability, and that limn→∞E(Xn) = 2. Prove that limn→∞E(|Xn −\n\n1|) exists and compute its value."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 3,
+  "body": "Problem 3. There are n people playing a game. Initially everybody had one dollar at\n\nhand. During each round of the game, we randomly pick two people and they will toss\n\na fair coin, to decide who wins this round of the game. The loser will submit one dollar\n\n(note: just one, not all of his money) to the winner. Assume that a person who had no\n\nmoney at hand will be immediately driven out of the game. The game stops until all\n\nmoney is at the hand of only one person. Calculate the average number of rounds that\n\nthe game plays.\n\nNote: In each round only two players are involved."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 4,
+  "body": "Problem 4.\n\nLet {Xn}n∈N and {X′\n\nn}n∈N be two independent simple random walks on Zd such\n\nthat X0 = X′\n\n0 = 0. Here simple walk means if x, y ∈Zd and ∥x −y∥= 1, then\n\nP(Xn+1 = y|Xn = x) = (2d)−1\n\nLet I = {(s, t) : Xs = X′\n\nt}. Prove that |I| < ∞a.s.\n\nHint: You can first prove that\n\nP(Xn = 0) = O(n−d/2),\n\nn →∞"
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 5,
+  "body": "Problem 5. Suppose X1, . . . , Xn are i.i.d. Poisson variables with mean λ and we are\n\ninterested in estimating p = Pλ(Xi = 0) = e−λ.\n\n1\n\n\n\n=== page 3 ===\n\n(a) One estimator for p is the proportion of zeros in the sample, ˜p = #{i ≤n : Xi =\n\n0}/n. Determine limiting distribution for √n(˜p −p).\n\n(b) Another estimator would be the maximum likelihood estimator ˆp. Give a formula\n\nfor ˆp and determine limiting distribution for √n(ˆp −p).\n\n(c) Find the asymptotic relative efficiency of ˜p with respect to ˆp.\n\n2\n\n\n\n=== page 4 ==="
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 1,
+  "body": "1. Consider the space X = M1 ∪M2, where M1 and M2 are M¨obius bands and\n\nM1 ∩M2 = ∂M1 = ∂M2.\n\nHere a M¨obius band is the quotient space ([−1, 1] ×\n\n[−1, 1])/((1, y) ∼(−1, −y)). Determine the fundamental group of X."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 2,
+  "body": "2. If f : X →X is a self-map, then the \"mapping torus of f\" is the quotient\n\nTf := (X × [0, 1])/(x, 0) ∼(f(x), 1),\n\n∀x ∈X.\n\nFor n ∈Z, let fn be a degree n map on S3. Compute the integral homology groups of\n\nTfn."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 3,
+  "body": "3. Let C be a regular curve on a smooth surface S in R3. Denote by I = Edu2 +\n\n2Fdudv + Gdv2 and II = Ldu2 + 2Mdudv + Ndv2 the first and second fundamental\n\nforms of S, respectively. Assume that the equation of C is given by u = u(s), v = v(s),\n\nwhere s is the arc-length parameter of C. Show that geodesic torsion along the curve\n\nC satisfies\n\nτg =\n\n1\n\n√\n\nEG −F 2\n\n\f\f\f\f\f\f\f\f\n\n\u0012dv\n\nds\n\n\u00132\n\n−du\n\nds\n\ndv\n\nds\n\n\u0012du\n\nds\n\n\u00132\n\nE\n\nF\n\nG\n\nL\n\nM\n\nN\n\n\f\f\f\f\f\f\f\f\n\n."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 4,
+  "body": "4. Let {ei}i=1,...,n be a basis of a vector space V . Denote by {ωi}i=1,...,n the dual basis\n\nof {ei}i=1,...,n. Show that the set\n\n{ωi1 ∧· · · ∧ωir | 1 ≤i1 < i2 < · · · < ir ≤n}\n\nis a basis of Vr V ∗, where r is a positive integer and r ≤n."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 5,
+  "body": "5. Let M →Rn+1 be a compact closed hypersurface in the (n + 1)-dimensional Eu-\n\nclidean space Rn+1. Prove that M is a hypersphere if M has constant scalar curvature\n\nand nonnegative Ricci curvature."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 6,
+  "body": "6. On a Riemannian manifold, if f is a smooth function such that |gradf| = 1. Show\n\nthat the integral curves of gradf are geodesics.\n\n1\n\n\n\n=== page 5 ==="
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 1,
+  "body": "Problem 1 (20 points). Let G be a group and let g ∈G be an element of finite\n\norder n. Suppose that n is the product of two positive integers r and s which are\n\ncoprime to each other.\n\n(a) (10 points) Show that there is a pair (g1, g2) of elements of G such that gr\n\n1 = 1,\n\ngs\n\n2 = 1 and g1g2 = g2g1 = g.\n\n(b) (10 points) Show that such a pair is unique."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 2,
+  "body": "Problem 2 (20 points). Let p > 2 be a prime number and let T be a linear operator\n\nof order p on an n-dimensional vector space V over Q.\n\n(a) (8 points) Show that the trace tr(T) of T on V is an integer in Z.\n\n(b) (12 points) Show that tr(T) is congruent to n modulo p."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 3,
+  "body": "Problem 3 (20 points). Let g be a finite dimensional Lie algebra over C. For each\n\nx ∈g, define a linear map\n\nadx : g →g,\n\ny 7→[x, y].\n\nPut\n\nn(x) := the dimension of the kernel of the operator (adx)dim g.\n\nThe rank of g is defined to be\n\nrank(g) := min{n(x) | x ∈g}.\n\nShow that\n\n{x ∈g | n(x) > rank(g)}\n\nis the zero set of a polynomial function on g."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 4,
+  "body": "Problem 4 (20 points). Let p be a prime number and let K = Fp(T) be the field\n\nof rational functions over Fp. Consider the polynomials\n\nf(X) = Xp −TX −T,\n\ng(X) = Xp−1 −T.\n\n(a) (5 points) Show that f and g are irreducible and separable over K.\n\n(b) (5 points) Let M be the splitting field of g over K. Show that Gal(M/K) is\n\nisomorphic to F×\n\np .\n\n(c) (10 points) Let L be the splitting field of f over K. Show that g splits in L\n\nand Gal(L/K) is isomorphic to the semidirect product G = Fp ⋊F×\n\np , where\n\nF×\n\np acts on Fp by homotheties.\n\nPage 1 of 2\n\n\n\n=== page 6 ==="
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 5,
+  "body": "Problem 5 (20 points). Let a and b be a pair of coprime positive integers. Let\n\nN(a, b) be the set of nonnegative integral linear combinations of a and b:\n\nN(a, b) := {N ∈Z | N = ax + by for some x, y ∈Z≥0}.\n\n(a) (7 points) Show that every integer N satisfying N ≥a(b−1) belongs to N(a, b).\n\n(b) (13 points) Show that there are exactly (a −1)(b −1)/2 positive integers not\n\nbelonging to N(a, b).\n\nPage 2 of 2\n\n\n\n=== page 7 ==="
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 1,
+  "body": "1. Given an integer parameter K, one can test whether for a vector ⃗u = (u1, . . . , un) ∈\n\nNn there is non-zero vector ⃗k = (k1, . . . , kn) ∈Zn with\n\n∥⃗k∥∞≤K and uk1\n\n1 · · · ukn\n\nn = 1,\n\nwhere ∥⃗k∥∞= max1≤i≤n |ki| in about O((2K + 1)n) arithmetic operations with inte-\n\ngers having about O(nK log(∥⃗u∥∞+1)) bits via testing all possible combinations of the\n\nexponents (ordered lexicographically) and direct computation.\n\nAssuming that the memory is essentially unlimited, suggest a better algorithm which\n\nuses about O((2K + 1)n/2) arithmetic operations with integers of the same size as\n\nabove.\n\nHints: (i) Use the divide-and-conquer strategy; (ii) Recall that a list L of M real\n\nnumbers can be sorted via O(M log M) comparisons; (iii) A sorted list L of M real\n\nnumbers can be searched for x ∈L via O(log M) comparisons; (iv) To decide whether\n\na/b > c/d for two rational numbers with b, d > 0 we simply compare the products ad\n\nand bc."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 2,
+  "body": "2. We have the following partial differential equation\n\n(1)\n\nut = H(u)xx,\n\n0 ≤x < 1\n\nwith an initial condition u(x, 0) = f(x) and periodic boundary condition. Here 0 ≤\n\nH′(u) ≤d. Consider the following one-step, three-point scheme on a uniform mesh\n\nxj = j∆x with spatial mesh size ∆x:\n\n(2)\n\nun+1\n\nj\n\n= un\n\nj + aH(un\n\nj−1) + bH(un\n\nj ) + cH(un\n\nj+1),\n\nwhere a, b, c are constants which may depend on the mesh ratio µ =\n\n∆t\n\n∆x2, ∆t is the\n\ntime step, and un\n\nj approximates the exact solution at u(xj, tn) with tn = n∆t.\n\n(1) Find the constants a, b, c such that the scheme (2) is second order accurate.\n\n(2) Find the CFL number µ0 such that the scheme (2), with the constants deter-\n\nmined by Step 1 above, is stable under the time step restriction µ ≤µ0. Please\n\nspecify which norm you are using for stability, and prove this stability result.\n\n1\n\n\n\n=== page 8 ===\n\n2"
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 3,
+  "body": "3. Consider the problem describing projectile motion on the surface of the Earth,\n\nwritten in physical variables as follows:\n\nd2y\n\ndt2 = −\n\nGM\n\n(R + y)2,\n\ny(0) = 3m,\n\ny′(0) = −V m/sec\n\nLet y(t) = L˜y(˜t) and t = T˜t. Consider two out of the following four cases:\n\n(a): R = O(1), V →∞, M = O(1): the fast projectile limit\n\n(b): R = O(1), V = O(1), M →∞: the dense Earth limit\n\n(c): R = O(1), V = O(1), M →0: the light Earth limit\n\n(d): R →0, V = O(1), M = O(1): the small Earth limit (two possible scalings,\n\ndetermine both)\n\nIn each case:\n\n• Choose your scalings for L, T to normalize as many terms as possible. Pick your\n\nscalings so that the time it takes for the projectile to fall to ˜y = 0 is ˜t = O(1).\n\n• Write the scaled (normalized) problem, identify all remaining dimensionless\n\nparameters.\n\n• Identify a limiting small parameter and the leading order problem.\n\nNote: DO NOT solve-out the problems, just write them!\n\nHint: If any scaled coefficients blow-up in the leading order problem, the scaling is\n\nnot good."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 4,
+  "body": "4. Let f be an arbitrary function in Cn(R). Given n distinct points x1, x2, · · · , xn ∈R\n\nand an extra point x0 ∈R, we want to approximate f ′(x0) using a linear combina-\n\ntion of the function values at x1, x2, · · · , xn, i.e. we want to compute the coefficients\n\nc1, c2, · · · , cn such that\n\nf ′(x0) ≈c1f(x1) + c2f(x2) + · · · + cnf(xn)\n\nin some sense.\n\n(a) Consider the undetermined coefficients method. You use Taylor expansion to\n\nexpand each f(xi), i = 1, 2, · · · , n about the point x0,\n\nf(xi) =\n\nn−1\n\nX\n\nk=0\n\n1\n\nk!f (k)(x0)(xi −x0)k + 1\n\nn!f (n)(ξi)(xi −x0)n,\n\nξi ∈[x0, xi] or [xi, x0],\n\nand choose the coefficients so that the resulting approximation is as accurate\n\nas possible. This gives you the linear system\n\n1\n\nk!\n\nn\n\nX\n\ni=1\n\nci(xi −x0)k = δk,1,\n\nk = 0, 1, · · · , n −1,\n\nwhere δk,1 = 1 if k = 1; otherwise δk,1 = 0. Explain why this linear system\n\nis nonsingular. Then use this method to solve the case when n = 3, x1 = x0,\n\nx2 = x0 + h, x3 = x0 + 2h for some constant h.\n\n\n\n=== page 9 ===\n\n3\n\n(b) You can also make use of interpolation method. Consider the n-point interpo-\n\nlating polynomial\n\np(x) =\n\nn\n\nX\n\ni=1\n\n³\n\nn\n\nY\n\nj=1,j̸=i\n\nx −xj\n\nxi −xj\n\n´\n\nf(xi),\n\nand the approximation is given by\n\nf ′(x0) ≈p′(x0).\n\nThis gives the coefficients as\n\nci =\n\n³\n\nn\n\nY\n\nj=1,j̸=i\n\nx −xj\n\nxi −xj\n\n´′¯¯¯\n\nx=x0.\n\nShow that the approximation of this method is exact if f is a polynomial of\n\ndegree no more than n −1.\n\n(c) Show that the two methods given in (a) and (b) are essentially the same, i.e.\n\nthe coefficients obtained in (a) and (b) are the same."
+ },
+ {
+  "file": "2017_2017_team",
+  "year": "2017",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 5,
+  "body": "5. Let\n\nA =\n\n\n\n\n\n2\n\n−1\n\n−1\n\n2\n\n−1\n\n...\n\n−1\n\n2\n\n−1\n\n−1\n\nγ\n\n\n\n\n\nFind A−1 explicitly. Show that all entries of A−1 are nonnegative if and only if γ ≥1."
+ },
+ {
+  "file": "2017_algebra2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 1,
+  "body": "Problem 1 (20 points). Let Qp denote the field of p-adic numbers and let Zp denote\n\nthe ring of p-adic integers (p is a prime number).\n\n(a) (5 points) Show that for every integer k ≥0, (p−kZp)/Zp ∼= Z/pkZ as abelian\n\ngroups.\n\n(b) (5 points) Determine the endomorphism ring of the abelian group (p−kZp)/Zp\n\n(k ≥0).\n\n(c) (5 points) Determine the endomorphism ring of the abelian group Qp/Zp.\n\n(d) (5 points) Determine the endomorphism ring of the abelian group Q/Z."
+ },
+ {
+  "file": "2017_algebra2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 2,
+  "body": "Problem 2 (20 points). Let A be a finite abelian group and let φ : A →A be an\n\nendomorphism. Put\n\nAnil := {x ∈A | φk(x) = 0 for some k ≥1}.\n\n(a) (15 points) Show that there is a subgroup A0 of A such that φ restricts to an\n\nautomorphism of A0 and A = A0 ⊕Anil.\n\n(b) (5 points) Show that such a subgroup is unique."
+ },
+ {
+  "file": "2017_algebra2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 3,
+  "body": "Problem 3 (20 points). Let L/F be a Galois field extension, not necessarily finite.\n\nLet x ∈L.\n\n(a) (6 points) Show that the set P of subextensions of L/F not containing x has\n\na maximal element E. Let K/E be a nontrivial finite extension contained in\n\nL. Show that x ∈K.\n\n(b) (6 points) Let K′ be the Galois closure of K/E in L. Show that there exists\n\ng ∈G = Gal(K′/E) such that gx ̸= x.\n\n(c) (8 points) Deduce that K/E is a cyclic Galois extension.\n\nPage 1 of 2\n\n\n\n=== page 2 ==="
+ },
+ {
+  "file": "2017_algebra2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 4,
+  "body": "Problem 4 (20 points). The goal of this problem is to prove the Chevalley–Warning\n\ntheorem. Let p be a prime number and q a power of p.\n\n(a) (8 points) Let 0 ≤a < q −1 be an integer. Show that S(Xa) := P\n\nx∈Fq xa\n\nequals 0. Here we adopt the convention x0 = 1 in Fq even for x = 0.\n\n(b) (12 points) Let f1, . . . , fm ∈Fq[X1, . . . , Xn] be polynomials in n variables\n\nsatisfying\n\nm\n\nX\n\ni=1\n\ndeg(fi) < n.\n\nShow that P = Qm\n\ni=1(1 −f q−1\n\ni\n\n) satisfies\n\nS(P) :=\n\nX\n\n(x1,...,xn)∈Fnq\n\nP(x1, . . . , xn) = 0.\n\nDeduce that p divides the cardinality of the set\n\nV = {(x1, . . . , xn) ∈Fn\n\nq | fi(x1, . . . , xn) = 0\n\n∀i}."
+ },
+ {
+  "file": "2017_algebra2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 5,
+  "body": "Problem 5 (20 points). In this problem, all matrices are n×n with complex entries.\n\nLet U and V be matrices such that UV ̸= V U. Assume that U is diagonalizable\n\nand commutes with V UV −1.\n\n(a) (10 points) For λ, µ ∈C, let\n\nEλ,µ = {x ∈Cn | Ux = λx,\n\nV UV −1x = µx}.\n\nShow that there exist couples (λ1, µ1) ̸= (λ2, µ2), satisfying λi ̸= µi and\n\nEλi,µi ̸= 0 for i = 1, 2.\n\n(b) (10 points) For a matrix A, we define N(A) := tr(A∗A), where A∗= ¯AT is\n\nthe conjugate transpose of A. Assume that U and V are unitary (namely,\n\nU ∗U = V ∗V is the identity matrix). Deduce that N(1 + V ) ≥4.\n\nPage 2 of 2"
+ },
+ {
+  "file": "2017_analysis2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 1,
+  "body": "1. Suppose f is integrable on [−π, π], prove that Σ∞\n\nn=−∞anr|n|einx tends to f(x) for a.e.\n\nx, as r →1, r < 1. Here an =\n\n1\n\n2π\n\nR π\n\n−π f(x)e−inxdx."
+ },
+ {
+  "file": "2017_analysis2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 2,
+  "body": "2. Let H be a Hilbert space equipped with an inner product (.,.) and a norm ||.|| =\n\n(., .)\n\n1\n\n2. A sequence {fk} is converge to f ∈H if ||fk −f|| →0. A sequence {fk} ⊂H\n\nis said converge weakly to f ∈H if (fk, g) →(f, g) for any g ∈H. Prove the following\n\nstatements:\n\na) {fk} converges to f if and only if ||fk|| →||f|| and {fk} converges weakly to f.\n\nb) If H is a finite dimensional Hilbert space, then the weak convergence implies con-\n\nvergence. Give a counter example to show that weak convergence does not necessarily\n\nimply convergence in an infinite dimensional Hilbert space."
+ },
+ {
+  "file": "2017_analysis2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 3,
+  "body": "3. Let f : C/{0} →C be a holomorphic function and\n\n|f(z)| ≤|z|2 +\n\n1\n\n|z|1/2,\n\nfor z near 0. Determine all such functions."
+ },
+ {
+  "file": "2017_analysis2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 4,
+  "body": "4. Find a conformal mapping which maps the region {z||z −i| <\n\n√\n\n2, |z + i| <\n\n√\n\n2}\n\nonto the unit disk."
+ },
+ {
+  "file": "2017_analysis2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 5,
+  "body": "5. If E is a compact set in a region Ω, prove that there exists a constant M > 0,\n\ndepending only on E and Ω, such that every positive harmonic function u(z) in Ω\n\nsatisfies u(z2) ≤Mu(z1) for any two points z1, z2 ∈E."
+ },
+ {
+  "file": "2017_analysis2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 6,
+  "body": "6. 1) For any bounded domain Ω⊂Rn, there exists a smallest constant C(Ω), such\n\nthat\n\nZ\n\nΩ\n\n|u|2dx ≤C(Ω)\n\nZ\n\nΩ\n\nΣn\n\ni=1| ∂u\n\n∂xi\n\n|2dx\n\nfor every function u ∈H1\n\n0(Ω) = C∞\n\n0 (Ω) ⊂H1(Ω), where C∞\n\n0 (Ω) is the space of\n\nsmooth functions over Ωand vanishing on boundary of Ωand H1(Ω) is the Banach\n\nspace of functions u ∈L2(Ω), ∇u ∈L2(Ω)⊗n with the norm:\n\n||u||2\n\nH1(Ω) = ||u||2\n\nL2(Ω) + ||∇u||2\n\nL2(Ω)⊗n\n\n=\n\nZ\n\nΩ\n\n(|u|2 + Σn\n\ni=1| ∂u\n\n∂xi\n\n|2)dx.\n\nH1\n\n0(Ω) is the completion of C∞(Ω) in H1(Ω) with the above norm.\n\n2) Let Π = {(x, y)|0 < x < a, 0 < y < b}, show that C(Π) ≥\n\na2b2\n\nπ2(a2+b2).\n\n1"
+ },
+ {
+  "file": "2017_applied2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 1,
+  "body": "1. The Chebyshev polynomial of the first kind is defined on [−1, 1] by\n\nTn(x) = cos(n arccos x).\n\nProve: The envelope for the extremals of Tn+1(x) −Tn−1(x) forms an ellipse."
+ },
+ {
+  "file": "2017_applied2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 2,
+  "body": "2. Consider a fixed point iteration\n\nxn = g(xn−1),\n\nwhere g : R →R is a smooth function. Suppose this fixed point method does converge\n\nto a fixed point x∗. The Steffensen algorithm is an acceleration method to find x∗\n\nwhich reads\n\nˆxn = xn−2 −\n\n(xn−1 −xn−2)2\n\nxn −2xn−1 + xn−2\n\n.\n\nor\n\nxn+1 = G(xn)\n\nwhere\n\nG(x) = x −\n\n(g(x) −x)2\n\ng(g(x)) −2g(x) + x.\n\n(a) Show that the Steffensen algorithm {xk} converges quadratically.\n\n(b) Can you extend this method to two dimensions?"
+ },
+ {
+  "file": "2017_applied2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 3,
+  "body": "3. We consider a piecewise smooth function\n\nf(x) =\n\n½\n\nf1(x),\n\nx ≤0,\n\nf2(x),\n\nx > 0\n\nwhere f1(x) is a C∞function on (−∞, 0] and f2(x) is a C∞function on [0, ∞), but\n\nf1(0) ̸= f2(0). Suppose p(x) is a k-th degree polynomial (k ≥1) interpolating f(x) at\n\nk + 1 equally-spaced grid points xj, j = 0, 1, 2, · · · , k with xi < 0 < xi+1 for some i\n\nbetween 0 and k −1. Prove that, when the grid size h = xj+1 −xj is small enough,\n\np′(x) ̸= 0 for xi ≤0 ≤xi+1, that is, p(x) is monotone in the interval [xi, xi+1]. (Hint:\n\nfirst prove the case when f1(x) = c1, f2(x) = c2 and c1 ̸= c2 are two constants.)\n\n1\n\n\n\n=== page 2 ===\n\n2"
+ },
+ {
+  "file": "2017_applied2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 4,
+  "body": "4. Let b ∈Rn. Suppose A ∈Mn×n(R) and B ∈Mn×n(R) are two n × n matrices. Let\n\nA to be non-singular.\n\n(a) Consider the iterative scheme: Axk+1 = b −Bxk.\n\nState and prove the necessary and sufficient condition for the iterative scheme to\n\nconverge.\n\n(b) Suppose the spectral radius of A−1B satisfies ρ(A−1B) = 0. Prove that the iterative\n\nscheme converges in n iterations.\n\n(c) Consider the following iterative scheme:\n\nx(k+1) = ω1x(k) + ω2(c1 −Mx(k)) + ω3(c2 −Mx(k)) + ... + ωk(ck−1 −Mx(k))\n\nwhere M is symmetric and positive definite, ω1 > 1, ω2, ..., ωk > 0 and c1, ..., ck−1 ∈\n\nRn. Deduce from (a) that the iterative scheme converges if and only if all eigen-\n\nvalues of M (denote it as λ(M)) satisfies:\n\n(ω1 −1)/(\n\nk\n\nX\n\ni=2\n\nωi) < λ(M) < (ω1 + 1)/(\n\nk\n\nX\n\ni=2\n\nωi).\n\n(d) Let A be non-singular. Now, consider the following system of iterative scheme (*):\n\nAx(k+1)\n\n1\n\n= b1 −Bx(k)\n\n2 ,\n\nAx(k+1)\n\n2\n\n= b2 −Bx(k)\n\n1\n\nFind and prove the necessary and sufficient condition for the iterative scheme (*)\n\nto converge.\n\nFor the iterative scheme (**):\n\nAx(k+1)\n\n1\n\n= b1 −Bx(k)\n\n2 ,\n\nAx(k+1)\n\n2\n\n= b2 −Bx(k+1)\n\n1\n\nFind and prove the necessary and sufficient condition for the iterative scheme (**)\n\nto converge. Compare the rate of convergence of the iterative schemes (*) and (**)."
+ },
+ {
+  "file": "2017_applied2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 5,
+  "body": "5. Consider the differential equation\n\n−u′′ + αu = f, x ∈(0, 1).\n\nHere, prime denotes for d/dx and α is a constant. We consider a mixed boundary\n\ncondition\n\nu(0) = 0, u′(1) −bu(0) = 0.\n\nThis equation is approximated by a standard finite difference method:\n\n−Uj−1 + 2Uj −Uj+1\n\nh2\n\n+ αUj = fj, j = 1, ..., N −1.\n\nHere, N is the number of grid points, h = 1/N is the mesh size, Uj is the approximate\n\nsolution at xj := jh, and fj = f(xj). The noundary condition is approximated by\n\nU0 = 0, UN −UN−1\n\nh\n\n−bUN = 0.\n\n\n\n=== page 3 ===\n\n3\n\nThe resulting linear system is AU = F with\n\n\n\n\n\nβ\n\n−1\n\n0\n\n· · ·\n\n−1\n\nβ\n\n−1\n\n· · ·\n\n...\n\n−1\n\nβ\n\n−1\n\n0\n\n−1\n\n1 −bh\n\n\n\n\n\n\n\n\n\nU1\n\nU2...\n\nUN−1\n\nUN\n\n\n\n\n\n=\n\n\n\n\n\nh2f1\n\nh2f2\n\n...\n\nh2fN−1\n\n0\n\n\n\n\n\nwhere β = 2 + αh2.\n\nut + aux = 0, a > 0.\n\nWe discretize this PDE by For solving the following partial differential equation\n\n(1)\n\nut + f(u)x = 0,\n\n0 ≤x ≤1\n\nwhere f ′(u) ≥0, with periodic boundary condition, we can use the following semi-\n\ndiscrete upwind scheme\n\n(2)\n\nd\n\ndtuj + f(uj) −f(uj−1)\n\n∆x\n\n= 0,\n\nj = 1, 2, · · · , N,\n\nwith periodic boundary condition\n\n(3)\n\nu0 = uN,\n\nwhere uj = uj(t) approximates u(xj, t) at the grid point x = xj = j∆x, with ∆x = 1\n\nN .\n\n(a) Prove the following L2 stability of the scheme\n\n(4)\n\nd\n\ndtE(t) ≤0\n\nwhere E(t) = PN\n\nj=1 |uj|2∆x.\n\n(b) Do you believe (4) is true for E(t) = PN\n\nj=1 |uj|2p∆x for arbitrary integer p ≥1?\n\nIf yes, prove the result. If not, give a counterexample."
+ },
+ {
+  "file": "2017_geometry2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 1,
+  "body": "1. Let M be a smooth, compact, oriented n-dimensional manifold. Suppose that the\n\nEuler characteristic of M is zero. Show that M admits a nowhere vanishing vector\n\nfield."
+ },
+ {
+  "file": "2017_geometry2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 2,
+  "body": "2. Let S2\n\nq1\n\n←−S2 ∨S2\n\nq2\n\n−→S2 be the maps that crush out one of the two summands. Let\n\nf : S2 →S2 ∨S2 be a map such that qi ◦f : S2 →S2 is a map of degree di. Compute\n\nthe integral homology groups of (S2 ∨S2) ∪f D3. Here D3 is the unit solid ball with\n\nboundary S2."
+ },
+ {
+  "file": "2017_geometry2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 3,
+  "body": "3. Let X and Y be smooth vector fields on a smooth manifold. Prove that the Lie\n\nderivative satisfies the identity\n\nLXY = [X, Y ]."
+ },
+ {
+  "file": "2017_geometry2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 4,
+  "body": "4. State and prove the Liouville formula for the geodesic curvature κg along a regular\n\ncurve on a smooth surface in R3."
+ },
+ {
+  "file": "2017_geometry2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 5,
+  "body": "5. On a Riemannian manifold, let F be the set of smooth functions f on M with\n\n|gradf| ≤1. For any x, y in the manifold, show that\n\nd(x, y) = sup{|f(x) −f(y)| : f ∈F}."
+ },
+ {
+  "file": "2017_geometry2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 6,
+  "body": "6. Let M be an n-dimensional oriented closed minimal submanifold in an (n + p)-\n\ndimensional unit sphere Sn+p. Denote by KM the sectional curvature of M. Prove\n\nthat if KM > p −1\n\n2p −1 , then M is the great sphere Sn.\n\n1"
+ },
+ {
+  "file": "2017_probability2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 1,
+  "body": "Problem 1. A box contains 750 red balls and 250 blue balls. Repeatedly pick a ball\n\nuniformly at random from the box and remove it until all remaining balls have a single\n\ncolor. (Note: no replacement).\n\nPlease find integer m such that the expectation value for the total number of the\n\nremaining balls ∈[m, m + 1]"
+ },
+ {
+  "file": "2017_probability2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 2,
+  "body": "Problem 2. Suppose a number X0 ∈{1, −1} at the root of a binary tree\n\nis propagated away from the root as follows. The root is the node at level 0. After\n\nobtaining the 2h numbers at the nodes at level h, each number at level h+1 is obtained\n\nfrom the number adjacent to it (at level h) by flipping its sign with probability p ∈\n\n(0, 1/2) independently.\n\nLet Xh be the average of the 2h values received at the nodes at level h. Define the\n\nsignal-to-noise ratio at level h to be\n\nRh :=\n\nE[Xh | X0 = 1] −E[Xh | X0 = −1]\n\n\u00012\n\nV ar[Xh|X0 = 1]\n\n.\n\nFind the threshold number pc such that Rh converges to 0 if p ∈(pc , 1/2) and diverges\n\nif p ∈(0, pc), as h →∞."
+ },
+ {
+  "file": "2017_probability2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 3,
+  "body": "Problem 3. Consider the space representing an infinite sequence of coin flips, namely\n\nΩ:= {H, T}∞, (H: head, T: tail) with the associated σ-field F generated by finite\n\ndimensional rectangles. For 0 ≤p ≤1, denote by Pp the probability measure on (Ω, F)\n\ncorresponding to flipping a coin an infinite number of times with probability of H being\n\np and probability of T being q = 1 −p at each flip.\n\nShow that for each p ∈[0, 1], there exists Ap such that\n\nPp(Ap) > 1/2\n\n1\n\n\n\n=== page 2 ===\n\nand for any p′ ̸= p, p′ ∈[0, 1]\n\nPp′(Ap) < 1/2"
+ },
+ {
+  "file": "2017_probability2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 4,
+  "body": "Problem 4. Let G := G(n, p) be a random graph with n vertices where each possible\n\nedge has probability p of existing. The existence of the edges are independent to each\n\nother. With G, we say A ⊂{1, 2, · · · , n} is a fully connected set if and only if\n\ni, j ∈A =⇒i −th and j −th vertices are (directly) connected with an edge in G\n\nDefine T as the size of the largest fully connected set\n\nT := max{|A| : A is a fully connected set}\n\nLet's fix p ∈(0, 1), please prove that\n\nlim\n\nn→∞P\n\n \n\nT\n\n2 log 1\n\np n ≤1 + ϵ\n\n!\n\n= 1,\n\n∀ϵ > 0,\n\nand\n\nlim\n\nn→∞P\n\n\n\n\n\nT\n\nq\n\n2 log 1\n\np n\n\n≥1 −ϵ\n\n\n\n= 1,\n\n∀ϵ > 0,\n\nHint:\n\nP (T = n) = p(n\n\n2) = pn(n−1)/2"
+ },
+ {
+  "file": "2017_probability2017_individual",
+  "year": "2017",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 5,
+  "body": "Problem 5. Consider a population of constant size N + 1 that is suffering from an\n\ninfectious disease. We can model that spread of the disease as Markov process. Let\n\nX(t) be the number of healthy individuals at time t and suppose that X(0) = N. We\n\nassume that if X(t)\n\nlim\n\nh→0\n\n1\n\nhP (X(t + h) = n −1|X(t) = n)) = λn (N + 1 −n)\n\nFor 0 ≤s ≤1, 0 ≤t, define\n\nG(s, t) := E(sX(t))\n\nPlease find a non-trivial partial differential equation for G(s, t), which involves ∂tG.\n\n2"
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 1,
+  "body": "1. Suppose {fn}∞\n\nn=1 ∈L2(R) is a sequence that converges to 0 in the L2 norm .\n\nProve that there exists a subsequence {fnk} such that fnk →0 almost everywhere."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 2,
+  "body": "2. Let ˆf(ξ) =\n\nR\n\ne−ixξf(x)dx be the Fourier transform on Schwartz function f ∈S(R).\n\nSuppose f ∈S(R) satisfies f(2πn) = 0 and ˆf(n) = 0 for all integers n. Prove that\n\nf = 0."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 3,
+  "body": "3. If f is integrable on Rd, then\n\nlim\n\nm(B)→0,x∈B\n\n1\n\nm(B)\n\nZ\n\nB\n\nf(y)dy = f(x),\n\nfor a.e. x, B is an open ball centered at x."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 4,
+  "body": "4. Let C[0, 1] = {f : [0, 1] →R| f is continuous} be the space of continuous function\n\non [0, 1]. Let ρ(f, g) =\n\nR 1\n\n0 |f(x) −g(x)|dx be a metric on [0, 1].\n\nShow that (C[0, 1], ρ) is not a complete metric vector space.\n\nConstruct a complete metric vector space (W, eρ) such that i : (C[0, 1], ρ) ,→(W, eρ)\n\nis an isometric embedding such that eρ|C[0,1] = ρ, C[0, 1] = W."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Analysis",
+  "num": 5,
+  "body": "5. Let Ωbe a simply connected domain in C. Consider a point z0 ∈Ωand solve the\n\nDirichlet problem in Ωwith the boundary values log |ζ−z0|. The solution is denoted by\n\nG(z, z0) and let g(z, z0) = G(z, z0) −log |z −z0|. Let w = f(z) : Ω→D1 = {z||z| < 1}\n\nbe the one to one surjective conformal mapping with f(z0) = 0. Show that\n\n1) g(z, z0) = −log |f(z)|.\n\n2) g(z, z0) = g(z0, z). (Hint: Let g(z, z1) = g1, g(z, z2) = g2, calculate the integral\n\ng1 ∗dg2 −g2 ∗dg1 over the cycle ∂Ω−c1 −c2, where c1, c2 are small circles around\n\nz1, z2, du = uxdx + uydy, ∗du = −uydx + uxdy.)\n\n1\n\n\n\n=== page 2 ==="
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 1,
+  "body": "Problem 1. Let Xi, 1 ≤i ≤N be i.i.d. random variables. Here X1 is uniformly\n\ndistributed on [0, 1]. We reorder them as\n\ne\n\nX1 ≤e\n\nX2 ≤· · · e\n\nXN\n\na) Let N = 2m −1, and Y = e\n\nXm, please find the A and B such that\n\nY −A\n\nN B\n\nhas nontrivial distribution, and please find this distribution.\n\nb) Let N = 2m, and Y = e\n\nXm −e\n\nXm−1, please find the A and B such that\n\nY −A\n\nN B\n\nhas nontrivial distribution, and please find this distribution."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 2,
+  "body": "Problem 2. Let X = (Z2)N, i.e., X = (X1, X2 · · · , XN · · · ), Xi ∈(0, 1). It can be\n\nconsidered as countable lightbulbs. 0 means off, 1 means on. We start with X0 =\n\n0. Keep generating independent geometric random variables, whose distribution are\n\ngeom(1/2). Denote them as K1, K2 · · · . Now let Xm (for m ≥1) be as follows\n\n(Xm −Xm−1)k = 1(k = Km),\n\nZ2\n\ni.e, in the m −th turn, we only change the status of the Km−th light bulb. Then what\n\nis the probability of all lights being offagain, i.e.,\n\nP (∃m > 1,\n\nXm = 0)"
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 3,
+  "body": "Problem 3. Let x1, x2, . . . , xn be d-dimensional vectors of real numbers with n suffi-\n\nciently large but the exact value is not of importance.\n\nA function of µ is defined to be\n\nℓ(µ) = sup{\n\nn\n\nX\n\ni=1\n\nlog pi :\n\nn\n\nX\n\ni=1\n\npixi = µ;\n\nn\n\nX\n\ni=1\n\npi = 1, p1 > 0, . . . , pn > 0}\n\non the space of the interior of the convex hull of x1, . . . , xn.\n\n(a) Show that this is a concave function of µ on the convex hull.\n\n(b) Let ¯x = n−1 Pn\n\ni=1 xi. Let a be a vector of length d. Prove that ℓ(¯x + ta) is a\n\ndecreasing function of t when t > 0.\n\n1\n\n\n\n=== page 3 ==="
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 4,
+  "body": "Problem 4. Consider the histogram estimator, defined as follows. We observe iid\n\nrandom variables X1, . . . , Xn, taking values in [0, 1] according to the distribution with\n\nPDF f (assuming it is sufficiently smooth). Define bins\n\nB1 =\n\n·\n\n0, 1\n\nm\n\n¶\n\n, B2 =\n\n· 1\n\nm, 2\n\nm\n\n¶\n\n, . . . , Bm =\n\n·m −1\n\nm\n\n, 1\n\n¸\n\nLet h = 1/m, vj be the number of observations in bin Bj, and define ˆpj = vj/n and\n\npj =\n\nR\n\nBj f(u)du. Then the histogram estimator of the density f is\n\nˆfn(x) =\n\nm\n\nX\n\nj=1\n\nˆpj\n\nh I{x ∈Bj}\n\n1. Find the (exact) mean and variance of ˆfn(x).\n\n2. Explain why increasing the number of bins decreases the bias of ˆfn(x).\n\n3. If our goal is to minimize the mean-squared error\n\nMSE = E\n\n·Z\n\n(f(x) −ˆfn(x))2dx\n\n¸\n\n,\n\nplease give some advice on how to choose m."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Probability",
+  "num": 5,
+  "body": "Problem 5. Let Xi ∼N(θi, 1) independently for i = 1, . . . , k. We are interested in\n\nestimating τ = θ2\n\n1 + · · · + θ2\n\nk given observations X1, . . . , Xk.\n\n1. A possible estimator of τ is ˜τ = Pk\n\ni=1 X2\n\ni −k. Show that it is unbiased and\n\ncompute its sampling variance.\n\n2. Now assume the proper prior θi ∼N(0, A), independently for i = 1, . . . , k and\n\na given A > 0. Since A is unknown, please provide an estimator ˆA of A and\n\nalso derive the empirical Bayes estimator of τ, denoted as ˆτB. (Hint: ˆτB = E(τ |\n\nX1, . . . , Xk, ˆA)).\n\n3. How do you compare the two estimators, ˜τ and ˆτB?\n\n2\n\n\n\n=== page 4 ==="
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 1,
+  "body": "1. Let X be (S2 × S2) ∪S2 D3, where we attach the 3-disk via the map\n\nS2 →S2 ∨S2\n\nwhich crushes a great circle connecting the north and south poles. Compute the ho-\n\nmology groups of X."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 2,
+  "body": "2. (a) Let A be a single circle in R3. Compute the fundamental group π1(R3 −A).\n\n(b) Let A and B be disjoint circles in R3, supported in the upper and lower half\n\nspace, respectively. Compute π1(R3 −(A ∪B))."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 3,
+  "body": "3. Consider the differential 1-form ω = xdy −ydx+dz in R3 with coordinates (x, y, z).\n\nProve that fω is not closed for any nowhere zero function f : R3 →R."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 4,
+  "body": "4. Show that\n\nQn := {(x1, · · · , xn+1) ∈Rn+1;\n\nn+1\n\nX\n\ni=1\n\n(xi)4 = 1}\n\nis a differentiable manifold."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 5,
+  "body": "5. Let M be a closed surface in R3. Prove that\n\nZ\n\nM\n\n|K|dσ ≥4π(1 + g),\n\nwhere K, g and dσ is the Gaussian curvature, the genus and the area element of M,\n\nrespectively."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Geometry",
+  "num": 6,
+  "body": "6. Let M be an n-dimensional compact and simply connnected Riemannian manifold.\n\nIf the sectional curvature KM of M satisfies\n\n1\n\n4 < KM ≤1,\n\nthen M is homeomorphic to Sn.\n\n1\n\n\n\n=== page 5 ==="
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 1,
+  "body": "Problem 1 (20 points). Recall that a ring E is said to be local if for every u ∈E,\n\nat least one of the elements u and 1 −u is invertible. Let R be a ring and let M be\n\nan R-module.\n\n(a) (8 points) Show that if EndR(M) is a local ring, then M is indecomposable.\n\n(b) (12 points) Assume M indecomposable and of finite length. Prove the Fitting\n\nlemma: Every endomorphism u of M is either invertible or nilpotent. Deduce\n\nthat EndR(M) is a local ring."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 2,
+  "body": "Problem 2 (20 points).\n\n(a) (6 points) Let n ≥2 be an integer. Show that there exists an integer m with\n\n1 ≤m ≤n −1 such that the binomial coefficient\n\n\u0010n\n\nm\n\n\u0011\n\nsatisfies\n\n\u0010n\n\nm\n\n\u0011\n\n≥2n/n.\n\n(b) (6 points) Let 0 ≤m ≤n be integers with n ≥1. Show that for every prime\n\nnumber p,\n\nvp\n\n  n\n\nm\n\n!!\n\n≤logp(n)\n\nHere vp is the p-adic valuation: vp(pab) = a for integers b prime to p and a ≥0.\n\n(c) (8 points) Let n ≥2 be an integer and let π(n) denote the number of prime\n\nnumbers p ≤n. Deduce the following inequality of Chebyshev:\n\nπ(n) ≥\n\nn\n\nlog2 n −1."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 3,
+  "body": "Problem 3 (20 points). Let n ≥1 be an integer and let Φn(X) ∈Q[X] denote the\n\nn-th cyclotomic polynomial, i.e.\n\nΦn(X) :=\n\nY\n\nξ\n\n(X −ξ),\n\nwhere ξ runs through primitive n-th roots of unity in C. Recall that Xn −1 =\n\nQ\n\nd|n Φd(X) and Φn(X) belongs to Z[X]. Let p be a prime number such that p ∤n.\n\nDenote by Φn the residue class of Φn in Fp[X]. Prove the following statements:\n\n(a) (8 points) The roots of Φn = 0 in the algebraic closure Fp of Fp are exactly\n\nthe primitive n-th roots of 1 in Fp.\n\n(b) (12 points) Φn is irreducible in Fp[X] if and only if (Z/nZ)× is a cyclic group\n\ngenerated by the class of p.\n\nPage 1 of 2\n\n\n\n=== page 6 ==="
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 4,
+  "body": "Problem 4 (20 points). Let G be a finite group. Let V be a finite-dimensional\n\ncomplex representation of G and let χ: V →C be the associated character.\n\n(a) (8 points) Show that there exists a subfield L ⊆C containing the image of χ\n\nsuch that L/Q is a finite Galois extension. Show moreover that\n\nB(χ) =\n\nY\n\nσ∈Gal(L/Q)\n\nY\n\ng∈G\n\nσ(χ(g))\n\nbelongs to Z.\n\n(b) (12 points) Suppose that χ is irreducible and dim(V ) ≥2. Show that there\n\nexists g ∈G with χ(g) = 0. (Hint. One may apply the inequality of arithmetic\n\nand geometric means to |B(χ)|2.)"
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Algebra",
+  "num": 5,
+  "body": "Problem 5 (20 points). Let F be a field, V an F-vector space of dimension d and\n\nW ⊆V a subspace. Let f : W →V be an F-linear map. Assume that the only\n\nsubspace W ′ ⊆W such that f(W ′) ⊆W ′ is {0}.\n\n(a) (6 points) Let v ∈V be a non-zero vector. Show that there exists a unique\n\ninteger k(v) ≥0 such that v, f(v), f 2(v), . . . , f k(v)−1(v) ∈W but f k(v)(v) /∈W.\n\nShow moreover that v, f(v), . . . , f k(v)(v) are linearly independent over F.\n\n(b) (14 points) Prove that given λ1, . . . , λd ∈F, there exists an F-linear extension\n\nof f to ˜f : V →V such that the characteristic polynomial of ˜f is\n\nQd\n\ni=1(λ−λi).\n\n(Hint. You may first treat the special case V =\n\nLk(v)\n\ni=0 Ff i(v). For the general\n\ncase, consider the subset Wn ⊆V of vectors v ∈V with k(v) ≥n or v = 0.)\n\nPage 2 of 2\n\n\n\n=== page 7 ==="
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 1,
+  "body": "1. Let H be a bipartite graph with the bipartition V = V1 ∪V2, where |V1| = |V2| = n.\n\nWe say that H satisfies the (p, q)-condition if (i) for all subsets I ⊆V1 of cardinality at\n\nmost p, the inequality |I| ≤|N(I)| holds, and (ii) for all subsets J ⊆V2 of cardinality\n\nat most q, the inequality |J| ≤|N(J)| holds. Note that the (n, 0)-condition is Hall's\n\noriginal condition in his marriage theorem.\n\nProve that if H satisfies the (p, q)-condition with n ≤p + q, then H contains a\n\nmatching of size n."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 2,
+  "body": "2. Let Cn be the n dimensional hypercube, i.e., the graph whose vertex set V is {0, 1}n,\n\nand whose edges are defined by: two vertices u = u1u2 . . . un and v = v1v2 . . . vn are\n\nadjacent iffui ̸= vi for exactly one i ∈[n]. Let R[V ] be the vector space of all the\n\nfunctions f : V →R. The space R[V ] has a natural inner product. For f, g ∈R[V ],\n\n< f, g >=\n\nX\n\nu∈{0,1}n\n\nf(u)g(u).\n\nThe standard basis of R[V ] is the set {fu : u ∈{0, 1}n} where fu(v) = δu,v, the\n\nKronecker delta, for u, v ∈{0, 1}n. Denote by B1 the standard basis.\n\n(1) For any two vertices u, v ∈{0, 1}n, u · v is defined to be P\n\ni uivi. For each\n\nu ∈{0, 1}n, define a function χu ∈R[V ] by letting\n\nχu(v) = (−1)u·v.\n\nProve that the set {χu : u ∈{0, 1}n} is orthogonal with respect to the inner\n\nproduct of R[V ], i.e.,\n\n< χu, χv >= δu,v2n,\n\nfor all u, v ∈{0, 1}n.\n\n(2) Prove that the set {χu : u ∈{0, 1}n} forms a basis of the vector space R[V ].\n\nDenoted by B2 this basis.\n\n(3) For 1 ≤i ≤n, let ei = (0, . . . , 0, 1, 0, . . . , 0) ∈{0, 1}n where the only 1 occurs\n\nin position i. Let S = {e1, e2, . . . , en}.\n\nDefine a linear transformation Φ : R[V ] →R[V ] as follows. For f ∈R[V ],\n\nΦf is the element in R[V ] which is given by\n\n(Φf)(v) =\n\nX\n\nei∈S\n\nf(v + ei)\n\nwhere v + ei is the usual vector addition modulo 2.\n\nProve that the matrix of Φ with respect to the standard basis B1 is just\n\nA(Cn), the adjacency matrix of the hypercube Cn.\n\n1\n\n\n\n=== page 8 ===\n\n2\n\n(4) Prove that Φχu = λuχu for each u ∈{0, 1}n, where\n\nλu =\n\nX\n\ne∈S\n\n(−1)u·e = n −2|u|,\n\nwhere |u| is the number of 1's in u = u1u2 . . . un.\n\n(5) Compute the eigenvalues of the matrix A(Cn)."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 3,
+  "body": "3. Let A ∈Rn×n, and assume that there are unitary matrix Q and diagonal matrix\n\nD = diag(λ1, · · · , λn) such that A = QDQ∗. Let Ek be the space spanned by the first\n\nk columns of Q. We let\n\nbP =\n\nµ\n\nIk\n\n0\n\n¶\n\n,\n\nP = Q bPQ∗\n\nwhere Ik is the k × k identity matrix.\n\n(1) Show that P is an orthogonal projection onto Ek.\n\n(2) Assume that\n\n|λ1| ≥· · · ≥|λk| > |λk+1| ≥· · · ≥|λn|.\n\nLet X(0) ∈Rn×k and assume PX(0) is injective. We define the iterations\n\nX(m+1) = AX(m).\n\nShow that there is a matrix Λ ∈Rk×k such that\n\n∥(AX(m) −X(m)Λ)y∥\n\n∥PX(m)y∥\n\n≤\n\n³|λk+1|\n\n|λk|\n\n´m∥(AX(0) −X(0)Λ)y∥\n\n∥PX(0)y∥\n\n,\n\n∀y ∈Rk\\{0}."
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 4,
+  "body": "4. For the one-way equation\n\n(1)\n\nut + aux = f,\n\nconsider the multistep scheme given by\n\n(2)\n\n3un+1\n\nm\n\n−4un\n\nm + un−1\n\nm\n\n2k\n\n+ aun+1\n\nm+1 −un+1\n\nm−1\n\n2h\n\n= f n+1\n\nm\n\n.\n\n(1) Show that the scheme is second order accurate.\n\n(2) Show that the scheme is unconditionally stable.\n\n(Hint: (i) apply von Neumann analysis to the scheme with f ≡0 and find\n\nthe characteristic polynomial.\n\n(ii) show that for all k, h, the characteristic\n\npolynomial satisfies the root condition: all roots reside in the unit disk, and\n\nall roots on the unit circle are simple. (iii) for a root r of the characteristic\n\npolynomial, it would be more convenient to study the form 1\n\nr = X + iY and\n\nprove that X2 + Y 2 ≥1.)\n\n\n\n=== page 9 ===\n\n3"
+ },
+ {
+  "file": "2018_2018_team",
+  "year": "2018",
+  "kind": "Team",
+  "subject": "Applied",
+  "num": 5,
+  "body": "5. For a convex function f : D →R, where D ⊆Rn is convex and open, define a\n\nsubgradient of f at x0 ∈D to be any vector s ∈Rn such that\n\nf(x) −f(x0) ≥s · (x −x0)\n\nfor all x ∈D. The subgradient is a plausible choice for generalizing the notion of a\n\ngradient at a point where f is not differentiable. The subdifferential ∂f(x0) is the set\n\nof all subgradients of f at x0.\n\n(1) What is ∂f(0) for the function f(x) = |x|.\n\n(2) Suppose we wish to minimize a convex and continuous function f : Rn →\n\nR, which may not differentiable everywhere. Propose an optimality condition\n\ninvolving subdifferential for a point x∗to be a minimizer of f. Show that your\n\ncondition holds if and only if x∗is a globally minimizer f.\n\n(3) The subgradient method extends the gradient descent to a wider class of func-\n\ntions. Analogously to the gradient descent, the subgradient method performs\n\nthe iteration\n\nxk+1 = xk −αgk,\n\nwhere α > 0 is small stepsize that is known as the learning rate, and gk is any\n\nsubgradient of f at xk. This method might not decrease f in each iteration, so\n\ninstead we keep track of the best iterate we have seen so far, xbest\n\nk\n\n.\n\nIn the following parts, assume that f is Lipschitz continuous with constant\n\nL > 0, ∥x1 −x∗∥2 ≤B for some B > 0. Under these assumptions we will show\n\nthat\n\n(3)\n\nlim\n\nk→∞f(xbest\n\nk\n\n) ≤f(x∗) + L2\n\n2 α,\n\na bound characterizing convergence of the subgradient method.\n\n(a) Derive an upper bound for the error ∥xk+1 −x∗∥2\n\n2 of xk+1 in terms of\n\n∥xk −x∗∥2\n\n2, gk, α, f(xk) and f(x∗).\n\n(b) By recursively applying the result from Problem 3a, provide an upper\n\nbound for ∥xk+1 −x∗∥2\n\n2.\n\n(c) Incorporate f(xbest\n\nk\n\n) into your upper bound in Problem 3b, and take a limit\n\nas k →∞to obtain the desired convergence result (3).\n\n(d) Suggest a best choice of the learning rate α."
+ },
+ {
+  "file": "2018_algebra2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 1,
+  "body": "Problem 1 (20 points).\n\n(a) (6 points) Show that if 2k −1 is a prime for some integer k ≥1, then k is a\n\nprime.\n\n(b) (6 points) Show that if 2k + 1 is a prime for some integer k ≥1, then k is a\n\npower of 2.\n\n(c) (8 points) Prove the following theorem of Goldbach: for integers i, j ≥0 with\n\ni ̸= j, the integers 22i + 1 and 22j + 1 are coprime."
+ },
+ {
+  "file": "2018_algebra2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 2,
+  "body": "Problem 2 (20 points). Let K = Q(\n\n3√\n\n5) and let L be the Galois closure of K.\n\n(a) (6 points) Prove that L has a unique subfield M satisfying [M : Q] = 2. Prove\n\nthat every prime number p ≡1 (mod 3) splits in M.\n\n(b) (6 points) Determine all prime numbers which are ramified in L.\n\n(c) (8 points) Let p ≥7 be a prime number. Let fp be the inertia degree of a prime\n\nideal of the ring of integers OL of L above p. Recall that 5 is called a cubic\n\nresidue mod p if x3 ≡5 (mod p) has a solution in Fp. Prove the following\n\ndecomposition law in L.\n\n(i) If p ≡1 (mod 3) and 5 is a cubic residue mod p, then p splits completely\n\nin L.\n\n(ii) If p ≡1 (mod 3) and 5 is not a cubic residue mod p, then fp = 3.\n\n(iii) If p ≡2 (mod 3), then 5 is a cubic residue and fp = 2."
+ },
+ {
+  "file": "2018_algebra2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 3,
+  "body": "Problem 3 (20 points). Prove that every group of order 99 is abelian.\n\nPage 1 of 2\n\n\n\n=== page 2 ==="
+ },
+ {
+  "file": "2018_algebra2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 4,
+  "body": "Problem 4 (20 points). Let K be a field and let V be a finite-dimensional K-vector\n\nspace.\n\n(a) (6 points) Assume that K is infinite. Show that V is not the union of finitely\n\nmany proper linear K-subspaces.\n\n(b) (6 points) Assume that K is finite and V is non-zero. Let S be the set of\n\naffine hyperplanes of V . Let g: V →R be a function. The Radon transform\n\nRg: S →R is defined by (Rg)(ξ) = P\n\nx∈ξ g(x) for ξ ∈S. Show that Rg = 0\n\nimplies g = 0.\n\n(c) (8 points) Let v1, . . . , vn, w1, . . . , wn ∈V .\n\nAssume that for every K-linear\n\nmap f : V →K, (f(v1), . . . , f(vn)) and (f(w1), . . . , f(wn)) coincide up to\n\npermutation of the indices. Deduce that (v1, . . . , vn) and (w1, . . . , wn) coincide\n\nup to permutation of the indices. Here we make no assumptions on K."
+ },
+ {
+  "file": "2018_algebra2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Algebra",
+  "num": 5,
+  "body": "Problem 5 (20 points). Let p be a prime number and let vp(·) denote the p-adic\n\nvaluation on Qp. Let A = (aij)1≤i,j≤n ∈Mn(Qp) be an n × n matrix with entries in\n\nQp. Assume that we know the following:\n\n(1) A2 = pn+1 · In×n;\n\n(2) vp(aij) ≥i for all i, j.\n\nProve that vp(aij) ≥max{i, n + 1 −j} and ai,n+1−i ∈piZ×\n\np , i.e.\n\nA ∈\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npnZp\n\npn−1Zp\n\npn−2Zp\n\n· · ·\n\np3Zp\n\np2Zp\n\npZ×\n\np\n\npnZp\n\npn−1Zp\n\npn−2Zp\n\n· · ·\n\np3Zp\n\np2Z×\n\np\n\np2Zp\n\npnZp\n\npn−1Zp\n\npn−2Zp\n\n· · ·\n\np3Z×\n\np\n\np3Zp\n\np3Zp\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\npnZp\n\npn−1Zp\n\npn−2Z×\n\np\n\n· · ·\n\npn−2Zp\n\npn−2Zp\n\npn−2Zp\n\npnZp\n\npn−1Z×\n\np\n\npn−1Zp\n\n· · ·\n\npn−1Zp\n\npn−1Zp\n\npn−1Zp\n\npnZ×\n\np\n\npnZp\n\npnZp\n\n· · ·\n\npnZp\n\npnZp\n\npnZp\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n\nHint. Consider the antidiagonal matrix\n\nJ =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n0\n\n· · ·\n\n0\n\np\n\n0\n\n0\n\n· · ·\n\np2\n\n0\n\n...\n\n...\n\n...\n\n...\n\n...\n\n0\n\npn−1\n\n· · ·\n\n0\n\n0\n\npn\n\n0\n\n· · ·\n\n0\n\n0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n\nPage 2 of 2"
+ },
+ {
+  "file": "2018_analysis2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 1,
+  "body": "1. Let the sequence of functions {fn}∞\n\nn=1 in L2(Rd) satisfy that ∥fn∥L2 = 1.\n\n(1)Show that there exists a subsequence of function {fnj}∞\n\nj=1 such that fnj converges\n\nweakly to some function f in L2(Rd), i.e.\n\n(fnj, g) →(f, g)\n\nfor all g ∈L2(Rd).\n\n(2)If fn →f weakly in L2(Rd), and ∥fn∥L2 →∥f∥L2 as n →∞.\n\nShow that\n\n∥fn −f∥L2 →0 as n →∞."
+ },
+ {
+  "file": "2018_analysis2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 2,
+  "body": "2. Let f : U →C be a non-constant holomorphic function where U ⊂C is the open\n\nset containing the closure D of the unit disk D = {z ∈C||z| < 1}.\n\nIf |f(z)| = 1, for all z ∈∂D, Prove that D ⊂f(D)."
+ },
+ {
+  "file": "2018_analysis2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 3,
+  "body": "3. Prove that if a sequence of harmonic function on the open disk converges uniformly\n\non compact subset of the disk, then the limit is harmonic."
+ },
+ {
+  "file": "2018_analysis2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 4,
+  "body": "4. Let µ be a Borel measure on Rn. Let ρ > 0, a fixed positive number, and Bρ(x) =\n\n{y ∈Rn|d(x, y) < ρ}. For x ∈Rn, define a function:\n\nθ(x) : x →µ(Bρ(x))\n\n1) Show that θ is upper semi-continuous, i.e. for every x ∈Rn, θ(x) ≥lim supy→x θ(y).\n\n2) Give an example of a Borel measure µ, such that the function θ is not continuous."
+ },
+ {
+  "file": "2018_analysis2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 5,
+  "body": "5. Let g denote a smooth function on Rn with compact support. Let f denote the\n\nfunction given by the formula\n\nf(x) =\n\n1\n\nn(n −1)α(n)\n\nZ\n\nRn\n\n1\n\n|x −y|n−2g(y)dy.\n\nHere α(n) is volume of the unit ball in Rn.\n\n(a) Prove that the integral that defines f converges for each x ∈Rn.\n\n(b) Prove that f is differentiable and that the gradient of f if given by the formula\n\n∇f|x =\n\n1\n\nn(n −1)α(n)\n\nZ\n\nRn\n\n1\n\n|x −y|n−2(∇g)|ydy.\n\n(c) Prove the f obeys −∆f = g with ∆denoting\n\n∂2\n\n∂x12 + · · · +\n\n∂2\n\n∂xn2.\n\n1\n\n\n\n=== page 2 ===\n\n2"
+ },
+ {
+  "file": "2018_analysis2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Analysis",
+  "num": 6,
+  "body": "6. If u is a positive harmonic function on Rn \\ {0} (n ≥2), then exist constants\n\na ≥0, b ≥0 such that\n\nu(x) = a + b|x|2−n\n\nfor all x ∈Rn \\ {0}."
+ },
+ {
+  "file": "2018_applied2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 1,
+  "body": "1. We consider the following convection-diffusion equation\n\n(1)\n\nut + aux = buxx,\n\n0 ≤x < 1\n\nwith an initial condition u(x, 0) = f(x) and periodic boundary condition, where a and\n\nb > 0 are constants. The first order IMEX (implicit-explicit) time discretization and\n\nsecond order central spatial discretization are used to give the following scheme:\n\n(2)\n\nun+1\n\nj\n\n−un\n\nj\n\n∆t\n\n+ aun\n\nj+1 −un\n\nj−1\n\n2∆x\n\n= bun+1\n\nj+1 −2un+1\n\nj\n\n+ un+1\n\nj−1\n\n∆x2\n\nwith a uniform mesh xj = j∆x with spatial mesh size ∆x and time step ∆t. Here un\n\nj is\n\nthe numerical solution approximating the exact solution of (1) at x = xj and t = n∆t.\n\nProve that the scheme is L2 stable under the very mild time step restriction\n\n(3)\n\n∆t ≤c\n\nwith a constant c which is independent of ∆x. Can you determine the dependency of\n\nc on the two constants a and b in (1)?"
+ },
+ {
+  "file": "2018_applied2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 2,
+  "body": "2. Velocity-Verlet method.\n\n(a) Recast the following Newtonian formula for the acceleration and potential force\n\nq′′(t) = −∇V (q),\n\ninto a Hamiltonian system and show that the corresponding map on the phase\n\nspace is symplectic.\n\n(b) Show that the velocity-Verlet (recovered many times: Delambre 1791, Størmer in\n\n1907, Cowell & Crommelin 1909, Verlet 1960s) method\n\npn+1/2 = pn −∆t\n\n2 ∇V (qn);\n\nqn+1 = qn + ∆tpn+1/2;\n\npn+1 = pn+1/2 −∆t\n\n2 ∇V (qn+1)\n\nis symplectic and is second order accurate.\n\nHint: Let u(t) = (p(t), q(t)) be a solution of the Hamiltonian system with initial data\n\nu0 = (p0, q0) and we view the solution u(t) as a map map on the phase space ϕt :\n\nRd × Rd →Rd × Rd ϕt(u0) = u(t). We call the flow map is symplectic if its Jacobian\n\nΦt(u0) = ∂ϕt(u0)\n\n∂u0\n\n=\n\nÃ∂p(t)\n\n∂p0\n\n∂p(t)\n\n∂q0\n\n∂q(t)\n\n∂p0\n\n∂q(t)\n\n∂q0\n\n!\n\nsatisfies Φt(u0)TJΦt(u0) = J for any u0 ∈Rd × Rd. Here J =\n\n¡ 0\n\nI\n\n−I 0\n\n¢\n\n.\n\nA scheme ϕn(u0), n = 1, 2 . . . , is symplectic if the map ϕn(u0) is symplectic.\n\n1\n\n\n\n=== page 2 ===\n\n2"
+ },
+ {
+  "file": "2018_applied2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 3,
+  "body": "3. We begin with some definitions.\n\n(1) A graph G is a pair G = (V, E) where V is a finite set, called the vertices of G,\n\nand E is a subset of P2(V ) (i.e., a set E of (unordered) two-element subsets of V ),\n\ncalled the edges of G. A simple graph G is a graph without loops (edge that connects a\n\nvertex to itself) or multiple edges between any pair of vertices. The order of the graph\n\nis |V |. We often put V = {v1, v2, · · · , vn} and E = {vivj| vi and vj are adjacent}.\n\n(2) Two vertices x and y are adjacent if xy ∈E. The neighborhood of a vertex x,\n\ndenoted by NG(x) or N(x), is the set of vertices that is adjacent to x. The degree\n\nof a vertex x, denoted by dG(x) or d(x), is |N(x)| (i.e. the number of vertices that is\n\nadjacent to x).\n\n(3) A path is a collection of distinct vertices vi1vi2 · · · vik such that vijvij+1 ∈E for\n\nall j, 1 ≤j < k. vi1 and vik are the ends of the path. A Hamiltonian path P is a\n\npath containing all vertices of the graph. A cycle is a closed path with vi1 = vik. A\n\nHamiltonian cycle is a cycle containing all vertices of the graph. A graph is called\n\nHamiltonian if it has a Hamiltonian cycle.\n\n(4) A graph G is (Hamilton) connected, if for every pair of vertices there is a (Hamil-\n\ntonian) path between them.\n\nAn example of a simple graph: V = {v1, v2, v3, v4} and E = {v1v2, v2v3, v3v4, v2v4}.\n\nIn this graph, the order of the graph is 4, N(v1) = {v2}, N(v4) = {v2, v3}, d(v3) = 2,\n\nd(v2) = 3 and v1v2v4v3 is a Hamiltonian path with ends v1 and v3.\n\nLet G be a simple graph of order n. Suppose that the degree sum of any pair of\n\nnonadjacent vertices is at least n+1. Show that G is Hamilton-connected (i.e. between\n\nany pair of vertices x and y, there is a Hamiltonian path in which x and y are the ends)."
+ },
+ {
+  "file": "2018_applied2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 4,
+  "body": "4. Define the Hermite polynomials as\n\n(4)\n\nHn(x) = (−1)n exp(x2\n\n2 ) dn\n\ndxn[exp(−x2\n\n2 )],\n\nx ∈(−∞, +∞), n = 0, 1, 2, · · · .\n\n(a) Prove the weighted orthogonality of the Hermite polynomials:\n\n(5)\n\n⟨Hn(x), Hm(x)⟩ρ ≜\n\nZ +∞\n\n−∞\n\nρ(x)Hn(x)Hm(x)dx = n!\n\n√\n\n2πδn,m,\n\nwhere ρ(x) = exp(−x2\n\n2 ).\n\n(b) Prove the three recurrence formula:\n\n(6)\n\nHn+1(x) = xHn(x) −nHn−1(x),\n\nn ≥1,\n\nand then show that for all n ≥1, Hn(x) and Hn−1(x) share no common roots.\n\n(c) Use the recurrence formula and induction to prove the differential relation:\n\n(7)\n\nd\n\ndxHn(x) = nHn−1(x),\n\nn ≥1,\n\nand then prove that Hn is an eigenfunction of the following eigenvalue problem\n\n(8)\n\nxu′(x) −u′′(x) = λu.\n\nYou need to find the eigenvalue λn corresponding to Hn(x).\n\n\n\n=== page 3 ===\n\n3"
+ },
+ {
+  "file": "2018_applied2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Applied",
+  "num": 5,
+  "body": "5. Take σi(A) to be the i-th singular value of the square matrix A ∈Rn×n. Define the\n\nnuclear norm of A to be\n\n∥A∥∗≡\n\nn\n\nX\n\ni=1\n\nσi(A).\n\n(1) Show that ∥A∥∗= tr(\n\n√\n\nATA).\n\n(2) Show that ∥A∥∗= max\n\nXT X=I tr(AX).\n\n(3) Show that ∥A + B∥∗≤∥A∥∗+ ∥B∥∗\n\n(4) Explain informally why minimizing ∥A −A0∥2\n\nF + ∥A∥∗over A for a fixed A0 ∈\n\nRn×n might yield a low-rank approximation of A0.\n\nNotation: The trace of a matrix tr(A) is the sum P\n\ni aii of its diagonal elements. We\n\ndefine the square root of a symmetric positive semidefinite matrix M to be\n\n√\n\nM ≡\n\nUD1/2U T, where D1/2 is the diagonal matrix containing (nonnegative) square roots of\n\nthe eigenvalues of M and U contains the eigenvectors of M = UDU T."
+ },
+ {
+  "file": "2018_geometry2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 1,
+  "body": "1. Let M and N be smooth, connected, orientable n-manifolds for n ≥3, and let\n\nM#N denote their connect sum.\n\n(a) Compute the fundamental group of M#N in terms of that of M and of N (you\n\nmay assume that the basepoint is on the boundary sphere along which we glue M\n\nand N).\n\n(b) Compute the homology groups of M#N.\n\n(c) For part (a), what changes if n = 2? Use this to describe the fundamental groups\n\nof orientable surfaces."
+ },
+ {
+  "file": "2018_geometry2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 2,
+  "body": "2. Determine all of the possible degrees of maps S2 →S1 × S1."
+ },
+ {
+  "file": "2018_geometry2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 3,
+  "body": "3. Classify all vector bundles over the circle S1 up to isomorphism."
+ },
+ {
+  "file": "2018_geometry2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 4,
+  "body": "4. Suppose C is a regular curve in the unit sphere S2. For any point W ∈S2, there\n\nexists the only oriented great circle SW (determined by the right hand rule) in S2 such\n\nthat W is the pole of SW. Denote by n(W) the number of points at which the oriented\n\ngreat circle SW and C intersect. Prove the Crofton formula\n\nZZ\n\nS2 n(W)dW = 4L,\n\nwhere dW and L is the area element of S2 and the length of C, respectively."
+ },
+ {
+  "file": "2018_geometry2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 5,
+  "body": "5. Let M be an n-dimensional closed submanifold in the Euclidean space Rn+p. Prove\n\nthe following inequality\n\nZ\n\nM\n\nHndV ≥vol(Sn),\n\nwhere H and dV is the mean curvature (i.e., norm of the mean curvature vector) and\n\nthe volume element of M, and Sn is the standard unit sphere of dimension n."
+ },
+ {
+  "file": "2018_geometry2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Geometry",
+  "num": 6,
+  "body": "6. Let M be an even dimensional compact and oriented Riemannian manifold with\n\npositive sectional curvature. Show that M is simply connected.\n\n1"
+ },
+ {
+  "file": "2018_probability2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 1,
+  "body": "Problem 1. A submarine is lost in some ocean. There are two (and only two) possible\n\nregions: A and B. Experts estimate the probability of being lost in A is 70%. On the\n\nother hand, for each search, the probability of finding this submarine is 40% if it is lost\n\nin A. This number is 80% for region B. Now we have independently searched region A\n\n4 times and region B once, but still have not found the submarine yet. Now based on\n\nthese informations, which region we should search next? And why?"
+ },
+ {
+  "file": "2018_probability2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 2,
+  "body": "Problem 2. A teacher and 12 students sit around a circle. In the beginning the teach\n\nholds a gift, he will randomly pass it to the left person or right person next to him, so\n\nas the other students each time. (For the gift, It is like a random walk between these\n\npeople) The rule is that the gift will be eventually given to some student (not teacher)\n\nif he/she\n\nis the last student who ever touches the gift.\n\nWhich student(s) have the highest probability to get this gift (i.e., win) ?"
+ },
+ {
+  "file": "2018_probability2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 3,
+  "body": "Problem 3. In a party, N people attend, each of them brings k gifts. When they\n\nleave, each of them randomly picks k gifts. Let X be the total number of gifts which\n\nare taken back by their owners. Let's fix k, please find the limiting distribution of X\n\nwhen N →∞."
+ },
+ {
+  "file": "2018_probability2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 4,
+  "body": "Problem 4. Suppose that a random vector x = (x1, ..., xn)′ ∈Rn(n ≥2) is distributed\n\nas a multivariate normal distribution N(0, Σ) with the following joint probability den-\n\nsity function\n\nf(x) =\n\n1\n\n(2π)\n\nn\n\n2 det(Σ)\n\n1\n\n2 exp\n\n½\n\n−1\n\n2x′Σ−1x\n\n¾\n\n, x ∈Rn,\n\nwhere Σ is an n × n positive definite matrix. Let the (i, j) element of Ω= Σ−1 be ωij\n\n(1 ≤i, j ≤n). For 1 ≤i ̸= j ≤n, show that if ωij = 0, then xi and xj are conditionally\n\nindependent when the other elements of x are given."
+ },
+ {
+  "file": "2018_probability2018_individual",
+  "year": "2018",
+  "kind": "Individual",
+  "subject": "Probability",
+  "num": 5,
+  "body": "Problem 5. Letx, y be two independent random vectors in Rn (n ≥3). Assume that\n\nP(y = 0) = 0 and x has a standard multivariate normal distribution, i.e., x ∼N(0, In).\n\n(a) For any nonzero constant vector a ∈Rn satisfying ||a|| = (a′a)1/2 = 1, prove that\n\n√\n\nn −1\n\na′x\n\np\n\n||x||2 −(a′x)2 ∼tn−1,\n\nhere tn−1 stands for a t distribution with n −1 degrees of freedom.\n\n(b) The sample correlation coefficient between x = (x1, ..., xn)′ and y = (y1, ..., yn)′ is\n\ndefined as\n\nr =\n\nPn\n\ni=1(xi −¯x)(yi −¯y)\n\npPn\n\ni=1(xi −¯x)2pPn\n\ni=1(yi −¯y)2.\n\nwhere ¯x = Pn\n\ni=1 xi/n, ¯y = Pn\n\ni=1 yi/n. Show that √n −2\n\nr\n\n√\n\n1−r2 ∼tn−2.\n\n1"
+ }
+]

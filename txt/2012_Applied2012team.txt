@@ -1,0 +1,139 @@
+
+=== page 1 ===
+GROUP TEST
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Applied Math. and Computational Math.
+Please solve 4 out of the following 5 problems.
+1. If the function u(x) is in Ck+1 (has continuous (k + 1)-th deriva-
+tive) on the interval [0, 2], and a sequence of polynomials pn(x) (n =
+1, 2, 3, ...) of degree at most k satisﬁes
+(1)
+|u(x) −pn(x)| ≤
+C
+nk+1
+∀0 ≤x ≤1
+n,
+where the constant C is independent of n, prove
+|u(x) −pn(x)| ≤
+˜C
+nk+1
+∀1
+n ≤x ≤2
+n,
+with another constant ˜C which is also independent of n.
+2. Consider the one-dimensional elliptic equation
+−d2
+dx2u(x) = f(x),
+0 < x < 1,
+with homogeneous boundary condition, u(0) = 0 and u(1) = 0, f ∈
+L2(0, 1).
+(i) Describe the standard piecewise linear ﬁnite element method for
+this boundary value problem.
+(ii) Is this method stable and convergent? If so, what is the order of
+convergence?
+(iii). In this case, the linear ﬁnite element method has a super con-
+vergence property at the nodal point xj (j = 1, 2, ..., N), i.e. uh(xj) =
+u(xj), here uh is the ﬁnite element solution and u is the exact solution.
+Could you explain why?
+3. Let A = (aij) ∈MN×N(C) be strictly diagonally dominant, that is,
+|aii| >
+N
+X
+j=1,j̸=i
+|aij| for all 1 ≤i ≤N,
+Assume that A = I + L + U where I is the identity matrix, L and U
+are the lower and upper triangular matrices with zero diagonal entries.
+1
+
+=== page 2 ===
+2
+Now, we consider solving the linear system Ax = b by the following
+iterative scheme:
+(∗)
+xk+1 = (I +αΩL)−1[(I −Ω)−(1−α)ΩL−ΩU)]xk +(I +αΩL)−1b
+where Ω:= diag(ω1, ...ωN) and 0 ≤α ≤1. (When α = 1, it gives the
+SOR method.)
+(1) Prove that the linear system Ax = b has a unique solution.
+(2) Prove that the necessary condition for the convergence of (*) is
+N
+Y
+i=1
+|1 −ωi| < 1
+(3) Let M = (I + αΩL)−1[(I −Ω) −(1 −α)ΩL −ΩU)]. Prove that
+the spectral radius ρ(M) of M is bounded by:
+ρ(M) ≤max
+i
+|1 −ωi| + |ωi|(|1 −α|li + ui)
+1 −|ωiα|li
+whenever |ωiα|li < 1 for all 1 ≤i ≤N where li = P
+j<i |aij|
+and ui = P
+j>i |aij|.
+(4) Using (c), prove that the suﬃcient condition for the convergence
+of (*) is
+0 < ωi <
+2
+1 + li + ui
+for all 1 ≤i ≤N
+4. The famous RSA cryptosystem is based on the assumed diﬃculty of
+factoring integers N = pq (called RSA integers) which are products of
+two large primes p and q which should be kept secret. Currently p and
+q are chosen to be about 500 bits long, that is,
+p, q ≈2500.
+Assume someone uses the following algorithm to ﬁnd secret n-bit primes
+p and q to form an RSA integer N = pq:
+• Choose a random odd 500-bit integer s.
+• Test the odd numbers s, s+2, s+4, etc. for primality until the
+ﬁrst prime p is found (note the primality testing is very easy
+nowdays).
+• Continue testing p + 2, p + 4, p + 6, etc. for primality until the
+second prime q is found.
+• Compute and publish N = pq, but keep p and q secret.
+How secure is this procedure? Can you suggest an algorithm to factor
+an RSA integer N = pq generated this way?
+Note that there are about x/ log x primes up to x, where log x is
+the natural logarithm. This means that the expected gap between two
+consecutive n-bit primes is
+log 2n = n log 2 ≈0.69 · n.
+
+=== page 3 ===
+3
+5. The solution h(r, t) of the following Boussinesq equation describes
+the hight of a circular drop of ﬂuid spreading on a dry surface h = 0:
+∂h
+∂t = ∆r(h2) = 1
+r
+∂
+∂r
+µ
+r∂(h2)
+∂r
+¶
+,
+r > 0,
+t > 1
+with
+∂h
+∂r
+¯¯¯
+r=0 = 0,
+Z ∞
+0
+h(r, t)rdr ≡1
+64
+The solution is positive on a ﬁnite range 0 ≤r ≤r∗(t) with h(r∗(t), t) =
+0 deﬁning a moving “edge” position with no ﬂuid outside of the droplet.
+For r > r∗(t) truncate the solution beyond the edge to be zero ( h ≡0
+for r > r∗(t)).
+(a): Show that this problem is scale invariant by ﬁnding relations
+h(r, t) = H(T)˜h(˜r, ˜t), r = R(T)˜r, t = T˜t so that the problem
+for ˜h(˜r, ˜t) is identical to the original problem.
+(b): Determine the ODE for the similarity function Φ(η) with
+h(r, t) = tαΦ(η), r = ηtβ.
+(c): Determine the explicit solution for Φ(η) and then use h(r, t) =
+tαΦ(η) to ﬁnd r∗(t) for t ≥1.
+Hint
+R ∞
+0 hrdr =
+R r∗
+0 hrdr.

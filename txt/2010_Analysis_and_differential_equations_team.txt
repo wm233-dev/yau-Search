@@ -1,0 +1,76 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2010
+Analysis and Diﬀerential Equations
+Team
+(Please select 5 problems to solve)
+1.
+a) Let f(z) be holomorphic in D: |z| < 1 and |f(z)| ≤1 (z ∈
+D). Prove that
+|f(0)| −|z|
+1 + |f(0)||z| ≤|f(z)| ≤|f(0)| + |z|
+1 −|f(0)||z|.
+(z ∈D)
+b) For any ﬁnite complex value a, prove that
+1
+2π
+Z 2π
+0
+log |a −eiθ|dθ = max{log |a|, 0}.
+2. Let f ∈C1(R), f(x + 1) = f(x), for all x, then we have
+||f||∞≤
+Z 1
+0
+|f(t)|dt +
+Z 1
+0
+|f
+′(t)|dt.
+3. Consider the equation
+¨x + (1 + f(t))x = 0.
+We assume that
+R ∞|f(t)|dt < ∞. Study the Lyapunov stability of the
+solution (x, ˙x) = (0, 0).
+4. Suppose f : [a, b] →R be a L1-integrable function. Extend f to be
+0 outside the interval [a, b]. Let
+φ(x) = 1
+2h
+Z x+h
+x−h
+f
+Show that
+Z b
+a
+|φ| ≤
+Z b
+a
+|f|.
+5. Suppose f ∈L1[0, 2π], ˆf(n) =
+1
+2π
+R 2π
+0
+f(x)e−inxdx, prove that
+1)
+∞
+X
+|n|=0
+| ˆf(n)|2 < ∞implies f ∈L2[0, 2π],
+2)
+X
+n
+|n ˆf(n)| < ∞implies that f = f0, a.e., f0 ∈C1[0, 2π],
+where C1[0, 2π] is the space of functions f over [0, 1] such
+that both f and its derivative f
+′ are continuous functions.
+1
+
+=== page 2 ===
+2
+6. Let Ωbe a bounded domain of Rn and let f be a smooth function
+deﬁned in [0, +∞) such that f(t)/t is strictly decreasing. Assume that
+u1 and u2 are positive solutions of
+∆u + f(u) = 0 in Ω, u = 0 on ∂Ω
+Show that u1 = u2. (Hint: Calculate ∆log u2
+u1 and consider the maxi-
+mum principle.)

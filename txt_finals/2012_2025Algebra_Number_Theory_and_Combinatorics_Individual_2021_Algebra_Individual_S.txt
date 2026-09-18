@@ -1,0 +1,112 @@
+
+=== page 1 ===
+Algebra, Number Theory and Combinatorics
+(2021)
+Problem 1. (Individual round.) Let p be a prime number and Qp the ﬁeld of p-adic
+numbers. Let n ≥1 be an integer and L = Qp(ζpn), where ζpn denotes a primitive
+pn-th roots of unity. Determine the image of the norm map NL/Qp : L× →Q×
+p . You
+may use the inequality [L : Qp] ≤(Q×
+p : NL/Qp(L×)) without proof in the case n ≥2.
+Problem 2. (Individual round.) Let k be a ﬁeld and V a k-vector space of dimension
+n. Consider the group homomorphism:
+φ : GL(V ) →GL(∧2V ), f 7→∧2f.
+(1) Determine the kernel of φ.
+(2) Show that φ induces a group homomorphism ψ : SL(V ) →SL(∧2V ). Express
+det(∧2f) in terms of det(f).
+Problem 3. (Individual round.) Let A be a rank 2 integer matrix of size 5 × 3.
+Classify all possible groups of the form Z5/AZ3.
+1
+
+=== page 2 ===
+Solution to Problem 1. We will show that NL/Qp(L×) = pZ(1 + pnZp), where Zp
+denotes the ring of p-adic integers.
+Let Φ(X) = (Xpn −1)/(Xpn−1 −1) be the pn-th cyclotomic polynomial. Then
+Φ(X +1) is an Eisenstein polynomial. Thus Φ(X) is the minimal polynomial of ζpn,
+so that
+NL/Qp(1 −ζpn) = Φ(1) = p.
+We have [L : Qp] = φ(pn) = pn −pn−1. For p odd, the φ(pn)-th power map on
+1 + pZp is the composition
+1 + pZp
+log
+−→
+∼pZp
+φ(pn)
+−−−→
+∼
+pnZp
+exp
+−−→
+∼
+1 + pnZp.
+Thus
+NL/Qp(L×) ⊇NL/Qp(1 + pZp) = 1 + pnZp.
+For p = 2, we may assume n ≥2. The φ(2n)-th power map on 1 + 4Z2 is the
+composition
+1 + 4Z2
+log
+−→
+∼4Z2
+φ(2n)
+−−−→
+∼
+2n+1Z2
+exp
+−−→
+∼
+1 + 2n+1Z2.
+Thus
+NL/Q2(L×) ⊇NL/Q2(1 + 4Z2) = 1 + 2n+1Z2.
+It is easy to see that
+1 + 2nZ2 = (1 + 2n+1Z2)
+a
+52n−2(1 + 2n+1Z2)
+and
+52n−2 = NL/Q2(2 + ζ4).
+This ﬁnishes the proof of NL/Qp(L×) ⊇pZ(1 + pnZp) in all cases.
+Let OL denote the integral closure of Zp in L. The residue ﬁeld of L is Fp,
+so that NL/Qp|O×
+L is compatible with the φ(pn)-th power map on F×
+p , which carries
+every element to 1.
+In other words, NL/Qp(L×) ∩Z×
+p = NL/Qp(O×
+L) ⊆1 + pZp.
+This ﬁnishes the proof in the case n = 1. For n ≥2, it suﬃces to apply the given
+inequality (Q×
+p : NL/Qp(L×)) ≥φ(pn) = (Q×
+p : pZ(1 + pnZp)).
+Solution to Problem 2. (1) If n = 2, then ∧2V ≃k and φ(f) ∈GL(k) is just the
+multiplication by det(f), hence the kernel is just SL(V ) = SL2. Now assume n ≥3.
+By deﬁnition, f ∈Ker(φ) if and only if f(x)∧f(y) = x∧y for all x, y ∈V . We claim
+x and f(x) are proportional: otherwise expand to a basis e1 = x, e2 = f(x), e3, ..., en,
+then we have e2 ∧f(e3) = e1 ∧e3 which is not possible as ei ∧ej is a basis of ∧2V .
+Hence x and f(x) are proportional for all x ∈V . This implies that f(x) = ax for
+some a ∈k. Then f(x) ∧f(y) = a2x ∧y = x ∧y, thus a = ±1. So the kernel is just
+±Id.
+(2) First we show the case for elementary matrices: Take a basis e1, · · · , en of V
+and consider the endomorphism f ∈GL(V ) deﬁned by f(ei) = ei + bδ1,ie2 for all i,
+where b is a constant. We have (∧2f)(e1 ∧ej) = e1 ∧ej + be2 ∧ej for all j ≥2, and
+for 2 ≤i < j, (∧2f)(ei ∧ej) = ei ∧ej. Thus ∧2f is lower triangular in the basis of
+ei ∧ej with 1 on the diagonal, which gives det(∧2f) = 1.
+2
+
+=== page 3 ===
+Recall that any matrix of determinant 1 is a product of elementary matrices,
+hence by (ii) φ sends SL(V ) to SL(∧2V ). Take t in an extension of k, such that
+tndet(f) = 1. Then det(tf) = 1 and
+1 = det(∧2(tf)) = det(t2 ∧2 f) = (t2)(n
+2)det(∧2f),
+which gives det(∧2f) = t−n(n−1) = det(f)n−1.
+Solution to Problem 3. We can change Z bases of Z5 and Z3 to turn A in to a
+"canonical form". Equivalently, we can do the usual row-column reduction on A.
+Since A rank 2 means that AZ3 is a rank 2 subgroup of Z5, which means the free
+part of G is Z3. So, in the reduced form A has 3 zero rows, and 2 positive diagonal
+entries of all possibilities. We can arrange so that
+G ≃Z/a ⊕Z/b ⊕Z3with a ≥b > 0.
+Finally list all possible non-isomorphic torsion part Z/a ⊕Z/b, by factorizing a, b.
+Possible follow up: Generalize this as follows: A is rank k of size m × n with
+m > n > k. Classify all possible abelian groups of the form G = Zm/AZn. The
+same method would likewise yield G ≃Z/a1 ⊕· · · ⊕Z/an−k ⊕Zm−k with a1 ≥a2 ≥
+· · · ≥an−k > 0.
+3

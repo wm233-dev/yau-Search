@@ -1,0 +1,64 @@
+
+=== page 1 ===
+Question I
+Suppose A ∈Mn×n(C) is normal, i.e., A = QDQ∗for some unitary Q. Also, we suppose
+there are k dominant eigenvalues of A, i.e.,
+|λ1| ≥· · · ≥|λk| > |λk+1| ≥· · · ≥|λn|
+Consider the power iteration:
+xm+1 = Axm.
+Deﬁne the angle between a non-zero vector x and a non-trivial subspace W.
+cos ∠(x, W) := max
+
+cos ∠(x, y) : y ∈W \ {0}
+	
+,
+sin ∠(x, W) := min
+
+sin ∠(x, y) : y ∈W \ {0}
+	
+,
+tan ∠(x, W) := sin ∠(x, W)
+cos ∠(x, W).
+Using the given deﬁnitions, prove that:
+1. Let W be a nontrivial subspace of Cn and P be the orthogonal projection onto W.
+Then, for x ̸= 0 and x /∈W,
+cos ∠(x, W) = ∥Px∥
+∥x∥, sin ∠(x, W) = ∥x −Px∥
+∥x∥
+, tan ∠(x, W) = ∥x −Px∥
+∥Px∥
+Here, || · || is the usual Euclidean norm in Cn.
+2. Let {δi : i = 1, · · · , n} be the standard ordered basis for Cn. Let Wk := span{Qδj :
+j = 1, · · · , k} and let cos ∠(x0, Wk) ̸= 0. Then,
+tan ∠(xm+1, Wk) ≤|λk+1|
+|λk| tan ∠(xm, Wk).
+Question II
+Consider the linear system Ax = b. The (Generalized minimal residual method) GMRES
+method is a projection method which obtains a solution in the m-th Krylov subspace Km so
+that the residual is orthogonal to AKm. Let r0 be the initial residual and let v0 = r0. The
+Arnoldi process (see the hint below) is applied to build an orthonormal system v1, v2, . . . , vm−1
+with v1 = Av0/∥Av0∥2 (∥· ∥2- the l2 norm). The approximate solution is obtained from the
+following space
+Km = span {v0, v1, . . . , vm−1} .
+1. Show that the approximate solution is obtained as the solution of a least-square prob-
+lem, and that this problem is triangular.
+1
+
+=== page 2 ===
+2. Prove that the residual rk is orthogonal to {v1, v2, . . . , vk−1}.
+3. Find a formula for the residual norm.
+4. Derive the complete GMRES algorithm.
+Hint: The Arnoldi process uses the stabilized Gram-Schmidt process to produce a sequence
+of orthonormal vectors v1, v2, v3, . . .. Explicitly, the algorithm is as follows:
+(1.) Start with an arbitrary vector v1 with norm 1.
+(2.) Repeat for k = 2, 3, . . .
+i. vk ←Avk−1
+ii. for j from 1 to k −1
+A. hj,k−1 ←v∗
+jvk
+B. vk ←vk −hj,k−1vj
+iii. hk,k−1 ←∥vk∥2
+iv. vk ←
+vk
+hk,k−1
+2

@@ -1,0 +1,35 @@
+
+=== page 1 ===
+ALL-AROUND TEST / ORAL EXAM
+S.-T YAU COLLEGE MATH CONTESTS 2012
+Applied and Computational Mathematics
+1. Let
+Vh = {v : v|Ij ∈P k(Ij)
+1 ≤j ≤N}
+where
+Ij = (xj−1, xj),
+1 ≤j ≤N
+with
+xj = jh,
+h = 1
+N .
+Here P k(Ij) denotes the set of polynomials of degree at most k in the
+interval Ij.
+Recall the L2 projection of a function u(x) into the space Vh is deﬁned
+by the unique function uh ∈Vh which satisﬁes
+||u −uh|| ≤||u −v||
+∀v ∈Vh
+where the norm is the usual L2 norm. We assume u(x) has at least
+k + 2 continuous derivatives.
+(1) Prove the error estimate
+||u −uh|| ≤Chk+1
+Explain how the constant C depends on the derivatives of u(x).
+(2) If another function ϕ(x) also has at least k+2 continuous deriva-
+tives, prove
+|
+Z 1
+0
+(u(x) −uh(x))ϕ(x)dx| ≤Ch2k+2
+Explain how the constant C depends on the derivatives of u(x)
+and ϕ(x).
+1

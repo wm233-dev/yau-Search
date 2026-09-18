@@ -1,0 +1,124 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2026
+Computational and Applied Mathematics
+(6 problems)
+Problem 1. Consider the equation
+(1)
+α∂tu(t, x) + β∂xu(t, x) −γ∂xxu(t, x) = f(x),
+for (t, x) ∈(0, T) × (0, 1), with f ∈L2(0, 1), T > 0, boundary condition u(t, 0) = u(t, 1) = 0 for
+all t > 0 and initial condition u(0, x) = 0. Parameters satisfy α > 0, β ∈R and γ > 0. Let Th be
+a uniform mesh partitioning (0, 1), i.e., a collection of intervals [ih, (i + 1)h] with i = 0, 1, . . . , N
+and h = 1/(N + 1).
+(a). Write the fully discrete variational formulation of (1) using the continuous piecewise
+linear ﬁnite element method (P1 Lagrange FEM) in space and implicit Euler method in time.
+Denoting the time step by τ and ti = iτ for all i ∈N.
+(b). Prove the L2 stability estimate ∥un
+h∥≤C∥f∥with a constant C > 0 independent of
+h, τ, n.
+(c). Let {φi}1≤i≤N be the global Lagrange shape functions associated with the nodes xi := ih
+for i = 1, . . . , N. Denoting by ui
+h := P
+1≤j≤N U i
+jφj the approximation of u at ti, write the
+algebraic linear system solved by (U i
+1, . . . , U i
+N).
+Problem 2. Let Ω⊂Rd be a bounded domain, d ≤3. Consider the functional J : H1
+0(Ω) →R:
+J(u) =
+Z
+Ω
+1
+2|∇u(x)|2 + 1
+4u(x)4 −f(x)u(x)
+
+dx,
+where f ∈L2(Ω).
+(a). Compute the Fr´echet derivative (gradient) ∇J(u) and the second Fr´echet derivative
+(Hessian) ∇2J(u). Prove that J is strictly convex.
+(b). Write the Newton’s method for ﬁnding the minimizer u∗of J(u). Assuming the initial
+guess u0 is suﬃciently close to the solution u∗, prove the second order convergence of
+the Newton’s method: there exists C > 0 such that ∥uk+1 −u∗∥H1 ≤C∥uk −u∗∥2
+H1.
+(c). Let sk = uk+1 −uk and yk = ∇J(uk+1) −∇J(uk). A Quasi-Newton method resorts to
+an approximate Hessian Bk+1 satisfying the secant equation: Bk+1sk = yk. A BFGS
+update of Bk+1 is
+Bk+1v = Bkv −⟨Bksk, v⟩
+⟨Bksk, sk⟩Bksk + ⟨yk, v⟩
+⟨yk, sk⟩yk,
+for any test function v ∈H1
+0(Ω). Assuming Bk is positive deﬁnite, prove that above
+BFGS update is well-deﬁned.
+Problem 3. Consider the initial value problem over RN in the form
+x′ = f(t, x)
+x(0) = x0 ∈RN,
+where f : [0, T] × RN →RN is smooth. Consider the family of one-step methods
+(2)
+xn+1 = xn + (1 −b)hf(tn, xn) + bhf(tn+1, xn+1),
+where h = tn+1 −tn for any n ≥0 is a uniform step size and b ∈[0, 1] is a constant.
+(a). Find the value of b so that the local truncation error is O(h3).
+1
+
+=== page 2 ===
+2
+(b). Apply the method (2) to x′ = λx, x(0) = x0 ∈R. Find the function g(·) such that
+xn = g(hλ)nx0.
+(c). Determine the values of b so that this method is A-stable.
+Problem 4. Let A be an invertible N ×N matrix. The shifted QR iteration for a given sequence
+of shifts {σn} is deﬁned by
+A0 = A,
+An −σnIN = QnRn,
+An+1 = RnQn + σnIN,
+where IN is the N ×N identity matrix, Qn is orthogonal and Rn is upper triangular with positive
+diagonal entries.
+(a). Prove if no σn is an eigenvalue of A then the sequences {An}, {Qn} and {Rn} are
+uniquely deﬁned and satisfy
+An+1 = QT
+nAnQn,
+An+1 = RnAn(Rn)−1.
+(b). Suppose A is a symmetric 2 × 2 matrix with eigenvalues λ1 and λ2. Let σ0 = λ1. Find
+A1.
+(c). Let ˆQn = Q0 . . . Qn−1 and ˆRn = Rn−1 . . . R0 for n ≥1. Prove ˆQk+1 ˆRk+1 = Qk
+i=0(A −
+σiIN).
+Problem 5. Let A ∈Rn×n be an n by n real matrix and σi(A) be its i-th largest singular value.
+A vector x ∈Rn such that Ax = x is called a ﬁxed point of A.
+(a). Assume σ1(A) ≤1, show that every ﬁxed point of A is a ﬁxed point of its transpose AT .
+(b). Consider A =
+1
+1
+0
+0
+
+to verify that the assertion in (a) is not generally true without
+assuming σ1(A) ≤1.
+(c). Assume AAT = AT A, show that every ﬁxed point of A is a ﬁxed point of its transpose
+AT .
+Problem 6. Let the subdiﬀerential of a convex function f : Rn →R ∪{+∞} at a point x be
+denoted by ∂f(x). Recall that a vector x∗∈Rn is a subgradient of f at x if it satisﬁes:
+f(z) ≥f(x) + ⟨x∗, z −x⟩,
+∀z ∈Rn.
+Namely, ∂f(x) = {x∗: f(z) ≥f(x) + ⟨x∗, z −x⟩, ∀z ∈Rn}. Here, ⟨x, y⟩= xT y for any vectors
+x and y in Rn. We assume n ≥2 (the n = 1 case is trivial).
+(a). Let f : Rn →R be deﬁned by
+f(x) =
+max
+i=1,...,n xi,
+x = (x1, . . . , xn)T ∈Rn.
+Compute the subdiﬀerential ∂f(0).
+(b). Let
+g(x) =
+max
+i=1,...,n xi + δRn
++(x),
+where δRn
++ is the indicator function of the non-negative orthant Rn
++ (i.e., δRn
++(x) = 0 if
+x ≥0, and +∞otherwise). Show that
+∂g(0) = ∂f(0) −Rn
++.
+[Here, one may use the fact that ∂g(x) = ∂f(x) + ∂δRn
++(x) for g(x) = f(x) + δRn
++(x).]

@@ -1,0 +1,101 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Probability and Statistics
+Solve every problem.
+1. The sequence (X1, X2, . . . , Xn, . . .) is a Dirichlet process with base distribution G0 and
+concentration parameter α0 > 0 if G0 is a probability distribution on R and satisﬁes:
+• X1 ∼G0
+• Conditional on X1, X2, . . . , Xn, the distribution of Xn+1 is α0G0+Pn
+i=1 δXi, appro-
+priately normalized, where δx is the Dirac measure with probability 1 on singleton
+{x}.
+Assume that G0 has ﬁnite ﬁrst and second moments.
+(a) Derive the distribution of Xn, n ≥1.
+(b) Let Yn = I(Xn > 0). Prove or disprove (Yn)n≥1 forms a Dirichlet Process. If
+(Yn)n≥1 forms a Dirichlet Process, determine its concentration parameter and its
+base distribution.
+2. Suppose X and Y are non-negative random variables on a probability space (Ω, F, P).
+Let H(x, y) be a function on [0, ∞)2 such that E(|H(X, Y )|) < ∞. Deﬁne function
+φ(u) = u/(1 + u) for u ≥0. For integer n = 0, 1, 2, . . ., let
+Un =
+2n
+X
+j=1
+j −1
+2n I
+j −1
+2n
+≤φ(X) < j
+2n
+
+,
+Vn = E(H(X, Y )|Un).
+Prove or disprove that there exists a random variable Z such that as n →∞, Vn
+converges to Z almost surely. If there exists such a Z, show the expression of Z (in
+the sense of almost surely).
+3. Let X1, X2, . . . , Xn be a sequence of i.i.d. random variables with a uniform distribution
+on (0, 1). Deﬁne the events A1, A2, . . . by
+An = {Xn = max(X1, . . . , Xn)}.
+Deﬁne Rn = Pn
+k=1 I(Ak).
+Let (mn) be a sequence of positive numbers such that
+limn→∞mn = ∞. Compute the following limit
+lim
+n→∞P
+
+|Rn −log n| > mn
+p
+log n
+
+1
+
+=== page 2 ===
+4. Denote by B the Borel sigma ﬁeld on the real line R, and let (Ω, F) be a measurable
+space. Deﬁne a mapping Q(t, A) for t ∈R and A ∈F such that Q(t, ·) is a probability
+measure on (Ω, F) for each t ∈R, and Q(·, A) is a Borel function for each A ∈F.
+Denote by Π a probability measure on (R, B), P a probability measure on (Ω, F), and
+T a random variable on (Ω, F, P). Assume that Π, P and T satisfy Π = P ◦T −1, and
+for A ∈F,
+P(A) =
+Z
+R
+Q(t, A)Π(dt),
+where P ◦T −1 denotes the induced probability measure by T. Prove or disprove the
+following statement:
+For any A ∈F,
+P(A|T) = Q(T, A) almost surely.
+5. Four statisticians I, II, III and IV play a sequence of games. For each game, the winning
+probabilities of I, II, III and IV are (1 −θ)/2, (1 −θ)/2, θ/2 and θ/2, respectively,
+where 0 < θ < 1. There is only one winner in each game and no tie is allowed. Assume
+that outcomes of games are independent of each other. For a ﬁxed integer r ≥2, the
+stopping rule is to terminate as soon as one of the following conditions hold: (1) I
+and II together win r games; (2) III and IV together win r + 1 games. At the time of
+termination, let X1, X2, X3 and X4 denote the numbers of games won by I, II, III and
+IV, respectively.
+(a) Prove or disprove the statistic T = (X1 + X2, X3 + X4) is complete.
+(b) Find a uniformly minimum variance unbiased estimator of θ.
+6. A system of interest involves three random variables, X, Y , and S, where S has a
+Poisson distribution with mean 2λ, for a parameter λ > 0, and where X and Y are
+conditionally independent Bernoulli variables, given S = s, with
+P(X = 1|S = s) =
+1
+2s+1 and P(Y = 1|S = s) = θ
+2s,
+where θ ∈(0, 1) is a second parameter. The random variable S is unobservable.
+We have n i.i.d. copies (Xi, Yi) of (X, Y ).
+(a) An intuitive estimator for θ is ˆθn = ¯Yn/(2 ¯Xn), where ¯Xn = 1
+n
+Pn
+i=1 Xi and ¯Yn =
+1
+n
+Pn
+i=1 Yi. Derive its asymptotic distribution.
+(b) Consider the hypothesis testing problem
+H0 : θ = 1/2
+versus
+H1 : θ ̸= 1/2.
+Construct an exact test statistic. As θ moves away from 1/2, describe all sources
+of increasing power that you can think of.
+2

@@ -1,0 +1,14 @@
+1. Consider thefollowing initial boundary-value problem:
+ 						(a)
+1) Solving the ODE problem:
+ 									(b)
+2) Prove that all the solutions  of (b)j forms on orthornal basis of . Moreover, it is complete orthornal basis.
+3) Try to (a) by the method of separable variables.
+4) Prove the uniqueness of thus obtained solution.
+
+2. Let  be an entire function with and . Let  denote the -th iteration on . Suppose that these exist  such that  for all and all . Show that  for all .
+
+3. 1) If the restriction of  to each line in the plane is continuous, is  necessarily continuous?
+　2) Same question for differentiability(smoothness).
+　 If yes, prove; no, give example.
+　3) Same question for :

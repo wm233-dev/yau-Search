@@ -1,0 +1,77 @@
+
+=== page 1 ===
+Oral exam, applied and computational mathematics, individual, 2013
+Problem 1. Suppose A ∈Rn×n is nonsingular, u and v are two vectors.
+(a) Find condition such that A + uv⊤is invertible, in that case ﬁnd (A + uv⊤)−1.
+(b) Change the ﬁrst column of A:
+
+
+
+
+
+a11
+a21
+...
+an1
+
+
+
+
+by
+
+
+
+
+
+b1
+b2
+...
+bn
+
+
+
+
+resulting in a new matrix ¯A. Find ( ¯A)−1.
+Problem 2. A discrete surface is represented as a simplicial complex, such that each face is a Euclidean
+triangle, which is also called a triangle mesh. Suppose M = (V, E, F) is a triangle mesh, where
+V, E, F represents the set of vertices, edges and faces respectively. The Euler number of M is deﬁned
+as
+χ(M) := |V | + |F| −|E|.
+An edge is called an interior edge if it is adjacent to two faces; an edge is called a boundary edge if
+it is adjacent to only one face. A vertex is called an interior vertex, if all the edges adjacent to it are
+interior; a vertex is called a boundary vertex, if it attaches to at least one boundary edge. A triangle
+mesh is called a closed mesh, if it has no boundary edges.
+Figure 1: A discrete surface is represented as a triangle mesh.
+Suppose vi ∈V is an interior vertex on M, [vi, vj, vk] ∈F is a face on M. θjk
+i
+is the corner angle on
+the face [vi, vj, vk] with apex vi. Then the discrete Gaussian curvature at vi is deﬁned as
+K(vi) := 2π −
+X
+[vi,vj,vk]∈F
+θjk
+i .
+If vi is an boundary vertex, then the discrete Gaussian curvature at vi is deﬁned as
+K(vi) := π −
+X
+[vi,vj,vk]∈F
+θjk
+i .
+1. Suppose M is a closed triangle mesh, prove the Discrete Gauss-Bonnet theorem:
+X
+vi∈V
+K(vi) = 2πχ(M).
+1
+
+=== page 2 ===
+푣푖
+푣푗
+푣푘
+휃푗푘
+푖
+Figure 2: Discrete Gaussian curvature for an interior vertex.
+2. (optional) Suppose the faces of M are not only triangles, but also general planar polygons, prove
+the discrete Gauss-Bonnet theorem.
+3. (Optional) Suppose M is a triangle mesh with boundaries, different boundary connect compo-
+nents have no intersection, prove the discrete Gauss-Bonnet theorem.
+2

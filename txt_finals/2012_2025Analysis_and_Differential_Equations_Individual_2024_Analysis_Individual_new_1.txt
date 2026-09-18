@@ -1,0 +1,97 @@
+
+=== page 1 ===
+Individual
+Problem 1. Let ϕ : (x, y) ∈U ⊂C →(u, v) ∈C be a smooth orientation
+preserving mapping near P ∈U, i.e. det(Dϕ(P)) > 0, where
+Dϕ(P) =
+
+ux
+vx
+uy
+vy
+
+.
+Dene ϕ¯z = 1
+2(ϕx + iϕy), ϕz = 1
+2i(ϕx −iϕy). Show that:
+a) µ := |ϕ¯z|
+|ϕz|(P) < 1.
+b) Dϕ(P) maps a circle to an ellipse. µ is the ratio of length of the short axe
+with the length of the long axe.
+Problem 2. Complete the following two parts:
+(i) Consider the following Cauchy problem:
+(
+ut −(a(x)ux)x = 0
+for x ∈R, t > 0,
+u|t=0 = u0(x),
+(1)
+where a(x) ∈C2 is bounded with a(x) ≥a0 > 0.
+(a) Let u(x, t) be the solution of the Cauchy problem with the following
+initial data:
+u0(x) =
+(
+1
+for x ∈[−1, 1],
+0
+otherwise.
+Does u(x, t) have zero points on the line t =
+1
+1000? Explain your reasons.
+(b) Is it possible to prepare some bounded initial data u0(x) such that the
+solution u(t, x) becomes
+u(x, 1) =
+(
+1
+for x ∈[−1, 1],
+0
+otherwise,
+at t = 1? Explain your reasons.
+(ii) Consider the following Cauchy problem:
+(
+utt −(a(x)ux)x = 0
+for x ∈R, t > 0,
+u|t=0 = u0(x),
+ut|t=0 = 0.
+(2)
+1
+
+=== page 2 ===
+where a(x) ∈C2 is bounded with a(x) ≥a0 > 0. Let u(x, t) be the solution of
+the Cauchy problem with the following initial data:
+u0(x) =
+(
+1
+for x ∈[−1, 1],
+0
+otherwise.
+Does u(x, t) have zero points on the line t = 1000? Explain your reasons.
+Problem 3.
+Let B ⊂Rn denote the open unit ball, n ≥2.
+Assume that
+v ∈C∞(B) and u ∈C∞(B \ {0}) satisfy
+∆u = 0
+in B \ {0},
+u > 0
+∆v = 0
+in B,
+u = v
+on ∂B.
+Prove that u ≥v on B \ {0}.
+Problem 4. Let ϕ ∈C∞
+c (R) be a compactly supported smooth function.
+a) Prove that
+lim
+λ→+∞
+Z +∞
+−∞
+eiλx2ϕ(x) dx = 0.
+b) Prove that there are constants α > 0 and C > 0 such that
+∀λ ≥1,
+
+Z +∞
+−∞
+eiλx2ϕ(x) dx
+ ≤Cλ−α.
+The constant C may depend on ϕ.
+2
+in B \ {0},

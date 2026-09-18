@@ -1,0 +1,60 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Oral Exams in Geometry and Topology
+Individual (Solve 3 out of 4 problems)
+1. Show that S2 × S1 is a double cover of the connected sum RP 3#RP 3.
+2. Consider the matrix group
+G =
+
+
+
+
+
+1
+a
+b
+0
+1
+c
+0
+0
+1
+
+: a, b, c ∈R
+
+
+.
+Prove that its exponential map from its Lie algebra
+exp : G →G
+is a diﬀeomorphism. Provide a generalization and justiﬁcation of the statement.
+3. In the four-dimensional Euclidean space, consider the smooth hypersurface H
+{(x, y, z, w) | x2 + 2y2 + 3z2 + 4w2 = 1}.
+Does there exist a 3-dimensional linear subspace which intersects H along a round
+sphere? Explain.
+4. Let (M, ds2) be a closed surface. Prove that the ﬁrst nonzero eigenvalue λ1(M) of
+the Laplacian satisﬁes
+λ1(M) · Vol(M) ⩽2Vc(n, M)
+for all n where the n-conformal volume Vc(n, M) of M is deﬁned. Equality implies that
+M must be a minimal surface of the unit n-sphere Sn and the immersion is given by a
+subspace of the ﬁrst eigenspace. Here Vol(M) denotes the volume of M.
+Hint of Problem 4: Let φ : M m →Sn be a conformal map from a m-dimensional
+compact Riemannian manifold into the unit n-sphere (Sn, ds2
+0). Let G denote the group
+of conformal diﬀeomorphisms of Sn. Deﬁne
+Vc(n, φ) = sup
+g∈G
+Z
+M
+dµg = sup
+g∈G
+Z
+M
+|∇(g ◦φ)|2dµM,
+where dµg is the volume element (possibly degenerate) associated to the tensor φ∗(g∗ds2
+0).
+For any compact Riemannian manifold M, its n-conformal volume is deﬁned to be
+Vc(n, M) = inf
+φ Vc(n, φ),
+where φ runs over all non-degenerate conformal mappings of M into Sn.
+1

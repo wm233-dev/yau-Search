@@ -1,0 +1,37 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2016
+Oral Exam of Geometry and Topology
+1.
+(1) Let F : Sn →Sn be a continuous map.
+Deﬁne the degree of F and show that when F is smooth,
+degF
+Z
+Sn ω =
+Z
+Sn F ∗ω
+for all ω ∈Ωn(Sn).
+(2) Show that if F has no ﬁxed point then degF = (−1)n+1.
+2. Let n ≥0 be an integer, M be a compact smooth manifold of dimension 4n + 2,
+show that dimH2n+1(M, R) is even.
+3. Let M be a compact, simply connected smooth manifold of dimension n, prove that
+there is no smooth immersion
+f : M →T n,
+where T n is n-torus.
+4. Let a > 0 be a real number.
+Let S′(a) denote the circle obtained by identifying the end points of the interral [0, a].
+Consider the Riemannian metric deﬁned by
+r2
+µ
+1 −1
+r2
+¶
+dx2 +
+µ
+1 −1
+r2
+¶−1
+r−2dr2,
+where x ∈S′(a) and r ∈(1, ∞).
+Find the value of a such that the metric can be smoothly extended to r = 1.
+1

@@ -1,0 +1,29 @@
+
+=== page 1 ===
+Yau College Math Competition 2024
+Final Probability and Statistics
+Team Problems (June 8-9, 2024)
+Choose at least 2 of the following 3 problems.
+Problem 1. Let Xn, n = 1, 2, · · · , be independent uniform [0, 1] random variables
+and X0 = x ∈[0, 1] be a constant. Define
+N = min{n : Xn < Xn−1}.
+Find at least two different methods to evaluate E(N).
+Problem 2. Assume Y1, . . . , Yn iid from a distribution with density function f(y |
+α, β). Without knowing α, β, we can obtain the MLE ˆα, ˆβ. If we know the true
+α = α0, then we can obtain the MLE ˜β.
+(1) Show that the asymptotic variance of ˆβ is larger than or equal to that of ˜β.
+(2) Find an example that the asymptotic variance of ˆβ is strictly larger than
+that of ˜β.
+(3) Find an example that the asymptotic variance of ˆβ is equal to that of ˜β.
+Problem 3. Let A = (aij)m,n be an m-by-n matrix with iid N(0, 1) entries. We as-
+sume that m ≤n and denote the singular values of A by s1 ≥. . . ≥sm (by definition
+s2
+i ’s are eigenvalues of AA⊤). We also have the variational characterizations
+s1 =
+max
+u∈Sm−1,v∈Sn−1 u⊤Av,
+sm =
+min
+u∈Sm−1 max
+v∈Sn−1 u⊤Av.
+Provide an upper bound of Es1 and a lower bound of Esm.

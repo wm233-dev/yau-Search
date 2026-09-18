@@ -1,0 +1,23 @@
+
+=== page 1 ===
+Problems for 24/7
+1. Show that the series
+2 sin 1
+3x + 4 sin 1
+9x + · · · + 2n sin
+1
+3nx + · · ·
+converges absolutely for x ̸= 0 but does not converge uniformly on any interval (0, ϵ) with
+ϵ > 0.
+2. Suppose that f(t) ∈C(n)[0, 1]. If
+Z 1
+0
+f(t)tj dt = 0,
+j = 1, 2, . . . , n,
+prove that ∃ξ ∈(0, 1) such that f (n)(ξ) = 0.
+3. (a) Suppose that ∆= {z ∈C : |z| < 1}. Suppose f : ∆→∆is an analytic function and
+can be extended continuously to an arc I ⊂∂∆. Prove that if f|I is constant, then f
+is constant on ∆.
+(b) Can you prove a similar result if D is a Jordan domain?
+4. Let L∗denote Lebesgue outer measure. What are the (not necessarily measurable) sets
+E such that L∗(E ∩[a, b]) ≤(b −a)/2 for all intervals [a, b]?

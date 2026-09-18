@@ -1,0 +1,86 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Applied Math. and Computational Math.
+Team (5 problems)
+Problem 1. Consider the elliptic interface problem
+(a(x)ux)x = f, x ∈(0, 1)
+with the Dirichlet boundary condition
+u(0) = u(1) = 0.
+Here, f is a smooth function, the elliptic coeﬃcient a(x) is discontinuous across an
+interface point ξ, that is,
+a(x) =
+{
+a0
+for 0 < x < ξ
+a1
+for ξ < x < 1,
+a0, a1 > 0 are positive constants, and 0 < ξ < 1 is an interface point. Across the
+interface, we need to impose two jump conditions
+u(ξ−) = u(ξ+), a(ξ−)ux(ξ−) = a(ξ+)ux(ξ+).
+Question:
+1. (25%) Design a numerical method to solve this problem. The method should
+be at least ﬁrst order. It is better to be high order (if your method is ﬁrst order,
+you get 20% points).
+2. (75%) Prove your accuracy and convergence arguments (if your method is ﬁrst
+order, you get 60% points).
+Problem 2. Let G be graph of a social network, where for each pair of members there
+is either no connection, or a positive or a negative one.
+An unbalanced cycle in G is a a cycle which have odd number of negative edges.
+Traversing along such a cycle with social rules such as friend of enemy are enemy would
+result in having a negative relation of one with himself!
+A resigning in G at a vertex v of G is to switch the type (positive or negative) of all
+edges incident to v.
+Question: Show that one can switch all edge of G into positive edges using a sequence
+resigning if and only if there is no unbalanced cycle in G.
+Problem 3. We consider particles which are able to produce new particles of like kind.
+A single particle forms the original, or zero, generation. Every particle has probability
+pk (k = 0, 1, 2, . . . ) of creating exactly k new particles; the direct descendants of the
+nth generation form the (n + 1)st generation. The particles of each generation act
+independently of each other.
+1
+
+=== page 2 ===
+2
+Assume 0 < p0 < 1. Let P(x) = ∑
+k≥0 pkxk and µ = P ′(1) = ∑
+k≥0 kpk be the
+expected number of direct descendants of one particle. Prove that if µ > 1, then the
+probability xn that the process terminates at or before the nth generation tends to the
+unique root σ ∈(0, 1) of equation σ = P(σ).
+Problem 4. (Isopermetric inequality). Consider a closed plane curve described by a
+parametric equation (x(t), y(t)), 0 ≤t ≤T with parameter t oriented counterclockwise
+and (x(0), y(0)) = (x(T), y(T)).
+(a): Show that the total length of the curve is given by
+L =
+∫T
+0
+√
+(x′(t))2 + (y′(t))2) dt
+(b): Show that the total area enclosed by the curve is given by
+A = 1
+2
+∫T
+0
+(
+x(t)y′(t) −y(t)x′(t)
+)
+dt
+(c): The classical iso-perimetric inequality states that for closed plane curves
+with a ﬁxed length L, circles have the largest enclosed area A. Formulate this
+question into a variational problem.
+(d): Derive the Euler-Lagrange equation for the variational problem in (c).
+(e): Show that there are two constants x0 and y0 such that
+(x(t) −x0)2 + (y(t) −y0)2 ≡r2
+where r = L/(2π). Explain your result.
+Problem 5. Let A ∈Rn×m with rank r < min(m, n). Let A = UΣV T be the SVD of
+A, with singular values σ1 ≥σ2 ≥· · · ≥σr > 0.
+(a) Show that, for every ϵ > 0, there is a full rank matrix Aϵ ∈Rn×m such that
+||A −Aϵ||2 = ϵ.
+(b) Let Ak = UΣkV T where Σk = diag(σ1, . . . , σk, 0, . . . , 0) and 1 ≤k ≤r −1.
+Show that rank(Ak) = k and
+σk+1 = ||A −Ak||2 = min {||A −B||2
+|
+rank(B) ≤k}
+(c) Assume that r = min(m, n). Let B ∈Rn×m and assume that ||A −B||2 < σr.
+Show that rank(B) = r.

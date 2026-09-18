@@ -1,0 +1,18 @@
+
+=== page 1 ===
+S.T. YAU COLLEGE MATH COMPETITION 2014 ORAL
+EXAM
+Algebra
+Problem 1. Solve the equation x2 = x in End kn where k is a ﬁeld.
+Problem 2. Let n ≥1 be an integer. Construct a Galois extension over Q
+with Galois group Z/nZ.
+Problem 3. Let p > 3 be a prime. Consider the equation
+x3 + y3 = 1 (∗)
+in Z/pZ.
+(1) When p ≡2 (3), ﬁnd the number of solutions.
+(2) When p ≡1 (3), prove that there exists a pair (a, b) of integers such that
+(a) 4p = a2 + 27b2
+(b) a ≡1 mod 3. (Note: a is unique.)
+(3) (Continuation of (2)) When p ≡1 (3). Prove that (*) has p−2+a solution
+in Z/pZ.
+1

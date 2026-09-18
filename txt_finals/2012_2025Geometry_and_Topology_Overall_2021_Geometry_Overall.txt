@@ -1,0 +1,16 @@
+
+=== page 1 ===
+2
+S.-T. Yau College Student Mathematics Contests 2021
+Oral Exams in Geometry and Topology
+All-round (2 problems)
+1. Let Σ be a regular surface in R3, and ν be its Gauss map. Let f : Σ →(0, ∞) be a
+smooth function on Σ, and consider the set:
+ˆΣ = {p + f(p)ν(p) : p ∈Σ}.
+Show that if id + fh : TpΣ →TpΣ is invertible for all p ∈Σ, then ˆΣ is also a regular
+surface. Here h is the second fundamental form.
+2. Suppose M is a compact manifold with boundary. Glue together a pair of M’s along
+their boundaries to form a new manifold f
+M. Explain how to use a Mayer-Vietoris
+sequence to ﬁnd a relation between χ(f
+M), χ(∂M) and χ(M).

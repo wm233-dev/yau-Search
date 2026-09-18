@@ -1,0 +1,510 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests
+2022
+Mathematical Physics
+说明：Solve every problem
+1
+Problems
+1.
+(a) A symmetry transformation in quantum mechanics is represented by
+a unitary or anti-unitary operator acting on a Hilbert space. The
+time reversal transformation Θ relates the wave function at time t to
+time −t. Prove: Θ is an anti-unitary operator.
+(5 points) solution: We have the evolution operator U(t, 0) = e−iHt/¯h,
+and so we have
+|ψ, t⟩= U(t, 0)|ψ, 0⟩
+Here |ψ, 0⟩is the state at t = 0.
+If a system is invariant under
+time-reversal symmetry, then its evolution operator satisﬁes
+Θ−1U(t, 0)Θ = U †(t, 0)
+Inﬁnitesimally, we have
+(1 −itH/¯h)Θ = Θ(1 + itH/¯h)
+and
+(−itH/¯h)Θ = Θ(itH/¯h)
+We have: if Θ is a Unitary operator, then HΘ = −ΘH, this is con-
+tradictory as if |n⟩is an energy state with eigenvalue En, then Θ|n⟩
+would be an energy eigenstate with energy −En, this is contradictory
+even for the free particle. So Θ would be an anti-Unitary operator.
+(b) Consider state vector |ψ⟩for a quantum system.
+A time reversal
+transformation is represented by an anti-unitary operator Θ. We now
+consider position space wavefunction ψ(x) = ⟨x|ψ⟩, and Θ|x⟩= |x⟩.
+Prove: the position space wave function for Θ|ψ⟩is
+ψ(x)∗
+(5 points) solution: The state |ψ⟩can be expanded using the posi-
+tion eignenstate |x⟩as follows
+|ψ⟩=
+Z
+dx|x⟩⟨x|ψ⟩
+Then we have (using the anti-unitary property of Θ)
+Θ|ψ⟩= Θ(
+Z
+dx|x⟩⟨x|ψ⟩) =
+Z
+dx(⟨x|ψ⟩)∗Θ|x⟩=
+Z
+dx(⟨x|ψ⟩)∗|x⟩
+so Θ|ψ⟩has position wave function ⟨x|ψ⟩)∗= ψ(x)∗.
+1
+
+=== page 2 ===
+(c) A one dimensional quantum system is invariant under time reversal
+transformation, and so its Hamiltonian satisﬁes ΘH = HΘ. If an
+energy eigenstate |ψ⟩has no degeneracy, Prove: it is possible to take
+the position space energy eigenfunction to be real:
+ψ(x)∗= ψ(x)
+(5 points) solution: For an energy eigenstate |n⟩, so H|n⟩= En|n⟩.
+Then Θ|n⟩is an energy eigenstate with energy En. Since En has no
+denegeracy, |n⟩and Θ|n⟩has to be linearly dependent, namely there
+is a complex number λ such that
+Θ|n⟩= λ|n⟩
+Since the wave function for Θ|n⟩is ψ(x)∗, we have the equation
+ψ∗(x) = λψ(x)
+Since the wave function has the freedom of multiplying a complex
+number with |λ| = 1, we can use this freedom to choose the wave
+function to be real.
+2. Consider following quantum Hamiltonian:
+H0 = p2
+1
+2m + 1
+2mω2x2
+1 + p2
+2
+2m + 1
+2mω2x2
+2
+This is the Hamiltonian for two decoupled harmonic oscillators.
+(a) Calculate the eigenstates and eigenvalues for H0 (an energy eigen-
+state could be labeled as |n1, n2⟩).
+(5 points) Solution: Deﬁne operators
+a1 =
+rmw
+2¯h x1 + i
+r
+1
+2¯hwmp1 , a†
+1 =
+rmw
+2¯h x1 −i
+r
+1
+2¯hwmp1,
+a2 =
+rmw
+2¯h x2 + i
+r
+1
+2¯hwmp2,
+a†
+2 =
+rmw
+2¯h x2 −i
+r
+1
+2¯hwmp2
+they satisfy the nontrivial commutation relation
+[a1, a†
+1] = 1,
+[a2, a†
+2] = 1
+The Hamiltonian becomes
+H0 = ¯hw(a†
+1a1 + a†
+2a2 + 1)
+The eigenstates are found by starting with a state |0, 0⟩which satisﬁes
+the condition
+a1|0, 0⟩= 0,
+a2|0, 0⟩= 0
+2
+
+=== page 3 ===
+An energy eigenstate is formed by the state
+|n1, n2⟩= (a†
+1)n1
+√n1!
+(a†
+2)n2
+√n2! |0, 0⟩
+and the energy is given as
+(n1 + n2 + 1)¯hω
+(b) Assume the creation and annihilation operators for two harmonic
+oscillators are a†
+i, ai, i = 1, 2. Deﬁne following operators
+J+ = a†
+1a2,
+J−= a†
+2a1,
+Jz = 1
+2(a†
+1a1 −a†
+2a2)
+i. Prove that: [Jz, J±] = ±J±,
+[J+, J−] = 2Jz.
+(5 points) Solution: Using the commutation relation
+[a1, a†
+1] = 1,
+[a2, a†
+2] = 1
+to directly verify the commutation relation.
+ii. Consider one eigenvalue En of H0, (here n1 + n2 = n). Prove
+that: all eigenstates of En form an irreducible representation of
+su(2) Lie algebra, and compute the spin.
+(5 points) Solution: The energy eigenstates of En has degener-
+acy n + 1, which form a space Mn on which there is a su(2) lie
+algebra action, with the operators Jz, J±. Consider an energy
+eigenstate |n1, n2⟩, we have
+Jz|n1, n2⟩= 1
+2(a†
+1a1 −a†
+2a2)(a†
+1)n1(a†
+2)n2|0, 0⟩
+= 1
+2(n1 −n2)|n1, n2⟩
+so |n1, n2⟩is the eigenstate of Jz with eigenvalue 1
+2(n1−n2). The
+maximal eigenvalue is n
+2 , and the minimal eigenvalue is −1
+2(n).
+So it forms a spin n
+2 representation.
+(c) Consider following perturbed Hamiltonian (λ is small)
+H = H0 + λx2
+1p2
+2
+Compute the ﬁrst order correction to the energy for the energy level
+n1 + n2 = 2.
+(10 points) Solution: There are a total of three states α1 = |0, 2⟩, α2 =
+|1, 1⟩, α3 = |2, 0⟩for n = 2. We need to compute the three by three
+matrix
+⟨n1, n2|x2
+1p2
+2|n
+′
+1, n
+′
+2⟩
+3
+
+=== page 4 ===
+and then compute the eigenvalues of this matrix. Since x1 and p2
+commute, and so
+⟨n1, n2|x2
+1p2
+2|n
+′
+1, n
+′
+2⟩= ⟨n1|x2
+1|n
+′
+1⟩⟨n2|p2
+2|n
+′
+2⟩
+Next, using the expansion in creation of annihilation operators:
+x2
+1 =
+¯h
+2mw(a2
+1+(a†
+1)2+a1a†
+1+a†
+1a1), p2
+2 =
+¯h
+2mw(a2
+2+(a†
+2)2−a2a†
+2−a†
+2a2)
+The nonzero matrix element for x2
+1 is ⟨0|x2
+1|2⟩, ⟨0|x2
+1|0⟩, ⟨1|x2
+1|1⟩, ⟨2|x2
+1|2⟩
+(and conjugate), and their values are (we ignore the factor
+¯h
+2mw)
+⟨0|x2
+1|2⟩=
+√
+2,
+⟨0|x2
+1|0⟩= 1, ⟨1|x2
+1|1⟩= 3, ⟨2|x2
+1|2⟩= 5
+similarly the nonzero matrix element for p2
+2 is ⟨0|p2
+2|2⟩, ⟨0|p2
+2|0⟩, ⟨1|p2
+2|1⟩, ⟨2|p2
+2|2⟩
+(and conjugate), and their values are
+⟨0|p2
+2|2⟩=
+√
+2,
+⟨0|p2
+2|0⟩= −1, ⟨1|p2
+2|1⟩= −3, ⟨2|p2
+2|2⟩= −5
+So the non-zero matrix element is
+⟨0, 2|x2
+1p2
+2|2, 0⟩,
+⟨0, 2|x2
+1p2
+2|0, 2⟩, ⟨1, 1|x2
+1p2
+2|1, 1⟩, ⟨2, 0|x2
+1p2
+2|2, 0⟩,
+and the matrix is given as
+
+
+−5
+0
+2
+0
+−9
+0
+2
+0
+−5
+
+
+The eigenvalue of above matrix is given as λ1 = −9, λ2 = −7, λ3 =
+−3.
+3. A Killing vector ﬁeld kµ
+∂
+∂xµ satisﬁes the equation kλ∂λgµν + ∂µkλgλν +
+∂νkλgλµ = 0.
+(a) Prove: Dµkν + Dνkµ = 0, here Dµ is the covariant derivative.
+(5 points) Solution: By deﬁnition
+Dµkν + Dνkµ = ∂µkν −Γρ
+µνkρ + ∂νkµ −Γρ
+µνkρ
+Since the connection is given as
+Γρ
+µν = 1
+2gρσ(∂µgνσ + ∂νgµσ −∂σgµν)
+The above equation simpliﬁes
+Dµkν + Dνkµ = ∂µkν + ∂νkµ −kρgρσ(∂µgνσ + ∂νgµσ −∂σgµν)
+= ∂µkν + ∂νkµ −kσ(∂µgνσ + ∂νgµσ −∂σgµν)
+= ∂µ(kσgνσ) + ∂ν(kσgµσ) −kσ(∂µgνσ + ∂νgµσ −∂σgµν)
+= gνσ∂µkσ + gµσ∂νkσ + kσ∂σgµν
+= 0
+In the last line, we use the deﬁnition of Killing vector ﬁeld.
+4
+
+=== page 5 ===
+(b) For a moving particle in gravitational background with a Killing vec-
+tor ﬁeld, Prove: kµPµ is a conserved quantity, Here Pµ = m dxν
+dτ gµν
+is the momentum for the free falling particle with trajectory xν(τ).
+(10 points) Solution: We need to verify
+d
+dτ (kµPµ) = 0
+Substitute the deﬁnition of Pµ, we need to compute
+d
+dτ (kµ ˙xνgµν) = d
+dτ (kµ ˙xµ) = ˙xρ∂ρ(kµ ˙xµ)
+= ˙xρ ˙xµDρ(kµ) + ˙xρkµDρ ˙xµ
+The ﬁrst term is vanishing due to the fact Dρkµ = −Dµkρ, which is
+valid because kµ is the Killing vector ﬁeld. The second term vanishes
+by using the equation of motion for the free falling particle
+d
+dτ ˙xµ −Γµ
+ρσ ˙xρ ˙xσ = 0 →
+˙xρDρ ˙xµ = 0
+4. Consider following metric
+ds2 = −(1 −2M
+r )dv2 + drdv + r2dΩ2
+Here dΩ2 is the standard metric on two sphere. Consider the hypersurface
+deﬁned by S = r −2M = 0, and a vector ﬁeld l = ˜f(x)(gµν∂νS)
+∂
+∂xµ , here
+˜f(x) is a non-zero function. Prove:
+(a) l is normal to the surface S.
+(5 points) Solution: In the particular metric, l = ˜f(x) ∂
+∂v The tan-
+gent space for S is generated by the vector (∂v, ∂θ, ∂φ). We have the
+inner product
+g( ˜f(x) ∂
+∂v , ∂v) ∝gvv = (1−2M
+r ), g( ˜f(x) ∂
+∂v , ∂vθ) = 0, g( ˜f(x) ∂
+∂v , ∂φ) = 0
+On S, we have r = 2M, so l is normal to the tangent space of S.
+(b) l2 = 0 on the surface S.
+(5 points) Solution: Direct computation:
+l2 = g( ˜f(x) ∂
+∂v , ˜f(x) ∂
+∂v ) = ˜f(x)2gvv = ˜f(x)2(1 −2M
+r )
+on S, we have r = 2M, and so l2 = 0.
+5
+
+=== page 6 ===
+(c)
+∂
+∂v is a Killing vector ﬁeld.
+(5 points) Solution:
+Using the deﬁnition of Killing vector ﬁeld
+kλ∂λgµν + ∂µkλgλν + ∂νkλgλµ = 0.
+For the vector ﬁeld
+∂
+∂v, only
+the component kv = 1 which is constant, other components are zero,
+so the Killing equation becomes
+kλ∂λgµν = kv∂v(gµν)
+Since the coeﬃcient of the metric do not depend on v, the above
+equation is zero.
+5. The energy momentum tensor for a relativistic quantum ﬁeld theory is
+denoted as θµν, which is symmetric and conserved.
+(a) Deﬁne new current sµ = xνθµν and Kλµ = x2θλµ −2xλxρθρµ. Com-
+pute ∂µsµ and ∂µKλµ, and explain the condition on θµν so that these
+new currents are conserved.
+(5 points) solution: Direct computation
+∂µsµ = θµ
+µ,
+∂µKλµ = −2xλθµ
+µ
+These new currents are conserved if θ is traceless θµ
+µ = 0.
+(b) Consider a scalar ﬁeld σ(x) which transforms under a scale transfor-
+mation as
+δσ = xλ∂λσ + f −1
+we have following Lagrangian
+L = Ls −µ2
+0
+2 φ2e2fσ +
+1
+2f 2 ∂µefσ∂µefσ
+The inﬁnitesimal scale transformation on scalar ﬁeld φ is δφ = (1 +
+xλ∂λ)φ. Here Ls is scale invariant part of the Lagrangian. Prove
+that: the above Lagrangian is scale invariant.
+(10 points) solution: We have
+δL = δLs −µ2
+0δφφe2fσ −µ2
+0
+2 φ2e2fσ2fδσ + 1
+f 2 ∂µ[efσfδσ]∂µefσ
+substitute
+δφ = (1 + xλ∂λ)φ,
+δσ = xλ∂λσ + f −1
+and using δLs = 0, we have
+δL = −µ2
+0e2fσφ(1 + xλ∂λ)φ −(µ2
+0)φ2e2fσf(xλ∂λσ + f −1)
++ 1
+f 2 ∂µ[efσf(xλ∂λσ + f −1)]∂µefσ
+= (4 + xλ∂λ)(−1
+2µ2
+0φ2e2fσ +
+1
+2f 2 ∂µefσ∂µefσ]
+Here we assume the theory is a 4d theory, and so by integrating by
+parts, the above Lagrangian is scale invariant.
+6
+
+=== page 7 ===
+(c) Explain why a classically scale invariant Lagrangian for a quantum
+ﬁeld theory may fail to be scale invariant quantum mechanically.
+(5 points) solution: For the perturbative quantum ﬁeld theory, to
+deal with divergence of loop diagrams, one need to do regularization
+and renormalization. In doing regularization, we introduce a scale
+which could spoil the classical scale invariance.
+This happens for
+four dimensional λφ4 theory. It might be possible that one can ﬁnd a
+regularization and renormalization scheme such that scale invariance
+is preserved quantum mechanically, this happens for four dimensional
+N = 4 supersymmetric ﬁeld theory.
+6. Consider following Lagrangian for N scalar ﬁelds φa, a = 1, . . . , N:
+L = 1
+2∂µφa∂µφa −1
+2µ2
+0φaφa −1
+8λ0(φaφa)2
+Here the repeated index implies the summation over the index.
+(a) Write down the propagator and interaction vertex for this model, and
+write down four point Feynman diagrams up to one loop level.
+(5 points) solution: See ﬁgure.
+a
+a
+a
+a
+b
+b
+a
+a
+b
+b
+a
+a
+b
+b
+c
+c
+a
+b
+a
+b
+b
+a
+(b) Deﬁne g0 = λ0N, and compute the order in g0 and N for all the
+diagrams listed in last question. If we ﬁx the coupling g0, and let N
+go to inﬁnity, list the leading order Feynman diagrams in
+1
+N .
+(5 points) solution:
+The ﬁrst diagram has order λ0 = g0
+N , and the second diagram has
+order (λ0)2 × N, notice that there is an extra factor of N due to the
+summation of internal scalar of type c, and so the order is
+g2
+0
+N2 ∗N =
+g2
+0
+N . The third diagram has order λ2
+0 =
+g2
+0
+N2 , and notice that here the
+type of internal scalar is ﬁxed, so there is no summation.
+7
+
+=== page 8 ===
+a
+a
+b
+b
+a
+a
+b
+b
+c
+c
+a
+b
+a
+b
+b
+a
+1)
+λ0
+2)
+3)
+λ0
+λ0
+λ0
+λ0
+By ﬁxing g0, and in the large N limit, the ﬁrst and second diagram
+is of
+1
+N order.
+8

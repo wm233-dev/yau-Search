@@ -1,0 +1,2060 @@
+==========================================================================================
+SUBDIR ExamPaper_21S : ['algebra_and_numbertheory_21s.pdf', 'analysis_and_differential_21s.pdf', 'computational_and_applied_21s.pdf', 'geometry_and_topology_21s.pdf', 'probability_and_statistics_21s.pdf']
+################################################################################
+## algebra_and_numbertheory_21s.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Algebra and Number Theory
+Solve every problem.
+Problem 1.
+For any prime p and a nonzero element a ∈Fp, prove that the polynomial A(x) = xp −x −a
+is irreducible and separable over Fp.
+Problem 2. Determine the automorphism group of the splitting ﬁeld of f (x) = x3 −3x + 1 over Q.
+Problem 3. Let R = F[x, y]/(x2 −y3) for some ﬁeld F.
+(a) Prove that R is an integral domain.
+(b) If t denotes the element x/y in the fraction ﬁeld K of R, prove that K is equal to F(t).
+(c) Prove that F[t] is the integral closure of R in K = F[t].
+Problem 4. Let p1,. . ., pn be n distinct prime numbers. Show: √p1 + · · · + √pn is not rational.
+Problem 5. Find all integral solutions (x, y) for the equation x2 + 13 = y3. (Hint: You can use the fact that
+Q(
+√
+−13) has class number 2).
+Problem 6.
+Let p be a prime number and Qp be the ﬁeld of p-adic numbers. Fix an algebraic closure Qp
+of Qp. Let g: Z≥0 →N be a strictly increasing function. For each i ∈Z≥0, pick a primitive (pg(i) −1)-th
+root of unity ζi in Qp.
+(a) Show that for each i ≥0, Ki B Qp(ζi) is an unramiﬁed Galois extension of Qp of degree g(i).
+(b) Give an explicit function g as above such that Ki−1 ⊂Ki for all i > 0. Let 0 = N0 < N1 < N2 · · ·
+be an increasing sequence of nonnegative integers. Let αi B Íi
+j=0 ζjpNj. Show that for each i ≥0,
+Ki = Qp(αi) and that (αi) is a Cauchy sequence in Qp.
+(c) Let η ∈Qp be of degree g over Qp, prove that there exists M ∈N such that ζi does not satisfy any
+congruence
+sg−1ηg−1 + sg−2ηg−2 + · · · + s1η + s0 ≡0
+(mod pM)
+in which the si’s are p-adic integers not all of which are divisible by p.
+(d) Take a suitable sequence (Ni) as above such that (ai) does not converge in Qp. Conclude that Qp is
+not complete with respect to the p-adic topology.
+################################################################################
+## analysis_and_differential_21s.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Prove that f (x) ≡0 is the only solution in L2(Rn) such that
+△f = 0.
+Problem 2. Let X ⊂C ([0,1]) be a ﬁnite dimensional linear subspace of the space of real-valued continuous
+functions on [0,1]. Show that, for a sequence of functions { fk}k⩾1 ⊂X, if it converges pointwise, it converges
+uniformly.
+Problem 3.
+(a) For f ∈L1(Rn), g ∈L∞(Rn), show that their convolution f ∗g is a well-deﬁned continuous function.
+(b) Let E ⊂Rn be a Lebesgue measurable set with Lebesgue measure m(E) > 0. Prove that
+E −E :=
+
+x −y
+ x ∈E, y ∈E
+	
+contains an open neighborhood of 0 ∈Rn.
+Problem 4.
+Assume that P is a polynomial with complex coeﬃcients. Prove that there exists inﬁnitely
+many solutions of the following equations on C:
+ez = P(z).
+Problem 5.
+Let f be a bounded holomorphic function deﬁned on B =
+
+z
+ 0 < Re(z) < 1
+	
+that can be
+extended as a continuous function on B. Let
+A0 =
+sup
+Re(z)=0
+| f (z)| > 0, A0 =
+sup
+Re(z)=1
+| f (z)| > 0.
+Prove that for all z ∈B, we have
+| f (z)| ⩽(A0)1−Re(z)(A1)Re(z).
+Problem 6.
+Assume that Ω⊂Rn is a bounded domain with smooth boundary. Prove that there exists a
+positive constant ε0 so that for all real numbers ε < ε0, for all f ∈L2(Ω), there exist a unique u ∈H1
+0(Ω) so
+that
+−△u + ε sin(u) = f
+in the sense of distributions.
+################################################################################
+## computational_and_applied_21s.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1.
+(a) Show that
+Tn(x) = cos(n arccos x),
+x ∈[−1,1],
+is a polynomial of degree n with extrema at
+xk = cos
+
+k π
+n
+
+,
+k = 0,1,. . .,n
+and leading coeﬃcient 2n−1.
+(b) Show that if f ∈Cn+1[−1,1] and if P(x) is the polynomial with degree at most n that interpolates f
+at xk, k = 0,1,. . .,n then
+∥f (x) −P(x)∥∞≤
+1
+2n−1(n + 1)!
+ f n+1
+∞.
+Problem 2.
+Let S(x) be a cubic spline with knots {ti}n
+i=0. If it is determined that S(x) is linear over [t1,t2]
+and [t3,t4]. Prove that S(x) is also linear over [t2,t3].
+Problem 3. Let f : R →R be deﬁned by f (x) = 2x −cos x.
+(a) Prove that the equation f (x) = 0 has a unique solution x∗∈R that lies in the interval (1
+4, 1
+2).
+(b) Prove that the sequence deﬁned by the ﬁxed point iteration
+x0,
+xn = 1
+2 cos xn−1,
+n = 1,2,. . .
+converges to x∗with any initial guess x0.
+(c) For the ﬁxed point iteration in (b) with x0 = π
+6 , determine an n that guarantees |xn −x∗| < 1
+2 × 10−8.
+For the ﬁxed point iteration in (b) with x0 = 20, determine an n that guarantees |xn −x∗| < 1
+4.
+Problem 4. Let matrix A ∈Rm×n with m ≥n and r = rank(A) < n, and assume A has the following SVD
+decomposition
+A = [U1,U2]
+Σ1
+0
+0
+0
+
+[V1,V2]T = U1Σ1VT
+1 ,
+where Σ1 is r × r nonsingular and U1 and V1 have r columns. Let σ = σmin(Σ1), the smallest nonzero
+singular value of A. Consider the following least square problem, for some b ∈Rm,
+min
+x∈Rn ∥Ax −b∥2 .
+---- page 2 ----
+(a) Show that all solutions x can be written as
+x = V1Σ−1
+1 UT
+1 b + V2z2,
+with z2 an arbitrary vector.
+(b) Show that the solution x has minimal norm ∥x∥2 precisely when z2 = 0, and in which case,
+∥x∥2 ≤∥b∥2
+σ .
+Problem 5. Consider the family of semi-implicit Runge-Kutta methods
+k1 = f (yn + βhk1),
+k2 = f (yn + hk1 + βhk2),
+yn+1 = yn + h
+
+( 1
+2 + β)k1 + (1
+2 −β)k2
+
+.
+(a) Determine the order and the principal part of the local truncation error.
+(b) Show that if β > 1
+2, then the negative real axis {z : Re(z) < 0,Im(z) = 0} is contained in the region of
+absolute stability of the method.
+Problem 6. Consider the Beam equation from mechanics with boundary conditions that model a cantilever
+beam:
+u(4) = f (x),
+x ∈(0, 1),
+u(0) = u′(0) = u′′(1) = u′′′(1) = 0.
+(1)
+(a) Recast this equation into a variational problem, stating the trial and test function spaces.
+(b) Interpret the variational problem as an energy minimization problem, clearly stating the energy
+functional. Prove that the variational problem and the energy minimization problems are equivalent.
+(c) Develop a CG(3) (cubic continuous Galerkin method) ﬁnite element method for this problem.
+(d) Prove an a priori error estimate for this method in the energy norm:
+∥e∥E =
+ ∫1
+0
+(e′′)2dx
+ 1
+2
+,
+Where e = u(x) −U(x), in which, u(x) is the exact solution to VP (variational problem), U(x) is the
+FEM (ﬁnite element method) solution.
+(e) Prove an a priori error estimate for this method in the L2 norm:
+∥e∥L2 =: ∥e∥=
+ ∫1
+0
+e2dx
+ 1
+2
+.
+################################################################################
+## geometry_and_topology_21s.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Geometry and Topology
+Solve every problem.
+Problem 1.
+(a) Show that P2n can not be the boundary of a compact manifold.
+(b) Show that P3 is the boundary of some compact manifold.
+Problem 2. Suppose M is a noncompact, complete n-dimensional manifold, and suppose there is an open
+subset U ⊂M and an open set V ⊂Rn such that M\U is isomorphic to Rn\V. If RicM ≥0, show that M is
+isometric to Rn.
+Problem 3. Compute all the homotopy groups of the n-torus T n = S1 × S1 × · · · × S1, n ≥2.
+Problem 4.
+Consider the upper half space H3 = {(x, y, z) | z > 0} equipped with hyperbolic metric
+g = dx2 + dy2 + dz2
+z2
+. Let P be the surface deﬁned by {z = x tan α, z > 0} for some α ∈(0, π
+2 ). Compute
+the mean curvature of P.
+Problem 5. Suppose M is a compact 2-dimensional Riemannian manifold without boundary, with positive
+sectional curvature. Show that any two compact closed geodesics on M must intersect with each other.
+Problem 6.
+Suppose Σ is a smooth compact embedded hypersurface (i.e. a codimension 1 submanifold)
+without boundary in Rn for n ≥3. Show that Σ is orientable.
+################################################################################
+## probability_and_statistics_21s.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Probability and Statistics
+Solve every problem.
+Part I: Probability
+Problem 1.
+Suppose that a sequence {Xn} of real-valued random variables converges to X in distribution
+and there are positive constants r and C such that E|Xn|r ≤C for all n. Show that
+lim
+n→∞E|Xn|s = E|X|s
+for all 0 < s < r.
+Problem 2.
+Let p(x, y) be the (one-step) transition function of a Markov chain on a discrete state space S
+and pn(x, y) be the n-step transition function. Show that for any positive integers L and N and any two states
+x and y we have
+N+L
+Õ
+n=L
+pn(x, y) ≤
+N
+Õ
+n=0
+pn(y, y).
+Problem 3.
+Let {Xn} be an independent, identically distributed sequence of random variables with the
+symmetric Bernoulli distribution
+P {X = 1} = P {X = −1} = 1
+2.
+Let Sn =
+N
+Õ
+i=1
+Xi be the partial sum. Show that for all α > 1
+2,
+P
+
+lim
+n→∞
+Sn
+nα = 0
+
+= 1.
+Problem 4.
+Let Xn =
+
+Xij
+	
+be an n × n random matrix whose entries are independent and identically
+distributed random variables with the symmetric Bernoulli distribution
+P {X = 0} = P {X = 1} = 1
+2.
+Let pn = P {det XN is odd}. Show that lim
+n→∞pn > 0.
+Part II: Statistics
+Problem 5. You have been asked to help design a randomized trial of a new drug, call it drug A, to be used
+in place of the current drug, call it drug B, for a particular medical condition. The budget is ﬁxed to have
+1000 patients treated with A and 1000 treated with drug B. The issue is how to do the allocation of patients,
+because we have many pre-randomization measurements on each patient, roughly 200, such as blood pressure
+---- page 2 ----
+recordings, age, sex, and a large collection of genetics measurements. Obviously it is desirable to have the
+A group similar to the B group with respect to all pre-treatment covariates and non-linear functions of them
+that are expected to inﬂuence the eﬀectiveness of the drugs with respect to the outcome variables.
+Complete (or simple) randomization does this in expectation, but with many covariates, some covariates will
+not be balanced between the A and B groups in any one single randomized allocation. Standard blocking
+used in traditional experimental design can force balance on a few covariates, but the designer of drug A
+wants to have an experimental design that creates balance on many covariates, and feels that you, as a modern
+applied mathematician/statistician, should be able to do this.
+Describe a class of methods that achieves this goal where each patient has a positive probability of receiving
+drug A and a positive probability of receiving drug B. Provide enough detail that you are describing an
+explicit algorithm.
+Problem 6. You are given the results of a randomized experiment of two drugs, A and B. The experiment
+was not conducted in the usual way, however, but rather by allocating patients by a machine-learning
+algorithm under which each patient has a positive probability of receiving A and of receiving B; moreover
+the algorithm is completely speciﬁed and is built to create better than random balance on the covariates.
+(a) Can unbiased estimates of the causal eﬀect of drug A versus B be found, and if so, show why.
+(b) Can exact small sample, non-parametric inferences for the causal eﬀect in part (a) be derived, based
+solely on the randomization distribution of some statistic? For example, can we ﬁnd exact signiﬁcance
+levels under a sharp null hypothesis? If so, outline how to accomplish this goal.
+==========================================================================================
+SUBDIR Solution_21S : ['algebra_and_numbertheory_21s_soln.pdf', 'analysis_and_differential_21s_soln.pdf', 'computational_and_applied_21s_soln.pdf', 'geometry_and_topology_21s_soln.pdf', 'probability_and_statistics_21s_soln.pdf']
+################################################################################
+## algebra_and_numbertheory_21s_soln.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Algebra and Number Theory
+Solve every problem.
+Problem 1.
+For any prime p and a nonzero element a ∈Fp, prove that the polynomial A(x) = xp −x −a
+is irreducible and separable over Fp.
+Solution:
+First of all, A(x) is separable because A′(x) = −1 is non-zero. Second, A(x) has no root in Fp, since
+A(b) = bp−b−a = −a for any b ∈Fp. Notice that A(x+a) = (x+a)p−(x+a)−a = xp+ap−x−a−a = xp−x−a = A(x).
+Therefore, by iteration, we see that A(x + ba) = A(x) for all b = 1,2,. . .. As b runs over all positive integers, ba runs
+over Fp. This means that in the splitting ﬁeld K of A(x) over Fp, if a is a root, then, so is a + k, k ∈Fp. It follows that
+A(x) =
+p−1
+Ö
+k=0
+(x −a −k).
+If A(x) is not irreducible over Fp, then there existr(x), s(x) ∈Fp[x] such that A(x) = r(x)s(x) and 0 < d = deg r(x) < p.
+Being a divisor of A(x), r(x) has the form
+r(x) =
+Ö
+k∈J
+(x −a −k),
+for some subset J ⊂Fp. The coeﬃcient of xd−1 of r(x) is the negative of the sum of all roots of r(x), hence it is equal
+to
+Õ
+i∈J
+(a + i) = da +
+Õ
+i∈J
+i ∈Fp.
+Then, a ∈Fp, a contradiction.
+Problem 2. Determine the automorphism group of the splitting ﬁeld of f (x) = x3 −3x + 1 over Q.
+Solution:
+f (x) is irreducible over Z (hence over Q as well). To see this we reduce mod 2 and evaluate: f (0) =
+1, f (1) = 1.
+Next, f ′(x) = 3x2 −3 is positive outside the interval (−1,1) and negative in the interval (−1,1). Since f (−1) = 3
+and f (1) = 1, we see that there are three real roots, denoted a1,a2 and a3. Since f (x) is irreducible of degree 3,
+dimQ Q(ai) = 3. Let K denote the splitting ﬁeld of f (x). Thus, K is either degree 6 over Q, or it is degree 3 over Q.
+In the latter case the automorphism group is cyclic group of order 3. Let us prove that the former case is not possible.
+In fact, in the former case the automorphism group G = AutQK = S3, the symmetric group on 3 letters. We let σ be
+the automorphism that maps a1 to a3, a3 to a1 and a2 to a2. Write f (x) = (x −a1)(x −a2)(x −a3). By taking the
+derivative of f (x) and substituting ai into this equation gives
+(a1 −a2)(a1 −a3) = 3a2
+1 −3,
+(a2 −a1)(a2 −a3) = 3a2
+2 −3,
+(a3 −a1)(a3 −a2) = 3a2
+3 −3.
+Take the product of the above three equations and then take the square roots, we have
+Ö
+1≤i<j ≤3
+ ai −aj
+ = 9.
+Then apply the permutation σ to the above, the left is sent to its negative, but 9 is obviously ﬁxed by σ. Therefore,
+σ cannot be in G.
+It follows that the automorphism group G must be the cyclic group of order 3.
+Moreover,
+Q(a1) = Q(a1,a2,a3).
+---- page 2 ----
+Problem 3. Let R = F[x, y]/(x2 −y3) for some ﬁeld F.
+(a) Prove that R is an integral domain.
+(b) If t denotes the element x/y in the fraction ﬁeld K of R, prove that K is equal to F(t).
+(c) Prove that F[t] is the integral closure of R in K = F[t].
+Solution:
+(a) To prove x2 −y3 is irreducible, it suﬃces to show that it is irreducible in F(y)[x]. Since it is a quadratic
+polynomial in x over F(y), it is reducible if and only if it has a root in F(y). Suppose f (y)/g(y) is a root, where
+f (y) and g(y) are co-prime. But, ( f (y)/g(y))2 −y3 = 0 implies f (y)2 = y3g(y)2. Thus, an irreducible factor
+of g(y) divides f (y)2, hence divides f (y), a contradiction. This implies the ideal generated by x2 −y3 is prime
+since F[x, y] is a UFD. Hence, R is an integral domain.
+(b) Since x2 = y3 in R, we have y = (x/y)2 = t2 in K. Also, x = yx/y = yt = t3. Thus, any element f (x, y) ∈R
+is a polynomial in t in K. Therefore, any element f (x, y)/g(x, y) ∈K belongs to F(t). On the other hand,
+F(t) ⊂K, hence K = F(t).
+(c) Let h(t) ∈F[t] ⊂F(t). Replacing t2 by y and t3 by x (from (b)), we have h(t) = at+g(x, y) for some g(x, y) ∈R.
+Then, we have (h(t) −g(x, y))2 = (at)2 = a2y. Thus, h(t) is a root of X2 −2g(x, y)X + g(x, y)2 −a2y2 ∈R[X].
+This implies that F[t] is integral over R. Suppose now that h(t) ∈F(t) is integral over R. Then h(t) is also
+integral over F[t]. But, F(t) is the fraction ﬁeld of F[t] and F[t] is a UFD, hence F[t] is integrally closed.
+Therefore, h(t) ∈F[t].
+Problem 4. Let p1,. . ., pn be n distinct prime numbers. Show: √p1 + · · · + √pn is not rational.
+Solution:
+It suﬃces to show [Q(√p1,. . .,√pn) : Q] = 2n (this implies that the 2n numbers 1,√pα1 · · · pαk
+(1 ≤α1 < · · · < αk ≤n) are linear independent over Q). We show the following stronger result:
+Lemma: Suppose K is a ﬁeld with characteristic 0, and {x1,. . ., xn} ⊂K is a subset such that the product of elements
+of any non-empty subset of {x1,. . ., xn} is not a square in K. Then [K(√x1,. . .,√xn) : K] = 2n.
+We prove the lemma by induction on n. The case n = 1 is trivial. Suppose n = 2 and we aim to show [K(√x1,√x2) :
+K] = 4. Since we have [K(√x1) : K] = 2, it suﬃces to prove [K(√x1,√x2) : K(√x1)] = 2. We only need to prove
+√x2 < K(√x1). If not, then √x2 = a + b√x1 with a, b ∈K. Since √x1 < K, we have b , 0. Then a2 = (√x2 −b√x1)2
+implies that √x1x2 ∈K, which is a contradiction. We conclude the lemma for n = 2.
+Now suppose n ≥3 andsupposeforsmaller n thelemmaholds. Bytheinductionassumption, wehave[K(√x3,. . .,√xn) :
+K] = 2n−2.
+Denote L = K(√x3,. . .,√xn).
+Then we only need to show [L(√x1,√x2) : L] = 4.
+It suﬃces to
+prove √x1,√x2,√x1x2 < L.
+Suppose one of √x1,√x2,√x1x2, say y, belong to L.
+Then L(y) = L, which im-
+plies that [K(y,√x3,. . .,√xn) : K] = 2n−2.
+But on the other hand, by the induction-assumption, we must have
+[K(y,√x3,. . .,√xn) : K] = 2n−1, a contradiction!
+Problem 5. Find all integral solutions (x, y) for the equation x2 + 13 = y3. (Hint: You can use the fact that
+Q(
+√
+−13) has class number 2).
+Solution: The only solutions are (x, y) = (±70,17).
+Suppose x2 + 13 = y3 has integral solution (x, y). We may ﬁrst assume x, y are positive. It is easy to see that
+gcd(x, y) = 1. If y is even, then x is odd and x2 + 13 ≡6 (mod 8). But y3 ≡0 (mod 8). This is impossible. Therefore,
+x is even and y is odd.
+In Z[
+√
+−13] we have (x+
+√
+−13)(x−
+√
+−13) = y3. Consider the principal ideals (x+
+√
+−13),(x−
+√
+−13),(y) ⊂Z[
+√
+−13].
+Suppose (x +
+√
+−13) and (x −
+√
+−13) are not coprime to each other, then there exists a prime ideal P ⊂Z[
+√
+−13] such
+that P
+(x +
+√
+−13) and P
+(x −
+√
+−13). Then x ±
+√
+−13 ∈P, which implies that 2
+√
+−13 ∈P and 2x ∈P. We have also
+P
+(y)3 which implies that P
+(y). Thus y ∈P. But gcd(2x, y) = 1, a contradiction.
+---- page 3 ----
+We conclude that (x +
+√
+−13) and (x −
+√
+−13) are two ideals coprime to each other. Since Z[
+√
+−13] is a Dedekind ring,
+there exists ideals P1, P2 such that (x +
+√
+−13) = P3
+1, (x −
+√
+−13) = P3
+2 and (y) = P1P2.
+Since the class number of Z[
+√
+−13] is 2, the square of any fractional ideal is principal. Since P3
+i is principal, we know
+that Pi is principal. Note that the units of Z[
+√
+−13] are ±1. Thus there exists a, b ∈Z, such that x+
+√
+−13 = (a+b
+√
+−13)3.
+Comparing the coeﬃcient of
+√
+−13, we conclude that 1 = 3a2b −13b3. This implies b = −1 and a = ±2. Thus
+x = ±70, y = 17.
+Problem 6.
+Let p be a prime number and Qp be the ﬁeld of p-adic numbers. Fix an algebraic closure Qp
+of Qp. Let g: Z≥0 →N be a strictly increasing function. For each i ∈Z≥0, pick a primitive (pg(i) −1)-th
+root of unity ζi in Qp.
+(a) Show that for each i ≥0, Ki B Qp(ζi) is an unramiﬁed Galois extension of Qp of degree g(i).
+(b) Give an explicit function g as above such that Ki−1 ⊂Ki for all i > 0. Let 0 = N0 < N1 < N2 · · ·
+be an increasing sequence of nonnegative integers. Let αi B Íi
+j=0 ζjpNj. Show that for each i ≥0,
+Ki = Qp(αi) and that (αi) is a Cauchy sequence in Qp.
+(c) Let η ∈Qp be of degree g over Qp, prove that there exists M ∈N such that ζi does not satisfy any
+congruence
+sg−1ηg−1 + sg−2ηg−2 + · · · + s1η + s0 ≡0
+(mod pM)
+in which the si’s are p-adic integers not all of which are divisible by p.
+(d) Take a suitable sequence (Ni) as above such that (ai) does not converge in Qp. Conclude that Qp is
+not complete with respect to the p-adic topology.
+Solution:
+(a) Let vp be the usual p-adic valuation of Qp, then vp has a unique extension to Ki, which is vKi(x):
+=
+[Ki : Qp]−1vp(NKi/Qp(x)). The relation ζ pg(i)−1
+i
+= 1 implies that vKi(ζi) = 0, so ζi ∈OKi. Let P(X) ∈Zp[X]
+be the minimal polynomial of ζi over Qp, then P(X) is a factor of X pg(i)−1 −1. Since ζi is primitive, we see that
+ζl
+i ∈Ki,0 ≤l ≤pg(i) −1 are all roots of X pg(i)−1 −1. Thus each root of P(X) has shape ζl
+i ∈Ki, which implies
+that Ki/Qp is normal. Since char(Qp) = 0, all its extensions are separable. So K/Qp is a Galois extension.
+The reduction P(X) ∈Fp[X] of P(X) is also a factor of X pg(i)−1 −1 ∈Fp[X]. Since p and pg(i) −1 are
+coprime, X pg(i)−1 −1 ∈Fp[X] has no multiple roots. Using Hensel’s lemma and the fact that P(X) ∈Zp[X] is
+irreducible, we see that P(X) is also irreducible.
+Let Ki be the residue ﬁeld of Ki, then ζi ∈Ki is a root of P(X). We see that [Ki : Fp] ≥[Fp(ζi): Fp] = deg(P) =
+deg(P) = [Ki : Qp]. It follows that the ramiﬁcation index e satisﬁes
+1 ≤e = [Ki : Qp]/[Ki : Fp] ≤1.
+Thus e = 1, i.e. K/Qp is an unramiﬁed extension.
+The argument above also implies the equality [Ki : Fp] = [Ki : Qp], the relation Ki = Fp[ζi] and the property
+that Ki contains all (pg(i) −1)-th roots of unity. Thus Ki/Fp is cyclotomic and ζi is primitive. Now, since Ki
+×
+is a cyclic group of order p[Ki : Qp] −1, we get that [Ki : Qp] = g(i). Thus the degree of ζi over Qp is g(i).
+(b) Take any sequence g(i) such that g(i)/g(i−1) is an integer at least 2, e.g., g(i) = 2i. Then (pg(i−1)−1) | (pg(i)−1),
+so ζi−1 is a power of ζi. Thus Ki−1 ⊂Ki holds for each i > 0. For any 1 < i < i′, we have
+vKi′(αi′ −αi) = vKi′(pi+1) + vKi′(an element in OKi′) ≥i + 1,
+which means that (αi) is a Cauchy sequence.
+Take any σ ∈Gal(Ki/Qp)\{id}. Notice that σ(αi) = Íi
+j=0 σ(ζi)pNi. Since ζi , σ(ζi), we get vKi(α −σ(αi)) =
+vKi((ζi −σ(ζi))pNi + · · · ) = Ni < ∞. So σ(αi) , αi, i.e., σ does not ﬁx αi. Thus Qp(αi) = Ki.
+---- page 4 ----
+(c) Suppose the contrary, then for any M ∈N, there exist sM
+g−1,· · · , sM
+0
+∈Zp, not all divisible by p, such that
+sM
+g−1ηg−1 + sM
+g−2ηg−2 + · · · + sM
+1 η + sM
+0 ≡0
+(mod pM).
+By the pigenhole principle, there are an 0 ≤j ≤g −1 and an inﬁnite subset R ⊂Z≥0 such that p ∤sM
+i
+for
+all M ∈R. Since Zp is sequentially compact, so is Zg
+p. Thus the sequence (sM
+g−1,· · · , sM
+0 )M ∈R ∈Zg
+p has a
+convergent subsequence. Let (sg−1,· · · , s0) ∈Zg
+p be the limit of this subsequence. Then p ∤sj and
+sg−1ηg−1 + sg−2ηg−2 + · · · + sη + s0 ≡0
+(mod pr), for any r ∈N.
+In other words, vQp(η)(sg−1ηg−1 + sg−2ηg−2 + · · · + sη + s0) ≥r for all r ∈N, thus equals to ∞. So sg−1ηg−1 +
+sg−2ηg−2 + · · · + sη + s0 = 0, contradicting the assumption that η has degree g over Qp.
+(d) We will take an increasing sequence (Ni) by induction. We have N0 = 0 already given. Suppose we have deﬁned
+Nj for all j ≤i, so that we have αi = Íi
+j=0 ζjpNj determined. Since αi has degree g(i) over Qp, by (c), there
+exists Ni+1 > Ni such that ζi does not satisfy any congruence
+tnαn
+i + tn−1αn−1
+i
++ · · · + t1αi + t0 ≡0
+(mod pNi+1),
+for any n < g(i) and tj ∈Zp not all divisible by p. Then the sequence (Ni) is completely deﬁned.
+Suppose Qp is complete, then (αi) converges to certain α ∈Qp. Then there exist tn,tn−1,. . .,t0 ∈Zp, not all
+divisible by p, such that
+tnαn + tn−1αn−1 + · · · + t1α + t0 = 0.
+Choose i with g(i) > n. Since α ≡αi (mod pNi), we have
+tnαn
+i + tn−1αn−1
+i
++ · · · + t1αi + t0 ≡0
+(mod pNi+1),
+a contradiction. This proves the assertion.
+################################################################################
+## analysis_and_differential_21s_soln.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Analysis and Diﬀerential Equations
+Solve every problem.
+Problem 1. Prove that f (x) ≡0 is the only solution in L2(Rn) such that
+△f = 0.
+Solution: Consider the Fourier transform of the equation △f = 0. This yields
+−|ξ|2 bf (ξ) = 0.
+By the Plancherel Theorem, f ∈L2(Rn) implies that bf ∈L2(Rn). Therefore, the above equation shows supp
+
+bf
+
+⊂{0}.
+Hence bf = 0 in L2. Hence, f = 0 in L2. Since harmonic functions are smooth, f ≡0.
+Problem 2. Let X ⊂C ([0,1]) be a ﬁnite dimensional linear subspace of the space of real-valued continuous
+functions on [0,1]. Show that, for a sequence of functions { fk}k⩾1 ⊂X, if it converges pointwise, it converges
+uniformly.
+Solution:
+Let ϕ1,. . ., ϕn be a basis of X. We ﬁrst show that there exists t1,t2,. . .,tn ∈[0,1] so that det  ϕi(tj) , 0,
+where 1 ⩽i, j ⩽n. Consider the linear functionals
+ℓt : X →R,
+f 7→f (t).
+We have ∩t ∈[0,1]ker(ℓt) = {0}. Therefore, there exists t1,t2,. . .,tn ∈[0,1] so that ∩i⩽nker(ℓti) = {0}. This means that
+det  ϕi(tj) , 0.
+We write { fk}k⩾1 in terms of our basis:
+fk(x) =
+n
+Õ
+j=1
+α(k)
+j ϕj(x).
+Therefore,
+©­­­­
+«
+fk(x1)
+fk(x2)
+...
+fk(xn)
+ª®®®®
+¬
+=  ϕi(xj)
+©­­­­­
+«
+α(k)
+1
+α(k)
+2...
+α(k)
+n
+ª®®®®®
+¬
+= A
+©­­­­­
+«
+α(k)
+1
+α(k)
+2...
+α(k)
+n
+ª®®®®®
+¬
+.
+We obtain that
+©­­­­­
+«
+α(k)
+1
+α(k)
+2...
+α(k)
+n
+ª®®®®®
+¬
+= A−1
+©­­­­
+«
+fk(x1)
+fk(x2)
+...
+fk(xn)
+ª®®®®
+¬
+.
+Since { fk}k⩾1 converges pointwise, it converges on x1,. . ., xn. Therefore,{α(k)
+i }k⩾1 converges to some αi. This implies
+that { fk}k⩾1 converges uniformly to α1ϕ1 + · · · + αnϕn.
+Problem 3.
+(a) For f ∈L1(Rn), g ∈L∞(Rn), show that their convolution f ∗g is a well-deﬁned continuous function.
+---- page 2 ----
+(b) Let E ⊂Rn be a Lebesgue measurable set with Lebesgue measure m(E) > 0. Prove that
+E −E :=
+
+x −y
+ x ∈E, y ∈E
+	
+contains an open neighborhood of 0 ∈Rn.
+Solution:
+(a) This is standard: In fact, we have ∥f ∗g∥L∞⩽∥f ∥L1∥g∥L∞. Therefore, by the continuity argument, it suﬃces
+to prove the theorem for f ∈C∞
+0 (Rn). In this case, we have
+| f ∗g(x0 + x) −f ∗g(x0)| =
+
+∫
+Rn
+  f (x0 + x −y) −f (x0 −y)g(y) dy
+
+⩽∥g∥L∞
+∫
+Rn
+ f (x0 + x −y) −f (x0 −y)
+ dy
+Now let x →0, the integrand converges to 0 uniformly. This yields (a).
+(b) It suﬃces to consider the case where m(E) < ∞. We take f = 1E, g = 1−E, thus h(x) = f ∗g is a continuous
+function. In particular, h(0) = m(E) > 0. Therefore, there exists an open set U such that 0 ∈U and h
+
+u > δ > 0
+for some δ > 0. For x ∈U, by deﬁnition,
+h(z) =
+∫
+Rn 1E(x −y)1−E(y)dy > 0.
+Therefore, there must be some y ∈−E, such that x −y = x + (−y) ∈E. This implies x ∈E −(−y) ⊂E −E.
+Hence U ⊂E −E.
+Problem 4.
+Assume that P is a polynomial with complex coeﬃcients. Prove that there exists inﬁnitely
+many solutions of the following equations on C:
+ez = P(z).
+Solution: This is an application of big Picard’s theorem at 0.
+Problem 5.
+Let f be a bounded holomorphic function deﬁned on B =
+
+z
+ 0 < Re(z) < 1
+	
+that can be
+extended as a continuous function on B. Let
+A0 =
+sup
+Re(z)=0
+| f (z)| > 0, A0 =
+sup
+Re(z)=1
+| f (z)| > 0.
+Prove that for all z ∈B, we have
+| f (z)| ⩽(A0)1−Re(z)(A1)Re(z).
+Solution:
+We consider the function g(z) = f (z)(A0)z−1(A1)−z. This is a holomorphic function deﬁned on B and
+bounded by 1. We consider the function h(z) = g(z)eεz2. This function is bounded for z →±i∞, therefore, it is
+bounded by its maximal value on the boundary. Letting ε →0 proves the statement.
+---- page 3 ----
+Problem 6.
+Assume that Ω⊂Rn is a bounded domain with smooth boundary. Prove that there exists a
+positive constant ε0 so that for all real numbers ε < ε0, for all f ∈L2(Ω), there exist a unique u ∈H1
+0(Ω) so
+that
+−△u + ε sin(u) = f
+in the sense of distributions.
+Solution: We consider the functional
+E(u) =
+∫
+Ω
+1
+2 |∇u|2 −cos(u) −f u
+deﬁned on H1
+0(Ω). E(u) is bounded below by Poincaré’s inequality. Therefore, a minimizing sequence gives a solution.
+To show that the solution is unique, we assume that u1,u2 ∈H1
+0(Ω) so that
+−△ui + ε sin(ui) = f =⇒−△(u1 −u2) + ε (sin(u1) −sin(u2)) = 0.
+We multiply the equation by u1 −u2 and the integrate by parts, this leads to
+∇(u1 −u2)
+2
+L2 = ε
+
+∫
+Ω
+(u1 −u2)(sin(u1) −sin(u2))
+ ⩽ε
+
+∫
+Ω
+|u1 −u2||u1 −u2|
+ .
+Therefore,
+∇(u1 −u2)
+2
+L2 ⩽ε
+u1 −u2
+2
+L2.
+If ε0 < λ1(Ω), the Poincaré inequality implies that
+∇(u1 −u2)
+2
+L2 ⩽
+ε
+λ1(Ω)
+∇(u1 −u2)
+2
+L2.
+Hence, u1 = u2.
+################################################################################
+## computational_and_applied_21s_soln.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Computational and Applied Mathematics
+Solve every problem.
+Problem 1.
+(a) Show that
+Tn(x) = cos(n arccos x),
+x ∈[−1,1],
+is a polynomial of degree n with extrema at
+xk = cos
+
+k π
+n
+
+,
+k = 0,1,. . .,n
+and leading coeﬃcient 2n−1.
+(b) Show that if f ∈Cn+1[−1,1] and if P(x) is the polynomial with degree at most n that interpolates f
+at xk, k = 0,1,. . .,n then
+∥f (x) −P(x)∥∞≤
+1
+2n−1(n + 1)!
+ f n+1
+∞.
+Solution:
+(a)
+cos(n arccos(cos(kπ/n))) = cos(kπ) = (−1)k
+for k = 0,1,. . .,n.
+To show the degree of Tn, we use induction. T0(x) = 1 and T1(x) = x.
+Induction hypothesis: Tk is a polynomial of degree k and leading coeﬃcient 2k−1 for k ≤n.
+Note that
+Tn+1(x) + Tn−1(x) = cos ((n + 1) arccos x) + ((n −1) arccos x)
+= 2x cos(n arccos x)
+= 2xTn(x).
+Now suppose Tn is of degree n and with leading coeﬃcient 2n−1. From the above calculation,
+Tn+1(x) = 2xTn(x) −Tn−1(x),
+which shows that Tn+1 is of degree n + 1 and has leading coeﬃcient 2n. This completes the proof to part (a).
+(b) Essentially, this boils down to proving the following,
+max
+[−1,1] |(x −x0)(x −x1) · · · (x −xn)| ≤
+1
+2n−1 .
+To show this, we deﬁne a new Chebyshev-like polynomial. Deﬁne
+Qn(x) := sin(n arccos x)
+p
+1 −x2,
+n = 1,2,. . .
+Claim: Qn is of degree n + 1 with leading coeﬃcient −2n−1.
+We prove this claim by induction.
+Q1(x) = 1 −x2 and Q2(x) = 2x sin(arccos x)
+√
+1 −x2 = 2x(1 −x2). This satisﬁes the claim and serves as the
+---- page 2 ----
+base case.
+Induction hypothesis: Qk is a polynomial of degree k + 1 and leading coeﬃcient −2k−1 for k ≤n.
+Note,
+Qn+1(x) −Qn−1(x) = [sin ((n + 1) arccos x) −sin ((n −1) arccos x)]
+p
+1 −x2
+= 2 cos(n arccos x) sin(arccos x)
+p
+1 −x2
+= 2(1 −x2)Tn(x).
+Therefore,
+Qn+1(x) = 2(1 −x2)Tn(x) + Qn−1(x).
+Using part (a) and the induction hypothesis, Qn+1 is a polynomial of degree n + 2 and leading coeﬃcient −2n.
+This completes the proof to claim.
+Also note that x0, x1,. . ., xn are the roots of Qn. As a result,
+Qn = −2n−1(x −x0)(x −x1) . . . (x −xn).
+Since max[−1,1] Qn = 1, the result follows.
+Problem 2.
+Let S(x) be a cubic spline with knots {ti}n
+i=0. If it is determined that S(x) is linear over [t1,t2]
+and [t3,t4]. Prove that S(x) is also linear over [t2,t3].
+Solution: First deﬁne p : R →R by
+p(x) =S′′(t3)(x −t2)3
+6(t3 −t2)
++ S′′(t2)(t3 −x)3
+6(t3 −t2)
++
+ S(t3)
+t3 −t2
+−S′′(t3)(t3 −t2)
+6
+
+(x −t2)
++
+ S(t2)
+t3 −t2
+−S′′(t2)(t3 −t2)
+6
+
+(t3 −x).
+We claim that p = S in [t2,t3]. Since deg(p) = deg(S) = 3, we will be done if we show p and S match at four distinct
+constraints. Observe
+p(t2) = 0 + S′′(t2)(t3 −t2)2
+6
++ 0 +
+ S(t2)
+t3 −t2
+−S′′(t2)(t3 −t2)
+6
+
+(t3 −t2) = S(t2).
+In a similar fashion, we also have
+p(t3) = S(t3).
+Moreover,
+p′′(x) = S′′(t3) x −t2
+t3 −t2
++ S′′(t2) x −t3
+t2 −t3
+,
+which is the Lagrange interpolating polynomial between S′′(t2) and S′′(t3), i.e.,
+p′′(ti) = S′′(ti),
+for i = 2,3. This shows four degrees of freedom for which p matches S, and so we conclude p = S in [t2,t3].
+We use the fact p = S to show S is linear over [t2,t3]. Because S is linear over [t1,t2] and [t3,t4], we have S′′(t2) =
+S′′(t3) = 0. This implies for [t2,t3],
+S(x) = p(x) = 0 + 0 +
+ S(t3)
+t3 −t2
+−0
+
+(x −t2) +
+ S(t2)
+t3 −t2
+−0
+
+(t3 −x) = S(t3) x −t2
+x3 −x2
++ S(t2) x −t3
+x2 −x3
+,
+i.e., deg(S) = 1. Thus S is linear over [t2,t3].
+Problem 3. Let f : R →R be deﬁned by f (x) = 2x −cos x.
+(a) Prove that the equation f (x) = 0 has a unique solution x∗∈R that lies in the interval (1
+4, 1
+2).
+---- page 3 ----
+(b) Prove that the sequence deﬁned by the ﬁxed point iteration
+x0,
+xn = 1
+2 cos xn−1,
+n = 1,2,. . .
+converges to x∗with any initial guess x0.
+(c) For the ﬁxed point iteration in (b) with x0 = π
+6 , determine an n that guarantees |xn −x∗| < 1
+2 × 10−8.
+For the ﬁxed point iteration in (b) with x0 = 20, determine an n that guarantees |xn −x∗| < 1
+4.
+Solution:
+(a) f ( 1
+4) = 1
+2 −cos 1
+4 < 1
+2 −cos π
+4 < 0. Also, f ( 1
+2) = 1 −cos 1
+2 > 0. Therefore, by the Intermediate Value Theorem,
+there exists a root in the said interval. However, since f ′ = 2 + sin x, the function is strictly increasing and the
+root is unique.
+(b) Set φ(x) := 1
+2 cos x. The iteration scheme is xn+1 = φ(xn).
+|xn+1 −x∗| = |φ(xn) −x∗|
+= |φ(xn) −φ(x∗)|
+= |φ′(ξ)| · |xn −x∗|
+≤1
+2 |xn −x∗| .
+Therefore,
+|xn −x∗| ≤1
+2n |x0 −x∗|,
+which converges.
+(c) For x0 = π
+6 , using part (b), a necessary condition to ensure the required bound is,
+ π
+6 −1
+4
+
+2n
+< 10−8
+2 ,
+which is,
+n > 1 + log2
+
+108
+ π
+6 −1
+4
+
+≈25.71.
+Hence, n = 26 would suﬃce. For x0 = 20,
+20 −1
+4
+2n
+< 1
+4.
+So,
+n > 2 + log2 19.75 > 6.
+Hence, n = 7 would suﬃce.
+Problem 4. Let matrix A ∈Rm×n with m ≥n and r = rank(A) < n, and assume A has the following SVD
+decomposition
+A = [U1,U2]
+Σ1
+0
+0
+0
+
+[V1,V2]T = U1Σ1VT
+1 ,
+where Σ1 is r × r nonsingular and U1 and V1 have r columns. Let σ = σmin(Σ1), the smallest nonzero
+singular value of A. Consider the following least square problem, for some b ∈Rm,
+min
+x∈Rn ∥Ax −b∥2 .
+---- page 4 ----
+(a) Show that all solutions x can be written as
+x = V1Σ−1
+1 UT
+1 b + V2z2,
+with z2 an arbitrary vector.
+(b) Show that the solution x has minimal norm ∥x∥2 precisely when z2 = 0, and in which case,
+∥x∥2 ≤∥b∥2
+σ .
+Solution:
+(a) Set U = [U1,U2],Σ =
+Σ1
+0
+0
+0
+
+, and V = [V1,V2]T, then the SVD decomposition of A is A = UΣVT, where
+Um×m,Vn×n are orthogonal matrices such that
+• UT = U−1 and VT = V−1
+• U and V are l2−norm preserving.
+As a consequence
+∥Ax −b∥2 =
+UΣVTx −UUTb
+
+2 =
+ΣVTx −UTb
+
+2 .
+Let z = VTx = (z1,z2)T and c = UTb = (c1,c2)T. Then
+∥Ax −b∥2 =
+
+Σ1
+0
+0
+0
+ z1
+z2
+
+−
+c1
+c2
+
+2
+=
+
+Σ1z1 −c1
+c2
+
+2
+.
+The l2−norm is minimized when the vector z is chosen with z1 = Σ−1
+1 c1, z2 arbitrary. Then
+x = Vz = V
+
+Σ−1
+1 c1
+z2
+
+= (V1,V2)
+
+Σ−1
+1 UT
+1 b
+z2
+
+= V1Σ−1
+1 UT
+1 b + V2z2.
+(b) Let ˜x = V1Σ−1
+1 UT
+1 b (i.e., z2 = 0), so ˜z = VT˜x, implies ˜z =
+
+Σ−1
+1 c1
+0
+
+, then ∥˜x∥2 = ∥V˜z∥2 =
+Σ−1
+1 c1
+
+2.
+For any solution x, we have
+∥x∥2 = ∥Vz∥2 =
+
+
+Σ−1
+1 c1
+z2
+
+2
+≥
+Σ−1
+1 c1
+
+2 = ∥˜x∥2 .
+Finally,
+∥˜x∥2 =
+V1Σ−1
+1 UT
+1 b
+
+2 =
+Σ−1
+1 UT
+1 b
+
+2 ≤
+Σ−1
+1 UT
+1
+
+2 ∥b∥2 =
+Σ−1
+1
+
+2 ∥b∥2 = ∥b∥2
+σ .
+Problem 5. Consider the family of semi-implicit Runge-Kutta methods
+k1 = f (yn + βhk1),
+k2 = f (yn + hk1 + βhk2),
+yn+1 = yn + h
+
+( 1
+2 + β)k1 + (1
+2 −β)k2
+
+.
+(a) Determine the order and the principal part of the local truncation error.
+(b) Show that if β > 1
+2, then the negative real axis {z : Re(z) < 0,Im(z) = 0} is contained in the region of
+absolute stability of the method.
+Solution:
+---- page 5 ----
+(a) Apply this method to the problem f (y) = λy, we get
+k1 = λyn + βλhk1 =⇒(1 −βλh)k1 = λyn
+=⇒k1 = (1 −βλh)−1λyn
+k2 = λyn + λhk1 + βλhk2 =⇒(1 −βλh)k2 = λyn + (1 −βλh)−1λ2hyn
+=⇒k2 = (1 −βλh)−1λyn + (1 −βλh)−2λ2hyn.
+Then the method can be written as
+yn+1 = yn + (1 −βλh)−1λhyn + ( 1
+2 −β)(1 −βλh)−2λ2h2yn
+=
+
+1 + (1 −βz)−1z + ( 1
+2 −β)(1 −βz)−2z2
+yn
+(z := λh)
+=
+
+1 + z
+∞
+Õ
+i=0
+βizi + ( 1
+2 −β)z2 Í∞
+i=0 βizi2
+yn
+(|zβ| < 1)
+=
+
+1 + z
+
+1 + βz + β2z2 + β3z3 + O(z4)
+
++ ( 1
+2 −β)z2
+1 + βz + β2z2 + O(z3)
+2
+yn
+=
+
+1 + z + 1
+2 z2 +  β −β2 z3 +
+
+3
+2 β2 −2β3
+z4 + O(h5)
+
+yn.
+Assume yn = y(xn), the exact solution y(xn+1) = ezyn can be written as
+y(xn+1) =
+
+1 + z + z2
+2 + z3
+6 + 1
+24 + O(h5)
+
+yn.
+Comparing the coeﬃcients of z3, we conclude that
+• If β −β2 , 1
+6, i.e. β , 1
+2 ±
+1
+2
+√
+3, then the method is second order, and τn ∼(β −β2 −1
+6)h3.
+• If β−β2 = 1
+6, i.e. β = 1
+2 ±
+1
+2
+√
+3, then 3
+2 β2−2β3 , 1
+24, the method is third order, and τn ∼( 3
+2 β2−2β3−1
+24)h4.
+(b) It suﬃces to show if β > 1
+2 and z < 0, then
+−1 < 1 +
+z
+1 −βz + ( 1
+2 −β)
+
+z
+1−βz
+2
+< 1.
+First note β > 1
+2 and z < 0 imply
+z
+1−βz < 0, and ( 1
+2 −β)(
+z
+1−βz )2 < 0, hence
+1 +
+z
+1 −βz + ( 1
+2 −β)
+
+z
+1−βz
+2
+< 1.
+Now it remains to show
+−1 < 1 +
+z
+1 −βz + ( 1
+2 −β)
+
+z
+1−βz
+2
+.
+Observing that −1
+β ≤
+z
+1−βz (since βz −1 ≤βz), we only need to verify
+−1 < 1 −1
+β + ( 1
+2 −β)
+
+−1
+β
+2
+.
+For β , 0, this is equivalent to
+0 < (2β −1)2,
+which certainly holds for β > 1
+2.
+Problem 6. Consider the Beam equation from mechanics with boundary conditions that model a cantilever
+beam:
+u(4) = f (x),
+x ∈(0, 1),
+u(0) = u′(0) = u′′(1) = u′′′(1) = 0.
+(1)
+---- page 6 ----
+(a) Recast this equation into a variational problem, stating the trial and test function spaces.
+(b) Interpret the variational problem as an energy minimization problem, clearly stating the energy
+functional. Prove that the variational problem and the energy minimization problems are equivalent.
+(c) Develop a CG(3) (cubic continuous Galerkin method) ﬁnite element method for this problem.
+(d) Prove an a priori error estimate for this method in the energy norm:
+∥e∥E =
+ ∫1
+0
+(e′′)2dx
+ 1
+2
+,
+Where e = u(x) −U(x), in which, u(x) is the exact solution to VP (variational problem), U(x) is the
+FEM (ﬁnite element method) solution.
+(e) Prove an a priori error estimate for this method in the L2 norm:
+∥e∥L2 =: ∥e∥=
+ ∫1
+0
+e2dx
+ 1
+2
+.
+Solution:
+(a) Multiply both sides of u(4) = f (x) with test function v and integrate on [0, 1] to get
+∫1
+0
+u(4)vdx =
+∫1
+0
+f (x)vdx,
+integration by parts twice yields
+u′′′v
+
+1
+0 −u′′v′
+1
+0 +
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f (x)vdx.
+Assume v(0) = 0, v′(0) = 0 so that u′′′v
+
+1
+0 −u′′v′
+1
+0 = 0, then
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f (x)vdx.
+Deﬁne
+V = {w :
+∫1
+0
+w2 + (w′)2 + (w′′)2dx < ∞,
+w(0) = w′(0) = 0},
+then the Variational Problem(VP) is:
+Find u ∈V, such that
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f (x)vdx,
+∀v ∈V.
+(2)
+(b) Deﬁne the total energy F : V →R as
+F(w) = 1
+2
+∫1
+0 (w′′)2dx −
+∫1
+0 f (x)wdx,
+then the energy minimization problem(MP) is:
+Find u ∈V such that
+F(u) ≤F(w),
+∀w ∈V.
+(3)
+We can prove the equivalence of VP and MP:
+---- page 7 ----
+(VP⇒MP) Assume u ∈V such that
+∫1
+0 u′′v′′dx =
+∫1
+0 f (x)vdx for all v ∈V. Let w = u + v ∈V, then
+F(w) = 1
+2
+∫1
+0
+(u′′ + v′′)2dx −
+∫1
+0
+f (x)(u + v)dx
+= 1
+2
+∫1
+0
+(u′′)2dx + 1
+2
+∫1
+0
+(v′′)2dx +
+∫1
+0
+u′′v′′dx −
+∫1
+0
+f (x)udx −
+∫1
+0
+f (x)vdx
+=
+
+1
+2
+∫1
+0
+(u′′)2dx −
+∫1
+0
+f (x)udx
+
++
+ ∫1
+0
+u′′v′′dx −
+∫1
+0
+f (x)udx
+
++ 1
+2
+∫1
+0
+(v′′)2dx
+=F(u) + 0 + 1
+2
+∫1
+0
+(v′′)2dx
+≥F(u),
+where the last equality is obtained by the deﬁnition of total energy and the fact that u is solution to the VP.
+Which implies solution to VP is also solution to MP.
+(VP⇐MP) Assume u ∈V such that F(u) ≤F(w) for all w ∈V. Let g(ϵ) = F(u + ϵv), here v ∈V is arbitrary
+but ﬁxed, then g′(0) = 0.
+Note that
+g′(ϵ) =
+∫1
+0
+(u′′ + ϵv′′)v′′dx −
+∫1
+0
+f vdx,
+substitute ϵ = 0 and use the fact that g′(0) = 0, we have
+∫1
+0
+u′′v′′dx =
+∫1
+0
+f vdx, ∀v ∈V.
+Which implies solution to MP is solution to VP.
+(c) (i) Partition: Let τh: 0 = x0 < · · · < xM < xM+1 = 1 be a partition of [0, 1], let hj = xj −xj−1 for
+j = 1,. . ., M + 1 be the size of j-th mesh Ij = [xj−1, xj], deﬁne h := max1≤j ≤M+1 hj.
+(ii) Finite element space: Let V3
+h ⊆V be our ﬁnite element space deﬁned as
+V3
+h := {u ∈C1(0, 1)|
+u|Ij is cubic polynomial for all j = 1,. . ., M + 1, and u(0) = u′(0) = 0}.
+(4)
+(iii) CG(3) Finite Element Method: Find U(x) in V3
+h such that
+∫1
+0
+U′′v′′dx =
+∫1
+0
+f vdx, ∀v ∈V3
+h .
+(d) Let u(x) ∈V be the exact solution to VP (variational problem), U(x) ∈V3
+h be the FEM solution, we estiamte
+the error e = u −U as follows:
+∥u∥2
+E =
+∫1
+0
+(e′′)2 dx
+=
+∫1
+0
+e′′(u −v + v −U)′′dx
+(v ∈V3
+h )
+=
+∫1
+0
+e′′(u −v)′′dx +
+∫1
+0
+e′′(v −U)′′dx
+(by Galerkin orthogonality)
+=
+∫1
+0
+e′′(u −v)′′dx
+(by Cauchy inequality)
+≤∥u −U∥E · ∥u −v∥E .
+Hence ∥e∥E ≤∥u −v∥for all v ∈V3
+h , take v = πhu as interpolation of u, then
+∥e∥E ≤Ch2∥u(4)∥,
+where C comes from interpolation error.
+---- page 8 ----
+(e) Consider the following dual problem
+φ(4) = e,
+φ(0) = φ′(0) = φ′′(1) = φ′′′(1) = 0.
+We have
+∥e∥2 =
+∫1
+0
+eφ(4)dx
+=
+∫1
+0
+e′′φ′′dx + eφ′′′
+1
+0 −e′φ′′
+1
+0
+(by integration by parts twice)
+=
+∫1
+0
+e′′φ′′dx
+(subtract
+∫1
+0
+e′′(πhφ)′′dx = 0)
+=
+∫1
+0
+e′′(φ −πhφ)′′dx
+≤∥e∥E · ∥φ −πhφ∥E
+(by the interpolation error and energy norm estimate)
+≤C2h4∥u(4)∥· ∥φ(4)∥
+( since ∥φ(4)∥= ∥e∥)
+=C2h4∥u(4)∥· ∥e∥,
+that is, ∥e∥≤C2h4∥u(4)∥.
+################################################################################
+## geometry_and_topology_21s_soln.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Geometry and Topology
+Solve every problem.
+Problem 1.
+(a) Show that P2n can not be the boundary of a compact manifold.
+(b) Show that P3 is the boundary of some compact manifold.
+Solution:
+(a) Suppose M is a compact manifold and ∂M is its boundary. We can glue together two copies of M, say M1, M2,
+to get a closed manifold e
+M. From the Mayer-Vietoris long exact sequence for the triad ( e
+M; M1, M2), we have
+the identity
+χ( e
+M) = 2χ(M) −χ(∂M),
+where χ is the Euler characteristic. If the dimension of ∂M is even, then the dimension of M is odd, and so is
+the dimension of e
+M. By Poincate duality, χ( e
+M) = 0. So χ(∂M) has to be an even number. However, RP2n has
+odd Euler characteristic. Thus RP2n can not be the boundary of a compact manifold.
+(b) Since RP3 is diﬀeomorphic to SO(3), it is actually the circle bundle on S2 in the tangent bundle of S2. Thus
+RP3 is the boundary of the disk bundle of S2 in the tangent bundle of S2.
+Problem 2. Suppose M is a noncompact, complete n-dimensional manifold, and suppose there is an open
+subset U ⊂M and an open set V ⊂Rn such that M\U is isomorphic to Rn\V. If RicM ≥0, show that M is
+isometric to Rn.
+Solution: Without loss of generality, we may assume V = BR(0) for some R > 0. Let p ∈M be a point. If RicM ≥0,
+by the Bishop-Gromov inequality, we know Vol(Br(p))
+Vol(Bnr )
+is non-increasing. Here, Bn
+r is the standard Euclidean ball in
+Rn with radius r. On one hand, as r →0, because M is a smooth manifold, we have lim
+r→0
+Vol(Br(p))
+Vol(Bnr )
+= 1; one the other
+hand, when r →∞, because M\U is isomorphic to Rn\BR(0), we also have lim
+r→∞
+Vol(Br(p))
+Vol(Bnr )
+= 1. As a consequence,
+Vol(Br(p))
+Vol(Bnr )
+is a constant 1 for all r > 0. Then by the rigidity case of Bishop-Gromov theorem, M is isometric to Rn.
+Remark: Some students may want to use the Cheeger-Gromoll splitting theorem to show M  N × R, then conclude
+that M  Rn. To my knowledge, it is actually hard to show that one can ﬁnd a straight line in M. In fact, for a straight
+line in Rn\V, its corresponding line in M may not be straight, because there could be a shorter path going through U
+which connects two points on the line.
+Problem 3. Compute all the homotopy groups of the n-torus T n = S1 × S1 × · · · × S1, n ≥2.
+Solution: In the following homotopy groups we always assume that we have ﬁxed a base point.
+Because T n is connected, π0(T n) is a trivial group.
+π1(T n) is the fundamental group of T n. Because the fundamental group of a product space is just the product of each
+fundamental group, and the fundamental group of S1 is Z, so π1(T n) = Zn.
+The universal cover of T n is Rn, which is contractible. So for all k ≥2, πk(T n)  πk(Rn) = 0, which is the trivial
+group.
+---- page 2 ----
+Problem 4.
+Consider the upper half space H3 = {(x, y, z) | z > 0} equipped with hyperbolic metric
+g = dx2 + dy2 + dz2
+z2
+. Let P be the surface deﬁned by {z = x tan α, z > 0} for some α ∈(0, π
+2 ). Compute
+the mean curvature of P.
+Solution:
+We use ∂x, ∂y and ∂z to denote the vector ﬁelds on H3 induced from R3. Then we can compute the
+Christoﬀel symbols
+
+
+Γi
+zi = −z−1
+Γz
+j j = z−1,
+j , z
+Γk
+ij = 0,
+other cases.
+So the covariant derivatives are
+
+
+∇∂x ∂x = z−1∂z
+∇∂y ∂y = z−1∂z
+∇∂z ∂z = −z−1∂z
+∇∂z ∂x = ∇∂x ∂z = −z−1∂x
+∇∂z ∂y = ∇∂y ∂z = −z−1∂y
+∇∂x ∂y = ∇∂y ∂x = 0
+Now consider the surface P parametrized by F : (u,v) →(u,v,u tan α). Then at any ﬁxed point the tangent space is
+spanned by
+Fu = ∂x + tan α∂z, Fv = ∂y,
+with the metric
+guv = z−2
+
+1 + tan2 α
+0
+0
+1
+
+.
+We can also ﬁnd a unit normal vector
+n =
+z
+√
+1 + tan2 α
+(tan α∂x −∂z).
+Next, we can compute that
+∇Fu Fu = (1 −tan2 α)z−1∂z −2 tan αz−1∂x,
+∇Fv Fu = −tan αz−1∂y,
+∇Fv Fv = z−1∂z.
+Moreover,
+⟨∇Fu Fu,n⟩= −
+1
+z2√
+1+tan2 α(1 + tan2 α),
+⟨∇Fv Fu,n⟩= 0,
+⟨∇Fv Fv,n⟩= −
+1
+z2√
+1+tan2 α.
+So the mean curvature is
+H = −gij⟨∇Fi Fj,n⟩=
+2
+√
+1 + tan2 α
+= 2 cos α.
+Remark: There are diﬀerent conventions for the deﬁnition of mean curvature, so the ﬁnal answer could be cos α,
+−2 cos α, or −cos α, depending on the choice of deﬁnitions.
+Problem 5. Suppose M is a compact 2-dimensional Riemannian manifold without boundary, with positive
+sectional curvature. Show that any two compact closed geodesics on M must intersect with each other.
+Solution: We prove by contradiction. Suppose there exist two compact closed geodesics γ1 and γ2 that do not intersect
+with each other. Then we can ﬁnd p ∈γ1 and q ∈γ2 such that the distance between p,q is the shortest distance among
+all pairs of points on γ1 and γ2. Let ˜γ : [a, b] →M be a length parametrized geodesic connecting ˜γ(a) = p and
+˜γ(b) = q, whose length realizes this shortest distance. Let ℓbe the length functional of curves. By the ﬁrst variational
+formula,
+δℓ( ˜γ) = 0.
+---- page 3 ----
+Namely, if V is a normal variational vector ﬁeld along ˜γ, suppose ˜γs is a family of curves generating this variational
+vector ﬁeld, then
+0 = dℓ( ˜γs)
+ds
+
+s=0
+= −
+
+V(a), Û˜γ(a)
+
++
+
+V(b), Û˜γ(b)
+
+.
+As a consequence, we know that Û˜γ(a) is perpendicular to γ1 at p and Û˜γ(b) is perpendicular to γ2 at q.
+Next we consider the second variational formula. Suppose X is a vector ﬁeld along ˜γ, where |X(a)| = 1 and X(a) is
+perpendicular to ˜γ(a), and X(t) is deﬁned by parallel transport along ˜γ for a < t ≤b. Suppose ˜γs is a family of curves
+that generate X, then
+0 ≤d2ℓ( ˜γs)
+ds2
+
+s=0
+=
+∫b
+a
+−R( Û˜γ, X, X, Û˜γ)dt + ⟨∇X(a)X(a), Û˜γ(a)⟩−⟨∇X(b)X(b), Û˜γ(b)⟩.
+Notice that γ1 and γ2 are geodesics and X(a), X(b) are both unit vectors in the direction of γ1, γ2 at p,q respectively,
+so ∇X(a)X(a) = 0 and ∇X(b)X(b) = 0, and as a consequence
+0 ≤d2ℓ( ˜γs)
+ds2
+
+s=0
+=
+∫b
+a
+−R( Û˜γ, X, X, Û˜γ)dt =
+∫b
+a
+−sec( Û˜γ, X)dt < 0.
+This is a contradiction.
+Problem 6.
+Suppose Σ is a smooth compact embedded hypersurface (i.e. a codimension 1 submanifold)
+without boundary in Rn for n ≥3. Show that Σ is orientable.
+Solution: We ﬁrst claim that it suﬃces to show Σ has a trivial normal bundle in Rn. In fact, the trivial bundle has the
+splitting Rn × Σ = TΣ ⊕NΣ, so the ﬁrst Stiefel-Whitney class of the bundles satisﬁes
+0 = w1(TΣ) + w1(NΣ).
+If the line bundle of Σ is trivial, we must have w1(NΣ) = 0, therefore w1(TΣ) = 0. This is equivalent to Σ being
+orientable.
+Thus it remains to show that Σ has a trivial normal bundle. We prove by contradiction. We can view the tubular
+neighbourhood T of Σ as a part of NΣ. If Σ has a non-trivial normal bundle, then there exists a closed curve γ in T
+that only intersects Σ at a single point transversely. Consider a smoothly embedded disk D bounded by γ that intersects
+Σ transversely. Then the intersection of D and Σ consists of ﬁnitely many smooth curves whose endpoints lie on the
+boundary ∂D = γ. This implies that γ intersects Σ at an even number of points, which is a contradiction.
+################################################################################
+## probability_and_statistics_21s_soln.pdf
+---- page 1 ----
+S.-T. Yau College Student Mathematics Contests 2021
+Probability and Statistics
+Solve every problem.
+Part I: Probability
+Problem 1.
+Suppose that a sequence {Xn} of real-valued random variables converges to X in distribution
+and there are positive constants r and C such that E|Xn|r ≤C for all n. Show that
+lim
+n→∞E|Xn|s = E|X|s
+for all 0 < s < r.
+Solution:
+Xn →X in distribution if and only if limn→∞Ex f (Xn) = E f (X) for all bounded continuous functions f .
+Let M be a ﬁxed large positive number and deﬁne
+fM(x) =
+(
+|x|s,
+|x| < M;
+Ms,
+|x| ≥M.
+Then fM is a bounded continuous function and 0 ≤fM(x) ↑|x|s as M ↑∞. We have
+lim
+n→∞E fM(Xn) = E fM(X).
+On the other hand,
+0 ≤E|Xn|s −E fM(Xn) ≤E [|Xn|s; |Xn| ≥M] ≤
+1
+Mr−s E [|Xn|r; |Xn| ≥M] ≤
+C
+Mr−s .
+Hence
+E fM(Xn) ≤E|Xn|s ≤E fM(Xn) +
+C
+Mr−s .
+Letting n →∞and then M ↑∞we have limn→∞E|Xn|s = E|X|s. In the second limit we use the monotone convergence
+theorem.
+Problem 2.
+Let p(x, y) be the (one-step) transition function of a Markov chain on a discrete state space S
+and pn(x, y) be the n-step transition function. Show that for any positive integers L and N and any two states
+x and y we have
+N+L
+Õ
+n=L
+pn(x, y) ≤
+N
+Õ
+n=0
+pn(y, y).
+Solution:
+The intuition of this problem is that for counting how many steps the chain starting from x to be at y the
+chain needs to spend time to reach y ﬁrst.
+By the Markov property at L we have for n ≥L,
+pn(x, y) = Px {Xn = y} = Expn−L(XL, y).
+If the assertion holds for L = 0, then (l = n −L)
+N+L
+Õ
+n=L
+pn(x, y) = Ex
+" N
+Õ
+l=0
+pl(XL, y)
+#
+≤
+N
+Õ
+l=0
+pl(y, y).
+---- page 2 ----
+Thus it is enough to show for the case L = 0. By the strong Markov property at Ty, we have
+pn(x, y) = Px
+
+Xn = y, Ty ≤n
+	
+= Ex
+
+pn−Ty(y, y);Ty ≤n
+
+.
+It follows that (l = n −Ty)
+N
+Õ
+n=0
+pn(x, y) =
+N
+Õ
+n=0
+Ex
+
+pn−Ty(y, y);Ty ≤n
+
+= Ex
+
+N−Ty
+Õ
+l=0
+pl(y, y);Ty ≤N
+
+≤
+N
+Õ
+l=0
+pn(y, y).
+Problem 3.
+Let {Xn} be an independent, identically distributed sequence of random variables with the
+symmetric Bernoulli distribution
+P {X = 1} = P {X = −1} = 1
+2.
+Let Sn =
+N
+Õ
+i=1
+Xi be the partial sum. Show that for all α > 1
+2,
+P
+
+lim
+n→∞
+Sn
+nα = 0
+
+= 1.
+Solution: Let k be a positive integer. By Markov’s inequality we have
+P
+(
+Sn
+nα
+
+2k
+≥1
+n
+)
+≤n−(2kα−1)E|Sn|2k.
+We have
+E|Sn|2k =
+Õ
+1≤i1,...,i2k ≤n
+E
+
+Xi1 Xi2 · · · Xi2k
+
+.
+Since the sequences are independent and each random variable has mean zero, each expectation is zero unless the
+indices i1, i2,. . .,i2k can be grouped into k pairs of identical indices. The number of such groups is at most (2k)! · nk.
+Hence
+P
+(
+Sn
+nα
+
+2k
+≥1
+n
+)
+≤Ckn−(2kα−k−1).
+Choosing k > 2/(2α −1) we have 2kα −k −1 > 1. By the Borel-Cantelli lemma, the probability that |Sn|/nα ≥n−1
+happens inﬁnitely often is zero, hence limn→∞Sn/nα = 0 with probability one.
+Problem 4.
+Let Xn =
+
+Xij
+	
+be an n × n random matrix whose entries are independent and identically
+distributed random variables with the symmetric Bernoulli distribution
+P {X = 0} = P {X = 1} = 1
+2.
+Let pn = P {det XN is odd}. Show that lim
+n→∞pn > 0.
+Solution:
+Consider the (algebraic) ﬁeld Z/2Z = {0,1} with two elements, so we need det Xn , 0 in Z/2Z, which
+means that pn is the probability that the n rows of the random matrix are independent.
+Each row has 2n choices. There are 2n −1 choices for the ﬁrst row X1 (the zero column is not allowed). The linear
+span for the ﬁrst row has two vectors (the zero vector and X1), and we cannot choose from this linear span, hence the
+number of choices for X2 is 2n −2. In general after the ﬁrst l rows are ﬁxed, the linear span of these rows has 2l vectors,
+---- page 3 ----
+and we cannot choose Xl+1 from this linear span, hence the number of choices for Xl+1 is 2n −2l. It follows that the
+total number of choices for the matrix det Xn with nonvanishing determinant is
+(2n −1) · (2n −2) · (2n −22) · · · (2n −2n−1).
+The total number of choices for the random matrix Xn is (2n)n = 2n2 and the probability distribution is uniform, hence
+pn =
+n
+Ö
+l=1
+
+1 −1
+2l
+
+→
+∞
+Ö
+l=1
+
+1 −1
+2l
+
+> 0.
+Part II: Statistics
+Problem 5. You have been asked to help design a randomized trial of a new drug, call it drug A, to be used
+in place of the current drug, call it drug B, for a particular medical condition. The budget is ﬁxed to have
+1000 patients treated with A and 1000 treated with drug B. The issue is how to do the allocation of patients,
+because we have many pre-randomization measurements on each patient, roughly 200, such as blood pressure
+recordings, age, sex, and a large collection of genetics measurements. Obviously it is desirable to have the
+A group similar to the B group with respect to all pre-treatment covariates and non-linear functions of them
+that are expected to inﬂuence the eﬀectiveness of the drugs with respect to the outcome variables.
+Complete (or simple) randomization does this in expectation, but with many covariates, some covariates will
+not be balanced between the A and B groups in any one single randomized allocation. Standard blocking
+used in traditional experimental design can force balance on a few covariates, but the designer of drug A
+wants to have an experimental design that creates balance on many covariates, and feels that you, as a modern
+applied mathematician/statistician, should be able to do this.
+Describe a class of methods that achieves this goal where each patient has a positive probability of receiving
+drug A and a positive probability of receiving drug B. Provide enough detail that you are describing an
+explicit algorithm.
+Solution:
+Let Xi denote the covariate vector of unit i, which can include the pre-treatment measurements as well as
+their non-linear functions, and let X = (X1,. . ., Xn)T denote the convariate matrix for all n = 2000 units. Let zi denote
+the treatment allocation for unit i, which equals 1 if the unit is assigned to drug A and 0 otherwise, and z ∈{0,1}n
+denote the treatment allocation for all n units.
+Let φ (X, z) denote a pre-determined covariate balance criterion, which equals 1 if the allocation z is acceptable and
+0 otherwise. Moreover, we construct the criterion φ such that it is invariant when we switch treatment and control
+groups, i.e., φ (X, z) = φ (X,1 −z). We then consider the following re-randomization design to randomly allocate the
+patients to groups A and B:
+(i) Completely randomize the patients to groups A and B, with 1000 patients within each group.
+(ii) If the balance criterion is satisﬁed (i.e., φ (X, Z) = 1), proceed to step (iii); otherwise, return to step (i)
+(iii) Conduct the experiment using the ﬁnal randomization obtained in step (ii).
+Note that under the completely randomized experiment (CRE) with the same number of units assigned to each treatment
+group, Z and 1 −Z follows the same distribution. This implies that, under re-randomization described above (i.e., the
+CRE with balance criterion φ,
+Z | φ(X, Z) = 1 ∼1 −Z | φ(X,1 −Z) = 1 ∼1 −Z | φ(X, Z) = 1.
+Thus, under re-randomization, Z and 1 −Z must have the same distribution. Consequently, for any 1 ≤i ≤N,
+E (Zi | X, φ(X, Z) = 1) = E (1 −Zi | X, φ(X, Z) = 1) = 1 −E (Zi | X, φ(X, Z) = 1),
+which immediately implies that E (Zi | X, φ(X, Z) = 1) = 0.5. Therefore, under our proposed design, each patient has
+a positive probability (i.e., 1
+2) to receive either drug A or drug B.
+---- page 4 ----
+Problem 6. You are given the results of a randomized experiment of two drugs, A and B. The experiment
+was not conducted in the usual way, however, but rather by allocating patients by a machine-learning
+algorithm under which each patient has a positive probability of receiving A and of receiving B; moreover
+the algorithm is completely speciﬁed and is built to create better than random balance on the covariates.
+(a) Can unbiased estimates of the causal eﬀect of drug A versus B be found, and if so, show why.
+(b) Can exact small sample, non-parametric inferences for the causal eﬀect in part (a) be derived, based
+solely on the randomization distribution of some statistic? For example, can we ﬁnd exact signiﬁcance
+levels under a sharp null hypothesis? If so, outline how to accomplish this goal.
+Solution:
+(a) Yes.
+For each patient i, let Yi(1) and Yi(0) denote the potential outcomes under drug A and drug B, Zi
+be the treatment assignment indicator, where Zi = 1 if the patient receives drug A and 0 otherwise, and
+Yi = ZiYi(1) + (1 −Zi)Yi(0) be the observed outcome.
+For each patient i, let ei = Pr(Zi = 1) denote the probability of receiving drug A. Then 1 −ei is the probability
+of receiving drug B for patient i. Because the algorithm for allocating the patients are completely speciﬁed and
+each patient has a positive probability of receiving A and of receiving B, ei is known for all i and ei ∈(0,1).
+We can construct the following unbiased estimator for the average causal eﬀect of drug A versus B for patients
+in the experiment:
+ˆτ = 1
+n
+n
+Õ
+i=1
+Zi
+ei
+Yi −1
+n
+n
+Õ
+i=1
+1 −Zi
+1 −ei
+Yi.
+Below we show that ˆτ is unbiased for the average causal eﬀect τ ≡n−1 Ín
+i=1 (Yi(1) −Yi(0)). By deﬁnition we
+have
+E ˆτ =E
+ 
+1
+n
+n
+Õ
+i=1
+Zi
+ei
+Yi −1
+n
+n
+Õ
+i=1
+1 −Zi
+1 −ei
+Yi
+!
+= E
+ 
+1
+n
+n
+Õ
+i=1
+Zi
+ei
+Yi(1) −1
+n
+n
+Õ
+i=1
+1 −Zi
+1 −ei
+Yi(0)
+!
+=1
+n
+n
+Õ
+i=1
+E (Zi)
+ei
+Yi(1) −1
+n
+n
+Õ
+i=1
+1 −E (Zi)
+1 −ei
+Yi(0) = 1
+n
+n
+Õ
+i=1
+ei
+ei
+Yi(1) −1
+n
+n
+Õ
+i=1
+1 −ei
+1 −ei
+Yi(0)
+=1
+n
+n
+Õ
+i=1
+Yi(1) −1
+n
+n
+Õ
+i=1
+Yi(0) = τ.
+Therefore, ˆτ is unbiased for τ.
+(b) Yes. For example we consider the sharp null hypothesis of no treatment eﬀect:
+H0 : Yi(1) = Yi(0),
+i = 1,2,. . .,n.
+Let t (Z,Y) denote a general test statistic, based on which we test the null hypothesis H0.
+First, we can impute all the unknown potential outcomes based on the observed data and the null hypothesis H0.
+Speciﬁcally, under H0, Yi(1) = Yi(0) = Yi, i.e., both potential outcomes are the same as the observed one.
+Second, we can know the distribution of the test statistic under the null hypothesis H0. Because the algorithm
+for allocating the patients are completely speciﬁed, we know the distribution of the treatment assignment
+(i.e., treatment assignment mechanism). Let W denote a random vector following this treatment assignment
+mechanism. Under H0, the test statistic follows the same distribution as
+t (W,W ◦Y(1) + (1 −W) ◦Y(0)),
+where Y(1) and Y(0) denote the potential outcome vectors for all units, and ◦denotes element-wise multiplica-
+tion.
+Third, we can then evaluate the tail probability of the null distribution of the test statistic at its observed value
+to get the p-value. Speciﬁcally, let
+G(c) = Pr
+
+t (W,W ◦Y(1) + (1 −W) ◦Y(0)) ≥c
+	
+---- page 5 ----
+denote the tail probability of the null distribution. Then the p-value is
+p = G(t(Z,Y)),
+which is valid for testing H0.
+Note that, for a general sharp null hypothesis, we can obtain a valid p-value in a similar way.

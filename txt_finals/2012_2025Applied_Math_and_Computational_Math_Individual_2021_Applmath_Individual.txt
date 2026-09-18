@@ -1,0 +1,90 @@
+
+=== page 1 ===
+Question I
+Let A be an n×n matrix with real and positive eigenvalues and b be a given vector. Consider
+the solution of Ax = b by the following Richardson’s iteration
+x(k+1) = (I −ωA)x(k) + ωb
+where ω is a damping coeﬃcient. Let λ1 and λn be the smallest and the largest eigenvalues
+of A. Let Gω = I −ωA.
+1. Prove that the Richardson’s iteration converges if and only if
+0 < ω < 2
+λn
+.
+2. Prove that the optimal choice of ω is given by
+ωopt =
+2
+λ1 + λn
+.
+Prove also that
+ρ(Gω) =
+
+
+
+
+
+1 −ωλ1,
+ω ≤ωopt
+(λn −λ1)/(λn + λ1),
+ω = ωopt
+ωλn −1,
+ω ≥ωopt
+where ρ(Gω) is the spectral radius of Gω.
+3 Prove that, if A is symmetric and positive deﬁnite, then
+ρ(Gωopt) = κ2(A) −1
+κ2(A) + 1
+where κ2(A) is the spectral condition number of A.
+Question II
+Let the energy functional for u(x) ∈R (x ∈[0, 1]) be given as
+E[u] =
+Z 1
+0
+1
+2|∂xu(x)|2 + 1
+4ε2(1 −|u|2)2
+
+dx,
+0 < ε ≪1.
+Consider the dynamical equation (natural boundary condtions)
+d
+dtu(x, t) = −δE
+δu [u(x, t)],
+u(x, 0) = u0,
+where u0 is a suﬃciently smooth function.
+1
+
+=== page 2 ===
+1. Show that E[u(x, t)] is decreasing in t.
+2. If initially u0(x) ∈[−1, 1], show that u(x, t) ∈[−1, 1] for all t > 0.
+3. Design a semi-discrete-in-time scheme such that the energy functional is decreasing for
+the discrete scheme.
+Question III
+Let ak(t), bk(t) ∈R (k = 1, 2, . . . , n) satisfy the diﬀerential equations:
+d
+dtak(t) = 2(b2
+k −b2
+k−1),
+d
+dtbk(t) = bk(ak+1 −ak),
+k = 1, 2, · · · , n,
+where b0(t) = bn(t) = 0. Consider the n × n tri-diagonal matrix L(a, b)
+L(a, b) =
+
+
+a1
+b1
+b1
+a2
+0
+...
+bn−1
+0
+bn−1
+an
+
+
+,
+show that:
+1. The eigenvalues of L(t) = L(a(t), b(t)) are independent of t.
+2. lim
+t→∞bk(t) = 0, k = 1, 2, · · · , n −1.
+2

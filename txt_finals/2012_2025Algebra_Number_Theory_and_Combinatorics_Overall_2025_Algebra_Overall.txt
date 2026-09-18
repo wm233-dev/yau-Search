@@ -1,0 +1,10 @@
+
+=== page 1 ===
+Algebra, Number theory and Combinatorics
+Overall Contest
+Question 1. Let G be a non-abelian ﬁnite p-group (p being a prime). Show
+that [G : G′] ≥p2, where G′ = [G, G].
+Question 2. Suppose that B is a non-degenerate symmetric bilinear form on
+V = Cn, T is a nilpotent linear operator on V whose Jordan form is a single
+block, such that B(Tv, w) = −B(v, Tw) for all v, w ∈V . Show that n is odd.
+1

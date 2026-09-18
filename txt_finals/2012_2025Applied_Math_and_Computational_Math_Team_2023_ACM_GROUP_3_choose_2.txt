@@ -1,0 +1,108 @@
+
+=== page 1 ===
+S.T. Yau College Student Mathematics Contest
+Applied and Computation Math (Group Final)
+June 10, 2023
+Problem 1: LU factorization
+Let A ∈Rn be a real tridiagonal matrix
+A =
+
+
+α1
+γ2
+β1
+α2
+γ3
+β2
+α3
+...
+...
+...
+γn
+βn−1
+αn
+
+
+.
+Consider applying the LU factorization with partial pivoting to this A to get LU = PA. The algorithm
+(“Algorithm 3”) proceeds as follows, where L and U are stored in the lower and upper parts of A respectively:
+(i). Let a∗= maxi,j |aij|. Show that |uii| ≤2a∗, ∀i, and |uij| ≤a∗, ∀j > i. Then conclude that the
+growth factor ρ = maxi,j |uij|
+maxi,j |aij| ≤2.
+(ii). Assume that |α1| ≥|β1|, |αn| ≥|γn|, and |αi| ≥|βi|+|γi|, i = 2, · · · , n−1, i.e., A is column diagonally
+dominant. Show that the LU factorization with or without partial pivoting are step-wise equivalent
+for A. In other words, for the algorithm with partial pivoting, no actual pivoting happens throughout
+the process.
+Problem 2: Deformation to Legendre transform
+Given a strictly convex function f : Rn →R that is at least twice diﬀerentiable, its Legendre transform
+f ∗: Rn →R is deﬁned as
+f ∗(u) = sup
+x {⟨x, u⟩−f(x)} ,
+where x ∈Rn, u ∈Rn and ⟨x, u⟩is the bilinear form. Recall that ∇f and ∇f ∗are inverse functions of
+each other, and that Hessf and Hessf ∗are inverse matrices of each other. Here ∇f and Hessf denote,
+respectively, the ﬁrst and second derivative of the function f:
+∇f = [ ∂f
+∂x1 , · · · , ∂f
+∂xn ],
+Hessijf =
+∂f
+∂xi∂xj .
+Page 1 of 2
+
+=== page 2 ===
+(i) For any ﬁxed real number λ in an open neighborhood of 0, the λ-deformed Legendre transform of f is
+deﬁned by
+f (λ)(u) = sup
+x
+ 1
+λ log (1 + λ⟨x, u⟩) −f(x)
+
+,
+so that limλ→0 f (λ)(u) = f ∗(u). Show that
+f(x) + f (λ)(u(λ)) = 1
+λ log
+
+1 + λ⟨x, u(λ)⟩
+
+,
+where
+u(λ) =
+∇f(x)
+1 −λ⟨x, ∇f(x)⟩.
+The righthand side of the above can be called the λ-gradient of f.
+(ii) Deﬁne x(λ) ≡xe−λf(x), and deﬁne the function g(λ) by
+g(λ)(x(λ)) = 1
+λ
+
+1 −e−λf(x)
+.
+Show
+u(λ) = ∇g(λ)(x(λ))
+by explicitly evaluating the Jacobian of the transform x ←→x(λ).
+(iii) Calculate (f (λ))(λ) and state whether (f (λ))(λ) = f holds.
+Problem 3: Numerical PDE
+Let K and bK be two aﬃne-equivalent bounded open subsets of Rd, that is, there is a bijiective aﬃne mapping
+F : bK →K deﬁned by F(bx) = Bbx + b, where B is a nonsingular matrix and b ∈Rd.
+(i). Let v(x) ∈Hm(K) and bv(bx) = v(F(bx)) ∈Hm( bK). Prove that
+|bv|Hm( b
+K) ≤C∥B∥m|det(B)|−1
+2 |v|Hm(K)
+and
+|v|Hm(K) ≤C∥B−1∥m|det(B)|
+1
+2 |bv|Hm( b
+K)
+where C depends on d and m only. Here Hm(K) is the standard Sobolev space.
+(ii). Let hK and h b
+K be the diameters of K and bK respectively, and let ρK and ρ b
+K be the diameters of the
+largest circle inscribed in K and bK respectively. Show that
+∥B∥≤hK
+ρ b
+K
+,
+∥B−1∥≤h b
+K
+ρK
+.
+Page 2 of 2

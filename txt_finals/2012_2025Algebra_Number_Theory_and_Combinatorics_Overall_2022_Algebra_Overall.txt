@@ -1,0 +1,19 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2022
+Algebra and Number Theory
+(Overall individual round)
+Problem 1. Prove that C[x, y]/(x2+y2−1) is a unique factorization domain (UFD),
+but R[x, y]/(x2 + y2 −1) is not a UFD.
+Problem 2. Consider the equation f(x) = x3 −x−1 ∈Z[x]. Let p ̸= 23 be a prime
+number.
+(a) Prove that f(x) = 0 (mod p) has exactly one root in Fp if and only if
+
+p
+23
+
+= −1.
+(b) Let K/Q be the Galois closure corresponding to f. For p as in (a), determine
+the values of e, f, g in the prime decomposition of pOK.
+.
+1

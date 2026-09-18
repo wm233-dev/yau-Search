@@ -1,0 +1,9 @@
+
+=== page 1 ===
+ALL ROUND TEST: ALGEBRA
+Let C be a double cover over P1 ramiﬁed at 6 points.
+(1) Classify all unramiﬁed 7-cyclic covers D over C.
+(2) Prove that all such D are Galois over P1 with Galois
+group Z/7Z ⋊Z/2Z.
+(3) Classify all intermediate curves between D and P1.
+1

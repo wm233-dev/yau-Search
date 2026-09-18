@@ -1,0 +1,20 @@
+1.Consider the map ()= on the complex plane . Let  denote times compositions of , that is ,=. It is easy to see that ()= so  are only points such that  as  and  are only points such that  as .Now find out what are all points such that as  for .f z z2Cfnn f  fn f∘⋯ ∘ fnfnzz2nz<1fn(z)→0n→∞z>1fn(z)→∞n→∞gn(z)→∞  n→∞gz=z2-2
+
+2.Find a conformal map from the region
+          A=z:0<argz<π2,0<z<1
+to the open unit disk Δ
+
+3.设是上的周期为2的连续函数，且fθRπfθ∼a02+n=1∞ancosnθ+bnsinnθ
+
+试证：a):在单位圆盘内的紧子集上一致收敛于一调和函数  , 其中un=a02+k=1nrkakcoskθ+bksinkθD=z∈C  z<1ux,yz=reiθ=x+iy
+b) :Dux2+uy2dxdy=πn=1∞nan2+bn2
+
+4.设 是定义于 上的非减非负函数，如果其满足ωR(0,R0]ωγR≤ηωR+KRα,  ∀R∈(0,R0]
+
+其中是常数，则  使得其中 只依赖于 与 0<γ,η<1, 0<α≤1, K≥0∃0<β≤α,C≥1ωR≤RR0βωR0+KR0α.   ∀R∈(0,R0] β,Cγ,η α
+
+5.设为自然数上的一致有界函数全体，在上确界范数下构成巴那赫（Banach）空间，在通常的函数乘积下还构成代数。再设为无理数，定义.l∞NNθfn=e2πinθ
+（1）证明 的值域在复平面上的单位圆周里稠密。f 
+（2）令为 和常值函数1生成的对复共轭运算封闭的的闭子代数，证明 的极大理想空间和复平面上的单位圆周同胚。Afl∞NA
+
+6.证明n=1∞1n2=π26

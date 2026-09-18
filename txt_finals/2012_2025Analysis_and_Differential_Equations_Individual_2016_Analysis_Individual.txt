@@ -1,0 +1,76 @@
+
+=== page 1 ===
+ANALYSIS 2016.
+1. Individual
+Problem 1.1. Suppose that f is analytic on ∆= {|z| < 1} and |f(z)| ≤1 for z ∈∆. If
+f(1
+2) = f(−1
+2) = 0, then
+|f(0)| ≤1
+4.
+Problem 1.2. Let a1 = sin(x) where x ∈(0, π
+2 ). For n ≥2, an = sin(an−1). Show that
+the series
+∞
+X
+n=1
+a2
+n
+is divergent.
+Problem 1.3. Let Lp[0, 1] be the space of Lp-integrable functions on [0, 1] where
+∥f∥p =
+µZ 1
+0
+|f|pdx
+¶1/p
+,
+p > 0.
+Show the ∥• ∥p satisﬁes the parallelogram law if and only if p = 2.
+Problem 1.4. Find all the bounded solutions of
+
+
+
+
+
+∆u(x, y) = 0,
+for
+(x, y) ∈R2
++,
+u(x, 0) =
+(
+1, x > 0,
+0, x < 0
+Problem 1.5. Suppose f(x) ∈C[0, +∞), and for any non-negative real number a, we
+have
+(1)
+lim
+x→+∞(f(x + a) −f(x)) = 0.
+Show that there exist g(x) ∈C[0, +∞) and h(x) ∈C1[0, +∞) such that f(x) = g(x)+h(x)
+and
+(2)
+lim
+x→+∞g(x) = 0,
+lim
+x→+∞h′(x) = 0.
+Problem 1.6. Let f be a Riemann integrable function on [−π, π] with Fourier series
+(3)
+f(x) ∼
+∞
+X
+n=−∞
+aneinx.
+Suppose
+|an| ≤K
+|n|
+for some positive constant K and all n ̸= 0. Show that
+(4)
+¯¯¯¯¯
+N
+X
+n=−N
+aneinx
+¯¯¯¯¯ ≤
+sup
+y∈[−π,π]
+|f(y)| + 2K
+for all x ∈[−π, π] and all N ∈N.

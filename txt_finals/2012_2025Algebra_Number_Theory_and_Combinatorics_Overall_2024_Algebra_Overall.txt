@@ -1,0 +1,11 @@
+
+=== page 1 ===
+Algebra, Number Theory and Combinatorics
+Overall
+Problem 1. Let G be a finite group. Let k be a field of positive characteristic p. Show
+that the following assertions are equivalent:
+(1) G is a p-group;
+(2) for every non-zero k-representation V of G, V G ̸= 0.
+Problem 2. (a) Construct a diffeomorphism GL3(R) →O(3) × R6.
+(b) Propose an analogous statement for GLn(C), and prove it.
+1

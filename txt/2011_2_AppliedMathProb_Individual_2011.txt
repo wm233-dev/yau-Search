@@ -1,0 +1,157 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2011
+Applied Math., Computational Math.,
+Probability and Statistics
+Individual
+6:30–9:00 pm, July 9, 2011
+(Please select 5 problems to solve)
+1. Given a weight function ρ(x) > 0, let the inner-product correspond-
+ing to ρ(x) be deﬁned as follows:
+(f, g) :=
+Z b
+a
+ρ(x)f(x)g(x)dx,
+and let ∥f∥:= (f, f).
+(1) Deﬁne a sequence of polynomials as follows:
+p0(x)
+=
+1,
+p1(x) = x −a1,
+pn(x)
+=
+(x −an)pn−1(x) −bnpn−2(x),
+n = 2, 3, · · ·
+where
+an
+=
+(xpn−1, pn−1)
+(pn−1, pn−1) ,
+n = 1, 2, · · ·
+bn
+=
+(xpn−1, pn−2)
+(pn−2, pn−2) ,
+n = 2, 3, · · · .
+Show that {pn(x)} is an orthogonal sequence of monic polyno-
+mials.
+(2) Let {qn(x)} be an orthogonal sequence of monic polynomials
+corresponding to the ρ inner product. (A polynomial is called
+monic if its leading coeﬃcient is 1.) Show that {qn(x)} is unique
+and it minimizes ∥qn∥amongst all monic polynomials of degree
+n.
+(3) Hence or otherwise, show that if ρ(x) = 1/
+√
+1 −x2 and [a, b] =
+[−1, 1], then the corresponding orthogonal sequence is the Cheby-
+shev polynomials:
+Tn(x) = cos(n arccos x),
+n = 0, 1, 2, · · · .
+and the following recurrent formula holds:
+Tn+1(x) = 2xTn(x) −Tn−1(x),
+n = 1, 2, · · · .
+(4) Find the best quadratic approximation to f(x) = x3 on [−1, 1]
+using ρ(x) = 1/
+√
+1 −x2.
+1
+附件/试卷 2
+Appendix/Contest Paper 2
+
+=== page 2 ===
+Applied Math. Prob. Stat., 2011-Individual
+2
+2. If two polynomials p(x) and q(x), both of ﬁfth degree, satisfy
+p(i) = q(i) = 1
+i ,
+i = 2, 3, 4, 5, 6,
+and
+p(1) = 1,
+q(1) = 2,
+ﬁnd p(0) −q(0).
+3. Lay aside m black balls and n red balls in a jug. Supposes 1 ≤r ≤
+k ≤n. Each time one draws a ball from the jug at random.
+1) If each time one draws a ball without return, what is the prob-
+ability that in the k-th time of drawing one obtains exactly the
+r-th red ball?
+2) If each time one draws a ball with return, what is the probability
+that in the ﬁrst k times of drawings one obtained totally an odd
+number of red balls?
+4. Let X and Y be independent and identically distributed random
+variables. Show that
+E[|X + Y |] ≥E[|X|].
+Hint: Consider separately two cases: E[X+] ≥E[X−] and E[X+] <
+E[X−].
+5. Suppose that X1, · · · , Xn are a random sample from the Bernoulli
+distribution with probability of success p1 and Y1, · · · , Yn be an inde-
+pendent random sample from the Bernoulli distribution with probabil-
+ity of success p2.
+(a) Give a minimum suﬃcient statistic and the UMVU (uniformly
+minimum variance unbiased) estimator for θ = p1 −p2.
+(b) Give the Cramer-Rao bound for the variance of the unbiased
+estimators for v(p1) = p1(1 −p1) or the UMVU estimator for
+v(p1).
+(c) Compute the asymptotic power of the test with critical region
+|√n(ˆp1 −ˆp2)/
+p
+2ˆpˆq| ≥z1−α
+when p1 = p and p2 = p + n−1/2∆, where ˆp = 0.5ˆp1 + 0.5ˆp2.
+6. Suppose that an experiment is conducted to measure a constant θ.
+Independent unbiased measurements y of θ can be made with either
+of two instruments, both of which measure with normal errors: for
+i = 1, 2, instrument i produces independent errors with a N(0, σ2
+i )
+distribution. The two error variances σ2
+1 and σ2
+2 are known. When a
+measurement y is made, a record is kept of the instrument used so that
+after n measurements the data is (a1, y1), . . . , (an, yn), where am = i if
+ym is obtained using instrument i. The choice between instruments is
+made independently for each observation in such a way that
+P(am = 1) = P(am = 2) = 0.5,
+1 ≤m ≤n.
+附件/试卷 2
+Appendix/Contest Paper 2
+
+=== page 3 ===
+Applied Math. Prob. Stat., 2011-Individual
+3
+Let x denote the entire set of data available to the statistician, in this
+case (a1, y1), . . . , (an, yn), and let lθ(x) denote the corresponding log
+likelihood function for θ. Let a =
+n
+X
+m=1
+(2 −am).
+(a) Show that the maximum likelihood estimate of θ is given by
+ˆθ =
+Ã
+n
+X
+m=1
+1/σ2
+am
+!−1 Ã
+n
+X
+m=1
+ym/σ2
+am
+!
+.
+(b) Express the expected Fisher information Iθ and the observed
+Fisher information Ix in terms of n, σ2
+1, σ2
+2, and a. What hap-
+pens to the quantity Iθ/Ix as n →∞?
+(c) Show that a is an ancillary statistic, and that the conditional
+variance of ˆθ given a equals 1/Ix. Of the two approximations
+ˆθ
+·∼N(θ, 1/Iθ)
+and
+ˆθ
+·∼N(θ, 1/Ix),
+which (if either) would you use for the purposes of inference,
+and why?
+附件/试卷 2
+Appendix/Contest Paper 2

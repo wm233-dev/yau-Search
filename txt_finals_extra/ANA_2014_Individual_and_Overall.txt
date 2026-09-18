@@ -1,0 +1,56 @@
+Analysis and Differential Equations
+Oral Exam (Individual)
+
+1. Let  be the complex plane , the open unit disk , or the Riemann sphere . A map  is called a conformal automorphism if it is one-to-one, onto, and analytic. Let  denote the group of all conformal automorphisms of .
+1) What are the , , and ?
+2) Give a proof for .
+
+2. Suppose  is the open unit disk. Suppose
+
+	is a convergent power series on . Prove the Schwarz Lemma:
+	1)  for all  and
+　　2) .
+　　
+3. 设，为素数全体，证明发散。
+
+4. 设为区间上定义的连续实值函数，证明不能是二到一的映射。
+
+5. a) 假设，且对某一，，
+则
+	b) 
+		提示，
+
+6. 对如下Burgers方程
+   （*）	
+   证明：a)  If 满足，则（*）存在一整体解
+   		 b)  If 满足，对某一，则证明存在使得
+   						
+
+Analysis and Differential Equations
+Oral Exam (Team)
+
+1. Consider the map ()= on the complex plane . Let  denote times compositions of , that is ,=. It is easy to see that ()= so  are only points such that  as  and  are only points such that  as .Now find out what are all points such that as  for .
+
+2. Find a conformal map from the region
+          
+to the open unit disk 
+
+3.设是上的周期为2的连续函数，且
+　　
+试证：a):
+　　
+在单位圆盘内的紧子集上一致收敛于一调和函数  , 其中
+　　　b) :
+　　　
+
+4. 设 是定义于 上的非减非负函数，如果其满足
+　
+其中是常数，则  使得
+
+其中 只依赖于 与 
+
+5.设为自然数上的一致有界函数全体，在上确界范数下构成巴那赫（Banach）空间，在通常的函数乘积下还构成代数。再设为无理数，定义.
+（1）证明 的值域在复平面上的单位圆周里稠密。
+（2）令为 和常值函数1生成的对复共轭运算封闭的的闭子代数，证明 的极大理想空间和复平面上的单位圆周同胚。
+
+6. 证明

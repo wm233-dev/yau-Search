@@ -1,0 +1,40 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2011
+Analysis and Diﬀerential Equations
+Team
+9:00–12:00 am, July 9, 2011
+(Please select 5 problems to solve)
+1. Let H2(∆) be the space of holomorphic functions in the unit disk
+∆= {|z| < 1} such that
+R
+∆|f|2|dz|2 < ∞. Prove that H2(∆) is a
+Hilbert space and that for any r < 1, the map T : H2(∆) →H2(∆)
+given by Tf(z) := f(rz) is a compact operator.
+2. For any continuous function f(z) of period 1, show that the equation
+dϕ
+dt = 2πϕ + f(t)
+has a unique solution of period 1.
+3. Let h(x) be a C∞function on the real line R. Find a C∞function
+u(x, y) on an open subset of R2 containing the x-axis such that ux +
+2uy = u2 and u(x, 0) = h(x).
+4. Let S = {x ∈R | |x−p
+q| ≤c/q3, for inﬁnitely many relatively prime p, q ∈
+Z, q > 0, for a ﬁxed c > 1}, show that S is uncountable and its measure
+is zero.
+5. Let sl(n) denote the set of all n × n real matrices with trace equal
+to zero and let SL(n) be the set of all n × n real matrices with deter-
+minant equal to one. Let ϕ(z) be a real analytic function deﬁned in a
+neighborhood of z = 0 of the complex plane C satisfying the conditions
+ϕ(0) = 1 and ϕ
+′(0) = 1.
+(a) If ϕ maps any near zero matrix in sl(n) into SL(n) for some n ≥3,
+show that ϕ(z) = exp(z).
+(b)Is the conclusion of (a) still true in the case n = 2? If it is true,
+prove it. If not, give a counterexample.
+6. Use mathematical analysis to show that:
+(a) e and π are irrational numbers;
+(b) e and π are also transcendental numbers.
+1
+附件/试卷 5
+Appendix/Contest Paper 5

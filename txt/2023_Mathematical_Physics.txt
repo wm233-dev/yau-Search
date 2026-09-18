@@ -1,0 +1,161 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2023
+Mathematical Physics
+Solve every problem.
+1. Consider the Lagrangian
+L(x, y, ˙x, ˙y) = 1
+2
+˙x2 + ˙y2 + 2(x ˙y −y ˙x)
+x2 + y2
+(1)
+(a) Compute the Hamiltonian H(x, y, pz, py), and show the ﬁnal form can be written
+as
+1
+2f(x, y)[(px −Ax(x, y))2 + (py −Ay(x, y))2]
+(2)
+for some f, Ax, Ay. Find the vector potential ⃗A and then compute the correspond-
+ing magnetic ﬁeld away from the origin. (Hint: recall that ⃗B = curl ⃗A = ∇× ⃗A).
+(b) Prove that the Lagrangian L(x, y, ˙x, ˙y) is invariant under two symmetries: rota-
+tions and scale transformations.
+(c) Derive the conserved quantities for both symmetries.
+(d) Rewrite the Lagrangian in polar coordinates, write down the Euler-Lagrange equa-
+tions and solve them.
+2. A particle of mass m in 2 dimensions is conﬁned by an isotropic harmonic oscillator
+potential of frequency ω, while subject to a weak and anisotropic perturbation of
+strength α ≪1. The total Hamiltonian of the particle is
+H = H0 + V = p2
+x
+2m + p2
+y
+2m + 1
+2mω2(x2 + y2) + αmω2xy
+(3)
+(a) When α = 0, what are the energies and degeneracies of the three lowest-lying
+unperturbed states?
+(b) Use perturbation theory to correct the energies of the above three states to the
+ﬁrst order in α.
+(c) Find the exact spectrum of H. (Hint: you may want to rotate x and y into a new
+coordinates)
+(d) Check that the perturbative results in part b. are recovered from the exact spec-
+trum.
+1
+
+=== page 2 ===
+3. One can express the electric ﬁelds ⃗E and magnetic ﬁelds ⃗B in terms of the scalar and
+vector potentials, Aµ = (φ, ⃗A).
+(a) Write down the expression of ⃗E and ⃗B in terms of (φ, ⃗A) and show that the result
+is unchanged under gauge transformation
+φ →φ + ∂
+∂tf,
+⃗A →⃗A −∇f,
+(4)
+where f = f(⃗x, t) is a scalar function.
+(b) Show that two of the 4 Maxwell equations of ⃗E and ⃗B are satisﬁed automatically
+in terms of Aµ = (φ, ⃗A).
+(c) Derive the equations for the scalar and vector potentials from the remaining
+Maxwell equations in Lorentz gauge.
+1
+c∂tφ + ∇· ⃗A = 0,
+(5)
+(d) Recall that the Green’s function of the wave equation
+ 1
+c2∂2
+t −∇2
+
+G(t,⃗r) = δ(t)δ3(⃗r)
+(6)
+is
+G(t −t0,⃗r −⃗r0) = θ(t −t0)
+4π|⃗r −⃗r0|δ
+
+t −t0 −|⃗r −⃗r0|
+c
+
+.
+(7)
+Assume a particle of electric charge e moves with trajectory ⃗R(t) with ⃗v(t) =
+d⃗R(t)/dt.
+Use the Green’s function to derive the potential φ(⃗r, t) and ⃗A(⃗r, t)
+of this particle at (⃗r, t). You may assume that |⃗R(t)| ≪|⃗r|, |⃗R(t)| ≪ct and
+|⃗v(t)| ≪c and expand your result up to the order O(1/|⃗r|) and O(|⃗v(t)|/c). This
+is also called non-relativistic and far-ﬁeld approximations.
+4. Consider a one-dimensional system of free massless bosons with one polarization, and
+the dispersion relation Ek = ℏv|k|, where v is the particle velocity, k wavevector, Ek
+energy. The particles are not interacting either among themselves or with external
+scattering potentials. If the system is in equilibrium at temperature T,
+(a) Assume that the chemical potential µ is 0, calculate the heat capacity C per unit
+length.
+(b) Repeat the calculations for massive fermions, for which Ek = ℏ2k2/2m and the
+chemical potential µ is far above the bottom of the energy spectrum: µ ≫kBT.
+(Consider one spin direction for the fermions, and you may make reasonable
+approximations.)
+2
+
+=== page 3 ===
+Hint: you might ﬁnd the following formulae useful to evaluate some integrals needed
+∞
+X
+k=1
+1
+k2 = π2
+6 ,
+∞
+X
+k=1
+(−1)k+1
+k2
+= π2
+12.
+(8)
+5. Consider the vacuum Einstein’s equation in four dimensional spacetime with a cosmo-
+logical constant
+Rµν −1
+2gµνR + gµνΛ = 0.
+(9)
+(a) Proof that Rµν = kgµν and ﬁnd out the value of k.
+(b) Now start with an ansatz of a metric in the following form
+ds2 = −f(r)dt2 +
+1
+f(r)dr2 + r2(dθ2 + sin2 θdφ2),
+(10)
+where f(r) is a polynomial in r. Compute non zero components of the Ricci
+tensor Rµν and scalar curvature R of this metric.
+(c) Assuming that the above ansatz is a solution of the vacuum Einstein equation
+with cosmological constant Λ, solve f(r).
+(d) Prove that ∂t and ∂φ are Killing vector ﬁelds.
+6. Consider the φ3 model with a real scalar ﬁeld φ(x) in 3 + 1 dimensional Minkowski
+spacetime with metric (−, +, +, +). Its Lagrangian density is
+L = −1
+2∂µφ∂µφ −1
+2m2φ2 −1
+6gφ3,
+(11)
+where g is a coupling with dimensions of mass.
+(a) Write down the propagator and the interaction vertex for this model in momentum
+space.
+(b) Compute the one-loop self-energy graph using dimensional regularization.
+(c) Introducing m2 = m2
+R + δm2. What is the value of δm2 if we want to write the
+one-loop self-energy graph as a ﬁnite function of mR?
+You may ﬁnd the following formula useful
+(AB)−1 =
+Z 1
+0
+dx[xA + (1 −x)B]−2,
+(12)
+Z
+ddk
+1
+(−k2 −2p · k −M 2 + iϵ)s = (−1)siπd/2Γ(s −d/2)
+Γ(s)
+(−p2 + M 2 −iϵ)d/2−s, (13)
+3
+
+=== page 4 ===
+where Γ(z) is the Gamma function which has a simple pole at the origin.
+Γ(z) = 1
+z −γ + O(z),
+(14)
+where γ is the Euler constant.
+4

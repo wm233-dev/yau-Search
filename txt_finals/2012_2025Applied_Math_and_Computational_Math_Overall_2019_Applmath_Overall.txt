@@ -1,0 +1,48 @@
+
+=== page 1 ===
+PROBLEMS FOR OVEALL CONTEST
+Problem 1. Show that for any integer n ≥3 there are inﬁnitely many
+irreducible polynomials of the form
+xn + (6a −1)x2 + (7b −3)x + 25c ∈Z[x]
+for some a, b, c ∈Z[x].
+Problem 2. The matrix A is deﬁned by aij = 1, when i + j is even
+and aij = 0, when i + j is odd. The order of the matrix is 2n. Show
+that
+∥A∥F = ∥A∥∞= n,
+where ∥A∥F is the Frobenius norm, and that
+∞
+X
+k=1
+ 1
+2n
+k
+Ak = 1
+nA.
+Problem 3. Let X and Y be two Hilbert spaces, with inner products
+(·, ·)X and (·, ·)Y , and the norms ∥·∥X and ∥·∥Y , respectively. Consider
+a bounded operator T mapping from X to Y , with its adjoint operator
+given by T ∗. For any β > 0 and z ∈Y , consider the minimization
+min
+f∈X J(f) := 1
+2∥Tf −z∥2
+Y + β
+2 ∥f∥2
+X ,
+and write its minimizer f as f(β), and its minimal value function as
+F(β), i.e., F(β) = J(f(β)).
+(1) Prove f(β) ∈X satisﬁes
+(Tf, Tg)Y + β (f, g)X = (z, Tg)Y
+for all
+g ∈X.
+(2) Prove the n-th derivative w = f (n)(β) ∈X satisﬁes
+(Tw, Tg)Y + β (w, g)X = −n (f (n−1)(β), g)X
+for all
+g ∈X.
+(3) Prove the ﬁrst and second derivatives of F(β) are given by
+F ′(β) = 1
+2∥f(β)∥2
+X,
+F ′′(β) = (f(β), f ′(β))X .
+(4) If z /∈ker T ∗, prove F(β) is strictly monotonically increasing
+and strictly concave.
+1

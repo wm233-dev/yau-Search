@@ -1,0 +1,55 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2011
+Analysis and Diﬀerential Equations
+Individual
+2:30–5:00 pm, July 9, 2011
+(Please select 5 problems to solve)
+1. a) Compute the integral:
+R ∞
+−∞
+x cos xdx
+(x2+1)(x2+2),
+b) Show that there is a continuous function f : [0, +∞) →(−∞, +∞)
+such that f ̸≡0 and f(4x) = f(2x) + f(x).
+2. Solve the following problem:
+½ d2u
+dx2 −u(x) = 4e−x,
+x ∈(0, 1),
+u(0) = 0,
+du
+dx(0) = 0.
+3. Find an explicit conformal transformation of an open set U = {|z| >
+1} \ (−∞, −1] to the unit disc.
+4. Assume f ∈C2[a, b] satisfying |f(x)| ≤A, |f
+′′(x)| ≤B for each
+x ∈[a, b] and there exists x0 ∈[a, b] such that |f
+′(x0)| ≤D, then
+|f
+′(x)| ≤2
+√
+AB + D, ∀x ∈[a, b].
+5. Let C([0, 1]) denote the Banach space of real valued continuous
+functions on [0, 1] with the sup norm, and suppose that X ⊂C([0, 1])
+is a dense linear subspace. Suppose l : X →R is a linear map (not
+assumed to be continuous in any sense) such that l(f) ≥0 if f ∈X
+and f ≥0. Show that there is a unique Borel measure µ on [0, 1] such
+that l(f) =
+R
+fdµ for all f ∈X.
+6. For s ≥0, let Hs(T) be the space of L2 functions f on the circle
+T = R/(2πZ) whose Fourier coeﬃcients ˆfn =
+R 2π
+0
+e−inxf(x)dx satisfy
+Σ(1 + n2)s|| ˆfn|2 < ∞, with norm ||f||2
+s = (2π)−1Σ(1 + n2)s| ˆfn|2.
+a. Show that for r > s ≥0, the inclusion map i : Hr(T) →Hs(T) is
+compact.
+b.
+Show that if s > 1/2, then Hs(T) includes continuously into
+C(T), the space of continuous functions on T, and the inclusion map
+is compact.
+1
+附件/试卷 1
+Appendix/Contest Paper 1

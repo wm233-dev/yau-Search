@@ -1,0 +1,80 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2013
+Algebra and Number Theory
+Individual
+This exam of 160 points is designed to test how much you
+know rather than how much you don’t know. You are not
+expected to ﬁnish all problems but do as much as you can.
+1. (20pt)
+1.1 (15 pt) Classify ﬁnite groups of order 26 up to isomorphisms.
+1.2 (5 pt) For each ﬁnite group G of order 26, describe the group Aut(G)
+of automorphisms of G.
+2. (20 pt) Consider f ∈Z>0 and nonzero vector spaces Vi indexed by i ∈
+Z/fZ. Suppose that there are linear maps φi : Vi →Vi+1 and ψi : Vi →Vi−1
+such that
+φi−1 ◦ψi = 0,
+ψi+1 ◦φi = 0.
+(We may think of a circular graph with oriented edges such that the “Orpheus
+condition” holds: Whenever you turn back while traveling through the graph
+you are killed.)
+Prove that there exists lines ℓi ⊂Vi for every i ∈Z/fZ such that
+φi(ℓi) ⊂ℓi+1,
+ψi(ℓi) ⊂ℓi−1
+under one of the following two conditions:
+2.1 (10 pt) all ψi = 0, or
+2.2 (10 pt) dim Vi are equal to each other.
+3. (20pt) For a parameter t = (t0, t1, · · · t5) ∈F6
+5 with t0 ̸= 0 and {ti, i > 0}
+an ordering of elements in F5, deﬁne a polynomial
+Pt(x) = (x −t1)(x −t2)(x −t3) + t0(x −t4)(x −t5).
+1
+
+=== page 2 ===
+3.1 (7 pt) Show that Pt(x) is irreducible in F5[x];
+3.2 (6 pt) Show that two parameters t, t′ give the same polynomial if and
+only if t0 = t′
+0 and {t4, t5} = {t′
+4, t′
+5}.
+3.3 (7 pt) Show that every irreducible cubic monic polynomial over F5 is
+obtained by this way.
+4. (40 pt) For k non-negative integer, let Vk := R[x]≤k be the vector space
+of real polynomials of degree at most k with an action by SL2(R) by
+γ · P(x) = (cx + d)kP
+ax + b
+cx + d
+
+,
+γ =
+a
+b
+c
+d
+
+∈SL2(R).
+4.1 (20 pt) Show that Vk is an irreducible representation of SL2(R);
+4.2 (15 pt) For non-negative integers m, n, consider Vm,n := Vm ⊗Vn as
+a subspace of C[x, y] of polynomials with both x, y-degrees at most
+k, with diagonal action of SL2(R). Assume m ≥n ≥1. Show that
+following exact sequence is exact and split as representations of SL2(R).
+0−→Vm−1,n−1
+·(y−x)
+−→Vm,n
+y=x
+−→Vm+n−→0.
+This implies the following decomposition of representations:
+Vm ⊗Vn = ⊕n
+i=0Vm+n−2i.
+4.3 (5 pt) For non-negative integers ℓ≥m ≥n consider the space of
+invariants (Vℓ⊗Vm ⊗Vn)SL2(R). Show that this space is either trivial or
+one-dimensional; it is non-trivial if and only if
+ℓ+ m + n ≡0
+mod 2,
+ℓ+ m ≥n.
+5. (60 pt)
+5.1 (20pt) Find a polynomial f(x) with integer coeﬃcients which has a
+root over Fp for each prime p but has not root over Q.
+5.2 (20pt) Can you ﬁnd f irreducible?
+5.3 (20pt) What is the smallest possible degree of f?
+2

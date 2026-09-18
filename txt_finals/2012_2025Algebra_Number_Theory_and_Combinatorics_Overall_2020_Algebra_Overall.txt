@@ -1,0 +1,21 @@
+
+=== page 1 ===
+Overall Exam Problems for Algebra, Number Theory and Combinatorics
+1. Show that any ﬁnite abelian group is the Galois group of some ﬁeld extension of Q.
+Give an example of a ﬁnite extension of Q with non-abelian Galois group.
+2. Let p > 2 be a prime number and Fp the ﬁnite ﬁeld with p elements.
+i) Determine the order of the group SL2(Fp).
+ii) How many Sylow p-subgroups are there in SL2(Fp)?
+iii) Show that there exists an element µ ∈Fp which is not a square. For a, b ∈Fp with
+a2 −b2µ = 1, consider the following element in SL2(Fp):
+Ma,b :=
+
+a
+bµ
+b
+a
+
+.
+Show that Ma,b is conjugate to Ma′,b′ in SL2(Fp) if and only if a = a′ and b = ±b′.
+iv) How many conjugacy classes of the form Ma,b are there in SL2(Fp)?
+1

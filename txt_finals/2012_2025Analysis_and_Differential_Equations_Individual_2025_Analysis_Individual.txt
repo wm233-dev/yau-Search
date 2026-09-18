@@ -1,0 +1,52 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2025
+Analysis and Differential Equations
+Individual
+Please solve at least three out of the following four problems.
+1. Let α > 0 be an irrational number. For any (a, b) ⊂[0, 1], prove that
+lim
+N→+∞
+1
+N #
+
+n ∈[0, N], n integer, {nα} ∈[a, b]
+	
+= b −a
+where {nα} = nα −⌊nα⌋is the fractional part of nα.
+2. Let
+Ω= { x + iy ∈C : x > 0, y > 0 }.
+Assume that f : Ω→C is a bounded continuous function on Ωand holomorphic on Ω
+such that
+∀x ∈[0, +∞],
+max{|f(x)|, |f(ix)|} ≤
+
+
+
+2
+if x ≤1,
+1
+if x > 1.
+Show that
+∀x + iy ∈Ω,
+|f(x + iy)| ≤2
+2
+π arctan
+1
+2xy .
+3. Suppose that V is a closed subspace of L2([0, 1]) and V ⊂C([0, 1]). Show that
+dim V < ∞.
+4. Consider a smooth and non-negative function u(x) on Rn with integer n ≥2.
+Supposing that ∆2u = ∆(∆u) = 0 where ∆u = Pn
+i=1
+∂2
+∂x2
+i u, prove that u(x) is a
+quadratic polynomial with the form
+u(x) =
+n
+X
+i=1
+ai(xi −bi)2 + a0
+where x = (x1, · · · , xn) ∈Rn, ai ≥0, and bi are some constants.
+1

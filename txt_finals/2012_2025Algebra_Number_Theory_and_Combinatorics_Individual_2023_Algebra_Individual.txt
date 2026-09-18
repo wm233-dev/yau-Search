@@ -1,0 +1,38 @@
+
+=== page 1 ===
+S.-T. Yau College Math Contest
+Final Contest
+2023
+Algebra, Number Theory and Combinatorics
+Problems for Individual Contest
+Problem 1. Choose (1) or (2), but not both.
+(1) Let p be a prime number, and k, n a positive integer. Count the number of subgroups
+of the group (Z/pZ)n with pk elements.
+(2) Classify all groups of the form Z5/AZn up to isomorphisms, where A is an 5 × n
+integer matrix and n is an arbitrary positive integer.
+Problem 2. Let V be a complex vector space of dimension n. Let u1, . . . , un be nilpotent
+linear endomorphisms of V , which pairwise commute.
+What can we say about their
+composition u1 ◦· · · ◦un?
+Problem 3.
+(1) Let ρ : G →GL(V ) be a finite dimensional representation of a finite
+group G. Let V G be the subspace of fixed points. Prove that
+dim V G =
+1
+|G|
+∑
+G∈G
+χ(g)
+where χ : G →C, g →trρ(g) is the character.
+(2) Consider the graded ring S = C[x1, · · · , xn] = ⊕d≥0Sd. Let G ⊂GL(n) be any finite
+subgroup with the induced action on S. We have SG = ⊕d≥0SG ∩Sd. Prove that
+∑
+d≥0
+(dim SG ∩Sd)td =
+1
+|G|
+∑
+A∈G
+1
+det(In −tA).
+1

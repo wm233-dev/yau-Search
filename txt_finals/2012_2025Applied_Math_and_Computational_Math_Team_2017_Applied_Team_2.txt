@@ -1,0 +1,50 @@
+
+=== page 1 ===
+1 (Optimal Mass Transport). Suppose D is the unit disk in the plane, P = {p1, p2, · · · , pn}
+is a discrete planar point set. Each point pi is associated with a weight ri, the power
+distance between any point p ∈R2 to pi is deﬁned as
+Pow(p, pi) = |p −pi|2 + ri.
+The power Voronoi diagram is a partition of the whole plane
+R2 =
+n[
+i=1
+Wi, Wi = {p ∈R2|Pow(p, pi) ≤Pow(p, pj), ∀1 ≤j ≤n}.
+The power Vornoi diagram induces a cell decomposition of D,
+D =
+n[
+i=1
+Wi ∩D,
+suppose the area of each cell D ∩Wi is Ai. Construct a mapping ϕ : D →P, such that
+each cell Wi ∩D is mapped to the point pi,
+ϕ : Wi ∩D 7→pi, ∀1 ≤i ≤n.
+(1) Suppose given another cell decomposition
+D =
+n[
+i=1
+˜Wi ∩D,
+and construct a mapping ˜ϕ, such that
+˜ϕ : ˜Wi ∩D 7→pi,
+and the area of each cell ˜Wi ∩D equals to Ai as well. The L2 transportation
+cost of ϕ is deﬁned as
+E(ϕ) :=
+Z
+D
+|p −ϕ(p)|2dA,
+show that the mapping ϕ is optimal, i.e.
+E(ϕ) ≤E( ˜ϕ).
+(2) Show that there exists real numbers h1, h2, · · · , hn, which determine n planes
+πi(p) := ⟨p, pi⟩+ hi,
+the upper envelope of the planes {πi} is the graph of the convex PL function
+f(p) = max
+1≤i≤n πi(p).
+The power Voronoi diagram is induced by the projection of the upper envelope
+of these planes {πi, i = 1, 2, · · · , n}
+1
+
+=== page 2 ===
+2
+Ω
+푊푖
+퐹푖
+휋푗
+푢ℎ(푥)

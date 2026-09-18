@@ -1,0 +1,31 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2010
+Geometry and Topology
+Team
+(Please select 5 problems to solve)
+1. Let Sn ⊂Rn+1 be the unit sphere, and Rn ⊂Rn+1 the equator n-
+plane through the center of Sn. Let N be the north pole of Sn. Deﬁne
+a mapping π : Sn\{N} →Rn called the stereographic projection that
+takes A ∈Sn\{N} into the intersection A′ ∈Rn of the equator n-
+plane Rn with the line which passes through A and N. Prove that the
+stereographic projection is a conformal change, and derive the standard
+metric of Sn by the stereographic projection.
+2. Let M be a (connected) Riemannian manifold of dimension 2. Let f
+be a smooth non-constant function on M such that f is bounded from
+above and ∆f ≥0 everywhere on M. Show that there does not exist
+any point p ∈M such that f(p) = sup{f(x) : x ∈M}.
+3. Let M be a compact smooth manifold of dimension d. Prove that
+there exists some n ∈Z+ such that M can be regularly embedded in
+the Euclidean space Rn.
+4. Show that any C∞function f on a compact smooth manifold M
+(without boundary) must have at least two critical points. When M is
+the 2-torus, show that f must have more than two critical points.
+5. Construct a space X with H0(X) = Z, H1(X) = Z2 × Z3, H2(X) =
+Z, and all other homology groups of X vanishing.
+6. (a). Deﬁne the degree deg f of a C∞map f : S2 −→S2 and prove
+that deg f as you present it is well-deﬁned and independent of any
+choices you need to make in your deﬁnition.
+(b). Prove in detail that for each integer k (possibly negative), there
+is a C∞map f : S2 −→S2 of degree k.
+1

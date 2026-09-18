@@ -1,0 +1,215 @@
+
+=== page 1 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Saturday, August 4, morning
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the exponential distribution with density function f(x) = 1
+βe−x/β, x ≥0.
+a) Let T be an unbiased estimator of the scale parameter β. Prove that
+Var(T) ≥β2
+n .
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+1
+
+=== page 2 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on
+Statistics
+Saturday, August 4, morning
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the exponential distribution with density function f(x) = 1
+βe−x/β, x ≥0.
+a) Let T be an unbiased estimator of the scale parameter β. Prove that
+Var(T) ≥β2
+n .
+Solution: The above lower bound on the variance of an unbiased estimator T of the scale
+parameter β is given by the Cram´er-Rao bound 1/I(β). The log-likelihood function is
+ℓ(β) =
+n
+X
+i=1
+½
+−log β −Xi
+β
+¾
+,
+which leads to
+ℓ′(β) =
+n
+X
+i=1
+½
+−1
+β + Xi
+β2
+¾
+and
+ℓ′′(β) =
+n
+X
+i=1
+½ 1
+β2 −2Xi
+β3
+¾
+.
+Thus the Fisher information is
+I(β) = −Eℓ′′(β) = n
+β2 .
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+Solution: The answer is yes. The maximum likelihood estimator bβ, which solves the
+score equation ℓ′(β) = 0, is identical to the sample mean 1
+n
+Pn
+i=1 Xi. It is easy to show
+that such an estimator is unbiased and attains the lowest variance.
+2
+
+=== page 3 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Saturday, August 4, afternoon
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the Cauchy distribution with density function f(x) = 1
+π
+1
+1+(x−θ)2 , x ∈R.
+a) Let T be an unbiased estimator of the location parameter θ. Prove that
+Var(T) ≥2
+n.
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+c) Can you provide an estimator T that can attain the lower bound on Var(T) in part a)
+asymptotically, by removing the constraint of unbiasedness?
+3
+
+=== page 4 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on
+Statistics
+Saturday, August 4, afternoon
+Problem 1. Let X1, · · · , Xn be n independent and identically distributed observations
+from the Cauchy distribution with density function f(x) = 1
+π
+1
+1+(x−θ)2 , x ∈R.
+a) Let T be an unbiased estimator of the location parameter θ. Prove that
+Var(T) ≥2
+n.
+Solution: The above lower bound on the variance of an unbiased estimator T of the
+location parameter θ is given by the Cram´er-Rao bound 1/I(θ). The log-likelihood
+function is
+ℓ(θ) =
+n
+X
+i=1
+©
+−log π −log
+£
+1 + (Xi −θ)2¤ª
+,
+which leads to
+ℓ′(θ) =
+n
+X
+i=1
+2(Xi −θ)
+1 + (Xi −θ)2
+and
+ℓ′′(θ) =
+n
+X
+i=1
+−2 + 2(Xi −θ)2
+[1 + (Xi −θ)2]2 .
+Thus the Fisher information is
+I(θ) = −Eℓ′′(θ) = n
+2 .
+b) Can you ﬁnd an unbiased estimator T that attains the lower bound in part a)? If yes,
+please construct one. If no, please show why such an estimator does not exist.
+Solution: The answer is no. From the proof of the Cram´er-Rao theorem, we see that the
+above lower bound on variance can be attained only if the following Cauchy-Schwarz
+inequality becomes an equation
+¡
+E
+©
+ℓ′(θ)(T −θ)
+ª¢2 ≤E
+©
+ℓ′(θ)
+ª2 E(T −θ)2.
+It is well known that the equation holds only when
+T −θ = (some constant) · ℓ′(θ) = (some constant) ·
+n
+X
+i=1
+2(Xi −θ)
+1 + (Xi −θ)2 ,
+which entails that
+T = θ + (some constant) ·
+n
+X
+i=1
+2(Xi −θ)
+1 + (Xi −θ)2 .
+The above representation shows that such an “optimal” estimator T should always
+depend on the location parameter θ, which cannot be an estimator in the ﬁrst place.
+4
+
+=== page 5 ===
+c) Can you provide an estimator T that can attain the lower bound on Var(T) in part a)
+asymptotically, by removing the constraint of unbiasedness?
+Solution: The answer is yes by the classical asymptotic theory of the maximum like-
+lihood estimator (MLE). The MLE bθ, which solves the score equation ℓ′(θ) = 0, is
+known to be asymptotically normal with mean θ and variance 1/I(θ) = 2
+n.
+5
+
+=== page 6 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Sunday, August 5, morning
+Problem 1. Consider the linear regression model
+y = Xβ0 + ε,
+where y = (y1, · · · , yn)T is an n-dimensional vector of response, X = (x1, · · · , xp) is an n×p
+design matrix, β0 = (β0,1, · · · , β0,p)T is a p-dimensional vector of regression coeﬃcients,
+and ε = (ε1, · · · , εn)T is an n-dimensional vector of independent and identically distributed
+noise with mean 0 and variance σ2. It is well known that the ordinary least-squares estimator
+becomes unstable or even inapplicable when p is large compared to n. One idea for remedying
+this issue is the ridge regression which gives the ridge estimator
+bβridge = (XT X + λIp)−1XT y,
+where λ > 0 is called the ridge parameter.
+a) Calculate the mean of bβridge.
+b) Calculate the covariance matrix of bβridge.
+6
+
+=== page 7 ===
+Solutions to 2012 S. T. Yau College Math Contests Oral Exam on
+Statistics
+Sunday, August 5, morning
+Problem 1. Consider the linear regression model
+y = Xβ0 + ε,
+where y = (y1, · · · , yn)T is an n-dimensional vector of response, X = (x1, · · · , xp) is an n×p
+design matrix, β0 = (β0,1, · · · , β0,p)T is a p-dimensional vector of regression coeﬃcients,
+and ε = (ε1, · · · , εn)T is an n-dimensional vector of independent and identically distributed
+noise with mean 0 and variance σ2. It is well known that the ordinary least-squares estimator
+becomes unstable or even inapplicable when p is large compared to n. One idea for remedying
+this issue is the ridge regression which gives the ridge estimator
+bβridge = (XT X + λIp)−1XT y,
+where λ > 0 is called the ridge parameter.
+a) Calculate the mean of bβridge.
+Solution:
+Ebβridge = (XT X + λIp)−1XT Xβ0 = β0 −λ(XT X + λIp)−1β0.
+b) Calculate the covariance matrix of bβridge.
+Solution:
+Cov(bβridge) = (XT X + λIp)−1XT Cov(y)X(XT X + λIp)−1
+= σ2(XT X + λIp)−1XT X(XT X + λIp)−1.
+7
+
+=== page 8 ===
+2012 S. T. Yau College Math Contests Oral Exam on Statistics
+Sunday, August 5, afternoon
+Problem 1. Let Xi ∼N(θi, 1
+n), i = 1, · · · , n, be independent. Find an estimator bT of
+T = Pn
+i=1 θ2
+i and calculate E( bT −T)2.
+8

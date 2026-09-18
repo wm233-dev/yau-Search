@@ -1,0 +1,68 @@
+
+=== page 1 ===
+Mathematical Physics: Individual Competition
+(To complete this assignment, answer 3 out of the 4 problems.)
+Problem 1
+Consider Born-Infeld electrodynamics with Lagrangian L = b2
+
+1 −
+q
+1 −E2−B2
+b2
+
+.
+1. Find the electrostatic field of a point charge and show it has finite self-energy.
+2. Derive the speed of light in a background field E0.
+Problem 2
+Consider a 1D Ising model with interactions decaying as J(r) ∝r−α where α ∈(1, 2).
+1. Compute the approximate free energy for α = 3
+2.
+2. Find the critical temperature Tc(α)
+Problem 3
+Maxwell theory in various dimensions.
+In any spacetime dimension d ≥2, one can define
+a theory of a massless vector field Aµ with the Lagrangian
+L = −1
+4FµνF µν,
+where the field strength is
+Fµν = ∂µAν −∂νAµ.
+1. Show that this Lagrangian is invariant under gauge transformations
+Aµ →Aµ + ∂µf,
+where f is an arbitrary real function.
+2. Explain how to quantize this theory in the Coulomb gauge ∇· ⃗A = 0, and determine the
+number of polarization states.
+3. Show that, for d = 2, the only solution of the classical equations of motion is F12 being a
+constant. If the spacetime is the Euclidean space R2, find a solution of the gauge field Aµ
+that is rotational invariant with non-zero F12 = c. It might be convenient to work with polar
+coordinates.
+4. When the space-time is S2, glue together the solution for the previous part on the northern
+and southern hemisphere via a gauge transformation along the equator. Show that
+R
+S2 F
+has to be quantized for the solution to be consistent.
+5. Prove that, for d = 3, this theory on R2,1 is equivalent to a theory of a free massless scalar.
+(Hint: the scalar φ would satisfy F = ⋆dφ. Show that such φ exist and satisfy the equation
+of motion □φ = 0. Furthermore, show that the equal-time commutation relation for φ is
+the standard one.)
+1
+
+=== page 2 ===
+Problem 4
+General Lorentz Transformation:
+1. Please write down the Lorentz transformation of the moving system (t′, x′, y′, z′) with relative
+velocity v along the positive X-axis.
+2. Now, could you use the result in part (a) to derive the General Lorentz Transformation when
+the relative motion is along any −→
+v direction. The result should be in the form of vectors −→
+v
+and −→r (not in the component form as x, y, z).
+3. Now we consider the Lorentz transformation where the moving system has the relative
+velocity v
+−→
+v = (vx, vy, 0)
+Student A has tried to solve this problem by first taking the Lorentz transformation with
+relative velocity (vx, 0, 0) and then another Lorentz transformation with relative velocity
+(0, vy, 0). Student B has tried to solve this problem by first taking the Lorentz transformation
+with relative velocity (0, vy, 0) and then another Lorentz transformation with relative velocity
+(vx, 0, 0). Now the question is which student gives the right answer?
+2

@@ -1,0 +1,50 @@
+
+=== page 1 ===
+12th Oral Exam of S.-T. Yau College Student Mathematics Contests 2021
+Analysis and diﬀerential equations
+Individual Contest
+(∗The forth and ﬁfth problems are optional)
+1. Let Z be the set of integers. Recall that ⃗a := {aj}j∈Z ∈lq(Z) if and only if
+(P
+j∈Z |aj|q)
+1
+q < ∞. Answer the following questions and justify your answers:
+(i) Is the embedding l2(Z) →l4(Z) continuous ?
+(ii) Is the embedding l2(Z) →l4(Z) compact?
+(iii) Is the embedding l2(Z) →l4(Z) compact modulo translation? More pre-
+cisely, let {⃗an}n be a sequence in l2(Z) with ⃗an = {aj,n}j∈Z. Can one ﬁnd
+kn ∈Z for n ≥1, such that {⃗bn}n, with ⃗bn := {bj,n}j∈Z and bj,n = aj−kn,n
+has a convergent subsequence in l4(Z)?
+2. Let S1 be the unit circle in R2. For any v ∈S1, let πv : R2 →R : πv(x) = ⟨v, x⟩.
+Let A, B be two bounded open convex sets in R2 and λ1 be the Lebesgue measure
+on R1.
+(i) If for all v ∈S1, λ1(πv(A)) = λ1(πv(B)), can one conclude that A = B? Can
+one conclude that A = B modulo isometries?
+(ii) If for all v ∈S1, πv(A) = πv(B), can one say that A = B?
+Justify your answers.
+3. Assume that ρ ∈C1
+0(R3) satisﬁes ρ(x) ≥0 for x ∈R3 and
+∇(ρ4/3) + ρ∇φ = 0, on R3
+where
+φ(x) = −
+Z
+R3
+ρ(y)
+|x −y|dy.
+Evaluate the integral
+Z
+R3(3ρ4/3 + 1
+2ρφ)dx,
+and justify your answer.
+1
+
+=== page 2 ===
+4∗. Let D = {z, |z| < 1}. Determine Aut(D), the group of holomorphic automor-
+phisms of the unit disk.
+5∗. Assume that H is space with inner product, and xk
+w→x (k →∞). Prove that
+there exists a subsequence {xkn} ⊂{xk} such that
+xk1+xk2+···+xkn
+n
+→x(n →∞).
+2

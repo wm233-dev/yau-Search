@@ -1,0 +1,70 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2015
+Algebra and Number Theory
+Team
+This exam contains 6 problems. Please choose 5 of them to work on.
+Problem 1. (20pt) Let V = Rn be an Euclidean space equipped with usual inner
+product, and g an orthogonal matrix acting on V .
+For a ∈V , let sa denote the
+reﬂection
+sa(x) := x −2(x, a)
+(a, a)a,
+∀x ∈V.
+(1.1) (10pt) For a = (g −1)b ̸= 0, show that
+ker(sag −1) = ker(g −1) ⊕Rb.
+(1.2) (10pt) Show that g is a product of dim[(g −1)V ] reﬂections.
+Problem 2. (20pt) Let p and q be two distinct prime numbers. Let G be a non-abelian
+ﬁnite group satisfying the following conditions:
+1. all nontrivial elements have order either p or q;
+2. The q-Sylow subgroup Hq is normal and is a nontrivial abelian group.
+Show in steps the following statement:
+The group G is of the form (Z/pZ) ⋉(Z/qZ)n, where the action of 1 ∈Z/pZ on
+(Z/qZ)n ≃Fn
+q is given by a matrix M(1) ∈GLn(Fq) whose eigenvalues are all
+primitive p-th roots of unities.
+(2.1) (5pt) Let Hp denote a p-Sylow subgroup of G. Show that its inclusion into G
+induces an isomorphism Hp ∼= G/Hq, and that G ≃Hp ⋉Hq.
+(2.2) (5pt) Let M : Hp−→Aut(Hq) ≃GLn(Fq) be the homomorphism induced from
+the conjugations. Show that for each 1 ̸= a ∈Hp, M(a) is semisimple whose
+eigenvalues are all primitive p-th roots of unities. In particular M is injective.
+(2.3) (5pt) Show that if two nontrivial elements a, b ∈Hp commute with each other,
+then a = bn for some n ∈N, and that Hp ≃Z/pZ.
+(2.4) (5pt) Complete the solution of the problem.
+1
+
+=== page 2 ===
+Problem 3. (20pt) Let ζ be a root of unity satisfying an equation ζ = 1 + Nη for an
+integer N ≥3 and an algebraic integer η. Show that ζ = 1.
+Problem 4. (20pt) Let G be a ﬁnite group and (π, V ) a ﬁnite dimensional CG-module.
+For n ≥0, let C[V ]n be the space of homogeneous polynomial functions on V of degree
+n. For a simple G-representation ρ, denote by an(ρ) the multiplicity of ρ in C[V ]n.
+Show that
+X
+n≥0
+an(ρ)tn = 1
+|G|
+X
+g∈G
+χρ(g)
+det(idV −π(g)t).
+Problem 5. (20pt) Let A be an n × n complex matrix considered as an operator on
+V = (Cn, (·, ·)) with standard hermitian form. Let A∗= ¯At be the hermitian transpose
+of A:
+(Ax, y) = (x, A∗y),
+∀x, y ∈Cn.
+(5.1) (5pt) For any λ ∈C, show the identity:
+ker(A −λ)⊥= (A∗−¯λ)V.
+(5.2) (15pt) Show the equivalence of the following two statements:
+(a) A commutes with A∗;
+(b) there is a unitary matrix U (in the sense U ∗= U −1), such that UAU −1 is
+diagonal.
+Problem 6. (20pt) Consider the polynomial f(x) = x5 −80x + 5.
+(6.1) (5pt) Show that f is irreducible over Q;
+(6.2) (15 pt) Show in steps that the split ﬁeld K of f has Galois group G := Gal(K/Q)
+isomorphic to S5, the symmetric group of 5 letters.
+(a) (5pt) f = 0 has exactly two complex roots;
+(b) (5pt) G can be embedded into S5 with image containing cycles (12345) and
+(12);
+(c) (5pt) G ≃S5.
+2

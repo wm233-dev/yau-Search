@@ -1,0 +1,29 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2020
+Analysis and Diﬀerential Equations
+Individual Overall
+Please solve the following problems.
+1. Construct real numbers through decimal numbers. Prove that a bounded increasing
+sequence of decimal numbers has a limit of decimal number.
+2. Let B1(0) be the unit ball in Rn centered at the origin. Assume that the function
+f ∈C2(B1(0)). Prove that
+1) If f satisﬁes
+n
+X
+i,j=1
+xixj
+∂2f
+∂xi∂jxj
+= 0
+on B1(0), and ∇f(0) = 0, then f is constant in B1(0).
+2) If f satisﬁes
+xi
+∂f
+∂xj
+−xj
+∂f
+∂xi
+= 0, i, j = 1, · · · , n
+on B1(0), then f is constant on the sphere {x : x ∈B1(0), |x| = 1/2}.
+1

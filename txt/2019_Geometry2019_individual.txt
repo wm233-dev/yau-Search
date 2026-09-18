@@ -1,0 +1,74 @@
+
+=== page 1 ===
+S.-T. Yau College Student Mathematics Contests 2019
+Geometry and Topology
+Individual (5 problems)
+1) Let Confn be the following submanifold of Cn:
+Confn = {(z1, z2, · · · , zn) ∈Cn|zi ̸= zj for any i ̸= j}.
+For every pair (i, j) with i ̸= j, we deﬁne the complex valued 1-form
+ωij := dzi −dzj
+zi −zj
+.
+(a) Show that for any i ̸= j, ωij represents a non-zero de Rham cohomology class in H1(Confn, C).
+(b) Show that for any pair-wise distinct indices i, j, k,
+ωij ∧ωjk + ωjk ∧ωki + ωki ∧ωij = 0.
+2) Let M be a compact oriented manifold of (real) dimension 4. Consider the following symmetric bilinear
+form on H2(M)
+H2(M) × H2(M) →R,
+([α], [β]) 7→
+Z
+M
+α ∧β.
+Let τ(M) be the signature of this bilinear form, i.e. the number of positive eigenvalues minus the
+number of negative eigenvalues. Compute τ(M) for M = S4, CP2 and S2 × S2.
+3) Let X = R4/ ∼, where
+(x1, x2, x3, x4) ∼(x1, x2 + 1, x3, x4)
+(x1, x2, x3, x4) ∼(x1, x2, x3, x4 + 1)
+(x1, x2, x3, x4) ∼(x1 + 1, x2, x3, x4)
+(x1, x2, x3, x4) ∼(x1, x2 + x4, x3 + 1, x4)
+Compute H1(X, Z).
+4) Let E be a vector bundle over a smooth manifold M.
+Let ∇E be a connection E and RE ∈
+Ω2(M, End(E)) be its curvature tensor. For any polynomial f(x) = a0 + a1x + a2x2 + · · · + anxn, we
+denote
+f(RE) = a0 + a1RE + a2(RE)2 · · · + an(RE)n ∈Ω∗(M, End(E)).
+Here (RE)k ∈Ω2k(M, End(E)) is the k-th wedge product on forms combined with matrix multiplica-
+tions on End(E).
+(a) Show that the diﬀerential form tr
+£
+f(RE)
+¤
+∈Ω∗(M) is closed
+dtr
+£
+f(RE)
+¤
+= 0.
+Here tr is the trace on End(E).
+(b) Let ∇E, e∇E be two connections on E and RE, eRE be the corresponding curvature tensors. Show
+that there exists a diﬀerential form ω ∈Ω∗(M) such that
+tr
+£
+f(RE)
+¤
+−tr
+h
+f( ˜RE)
+i
+= dω.
+1
+
+=== page 2 ===
+5)
+(a) Let u be a smooth function over a Riemannian manifold (M, g). Prove the following Bochner’s
+formula
+1
+2∆|∇u|2 = |∇∇u|2 + Ric(∇u, ∇u) + g(∇∆u, ∇u)
+where ∆is the Laplacian and | • |2 = g(•, •).
+(b) Let (S2, g) be the standard unit sphere and E be a constant. Show that the only smooth positive
+solution to
+∆ln f + Ef 2 = 1
+is f =
+1
+A+φ where A is a constant and φ is some ﬁrst eigenfunction of S2.
+2
